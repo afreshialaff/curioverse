@@ -1,23 +1,36 @@
 # Curioverse
 
-A curious mind lives here. Rak pengetahuan pribadi **AfreshiaLa & LeoFa**: finance, science, sejarah, biografi, market, saham, dan global news dalam bahasa yang nggak bikin ngantuk.
+A curious mind lives here. Rak pengetahuan pribadi **AfreshiaLa & LeoFa**: finance, science, sejarah, biografi, market, saham, dan global news.
 
-## Isi
-- `index.html`: seluruh website (HTML + CSS + JS dalam satu file). three.js dimuat dari cdnjs, font dari Google Fonts.
-- `favicon.svg`: monogram C.
-- `vercel.json`: konfigurasi hosting statis di Vercel (tanpa build step).
-- `tokens.css`: design tokens (warna, tipografi, spacing) dari brand guide.
-- `PRODUCT.md`: konteks produk untuk skill desain.
+Live: https://curioverse-beta.vercel.app
+
+## Struktur
+```
+content/stories.mjs   semua cerita, topik, reading paths, sumber, label Fakta/Interpretasi/Opini
+scripts/build.mjs     generator halaman statis (tanpa dependency) -> dist/
+src/styles.css        design tokens + komponen (buttons, cards, chips, search, dll.)
+src/app.js            semua halaman: tema, menu, search (Ctrl/Cmd K), Surprise Me, reveal
+src/home.js           headline + orrery three.js (lazy, hanya tablet/desktop)
+src/explore.js        filter topik, cari, urutkan (state di URL: ?topik=&q=&urut=)
+src/lab.js            simulasi bunga majemuk, candlestick, delay cahaya
+src/story.js          progress bar baca
+assets/vendor/        three.js r128 (MIT)
+```
+
+Halaman yang dihasilkan: `/`, `/explore`, `/lab`, `/reading-paths`, `/stories/<id>`, `404`, plus `sitemap.xml` dan `robots.txt`.
 
 ## Jalanin lokal
-Buka `index.html` langsung di browser, atau:
-
 ```bash
-npx serve .
+node scripts/build.mjs
+npx serve dist
 ```
 
 ## Deploy
-Import repo ini di Vercel (Framework Preset: **Other**, tanpa build command, output directory `.`). Setiap push ke `main` otomatis deploy ulang.
+Vercel membaca `vercel.json`: build `node scripts/build.mjs`, output `dist`, clean URLs. Push ke `main` = deploy otomatis.
+Kalau domain berubah, set env `SITE_URL` di Vercel supaya canonical URL dan sitemap ikut benar.
 
 ## Nambah cerita
-Artikel ada di array `A` di dalam `index.html` (cari `/* ================= DATA`). Tiap artikel punya `id`, `cat`, `date`, `title`, `dek`, `tags`, dan `s` (daftar bagian `[judul, [paragraf...]]`).
+1. Tambah objek baru di array `A` di `content/stories.mjs` (`id`, `cat`, `date`, `title`, `dek`, `tags`, `s`).
+2. Tambah sumbernya di `SOURCES[id]`, dan kalau ada bagian interpretasi/opini, tandai di `KINDS[id]`.
+3. Kalau masuk reading path, tambahkan `id`-nya ke `HOLES`.
+4. Push. Vercel build ulang sendiri.

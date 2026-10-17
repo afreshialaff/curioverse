@@ -1,3 +1,23 @@
 [
-  { "date": "2026-10-17", "macrostructure": "Ecosystem Index", "theme": "custom", "theme_axes": "light+dark / high-contrast-serif / warm (sepia gold)", "vibe": "vintage celestial almanac, playful Gen Z", "nav": "N13 inline search pill", "footer": "Ft6 letter close + stamp", "enrichment": "three.js orrery (Tier D, customised)", "brief": "Curioverse · personal knowledge hub AfreshiaLa & LeoFa" }
+  {
+    "date": "2026-10-17",
+    "macrostructure": "Ecosystem Index (multi-page)",
+    "theme": "custom",
+    "theme_axes": "light+dark / high-contrast-serif / warm (sepia gold)",
+    "nav": "N1b + mobile Menu sheet",
+    "footer": "Ft6 statement + stamp",
+    "enrichment": "three.js orrery, lazy, desktop only",
+    "brief": "Curioverse redesign per UX & UI Blueprint 17 Oct 2026"
+  },
+  {
+    "date": "2026-10-17",
+    "macrostructure": "Ecosystem Index",
+    "theme": "custom",
+    "theme_axes": "light+dark / high-contrast-serif / warm (sepia gold)",
+    "vibe": "vintage celestial almanac, playful Gen Z",
+    "nav": "N13 inline search pill",
+    "footer": "Ft6 letter close + stamp",
+    "enrichment": "three.js orrery (Tier D, customised)",
+    "brief": "Curioverse · personal knowledge hub AfreshiaLa & LeoFa"
+  }
 ]
