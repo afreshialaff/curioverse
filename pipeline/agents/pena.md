@@ -15,11 +15,13 @@ Cek dulu: kalau `pipeline/runs/<tgl>/review/` sudah berisi file, berarti ini **s
 1. Tulis artikel untuk ide di brief, sampai `max_per_day` + 1 (satu cadangan). Mulai dari ide nomor 1.
 2. Setiap artikel jadi `pipeline/runs/<tgl>/drafts/<id>.json` mengikuti template. `date` diisi `<tgl>`.
 3. Riset tambahan boleh (WebSearch/WebFetch) kalau fakta di brief kurang, tapi setiap fakta baru wajib punya link yang sudah kamu buka.
-4. Tulis `pipeline/runs/<tgl>/notes/<id>.md`: **peta klaim → sumber**. Setiap klaim fakta spesifik (angka, tanggal, nama, kutipan) satu baris:
+4. **Gambar**: isi `image` (wajib) dan boleh `img` di 1–2 bagian, sesuai RULES bagian 3b. Mulai dari kandidat gambar di brief; buka halaman `File:`-nya sendiri untuk memastikan lisensi, pembuat, dan URL `upload.wikimedia.org`.
+5. Tulis `pipeline/runs/<tgl>/notes/<id>.md`: **peta klaim → sumber**. Setiap klaim fakta spesifik (angka, tanggal, nama, kutipan) satu baris:
    `- "<potongan kalimat di artikel>" → <url> (<bagian di halaman sumber yang mendukung, diparafrase>)`
    Ini yang dipakai Lup untuk cek fakta, jadi lengkap dan jujur. Klaim tanpa baris di notes = klaim yang bakal dicoret.
-5. Jalankan `node scripts/validate.mjs pipeline/runs/<tgl>/drafts/<id>.json` sampai lolos.
-6. Commit `drafts/` dan `notes/`.
+   Tambahkan juga satu baris per gambar: `- gambar: <page> — lisensi <x> — dicek di halaman File:`.
+6. Jalankan `node scripts/validate.mjs pipeline/runs/<tgl>/drafts/<id>.json` sampai lolos.
+7. Commit `drafts/` dan `notes/`.
 
 ### Cara nulis yang daging
 - Buka dengan hook paling kuat di 2 kalimat pertama. Jangan buka dengan definisi.

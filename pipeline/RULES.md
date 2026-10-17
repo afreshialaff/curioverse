@@ -6,6 +6,7 @@ Kitab bersama untuk Kompas, Pena, Lup, dan Merpati. Kalau ada yang bertentangan 
 - **Akurat dan bisa dicek.** Setiap klaim fakta (angka, tanggal, nama, kutipan, sebab-akibat) harus punya sumber yang bisa dibuka siapa pun. Kalau nggak ketemu sumbernya, klaimnya dibuang, bukan dikira-kira.
 - **Daging, bukan kulit.** Pembaca harus pulang bawa sesuatu yang dia belum tahu: angka spesifik, mekanisme "kok bisa", plot twist yang didukung sumber, atau koreksi mitos populer. Paragraf yang isinya cuma basa-basi dihapus.
 - **Jujur soal batas.** Bedakan fakta, interpretasi, dan opini (label `kind`). Kalau sejarawan masih debat, bilang masih debat.
+- **Pertanyaan riset, bukan kesimpulan titipan.** Ide yang datang dengan kesimpulan ("pasti disulut", "pasti konspirasi") diubah jadi pertanyaan ("seberapa besar peran manusia?") lalu dijawab sesuai bukti. Kalau bukti mendukung, tulis tegas. Kalau bukti campuran, tulis campuran. Kalau bukti membantah, artikelnya justru jadi plot twist.
 - **Nggak pernah mengarang.** Dilarang: kutipan rekaan, angka perkiraan tanpa sumber, berita yang belum terjadi, harga saham/kurs live, "katanya" tanpa atribusi.
 
 ## 2. Sumber 🤖
@@ -20,11 +21,19 @@ Kitab bersama untuk Kompas, Pena, Lup, dan Merpati. Kalau ada yang bertentangan 
 ## 3. Struktur artikel 🤖
 Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 - `id`: huruf kecil-strip, unik, deskriptif (`victor-lustig`, bukan `artikel1`).
-- `cat`: `finance | science | sejarah | biografi | market | saham | global | scam`. `also` opsional untuk kategori kedua.
+- `cat`: salah satu id di `content/categories.json`. `also` opsional untuk kategori kedua. Kategori baru boleh ditambahkan Kompas di file itu (label, desc, warna light/dark yang kontras dengan kertas krem dan tinta gelap).
 - `title` ≤ 95 karakter, `dek` ≤ 240 karakter, `hook` ≤ 170 karakter (satu fakta mengejutkan yang bisa dicek, tampil acak di beranda).
 - Minimal **4 bagian** (`sections`) dan **700 kata**. Target ideal 900–1.400 kata. Lebih panjang boleh kalau tetap padat.
 - Bagian yang isinya analisis diberi `"kind":"interpretasi"`, pendapat kita diberi `"kind":"opini"`. Default fakta.
+- **Gambar wajib** 🤖: `image` = gambar utama. Opsional `img` di 1–2 bagian. Semua gambar berlisensi terbuka (lihat bagian 3b).
 - Alur yang disarankan: **hook** (kenapa harus peduli) → **konteks** → **inti/mekanisme** (bagian paling daging) → **plot twist / mitos vs fakta** → **so what** (relevansi buat pembaca hari ini).
+
+## 3b. Gambar 🤖
+- Sumber yang boleh: **Wikimedia Commons** (Public domain, CC0, CC BY, CC BY-SA), foto domain publik pemerintah AS (NASA, NOAA, USGS, Library of Congress tanpa batasan), atau ilustrasi yang kita buat sendiri (SVG di repo, credit "Curioverse").
+- Field: `{ "src": "https://upload.wikimedia.org/...", "alt": "deskripsi isi gambar", "caption": "opsional", "credit": "nama pembuat", "license": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:..." }`.
+- Cara dapat `src`: WebFetch halaman `File:` di Commons, ambil URL `upload.wikimedia.org` versi thumbnail lebar ±1280px (pola `/thumb/.../1280px-Nama.jpg`) atau file aslinya kalau lebih kecil. Pastikan URL itu benar-benar ada di halaman.
+- Gambar harus relevan dan **jujur**: jangan pakai foto peristiwa lain seolah-olah peristiwa yang dibahas, jangan pakai foto orang lain sebagai tokoh artikel. Caption menyebut tahun/tempat kalau diketahui.
+- Dilarang: gambar dari Google Images, Getty, Shutterstock, situs berita (hak cipta media), poster film, logo merek, dan gambar AI yang meniru foto peristiwa nyata.
 
 ## 4. Suara
 - Bahasa Indonesia santai campur Inggris secukupnya, register Gen Z yang hangat: "jujurly", "plot twist", "bestie" boleh, tapi maksimal 2–3 slang per artikel. Isi tetap serius.
@@ -48,6 +57,7 @@ Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 | Alur & hook | Pembuka bikin penasaran, transisi enak, penutup ada "so what" |
 | Suara | Sesuai bagian 4, nggak lebay, nggak kaku |
 | Keamanan | Sesuai bagian 5 |
+| Gambar | Lisensi terbuka terverifikasi di halaman sumbernya, relevan, alt dan caption akurat (masuk must-fix, bukan skor terpisah) |
 
 **Keputusan:**
 - `TERBIT`: Akurasi 5, Sumber 5, aspek lain ≥4.
@@ -55,4 +65,4 @@ Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 - `TOLAK`: fakta inti salah/nggak bisa diverifikasi, sumber nggak cukup, atau topik melanggar bagian 5.
 
 ## 7. Kuota harian
-Diatur di `pipeline/config.json`: minimal 1, maksimal `max_per_day`. Kalau hari itu nggak ada yang lolos, Merpati menerbitkan satu artikel dari `pipeline/reserve/` (cadangan yang sudah lolos review). Kualitas > kuantitas: lebih baik terbit 1 yang mantap daripada 3 yang setengah matang.
+Diatur di `pipeline/config.json`: minimal 1, normalnya `max_per_day` (1). Hari ketika `inbox.md` berisi ide, naik sampai `max_per_day_with_inbox` (3). Kalau hari itu nggak ada yang lolos, Merpati menerbitkan satu artikel dari `pipeline/reserve/` (cadangan yang sudah lolos review). Kualitas > kuantitas: lebih baik terbit 1 yang mantap daripada 3 yang setengah matang.

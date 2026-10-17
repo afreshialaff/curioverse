@@ -1,0 +1,3 @@
+{
+  "_catatan": "Gambar untuk cerita lama di stories.mjs. Cerita baru (content/stories/*.json) menaruh gambarnya di field image/img sendiri. Format: { id: { hero:{src,alt,credit,license,page}, sections:{ \"<index>\": {...} } } }"
+}

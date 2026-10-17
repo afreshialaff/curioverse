@@ -1,19 +1,11 @@
 {
   "mode": "auto",
   "min_per_day": 1,
-  "max_per_day": 2,
-  "ideas_per_brief": 3,
+  "max_per_day": 1,
+  "max_per_day_with_inbox": 3,
+  "ideas_per_brief": 2,
+  "topik": "Bebas setiap hari. Kategori yang tersedia ada di content/categories.json; Kompas boleh menambah kategori baru kalau ide yang bagus nggak cocok dengan yang ada.",
+  "variasi": "Hindari kategori yang sama 2 hari berturut-turut kecuali dari inbox. Cek 7 baris terakhir log.md.",
   "timezone": "Asia/Jakarta",
-  "site": "https://curioverse-beta.vercel.app",
-  "niche_rotation": {
-    "_catatan": "Niche utama per hari. Kompas boleh menambah satu artikel dari niche lain kalau ada momen yang pas.",
-    "senin": "finance",
-    "selasa": "science",
-    "rabu": "sejarah",
-    "kamis": "biografi",
-    "jumat": "scam",
-    "sabtu": "market",
-    "minggu": "global"
-  },
-  "saham_note": "Topik saham digilir bareng market/finance; jangan lebih dari satu artikel saham per minggu."
+  "site": "https://curioverse-beta.vercel.app"
 }

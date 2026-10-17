@@ -13,7 +13,8 @@ let INDEX = [];
 try { INDEX = JSON.parse($("#cv-index").textContent); } catch(e){}
 const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
-const LABEL = { finance:"Finance", science:"Science", sejarah:"Sejarah", biografi:"Biografi", market:"Market", saham:"Saham", global:"Global News", scam:"Scam Files" };
+let LABEL = { finance:"Finance", science:"Science", sejarah:"Sejarah", biografi:"Biografi", market:"Market", saham:"Saham", global:"Global News", scam:"Scam Files" };
+try { LABEL = JSON.parse($("#cv-labels").textContent); } catch(e){}
 const sysDark = matchMedia("(prefers-color-scheme: dark)");
 const isDark = () => root.dataset.theme ? root.dataset.theme === "dark" : sysDark.matches;
 window.CV = { INDEX, norm, esc, LABEL, store, isDark, reduced };

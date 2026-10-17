@@ -5,11 +5,10 @@ import { readdirSync, readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-export const CATS = {
-  finance:{label:"Finance"}, science:{label:"Science"}, sejarah:{label:"Sejarah"}, biografi:{label:"Biografi"},
-  market:{label:"Market"}, saham:{label:"Saham"}, global:{label:"Global News"}, scam:{label:"Scam Files"}
-};
-export const ORDER = ["finance","science","sejarah","biografi","market","saham","global","scam"];
+const HERE = dirname(fileURLToPath(import.meta.url));
+const CAT_DATA = Object.fromEntries(Object.entries(JSON.parse(readFileSync(join(HERE, "categories.json"), "utf8"))).filter(([k]) => !k.startsWith("_")));
+export const CATS = Object.fromEntries(Object.entries(CAT_DATA).map(([k, v]) => [k, { label:v.label, light:v.light, dark:v.dark }]));
+export const ORDER = Object.keys(CAT_DATA);
 
 export const A = [
 { id:"tulip", cat:"sejarah", also:"finance", date:"2026-10-12",
@@ -147,16 +146,7 @@ export const RADAR = ["cekberita","g20"];
 
 
 // One line per topic for the Explore by Topic grid.
-export const TOPIC_DESC = {
-  finance:"Duit, tabungan, dan cara uang bekerja",
-  science:"Langit, cahaya, dan makhluk ajaib",
-  sejarah:"Kejadian besar dan plot twist masa lalu",
-  biografi:"Orang-orang yang kelewat jenius",
-  market:"Istilah pasar, inflasi, dan mood ekonomi",
-  saham:"Dari VOC sampai candlestick",
-  global:"Bekal buat baca berita dunia",
-  scam:"Penipu legendaris dan kenapa orang bisa ketipu"
-};
+export const TOPIC_DESC = Object.fromEntries(Object.entries(CAT_DATA).map(([k, v]) => [k, v.desc]));
 
 // Section labels: fakta (default), interpretasi, opini. Key = story id, value = { sectionIndex: kind }.
 export const KINDS = {
@@ -269,7 +259,9 @@ export const HOOKS = [
    { id, cat, also?, date, title, dek, tags, hook?, path?,
      sections:[{ h, kind?:"fakta"|"interpretasi"|"opini", p:[paragraf...] }],
      sources:[{ t, u }] }                                                    */
-const STORY_DIR = join(dirname(fileURLToPath(import.meta.url)), "stories");
+const STORY_DIR = join(HERE, "stories");
+// Images: old stories via content/images.json, pipeline stories via their own image / sections[].img.
+export const IMAGES = Object.fromEntries(Object.entries(JSON.parse(readFileSync(join(HERE, "images.json"), "utf8"))).filter(([k]) => !k.startsWith("_")));
 export const PIPELINE_IDS = [];
 if (existsSync(STORY_DIR)) {
   for (const f of readdirSync(STORY_DIR).filter(f => f.endsWith(".json")).sort()) {
@@ -281,6 +273,8 @@ if (existsSync(STORY_DIR)) {
     SOURCES[j.id] = j.sources || [];
     if (j.hook) HOOKS.push({ id:j.id, t:j.hook });
     if (j.path) { const h = HOLES.find(h => h.id === j.path); if (h && !h.ids.includes(j.id)) h.ids.push(j.id); }
+    const secImg = Object.fromEntries((j.sections || []).map((x, i) => [i, x.img]).filter(([, v]) => v));
+    if (j.image || Object.keys(secImg).length) IMAGES[j.id] = { hero:j.image, sections:secImg };
     PIPELINE_IDS.push(j.id);
   }
 }

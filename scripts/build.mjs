@@ -2,11 +2,11 @@
 import { mkdirSync, rmSync, writeFileSync, copyFileSync, readdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { CATS, ORDER, A, HOLES, TOPIC_DESC, KINDS, SOURCES, CURATORS, PICKS, HOOKS, PIPELINE_IDS } from "../content/stories.mjs";
+import { CATS, ORDER, A, HOLES, TOPIC_DESC, KINDS, SOURCES, CURATORS, PICKS, HOOKS, PIPELINE_IDS, IMAGES } from "../content/stories.mjs";
 import { checkSite, report } from "./validate.mjs";
 
 // Quality gate first: if any story breaks the rules, the build fails and Vercel keeps the last good version live.
-if (!report(checkSite({ CATS, A, SOURCES, KINDS, HOOKS, PICKS, HOLES, PIPELINE_IDS }), "Quality gate")) {
+if (!report(checkSite({ CATS, A, SOURCES, KINDS, HOOKS, PICKS, HOLES, PIPELINE_IDS, IMAGES }), "Quality gate")) {
   console.error("Build dihentikan. Perbaiki masalah di atas (lihat pipeline/RULES.md).");
   process.exit(1);
 }
@@ -23,7 +23,12 @@ const fmtDate = d => { const [y, m, dd] = d.split("-").map(Number); return `${dd
 const words = a => (a.dek + " " + a.s.map(x => x[0] + " " + x[1].join(" ")).join(" ")).split(/\s+/).length;
 const mins = a => Math.max(1, Math.round(words(a) / 200));
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
-const icon = (id, cls = "ico") => `<svg class="${cls}" aria-hidden="true"><use href="#i-${id}"/></svg>`;
+const KNOWN_ICONS = ["finance","science","sejarah","biografi","market","saham","global","scam","search","dice","close","moon","sun","menu","arrow"];
+const icon = (id, cls = "ico") => `<svg class="${cls}" aria-hidden="true"><use href="#i-${KNOWN_ICONS.includes(id) ? id : "topic"}"/></svg>`;
+// Category colours and labels come from content/categories.json, so new categories need no CSS or JS edits.
+const CAT_STYLE = `<style>:root{${ORDER.map(c => `--c-${c}:${CATS[c].light}`).join(";")}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){${ORDER.map(c => `--c-${c}:${CATS[c].dark}`).join(";")}}}:root[data-theme="dark"]{${ORDER.map(c => `--c-${c}:${CATS[c].dark}`).join(";")}}</style>`;
+const CAT_LABELS = `<script type="application/json" id="cv-labels">${JSON.stringify(Object.fromEntries(ORDER.map(c => [c, CATS[c].label]))).replace(/</g, "\\u003c")}</script>`;
+const figure = (im, cls = "story-fig") => im && im.src ? `<figure class="${cls} rv"><img src="${esc(im.src)}" alt="${esc(im.alt || "")}" loading="lazy" decoding="async" referrerpolicy="no-referrer"><figcaption>${esc(im.caption || im.alt || "")}${im.credit ? ` <span class="credit">${im.page ? `<a href="${esc(im.page)}" target="_blank" rel="noopener">` : ""}${esc(im.credit)}${im.license ? `, ${esc(im.license)}` : ""}${im.page ? "</a>" : ""}</span>` : ""}</figcaption></figure>` : "";
 const badge = c => `<span class="badge" data-c="${c}">${icon(c)}<b>${CATS[c].label}</b></span>`;
 const norm = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 const latest = A.slice().sort((x, y) => y.date.localeCompare(x.date));
@@ -42,6 +47,7 @@ const ICONS = `<svg width="0" height="0" style="position:absolute" aria-hidden="
 <symbol id="i-saham" viewBox="0 0 24 24"><path d="M7 3v4M7 15v5M17 5v3M17 17v3"/><rect x="5" y="7" width="4" height="8" rx=".6"/><rect x="15" y="8" width="4" height="9" rx=".6"/></symbol>
 <symbol id="i-global" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.6 2.7 3.9 5.7 3.9 9s-1.3 6.3-3.9 9c-2.6-2.7-3.9-5.7-3.9-9S9.4 5.7 12 3z"/></symbol>
 <symbol id="i-scam" viewBox="0 0 24 24"><path d="M3 9c3-2 6-2 9 0 3-2 6-2 9 0-.4 4-2.6 7-5.6 7-1.6 0-2.6-1-3.4-2.4-.8 1.4-1.8 2.4-3.4 2.4C5.6 16 3.4 13 3 9z"/><circle cx="8" cy="10.6" r="1.4"/><circle cx="16" cy="10.6" r="1.4"/></symbol>
+<symbol id="i-topic" viewBox="0 0 24 24"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H11v16H5.5C4.7 20 4 19.3 4 18.5z"/><path d="M20 5.5c0-.8-.7-1.5-1.5-1.5H13v16h5.5c.8 0 1.5-.7 1.5-1.5z"/></symbol>
 <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
 <symbol id="i-dice" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3.5"/><circle cx="9" cy="9" r=".9" fill="currentColor"/><circle cx="15" cy="15" r=".9" fill="currentColor"/><circle cx="15" cy="9" r=".9" fill="currentColor"/><circle cx="9" cy="15" r=".9" fill="currentColor"/><circle cx="12" cy="12" r=".9" fill="currentColor"/></symbol>
 <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
@@ -181,6 +187,7 @@ function page({ path, title, desc, body, active = "", scripts = [], jsonld = nul
 <link rel="stylesheet" href="/assets/styles.css?v=${V}">
 <script>(function(d){d.classList.add("js");try{var t=localStorage.getItem("cv-theme");if(t==="light"||t==="dark")d.dataset.theme=t}catch(e){}setTimeout(function(){if(!window.CV)d.classList.add("rv-safe")},3500)})(document.documentElement)</script>
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ""}
+${CAT_STYLE}
 </head>
 <body>
 ${ICONS}
@@ -190,6 +197,7 @@ ${body}
 </main>
 ${footer()}
 ${dialogs()}
+${CAT_LABELS}
 <script type="application/json" id="cv-index">${INDEX.replace(/</g, "\\u003c")}</script>
 <script src="/assets/vendor/lenis.min.js" defer></script>
 <script src="/assets/app.js?v=${V}" defer></script>
@@ -515,8 +523,9 @@ function story(a){
     ${hole ? `<p class="path-banner rv" style="--i:2"><span>Reading Path: <b>${esc(hole.title)}</b></span><span class="tnum">Story ${pos + 1} of ${hole.ids.length}</span><span class="bar" aria-hidden="true"><i style="width:${Math.round((pos + 1) / hole.ids.length * 100)}%"></i></span></p>` : ""}
     <p class="legend-k">Tiap bagian ditandai: ${usedKinds.map(k => `<span class="kind" data-k="${k}">${KIND_LABEL[k]}</span>`).join("")}</p>
     <details class="toc"><summary>Isi cerita · ${a.s.length} bagian</summary><ol>${a.s.map((x, i) => `<li><a href="#bagian-${i + 1}">${esc(x[0])}</a></li>`).join("")}</ol></details>
+    ${figure((IMAGES[a.id] || {}).hero, "story-fig story-hero")}
     <div class="body" data-article>
-      ${a.s.map((x, i) => `<h2 id="bagian-${i + 1}"><span class="kind" data-k="${kinds[i] || "fakta"}">${KIND_LABEL[kinds[i] || "fakta"]}</span>${esc(x[0])}</h2>${x[1].map(p => `<p>${esc(p)}</p>`).join("")}`).join("\n      ")}
+      ${a.s.map((x, i) => `<h2 id="bagian-${i + 1}"><span class="kind" data-k="${kinds[i] || "fakta"}">${KIND_LABEL[kinds[i] || "fakta"]}</span>${esc(x[0])}</h2>${figure(((IMAGES[a.id] || {}).sections || {})[i])}${x[1].map(p => `<p>${esc(p)}</p>`).join("")}`).join("\n      ")}
     </div>
     ${money ? `<p class="disc">Konten ini buat belajar dan nambah wawasan, bukan saran investasi atau keuangan.</p>` : ""}
     <section class="sources" aria-labelledby="h-src"><h2 id="h-src">Sumber &amp; bacaan lanjutan</h2>

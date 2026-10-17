@@ -5,7 +5,7 @@ Empat agent yang tiap hari bikin satu sampai beberapa artikel baru, lalu menerbi
 ## Jadwal harian (WIB)
 | Jam | Agent | Peran | Baca | Tulis |
 |---|---|---|---|---|
-| 00.00 | 🧭 **Kompas** | Content planner + riset awal | `backlog.md`, `log.md`, daftar artikel di web | `runs/<tgl>/brief.md`, update `backlog.md` |
+| 00.00 | 🧭 **Kompas** | Content planner + riset awal | `inbox.md`, `backlog.md`, `log.md`, daftar artikel di web | `runs/<tgl>/brief.md`, update `backlog.md` & `inbox.md` |
 | 05.00 | ✒️ **Pena** | Copywriter, draf pertama | `brief.md` | `runs/<tgl>/drafts/<id>.json` + `notes/<id>.md` |
 | 09.00 | 🔎 **Lup** | Reviewer + cek fakta, buka semua link | draf + notes | `runs/<tgl>/review/<id>.md` |
 | 12.00 | ✒️ **Pena** | Revisi berdasarkan review | draf + review | `runs/<tgl>/final/<id>.json` |
@@ -18,6 +18,9 @@ backlog.md ──► Kompas ──brief──► Pena ──draf+notes──► 
                  ▲                                         │ TOLAK                                     │ lolos lebih dari kuota
                  └──────────── ide yang ditolak/ditunda ◄──┘                                           └──► reserve/
 ```
+
+## Kasih ide dari luar (inbox)
+Tulis ide di `pipeline/inbox.md` bagian "Antrean" (lewat GitHub di HP, atau minta Claude di chat: "tambahin ide ke inbox Curioverse: ..."). Kompas memprosesnya malam itu juga, dan hari itu kuota terbit naik sampai 3 artikel. Topik harian lainnya bebas, kategori bisa bertambah lewat `content/categories.json`.
 
 ## Dua mode (`config.json` → `"mode"`)
 - **`auto`**: Merpati langsung push ke `main`, Vercel deploy sendiri. Pengamannya berlapis: rubrik ketat Lup, cek ulang must-fix oleh Merpati, lalu quality gate `scripts/validate.mjs` yang bikin build gagal kalau ada artikel melanggar aturan (web live tetap versi terakhir yang aman).
@@ -43,7 +46,8 @@ Ganti mode cukup edit satu baris di `config.json` dan push.
 pipeline/
   README.md          alur ini
   RULES.md           aturan redaksi + rubrik (dibaca semua agent)
-  config.json        mode, kuota, niche per hari
+  config.json        mode, kuota, aturan variasi topik
+  inbox.md           ide dari pemilik web (didahulukan)
   agents/            kompas.md, pena.md, lup.md, merpati.md
   templates/         story.json, review.md
   backlog.md         bank ide (dikelola Kompas)

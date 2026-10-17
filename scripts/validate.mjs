@@ -20,6 +20,16 @@ export const RULES = {
 const KINDS_OK = ["fakta", "interpretasi", "opini"];
 const PLACEHOLDER = /\b(TODO|TBD|lorem ipsum|xxx)\b|\[(sumber|source|link|isi)[^\]]*\]/i;
 
+function checkImage(im, where, e) {
+  if (!im) return;
+  if (!/^https:\/\//.test(im.src || "")) e.push(`${where}: gambar butuh "src" https`);
+  if (!im.alt || im.alt.length < 8) e.push(`${where}: gambar butuh "alt" yang mendeskripsikan isinya`);
+  if (!im.credit) e.push(`${where}: gambar butuh "credit" (pembuat/pemilik)`);
+  if (!im.license) e.push(`${where}: gambar butuh "license" (mis. CC BY-SA 4.0, Public domain)`);
+  if (!/^https:\/\//.test(im.page || "")) e.push(`${where}: gambar butuh "page" (link halaman sumber/lisensi gambar)`);
+  if (im.license && /all rights reserved|©|getty|shutterstock/i.test(im.license + " " + im.credit)) e.push(`${where}: lisensi gambar bukan lisensi terbuka`);
+}
+
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, "").replace(/^([a-z-]+\.)?(m\.)?wikipedia\.org$/, "wikipedia.org"); } catch { return null; } };
 const wordsOf = sections => sections.map(x => [x.h, ...(x.p || [])].join(" ")).join(" ").split(/\s+/).filter(Boolean).length;
 
@@ -42,6 +52,9 @@ export function checkStory(j, { cats, pipeline = true, today = null } = {}) {
     if (!x.h || !Array.isArray(x.p) || !x.p.length) e.push(`${id}: bagian ${i + 1} butuh "h" dan minimal satu paragraf di "p"`);
     if (x.kind && !KINDS_OK.includes(x.kind)) e.push(`${id}: bagian ${i + 1} kind "${x.kind}" (pilih: ${KINDS_OK.join("/")})`);
   });
+  checkImage(j.image, `${id} (gambar utama)`, e);
+  secs.forEach((x, i) => checkImage(x.img, `${id} (gambar bagian ${i + 1})`, e));
+  if (pipeline && !j.image) e.push(`${id}: artikel baru wajib punya gambar utama ("image") dengan lisensi terbuka`);
   const all = JSON.stringify(j);
   if (PLACEHOLDER.test(all)) e.push(`${id}: masih ada placeholder (TODO / [sumber] / lorem)`);
   if (pipeline) {
@@ -65,16 +78,19 @@ export function checkStory(j, { cats, pipeline = true, today = null } = {}) {
 }
 
 /** Check the whole site (old stories in stories.mjs + pipeline JSON). */
-export function checkSite({ CATS, A, SOURCES, KINDS, HOOKS, PICKS, HOLES, PIPELINE_IDS = [] }) {
+export function checkSite({ CATS, A, SOURCES, KINDS, HOOKS, PICKS, HOLES, PIPELINE_IDS = [], IMAGES = {} }) {
   const errors = [], warnings = [];
   const ids = A.map(a => a.id), dup = ids.filter((x, i) => ids.indexOf(x) !== i);
   if (dup.length) errors.push(`id dobel: ${[...new Set(dup)].join(", ")}`);
   const today = new Date(Date.now() + 7 * 36e5 + 864e5).toISOString().slice(0, 10); // WIB, toleransi 1 hari
   for (const a of A) {
     const pipe = PIPELINE_IDS.includes(a.id);
-    const j = { id:a.id, cat:a.cat, also:a.also, date:a.date, title:a.title, dek:a.dek, tags:a.tags, sources:SOURCES[a.id] || [],
-      sections:a.s.map(([h, p], i) => ({ h, p, kind:(KINDS[a.id] || {})[i] })) };
-    const r = checkStory(j, { cats:CATS, pipeline:pipe, today });
+    const im = IMAGES[a.id] || {};
+    const j = { id:a.id, cat:a.cat, also:a.also, date:a.date, title:a.title, dek:a.dek, tags:a.tags, sources:SOURCES[a.id] || [], image:im.hero,
+      sections:a.s.map(([h, p], i) => ({ h, p, kind:(KINDS[a.id] || {})[i], img:(im.sections || {})[i] })) };
+    const r = checkStory(j, { cats:CATS, pipeline:false, today });
+    if (pipe) { const strict = checkStory(j, { cats:CATS, pipeline:true, today }); r.errors = strict.errors.filter(x => !/wajib punya gambar/.test(x)); }
+    if (!im.hero) r.warnings.push(`${a.id}: belum ada gambar utama`);
     errors.push(...r.errors.map(x => (a._file ? a._file + " → " : "") + x)); warnings.push(...r.warnings);
   }
   for (const h of HOOKS) if (!ids.includes(h.id)) errors.push(`HOOKS menunjuk id yang nggak ada: ${h.id}`);
