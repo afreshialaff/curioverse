@@ -7,5 +7,6 @@
   "market":   { "label": "Market",      "desc": "Istilah pasar, inflasi, dan mood ekonomi",            "light": "#7A5532", "dark": "#D6B38C" },
   "saham":    { "label": "Saham",       "desc": "Dari VOC sampai candlestick",                         "light": "#9A3F2B", "dark": "#E08A6E" },
   "global":   { "label": "Global News", "desc": "Bekal buat baca berita dunia",                        "light": "#5C5649", "dark": "#ABA291" },
-  "scam":     { "label": "Scam Files",  "desc": "Penipu legendaris dan kenapa orang bisa ketipu",      "light": "#7A4560", "dark": "#D3A3BC" }
+  "scam":     { "label": "Scam Files",  "desc": "Penipu legendaris dan kenapa orang bisa ketipu",      "light": "#7A4560", "dark": "#D3A3BC" },
+  "lingkungan": { "label": "Lingkungan", "desc": "Hutan, iklim, dan jejak manusia di bumi",          "light": "#3E5A3A", "dark": "#A9C79F" }
 }
