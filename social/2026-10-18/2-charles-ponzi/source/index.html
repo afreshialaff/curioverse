@@ -41,101 +41,98 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
 .flag{display:flex;gap:26px;align-items:flex-start;font-size:46px;line-height:1.25;margin-bottom:34px}
 .flag b{flex:none;width:58px;height:58px;border-radius:50%;background:var(--plum);color:var(--paper);font:800 34px CvMono;display:flex;align-items:center;justify-content:center;margin-top:2px}
 .url{display:inline-block;background:var(--ink);color:var(--paper);border-radius:999px;padding:18px 36px;font:600 38px CvMono;letter-spacing:.02em}
+.cp{width:46px;height:30px;border-radius:5px;background:var(--plum);opacity:.85}
+.grid{display:flex;flex-wrap:wrap;gap:10px}
+.node{position:absolute;left:150px;width:780px;height:120px;border-radius:24px;background:var(--card);box-shadow:0 14px 40px rgba(27,26,23,.10);display:flex;align-items:center;justify-content:center;font:600 44px CvSans}
+.vline{position:absolute;left:536px;width:8px;background:var(--plum);border-radius:4px;transform-origin:top center}
+.money{position:absolute;left:80px;height:70px;border-radius:12px;background:var(--plum);transform-origin:left center}
+.mlbl{position:absolute;left:80px;font:600 32px CvMono;color:var(--mute)}
 </style>
 </head>
 <body>
-<div id="root" data-composition-id="main" data-start="0" data-duration="24" data-width="1080" data-height="1920">
-
-  <audio id="bgm" src="assets/audio/bgm.wav" data-start="0" data-duration="24" data-track-index="9" data-volume="1"></audio>
-  <section class="clip bg" data-start="0" data-duration="24" data-track-index="0" data-layout-allow-overflow>
+<div id="root" data-composition-id="main" data-start="0" data-duration="52" data-width="1080" data-height="1920">
+  <audio id="bgm" src="assets/audio/bgm.wav" data-start="0" data-duration="52" data-track-index="9" data-volume="1"></audio>
+  <section class="clip bg" data-start="0" data-duration="52" data-track-index="0" data-layout-allow-overflow>
     <div class="grain" id="grain"></div>
     <svg class="star" id="st1" style="left:880px;top:220px" viewBox="-10 -10 20 20"><path d="M0-10C.9-3 3-.9 10 0 3 .9.9 3 0 10-.9 3-3 .9-10 0-3-.9-.9-3 0-10z"/></svg>
-    <svg class="star" id="st2" style="left:130px;top:1500px;width:28px;height:28px" viewBox="-10 -10 20 20"><path d="M0-10C.9-3 3-.9 10 0 3 .9.9 3 0 10-.9 3-3 .9-10 0-3-.9-.9-3 0-10z"/></svg>
     <div class="band"></div>
   </section>
-
-  <section class="clip" data-start="0" data-duration="24" data-track-index="2">
-    <div class="chrome">
-      <div class="tl">Curioverse · Scam Files</div>
-      <div class="tr" id="prog">01 / 05</div>
-      <div class="bl">curioverse</div>
-      <div class="br">bukan saran investasi</div>
-    </div>
+  <section class="clip" data-start="0" data-duration="52" data-track-index="2">
+    <div class="chrome"><div class="tl">Curioverse · Scam Files</div><div class="tr" id="prog">01 / 07</div><div class="bl">curioverse</div><div class="br">bukan saran investasi</div></div>
   </section>
 
-  <!-- S1 hook -->
-  <section class="clip" data-start="0" data-duration="4.5" data-track-index="1">
-    <div class="inner" id="s1">
-      <div class="kicker"><i></i>Boston, 1920</div>
-      <h1 class="h" style="top:470px;font-size:150px">
-        <span class="w">Untung</span><span class="w it" style="color:var(--plum)">50%</span><br>
-        <span class="w">dalam</span><span class="w">45</span><span class="w">hari.</span>
-      </h1>
-      <p class="body" id="s1b" style="top:900px;font-size:52px">Kedengeran mantap? Ribuan orang di Boston juga mikir gitu.</p>
-      <p class="hand" id="s1h" style="position:absolute;left:80px;top:1080px;font-size:64px">…sampai semuanya runtuh.</p>
-    </div>
-  </section>
+  <section class="clip" data-start="0" data-duration="5" data-track-index="1"><div class="inner" id="s1">
+    <div class="kicker"><i></i>Boston, 1920</div>
+    <h1 class="h" style="top:460px;font-size:118px"><span class="w">Gimana</span><span class="w">caranya</span><span class="w it" style="color:var(--plum)">20.000</span><span class="w">orang</span><span class="w">ketipu</span><span class="w">janji</span><span class="w">untung</span><span class="w it" style="color:var(--plum)">50%?</span></h1>
+    <p class="body" id="s1b" style="top:900px;font-size:50px">Kisah Charles Ponzi, orang yang namanya jadi istilah penipuan investasi sampai hari ini.</p>
+    <p class="hand" id="s1h" style="position:absolute;left:80px;top:1180px;font-size:60px">ceritanya pendek, pelajarannya panjang</p>
+  </div></section>
 
-  <!-- S2 coupon story -->
-  <section class="clip" data-start="4.5" data-duration="5" data-track-index="1">
-    <div class="inner" id="s2">
-      <div class="kicker"><i></i>Ceritanya</div>
-      <h2 class="h" style="top:460px;font-size:104px"><span class="w">Rahasianya:</span><span class="w it">kupon</span><span class="w it">pos.</span></h2>
-      <div class="card" id="s2c" style="left:80px;right:80px;top:760px;height:520px;padding:56px">
-        <div class="tape" style="left:40px;top:-22px"></div>
-        <p style="font:600 30px CvMono;letter-spacing:.12em;color:var(--mute);text-transform:uppercase">Hitungan Ponzi sendiri</p>
-        <div style="display:flex;gap:40px;margin-top:40px;align-items:flex-end">
-          <div style="flex:1"><div class="big" id="n5" style="font-size:190px">5</div><p style="font-size:38px;color:var(--mute)">kupon per $1 di Boston</p></div>
-          <div style="flex:1"><div class="big" id="n66" style="font-size:190px;color:var(--plum)">0</div><p style="font-size:38px;color:var(--mute)">kupon per $1 di Roma</p></div>
-        </div>
-      </div>
-      <p class="body" id="s2b" style="top:1340px">Beli murah di Italia, tukar mahal di Amerika. Di atas kertas, untung.</p>
+  <section class="clip" data-start="5" data-duration="7.5" data-track-index="1"><div class="inner" id="s2">
+    <div class="kicker"><i></i>Kenalan dulu</div>
+    <h2 class="h" style="top:430px;font-size:96px"><span class="w">Ini</span><span class="w">Charles</span><span class="w">Ponzi.</span></h2>
+    <p class="body" id="s2b" style="top:580px">Tahun 1920, dia buka Securities Exchange Company di Boston. Janjinya ke investor:</p>
+    <div class="card" id="s2c" style="left:80px;right:80px;top:860px;height:330px;display:flex;align-items:center;justify-content:space-around">
+      <div class="tape" style="left:40px;top:-22px"></div>
+      <div style="text-align:center"><div class="big" style="font-size:150px">$100</div><p style="font-size:36px;color:var(--mute)">setor hari ini</p></div>
+      <svg width="120" height="40" viewBox="0 0 120 40"><path d="M5 20H100M85 6l15 14-15 14" stroke="#7A4560" stroke-width="6" fill="none" stroke-linecap="round"/></svg>
+      <div style="text-align:center"><div class="big" style="font-size:150px;color:var(--plum)">$150</div><p style="font-size:36px;color:var(--mute)">45 hari kemudian</p></div>
     </div>
-  </section>
+  </div></section>
 
-  <!-- S3 growth -->
-  <section class="clip" data-start="9.5" data-duration="5" data-track-index="1">
-    <div class="inner" id="s3">
-      <div class="kicker"><i></i>Yang setor makin banyak</div>
-      <h2 class="h" style="top:460px;font-size:104px"><span class="w">Investor</span><span class="w">lama</span><span class="w it">beneran</span><span class="w it">dibayar.</span></h2>
-      <p class="lbl" style="top:800px">JANUARI 1920 · 18 INVESTOR</p>
-      <div class="bar" id="b1" style="top:850px;width:40px;opacity:.55"></div>
-      <p class="lbl" style="top:980px">JUNI 1920 · ±7.800 INVESTOR</p>
-      <div class="bar" id="b2" style="top:1030px;width:360px;opacity:.8"></div>
-      <p class="lbl" style="top:1160px">JULI 1920 · 20.000+ INVESTOR</p>
-      <div class="bar" id="b3" style="top:1210px;width:920px"></div>
-      <p class="body" id="s3b" style="top:1340px">Tapi duitnya bukan dari kupon. Dari setoran orang yang datang belakangan.</p>
+  <section class="clip" data-start="12.5" data-duration="9.5" data-track-index="1"><div class="inner" id="s3">
+    <div class="kicker"><i></i>Alasan yang dia jual</div>
+    <h2 class="h" style="top:430px;font-size:92px"><span class="w">Kupon</span><span class="w">pos</span><span class="w it">internasional.</span></h2>
+    <p class="body" id="s3b" style="top:560px">Kupon ini bisa ditukar prangko di negara lain. Setelah lira anjlok, menurut hitungan Ponzi:</p>
+    <div id="s3g" style="position:absolute;left:80px;right:80px;top:840px;display:flex;gap:60px">
+      <div style="width:250px"><div class="big" style="font-size:110px">5</div><p style="font:600 30px CvMono;color:var(--mute);margin:6px 0 18px">KUPON PER $1 · BOSTON</p><div class="grid"><div class="cp c5"></div><div class="cp c5"></div><div class="cp c5"></div><div class="cp c5"></div><div class="cp c5"></div></div></div>
+      <div style="flex:1"><div class="big" style="font-size:110px;color:var(--plum)">66</div><p style="font:600 30px CvMono;color:var(--mute);margin:6px 0 18px">KUPON PER $1 · ROMA</p><div class="grid"><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div><div class="cp c66"></div></div></div>
     </div>
-  </section>
+    <p class="hand" id="s3h" style="position:absolute;left:80px;top:1450px;font-size:58px">beli murah di Roma, tukar mahal di Amerika</p>
+  </div></section>
 
-  <!-- S4 the audit -->
-  <section class="clip" data-start="14.5" data-duration="4.5" data-track-index="1">
-    <div class="inner" id="s4">
-      <div class="kicker"><i></i>Agustus 1920</div>
-      <h2 class="h" style="top:460px;font-size:96px"><span class="w">Audit</span><span class="w">terakhir</span><span class="w">nemu</span><span class="w">kupon</span><span class="w">senilai…</span></h2>
-      <div class="big" id="n61" style="position:absolute;left:80px;top:760px;font-size:420px;color:var(--plum)">$0</div>
-      <div class="stamp" id="stamp" style="left:560px;top:1010px">BANGKRUT</div>
-      <p class="body" id="s4b" style="top:1290px">Padahal uang yang masuk jutaan dolar. Investor yang telat cuma dapat balik sekitar 30-an sen per dolar.</p>
+  <section class="clip" data-start="22" data-duration="10" data-track-index="1"><div class="inner" id="s4">
+    <div class="kicker"><i></i>Masalahnya</div>
+    <h2 class="h" style="top:430px;font-size:84px"><span class="w">Bisnis</span><span class="w">kupon</span><span class="w">itu</span><span class="w">nyaris</span><span class="w it">nggak</span><span class="w it">jalan.</span></h2>
+    <p class="body" id="s4b" style="top:640px">Untung investor lama dibayar pakai setoran investor baru.</p>
+    <div class="node n" style="top:800px">Investor baru setor</div>
+    <div class="vline" id="l1" style="top:920px;height:60px"></div>
+    <div class="node n" style="top:980px">Kas Ponzi</div>
+    <div class="vline" id="l2" style="top:1100px;height:60px"></div>
+    <div class="node n" style="top:1160px;background:var(--plum);color:var(--paper)">"Untung" investor lama</div>
+    <p class="body" id="s4c" style="top:1340px;font-size:40px">Makin banyak yang setor, makin lancar pembayarannya. Makin banyak juga yang ikut.</p>
+  </div></section>
+
+  <section class="clip" data-start="32" data-duration="6.5" data-track-index="1"><div class="inner" id="s5">
+    <div class="kicker"><i></i>Uang yang masuk</div>
+    <h2 class="h" style="top:430px;font-size:96px"><span class="w">Dalam</span><span class="w">hitungan</span><span class="w it">bulan.</span></h2>
+    <p class="mlbl" style="top:720px">JUNI 1920 · ±7.800 ORANG</p>
+    <div class="money" id="m1" style="top:770px;width:346px;opacity:.7"></div>
+    <p class="big" id="m1v" style="position:absolute;left:450px;top:768px;font-size:60px">$2,5 juta</p>
+    <p class="mlbl" style="top:930px">JULI 1920 · 20.000+ ORANG</p>
+    <div class="money" id="m2" style="top:980px;width:900px"></div>
+    <p class="big" style="position:absolute;left:80px;top:1070px;font-size:60px;color:var(--plum)" id="m2v">hampir $6,5 juta</p>
+    <p class="body" id="s5b" style="top:1240px;font-size:40px">Setoran Juli lebih dari 2,5 kali lipat Juni. Uang inilah yang dipakai membayar "untung" investor lama.</p>
+  </div></section>
+
+  <section class="clip" data-start="38.5" data-duration="6.5" data-track-index="1"><div class="inner" id="s6">
+    <div class="kicker"><i></i>Agustus 1920</div>
+    <h2 class="h" style="top:430px;font-size:88px"><span class="w">Audit</span><span class="w">cuma</span><span class="w">nemu</span><span class="w">kupon</span><span class="w">senilai</span></h2>
+    <div class="big" id="n61" style="position:absolute;left:80px;top:640px;font-size:380px;color:var(--plum)">$0</div>
+    <p class="body" id="s6b" style="top:1120px">Koran Boston Post membongkar semuanya. Investor yang telat cuma dapat balik sekitar 30-an sen per dolar.</p>
+  </div></section>
+
+  <section class="clip" data-start="45" data-duration="7" data-track-index="1"><div class="inner" id="s7">
+    <div class="kicker"><i></i>Jadi, skema Ponzi itu</div>
+    <h2 class="h" style="top:430px;font-size:80px"><span class="w">Untung</span><span class="w">lama</span><span class="w">dibayar</span><span class="w it">uang</span><span class="w it">baru.</span></h2>
+    <p class="body" id="s7b" style="top:640px">Begitu uang baru berhenti, semuanya runtuh. Waspadai kalau ketemu:</p>
+    <div style="position:absolute;left:80px;right:80px;top:860px">
+      <div class="flag f"><b>1</b><span>Untung tinggi yang "dijamin".</span></div>
+      <div class="flag f"><b>2</b><span>Untungnya stabil terus, apa pun kondisi pasar.</span></div>
+      <div class="flag f"><b>3</b><span>Susah narik uang sendiri.</span></div>
     </div>
-  </section>
-
-  <!-- S5 red flags + CTA -->
-  <section class="clip" data-start="19" data-duration="5" data-track-index="1">
-    <div class="inner" id="s5">
-      <div class="kicker"><i></i>Red flag versi SEC</div>
-      <h2 class="h" style="top:460px;font-size:104px"><span class="w">Kalau</span><span class="w">nemu</span><span class="w">ini,</span><span class="w it">cek</span><span class="w it">dulu:</span></h2>
-      <div style="position:absolute;left:80px;right:80px;top:740px">
-        <div class="flag f"><b>1</b><span>Untung tinggi, risiko "kecil" atau dijamin.</span></div>
-        <div class="flag f"><b>2</b><span>Untungnya stabil terus, apa pun kondisi pasar.</span></div>
-        <div class="flag f"><b>3</b><span>Susah narik uang, malah ditawari bunga lebih tinggi.</span></div>
-      </div>
-      <div id="cta" style="position:absolute;left:80px;top:1360px">
-        <p style="font-size:40px;color:var(--mute);margin-bottom:22px">Cerita lengkap + 5 sumber:</p>
-        <span class="url">curioverse-beta.vercel.app</span>
-      </div>
-    </div>
-  </section>
-
+    <div id="cta" style="position:absolute;left:80px;top:1400px"><p style="font-size:36px;color:var(--mute);margin-bottom:18px">Cerita lengkap + sumber:</p><span class="url">curioverse-beta.vercel.app</span></div>
+  </div></section>
 </div>
 <script src="assets/vendor/gsap.min.js"></script>
 <script>
@@ -143,34 +140,34 @@ const tl = gsap.timeline({ paused: true });
 const blurIn = (sel, at, st = 0.07) => tl.fromTo(sel, { opacity: 0, y: 26, filter: 'blur(18px)' }, { opacity: 1, y: 0, filter: 'blur(0px)', duration: 0.55, ease: 'power3.out', stagger: st }, at);
 const out = (sel, at) => tl.fromTo(sel, { opacity: 1, y: 0 }, { opacity: 0, y: -30, duration: 0.4, ease: 'power2.in' }, at);
 const count = (sel, from, to, at, dur, fmt = v => Math.round(v)) => { const o = { v: from }; tl.fromTo(o, { v: from }, { v: to, duration: dur, ease: 'power2.out', onUpdate: () => { document.querySelector(sel).textContent = fmt(o.v); } }, at); };
-const prog = ['01 / 05','02 / 05','03 / 05','04 / 05','05 / 05'];
-[0, 4.5, 9.5, 14.5, 19].forEach((t, i) => tl.call(() => { document.getElementById('prog').textContent = prog[i]; }, null, t + 0.01));
-
-// background drift
-tl.fromTo('#grain', { x: 0, y: 0 }, { x: -40, y: 30, duration: 24, ease: 'none' }, 0);
-tl.fromTo('#st1', { rotation: 0, scale: 1 }, { rotation: 90, scale: 1.2, duration: 24, ease: 'none' }, 0);
-tl.fromTo('#st2', { rotation: 0 }, { rotation: -60, duration: 24, ease: 'none' }, 0);
-
+const starts = [0, 5, 12.5, 22, 32, 38.5, 45];
+starts.forEach((t, i) => tl.call(() => { document.getElementById('prog').textContent = '0' + (i + 1) + ' / 07'; }, null, t + 0.01));
+tl.fromTo('#grain', { x: 0, y: 0 }, { x: -40, y: 30, duration: 52, ease: 'none' }, 0);
+tl.fromTo('#st1', { rotation: 0 }, { rotation: 120, duration: 52, ease: 'none' }, 0);
 // S1
-blurIn('#s1 .kicker', 0.1); blurIn('#s1 .h .w', 0.3, 0.09); blurIn('#s1b', 1.4); blurIn('#s1h', 2.4);
-out('#s1', 4.05);
+blurIn('#s1 .kicker', 0.1); blurIn('#s1 .h .w', 0.3, 0.1); blurIn('#s1b', 1.6); blurIn('#s1h', 2.8); out('#s1', 4.55);
 // S2
-blurIn('#s2 .kicker', 4.6); blurIn('#s2 .h .w', 4.7); tl.fromTo('#s2c', { opacity: 0, y: 60, rotation: -2 }, { opacity: 1, y: 0, rotation: 0, duration: 0.6, ease: 'back.out(1.6)' }, 5.3);
-count('#n66', 0, 66, 6.0, 1.2); blurIn('#s2b', 7.0); out('#s2', 9.05);
+blurIn('#s2 .kicker', 5.1); blurIn('#s2 .h .w', 5.2); blurIn('#s2b', 5.9);
+tl.fromTo('#s2c', { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.6, ease: 'back.out(1.6)' }, 7.2); out('#s2', 12.05);
 // S3
-blurIn('#s3 .kicker', 9.6); blurIn('#s3 .h .w', 9.7); blurIn('#s3 .lbl', 10.3, 0.25);
-tl.fromTo('#b1', { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: 'power3.out' }, 10.4);
-tl.fromTo('#b2', { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: 'power3.out' }, 10.7);
-tl.fromTo('#b3', { scaleX: 0 }, { scaleX: 1, duration: 1.0, ease: 'power3.out' }, 11.0);
-blurIn('#s3b', 12.2); out('#s3', 14.05);
+blurIn('#s3 .kicker', 12.6); blurIn('#s3 .h .w', 12.7); blurIn('#s3b', 13.4); blurIn('#s3g', 15.6);
+tl.fromTo('.c5', { scale: 0 }, { scale: 1, duration: .3, ease: 'back.out(2)', stagger: .06 }, 16.0);
+tl.fromTo('.c66', { scale: 0 }, { scale: 1, duration: .25, ease: 'back.out(2)', stagger: .02 }, 16.4);
+blurIn('#s3h', 18.6); out('#s3', 21.55);
 // S4
-blurIn('#s4 .kicker', 14.6); blurIn('#s4 .h .w', 14.7); tl.fromTo('#n61', { opacity: 0, scale: .8 }, { opacity: 1, scale: 1, duration: .5, ease: 'back.out(2)' }, 15.6);
-count('#n61', 0, 61, 15.6, 1.0, v => '$' + Math.round(v));
-tl.fromTo('#stamp', { opacity: 0, scale: 2.2 }, { opacity: 1, scale: 1, duration: .35, ease: 'power4.in' }, 16.8);
-blurIn('#s4b', 17.2); out('#s4', 18.55);
+blurIn('#s4 .kicker', 22.1); blurIn('#s4 .h .w', 22.2); blurIn('#s4b', 23.2);
+tl.fromTo('#s4 .n', { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: .5, ease: 'power3.out', stagger: 1.0 }, 24.6);
+tl.fromTo('#l1', { scaleY: 0 }, { scaleY: 1, duration: .4 }, 25.2); tl.fromTo('#l2', { scaleY: 0 }, { scaleY: 1, duration: .4 }, 26.2);
+blurIn('#s4c', 28.0); out('#s4', 31.55);
 // S5
-blurIn('#s5 .kicker', 19.1); blurIn('#s5 .h .w', 19.2); blurIn('#s5 .f', 19.9, 0.45); blurIn('#cta', 21.6);
-
+blurIn('#s5 .kicker', 32.1); blurIn('#s5 .h .w', 32.2); blurIn('#s5 .mlbl', 32.9, .4);
+tl.fromTo('#m1', { scaleX: 0 }, { scaleX: 1, duration: .7, ease: 'power3.out' }, 33.1); blurIn('#m1v', 33.7);
+tl.fromTo('#m2', { scaleX: 0 }, { scaleX: 1, duration: 1.0, ease: 'power3.out' }, 34.0); blurIn('#m2v', 34.9); blurIn('#s5b', 35.6); out('#s5', 38.05);
+// S6
+blurIn('#s6 .kicker', 38.6); blurIn('#s6 .h .w', 38.7); tl.fromTo('#n61', { opacity: 0, scale: .8 }, { opacity: 1, scale: 1, duration: .5, ease: 'back.out(2)' }, 39.5);
+count('#n61', 0, 61, 39.5, 1.0, v => '$' + Math.round(v)); blurIn('#s6b', 41.0); out('#s6', 44.55);
+// S7
+blurIn('#s7 .kicker', 45.1); blurIn('#s7 .h .w', 45.2); blurIn('#s7b', 46.0); blurIn('#s7 .f', 46.9, 0.5); blurIn('#cta', 49.2);
 document.fonts.ready.then(() => { window.__timelines = window.__timelines || {}; window.__timelines["main"] = tl; });
 </script>
 </body>

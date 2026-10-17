@@ -5,7 +5,7 @@
   "type": "carousel",
   "made_by": "kanvas v2 (tes ulang oleh Claude, standar social-copy)",
   "canva_design": "https://canva.link/f41xnqvfxl59j7t",
-  "caption": "",
+  "caption": "Karhutla 2026 bikin langit Sumatra, Kalimantan, dan Papua berasap lagi. Pertanyaannya: apinya pasti dibakar orang?\n\nPer 14 Oktober 2026, BMKG mendeteksi 1.297 titik panas lewat satelit. Januari–Juli saja, lebih dari 202.000 hektare terbakar (Kementerian Kehutanan), hampir 3 kali luas Singapura. Asapnya menyumbang lebih dari 170.000 kasus infeksi saluran pernapasan di provinsi terdampak.\n\nHutan hujan dan gambut alami terlalu basah untuk terbakar sendiri, jadi WRI menyimpulkan hampir semua kebakaran hutan di Indonesia dimulai manusia, sengaja maupun lalai. Alasannya sering soal biaya: buka lahan pakai api sekitar US$28–57 per hektare, pakai alat berat US$566–850. El Niño bikin kemarau panjang sehingga api kecil gampang menjalar, dan gambut yang kering jadi bahan bakarnya.\n\nPlot twist: satu studi di Kalimantan Tengah (data 2000–2010) menemukan 68–71% titik awal api ada di lahan rusak tak terkelola, sementara konsesi sawit 17–19%.\n\nJadi dugaan \"pasti disulut\" hampir benar. Tapi \"hampir semua\" bukan \"semua\".\n\nDaerahmu pernah kena asap karhutla? Cerita di komentar 👇\n\nSumber: BMKG, Kementerian Kehutanan, Kemenkes (via AFP), WRI, Cattau dkk. (2016). Daftar lengkap di link bio.\n\n#karhutla #kebakaranhutan #gambut #elnino #lingkungan #cekdata #curioverse",
   "media": [
     {
       "file": "slide-1.jpg"
@@ -20,7 +20,8 @@
       "file": "slide-4.jpg"
     },
     {
-      "file": "slide-5.jpg"
+      "file": "slide-5.jpg",
+      "remote": "https://export-download.canva.com/Ini0E/DAHYR8Ini0E/-1/0/0005-8113754008971962629.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261016%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261016T205631Z&X-Amz-Expires=73104&X-Amz-Signature=b0d67742381f25b358567478cc580acce3d4b833deec335b7f2bae72a954c55e&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sat%2C%2017%20Oct%202026%2017%3A14%3A55%20GMT"
     },
     {
       "file": "slide-6.jpg"
@@ -40,5 +41,20 @@
   "post": {
     "status": "queued"
   },
-  "backfill": true
+  "backfill": true,
+  "editor": {
+    "by": "corong (demo oleh Claude)",
+    "skor": {
+      "hook": 5,
+      "judul_berantai": 5,
+      "orang_asing": 5,
+      "jargon": 5,
+      "angka": 5,
+      "visual": 4,
+      "alur": 5,
+      "keterbacaan": 4,
+      "penutup": 5
+    },
+    "diubah": "Batang biaya slide 5 dibuat proporsional (sebelumnya selisih ~5x, seharusnya ~15x). Caption baru: ringkasan lengkap tanpa perlu buka slide/web."
+  }
 }

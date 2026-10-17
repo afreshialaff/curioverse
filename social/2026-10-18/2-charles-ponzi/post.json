@@ -3,9 +3,9 @@
   "story": "charles-ponzi",
   "story_url": "https://curioverse-beta.vercel.app/stories/charles-ponzi",
   "type": "reel",
-  "made_by": "layar (tes awal oleh Claude)",
+  "made_by": "layar v2 (tes ulang oleh Claude, standar social-copy)",
   "backfill": true,
-  "caption": "Untung 50% dalam 45 hari. Kedengeran mantap? 😏 Tahun 1920, ribuan orang di Boston juga mikir gitu.\n\n💌 Charles Ponzi bilang rahasianya kupon pos internasional: beli murah di Italia, tukar mahal di Amerika.\n📈 Juli 1920 saja, hampir $6,5 juta masuk dari lebih dari 20.000 orang.\n🧾 Audit terakhir cuma nemu kupon senilai $61.\n\nInvestor lama dibayar pakai uang investor baru. Itu sebabnya namanya jadi istilah penipuan sampai sekarang.\n\nRed flag versi SEC + cerita lengkap dengan 5 sumber di link bio (curioverse-beta.vercel.app). Bukan saran investasi.\n\n#skemaponzi #investasibodong #scamfiles #sejarahkeuangan #faktaunik #literasikeuangan #curioverse",
+  "caption": "Gimana caranya 20.000 orang ketipu janji untung 50%? Ini kisah Charles Ponzi.\n\nTahun 1920 di Boston, Ponzi menjanjikan setoran $100 jadi $150 dalam 45 hari. Alasannya: kupon pos internasional, kupon yang bisa ditukar prangko di negara lain. Menurut hitungannya, setelah lira anjlok, $1 dapat 5 kupon di Boston tapi 66 kupon di Roma.\n\nMasalahnya, bisnis kupon itu nyaris nggak jalan. \"Untung\" investor lama dibayar pakai setoran investor baru. Juni 1920 masuk lebih dari $2,5 juta dari sekitar 7.800 orang. Juli, hampir $6,5 juta dari lebih dari 20.000 orang.\n\nAgustus 1920, koran Boston Post membongkar semuanya. Audit terakhir cuma nemu kupon senilai $61, dan investor yang telat cuma dapat balik sekitar 30-an sen per dolar.\n\nItulah skema Ponzi: untung lama dibayar uang baru. Waspadai untung tinggi yang \"dijamin\", untung yang stabil terus apa pun kondisi pasar, dan susahnya menarik uang sendiri.\n\nPernah ditawari investasi yang mirip begini? 👀\n\nSumber: Smithsonian Magazine, Investor.gov (SEC), Poynter, The Pulitzer Prizes, EBSCO. Daftar lengkap di link bio. Bukan saran investasi.\n\n#skemaponzi #investasibodong #scamfiles #literasikeuangan #sejarahkeuangan #curioverse",
   "media": [
     {
       "file": "reel.mp4"
@@ -19,5 +19,20 @@
   },
   "post": {
     "status": "queued"
+  },
+  "editor": {
+    "by": "corong (demo oleh Claude)",
+    "skor": {
+      "hook": 5,
+      "judul_berantai": 5,
+      "orang_asing": 5,
+      "jargon": 5,
+      "angka": 5,
+      "visual": 5,
+      "alur": 5,
+      "keterbacaan": 4,
+      "penutup": 5
+    },
+    "diubah": "Versi 2: 7 adegan 52 detik, ada penjelasan kupon pos, diagram alur uang, batang setoran proporsional ($2,5 jt vs $6,5 jt), definisi skema Ponzi di akhir. Caption baru."
   }
 }

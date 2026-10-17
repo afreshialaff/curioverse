@@ -1,5 +1,6 @@
-[{"t":0.1,"kind":"whoosh"},{"t":0.35,"kind":"pop"},{"t":2.4,"kind":"swish"},
- {"t":4.5,"kind":"whoosh"},{"t":5.3,"kind":"pop"},{"t":6.0,"kind":"rise","len":1.2},{"t":7.2,"kind":"ding"},
- {"t":9.5,"kind":"whoosh"},{"t":10.4,"kind":"tick"},{"t":10.7,"kind":"tick"},{"t":11.0,"kind":"tick"},
- {"t":14.5,"kind":"whoosh"},{"t":15.6,"kind":"rise","len":1.0},{"t":16.8,"kind":"thud"},
- {"t":19.0,"kind":"whoosh"},{"t":19.9,"kind":"pop"},{"t":20.35,"kind":"pop"},{"t":20.8,"kind":"pop"},{"t":21.6,"kind":"ding"}]
+[{"t":0.1,"kind":"whoosh"},{"t":0.4,"kind":"pop"},{"t":5,"kind":"whoosh"},{"t":7.2,"kind":"pop"},
+ {"t":12.5,"kind":"whoosh"},{"t":16.0,"kind":"tick"},{"t":16.4,"kind":"rise","len":1.4},{"t":18.6,"kind":"ding"},
+ {"t":22,"kind":"whoosh"},{"t":24.6,"kind":"pop"},{"t":25.6,"kind":"pop"},{"t":26.6,"kind":"pop"},
+ {"t":32,"kind":"whoosh"},{"t":33.1,"kind":"tick"},{"t":34.0,"kind":"rise","len":1.0},
+ {"t":38.5,"kind":"whoosh"},{"t":39.5,"kind":"rise","len":1.0},{"t":40.6,"kind":"thud"},
+ {"t":45,"kind":"whoosh"},{"t":46.9,"kind":"pop"},{"t":47.4,"kind":"pop"},{"t":47.9,"kind":"pop"},{"t":49.2,"kind":"ding"}]
