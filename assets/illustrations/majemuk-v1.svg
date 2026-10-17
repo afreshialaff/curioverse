@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Grafik bunga majemuk vs bunga biasa">
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+
+<text x="100" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#1B1A17" font-weight="700">Bunga yang berbunga</text>
+<text x="100" y="170" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#4D483F">Setoran awal Rp10 juta, bunga 6% per tahun, tanpa setoran tambahan</text>
+<line x1="190" x2="1150" y1="740" y2="740" stroke="#CDBFA6" stroke-width="2"/><text x="172" y="752" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F" text-anchor="end">0</text><line x1="190" x2="1150" y1="655" y2="655" stroke="#CDBFA6" stroke-width="2"/><text x="172" y="667" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F" text-anchor="end">10 jt</text><line x1="190" x2="1150" y1="570" y2="570" stroke="#CDBFA6" stroke-width="2"/><text x="172" y="582" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F" text-anchor="end">20 jt</text><line x1="190" x2="1150" y1="485" y2="485" stroke="#CDBFA6" stroke-width="2"/><text x="172" y="497" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F" text-anchor="end">30 jt</text><line x1="190" x2="1150" y1="400" y2="400" stroke="#CDBFA6" stroke-width="2"/><text x="172" y="412" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F" text-anchor="end">40 jt</text><line x1="190" x2="1150" y1="315" y2="315" stroke="#CDBFA6" stroke-width="2"/><text x="172" y="327" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F" text-anchor="end">50 jt</text><line x1="190" x2="1150" y1="230" y2="230" stroke="#CDBFA6" stroke-width="2"/><text x="172" y="242" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F" text-anchor="end">60 jt</text><text x="190" y="790" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F" text-anchor="middle">tahun 0</text><text x="510" y="790" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F" text-anchor="middle">10</text><text x="830" y="790" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F" text-anchor="middle">20</text><text x="1150" y="790" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F" text-anchor="middle">30 tahun</text>
+<path d="M190.0,655.0 L1150.0,502.0" fill="none" stroke="#5B7C9A" stroke-width="7" stroke-dasharray="18 12" stroke-linecap="round"/>
+<path d="M190.0,655.0 L222.0,649.9 L254.0,644.5 L286.0,638.8 L318.0,632.7 L350.0,626.3 L382.0,619.4 L414.0,612.2 L446.0,604.5 L478.0,596.4 L510.0,587.8 L542.0,578.6 L574.0,569.0 L606.0,558.7 L638.0,547.8 L670.0,536.3 L702.0,524.1 L734.0,511.1 L766.0,497.4 L798.0,482.8 L830.0,467.4 L862.0,451.0 L894.0,433.7 L926.0,415.3 L958.0,395.8 L990.0,375.2 L1022.0,353.3 L1054.0,330.1 L1086.0,305.5 L1118.0,279.4 L1150.0,251.8" fill="none" stroke="#A67C52" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="574" x2="574" y1="569.15" y2="740" stroke="#1B1A17" stroke-width="2" stroke-dasharray="6 8"/>
+<circle cx="574" cy="568.9632998939782" r="12" fill="#1B1A17"/>
+<text x="596" y="639.15" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#1B1A17" font-weight="700">± 12 tahun: jadi 2×</text>
+<circle cx="1150" cy="251.80325030237304" r="12" fill="#A67C52"/>
+<circle cx="1150" cy="502" r="12" fill="#5B7C9A"/>
+<g transform="translate(1250 250)">
+  <rect width="270" height="360" rx="18" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+  <rect x="30" y="44" width="40" height="10" rx="5" fill="#A67C52"/><text x="84" y="58" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#1B1A17" font-weight="700">majemuk</text>
+  <text x="30" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#7A5532" font-weight="700">±57,4 jt</text>
+  <rect x="30" y="174" width="40" height="10" rx="5" fill="#5B7C9A"/><text x="84" y="188" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#1B1A17" font-weight="700">bunga biasa</text>
+  <text x="30" y="242" font-family="Georgia, 'Times New Roman', serif" font-size="48" fill="#5B7C9A" font-weight="700">28 jt</text>
+  <text x="30" y="312" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#4D483F">setelah 30 tahun</text>
+</g>
+<g transform="translate(1250 650)"><text x="0" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#1B1A17" font-weight="700">Rule of 72:</text><text x="0" y="44" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F">72 ÷ 6 ≈ 12 tahun</text></g>
+<text x="1540" y="846" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#4D483F" text-anchor="end">Ilustrasi: Curioverse · simulasi, belum termasuk inflasi, pajak, dan biaya</text>
+</svg>

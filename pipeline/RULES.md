@@ -33,6 +33,7 @@ Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 - Field: `{ "src": "https://upload.wikimedia.org/...", "alt": "deskripsi isi gambar", "caption": "opsional", "credit": "nama pembuat", "license": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:..." }`.
 - Cara dapat `src`: WebFetch halaman `File:` di Commons, ambil URL `upload.wikimedia.org` versi thumbnail lebar ±1280px (pola `/thumb/.../1280px-Nama.jpg`) atau file aslinya kalau lebih kecil. Pastikan URL itu benar-benar ada di halaman.
 - Gambar harus relevan dan **jujur**: jangan pakai foto peristiwa lain seolah-olah peristiwa yang dibahas, jangan pakai foto orang lain sebagai tokoh artikel. Caption menyebut tahun/tempat kalau diketahui.
+- Ilustrasi sendiri: file SVG di `assets/illustrations/<id>-v1.svg` (dibuat lewat `scripts/illustrations.mjs`), `src` = `/assets/illustrations/<id>-v1.svg`, `credit` = "Curioverse", `license` = "Ilustrasi sendiri (Curioverse)", `page` = link file di GitHub. Cocok untuk konsep (finance, diagram sains). Jangan dipakai untuk wajah tokoh asli atau meniru foto peristiwa. Ganti isi gambar → naikkan versi nama file (cache /assets 1 tahun).
 - Dilarang: gambar dari Google Images, Getty, Shutterstock, situs berita (hak cipta media), poster film, logo merek, dan gambar AI yang meniru foto peristiwa nyata.
 
 ## 4. Suara

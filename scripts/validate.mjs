@@ -5,7 +5,7 @@
 //   node scripts/validate.mjs path/to/x.json  -> check one pipeline draft (Pena/Lup/Merpati use this)
 //
 // Exit code 1 = at least one error. Warnings never fail the build.
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 export const RULES = {
@@ -22,7 +22,9 @@ const PLACEHOLDER = /\b(TODO|TBD|lorem ipsum|xxx)\b|\[(sumber|source|link|isi)[^
 
 function checkImage(im, where, e) {
   if (!im) return;
-  if (!/^https:\/\//.test(im.src || "")) e.push(`${where}: gambar butuh "src" https`);
+  const local = /^\/assets\/illustrations\/[\w.-]+\.svg$/.test(im.src || "");
+  if (local && !existsSync(new URL(`..${im.src}`, import.meta.url))) e.push(`${where}: file ilustrasi ${im.src} tidak ada di repo`);
+  if (!local && !/^https:\/\//.test(im.src || "")) e.push(`${where}: gambar butuh "src" https (atau ilustrasi sendiri di /assets/illustrations/*.svg)`);
   if (!im.alt || im.alt.length < 8) e.push(`${where}: gambar butuh "alt" yang mendeskripsikan isinya`);
   if (!im.credit) e.push(`${where}: gambar butuh "credit" (pembuat/pemilik)`);
   if (!im.license) e.push(`${where}: gambar butuh "license" (mis. CC BY-SA 4.0, Public domain)`);

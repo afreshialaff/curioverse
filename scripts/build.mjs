@@ -560,6 +560,7 @@ const copyDir = (from, to) => { mkdirSync(join(OUT, to), { recursive:true }); fo
 for (const f of ["styles.css","app.js","home.js","explore.js","lab.js"]) { mkdirSync(join(OUT, "assets"), { recursive:true }); copyFileSync(join(ROOT, "src", f), join(OUT, "assets", f)); }
 copyDir("assets/vendor", "assets/vendor");
 copyDir("assets/fonts", "assets/fonts");
+copyDir("assets/illustrations", "assets/illustrations");
 copyFileSync(join(ROOT, "favicon.svg"), join(OUT, "favicon.svg"));
 const urls = ["/", "/explore", "/lab", "/reading-paths", ...A.map(a => "/stories/" + a.id)];
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${SITE}${u}</loc></url>`).join("\n")}\n</urlset>\n`);

@@ -29,5 +29,85 @@
       "license": "Public domain (NASA)",
       "page": "https://science.nasa.gov/photojournal/aster-images-post-eruption-anak-krakatau-volcano/"
     }
+  },
+  "tulip": {
+    "hero": {
+      "src": "/assets/illustrations/tulip-v1.svg",
+      "alt": "Ilustrasi bunga tulip bergaris merah-putih di samping grafik harga yang naik pelan, memuncak, lalu jatuh tajam pada Februari 1637",
+      "caption": "Tulip bergaris seperti api, varietas paling dicari di Belanda 1630-an, dan bentuk khas gelembung harga. Grafiknya ilustrasi pola, bukan data harga asli.",
+      "credit": "Curioverse",
+      "license": "Ilustrasi sendiri (Curioverse)",
+      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/tulip-v1.svg"
+    }
+  },
+  "majemuk": {
+    "hero": {
+      "src": "/assets/illustrations/majemuk-v1.svg",
+      "alt": "Grafik saldo Rp10 juta selama 30 tahun dengan bunga 6%: garis bunga majemuk melengkung naik ke sekitar Rp57,4 juta, garis bunga biasa lurus ke Rp28 juta",
+      "caption": "Simulasi Rp10 juta dengan bunga 6% per tahun: sekitar 12 tahun jadi dua kali lipat, sesuai Rule of 72.",
+      "credit": "Curioverse",
+      "license": "Ilustrasi sendiri (Curioverse)",
+      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/majemuk-v1.svg"
+    }
+  },
+  "bullbear": {
+    "hero": {
+      "src": "/assets/illustrations/bullbear-v1.svg",
+      "alt": "Ilustrasi kepala banteng hijau dan beruang merah di atas grafik harga yang naik ke puncak lalu turun lebih dari 20%",
+      "caption": "Bull menyerang dengan tanduk ke atas, bear dengan cakar ke bawah. Grafiknya contoh, bukan data indeks sungguhan.",
+      "credit": "Curioverse",
+      "license": "Ilustrasi sendiri (Curioverse)",
+      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/bullbear-v1.svg"
+    }
+  },
+  "inflasi": {
+    "hero": {
+      "src": "/assets/illustrations/inflasi-v1.svg",
+      "alt": "Empat gelas es kopi yang sama dengan harga Rp20.000, Rp21.000, Rp22.050, dan Rp23.150 dari tahun ke tahun",
+      "caption": "Contoh kalau harga naik 5% per tahun: es kopinya sama, harganya terus naik.",
+      "credit": "Curioverse",
+      "license": "Ilustrasi sendiri (Curioverse)",
+      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/inflasi-v1.svg"
+    }
+  },
+  "candle": {
+    "hero": {
+      "src": "/assets/illustrations/candle-v1.svg",
+      "alt": "Diagram dua candlestick, hijau naik dan merah turun, dengan label high, open, close, low, badan, dan sumbu",
+      "caption": "Satu lilin merangkum empat harga dalam satu periode. Warna naik dan turun tergantung aplikasi.",
+      "credit": "Curioverse",
+      "license": "Ilustrasi sendiri (Curioverse)",
+      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/candle-v1.svg"
+    }
+  },
+  "g20": {
+    "hero": {
+      "src": "/assets/illustrations/g20-v1.svg",
+      "alt": "Daftar anggota G20 dalam kotak-kotak: 19 negara dengan Indonesia disorot, ditambah Uni Eropa dan Uni Afrika",
+      "caption": "Anggota G20: 19 negara, Uni Eropa, dan Uni Afrika (sejak 2023).",
+      "credit": "Curioverse",
+      "license": "Ilustrasi sendiri (Curioverse)",
+      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/g20-v1.svg"
+    }
+  },
+  "cekberita": {
+    "hero": {
+      "src": "/assets/illustrations/cekberita-v1.svg",
+      "alt": "Ilustrasi ponsel dengan tombol share dan tanda tanya, di samping lima pertanyaan untuk mengecek berita",
+      "caption": "Lima pertanyaan sebelum share berita.",
+      "credit": "Curioverse",
+      "license": "Ilustrasi sendiri (Curioverse)",
+      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/cekberita-v1.svg"
+    }
+  },
+  "tardigrade": {
+    "hero": {
+      "src": "/assets/illustrations/tardigrade-v1.svg",
+      "alt": "Gambar kartun tardigrade berkaki delapan dan bentuk tun yang mengerut, dengan panah kering dan ketemu air di antaranya",
+      "caption": "Tardigrade aktif dan dalam mode tun. Bentuknya disederhanakan, bukan skala.",
+      "credit": "Curioverse",
+      "license": "Ilustrasi sendiri (Curioverse)",
+      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/tardigrade-v1.svg"
+    }
   }
 }
