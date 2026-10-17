@@ -9,6 +9,6 @@ Format bebas, contoh: `- karhutla di Kalimantan: beneran disulut atau alami?`
 Status diisi agent: `[diproses <tgl>]` oleh Kompas, `[terbit <tgl> → <id>]` oleh Merpati, `[ditolak <tgl>: alasan]` kalau nggak lolos aturan.
 
 ## Antrean
-- karhutla yang masih terjadi di Kalimantan, Papua, dan Sumatra: apa benar kebakarannya nggak mungkin alami dan pasti disulut? Crosscheck dengan riset. [diproses 2026-10-17]
 
 ## Selesai
+- karhutla yang masih terjadi di Kalimantan, Papua, dan Sumatra: apa benar kebakarannya nggak mungkin alami dan pasti disulut? Crosscheck dengan riset. [terbit 2026-10-17 → karhutla-disulut-atau-alami]
