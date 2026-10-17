@@ -13,7 +13,7 @@ Evaluasi tes 17 Okt 2026:
 - **Ujungnya jualan link.** Slide terakhir lebih sibuk mengajak ke web daripada menutup cerita.
 
 ## 2. Struktur wajib: cerita 6 langkah
-Carousel 7–9 slide atau Reels 6 adegan (35–50 detik), urut:
+Carousel 7–9 slide atau Reels 6 adegan (35–55 detik), urut:
 1. **Hook = pertanyaan atau pernyataan yang memuat topik.** Orang harus tahu ini soal apa dalam 3 detik. ("Gimana caranya 20.000 orang ketipu janji untung 50%?" bukan "Untung 50%.")
 2. **Konteks: apa, siapa, kapan, di mana.** Satu slide penuh. Jelaskan istilah kunci di sini.
 3. **Mekanisme: kok bisa?** Bagian paling penting. Jelaskan cara kerjanya dengan bahasa sehari-hari, idealnya dengan diagram alur atau perbandingan.

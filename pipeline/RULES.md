@@ -74,7 +74,7 @@ Diatur di `pipeline/config.json`: minimal 1, normalnya `max_per_day` (1). Hari k
 - **Standar copywriting & visual: `pipeline/skills/social-copy.md`.** Post harus bisa dipahami utuh tanpa membuka web. Caption ditulis Corong sesuai bagian 5 skill itu.
 - Topik sensitif (RULES bagian 5) berlaku sama: status hukum tepat, tanpa tuduhan baru, tanpa langkah teknis penipuan.
 - Desain/video: gaya Curioverse (parchment, tinta, moss, sepia gold, bintang empat sudut), teks besar dan terbaca di HP, tanpa foto stok orang, tanpa logo merek, tanpa gambar AI yang meniru foto nyata.
-- Format: carousel 7–9 slide JPEG 4:5 (1080×1350, dipotong otomatis dari 3:4), Reels MP4 H.264 + AAC 9:16 1080×1920, 35–50 detik.
+- Format: carousel 7–9 slide JPEG 4:5 (1080×1350, dipotong otomatis dari 3:4), Reels MP4 H.264 + AAC 9:16 1080×1920, 35–55 detik.
 
 ### Corong (16.40 WIB)
 Editor kejelasan + penulis caption. Lihat `pipeline/agents/corong.md`.
