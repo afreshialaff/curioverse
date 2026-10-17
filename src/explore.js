@@ -20,6 +20,7 @@ function syncUrl(){
   const s = p.toString();
   try { history.replaceState(null, "", location.pathname + (s ? "?" + s : "")); } catch(e){}
 }
+let first = true;
 function render(){
   $$("#chips .chip").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.cat === state.cat)));
   const terms = CV.norm(state.q.trim()).split(/\s+/).filter(Boolean);
@@ -31,9 +32,12 @@ function render(){
   });
   const by = { new:(a, b) => b.dataset.date.localeCompare(a.dataset.date), short:(a, b) => (+a.dataset.min - +b.dataset.min) || b.dataset.date.localeCompare(a.dataset.date), az:(a, b) => a.dataset.title.localeCompare(b.dataset.title, "id") }[state.sort];
   cards.slice().sort(by).forEach(c => grid.appendChild(c));
+  // after a filter change, the remaining cards settle in one by one
+  if (!first && !CV.reduced) shown.forEach((c, i) => { c.classList.remove("pop"); void c.offsetWidth; c.style.setProperty("--k", Math.min(i, 8)); c.classList.add("pop"); });
+  first = false;
   none.hidden = shown.length > 0; grid.hidden = shown.length === 0;
   digest.hidden = state.cat !== "global";
-  if (!shown.length) $("#none-msg").textContent = state.q.trim() ? `Nggak ada cerita yang cocok sama "${state.q.trim()}"${state.cat !== "all" ? " di topik " + CV.LABEL[state.cat] : ""}. Coba kata lain atau topik lain.` : "Belum ada cerita di filter ini.";
+  if (!shown.length) $("#none-msg").textContent = state.q.trim() ? `Nggak ada cerita yang cocok sama "${state.q.trim()}"${state.cat !== "all" ? " di topik " + CV.LABEL[state.cat] : ""}. Coba kata lain atau topik lain.` : state.cat !== "all" && !cards.some(c => c.dataset.c === state.cat || c.dataset.also === state.cat) ? `Cerita pertama soal ${CV.LABEL[state.cat]} lagi disiapin. Sementara itu, coba Surprise Me.` : "Belum ada cerita di filter ini.";
   // visible active filters
   const tags = [];
   if (state.cat !== "all") tags.push(`<span class="tagx">Topik: ${CV.LABEL[state.cat]}<button type="button" data-clear="cat" aria-label="Hapus filter topik ${CV.LABEL[state.cat]}"><svg class="ico" aria-hidden="true" style="width:16px;height:16px"><use href="#i-close"/></svg></button></span>`);

@@ -157,6 +157,52 @@ if ("IntersectionObserver" in window && !reduced) {
   nodes.forEach(n => io.observe(n));
 } else nodes.forEach(n => n.classList.add("is-in"));
 
+/* ---------- covers: if a smaller Wikimedia size is refused, fall back to the full image ---------- */
+document.addEventListener("error", e => {
+  const img = e.target;
+  if (!(img instanceof HTMLImageElement) || !img.dataset.full || img.dataset.fell) return;
+  img.dataset.fell = "1"; img.removeAttribute("srcset"); img.src = img.dataset.full;
+}, true);
+
+/* ---------- toast, share, copy ---------- */
+const toastEl = $("[data-toast]");
+let toastT = 0;
+const toast = msg => {
+  if (!toastEl) return;
+  toastEl.textContent = msg; toastEl.classList.add("is-on");
+  clearTimeout(toastT); toastT = setTimeout(() => toastEl.classList.remove("is-on"), 2400);
+};
+const copy = (text, msg) => {
+  const done = () => toast(msg);
+  if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(done, () => prompt("Salin manual:", text));
+  else prompt("Salin manual:", text);
+};
+document.addEventListener("click", e => {
+  const sh = e.target.closest("[data-share]");
+  if (sh) {
+    const data = { title:document.title, url:location.href.split("#")[0] };
+    if (navigator.share) navigator.share(data).catch(() => {});
+    else copy(data.url, "Link cerita disalin");
+    return;
+  }
+  const cp = e.target.closest("[data-copy]");
+  if (cp) copy(cp.dataset.copy, cp.dataset.copyMsg || "Disalin");
+});
+
+/* ---------- back to top: shows up after the first screen and a half ---------- */
+const top = $("[data-top]");
+if (top) {
+  top.hidden = false;
+  let on = false;
+  const upd = () => { const v = scrollY > innerHeight * 1.5; if (v !== on) { on = v; top.classList.toggle("is-on", v); top.tabIndex = v ? 0 : -1; top.setAttribute("aria-hidden", String(!v)); } };
+  top.tabIndex = -1; top.setAttribute("aria-hidden", "true");
+  addEventListener("scroll", upd, { passive:true }); upd();
+  top.addEventListener("click", () => {
+    if (lenis) lenis.scrollTo(0, { duration:1.2 }); else scrollTo({ top:0, behavior:reduced ? "auto" : "smooth" });
+    const skip = $(".nav-brand"); skip && skip.focus({ preventScroll:true });
+  });
+}
+
 /* ---------- chip scrollers: hide the end fade ---------- */
 $$(".scroller > .chips").forEach(row => {
   const upd = () => row.parentElement.style.setProperty("--fade", row.scrollLeft + row.clientWidth >= row.scrollWidth - 4 ? "0" : "1");
