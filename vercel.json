@@ -2,7 +2,7 @@
   "buildCommand": "node scripts/build.mjs",
   "outputDirectory": "dist",
   "framework": null,
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':(exclude)pipeline'",
+  "ignoreCommand": "if [ -n \"$VERCEL_GIT_PREVIOUS_SHA\" ]; then git diff --quiet \"$VERCEL_GIT_PREVIOUS_SHA\" HEAD -- . ':(exclude)pipeline'; else exit 1; fi",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [

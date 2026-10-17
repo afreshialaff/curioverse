@@ -31,7 +31,7 @@ Ganti mode cukup edit satu baris di `config.json` dan push.
 3. Baca `pipeline/RULES.md` dan file peranmu di `pipeline/agents/`. **Jangan** baca file lain di luar daftar "Baca" peranmu kecuali perlu (hemat token).
 4. Kerjakan tugas. Validasi JSON pakai `node scripts/validate.mjs <file>`.
 5. Commit hanya file yang jadi tanggung jawabmu, pesan commit `pipeline(<agent>): <tgl> <ringkasan>`, lalu `git pull --rebase origin main && git push origin main`. Kalau push ditolak, ulangi pull-rebase sekali lagi.
-6. Commit yang cuma mengubah `pipeline/` nggak memicu deploy (lihat `ignoreCommand` di `vercel.json`), jadi aman.
+6. Push yang cuma mengubah `pipeline/` (dibanding deploy terakhir) nggak memicu deploy (lihat `ignoreCommand` di `vercel.json`), jadi aman.
 7. Tutup dengan ringkasan 3–5 baris: apa yang dikerjakan, apa yang macet, apa yang perlu manusia lihat.
 
 ## Kalau ada yang macet
