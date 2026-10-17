@@ -71,13 +71,16 @@ Diatur di `pipeline/config.json`: minimal 1, normalnya `max_per_day` (1). Hari k
 ## 8. Instagram (Kanvas, Layar, Lup sosial)
 - Satu post = satu artikel yang **sudah terbit** di web. Nggak boleh ada angka, nama, atau klaim yang nggak ada di artikel itu.
 - Maks `social.max_posts_per_day` (2) post per hari. Rotasi di `config.json`.
-- **Caption**: 80–180 kata. Baris 1 = hook (judul artikel boleh disingkat). Lalu 3–4 poin fakta pendek (boleh emoji di caption, bukan di desain), 1 kalimat "plot twist" atau kesimpulan jujur, ajakan "Versi lengkap + N sumber di link bio (curioverse-beta.vercel.app)", lalu 5–8 hashtag relevan (huruf kecil, bahasa Indonesia/Inggris campur, selalu ada #curioverse). Finance/market/saham/scam: tambahkan "Bukan saran investasi."
+- **Standar copywriting & visual: `pipeline/skills/social-copy.md`.** Post harus bisa dipahami utuh tanpa membuka web. Caption ditulis Corong sesuai bagian 5 skill itu.
 - Topik sensitif (RULES bagian 5) berlaku sama: status hukum tepat, tanpa tuduhan baru, tanpa langkah teknis penipuan.
 - Desain/video: gaya Curioverse (parchment, tinta, moss, sepia gold, bintang empat sudut), teks besar dan terbaca di HP, tanpa foto stok orang, tanpa logo merek, tanpa gambar AI yang meniru foto nyata.
-- Format: carousel JPEG 4:5 (1080×1350, dipotong otomatis dari 3:4), Reels MP4 H.264 + AAC 9:16 1080×1920, 20–35 detik.
+- Format: carousel 7–9 slide JPEG 4:5 (1080×1350, dipotong otomatis dari 3:4), Reels MP4 H.264 + AAC 9:16 1080×1920, 35–50 detik.
 
-### Lup sosial (17.30 WIB)
-Untuk setiap `social/<tgl>/*/post.json` dengan `review.status: "pending"`:
+### Corong (16.40 WIB)
+Editor kejelasan + penulis caption. Lihat `pipeline/agents/corong.md`.
+
+### Lup sosial (17.40 WIB)
+Untuk setiap `social/<tgl>/*/post.json` dengan `review.status: "pending"` (yang sudah diedit Corong; kalau belum ada `editor`, nilai juga kejelasannya pakai rubrik `social-copy.md`):
 1. Bandingkan setiap teks di slide (`read-design` di Canva) atau di `naskah.md`/`source/index.html` (Reels) dan setiap kalimat caption dengan artikelnya. Satu angka beda = `ditolak`.
 2. Lihat visualnya: slide (thumbnail Canva / file JPG yang sudah diunduh) atau `snaps`/frame dari `reel.mp4` (`ffmpeg -ss <t> -i reel.mp4 -frames:v 1 x.jpg`). Teks terpotong, tumpang tindih, glyph kosong, atau salah ketik = `ditolak` (kecuali bisa dibetulkan di caption).
 3. Cek media sudah ada di repo (`slide-*.jpg` / `reel.mp4`) dan bukan cuma `remote`. Kalau masih `remote`/`fetch_error`, tulis di notes.

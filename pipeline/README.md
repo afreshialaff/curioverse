@@ -12,7 +12,8 @@ Empat agent yang tiap hari bikin satu sampai beberapa artikel baru, lalu menerbi
 | 15.00 | 🕊️ **Merpati** | Publisher | final + review | `content/stories/<id>.json`, `log.md` |
 | 15.20 | 🎨 **Kanvas** | Carousel Instagram di Canva | artikel terbit hari ini | `social/<tgl>/<n>-<id>/post.json` (+ link ekspor) |
 | 15.25 | 🎬 **Layar** | Reels Instagram (HyperFrames) | artikel terbit hari ini | `social/<tgl>/<n>-<id>/reel.mp4`, `post.json` |
-| 17.30 | 🔎 **Lup sosial** | Cek fakta & visual post | post.json + artikel | `review` di post.json |
+| 16.40 | 📣 **Corong** | Editor kejelasan + tulis caption | post + artikel + `skills/social-copy.md` | perbaikan desain/video, `caption`, `editor.md` |
+| 17.40 | 🔎 **Lup sosial** | Cek fakta akhir | post.json + artikel | `review` di post.json |
 | 19.00 | 🤖 GitHub Actions | Posting ke Instagram | post yang `lolos` | `post.permalink` di post.json |
 
 `<tgl>` = tanggal hari itu di WIB, format `YYYY-MM-DD`.
@@ -55,7 +56,8 @@ pipeline/
   RULES.md           aturan redaksi + rubrik (dibaca semua agent)
   config.json        mode, kuota, aturan variasi topik
   inbox.md           ide dari pemilik web (didahulukan)
-  agents/            kompas.md, pena.md, lup.md, merpati.md
+  agents/            kompas.md, pena.md, lup.md, merpati.md, kanvas.md, layar.md, corong.md
+  skills/            social-copy.md (standar carousel, Reels, caption)
   templates/         story.json, review.md
   backlog.md         bank ide (dikelola Kompas)
   log.md             satu baris per hari (ditulis Merpati)
