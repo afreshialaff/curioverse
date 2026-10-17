@@ -8,6 +8,14 @@
   "tags": "ponzi skema ponzi investasi bodong penipuan boston 1920 kupon pos red flag",
   "hook": "Audit terakhir bisnis kupon pos Charles Ponzi cuma nemu kupon senilai $61, padahal uang yang masuk jutaan dolar.",
   "path": "tipu",
+  "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Chas._Ponzi_LCCN2014711137.jpg/1280px-Chas._Ponzi_LCCN2014711137.jpg",
+    "alt": "Foto hitam-putih Charles Ponzi berjas dan bertopi, berdiri menghadap kamera",
+    "caption": "Charles Ponzi, foto arsip Bain News Service. Koleksi Library of Congress.",
+    "credit": "Bain News Service, publisher",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Chas._Ponzi_LCCN2014711137.jpg"
+  },
   "sections": [
     {
       "h": "Datang dengan $2,50 dan banyak mimpi",
@@ -48,7 +56,15 @@
         "Ponzi menjalani hukuman federal karena penipuan lewat pos selama sekitar tiga setengah tahun, lalu dihukum lagi di tingkat negara bagian. Dia sempat kabur saat bebas dengan jaminan dan tertangkap di New Orleans. Setelah bebas tahun 1934, dia dideportasi ke Italia pada 7 Oktober 1934.",
         "Dia meninggal pada 18 Januari 1949 di bangsal amal sebuah rumah sakit di Rio de Janeiro, Brasil. Uang yang tersisa sekitar $75, cukup untuk biaya pemakamannya.",
         "Sementara itu, Boston Post memenangkan Pulitzer Prize 1921 kategori Public Service untuk serangkaian artikel yang membongkar operasi Ponzi sampai dia ditangkap. Jurnalisme investigasi yang sabar mengalahkan narasi untung cepat."
-      ]
+      ],
+      "img": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Charles_Ponzi_mug_shot.jpg/1280px-Charles_Ponzi_mug_shot.jpg",
+        "alt": "Foto polisi hitam-putih Charles Ponzi dari depan dan samping",
+        "caption": "Foto polisi Charles Ponzi, tahun 1920-an.",
+        "credit": "US Goverment",
+        "license": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Charles_Ponzi_mug_shot.jpg"
+      }
     },
     {
       "h": "Kenapa polanya masih jalan 100 tahun kemudian",

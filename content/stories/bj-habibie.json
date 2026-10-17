@@ -8,6 +8,14 @@
   "tags": "habibie bj habibie mr crack n250 gatotkaca iptn pesawat insinyur aachen hakteknas ainun presiden",
   "hook": "Julukan B.J. Habibie adalah Mr. Crack, tapi disertasi doktornya di Aachen tahun 1965 justru soal tegangan akibat panas, bukan retakan.",
   "path": "",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Bacharuddin_Jusuf_Habibie_official_portrait.jpg",
+    "alt": "Foto resmi B.J. Habibie berkacamata dan berjas gelap dengan peci hitam, latar bendera Merah Putih",
+    "caption": "Potret resmi B.J. Habibie sebagai Wakil Presiden Republik Indonesia, Maret 1998.",
+    "credit": "Office of the Vice President The Republic of Indonesia",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Bacharuddin_Jusuf_Habibie_official_portrait.jpg"
+  },
   "sections": [
     {
       "h": "Anak Parepare yang kepincut pesawat",
@@ -44,7 +52,15 @@
         "Proyek paling ikonik di era itu adalah N-250 Gatotkaca, pesawat penumpang turboprop rancangan insinyur Indonesia. Pesawat ini terbang perdana pada 10 Agustus 1995 dari Bandara Husein Sastranegara, Bandung. N-250 dirancang dengan teknologi fly-by-wire, yaitu sistem kendali yang memakai sinyal elektronik dan komputer, bukan sambungan mekanis langsung dari kokpit.",
         "Tanggal penerbangan perdana itu kemudian diperingati sebagai Hari Kebangkitan Teknologi Nasional (Hakteknas) setiap 10 Agustus. ITS menyebut penerbangan itu sebagai titik awal kebangkitan teknologi bangsa, karena pesawatnya dirancang dan dibangun oleh insinyur Indonesia di IPTN.",
         "Tapi ceritanya nggak berakhir manis. Saat krisis moneter 1997–1998, pengembangan N-250 dihentikan, dan penghentian itu menjadi bagian dari syarat program bantuan IMF. Pesawat ini juga nggak pernah sukses secara komersial. Tanggal 19 Agustus 2020, purwarupa N-250 dipindahkan ke Museum Pusat Dirgantara Mandala (Muspusdirla) TNI AU di Yogyakarta, tempat kamu bisa melihatnya sekarang."
-      ]
+      ],
+      "img": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/The_N250_Prototypes_%2844246325392%29.jpg/1280px-The_N250_Prototypes_%2844246325392%29.jpg",
+        "alt": "Dua pesawat baling-baling putih N250 diparkir berdampingan di dalam hanggar",
+        "caption": "Dua prototipe N250, PK-XNG Gatotkaca dan PK-XNK, dipamerkan dalam kunjungan hanggar PT Dirgantara Indonesia, Agustus 2018.",
+        "credit": "PK-REN",
+        "license": "CC BY-SA 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:The_N250_Prototypes_(44246325392).jpg"
+      }
     },
     {
       "h": "Presiden selama 17 bulan",

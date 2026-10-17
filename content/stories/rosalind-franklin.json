@@ -8,6 +8,14 @@
   "tags": "rosalind franklin photo 51 dna double helix watson crick wilkins nobel 1962 kristalografi sinar-x perempuan ilmuwan",
   "hook": "Photo 51, foto DNA paling terkenal di dunia, butuh penyinaran sinar-X total 62 jam. Pemotretnya nggak tahu foto itu diperlihatkan ke Watson.",
   "path": "jenius",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Rosalind_Franklin.jpg",
+    "alt": "Foto hitam-putih Rosalind Franklin duduk di depan mikroskop",
+    "caption": "Rosalind Franklin dengan mikroskop, 1955. Koleksi MRC Laboratory of Molecular Biology.",
+    "credit": "MRC Laboratory of Molecular Biology",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Rosalind_Franklin.jpg"
+  },
   "sections": [
     {
       "h": "Ahli kimia yang mulai dari batu bara",
@@ -29,7 +37,15 @@
       "p": [
         "Bulan Mei 1952, Franklin dan mahasiswa doktoralnya, Raymond Gosling, memotret DNA bentuk B di ruang bawah tanah laboratorium kimia King's College di kampus Strand. Menurut King's College London, kamera dipasang pada 2 Mei dan filmnya dicuci pada 6 Mei. Sampel DNA disinari sinar-X dengan total waktu 62 jam.",
         "Hasilnya adalah foto yang kemudian dikenal sebagai Photo 51, foto terbaik Franklin untuk DNA bentuk B. Gambar-gambar difraksi Franklin, termasuk foto ini, memberi ukuran-ukuran yang kelak membantu Watson dan Crick menyusun model heliks ganda."
-      ]
+      ],
+      "img": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/60251254_photo-51-print-qp867-a4_2.jpg/1280px-60251254_photo-51-print-qp867-a4_2.jpg",
+        "alt": "Diagram bergaya kartun: berkas sinar-X mengenai serat DNA dan menghasilkan pola X di pelat foto",
+        "caption": "Ilustrasi penjelas cara kerja Photo 51: sinar-X yang dihamburkan serat DNA membentuk pola X khas heliks ganda. Bukan foto aslinya.",
+        "credit": "Emily Willoughby",
+        "license": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:60251254_photo-51-print-qp867-a4_2.jpg"
+      }
     },
     {
       "h": "Januari 1953: foto itu berpindah tangan",
