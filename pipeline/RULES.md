@@ -13,6 +13,8 @@ Kitab bersama untuk Kompas, Pena, Lup, dan Merpati. Kalau ada yang bertentangan 
 - Wikipedia boleh, tapi maksimal setengah dari daftar sumber. Utamakan sumber primer dan lembaga: jurnal/DOI, situs resmi (NASA, NobelPrize.org, BI, OJK, IDX, BPS, SEC, FBI), arsip museum/perpustakaan, Britannica, media kredibel (Reuters, AP, BBC, Kompas, Tempo, The Guardian, NYT), Smithsonian, History.com hanya sebagai pelengkap.
 - Setiap link **harus benar-benar dibuka** (WebFetch) dan isinya **mendukung** klaim yang ditempelkan ke situ. Halaman 404, paywall total, halaman beranda generik, atau hasil pencarian = bukan sumber.
 - Judul sumber (`t`) ditulis jelas: `Penerbit/Situs: Judul halaman`. Contoh: `NobelPrize.org: Marie Curie, Facts`.
+- Sumber harus bisa dibuka **oleh agent** lewat WebFetch, bukan cuma oleh manusia. Situs yang memblokir bot (per Oktober 2026: Investopedia, Britannica, sebagian halaman Nature/NIH) jangan dipakai sebagai salah satu dari 5 sumber wajib, karena Lup nggak bisa memverifikasinya. Boleh ditambahkan sebagai sumber ke-6 dan seterusnya.
+- Kalau dua sumber kredibel menyebut angka berbeda, tulis rentangnya dan sebut bahwa sumbernya berbeda. Jangan pilih salah satu diam-diam.
 - Dilarang: blog anonim, konten AI, forum, situs clickbait, video tanpa transkrip, situs judi/pinjol.
 
 ## 3. Struktur artikel 🤖

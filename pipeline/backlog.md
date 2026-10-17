@@ -19,7 +19,7 @@ Dikelola Kompas. Format: `- [siap|riset|terpakai] <cat> · <judul kerja> — <an
 - [riset] sejarah · Jalur rempah dan harga pala di Eropa — kenapa satu pulau kecil di Banda diperebutkan
 
 ## Biografi
-- [riset] biografi · Rosalind Franklin dan Foto 51 — kontribusinya pada struktur DNA
+- [terpakai] biografi · Rosalind Franklin dan Foto 51 (terbit 2026-10-17)
 - [riset] biografi · Raden Saleh, pelukis Jawa di istana Eropa abad 19
 - [riset] biografi · Srinivasa Ramanujan — matematikawan otodidak yang nulis rumus dari mimpi (cek klaim mimpinya)
 
