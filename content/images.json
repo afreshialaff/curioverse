@@ -1,3 +1,33 @@
 {
-  "_catatan": "Gambar untuk cerita lama di stories.mjs. Cerita baru (content/stories/*.json) menaruh gambarnya di field image/img sendiri. Format: { id: { hero:{src,alt,credit,license,page}, sections:{ \"<index>\": {...} } } }"
+  "_catatan": "Gambar untuk cerita lama di stories.mjs. Cerita baru (content/stories/*.json) menaruh gambarnya di field image/img sendiri. Format: { id: { hero:{src,alt,credit,license,page}, sections:{ \"<index>\": {...} } } }",
+  "langit": {
+    "hero": {
+      "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/44000/44267/ISS023-E-57948.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+      "alt": "Matahari terbenam dilihat dari luar angkasa: lapisan atmosfer Bumi tampak tipis melengkung, oranye dan kuning di bagian bawah, lalu memudar jadi biru ke atas",
+      "caption": "Sunset di atas Samudra Hindia, difoto kru Stasiun Luar Angkasa Internasional (ISS) pada 25 Mei 2010. Lapisan bawah oranye, lapisan atas biru.",
+      "credit": "NASA Johnson Space Center, ISS Crew Earth Observations (ISS023-E-57948)",
+      "license": "Public domain (NASA)",
+      "page": "https://science.nasa.gov/earth/earth-observatory/sunset-from-the-international-space-station-44267/"
+    }
+  },
+  "cahaya": {
+    "hero": {
+      "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2005/09/STScI-01EVVM9R75RVTEHV4R6SDT34D3.tif/jcr:content/renditions/800x800.jpg",
+      "alt": "Ribuan galaksi kecil berwarna-warni di latar langit hitam, hasil pengamatan teleskop Hubble ke satu titik kecil di langit",
+      "caption": "Hubble Ultra Deep Field (dirilis 2004): hampir setiap titik di foto ini adalah galaksi, dan cahaya sebagian di antaranya sudah berjalan miliaran tahun.",
+      "credit": "NASA, ESA, S. Beckwith dan HUDF Team (STScI), B. Mobasher (STScI)",
+      "license": "Public domain (NASA)",
+      "page": "https://science.nasa.gov/asset/hubble/hubble-ultra-deep-field/"
+    }
+  },
+  "krakatau": {
+    "hero": {
+      "src": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22821/PIA22821.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+      "alt": "Citra satelit Anak Krakatau di Selat Sunda: pulau kecil berwarna abu-abu gelap dengan kawah yang berisi air, dikelilingi laut",
+      "caption": "Anak Krakatau, gunung yang tumbuh dari kaldera bekas letusan 1883, dipotret satelit ASTER pada 13 Januari 2019, beberapa minggu setelah longsor dan letusan Desember 2018.",
+      "credit": "NASA/METI/AIST/Japan Space Systems, U.S./Japan ASTER Science Team",
+      "license": "Public domain (NASA)",
+      "page": "https://science.nasa.gov/photojournal/aster-images-post-eruption-anak-krakatau-volcano/"
+    }
+  }
 }
