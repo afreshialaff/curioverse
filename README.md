@@ -19,7 +19,7 @@ assets/fonts/         Inter Tight, Instrument Serif, JetBrains Mono (WOFF2, SIL 
 
 Halaman yang dihasilkan: `/`, `/explore`, `/lab`, `/reading-paths`, `/stories/<id>`, `404`, plus `sitemap.xml`, `robots.txt`, dan `feed.xml` (RSS 20 cerita terbaru).
 
-Kontak (email dan Instagram) diatur di `CONTACT` di `content/stories.mjs`, lalu tampil di beranda (`/#kontak`), menu, footer, dan ajakan koreksi di tiap cerita.
+Kontak (email, Instagram, Threads, X) diatur di `CONTACT` di `content/stories.mjs`, lalu tampil di beranda (`/#kontak`), menu, footer, dan ajakan koreksi di tiap cerita.
 
 ## Jalanin lokal
 ```bash

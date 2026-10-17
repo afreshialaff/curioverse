@@ -23,7 +23,7 @@ const fmtDate = d => { const [y, m, dd] = d.split("-").map(Number); return `${dd
 const words = a => (a.dek + " " + a.s.map(x => x[0] + " " + x[1].join(" ")).join(" ")).split(/\s+/).length;
 const mins = a => Math.max(1, Math.round(words(a) / 200));
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
-const KNOWN_ICONS = ["finance","science","sejarah","biografi","market","saham","global","scam","lingkungan","psikologi","healthy","konspirasi","search","dice","close","moon","sun","menu","arrow","mail","instagram","share","up"];
+const KNOWN_ICONS = ["finance","science","sejarah","biografi","market","saham","global","scam","lingkungan","psikologi","healthy","konspirasi","search","dice","close","moon","sun","menu","arrow","mail","instagram","threads","x","share","up"];
 const icon = (id, cls = "ico") => `<svg class="${cls}" aria-hidden="true"><use href="#i-${KNOWN_ICONS.includes(id) ? id : "topic"}"/></svg>`;
 // Category colours and labels come from content/categories.json, so new categories need no CSS or JS edits.
 const CAT_STYLE = `<style>:root{${ORDER.map(c => `--c-${c}:${CATS[c].light}`).join(";")}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){${ORDER.map(c => `--c-${c}:${CATS[c].dark}`).join(";")}}}:root[data-theme="dark"]{${ORDER.map(c => `--c-${c}:${CATS[c].dark}`).join(";")}}</style>`;
@@ -35,7 +35,6 @@ const latest = A.slice().sort((x, y) => y.date.localeCompare(x.date));
 const countFor = c => A.filter(a => a.cat === c || a.also === c).length;
 const holeOf = id => HOLES.find(h => h.ids.includes(id));
 const KIND_LABEL = { fakta:"Fakta", interpretasi:"Interpretasi", opini:"Opini kita" };
-const IG_URL = `https://www.instagram.com/${CONTACT.instagram}`;
 const MAILTO = (subject = "") => `mailto:${CONTACT.email}${subject ? "?subject=" + encodeURIComponent(subject) : ""}`;
 const heroOf = a => (IMAGES[a.id] || {}).hero;
 // Wikimedia thumbs are stored at 1280px; covers in lists only need 500 to 960px. The 1280px original stays in data-full as a fallback.
@@ -66,6 +65,8 @@ const ICONS = `<svg width="0" height="0" style="position:absolute" aria-hidden="
 <symbol id="i-konspirasi" viewBox="0 0 24 24"><path d="M12 3.5l9 16H3z"/><path d="M7.7 14.2c1.2-1.5 2.6-2.3 4.3-2.3s3.1.8 4.3 2.3c-1.2 1.5-2.6 2.3-4.3 2.3s-3.1-.8-4.3-2.3z"/><circle cx="12" cy="14.2" r="1"/></symbol>
 <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="M4 7.5l8 5.8 8-5.8"/></symbol>
 <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r=".7" fill="currentColor"/></symbol>
+<symbol id="i-threads" viewBox="0 0 24 24"><path d="M16.6 11.3c-.3-2.6-2-4-4.4-4-1.8 0-3.2.8-3.9 2.1"/><path d="M16.6 11.3c-1.3-.5-2.7-.6-4-.4-2 .3-3.2 1.4-3.1 2.8.1 1.5 1.6 2.4 3.4 2.2 2.4-.3 3.5-2.2 3.4-5.6"/><path d="M16.6 11.3c2 .9 3 2.4 2.4 4.6-.8 2.8-3.4 4.6-7 4.6-4.6 0-7.5-3.2-7.5-8.5S7.4 3.5 12 3.5c3.4 0 5.8 1.6 6.9 4.4"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M4.5 4.5h4.2l10.8 15h-4.2z"/><path d="M19 4.5l-5.8 6.4M10.8 13.1L5 19.5"/></symbol>
 <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15V4M8 8l4-4 4 4"/><path d="M5 12v6.5c0 .8.7 1.5 1.5 1.5h11c.8 0 1.5-.7 1.5-1.5V12"/></symbol>
 <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
 <symbol id="i-topic" viewBox="0 0 24 24"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H11v16H5.5C4.7 20 4 19.3 4 18.5z"/><path d="M20 5.5c0-.8-.7-1.5-1.5-1.5H13v16h5.5c.8 0 1.5-.7 1.5-1.5z"/></symbol>
@@ -175,7 +176,7 @@ function footer(){
         <a href="/explore">Explore</a><a href="/lab">Lab</a><a href="/reading-paths">Reading Paths</a><a href="/explore?topik=global">Radar Global</a><a href="/#kurator">Tentang kami</a><a href="/#kontak">Kontak</a><button type="button" data-surprise>Surprise Me</button>
       </nav>
       <nav class="foot-social" aria-label="Kontak">
-        <a href="${MAILTO()}" aria-label="Email: ${esc(CONTACT.email)}">${icon("mail")}<span>Email</span></a><a href="${IG_URL}" target="_blank" rel="noopener" aria-label="Instagram @${esc(CONTACT.instagram)} (tab baru)">${icon("instagram")}<span>Instagram</span></a>
+        <a href="${MAILTO()}" aria-label="Email: ${esc(CONTACT.email)}">${icon("mail")}<span>Email</span></a>${CONTACT.social.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener" aria-label="${esc(s.label)} ${esc(s.handle)} (tab baru)">${icon(s.icon)}<span>${esc(s.label)}</span></a>`).join("")}
       </nav>
       <p class="fine">© 2026 ${esc(CURATORS)} · A curious mind lives here · Bukan saran investasi</p>
     </div>
@@ -434,7 +435,7 @@ function home(){
         <div class="stamp" aria-hidden="true"><span>${MARK}<small>KEPO POST</small></span></div>
         <ul class="pc-links">
           <li><a class="pc-link" href="${MAILTO("Halo Curioverse")}">${icon("mail")}<span><small>Email</small><b>${esc(CONTACT.email)}</b></span><i class="arr" aria-hidden="true">↗</i></a></li>
-          <li><a class="pc-link" href="${IG_URL}" target="_blank" rel="noopener">${icon("instagram")}<span><small>Instagram</small><b>@${esc(CONTACT.instagram)}</b></span><i class="arr" aria-hidden="true">↗</i></a></li>
+          ${CONTACT.social.map(s => `<li><a class="pc-link" href="${esc(s.url)}" target="_blank" rel="noopener">${icon(s.icon)}<span><small>${esc(s.label)}</small><b>${esc(s.handle)}</b></span><i class="arr" aria-hidden="true">↗</i></a></li>`).join("\n          ")}
         </ul>
         <button class="pc-copy" type="button" data-copy="${esc(CONTACT.email)}" data-copy-msg="Email disalin">Salin alamat email</button>
       </div>
@@ -443,7 +444,7 @@ function home(){
 </section>`;
   return page({ path:"/", title:"Curioverse", desc:"Buku catatan buat orang kepo. Finance, science, sejarah, biografi, market, saham, berita dunia, sampai kisah penipu legendaris, ditulis santai oleh AfreshiaLa & LeoFa.", body, scripts:["home.js"],
     jsonld:{ "@context":"https://schema.org", "@type":"WebSite", name:"Curioverse", url:SITE + "/", inLanguage:"id",
-      sameAs:[IG_URL], potentialAction:{ "@type":"SearchAction", target:SITE + "/explore?q={search_term_string}", "query-input":"required name=search_term_string" } } });
+      sameAs:CONTACT.social.map(s => s.url), potentialAction:{ "@type":"SearchAction", target:SITE + "/explore?q={search_term_string}", "query-input":"required name=search_term_string" } } });
 }
 
 function short(v){ return v >= 1e9 ? "Rp" + (v / 1e9).toLocaleString("id-ID", { maximumFractionDigits:1 }) + " M" : "Rp" + (v / 1e6).toLocaleString("id-ID", { maximumFractionDigits:1 }) + " jt"; }
