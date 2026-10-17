@@ -1,5 +1,5 @@
 {
-  "_catatan": "Daftar kategori. Kompas boleh menambah kategori baru di sini (id huruf kecil tanpa spasi). icon opsional: finance, science, sejarah, biografi, market, saham, global, scam; selain itu pakai ikon umum.",
+  "_catatan": "Daftar kategori. Kompas boleh menambah kategori baru di sini (id huruf kecil tanpa spasi). icon opsional: finance, science, sejarah, biografi, market, saham, global, scam, lingkungan, psikologi, healthy, konspirasi; selain itu pakai ikon umum.",
   "finance":  { "label": "Finance",     "desc": "Duit, tabungan, dan cara uang bekerja",              "light": "#A67C52", "dark": "#C9A27A" },
   "science":  { "label": "Science",     "desc": "Langit, cahaya, dan makhluk ajaib",                   "light": "#5B7C9A", "dark": "#93B3CF" },
   "sejarah":  { "label": "Sejarah",     "desc": "Kejadian besar dan plot twist masa lalu",             "light": "#3F4A3B", "dark": "#9DB08F" },
@@ -8,5 +8,8 @@
   "saham":    { "label": "Saham",       "desc": "Dari VOC sampai candlestick",                         "light": "#9A3F2B", "dark": "#E08A6E" },
   "global":   { "label": "Global News", "desc": "Bekal buat baca berita dunia",                        "light": "#5C5649", "dark": "#ABA291" },
   "scam":     { "label": "Scam Files",  "desc": "Penipu legendaris dan kenapa orang bisa ketipu",      "light": "#7A4560", "dark": "#D3A3BC" },
-  "lingkungan": { "label": "Lingkungan", "desc": "Hutan, iklim, dan jejak manusia di bumi",          "light": "#3E5A3A", "dark": "#A9C79F" }
+  "lingkungan": { "label": "Lingkungan", "desc": "Hutan, iklim, dan jejak manusia di bumi",          "light": "#3E5A3A", "dark": "#A9C79F" },
+  "psikologi":  { "label": "Psikologi",  "desc": "Kenapa otak kita suka bertingkah aneh",           "light": "#5E4F8C", "dark": "#B7A8DE" },
+  "healthy":    { "label": "Healthy",    "desc": "Tidur, makan, gerak, dan mitos soal sehat",       "light": "#2F6B66", "dark": "#8CC7C0" },
+  "konspirasi": { "label": "Konspirasi", "desc": "Teori viral yang kita cek satu per satu",         "light": "#6B5A1E", "dark": "#D4C27A" }
 }

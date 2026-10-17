@@ -17,7 +17,9 @@ assets/vendor/        three.js r128 (MIT), Lenis 1.3.11 (MIT, smooth scroll)
 assets/fonts/         Inter Tight, Instrument Serif, JetBrains Mono (WOFF2, SIL OFL)
 ```
 
-Halaman yang dihasilkan: `/`, `/explore`, `/lab`, `/reading-paths`, `/stories/<id>`, `404`, plus `sitemap.xml` dan `robots.txt`.
+Halaman yang dihasilkan: `/`, `/explore`, `/lab`, `/reading-paths`, `/stories/<id>`, `404`, plus `sitemap.xml`, `robots.txt`, dan `feed.xml` (RSS 20 cerita terbaru).
+
+Kontak (email dan Instagram) diatur di `CONTACT` di `content/stories.mjs`, lalu tampil di beranda (`/#kontak`), menu, footer, dan ajakan koreksi di tiap cerita.
 
 ## Jalanin lokal
 ```bash
@@ -36,4 +38,4 @@ Kalau domain berubah, set env `SITE_URL` di Vercel supaya canonical URL dan site
 4. Push. Vercel build ulang sendiri.
 
 ## Bahasa visual
-Tema sketchbook: jurnal rasa ingin tahu dengan kertas sobek, washi tape, catatan tulisan tangan (Caveat), fase bulan, dan band hijau bergelombang, dalam palet Curioverse (Parchment, Midnight Ink, Moss, Sepia Gold, Dusk Blue). Heading Instrument Serif, teks Inter Tight 18px. Motion dari afreshia.vercel.app tetap dipakai: Lenis, reveal mask, slide bertumpuk, track horizontal ter-pin, indikator nav, menu lingkaran. Hook pembuka di beranda mengambil satu fakta acak dari `HOOKS` di `content/stories.mjs`, dan tiga artikel unggulan diatur lewat `PICKS`.
+Tema sketchbook: jurnal rasa ingin tahu dengan kertas sobek, washi tape, catatan tulisan tangan (Caveat), fase bulan, dan band hijau bergelombang, dalam palet Curioverse (Parchment, Midnight Ink, Moss, Sepia Gold, Dusk Blue). Heading Instrument Serif, teks Inter Tight 18px. Motion dari afreshia.vercel.app tetap dipakai: Lenis, reveal mask, slide bertumpuk, track horizontal ter-pin, indikator nav, menu lingkaran. Tiap cerita tampil dengan sampulnya (gambar utama) di semua daftar; kartu sampul melebar jadi foto utama saat cerita dibuka (View Transitions, otomatis mati kalau pengguna memilih reduced motion). Hook pembuka di beranda mengambil satu fakta acak dari `HOOKS` di `content/stories.mjs`, dan tiga artikel unggulan diatur lewat `PICKS`.

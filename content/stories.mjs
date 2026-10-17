@@ -237,6 +237,8 @@ export const SOURCES = {
 };
 
 export const CURATORS = "AfreshiaLa & LeoFa";
+// Kontak yang tampil di beranda (#kontak), footer, dan ajakan koreksi di tiap cerita.
+export const CONTACT = { email:"afreshiala@gmail.com", instagram:"afreshialaff" };
 export const FEATURED = "tulip";
 
 // Three curated picks shown right under the hero ("Pilihan minggu ini"). Curated, not traffic-based.
