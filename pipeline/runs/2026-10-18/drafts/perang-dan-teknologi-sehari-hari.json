@@ -1,0 +1,118 @@
+{
+  "id": "perang-dan-teknologi-sehari-hari",
+  "cat": "sejarah",
+  "also": "science",
+  "date": "2026-10-18",
+  "title": "Microwave, penisilin, GPS: teknologi sehari-hari yang dipercepat perang",
+  "dek": "Banyak benda di sekitarmu punya masa lalu militer. Tapi perang jarang jadi penemunya. Ia lebih sering jadi pedal gas: dana besar, tenggat ketat, dan pabrik yang dipaksa ngebut. Ini jejaknya, mitosnya, dan harganya.",
+  "tags": "perang teknologi inovasi microwave radar magnetron percy spencer penisilin pfizer gps arpanet internet eniac colossus mesin jet whittle kotex velcro tang mitos perang dunia ii",
+  "hook": "Maret 1942, empat perusahaan obat AS baru menghasilkan penisilin untuk satu pasien. Saat D-Day 1944, obat itu sudah tersedia banyak untuk tentara Sekutu yang terluka.",
+  "path": "",
+  "image": {
+    "src": "https://images-assets.nasa.gov/image/GRC-1944-C-04314/GRC-1944-C-04314~orig.jpg",
+    "alt": "Pesawat jet Bell Airacomet tanpa ujung sayap dan ekor dipasang di dalam ruang uji terowongan angin raksasa, dikelilingi teknisi",
+    "caption": "Pesawat jet pertama AS, Bell Airacomet (YP-59A), diuji diam-diam di Altitude Wind Tunnel laboratorium mesin pesawat NACA, 21 Maret 1944. Ujung sayap dan ekornya dilepas supaya muat.",
+    "credit": "NASA Glenn Research Center (GRC-1944-C-04314)",
+    "license": "Public domain (NASA)",
+    "page": "https://www.nasa.gov/image-detail/amf-grc-1944-c-04314/"
+  },
+  "sections": [
+    {
+      "h": "Microwave di dapurmu punya kakak yang dulu memburu kapal selam",
+      "p": [
+        "Komponen inti microwave namanya magnetron. Antara 1939 dan 1941, tiga peneliti University of Birmingham, John Randall, Harry Boot, dan James Sayers, membuatnya jauh lebih kuat dan stabil. Hasilnya dipakai Sekutu untuk radar gelombang mikro di Perang Dunia II, termasuk radar di pesawat pemburu kapal selam.",
+        "Obat, komputer, navigasi satelit, sampai pembalut punya bab militer serupa. Pertanyaan menariknya bukan 'apa saja', tapi kenapa perang bikin semuanya ngebut, dan apakah semua itu memang lahir karena perang."
+      ]
+    },
+    {
+      "h": "Mesinnya: uang, tenggat, dan pabrik",
+      "p": [
+        "Di AS, mesin itu punya nama. Pada Juni 1940, Vannevar Bush mengusulkan National Defense Research Committee, yang kemudian dikenal sebagai Office of Scientific Research and Development (OSRD). Menurut ekonom Daniel Gross dan Bhaven Sampat di NBER Reporter, lembaga ini tumbuh dari inti delapan orang jadi badan pendanaan berisi 1.500 orang dengan anggaran miliaran dolar.",
+        "Resepnya ada tiga. Pertama, fokus terapan: riset krisis memakai 'basic knowledge at hand', pengetahuan dasar yang sudah ada, bukan menunggu teori baru. Kedua, banyak 'moonshot' dikerjakan bersamaan lalu dikelola dari pusat. Ketiga, laboratorium, pilot plant, dan pabrik disambungkan langsung.",
+        "Perang juga memaksa negara berbagi. Inggris tidak punya dana dan kapasitas pabrik untuk memproduksi magnetron secara massal. Karena itu, Winston Churchill setuju desain magnetron ditawarkan ke Amerika. Magnetron dibawa lewat Misi Tizard pada September 1940, desainnya langsung diadopsi untuk produksi massal, dan Bell Labs mulai membuat salinannya."
+      ]
+    },
+    {
+      "h": "Jejak 1: dari radar ke dapur",
+      "p": [
+        "Di Raytheon, AS, ada Percy Spencer. Menurut Lemelson-MIT, dia putus sekolah dasar di usia 12 tahun dan belajar fisika sendiri. Dia tidak menemukan magnetron, tapi merancang cara memproduksinya secara massal untuk peralatan radar.",
+        "Setelah perang, cokelat di sakunya meleleh saat dia bekerja di dekat magnetron. Dia lalu mencoba biji jagung, dan jadilah popcorn. Soal tahun, sumbernya beda: Lemelson-MIT mencatat paten diajukan 8 Oktober 1945, sementara IEEE Spectrum menulis kejadian dan pengajuan paten pada 1946.",
+        "Radarange generasi awal sama sekali bukan alat dapur rumahan. Tingginya sekitar 1,8 sampai 2 meter, beratnya sekitar 340 kg, kira-kira lima orang dewasa. Harganya US$3.000 menurut Lemelson-MIT atau sekitar US$5.000 menurut IEEE Spectrum. Baru pada 1967 Amana menjual model meja 110 volt seharga US$495."
+      ]
+    },
+    {
+      "h": "Jejak 2: penisilin, dari jamur ke tangki raksasa",
+      "p": [
+        "Alexander Fleming menemukan penisilin pada 1928. Masalahnya, membuatnya dalam jumlah besar sangat susah. Pada Juli 1941, ilmuwan Oxford Howard Florey dan Norman Heatley datang ke laboratorium USDA di Peoria, Illinois. Dengan bantuan Heatley, Andrew Moyer menaikkan hasil penisilin 10 kali lipat sampai 26 November 1941, salah satunya dengan corn steep liquor, produk sampingan penggilingan jagung basah.",
+        "Meski begitu, sampai Maret 1942 empat perusahaan obat AS baru menghasilkan penisilin yang cukup untuk satu pasien. Setahun sebelum D-Day, War Production Board membuat rencana agar ada cukup penisilin untuk semua tentara Sekutu. Strain unggul ditemukan dari cantaloupe berjamur di Peoria, NRRL 1951, yang jadi induk semua strain komersial.",
+        "Pfizer kemudian membeli bekas pabrik es di Brooklyn pada awal 1943 dan mengisinya dengan 14 tangki fermentasi berkapasitas masing-masing 28.400 liter. Pabrik itu jalan dalam empat bulan, lebih cepat dari tenggat enam bulan. Menurut majalah The Chemical Engineer, 90% penisilin yang menyertai pendaratan Sekutu pada D-Day, 6 Juni 1944, dibuat Pfizer."
+      ]
+    },
+    {
+      "h": "Jejak 3: komputer, mesin jet, dan pembalut",
+      "p": [
+        "Colossus, buatan insinyur kantor pos Inggris Tommy Flowers, memproses pesan Jerman pertamanya di Bletchley Park pada 5 Februari 1944. Targetnya sandi mesin Lorenz Jerman yang dijuluki 'Tunny'. Colossus II, selesai Juni 1944, memakai 2.400 tabung vakum dan memproses 25.000 karakter per detik. Jumlah unitnya beda versi: artikel IEEE Spectrum menyebut 10 Colossus di akhir perang, sementara teks plakat IEEE Milestone yang dikutip di artikel yang sama menyebut enam.",
+        "Di AS, Angkatan Darat mendanai ENIAC di University of Pennsylvania untuk menghitung tabel tembak artileri. Kontraknya diteken 5 Juni 1943. Menurut Museum Nasional Angkatan Darat AS, mesinnya memakai 17.468 tabung vakum (Wikipedia menyebut sekitar 18.000 di akhir masa operasinya, 1955), berat lebih dari 27 ton, dan memakan ruang 1.800 kaki persegi (sekitar 167 m², dua lapangan bulu tangkis). ENIAC rampung dibangun Mei 1945, mulai dipakai untuk kerja praktis 10 Desember 1945, dan diresmikan 15 Februari 1946. Menariknya, menurut Wikipedia, program pertamanya bukan tabel tembak, tapi studi kelayakan senjata termonuklir.",
+        "Mesin jet juga dipercepat perang. Frank Whittle mendapat paten pada 1930, tapi Kementerian Udara Inggris menentangnya. Dukungan serius baru datang setelah Inggris menyatakan perang pada 3 September 1939. General Electric lalu membuat mesin jet pertama AS pada 1941–1942 berdasarkan gambar teknik Whittle, dan pesawat jet pertama AS terbang 2 Oktober 1942.",
+        "Contoh paling sehari-hari datang dari Perang Dunia I. Kimberly-Clark membuat perban Cellucotton dari bubur kayu untuk rumah sakit perang, lima kali lebih menyerap daripada perban kapas dan jauh lebih murah. Perawat Angkatan Darat menulis surat ke American Fund for the French Wounded bahwa mereka memakainya sebagai pembalut darurat. Menurut sejarawan yang dikutip Smithsonian Magazine, dari situ Kimberly-Clark dapat ide pembalut. Hasilnya, Kotex, masuk pasar pada 1921."
+      ]
+    },
+    {
+      "h": "Jejak 4: Perang Dingin di HP-mu",
+      "p": [
+        "GPS lahir dari meja perencana Departemen Pertahanan AS, yang menggabungkan beberapa program navigasi jadi satu sistem. Pengembangan komponennya dimulai pada 1973, dikelola Joint Program Office di bawah Angkatan Udara. Plot twist-nya terjadi 1 September 1983. Pesawat Korean Air Lines 007 dari Anchorage ke Seoul tersasar ke wilayah udara Soviet dan ditembak jatuh, menewaskan 269 orang. Presiden Ronald Reagan lalu menegaskan GPS akan tersedia gratis bagi pengguna sipil di seluruh dunia.",
+        "Menurut GPS.gov, sinyal publiknya sempat sengaja diturunkan akurasinya demi keamanan nasional, lewat fitur bernama Selective Availability. Fitur itu dimatikan atas perintah Presiden Bill Clinton pada 1 Mei 2000. Hari ini, menurut GPS.gov, sinyal sipil GPS gratis untuk semua orang, dioperasikan U.S. Space Force dengan konstelasi nominal 24 satelit.",
+        "Internet punya cerita serupa. ARPANET didanai ARPA (kini DARPA), lembaga riset pertahanan AS yang berdiri sejak 1958. Pada September 1969, perusahaan BBN memasang perangkat jaringan (IMP) pertama di UCLA, dan pada 29 Oktober 1969 sinyal komputer-ke-komputer pertama dikirim dari UCLA ke Stanford Research Institute."
+      ]
+    },
+    {
+      "h": "Mitos vs fakta",
+      "p": [
+        "Mitos: internet dibuat supaya tahan perang nuklir. Para perintis internet, termasuk Vint Cerf dan Robert Kahn, menulis di Internet Society bahwa itu rumor keliru. Rumor itu muncul dari studi RAND yang memang membahas komunikasi suara aman saat perang nuklir, sementara ARPANET tidak. Tapi jangan dibalik jadi 'sama sekali nggak ada hubungannya'. Halaman DARPA sendiri menyebut packet switching dirancang agar jaringan tidak tumbang saat satu titik rusak, dan menyinggung infrastruktur tetap sebagai sasaran empuk di medan perang. Internet Society juga menulis bahwa kerja internetworking belakangan memang menekankan ketahanan.",
+        "Mitos: Velcro, Tang, dan Teflon ciptaan NASA. Menurut Museum of Flight, Velcro diciptakan insinyur Swiss George de Mestral pada 1940-an setelah melihat biji tanaman berduri menempel di bulu anjingnya. Tang buatan General Foods sudah dijual sejak 1957 sebelum diadaptasi NASA dan dipakai di misi Friendship 7 John Glenn pada 1962. Teflon adalah teknologi DuPont dari 1940-an. NASA memakai dan mengadaptasi ketiganya, bukan menciptakannya.",
+        "Mitos halus: microwave 'diciptakan untuk perang'. Yang dibuat untuk perang adalah magnetron untuk radar. Oven-nya lahir dari kebetulan setelah perang."
+      ]
+    },
+    {
+      "h": "Jadi, perang itu penemu atau pedal gas?",
+      "kind": "interpretasi",
+      "p": [
+        "Kalau dilihat tanggalnya, banyak ide intinya sudah ada sebelum perang. Penisilin ditemukan 1928. Whittle mematenkan mesin jet pada 1930, Hans von Ohain di Jerman pada 1935, dan pesawat jet He 178 sudah terbang 27 Agustus 1939, seminggu sebelum Inggris menyatakan perang. Visi jaringan 'Galactic Network' dari J.C.R. Licklider pada 1962 bicara soal interaksi sosial lewat jaringan komputer. Velcro malah lahir dari biji berduri di bulu anjing. Masuk akal untuk menduga sebagian besar teknologi ini tetap akan lahir, hanya mungkin lebih lambat.",
+        "Perang juga bisa mengerem. Gross dan Sampat mencatat, di puncak perang lebih dari separuh, di beberapa bidang sampai 90%, paten teknologi penting dikenai perintah rahasia. Riset Gross menemukan kerahasiaan ini menghambat komersialisasi dan memperlambat inovasi lanjutan.",
+        "Lalu ada harga yang tidak bisa ditukar dengan gadget apa pun. Tabel National WWII Museum mencantumkan sekitar 15 juta kematian di medan tempur dan 45 juta kematian warga sipil di Perang Dunia II, dan museum itu sendiri mengingatkan bahwa estimasinya sangat beragam. Dan ingat ENIAC tadi: salah satu tugas pertamanya adalah menghitung reaksi termonuklir pada Desember 1945."
+      ]
+    },
+    {
+      "h": "Kenapa ini penting buat kamu",
+      "kind": "opini",
+      "p": [
+        "Jujurly, pelajaran terbesarnya bukan 'perang itu baik untuk teknologi'. Pelajarannya adalah apa yang bikin inovasi ngebut: dana besar, masalah yang jelas, banyak tim bekerja paralel, dan jalur pendek dari lab ke pabrik. Gross dan Sampat mencatat jejak OSRD bertahan puluhan tahun lewat klaster teknologi seperti Boston/Route 128 dan Silicon Valley.",
+        "Resep itu tidak butuh bom. Ia butuh keputusan untuk menganggap masalah damai, seperti penyakit atau krisis iklim, sama mendesaknya. Jadi lain kali microwave-mu berbunyi 'ting', ingat dua hal: kecerdikan manusia, dan harga mahal yang pernah dibayar untuk mempercepatnya."
+      ]
+    }
+  ],
+  "sources": [
+    { "t": "NBER Reporter: Crisis Innovation, Historical Evidence, Insights, and Open Questions (Gross & Sampat, 2022)", "u": "https://www.nber.org/reporter/2022number3/crisis-innovation-historical-evidence-insights-and-open-questions" },
+    { "t": "IEEE/ETHW: Milestones, Development of the Cavity Magnetron, 1939-1941", "u": "https://ethw.org/Milestones:Development_of_the_Cavity_Magnetron,_1939-1941" },
+    { "t": "Lemelson-MIT: Percy Spencer", "u": "https://lemelson.mit.edu/resources/percy-spencer" },
+    { "t": "IEEE Spectrum: A Brief History of the Microwave Oven (2016)", "u": "https://spectrum.ieee.org/a-history-of-the-microwave-oven" },
+    { "t": "USDA ARS: Penicillin (timeline)", "u": "https://www.ars.usda.gov/oc/timeline/penicillin" },
+    { "t": "USDA ARS: The Enduring Mystery of \"Moldy Mary\"", "u": "https://scientificdiscoveries.ars.usda.gov/tellus/stories/articles/enduring-mystery-moldy-mary" },
+    { "t": "The Chemical Engineer (IChemE): Pfizer's Penicillin Pioneers, Jasper Kane and John McKeen", "u": "https://www.thechemicalengineer.com/features/cewctw-pfizers-penicillin-pioneers-jasper-kane-and-john-mckeen/" },
+    { "t": "The National WWII Museum: Medical Innovations, Antibiotics", "u": "https://www.nationalww2museum.org/medical-innovations-antibiotics" },
+    { "t": "IEEE Spectrum: Colossus computer IEEE Milestone (B. Jack Copeland)", "u": "https://spectrum.ieee.org/colossus-computer-ieee-milestone" },
+    { "t": "U.S. Army (National Museum of the U.S. Army): Army Innovations, ENIAC Computer", "u": "https://www.thenmusa.org/armyinnovations/innovationeniaccomputer/" },
+    { "t": "Wikipedia: ENIAC", "u": "https://en.wikipedia.org/wiki/ENIAC" },
+    { "t": "Air & Space Forces Magazine: The Converging Paths of Whittle and von Ohain (Walter J. Boyne, 2006)", "u": "https://www.airandspaceforces.com/article/0106engines/" },
+    { "t": "NASA: Bell XP-59A Airacomet in the Altitude Wind Tunnel (1944)", "u": "https://www.nasa.gov/image-detail/amf-grc-1944-c-04314/" },
+    { "t": "Smithsonian Magazine: The Surprising Origins of Kotex Pads (2017)", "u": "https://www.smithsonianmag.com/innovation/surprising-origins-kotex-pads-180964466/" },
+    { "t": "Smithsonian NASM Time and Navigation: GPS Begins", "u": "https://timeandnavigation.si.edu/satellite-navigation/gps/gps-begins" },
+    { "t": "Smithsonian NASM Time and Navigation: Navigation Gone Wrong, Soviets Shoot Down an Airliner", "u": "https://timeandnavigation.si.edu/node/226" },
+    { "t": "GPS.gov: Selective Availability", "u": "https://gps.gov/selective-availability" },
+    { "t": "GPS.gov: GPS Overview", "u": "https://gps.gov/systems/gps" },
+    { "t": "Internet Society: Brief History of the Internet (Leiner, Cerf, Clark, Kahn, dkk.)", "u": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/" },
+    { "t": "DARPA: ARPANET", "u": "https://www.darpa.mil/news/features/arpanet" },
+    { "t": "The Museum of Flight: Debunking NASA Space Spin-off Myths (2018)", "u": "https://blog.museumofflight.org/debunking-nasa-space-spinoff-myths" },
+    { "t": "The National WWII Museum: Research Starters, Worldwide Deaths in World War II", "u": "https://www.nationalww2museum.org/students-teachers/student-resources/research-starters/research-starters-worldwide-deaths-world-war" }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "mandiri-gadai-saham-haji-isam-msci",
+  "cat": "saham",
+  "also": "finance",
+  "date": "2026-10-18",
+  "title": "Gadai saham grup Haji Isam di Bank Mandiri: langgar aturan? Apa kaitannya dengan MSCI?",
+  "dek": "Pengendali JARR dan PGUN menggadaikan hampir semua sahamnya ke Bank Mandiri. Ini gadai, bukan repo, dan belum ada regulator yang menyatakan pelanggaran. Soal MSCI, urutan waktunya justru bikin kaget.",
+  "tags": "bank mandiri bmri gadai saham agunan saham repo haji isam jhonlin jarr pgun bayan byan msci standalone market emerging market free float bmpk pojk ojk bei keterbukaan informasi",
+  "hook": "Link berita IDX Channel soal kredit Bank Mandiri ke JARR tertulis \"rp14-triliun\". Isinya: Rp1,4 triliun, kredit tahun 2024. Komanya hilang di alamat web.",
+  "path": "",
+  "image": {
+    "src": "/assets/illustrations/cekberita-v1.svg",
+    "alt": "Ilustrasi ponsel dengan tombol share dan tanda tanya, di samping lima pertanyaan untuk mengecek berita",
+    "caption": "Lima pertanyaan sebelum share berita. Berguna juga untuk membaca kabar soal gadai saham dan MSCI.",
+    "credit": "Curioverse",
+    "license": "Ilustrasi sendiri (Curioverse)",
+    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/cekberita-v1.svg"
+  },
+  "sections": [
+    {
+      "h": "Yang tercatat resmi: dua emiten, satu tanggal",
+      "p": [
+        "Link berita IDX Channel soal kredit Bank Mandiri ke JARR tertulis \"rp14-triliun\". Buka isinya, angkanya Rp1,4 triliun, dan itu kredit tahun 2024. Komanya hilang di alamat web. Cerita gadai saham grup Haji Isam di Bank Mandiri memang penuh angka besar yang gampang tertukar.",
+        "Mulai dari yang resmi. PT Eshan Agro Sentosa, pengendali PT Jhonlin Agro Raya Tbk (JARR) dengan porsi 86,64%, menggadaikan 7.997.556.204 saham JARR ke Bank Mandiri. Itu 100% kepemilikannya. Menurut Katadata, Eshan dimiliki pengusaha Andi Syamsuddin Arsyad yang dikenal sebagai Haji Isam. Akta gadainya ditandatangani di hadapan notaris pada 30 September 2026 dan diumumkan lewat keterbukaan informasi Bursa Efek Indonesia (BEI) pada 7 Oktober.",
+        "Di hari yang sama, PT Pradiksi Gunatama Tbk (PGUN) melaporkan hal serupa. Tiga pemegang sahamnya, PT Araya Agro Lestari, PT Citra Agro Raya, dan PT Baramega Citra Mulia Persada, menggadaikan total sekitar 5,29 miliar saham, setara 92,38% saham PGUN. Kedua emiten menyebut gadai ini jaminan untuk fasilitas kredit yang diterima perusahaan afiliasi. Keduanya juga menegaskan tidak ada perubahan pengendalian dan tidak ada dilusi.",
+        "Lalu kenapa BYAN ikut disebut? Masih pada 7 Oktober, terjadi transaksi crossing sekitar 10,08 miliar saham PT Bayan Resources Tbk (BYAN) senilai sekitar Rp26,1 triliun di pasar negosiasi. Menurut manajemen Bayan yang dikutip Katadata, PT Jhonlin Baratama kini memegang sekitar 30,25% saham BYAN. Katadata menulis gadai saham itu terjadi \"seiring\" langkah ke BYAN, dan laporan lanjutannya menyebut dananya \"ditengarai\" untuk membeli saham tersebut. Kami belum menemukan dokumen resmi yang mengonfirmasi kaitan itu."
+      ]
+    },
+    {
+      "h": "Gadai saham bukan repo. Bedanya: siapa yang pegang sahamnya",
+      "p": [
+        "Ini repo, bukan? Menurut sumber yang ada, bukan. Kontan, yang membaca keterbukaan informasi JARR, menulis transaksi ini adalah gadai saham, bukan repo. Bedanya mendasar. Untuk repo (repurchase agreement), POJK 9/POJK.04/2015 mewajibkan perpindahan kepemilikan efek. Sahamnya benar-benar pindah tangan dulu.",
+        "Dalam gadai, saham tetap milik pemberi gadai. Ekonom CORE Indonesia Yusuf Rendy Manilet menjelaskan kepada Kontan bahwa kepemilikan tetap pada pemberi gadai sampai debitur gagal bayar dan agunannya dieksekusi. Fauzan Luthfi Djamal, Senior Research Analyst Mirae Asset Sekuritas Indonesia, merangkumnya ke Katadata: \"Perbedaan ini bisa nentuin siapa pemilik saham apabila terjadi wanprestasi.\"",
+        "Kalau eksekusi sampai terjadi pun, Bank Mandiri tidak otomatis jadi pemilik. Nafan Aji Gusta, Senior Market Analyst Mirae Asset Sekuritas, menyebut \"eksekusi jaminan tidak serta-merta menjadikan Bank Mandiri sebagai pemilik atau pengendali\". Bank bisa menjual saham itu ke pihak ketiga.",
+        "Terus risikonya di mana? Saham adalah agunan yang nilainya naik turun tiap hari. Aturan OJK sudah memasang bantalan: nilai saham sebagai agunan tambahan paling tinggi 50% dari harga pasarnya di bursa saat akad kredit ditandatangani (Pasal 4 POJK 40/POJK.03/2017). Trioksa Siahaan, Senior Vice President and Head of Research LPPI, menyebut mitigasi yang lazim: haircut konservatif, batas loan-to-value, dan mekanisme penambahan jaminan kalau harga saham turun signifikan. Yang terakhir ini mirip margin call versi kredit bank.",
+        "Masalah khusus JARR dan PGUN: sahamnya sangat jarang berpindah tangan. Menurut Fauzan, free float JARR cuma 2,70% dan PGUN 0,07%. Blok saham yang digadaikan bernilai sekitar Rp64,7 triliun, sementara nilai transaksi harian gabungan kedua saham hanya Rp71,7 miliar. Kalau pengendali jadi satu-satunya penjual, butuh sekitar 900 hari bursa untuk melepas semuanya, lebih dari tiga tahun perdagangan. Penjualan besar juga bisa menjatuhkan harga yang jadi dasar nilai agunan, kata dia."
+      ]
+    },
+    {
+      "h": "Jadi, ada aturan yang dilanggar?",
+      "p": [
+        "Jawaban singkatnya: per 17 Oktober 2026, belum ada regulator yang menyatakan pelanggaran. Kami tidak menemukan pernyataan OJK, Bank Indonesia, maupun BEI yang menyebut transaksi ini melanggar aturan. Yang ada: BEI meminta klarifikasi atas pemberitaan, dan Bank Mandiri menjawab lewat surat tertulis.",
+        "Aturan yang paling relevan ada tiga. Pertama, POJK 40/POJK.03/2017. Pasal 2 ayat (3) melarang bank memberi kredit \"untuk jual beli saham\" kepada orang atau perusahaan yang bukan perusahaan efek. Tapi Pasal 5 ayat (1) aturan yang sama membolehkan bank menerima agunan saham untuk kredit \"ekspansi atau pengambilalihan\". Jadi pertanyaan kuncinya bukan \"boleh nggak saham jadi agunan\", tapi \"kreditnya untuk apa\".",
+        "Kedua, Batas Maksimum Pemberian Kredit (BMPK) di POJK 32/POJK.03/2018. Kredit ke satu peminjam atau satu kelompok peminjam yang bukan pihak terkait paling tinggi 25% dari modal inti bank. Perusahaan yang saling terkait lewat kepemilikan, kepengurusan, atau keuangan wajib dihitung sebagai satu kelompok. Karena nilai kredit ke grup ini belum diungkap, publik belum bisa menghitung seberapa dekat dengan batas itu. Tidak ada sumber yang kami baca yang menyebut BMPK terlampaui.",
+        "Ketiga, aturan penyertaan modal. Menurut Kontan, POJK 26/2024 melarang bank umum konvensional menyertakan modal selain ke lembaga jasa keuangan atau perusahaan yang mendukung industri perbankan. Ini baru relevan kalau bank sampai memegang saham, misalnya lewat repo atau setelah eksekusi. Nafan menilai kepemilikan akibat eksekusi agunan \"tidak tepat jika langsung dianggap melanggar ketentuan\". Kepala Pusat Makroekonomi dan Keuangan INDEF, M. Rizal Taufikurahman, menilai bentuk transaksinya perlu jelas, karena implikasi hukumnya berbeda kalau transaksi itu repo.",
+        "Versi Bank Mandiri disampaikan Adhika Vista, SVP Corporate Secretary Group Bank Mandiri, dalam surat ke BEI. Kreditnya diberikan ke PT Jhonlin Baratama dan, menurut Mandiri, \"bukan merupakan fasilitas untuk aktivitas trading saham\", melainkan untuk belanja modal dan kebutuhan pembiayaan grup di industri batu bara beserta penunjangnya. Agunannya disebut mencakup aset tetap, aset non-tetap, dan rekening perusahaan, dengan saham JARR dan PGUN sebagai agunan tambahan yang penilaiannya sesuai Pasal 4 POJK 40/2017. Mandiri juga menyebut agunan saham diposisikan \"sebagai sumber pelunasan sekunder\". PGUN, dalam suratnya tertanggal 9 Oktober, menyatakan tidak menerima aliran dana dari fasilitas itu.",
+        "Itu penjelasan pihak bank, bukan penilaian regulator. Tapi selama OJK belum bersuara, label \"melanggar aturan\" belum punya dasar resmi."
+      ]
+    },
+    {
+      "h": "Rp1,4 T, Rp26,1 T, atau berapa? Angka yang sering tertukar",
+      "p": [
+        "Rp1,4 triliun adalah kredit investasi Bank Mandiri ke JARR sendiri, ditandatangani 24 Oktober 2024 dengan tenor 96 bulan. Menurut Direktur Keuangan JARR Temmy Iskandar dalam keterbukaan informasi BEI, dananya untuk melunasi utang bank, dengan jaminan antara lain 12 sertifikat HGU kebun sawit. Fasilitas lama, bukan kredit ke Jhonlin Baratama.",
+        "Rp26,1 triliun adalah perkiraan nilai transaksi crossing saham BYAN pada 7 Oktober. Dalam analisisnya, Mirae Asset Sekuritas mengasumsikan pembiayaan untuk pembelian 30,25% saham BYAN sekitar Rp26,1 triliun (setara US$1,45 miliar), sepenuhnya dari utang, dengan biaya pinjaman 8%. Katadata menegaskan itu asumsi analis, bukan nilai kredit yang dikonfirmasi. Sebagai pembanding, Rp26,1 triliun hampir 19 kali kredit Rp1,4 triliun tadi. Research Analyst Mirae, Muhammad Nurkholis Syafruddin, juga mengingatkan bahwa \"kemampuan debitur membayar utang seharusnya menjadi dasar penilaian kredit, bukan semata-mata nilai aset yang dijaminkan.\"",
+        "Angka ketiga justru yang belum ada: nilai kredit sebenarnya. Keterbukaan informasi JARR dan PGUN tidak menyebutnya, surat Mandiri ke BEI juga tidak. Yusuf dari CORE Indonesia merangkum situasinya: \"Besar risiko belum dapat dipastikan karena nilai kredit, haircut, dan agunan lainnya belum dipublikasikan.\""
+      ]
+    },
+    {
+      "h": "Plot twist: MSCI sudah gelisah jauh sebelum gadai ini",
+      "kind": "interpretasi",
+      "p": [
+        "Ada dugaan transaksi Mandiri inilah yang memicu ancaman MSCI menurunkan kelas Indonesia. Urutan waktunya bilang lain.",
+        "Menurut Euronews, MSCI sudah menyinggung kemungkinan penurunan status Indonesia sejak Januari 2026. Pada 24 Juni 2026, hasil MSCI 2026 Market Classification Review mempertahankan Indonesia di Emerging Market, tapi menyoroti minimnya transparansi kepemilikan saham dan dugaan perdagangan terkoordinasi, yang menyulitkan penentuan free float sebenarnya. MSCI memberi tenggat: kalau kemajuan belum memadai sampai Index Review November 2026, opsi reklasifikasi akan dipertimbangkan. Reformasi yang dicatat antara lain keterbukaan pemegang saham di atas 1%, kerangka High Shareholding Concentration (HSC), dan peta jalan free float minimum 15%.",
+        "Gadai saham baru ditandatangani 30 September dan diumumkan 7 Oktober. Delapan hari setelah pengumuman itu, pada 15 Oktober 2026, MSCI membuka konsultasi untuk memindahkan Indonesia dari Emerging Market ke Standalone Market. Alasannya: \"persistent opacity in shareholding structures\" (struktur kepemilikan yang terus tidak transparan), \"suspected coordinated trading behavior\", dan belum terlihatnya bukti penegakan yang berarti. Rilis MSCI tidak menyebut satu pun perusahaan, bank, atau individu. Tidak ada Mandiri, tidak ada Jhonlin.",
+        "Jadi tidak ada bukti transaksi Mandiri menyebabkan langkah MSCI. Masalah yang disorot MSCI sudah dibahas sejak Juni, bahkan Januari. Yang bisa dikatakan: kasus ini mirip jenis masalah yang dipersoalkan MSCI, yaitu free float sangat kecil (JARR 2,70%, PGUN 0,07%) dan kepemilikan yang terkonsentrasi di pengendali. Itu kemiripan tema, bukan sebab-akibat.",
+        "Statusnya juga belum final. Masukan pasar diterima sampai 30 April 2027, dan keputusan diumumkan paling lambat 30 Juni 2027. BEI menegaskan pengumuman itu \"masih dalam tahap konsultasi\" dan belum menjadi keputusan final. Pasar tetap panik: Euronews melaporkan saham Indonesia turun sekitar 11% pada 16 Oktober, penurunan harian terbesar dalam 28 tahun."
+      ]
+    },
+    {
+      "h": "Pelajaran buat investor ritel yang baca berita begini",
+      "kind": "opini",
+      "p": [
+        "Cerita ini latihan bagus membaca berita keuangan. Empat kebiasaan yang bisa langsung dipakai:",
+        "Satu, pisahkan angka resmi dari asumsi analis. Rp26,1 triliun di sini adalah nilai transaksi dan asumsi, bukan nilai kredit. Kalau sumbernya bilang \"asumsi\" atau \"ditengarai\", jangan ditulis ulang sebagai fakta.",
+        "Dua, buka keterbukaan informasinya. Gadai, repo, dan jual putus itu tiga hal berbeda dengan akibat hukum berbeda. Dokumen emiten di BEI biasanya menyebut jenis transaksinya, seperti yang dilakukan JARR.",
+        "Tiga, cek urutan waktu sebelum menyimpulkan sebab-akibat. Dua kejadian yang berdekatan belum tentu saling memicu. MSCI sudah memberi peringatan berbulan-bulan sebelum gadai ini ada.",
+        "Empat, lihat free float dan likuiditas. Saham dengan free float di bawah 3% bisa tampak bernilai puluhan triliun di atas kertas, tapi butuh ratusan hari untuk dijual. Itu yang bikin agunan saham berisiko, dan itu juga yang sedang dipelototi MSCI. Satu hal lagi yang jujurly sering terlewat: per tulisan ini, belum ada regulator yang menyatakan pelanggaran. Kalau nanti OJK bersuara, itulah sumber yang layak ditunggu, bukan potongan judul di media sosial."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "t": "Katadata: Emiten Haji Isam (JARR) Gadaikan 100% Saham Pengendali ke Bank Mandiri (BMRI) (7 Okt 2026)",
+      "u": "https://katadata.co.id/finansial/bursa/6ac6284124e53/emiten-haji-isam-jarr-gadaikan-100-saham-pengendali-ke-bank-mandiri-bmri"
+    },
+    {
+      "t": "Kontan: BMRI Terima Gadai Saham Emiten Haji Isam JARR, Cek Aturan Kepemilikan Saham Bank (9 Okt 2026)",
+      "u": "https://keuangan.kontan.co.id/news/bmri-terima-gadai-saham-emiten-haji-isam-jarr-cek-aturan-kepemilikan-saham-bank"
+    },
+    {
+      "t": "Kontan: BMRI Terima Gadai Saham JARR-PGUN, Analis: Kendali Bisa Berubah Jika Dieksekusi (9 Okt 2026)",
+      "u": "https://keuangan.kontan.co.id/news/bmri-terima-gadai-saham-jarr-pgun-analis-kendali-bisa-berubah-jika-dieksekusi"
+    },
+    {
+      "t": "Kontan: Gadai Saham Jhonlin ke Bank Mandiri Jumbo, Nilai Kredit dan Risiko Belum Terungkap (10 Okt 2026)",
+      "u": "https://keuangan.kontan.co.id/news/gadai-saham-jhonlin-ke-bank-mandiri-jumbo-nilai-kredit-dan-risiko-belum-terungkap?page=all"
+    },
+    {
+      "t": "Bisnis.com: Gadai Saham PGUN & JARR ke Mandiri (BMRI), Pengamat Sorot Risiko Kredit (9 Okt 2026)",
+      "u": "https://finansial.bisnis.com/read/20261009/90/2011299/gadai-saham-pgun-jarr-ke-mandiri-bmri-pengamat-sorot-risiko-kredit"
+    },
+    {
+      "t": "Katadata: Tebus Murah BYAN di Tengah Risiko Gadai Saham JARR-PGUN Milik Haji Isam (9 Okt 2026)",
+      "u": "https://katadata.co.id/finansial/bursa/6ac8bf798aee6/tebus-murah-byan-di-tengah-risiko-gadai-saham-jarr-pgun-milik-haji-isam"
+    },
+    {
+      "t": "Katadata: Risiko Kredit Bayangi Bank Mandiri (BMRI), Pembiayaan untuk Haji Isam Disorot (14 Okt 2026)",
+      "u": "https://katadata.co.id/finansial/bursa/6acf36d0c9b3b/risiko-kredit-bayangi-bank-mandiri-bmri-pembiayaan-untuk-haji-isam-disorot"
+    },
+    {
+      "t": "Bisnis.com: Bank Mandiri (BMRI) Tegaskan Kredit Grup Jhonlin JARR-PGUN Bukan untuk Trading Saham (16 Okt 2026)",
+      "u": "https://market.bisnis.com/read/20261016/192/2013252/bank-mandiri-bmri-tegaskan-kredit-grup-jhonlin-jarr-pgun-bukan-untuk-trading-saham"
+    },
+    {
+      "t": "KabarBursa: Dua Emiten Afiliasi Haji Isam Bikin Bank Mandiri (BMRI) Klarifikasi, Ada Apa? (17 Okt 2026)",
+      "u": "https://www.kabarbursa.com/market-hari-ini/dua-emiten-afiliasi-haji-isam-bikin-bank-mandiri-bmri-klarifikasi-ada-apa"
+    },
+    {
+      "t": "IDX Channel: Emiten Haji Isam (JARR) Kantongi Pinjaman Rp1,4 Triliun dari BMRI (28 Okt 2024)",
+      "u": "https://www.idxchannel.com/market-news/emiten-haji-isam-jarr-kantongi-pinjaman-rp14-triliun-dari-bmri/all"
+    },
+    {
+      "t": "Peraturan.go.id: POJK Nomor 40/POJK.03/2017 tentang Kredit atau Pembiayaan kepada Perusahaan Efek dan Kredit atau Pembiayaan dengan Agunan Saham (batang tubuh)",
+      "u": "https://www.peraturan.go.id/files/ojk40-2017bt.pdf"
+    },
+    {
+      "t": "OJK: POJK Nomor 32/POJK.03/2018 tentang Batas Maksimum Pemberian Kredit dan Penyediaan Dana Besar bagi Bank Umum",
+      "u": "https://www.ojk.go.id/id/regulasi/Documents/Pages/Batas-Maksimum-Pemberian-Kredit-dan-Penyediaan-Dana-Besar-Bagi-Bank-Umum/pojk%2032-2018.pdf"
+    },
+    {
+      "t": "MSCI: MSCI Launches a Consultation on a Proposal to Reclassify Indonesia from Emerging Market to Standalone Market Status (15 Okt 2026)",
+      "u": "https://ir.msci.com/news-releases/news-release-details/msci-launches-consultation-proposal-reclassify-indonesia"
+    },
+    {
+      "t": "OJK: MSCI Acknowledges Indonesia Capital Market Reform, Emerging Market Status Retained (SP 119/DKPU/OJK/VI/2026, 24 Jun 2026)",
+      "u": "https://ojk.go.id/en/berita-dan-kegiatan/siaran-pers/Pages/MSCI-Acknowledges-Indonesia-Capital-Market-Reform-Emerging-Market-Status-Retained.aspx"
+    },
+    {
+      "t": "Bisnis.com: MSCI Apresiasi Reformasi OJK-BEI, Masih Ada Risiko ke Frontier Market (24 Jun 2026)",
+      "u": "https://market.bisnis.com/read/20260624/7/1982867/msci-apresiasi-reformasi-ojk-bei-masih-ada-risiko-ke-frontier-market"
+    },
+    {
+      "t": "Euronews: Indonesian stocks plunge 11% as MSCI proposes emerging market downgrade (16 Okt 2026)",
+      "u": "https://www.euronews.com/2026/10/16/indonesian-stocks-plunge-11-as-msci-proposes-emerging-market-downgrade"
+    },
+    {
+      "t": "Bisnis.com: Wacana MSCI Tekan IHSG, Investor Asing Asyik Borong Saham BBCA-ASII (17 Okt 2026)",
+      "u": "https://market.bisnis.com/read/20261017/7/2013374/wacana-msci-tekan-ihsg-investor-asing-asyik-borong-saham-bbca-asii"
+    }
+  ]
+}
