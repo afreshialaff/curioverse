@@ -1,0 +1,1471 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#EAE3D5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B1A17" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:title" content="Curioverse">
+<meta property="og:description" content="A curious mind lives here. Rak pengetahuan pribadi AfreshiaLa &amp; LeoFa.">
+<title>Curioverse</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Curioverse: rak pengetahuan pribadi AfreshiaLa & LeoFa. Finance, science, sejarah, biografi, market, saham, dan global news dalam bahasa yang nggak bikin ngantuk.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Lora:ital,wght@0,400;0,500;1,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Caveat:wght@500;600&display=swap">
+<style>
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+img{max-width:100%}
+</style>
+<style>
+/* Hallmark · macrostructure: Ecosystem Index (+ three.js orrery hero) · tone: vintage-celestial playful · anchor hue: sepia gold
+ * theme: brand-pinned (Curioverse guide) · paper #EAE3D5 · ink #1B1A17 · accent #A67C52 · display Playfair Display + UI DM Sans + long-form Lora
+ * nav: N13 inline search pill · footer: Ft6 letter close + stamp · enrichment: three.js orrery (Tier D, customised)
+ * Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V5
+ * Layout: masthead + orrery hero, featured spread, filterable feed, lab tabs, constellation rabbit holes, letter from the authors. */
+:root{
+  /* brand */
+  --ink:#1B1A17; --moss:#3F4A3B; --paper:#EAE3D5; --gold:#A67C52; --blue:#5B7C9A;
+  /* semantic, light (Parchment) */
+  --bg:#EAE3D5; --bg-2:#E1D8C6; --card:#F1ECE1; --fg:#1B1A17; --muted:#4D483F;
+  --line:#CDBFA6; --line-strong:#82745F;
+  --accent:#A67C52;          /* decoration: orbits, stars, rules */
+  --accent-text:#7A5532;     /* gold readable as text and icons */
+  --science:#46647F; --up:#3F4A3B; --down:#9A3F2B;
+  --btn-bg:#3F4A3B; --btn-fg:#EAE3D5; --btn-hover:#2F382C;
+  --focus:#1B1A17; --header-bg:rgba(234,227,213,.86);
+  --select:#D9C3A4;
+  --c-finance:#A67C52; --c-science:#5B7C9A; --c-sejarah:#3F4A3B; --c-biografi:#1B1A17;
+  --c-market:#7A5532; --c-saham:#9A3F2B; --c-global:#4D483F;
+
+  --font-display:"Playfair Display", "Iowan Old Style", "Times New Roman", serif;
+  --font-body:"Lora", Georgia, "Times New Roman", serif;
+  --font-ui:"DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-hand:"Caveat", "Segoe Print", cursive;
+
+  --t-xs:.8125rem; --t-sm:.9375rem; --t-base:1.0625rem; --t-lg:1.25rem; --t-xl:1.55rem;
+  --t-2xl:clamp(1.9rem, 1.45rem + 1.6vw, 2.35rem);
+  --t-display:clamp(2.2rem, 1.3rem + 3.9vw, 4.1rem);
+
+  --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-5:24px; --s-6:32px; --s-7:48px; --s-8:64px; --s-9:96px;
+  --r-sm:6px; --r-md:14px; --r-pill:999px;
+  --ease-out:cubic-bezier(.16,1,.3,1); --ease-in:cubic-bezier(.7,0,.84,0); --ease-in-out:cubic-bezier(.65,0,.35,1);
+  --dur-1:160ms; --dur-2:320ms; --dur-3:700ms;
+  --maxw:1200px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1B1A17; --bg-2:#24221E; --card:#211F1B; --fg:#EAE3D5; --muted:#B5AB98;
+    --line:#3A362F; --line-strong:#7D735F;
+    --accent:#C9A27A; --accent-text:#D1AC82; --science:#93B3CF; --up:#9DB08F; --down:#E08A6E;
+    --btn-bg:#C9A27A; --btn-fg:#1B1A17; --btn-hover:#D9B791;
+    --focus:#EAE3D5; --header-bg:rgba(27,26,23,.84); --select:#4A3D2C;
+    --c-finance:#C9A27A; --c-science:#93B3CF; --c-sejarah:#9DB08F; --c-biografi:#EAE3D5;
+    --c-market:#D1AC82; --c-saham:#E08A6E; --c-global:#B5AB98;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1B1A17; --bg-2:#24221E; --card:#211F1B; --fg:#EAE3D5; --muted:#B5AB98;
+  --line:#3A362F; --line-strong:#7D735F;
+  --accent:#C9A27A; --accent-text:#D1AC82; --science:#93B3CF; --up:#9DB08F; --down:#E08A6E;
+  --btn-bg:#C9A27A; --btn-fg:#1B1A17; --btn-hover:#D9B791;
+  --focus:#EAE3D5; --header-bg:rgba(27,26,23,.84); --select:#4A3D2C;
+  --c-finance:#C9A27A; --c-science:#93B3CF; --c-sejarah:#9DB08F; --c-biografi:#EAE3D5;
+  --c-market:#D1AC82; --c-saham:#E08A6E; --c-global:#B5AB98;
+  color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html,body{overflow-x:clip}
+html{scroll-behavior:smooth; scroll-padding-top:84px}
+body{
+  background:var(--bg); color:var(--fg);
+  font:400 var(--t-base)/1.65 var(--font-body);
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  caret-color:var(--accent-text);
+  transition:background-color var(--dur-2) var(--ease-out), color var(--dur-2) var(--ease-out);
+}
+body::before{content:""; position:fixed; inset:0 0 auto; height:env(safe-area-inset-top,0px); z-index:60; background:var(--bg)}
+::selection{background:var(--select); color:var(--fg)}
+html{scrollbar-color:var(--line-strong) var(--bg)}
+h1,h2,h3,h4{font-family:var(--font-display); font-style:normal; font-weight:700; line-height:1.12; letter-spacing:-.015em; text-wrap:balance; margin:0}
+p{margin:0}
+a{color:inherit; text-underline-offset:.2em; text-decoration-thickness:1px}
+button,input,select{font:inherit; color:inherit}
+:focus-visible{outline:2px solid var(--focus); outline-offset:3px; border-radius:4px}
+.sr{position:absolute!important; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap}
+.wrap{max-width:var(--maxw); margin-inline:auto; padding-left:max(16px, env(safe-area-inset-left,0px)); padding-right:max(16px, env(safe-area-inset-right,0px))}
+@media (min-width:700px){ .wrap{padding-left:max(32px, env(safe-area-inset-left,0px)); padding-right:max(32px, env(safe-area-inset-right,0px))} }
+.ui{font-family:var(--font-ui)}
+.ico{width:20px; height:20px; flex:none; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:var(--s-2);
+  min-height:48px; padding:0 var(--s-5); border-radius:var(--r-pill);
+  font:600 var(--t-sm)/1 var(--font-ui); white-space:nowrap; cursor:pointer; text-decoration:none;
+  border:1px solid transparent;
+  transition:background-color var(--dur-1) var(--ease-out), transform var(--dur-1) var(--ease-out), border-color var(--dur-1) var(--ease-out);
+}
+.btn-primary{background:var(--btn-bg); color:var(--btn-fg)}
+.btn-primary:hover{background:var(--btn-hover)}
+.btn-ghost{background:transparent; color:var(--fg); border-color:var(--line-strong)}
+.btn-ghost:hover{background:var(--bg-2)}
+.btn:active{transform:translateY(1px) scale(.99)}
+.btn[disabled]{opacity:.5; cursor:not-allowed}
+.btn .ico{width:18px; height:18px}
+.iconbtn{
+  display:inline-grid; place-items:center; width:44px; height:44px; border-radius:var(--r-pill);
+  background:transparent; border:1px solid var(--line); cursor:pointer; color:var(--fg);
+  transition:background-color var(--dur-1) var(--ease-out), border-color var(--dur-1) var(--ease-out);
+}
+.iconbtn:hover{background:var(--bg-2); border-color:var(--line-strong)}
+.iconbtn:active{transform:scale(.96)}
+
+/* ---------- header ---------- */
+.top{
+  position:sticky; top:env(safe-area-inset-top,0px); z-index:50;
+  background:var(--header-bg); backdrop-filter:blur(10px) saturate(1.1); -webkit-backdrop-filter:blur(10px) saturate(1.1);
+  border-bottom:1px solid var(--line);
+}
+.top-in{display:flex; align-items:center; gap:var(--s-4); min-height:68px}
+.brand{display:inline-flex; align-items:center; gap:10px; text-decoration:none; margin-right:auto; min-height:44px}
+.brand svg{width:38px; height:38px; flex:none}
+.brand b{font:700 1.4rem/1 var(--font-display); letter-spacing:.01em}
+.nav{display:none; gap:var(--s-1)}
+.nav a{font:500 var(--t-sm)/1 var(--font-ui); text-decoration:none; padding:12px 12px; border-radius:var(--r-pill); white-space:nowrap}
+.nav a:hover{background:var(--bg-2)}
+.kpill{
+  display:none; align-items:center; gap:var(--s-2); min-height:44px; padding:0 8px 0 14px; min-width:220px;
+  border:1px solid var(--line-strong); border-radius:var(--r-pill); background:var(--card); cursor:pointer;
+  font:500 var(--t-sm)/1 var(--font-ui); color:var(--muted);
+}
+.kpill:hover{border-color:var(--fg)}
+.kpill span{margin-right:auto}
+kbd{font:600 .75rem/1 var(--font-ui); padding:5px 7px; border-radius:6px; border:1px solid var(--line-strong); color:var(--muted); background:var(--bg)}
+.top .iconbtn.search-m{display:inline-grid}
+.progress{position:absolute; left:0; right:0; bottom:-1px; height:2px; background:var(--accent); transform-origin:0 50%; transform:scaleX(0)}
+@media (min-width:960px){ .nav{display:flex} .kpill{display:inline-flex} .top .iconbtn.search-m{display:none} }
+
+/* theme toggle icons */
+.t-sun{display:none}
+:root[data-theme="dark"] .t-sun{display:block} :root[data-theme="dark"] .t-moon{display:none}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .t-sun{display:block} :root:not([data-theme="light"]) .t-moon{display:none} }
+
+/* ---------- hero ---------- */
+.hero{padding-block:var(--s-7) var(--s-8); position:relative}
+.hero-grid{display:grid; gap:var(--s-6); align-items:center}
+@media (min-width:900px){ .hero-grid{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr); gap:var(--s-7)} .hero{padding-block:var(--s-8) var(--s-9)} }
+.hero h1{font-size:var(--t-display); font-weight:800; letter-spacing:-.025em; line-height:1.04; overflow-wrap:anywhere; min-width:0}
+.hero h1 .gold{color:var(--accent-text)}
+.split .w{display:inline-block; overflow:hidden; vertical-align:top; padding-bottom:.08em; margin-bottom:-.08em}
+.split .w > span{display:inline-block}
+.split.play .w > span{animation:rise var(--dur-3) var(--ease-out) both; animation-delay:calc(var(--i) * 55ms)}
+@keyframes rise{from{transform:translateY(105%)} to{transform:none}}
+.kepo{margin-top:var(--s-5); font:500 var(--t-lg)/1.4 var(--font-ui); color:var(--muted); min-height:2.8em}
+.kepo .tw{color:var(--fg); font-weight:700; border-bottom:2px solid var(--accent); padding-bottom:2px}
+.kepo .caret{display:inline-block; width:2px; height:1.05em; background:var(--accent-text); vertical-align:-.15em; margin-left:2px; animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.hero-lede{margin-top:var(--s-4); max-width:56ch; color:var(--muted)}
+.hero-cta{display:flex; flex-wrap:wrap; gap:var(--s-3); margin-top:var(--s-6)}
+.hero-meta{margin-top:var(--s-5); font:500 var(--t-xs)/1.5 var(--font-ui); color:var(--muted); display:flex; flex-wrap:wrap; gap:var(--s-2) var(--s-4)}
+.hero-meta b{color:var(--fg); font-weight:700}
+
+.orrery{position:relative; aspect-ratio:1/1; max-width:100%; width:100%; max-height:560px; margin-inline:auto}
+@media (max-width:899px){ .orrery{aspect-ratio:auto; height:340px} }
+.orrery canvas{position:absolute; inset:0; width:100%; height:100%; display:block; touch-action:pan-y}
+.orrery .fallback{position:absolute; inset:0; display:grid; place-items:center}
+[hidden]{display:none!important}
+.orrery .fallback svg{width:70%; height:auto}
+.tip{
+  position:absolute; pointer-events:none; z-index:2; transform:translate(-50%, calc(-100% - 14px));
+  background:var(--fg); color:var(--bg); font:600 var(--t-xs)/1 var(--font-ui); padding:8px 10px; border-radius:8px; white-space:nowrap;
+  opacity:0; transition:opacity var(--dur-1) var(--ease-out);
+}
+.tip.on{opacity:1}
+.orbit-legend{display:flex; flex-wrap:wrap; justify-content:center; gap:var(--s-2); margin-top:var(--s-3)}
+.orbit-legend p{width:100%; text-align:center; font:500 var(--t-xs)/1.4 var(--font-ui); color:var(--muted)}
+
+/* chips */
+.chip{
+  display:inline-flex; align-items:center; gap:6px; min-height:44px; padding:0 14px; border-radius:var(--r-pill);
+  border:1px solid var(--line-strong); background:transparent; cursor:pointer; white-space:nowrap;
+  font:500 var(--t-sm)/1 var(--font-ui); color:var(--fg);
+  transition:background-color var(--dur-1) var(--ease-out), color var(--dur-1) var(--ease-out), border-color var(--dur-1) var(--ease-out);
+}
+.chip .dot{width:9px; height:9px; border-radius:50%; background:var(--dotc, var(--accent)); flex:none}
+.chip:hover{background:var(--bg-2)}
+.chip[aria-pressed="true"]{background:var(--fg); color:var(--bg); border-color:var(--fg)}
+.chip .n{font-weight:700; opacity:.75; font-variant-numeric:tabular-nums}
+
+/* ---------- section scaffolding ---------- */
+section{position:relative}
+.sec{padding-block:var(--s-8)}
+@media (min-width:900px){ .sec{padding-block:var(--s-9)} }
+.sec-head{display:grid; gap:var(--s-3); margin-bottom:var(--s-6); max-width:760px}
+.sec-head h2{font-size:var(--t-2xl)}
+.sec-head p{color:var(--muted); max-width:60ch}
+.rule-orbit{display:block; width:100%; height:28px; color:var(--accent)}
+
+/* reveal (from a visible resting state) */
+.js .rv{opacity:.62; transform:translateY(18px); transition:opacity var(--dur-3) var(--ease-out), transform var(--dur-3) var(--ease-out)}
+.js .rv.in{opacity:1; transform:none}
+
+/* ---------- featured ---------- */
+.feat{display:grid; gap:var(--s-6); align-items:center}
+@media (min-width:900px){ .feat{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr); gap:var(--s-8)} }
+.feat-art{position:relative; aspect-ratio:1/1; max-width:520px; width:100%; margin-inline:auto; color:var(--accent)}
+.feat-art svg{width:100%; height:100%; overflow:visible}
+.feat-art .yr{font:800 7.5rem/1 var(--font-display); fill:var(--fg); letter-spacing:-.03em}
+.feat-art .draw{stroke-dasharray:var(--len); stroke-dashoffset:var(--len); transition:stroke-dashoffset 1.6s var(--ease-out)}
+.feat-art.in .draw{stroke-dashoffset:0}
+.feat-body h3{font-size:clamp(1.8rem, 1.3rem + 2vw, 2.8rem); letter-spacing:-.02em}
+.feat-body .dek{margin-top:var(--s-4); font-size:var(--t-lg); line-height:1.6; color:var(--muted); max-width:52ch}
+.meta{display:flex; flex-wrap:wrap; align-items:center; gap:var(--s-2) var(--s-3); font:500 var(--t-xs)/1.4 var(--font-ui); color:var(--muted)}
+.cat{display:inline-flex; align-items:center; gap:6px; font:700 var(--t-xs)/1 var(--font-ui); letter-spacing:.06em; text-transform:uppercase; color:var(--accent-text)}
+.cat .ico{width:16px; height:16px}
+.cat[data-c="science"]{color:var(--science)}
+.feat-body .meta{margin-bottom:var(--s-4)}
+.feat-body .btn{margin-top:var(--s-6)}
+
+/* ---------- feed ---------- */
+.controls{display:grid; gap:var(--s-4); margin-bottom:var(--s-6)}
+.chips{display:flex; gap:var(--s-2); overflow-x:auto; padding-bottom:6px; scrollbar-width:thin; margin-inline:-4px; padding-inline:4px}
+@media (min-width:900px){ .chips{flex-wrap:wrap; overflow:visible} }
+.filters{display:flex; flex-wrap:wrap; gap:var(--s-3); align-items:center}
+.field{display:flex; align-items:center; gap:var(--s-2); min-height:48px; padding:0 14px; border:1px solid var(--line-strong); border-radius:var(--r-md); background:var(--card); flex:1 1 260px; min-width:0}
+.field:focus-within{outline:2px solid var(--focus); outline-offset:2px}
+.field input{border:0; background:transparent; outline:0; min-width:0; width:100%; font:500 var(--t-base)/1.2 var(--font-ui)}
+.field input::placeholder{color:var(--muted); opacity:1}
+.select{position:relative}
+.select select{appearance:none; min-height:48px; padding:0 40px 0 14px; border:1px solid var(--line-strong); border-radius:var(--r-md); background:var(--card); font:500 var(--t-sm)/1 var(--font-ui); cursor:pointer}
+.select::after{content:""; position:absolute; right:16px; top:50%; width:7px; height:7px; border-right:1.6px solid var(--fg); border-bottom:1.6px solid var(--fg); transform:translateY(-70%) rotate(45deg); pointer-events:none}
+.count{font:500 var(--t-xs)/1.4 var(--font-ui); color:var(--muted)}
+
+.feed{display:grid; grid-template-columns:repeat(auto-fill, minmax(min(100%, 290px), 1fr)); gap:var(--s-6) var(--s-5)}
+.card{position:relative; display:flex; flex-direction:column; gap:var(--s-3); padding-top:var(--s-4); border-top:1px solid var(--line-strong); min-width:0}
+.card h3{font-size:var(--t-xl); line-height:1.18}
+.card h3 button{all:unset; cursor:pointer; background-image:linear-gradient(var(--accent),var(--accent)); background-size:0% 1px; background-repeat:no-repeat; background-position:0 100%; transition:background-size var(--dur-2) var(--ease-out)}
+.card h3 button::after{content:""; position:absolute; inset:0}
+.card h3 button:focus-visible{outline:none}
+.card:focus-within{outline:2px solid var(--focus); outline-offset:6px; border-radius:4px}
+.card:hover h3 button{background-size:100% 1px}
+.card .dek{color:var(--muted); font-size:var(--t-sm); line-height:1.6}
+.card .meta{margin-top:auto}
+.card.wide{grid-column:1 / -1; display:grid; gap:var(--s-3) var(--s-7); padding-top:var(--s-5)}
+@media (min-width:900px){ .card.wide{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr); align-items:end} .card.wide h3{font-size:clamp(1.8rem,1.4rem + 1.4vw,2.4rem)} .card.wide .dek{font-size:var(--t-base)} }
+.card .glyph{position:absolute; right:0; top:var(--s-4); width:28px; height:28px; color:var(--accent-text); opacity:.85}
+.card .glyph .ico{width:28px; height:28px; stroke-width:1.3}
+.card[data-c="science"] .glyph{color:var(--science)}
+.card h3{padding-right:40px}
+.empty{grid-column:1/-1; border:1px dashed var(--line-strong); border-radius:var(--r-md); padding:var(--s-7) var(--s-5); text-align:center; display:grid; gap:var(--s-3); justify-items:center}
+.empty h3{font-size:var(--t-xl)}
+.empty p{color:var(--muted); max-width:46ch}
+
+/* ---------- lab ---------- */
+.lab{background:var(--bg-2)}
+.tabs{display:flex; gap:var(--s-2); overflow-x:auto; padding-bottom:6px; margin-bottom:var(--s-5)}
+.tab{min-height:48px; padding:0 var(--s-5); border-radius:var(--r-pill); border:1px solid var(--line-strong); background:transparent; cursor:pointer; font:600 var(--t-sm)/1 var(--font-ui); white-space:nowrap; display:inline-flex; align-items:center; gap:8px}
+.tab:hover{background:var(--card)}
+.tab[aria-selected="true"]{background:var(--btn-bg); color:var(--btn-fg); border-color:var(--btn-bg)}
+.panel{background:var(--card); border-radius:var(--r-md); padding:var(--s-5); box-shadow:0 18px 40px -28px rgba(27,26,23,.45)}
+@media (min-width:900px){ .panel{padding:var(--s-7)} }
+.panel-grid{display:grid; gap:var(--s-6)}
+@media (min-width:900px){ .panel-grid{grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr); gap:var(--s-7)} }
+.panel h3{font-size:var(--t-xl)}
+.panel .note{font:500 var(--t-xs)/1.5 var(--font-ui); color:var(--muted)}
+.ctrl{display:grid; gap:6px}
+.ctrl label{display:flex; justify-content:space-between; gap:var(--s-3); font:600 var(--t-sm)/1.3 var(--font-ui)}
+.ctrl output{font-variant-numeric:tabular-nums; color:var(--accent-text); font-weight:700}
+input[type="range"]{-webkit-appearance:none; appearance:none; width:100%; height:44px; background:transparent; cursor:pointer}
+input[type="range"]::-webkit-slider-runnable-track{height:4px; border-radius:4px; background:var(--line-strong)}
+input[type="range"]::-moz-range-track{height:4px; border-radius:4px; background:var(--line-strong)}
+input[type="range"]::-webkit-slider-thumb{-webkit-appearance:none; width:22px; height:22px; margin-top:-9px; border-radius:50%; background:var(--btn-bg); border:3px solid var(--card); box-shadow:0 0 0 1px var(--line-strong)}
+input[type="range"]::-moz-range-thumb{width:18px; height:18px; border-radius:50%; background:var(--btn-bg); border:3px solid var(--card)}
+input[type="range"]:focus-visible{outline:2px solid var(--focus)}
+.stack{display:grid; gap:var(--s-4)}
+.big-out{display:grid; gap:var(--s-1)}
+.big-out .v{font:800 clamp(1.9rem,1.4rem + 2vw,2.8rem)/1.05 var(--font-display); font-variant-numeric:tabular-nums; letter-spacing:-.02em; overflow-wrap:anywhere}
+.big-out .l{font:500 var(--t-xs)/1.4 var(--font-ui); color:var(--muted)}
+.kv{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:var(--s-4)}
+.kv div{border-top:1px solid var(--line); padding-top:var(--s-2)}
+.kv dt{font:500 var(--t-xs)/1.4 var(--font-ui); color:var(--muted)}
+.kv dd{margin:0; font:700 var(--t-lg)/1.3 var(--font-ui); font-variant-numeric:tabular-nums}
+.chart{width:100%; height:auto; display:block; overflow:visible}
+.chart text{font:500 11px var(--font-ui); fill:var(--muted)}
+.chart .grid{stroke:var(--line); stroke-width:1}
+.chart .b-dep{fill:var(--up)} .chart .b-int{fill:var(--accent)}
+.legend{display:flex; flex-wrap:wrap; gap:var(--s-4); font:500 var(--t-xs)/1.4 var(--font-ui); color:var(--muted)}
+.legend i{display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:6px; vertical-align:-1px}
+.parts{display:flex; flex-wrap:wrap; gap:var(--s-2)}
+.candle-svg{width:100%; max-width:420px; height:auto; margin-inline:auto; display:block}
+.candle-svg .hit{cursor:pointer}
+.candle-svg .part{transition:opacity var(--dur-1) var(--ease-out), stroke-width var(--dur-1) var(--ease-out)}
+.candle-svg.focusing .part{opacity:.28}
+.candle-svg.focusing .part.hl{opacity:1}
+.candle-svg text{font:600 12px var(--font-ui); fill:var(--muted)}
+.candle-svg .lbl-strong{fill:var(--fg); font-weight:700}
+.explain{border-left:0; background:var(--bg-2); border-radius:var(--r-sm); padding:var(--s-4); min-height:7.5em}
+.explain b{font-family:var(--font-ui)}
+.seg{display:flex; flex-wrap:wrap; gap:var(--s-2)}
+.light-svg{width:100%; height:auto; display:block}
+.light-svg text{font:600 12px var(--font-ui); fill:var(--muted)}
+.light-svg .track{stroke:var(--line-strong); stroke-dasharray:2 6}
+
+/* ---------- rabbit holes ---------- */
+.holes{display:grid; gap:var(--s-7)}
+.hole{display:grid; gap:var(--s-5); padding-top:var(--s-5); border-top:1px solid var(--line-strong)}
+@media (min-width:900px){ .hole{grid-template-columns:minmax(0,1fr) minmax(0,1.2fr); gap:var(--s-7); align-items:start} }
+.hole h3{font-size:var(--t-xl)}
+.hole .dek{color:var(--muted); margin-top:var(--s-2); font-size:var(--t-sm)}
+.const{width:100%; height:auto; display:block; margin-top:var(--s-4); color:var(--accent)}
+.const .ln{stroke:currentColor; stroke-width:1.2; fill:none; stroke-dasharray:var(--len); stroke-dashoffset:var(--len); transition:stroke-dashoffset 1.8s var(--ease-out)}
+.hole.in .const .ln{stroke-dashoffset:0}
+.const .st{fill:var(--accent-text); cursor:pointer; transition:transform var(--dur-2) var(--ease-out); transform-box:fill-box; transform-origin:center}
+.const .st:hover,.const .st:focus-visible{transform:scale(1.35)}
+.const text{font:600 11px var(--font-ui); fill:var(--muted)}
+.steps{list-style:none; margin:0; padding:0; display:grid; gap:0; counter-reset:s}
+.steps li{counter-increment:s; border-bottom:1px solid var(--line)}
+.steps button{all:unset; box-sizing:border-box; width:100%; cursor:pointer; display:grid; grid-template-columns:2.2em minmax(0,1fr) auto; gap:var(--s-3); align-items:baseline; padding:var(--s-4) 0; min-height:44px}
+.steps button::before{content:counter(s); font:700 var(--t-lg)/1 var(--font-display); color:var(--accent-text)}
+.steps button:hover .t{text-decoration:underline; text-decoration-color:var(--accent)}
+.steps button:focus-visible{outline:2px solid var(--focus); outline-offset:2px}
+.steps .t{font:600 var(--t-base)/1.35 var(--font-display)}
+.steps .m{font:500 var(--t-xs)/1 var(--font-ui); color:var(--muted); white-space:nowrap}
+
+/* ---------- global radar ---------- */
+.radar{display:grid; gap:var(--s-5)}
+@media (min-width:900px){ .radar{grid-template-columns:repeat(3,minmax(0,1fr))} }
+.digest{border:1px dashed var(--line-strong); border-radius:var(--r-md); padding:var(--s-5); display:grid; gap:var(--s-3); align-content:start}
+.digest h3{font-size:var(--t-lg)}
+.digest p{color:var(--muted); font-size:var(--t-sm)}
+
+/* ---------- letter ---------- */
+.letter{max-width:760px; margin-inline:auto; background:var(--card); border-radius:var(--r-md); padding:var(--s-6) var(--s-5); position:relative; box-shadow:0 22px 50px -34px rgba(27,26,23,.5)}
+@media (min-width:700px){ .letter{padding:var(--s-8) var(--s-8)} }
+.letter h2{font-size:var(--t-2xl); margin-bottom:var(--s-5)}
+.letter p + p{margin-top:var(--s-4)}
+.letter .body{font-size:var(--t-lg); line-height:1.75}
+.sig{display:flex; flex-wrap:wrap; align-items:center; gap:var(--s-5); margin-top:var(--s-6)}
+.who{display:flex; align-items:center; gap:var(--s-3)}
+.av{width:52px; height:52px; border-radius:50%; display:grid; place-items:center; font:700 1.3rem/1 var(--font-display); background:var(--btn-bg); color:var(--btn-fg)}
+.who b{font:600 2rem/1 var(--font-hand); color:var(--accent-text)}
+.who small{display:block; font:500 var(--t-xs)/1.3 var(--font-ui); color:var(--muted)}
+.amp{font:600 1.8rem/1 var(--font-hand); color:var(--muted)}
+
+/* ---------- footer ---------- */
+.foot{padding-block:var(--s-9) calc(var(--s-7) + 76px); text-align:center; border-top:1px solid var(--line)}
+@media (min-width:960px){ .foot{padding-bottom:var(--s-7)} }
+.wordmark{position:relative; display:block; max-width:820px; margin-inline:auto}
+.wordmark svg{width:100%; height:auto; overflow:visible}
+.wordmark .wm{font:800 104px/1 var(--font-display); fill:var(--fg); letter-spacing:.01em}
+.wordmark .orb{fill:none; stroke:var(--accent); stroke-width:2.2}
+.wordmark .tag{font:600 19px var(--font-ui); letter-spacing:.42em; fill:var(--fg)}
+.wordmark .sp{fill:var(--accent)}
+.foot-row{display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:var(--s-5); margin-top:var(--s-7)}
+.stamp{width:132px; height:132px; color:var(--fg)}
+.stamp text{font:700 10px var(--font-ui); fill:currentColor}
+.foot-links{display:flex; flex-wrap:wrap; justify-content:center; gap:var(--s-1) var(--s-2)}
+.foot-links a, .foot-links button{font:500 var(--t-sm)/1 var(--font-ui); padding:14px 12px; text-decoration:none; background:none; border:0; cursor:pointer; border-radius:var(--r-pill); white-space:nowrap}
+.foot-links a:hover, .foot-links button:hover{background:var(--bg-2)}
+.fine{margin-top:var(--s-5); font:500 var(--t-xs)/1.5 var(--font-ui); color:var(--muted)}
+
+/* ---------- mobile bottom nav ---------- */
+.bnav{
+  position:fixed; left:0; right:0; bottom:0; z-index:45;
+  padding:6px max(10px, env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(10px, env(safe-area-inset-left,0px));
+  background:var(--header-bg); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); border-top:1px solid var(--line);
+  display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:4px;
+}
+.bnav a, .bnav button{all:unset; box-sizing:border-box; cursor:pointer; display:grid; justify-items:center; gap:3px; padding:6px 2px; min-height:52px; border-radius:12px; font:600 11.5px/1 var(--font-ui); color:var(--fg)}
+.bnav a:active, .bnav button:active{background:var(--bg-2)}
+.bnav a:focus-visible, .bnav button:focus-visible{outline:2px solid var(--focus)}
+@media (min-width:960px){ .bnav{display:none} }
+
+/* ---------- dialogs ---------- */
+dialog{color:var(--fg); background:var(--bg); border:0; padding:0}
+dialog::backdrop{background:rgba(15,14,12,.55); backdrop-filter:blur(3px)}
+.reader{width:min(780px,100%); max-width:100%; height:100%; max-height:100%; margin:0 0 0 auto; border-left:1px solid var(--line)}
+.reader[open]{animation:slidein var(--dur-2) var(--ease-out)}
+@keyframes slidein{from{transform:translateX(40px); opacity:.4}}
+.reader-in{height:100%; overflow-y:auto; overscroll-behavior:contain}
+.r-top{position:sticky; top:0; z-index:2; background:var(--bg); border-bottom:1px solid var(--line); display:flex; align-items:center; gap:var(--s-3); padding:var(--s-3) max(16px, env(safe-area-inset-right,0px)) var(--s-3) var(--s-5); padding-top:calc(var(--s-3) + env(safe-area-inset-top,0px))}
+.r-top .cat{margin-right:auto}
+.r-bar{position:absolute; left:0; right:0; bottom:-1px; height:2px; background:var(--accent); transform-origin:0 50%; transform:scaleX(0)}
+.r-body{padding:var(--s-6) var(--s-5) var(--s-8); max-width:68ch; margin-inline:auto}
+@media (min-width:700px){ .r-body{padding:var(--s-7) var(--s-7) var(--s-9)} }
+.r-body h2{font-size:clamp(1.9rem,1.4rem + 2vw,2.7rem); letter-spacing:-.02em}
+.r-body .dek{font-size:var(--t-lg); color:var(--muted); margin-top:var(--s-4); line-height:1.6}
+.r-body .meta{margin-top:var(--s-4)}
+.toc{margin-top:var(--s-6); border:1px solid var(--line); border-radius:var(--r-md); padding:var(--s-2) var(--s-4)}
+.toc summary{cursor:pointer; font:600 var(--t-sm)/1 var(--font-ui); padding:12px 0; min-height:44px; display:flex; align-items:center}
+.toc ol{margin:0 0 var(--s-3); padding-left:1.3em; font:500 var(--t-sm)/1.5 var(--font-ui)}
+.toc li{padding:4px 0}
+.toc a{text-decoration:none}
+.toc a:hover{text-decoration:underline}
+.r-body h3{font-size:var(--t-xl); margin-top:var(--s-7); margin-bottom:var(--s-3); scroll-margin-top:90px}
+.r-body .sec-p p{margin-top:var(--s-3); font-size:1.125rem; line-height:1.78}
+.disc{margin-top:var(--s-6); font:500 var(--t-xs)/1.5 var(--font-ui); color:var(--muted); padding:var(--s-3) var(--s-4); background:var(--bg-2); border-radius:var(--r-sm)}
+.related{margin-top:var(--s-8); border-top:1px solid var(--line-strong); padding-top:var(--s-5)}
+.related h4{font-size:var(--t-lg); margin-bottom:var(--s-3)}
+.related ul{list-style:none; margin:0; padding:0}
+.related li button{all:unset; box-sizing:border-box; width:100%; cursor:pointer; display:block; padding:var(--s-3) 0; border-bottom:1px solid var(--line); font:600 var(--t-base)/1.35 var(--font-display); min-height:44px}
+.related li button:hover{color:var(--accent-text)}
+.related li button:focus-visible{outline:2px solid var(--focus)}
+.r-actions{display:flex; flex-wrap:wrap; gap:var(--s-3); margin-top:var(--s-6)}
+
+.search{width:min(640px, calc(100% - 24px)); margin:max(8vh, 12px) auto auto; border-radius:var(--r-md); border:1px solid var(--line-strong); max-height:min(640px, 84dvh)}
+.search[open]{animation:pop var(--dur-2) var(--ease-out)}
+@keyframes pop{from{transform:translateY(-8px) scale(.985); opacity:.5}}
+.s-in{display:flex; flex-direction:column; max-height:min(640px, 84dvh)}
+.s-head{display:flex; align-items:center; gap:var(--s-2); padding:var(--s-3) var(--s-3) var(--s-3) var(--s-4); border-bottom:1px solid var(--line)}
+.s-head input{flex:1; min-width:0; border:0; outline:0; background:transparent; min-height:48px; font:500 var(--t-lg)/1 var(--font-ui)}
+.s-head input::placeholder{color:var(--muted); opacity:1}
+.s-list{list-style:none; margin:0; padding:var(--s-2); overflow-y:auto}
+.s-list button{all:unset; box-sizing:border-box; width:100%; cursor:pointer; display:grid; grid-template-columns:22px minmax(0,1fr); gap:var(--s-3); align-items:start; padding:var(--s-3); border-radius:10px; min-height:44px}
+.s-list button .ico{margin-top:2px; color:var(--accent-text)}
+.s-list button[aria-selected="true"], .s-list button:hover{background:var(--bg-2)}
+.s-list button:focus-visible{outline:2px solid var(--focus)}
+.s-list .tt{font:600 var(--t-base)/1.3 var(--font-display)}
+.s-list .mm{font:500 var(--t-xs)/1.4 var(--font-ui); color:var(--muted); margin-top:2px}
+.s-empty{padding:var(--s-6) var(--s-5); text-align:center; display:grid; gap:var(--s-3); justify-items:center; color:var(--muted)}
+.s-foot{display:flex; flex-wrap:wrap; gap:var(--s-2) var(--s-4); padding:var(--s-3) var(--s-4); border-top:1px solid var(--line); font:500 var(--t-xs)/1.4 var(--font-ui); color:var(--muted)}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:1ms!important; animation-iteration-count:1!important; transition-duration:120ms!important; scroll-behavior:auto!important}
+  .js .rv{transform:none}
+  .split.play .w > span{animation:none}
+  .kepo .caret{display:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-finance" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="2.6"/><path d="M5 6v4c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6V6"/><path d="M5 10v4c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-4"/><path d="M5 14v4c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-4"/></symbol>
+    <symbol id="i-science" viewBox="0 0 24 24"><circle cx="12" cy="12" r="1.6"/><ellipse cx="12" cy="12" rx="9.5" ry="3.8"/><ellipse cx="12" cy="12" rx="9.5" ry="3.8" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9.5" ry="3.8" transform="rotate(120 12 12)"/></symbol>
+    <symbol id="i-sejarah" viewBox="0 0 24 24"><path d="M6 3h12M6 21h12"/><path d="M7 3c0 5 10 5 10 9s-10 4-10 9"/><path d="M17 3c0 5-10 5-10 9s10 4 10 9"/><path d="M9.5 18.5h5"/></symbol>
+    <symbol id="i-biografi" viewBox="0 0 24 24"><path d="M20 4c-7 0-12 5-13 12l-2 4"/><path d="M20 4c0 6-4 11-11 12"/><path d="M9 11h5M8 14h3"/></symbol>
+    <symbol id="i-market" viewBox="0 0 24 24"><path d="M3 17l5-5 4 3 7-8"/><path d="M15 7h4v4"/><path d="M3 21h18"/></symbol>
+    <symbol id="i-saham" viewBox="0 0 24 24"><path d="M7 3v4M7 15v5M17 5v3M17 17v3"/><rect x="5" y="7" width="4" height="8" rx=".6"/><rect x="15" y="8" width="4" height="9" rx=".6"/></symbol>
+    <symbol id="i-global" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.6 2.7 3.9 5.7 3.9 9s-1.3 6.3-3.9 9c-2.6-2.7-3.9-5.7-3.9-9S9.4 5.7 12 3z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
+    <symbol id="i-dice" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3.5"/><circle cx="9" cy="9" r=".9" fill="currentColor"/><circle cx="15" cy="15" r=".9" fill="currentColor"/><circle cx="15" cy="9" r=".9" fill="currentColor"/><circle cx="9" cy="15" r=".9" fill="currentColor"/><circle cx="12" cy="12" r=".9" fill="currentColor"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M19.5 14.5A8 8 0 0 1 9.5 4.5a8 8 0 1 0 10 10z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 15h9"/></symbol>
+    <symbol id="i-holes" viewBox="0 0 24 24"><circle cx="5" cy="17" r="1.6"/><circle cx="11" cy="7" r="1.6"/><circle cx="19" cy="11" r="1.6"/><path d="M6.2 15.7l3.8-7.3M12.5 7.8l5 2.5"/></symbol>
+    <symbol id="star4" viewBox="-10 -10 20 20"><path d="M0-10C.9-3 3-.9 10 0 3 .9.9 3 0 10-.9 3-3 .9-10 0-3-.9-.9-3 0-10z" stroke="none"/></symbol>
+  </defs>
+</svg>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#top" aria-label="Curioverse, ke atas">
+      <svg viewBox="0 0 64 64" aria-hidden="true" class="mono">
+        <text x="32" y="47" text-anchor="middle" style="font:800 46px var(--font-display); fill:var(--fg)">C</text>
+        <ellipse id="mono-orbit" cx="32" cy="34" rx="27" ry="10" transform="rotate(-24 32 34)" fill="none" stroke="var(--accent)" stroke-width="1.6" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+          <animate attributeName="stroke-dashoffset" from="100" to="0" dur="1.4s" begin="0.2s" fill="freeze" calcMode="spline" keySplines=".16 1 .3 1"/>
+        </ellipse>
+        <circle r="2.6" fill="var(--accent)">
+          <animateMotion dur="9s" repeatCount="indefinite" begin="1.4s" rotate="auto"><mpath href="#mono-orbit"/></animateMotion>
+        </circle>
+        <use href="#star4" x="27" y="25" width="10" height="10" fill="var(--accent)"/>
+      </svg>
+      <b>Curioverse</b>
+    </a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="#jelajah">Jelajah</a>
+      <a href="#lab">Lab Kepo</a>
+      <a href="#rabbit">Rabbit Holes</a>
+      <a href="#tentang">Tentang Kami</a>
+    </nav>
+    <button class="kpill" type="button" data-search aria-label="Cari cerita (Ctrl K)">
+      <svg class="ico" aria-hidden="true"><use href="#i-search"/></svg><span>Cari yang bikin kepo</span><kbd id="kbd">Ctrl K</kbd>
+    </button>
+    <button class="iconbtn search-m" type="button" data-search aria-label="Cari cerita"><svg class="ico" aria-hidden="true"><use href="#i-search"/></svg></button>
+    <button class="iconbtn" type="button" id="themeBtn" aria-label="Ganti tema terang atau gelap">
+      <svg class="ico t-moon" aria-hidden="true"><use href="#i-moon"/></svg><svg class="ico t-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+    </button>
+  </div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1 class="split" id="headline">Satu semesta isinya hal-hal yang bikin <span class="gold">kepo.</span></h1>
+        <p class="kepo ui" aria-live="off">Lagi kepo soal <span class="tw" id="tw">duit yang bisa beranak</span><span class="caret" aria-hidden="true"></span></p>
+        <p class="hero-lede">Ini rak pengetahuan pribadi punya AfreshiaLa &amp; LeoFa. Finance, science, sejarah, biografi, market, saham, sampai berita global, dijelasin pakai bahasa yang nggak bikin ngantuk. No cap.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#pilihan">Baca cerita minggu ini</a>
+          <button class="btn btn-ghost" type="button" data-surprise><svg class="ico" aria-hidden="true"><use href="#i-dice"/></svg>Surprise me</button>
+        </div>
+        <p class="hero-meta"><span><b id="mCount">15</b> cerita</span><span><b>7</b> orbit topik</span><span><b>3</b> lab interaktif</span><span><b>3</b> rabbit hole</span></p>
+      </div>
+      <div>
+        <div class="orrery" id="orrery">
+          <canvas id="orreryCanvas" aria-label="Orrery 3D: tiap planet adalah satu topik. Arahkan atau ketuk planet untuk lihat namanya, klik untuk buka topiknya." role="img"></canvas>
+          <div class="tip" id="tip" role="status" aria-live="polite"></div>
+          <div class="fallback" id="orreryFallback" hidden>
+            <svg viewBox="0 0 200 200" aria-hidden="true">
+              <ellipse cx="100" cy="100" rx="90" ry="34" transform="rotate(-20 100 100)" fill="none" stroke="var(--accent)" stroke-width="1.5"/>
+              <ellipse cx="100" cy="100" rx="70" ry="26" transform="rotate(-20 100 100)" fill="none" stroke="var(--accent)" stroke-width="1" opacity=".6"/>
+              <use href="#star4" x="76" y="76" width="48" height="48" fill="var(--accent)"/>
+            </svg>
+          </div>
+        </div>
+        <div class="orbit-legend" id="legend" aria-label="Pilih orbit topik"><p>Tiap planet = satu topik. Pencet planetnya atau chip di bawah.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section class="sec" id="pilihan" aria-labelledby="featTitle" style="padding-top:0">
+    <div class="wrap">
+      <svg class="rule-orbit" viewBox="0 0 1200 28" preserveAspectRatio="none" aria-hidden="true"><path d="M0 14 Q600 -6 1200 14" fill="none" stroke="currentColor" stroke-width="1"/><use href="#star4" x="588" y="-2" width="24" height="24" fill="currentColor"/></svg>
+      <div class="feat" style="margin-top:var(--s-7)">
+        <div class="feat-art rv" id="featArt" aria-hidden="true">
+          <svg viewBox="0 0 400 400">
+            <ellipse class="draw" cx="200" cy="200" rx="185" ry="70" transform="rotate(-18 200 200)" fill="none" stroke="currentColor" stroke-width="1.4" style="--len:850"/>
+            <ellipse class="draw" cx="200" cy="200" rx="150" ry="150" fill="none" stroke="currentColor" stroke-width=".8" stroke-dasharray="2 7" style="--len:950" opacity=".7"/>
+            <text class="yr" x="200" y="238" text-anchor="middle">1637</text>
+            <use href="#star4" x="300" y="70" width="34" height="34" fill="currentColor"/>
+            <use href="#star4" x="70" y="290" width="20" height="20" fill="currentColor"/>
+            <circle cx="380" cy="168" r="7" fill="currentColor"/>
+            <circle cx="24" cy="236" r="5" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="feat-body rv">
+          <div class="meta" id="featMeta"></div>
+          <h3 id="featTitle">Tulip mania: waktu satu umbi bunga dihargai kayak rumah</h3>
+          <p class="dek" id="featDek"></p>
+          <button class="btn btn-primary" type="button" data-open="tulip" id="featBtn">Baca ceritanya</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEED -->
+  <section class="sec" id="jelajah" aria-labelledby="jelajahTitle" style="padding-top:var(--s-6)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="jelajahTitle">Semua yang lagi kita kepoin</h2>
+        <p>Filter per orbit, cari kata kunci, atau urutkan biar yang singkat duluan. Semua bisa dibaca kurang dari 5 menit.</p>
+      </div>
+      <div class="controls">
+        <div class="chips" id="chips" role="group" aria-label="Filter topik"></div>
+        <div class="filters">
+          <label class="field" for="q">
+            <svg class="ico" aria-hidden="true"><use href="#i-search"/></svg>
+            <span class="sr">Cari di daftar cerita</span>
+            <input id="q" type="search" placeholder="Cari: saham, bintang, Kartini…" autocomplete="off">
+          </label>
+          <div class="select">
+            <label class="sr" for="sort">Urutkan</label>
+            <select id="sort">
+              <option value="new">Terbaru dulu</option>
+              <option value="short">Paling singkat dulu</option>
+              <option value="az">Judul A sampai Z</option>
+            </select>
+          </div>
+        </div>
+        <p class="count" id="count" aria-live="polite"></p>
+      </div>
+      <div class="feed" id="feed"></div>
+      <noscript><p>Daftar cerita butuh JavaScript. Nyalain dulu ya.</p></noscript>
+    </div>
+  </section>
+
+  <!-- LAB -->
+  <section class="sec lab" id="lab" aria-labelledby="labTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="labTitle">Lab kepo: pencet-pencet sendiri</h2>
+        <p>Belajar paling nempel itu sambil main. Tiga alat kecil, semuanya jalan di browser kamu.</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Pilih lab">
+        <button class="tab" role="tab" id="tab-money" aria-controls="p-money" aria-selected="true"><svg class="ico" aria-hidden="true"><use href="#i-finance"/></svg>Bunga majemuk</button>
+        <button class="tab" role="tab" id="tab-candle" aria-controls="p-candle" aria-selected="false" tabindex="-1"><svg class="ico" aria-hidden="true"><use href="#i-saham"/></svg>Anatomi candlestick</button>
+        <button class="tab" role="tab" id="tab-light" aria-controls="p-light" aria-selected="false" tabindex="-1"><svg class="ico" aria-hidden="true"><use href="#i-science"/></svg>Delay cahaya</button>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p-money" aria-labelledby="tab-money">
+        <div class="panel-grid">
+          <div class="stack">
+            <h3>Duit kamu, kalau dikasih waktu</h3>
+            <div class="ctrl"><label for="m-start">Setoran awal <output id="o-start" for="m-start"></output></label><input id="m-start" type="range" min="0" max="100000000" step="500000" value="5000000"></div>
+            <div class="ctrl"><label for="m-month">Nabung per bulan <output id="o-month" for="m-month"></output></label><input id="m-month" type="range" min="0" max="10000000" step="100000" value="500000"></div>
+            <div class="ctrl"><label for="m-rate">Bunga per tahun <output id="o-rate" for="m-rate"></output></label><input id="m-rate" type="range" min="1" max="15" step="0.5" value="6"></div>
+            <div class="ctrl"><label for="m-years">Lama waktu <output id="o-years" for="m-years"></output></label><input id="m-years" type="range" min="1" max="40" step="1" value="15"></div>
+            <p class="note">Simulasi bunga majemuk bulanan dengan angka contoh. Bukan saran investasi: aslinya ada inflasi, pajak, biaya, dan return yang naik turun.</p>
+          </div>
+          <div class="stack">
+            <div class="big-out" aria-live="polite"><span class="l">Total di akhir periode</span><span class="v" id="r-total">Rp0</span></div>
+            <dl class="kv">
+              <div><dt>Total yang kamu setor</dt><dd id="r-dep">Rp0</dd></div>
+              <div><dt>Hasil dari bunga</dt><dd id="r-int">Rp0</dd></div>
+              <div><dt>Rule of 72: dobel tiap</dt><dd id="r-72">-</dd></div>
+              <div><dt>Porsi dari bunga</dt><dd id="r-share">-</dd></div>
+            </dl>
+            <svg class="chart" id="chart" viewBox="0 0 600 260" role="img" aria-label="Grafik saldo per tahun"></svg>
+            <div class="legend"><span><i style="background:var(--up)"></i>Setoran kamu</span><span><i style="background:var(--accent)"></i>Bunga yang numpuk</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p-candle" aria-labelledby="tab-candle" hidden>
+        <div class="panel-grid">
+          <div class="stack">
+            <h3>Satu lilin, empat harga</h3>
+            <p>Pilih bagian lilinnya. Pencet langsung di gambar atau pakai tombol.</p>
+            <div class="parts" id="parts">
+              <button class="chip" type="button" data-part="high" aria-pressed="false">High</button>
+              <button class="chip" type="button" data-part="open" aria-pressed="false">Open</button>
+              <button class="chip" type="button" data-part="close" aria-pressed="false">Close</button>
+              <button class="chip" type="button" data-part="low" aria-pressed="false">Low</button>
+              <button class="chip" type="button" data-part="body" aria-pressed="false">Body</button>
+              <button class="chip" type="button" data-part="wick" aria-pressed="false">Wick</button>
+            </div>
+            <div class="explain" id="explain" aria-live="polite"><b>Mulai dari mana aja.</b> Tiap lilin merangkum satu periode, misalnya satu hari perdagangan.</div>
+            <p class="note">Warna naik dan turun beda-beda tiap aplikasi, jadi selalu cek legendanya. Di sini naik ditandai tulisan "Naik", turun ditandai "Turun".</p>
+          </div>
+          <svg class="candle-svg" id="candle" viewBox="0 0 400 300" role="img" aria-label="Dua candlestick: satu naik, satu turun, dengan label open, high, low, close">
+            <text x="110" y="18" text-anchor="middle" class="lbl-strong">Naik</text>
+            <text x="290" y="18" text-anchor="middle" class="lbl-strong">Turun</text>
+            <!-- up candle: high 36, close 80, open 190, low 250 -->
+            <g data-c="up">
+              <line class="part p-wick p-high" x1="110" y1="36" x2="110" y2="80" stroke="var(--up)" stroke-width="3"/>
+              <rect class="part p-body p-open p-close" x="84" y="80" width="52" height="110" rx="3" fill="var(--up)"/>
+              <line class="part p-wick p-low" x1="110" y1="190" x2="110" y2="250" stroke="var(--up)" stroke-width="3"/>
+              <text class="part p-high" x="64" y="40" text-anchor="end">High</text>
+              <text class="part p-close" x="64" y="84" text-anchor="end">Close</text>
+              <text class="part p-open" x="64" y="194" text-anchor="end">Open</text>
+              <text class="part p-low" x="64" y="254" text-anchor="end">Low</text>
+            </g>
+            <!-- down candle: high 50, open 96, close 200, low 270 -->
+            <g data-c="down">
+              <line class="part p-wick p-high" x1="290" y1="50" x2="290" y2="96" stroke="var(--down)" stroke-width="3"/>
+              <rect class="part p-body p-open p-close" x="264" y="96" width="52" height="104" rx="3" fill="none" stroke="var(--down)" stroke-width="3"/>
+              <line class="part p-wick p-low" x1="290" y1="200" x2="290" y2="270" stroke="var(--down)" stroke-width="3"/>
+              <text class="part p-high" x="336" y="54">High</text>
+              <text class="part p-open" x="336" y="100">Open</text>
+              <text class="part p-close" x="336" y="204">Close</text>
+              <text class="part p-low" x="336" y="274">Low</text>
+            </g>
+            <rect class="hit" data-part="wick" x="90" y="30" width="40" height="50" fill="transparent"/>
+            <rect class="hit" data-part="body" x="80" y="80" width="60" height="110" fill="transparent"/>
+            <rect class="hit" data-part="wick" x="90" y="190" width="40" height="64" fill="transparent"/>
+            <rect class="hit" data-part="wick" x="270" y="44" width="40" height="52" fill="transparent"/>
+            <rect class="hit" data-part="body" x="260" y="96" width="60" height="104" fill="transparent"/>
+            <rect class="hit" data-part="wick" x="270" y="200" width="40" height="74" fill="transparent"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="panel" role="tabpanel" id="p-light" aria-labelledby="tab-light" hidden>
+        <div class="stack">
+          <h3>Berapa lama cahaya jalan ke matamu?</h3>
+          <div class="seg" id="lightSeg" role="radiogroup" aria-label="Pilih sumber cahaya"></div>
+          <svg class="light-svg" viewBox="0 0 720 120" aria-hidden="true">
+            <line class="track" x1="40" y1="60" x2="680" y2="60" stroke-width="2"/>
+            <circle cx="40" cy="60" r="14" fill="var(--science)"/>
+            <text x="40" y="104" text-anchor="middle">Bumi</text>
+            <use href="#star4" id="lightDest" x="660" y="40" width="40" height="40" fill="var(--accent)"/>
+            <text id="lightName" x="680" y="104" text-anchor="middle">Matahari</text>
+            <circle id="photon" cx="680" cy="60" r="6" fill="var(--accent-text)"/>
+          </svg>
+          <div class="big-out" aria-live="polite"><span class="l" id="lightLbl">Waktu tempuh cahaya dari Matahari</span><span class="v" id="lightTime">8 menit 20 detik</span></div>
+          <p id="lightFun"></p>
+          <p class="note">Animasinya pakai skala logaritmik biar Bulan dan Andromeda muat di satu layar. Angka jarak adalah perkiraan rata-rata.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RABBIT HOLES -->
+  <section class="sec" id="rabbit" aria-labelledby="rabbitTitle">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="rabbitTitle">Rabbit holes: baca satu, auto lanjut ke yang lain</h2>
+        <p>Cerita-cerita yang nyambung satu sama lain, disusun kayak rasi bintang. Urutannya penting, jadi mulai dari bintang nomor satu.</p>
+      </div>
+      <div class="holes" id="holes"></div>
+    </div>
+  </section>
+
+  <!-- GLOBAL RADAR -->
+  <section class="sec" id="global" aria-labelledby="globalTitle" style="background:var(--bg-2)">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="globalTitle">Radar global</h2>
+        <p>Kita nggak mau pura-pura jadi portal berita. Di sini isinya bekal buat ngerti berita dunia, plus digest mingguan kalau udah siap.</p>
+      </div>
+      <div class="radar" id="radar"></div>
+    </div>
+  </section>
+
+  <!-- LETTER -->
+  <section class="sec" id="tentang" aria-labelledby="aboutTitle">
+    <div class="wrap">
+      <article class="letter rv">
+        <h2 id="aboutTitle">Halo, ini kita.</h2>
+        <div class="body">
+          <p>Kita AfreshiaLa dan LeoFa. Dua orang yang sama-sama nggak bisa diem kalau nemu fakta random, dan selalu pengin langsung share ke satu sama lain.</p>
+          <p>Lama-lama chat kita isinya "eh tau nggak sih" semua, dan banyak yang tenggelam. Jadi kita bikin Curioverse: satu tempat buat nyimpen hal-hal yang bikin kita kepo, dari cara kerja bunga majemuk sampai kenapa langit warnanya biru.</p>
+          <p>Kalau kamu nyasar ke sini dan ikut kepo, welcome. A curious mind lives here, dan sekarang kamu juga.</p>
+        </div>
+        <div class="sig">
+          <div class="who"><span class="av" aria-hidden="true">A</span><span><b>AfreshiaLa</b><small>co-curator</small></span></div>
+          <span class="amp" aria-hidden="true">&amp;</span>
+          <div class="who"><span class="av" aria-hidden="true">L</span><span><b>LeoFa</b><small>co-curator</small></span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="wordmark" aria-label="Curioverse, a curious mind lives here" role="img">
+      <svg viewBox="0 0 900 260" aria-hidden="true">
+        <path id="wmOrbit" class="orb" d="M60 168 C 40 40, 860 20, 846 120 C 836 196, 380 238, 120 206" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>
+        <text class="wm" x="450" y="160" text-anchor="middle">CURIOVERSE</text>
+        <text class="tag" x="450" y="232" text-anchor="middle">A CURIOUS MIND LIVES HERE</text>
+        <use class="sp" href="#star4" x="430" y="4" width="40" height="40"/>
+        <use class="sp" href="#star4" x="772" y="28" width="26" height="26"/>
+        <use class="sp" href="#star4" x="84" y="182" width="22" height="22"/>
+        <circle class="sp" cx="846" cy="120" r="6"/>
+      </svg>
+    </div>
+    <div class="foot-row">
+      <svg class="stamp" id="stamp" viewBox="0 0 140 140" aria-hidden="true">
+        <defs><path id="ring" d="M70 70 m-52 0 a52 52 0 1 1 104 0 a52 52 0 1 1 -104 0"/></defs>
+        <circle cx="70" cy="70" r="66" fill="none" stroke="currentColor" stroke-width="1.2"/>
+        <circle cx="70" cy="70" r="40" fill="none" stroke="currentColor" stroke-width=".8"/>
+        <text><textPath href="#ring" textLength="320" lengthAdjust="spacing">CURIOVERSE · A CURIOUS MIND LIVES HERE ·</textPath></text>
+        <ellipse cx="70" cy="70" rx="34" ry="12" transform="rotate(-24 70 70)" fill="none" stroke="var(--accent)" stroke-width="1.2"/>
+        <use href="#star4" x="56" y="56" width="28" height="28" fill="var(--accent)"/>
+      </svg>
+      <nav class="foot-links" aria-label="Navigasi footer">
+        <a href="#jelajah">Jelajah</a><a href="#lab">Lab Kepo</a><a href="#rabbit">Rabbit Holes</a><a href="#global">Radar Global</a><a href="#tentang">Tentang Kami</a>
+        <button type="button" data-surprise>Surprise me</button>
+      </nav>
+    </div>
+    <p class="fine">© 2026 AfreshiaLa &amp; LeoFa · Konten finance, market, dan saham buat belajar, bukan saran investasi.</p>
+  </div>
+</footer>
+
+<nav class="bnav" aria-label="Navigasi cepat">
+  <a href="#jelajah"><svg class="ico" aria-hidden="true"><use href="#i-compass"/></svg>Jelajah</a>
+  <a href="#lab"><svg class="ico" aria-hidden="true"><use href="#i-flask"/></svg>Lab</a>
+  <a href="#rabbit"><svg class="ico" aria-hidden="true"><use href="#i-holes"/></svg>Rabbit</a>
+  <button type="button" data-surprise><svg class="ico" aria-hidden="true"><use href="#i-dice"/></svg>Random</button>
+</nav>
+
+<dialog class="reader" id="reader" aria-labelledby="rTitle">
+  <div class="reader-in" id="readerIn">
+    <div class="r-top">
+      <span class="cat" id="rCat"></span>
+      <button class="iconbtn" type="button" data-surprise aria-label="Buka cerita random"><svg class="ico" aria-hidden="true"><use href="#i-dice"/></svg></button>
+      <button class="iconbtn" type="button" id="rClose" aria-label="Tutup cerita"><svg class="ico" aria-hidden="true"><use href="#i-close"/></svg></button>
+      <div class="r-bar" id="rBar" aria-hidden="true"></div>
+    </div>
+    <article class="r-body" id="rBody"></article>
+  </div>
+</dialog>
+
+<dialog class="search" id="search" aria-label="Cari cerita">
+  <div class="s-in">
+    <div class="s-head">
+      <svg class="ico" aria-hidden="true"><use href="#i-search"/></svg>
+      <label class="sr" for="sq">Cari cerita</label>
+      <input id="sq" type="search" placeholder="Ketik topik, tokoh, atau istilah…" autocomplete="off" role="combobox" aria-expanded="true" aria-controls="sList" aria-autocomplete="list">
+      <button class="iconbtn" type="button" id="sClose" aria-label="Tutup pencarian"><svg class="ico" aria-hidden="true"><use href="#i-close"/></svg></button>
+    </div>
+    <ul class="s-list" id="sList" role="listbox" aria-label="Hasil pencarian"></ul>
+    <div class="s-foot"><span><kbd>↑</kbd> <kbd>↓</kbd> pilih</span><span><kbd>Enter</kbd> buka</span><span><kbd>Esc</kbd> tutup</span></div>
+  </div>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(() => {
+"use strict";
+document.documentElement.classList.add("js");
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const store = {
+  get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } },
+  set(k, v){ try { localStorage.setItem(k, v); } catch(e){} }
+};
+
+/* ================= DATA ================= */
+const CATS = {
+  finance:{label:"Finance"}, science:{label:"Science"}, sejarah:{label:"Sejarah"}, biografi:{label:"Biografi"},
+  market:{label:"Market"}, saham:{label:"Saham"}, global:{label:"Global News"}
+};
+const ORDER = ["finance","science","sejarah","biografi","market","saham","global"];
+
+const A = [
+{ id:"tulip", cat:"sejarah", also:"finance", date:"2026-10-12",
+  title:"Tulip mania: waktu satu umbi bunga dihargai kayak rumah",
+  dek:"Belanda abad ke-17, harga kontrak umbi tulip naik gila-gilaan lalu ambruk di Februari 1637. Plot twist-nya, ceritanya mungkin nggak sedramatis yang kamu kira.",
+  tags:"gelembung bubble belanda spekulasi harga bunga",
+  s:[["Kok bisa bunga jadi aset?",["Di Republik Belanda tahun 1630-an, tulip itu barang flexing. Varietas yang kelopaknya bergaris-garis kayak api paling dicari (belakangan ketahuan pola itu efek virus). Orang nggak cuma beli bunganya, tapi kontrak umbi yang baru bakal dipanen nanti. Jadi yang diperdagangkan sebenernya janji.","Pas musim dingin 1636 ke 1637, harga kontrak itu naik terus. Banyak yang ikut beli bukan karena suka tulip, tapi karena yakin besok ada yang mau beli lebih mahal. Familiar? Ini pola klasik gelembung harga."]],
+     ["Februari 1637: pop",["Awal Februari 1637, di sebuah lelang di Haarlem, pembeli tiba-tiba nggak muncul. Kepercayaan runtuh dalam hitungan hari, harga kontrak jatuh, dan banyak kesepakatan akhirnya nggak pernah dibayar penuh."]],
+     ["Plot twist dari sejarawan",["Versi populernya bilang ekonomi Belanda hancur dan orang bangkrut massal. Sejarawan Anne Goldgar, lewat bukunya Tulipmania (2007), ngecek arsip aslinya dan nemu kalau yang kena dampak cuma lingkaran pedagang yang relatif kecil. Cerita semua orang jatuh miskin banyak datang dari pamflet moral yang ditulis setelahnya.","Jadi pelajarannya dobel: gelembung harga itu nyata, tapi cerita soal gelembung juga bisa digelembungkan. Selalu cek sumbernya, bestie."]]] },
+{ id:"voc", cat:"saham", also:"sejarah", date:"2026-10-09",
+  title:"Saham pertama di dunia lahir dari kapal rempah",
+  dek:"VOC berdiri tahun 1602 dan jadi salah satu perusahaan pertama yang sahamnya bisa dijual-beli bebas. Iya, VOC yang itu.",
+  tags:"voc belanda rempah bursa amsterdam pasar modal banda",
+  s:[["Masalahnya: kapal itu mahal dan sering hilang",["Pelayaran ke Asia buat cari pala, cengkeh, dan lada itu high risk high return. Satu kapal bisa bawa pulang untung gede, atau hilang di laut. Solusinya, modal dikumpulin dari banyak orang supaya risikonya dibagi rame-rame."]],
+     ["Lahirnya VOC",["Tahun 1602, Vereenigde Oostindische Compagnie (VOC) dibentuk. Bedanya dengan usaha sebelumnya, modal VOC ditanam jangka panjang, bukan per satu pelayaran. Kalau mau keluar, investor nggak narik uang dari perusahaan, tapi jual bagian kepemilikannya ke orang lain di Amsterdam. Dari situ jual-beli saham jadi kebiasaan.","Makanya VOC sering disebut sebagai salah satu perusahaan pertama yang sahamnya diperdagangkan publik."]],
+     ["Sisi gelapnya",["Keuntungan itu dibangun dari monopoli rempah dan kekerasan di Nusantara, termasuk tragedi di Kepulauan Banda tahun 1621. Jadi tiap dengar sejarah pasar modal, ingat juga siapa yang bayar harganya."]],
+     ["Hari ini",["Sekarang kita bisa beli saham lewat aplikasi di HP, dan di Indonesia jual-belinya lewat Bursa Efek Indonesia (BEI). Konsep dasarnya masih sama: kamu beli sepotong kecil kepemilikan sebuah perusahaan."]]] },
+{ id:"majemuk", cat:"finance", date:"2026-10-14",
+  title:"Bunga majemuk: cara duit kamu punya anak, terus anaknya punya anak",
+  dek:"Konsep finance paling underrated, plus trik Rule of 72 buat ngitung kapan uangmu jadi dua kali lipat cuma pakai otak.",
+  tags:"bunga compound interest tabungan investasi rule of 72 duit",
+  s:[["Bunga yang berbunga",["Bunga biasa dihitung dari setoran awal aja. Bunga majemuk dihitung dari setoran awal plus bunga yang udah terkumpul. Awalnya bedanya tipis banget, tapi makin lama grafiknya makin melengkung ke atas. Bahan utamanya: waktu."]],
+     ["Rule of 72",["Mau tau kira-kira berapa tahun uangmu jadi dua kali lipat? Bagi 72 dengan persentase bunga per tahun. Bunga 6% per tahun berarti sekitar 72 ÷ 6 = 12 tahun. Ini perkiraan kasar, tapi cukup akurat buat bunga di kisaran kecil sampai menengah."]],
+     ["Fun fact yang ternyata hoaks",["Kamu mungkin pernah lihat quote bunga majemuk adalah keajaiban dunia kedelapan yang katanya dari Einstein. Belum ada bukti Einstein pernah bilang itu. Konsepnya tetap valid, quote-nya aja yang nggak jelas asal-usulnya."]],
+     ["Coba sendiri",["Main-main angkanya di Lab Kepo di halaman utama. Ingat ya, ini simulasi. Di dunia nyata ada inflasi, pajak, biaya admin, dan return yang naik turun."]]] },
+{ id:"langit", cat:"science", date:"2026-10-05",
+  title:"Kenapa langit biru, padahal cahaya matahari putih?",
+  dek:"Jawabannya ada di molekul udara yang suka nyebarin cahaya biru ke segala arah. Bonus: kenapa sunset warnanya oranye.",
+  tags:"langit biru rayleigh cahaya sunset atmosfer fisika",
+  s:[["Cahaya putih itu sebenernya rame",["Cahaya matahari itu campuran semua warna pelangi. Tiap warna punya panjang gelombang beda: merah paling panjang, biru dan ungu paling pendek."]],
+     ["Hamburan Rayleigh",["Pas cahaya lewat atmosfer, molekul nitrogen dan oksigen menghamburkan cahaya. Gelombang pendek dihamburkan jauh lebih kuat daripada yang panjang. Hasilnya, biru tersebar ke seluruh langit dan masuk ke mata kita dari arah mana pun. Fenomena ini namanya hamburan Rayleigh."]],
+     ["Terus kenapa nggak ungu?",["Ungu malah lebih kuat dihamburkan, tapi matahari memancarkan ungu lebih sedikit, sebagian diserap di atmosfer atas, dan mata kita lebih sensitif ke biru. Jadi otak kita bacanya: biru."]],
+     ["Sunset oranye",["Pas matahari rendah, cahayanya nembus atmosfer yang jauh lebih tebal. Birunya udah habis dihamburkan di jalan, yang sampai ke mata tinggal oranye dan merah. Abu vulkanik di udara bisa bikin sunset makin dramatis, dan ini nyambung ke cerita Krakatau."]]] },
+{ id:"cahaya", cat:"science", date:"2026-09-30",
+  title:"Bintang yang kamu lihat malam ini sebenernya foto lama",
+  dek:"Cahaya butuh waktu buat jalan. Jadi tiap kali lihat langit, kamu lagi lihat masa lalu, literally.",
+  tags:"bintang cahaya tahun cahaya andromeda proxima astronomi",
+  s:[["Cepat, tapi nggak instan",["Kecepatan cahaya di ruang hampa sekitar 300.000 km per detik. Cepat banget, tapi alam semesta jauh lebih luas lagi."]],
+     ["Delay dari tetangga",["Cahaya dari Bulan butuh sekitar 1,3 detik buat sampai ke Bumi. Dari Matahari sekitar 8 menit 20 detik. Artinya, kalau Matahari tiba-tiba hilang, kita baru sadar sekitar 8 menit kemudian."]],
+     ["Makin jauh, makin lama",["Proxima Centauri, bintang terdekat setelah Matahari, jaraknya sekitar 4,24 tahun cahaya. Galaksi Andromeda sekitar 2,5 juta tahun cahaya. Cahaya Andromeda yang bisa kamu lihat di langit gelap berangkat waktu nenek moyang manusia masih di tahap awal evolusinya."]],
+     ["Jadi, bintangnya masih ada?",["Kebanyakan bintang yang kelihatan dengan mata telanjang relatif dekat, jadi hampir pasti masih ada. Tapi prinsipnya tetap: langit malam itu album foto dari waktu yang beda-beda."]]] },
+{ id:"curie", cat:"biografi", also:"science", date:"2026-10-02",
+  title:"Marie Curie: satu-satunya orang dengan Nobel di dua bidang sains",
+  dek:"Fisika 1903, Kimia 1911. Dan buku catatannya sampai sekarang masih radioaktif.",
+  tags:"marie curie nobel radium polonium perempuan ilmuwan polandia",
+  s:[["Dari Warsawa ke Paris",["Maria Skłodowska lahir di Warsawa tahun 1867. Waktu itu perempuan di sana nggak bisa kuliah di universitas biasa, jadi dia belajar diam-diam, lalu pindah ke Paris dan kuliah di Sorbonne."]],
+     ["Dua Nobel, dua bidang",["Tahun 1903 dia dapat Nobel Fisika bareng Pierre Curie dan Henri Becquerel atas riset radiasi. Tahun 1911 dia dapat Nobel Kimia karena menemukan unsur polonium dan radium. Sampai hari ini, dia satu-satunya orang yang menang Nobel di dua bidang sains yang berbeda."]],
+     ["Warisan yang literally masih aktif",["Waktu itu bahaya radiasi belum dipahami. Catatan kerjanya sampai sekarang masih menyimpan radioaktivitas, jadi disimpan di kotak berlapis timbal dan yang mau lihat aslinya perlu perlengkapan pelindung."]],
+     ["Kenapa dia relate",["Dia kerja di ruang yang dingin dan seadanya, dengan dana minim, dan tetap ngulik sampai tuntas. Energi kepo paling murni."]]] },
+{ id:"lovelace", cat:"biografi", date:"2026-09-26",
+  title:"Ada Lovelace nulis program komputer sebelum komputernya jadi",
+  dek:"Tahun 1843, dia nulis catatan yang sekarang dianggap salah satu algoritma pertama untuk mesin hitung.",
+  tags:"ada lovelace babbage analytical engine program komputer perempuan matematika",
+  s:[["Anak penyair, jago matematika",["Ada Lovelace lahir tahun 1815, anak penyair Lord Byron. Ibunya sengaja mengarahkan dia ke matematika dan sains. Dari kecil dia udah suka membayangkan mesin terbang."]],
+     ["Mesin yang nggak pernah jadi",["Charles Babbage merancang Analytical Engine, mesin hitung serbaguna yang nggak pernah selesai dibangun. Tahun 1843, Ada menerjemahkan artikel tentang mesin itu dan menambahkan catatan sendiri yang panjangnya melebihi artikel aslinya."]],
+     ["Note G",["Di catatan terakhir, Note G, dia menulis langkah-langkah supaya mesin itu bisa menghitung bilangan Bernoulli. Itu sering disebut sebagai program komputer pertama yang dipublikasikan. Dia juga menebak mesin seperti ini suatu hari bisa mengolah simbol lain, termasuk musik. Visioner banget."]],
+     ["Hari Ada Lovelace",["Setiap Selasa kedua bulan Oktober diperingati sebagai Ada Lovelace Day, untuk merayakan perempuan di bidang sains, teknologi, teknik, dan matematika."]]] },
+{ id:"kartini", cat:"biografi", also:"sejarah", date:"2026-09-21",
+  title:"Kartini dan surat-surat yang bikin gelap jadi terang",
+  dek:"Sebelum ada thread dan newsletter, Kartini udah nulis opini tajam lewat surat ke teman-temannya di Belanda.",
+  tags:"kartini jepara surat habis gelap terbitlah terang emansipasi pendidikan perempuan",
+  s:[["Dipingit, tapi pikirannya jalan terus",["Raden Ajeng Kartini lahir di Jepara, 21 April 1879. Setelah umur 12 dia harus dipingit di rumah sesuai adat bangsawan Jawa waktu itu. Sekolahnya berhenti, tapi bacaannya jalan terus."]],
+     ["Surat sebagai ruang bicara",["Kartini rajin surat-suratan dengan teman-temannya di Belanda. Isinya soal pendidikan perempuan, adat, kolonialisme, dan agama. Gaya nulisnya personal tapi kritis, kayak baca thread panjang yang bikin mikir."]],
+     ["Jadi buku",["Kartini meninggal tahun 1904 di usia 25 tahun. Tahun 1911, J.H. Abendanon menerbitkan kumpulan suratnya dengan judul Door Duisternis tot Licht. Versi bahasa Indonesianya kita kenal sebagai Habis Gelap Terbitlah Terang."]],
+     ["Kenapa masih relevan",["Ide intinya simpel: perempuan berhak belajar dan menentukan hidupnya. Makanya setiap 21 April kita peringati sebagai Hari Kartini."]]] },
+{ id:"krakatau", cat:"sejarah", also:"science", date:"2026-09-18",
+  title:"Krakatau 1883: letusan yang kedengeran sampai 4.800 km",
+  dek:"Suaranya terdengar sampai Pulau Rodrigues di Samudra Hindia, dan sunset di banyak negara jadi merah aneh berbulan-bulan.",
+  tags:"krakatau gunung letusan 1883 tsunami selat sunda vulkanik",
+  s:[["26 sampai 27 Agustus 1883",["Gunung Krakatau di Selat Sunda meletus besar-besaran. Ledakan puncaknya terjadi pagi hari tanggal 27 Agustus dan menghancurkan sebagian besar pulaunya."]],
+     ["Suara yang nyampe ke seberang samudra",["Dentumannya terdengar sampai Pulau Rodrigues, sekitar 4.800 km jauhnya. Gelombang tekanannya terekam barometer di berbagai negara dan memutari Bumi beberapa kali."]],
+     ["Tsunami dan korban",["Tsunami yang dipicu letusan menyapu pesisir Jawa dan Sumatra. Korban jiwanya lebih dari 36 ribu orang, sebagian besar karena tsunami."]],
+     ["Langit dunia ikut berubah",["Abu dan partikel halus naik tinggi ke atmosfer dan menyebar ke seluruh dunia. Selama berbulan-bulan, sunset di banyak negara jadi merah menyala, sampai ada yang mengira itu kebakaran besar. Tahun 1927, anak gunungnya muncul dari laut: Anak Krakatau."]]] },
+{ id:"bullbear", cat:"market", date:"2026-10-07",
+  title:"Bull vs bear market, dijelasin tanpa bikin pusing",
+  dek:"Dua istilah yang sering muncul di berita market. Intinya soal arah dan mood pasar.",
+  tags:"bull bear market ihsg indeks pasar saham istilah",
+  s:[["Bull: pasar lagi optimis",["Bull market itu periode ketika harga-harga di pasar naik dalam waktu cukup lama dan orang optimis. Banteng menyerang dengan tanduk ke atas, jadi gampang diingat."]],
+     ["Bear: pasar lagi lesu",["Bear market itu kebalikannya. Patokan yang umum dipakai: harga indeks turun 20% atau lebih dari titik tertingginya. Beruang menyerang dengan cakar ke bawah."]],
+     ["Versi Indonesia",["Kalau berita bilang IHSG menguat, yang dimaksud Indeks Harga Saham Gabungan, ukuran pergerakan semua saham di Bursa Efek Indonesia. Satu hari merah belum tentu bear market, ya. Jangan auto panik."]],
+     ["Catatan penting",["Nggak ada yang bisa menebak pasti kapan bull berubah jadi bear. Konten ini buat paham istilah."]]] },
+{ id:"inflasi", cat:"market", also:"finance", date:"2026-09-28",
+  title:"Inflasi: kenapa es kopi favoritmu makin mahal",
+  dek:"Harga naik pelan-pelan, duit di dompet sama, tapi belanjaan dapatnya makin dikit. Itu inflasi.",
+  tags:"inflasi harga bank indonesia bi rate suku bunga ekonomi",
+  s:[["Definisi versi santai",["Inflasi adalah kenaikan harga barang dan jasa secara umum dan terus-menerus. Bukan cuma satu barang yang naik, tapi rata-rata banyak barang."]],
+     ["Kenapa bisa terjadi",["Bisa karena permintaan lebih tinggi dari barang yang tersedia, karena biaya produksi naik (misalnya bahan baku atau energi), atau karena orang sudah mengira harga bakal naik."]],
+     ["Siapa yang ngerem",["Di Indonesia, Bank Indonesia bertugas menjaga inflasi tetap terkendali, salah satunya lewat suku bunga acuan BI-Rate. Kalau bunga naik, orang cenderung menahan belanja dan pinjaman, jadi laju harga bisa melambat."]],
+     ["Hubungannya sama tabunganmu",["Kalau bunga tabunganmu lebih kecil dari inflasi, nilai uangmu sebenernya pelan-pelan turun. Itu sebabnya orang ngomongin investasi. Tapi pahami risikonya dulu."]]] },
+{ id:"candle", cat:"saham", date:"2026-10-11",
+  title:"Cara baca candlestick buat pemula total",
+  dek:"Grafik lilin warna-warni di aplikasi saham itu sebenernya cuma empat angka: open, high, low, close.",
+  tags:"candlestick grafik saham chart ohlc teknikal homma",
+  s:[["Satu lilin, satu periode",["Setiap batang lilin mewakili satu periode waktu, misalnya satu hari. Lilin itu merangkum empat harga: pembukaan (open), tertinggi (high), terendah (low), dan penutupan (close)."]],
+     ["Badan dan sumbu",["Bagian tebal disebut badan (body), jaraknya dari open ke close. Garis tipis di atas dan bawah disebut sumbu (wick atau shadow), menunjukkan harga tertinggi dan terendah. Kalau close lebih tinggi dari open, harga naik. Kalau lebih rendah, harga turun. Warnanya tergantung aplikasi, jadi cek legendanya."]],
+     ["Dari pasar beras Jepang",["Metode ini sering dikaitkan dengan Munehisa Homma, pedagang beras Jepang abad ke-18. Di dunia Barat, candlestick jadi populer setelah buku Steve Nison terbit tahun 1991."]],
+     ["Latihan",["Coba pencet bagian-bagian lilin di Lab Kepo. Dan ingat, bisa baca grafik belum sama dengan bisa meramal harga."]]] },
+{ id:"g20", cat:"global", date:"2026-10-03",
+  title:"G20 itu sebenernya apa, dan kenapa Indonesia ada di dalamnya?",
+  dek:"Forum 19 negara plus Uni Eropa dan Uni Afrika yang ekonominya paling berpengaruh. Kita rangkum tanpa jargon.",
+  tags:"g20 ktt bali indonesia ekonomi dunia forum internasional",
+  s:[["Lahir dari krisis",["G20 dibentuk tahun 1999 setelah krisis keuangan Asia, awalnya sebagai pertemuan menteri keuangan dan gubernur bank sentral. Sejak krisis keuangan global 2008, para kepala negara ikut bertemu dalam KTT."]],
+     ["Anggotanya siapa aja",["Anggotanya 19 negara, Uni Eropa, dan sejak 2023 Uni Afrika. Indonesia jadi anggota karena ukuran ekonominya termasuk yang besar di dunia."]],
+     ["Indonesia jadi tuan rumah",["Tahun 2022 Indonesia memegang presidensi G20, dan KTT-nya digelar di Bali pada bulan November."]],
+     ["Kenapa kita perlu peduli",["Keputusan di forum kayak gini bisa menyentuh hal yang dekat sama kita: harga energi, perdagangan, sampai aturan pajak lintas negara. Jadi pas ada beritanya, kamu udah punya konteks."]]] },
+{ id:"cekberita", cat:"global", date:"2026-10-15",
+  title:"5 pertanyaan sebelum kamu share berita global",
+  dek:"Biar nggak ikut nyebarin info setengah matang. Checklist cepat, bisa dipakai dalam 30 detik.",
+  tags:"hoaks cek fakta berita media literasi share",
+  s:[["Siapa sumbernya?",["Media yang jelas redaksinya, lembaga resmi, atau akun anonim? Cek juga apakah mereka punya kepentingan sama isu itu."]],
+     ["Kapan kejadiannya?",["Banyak berita lama di-repost seolah baru. Lihat tanggal aslinya."]],
+     ["Ada data atau cuma klaim?",["Kalau ada angka, cari dari mana angka itu. Kalau nggak ada sumbernya, anggap belum terbukti."]],
+     ["Media lain bilang apa?",["Bandingkan minimal dua sumber berbeda, idealnya dari negara atau sudut pandang yang beda."]],
+     ["Judulnya bikin emosi?",["Judul yang bikin marah atau takut berlebihan itu sinyal buat pelan-pelan dulu. Baca sampai habis sebelum share."]]] },
+{ id:"tardigrade", cat:"science", date:"2026-09-23",
+  title:"Tardigrade: hewan seukuran debu yang pernah selamat di luar angkasa",
+  dek:"Panjangnya kurang dari satu milimeter, tapi tahan kering, beku, dan ruang hampa. Main character energy.",
+  tags:"tardigrade water bear hewan mikroskopis luar angkasa biologi",
+  s:[["Kenalan dulu",["Tardigrade, atau water bear, adalah hewan mikroskopis berkaki delapan yang hidup di lumut, tanah, sampai laut. Kebanyakan panjangnya sekitar setengah milimeter."]],
+     ["Mode tun",["Kalau lingkungannya kering, tardigrade bisa mengerut jadi bentuk yang disebut tun dan menurunkan metabolisme sampai hampir berhenti. Dalam mode ini dia bisa bertahan lama sampai ketemu air lagi."]],
+     ["Liburan ke luar angkasa",["Tahun 2007, dalam misi FOTON-M3, tardigrade dibawa ke orbit dan dipaparkan langsung ke ruang hampa. Sebagian berhasil hidup lagi setelah kembali ke Bumi, jadi mereka termasuk hewan pertama yang terbukti bertahan di kondisi itu."]],
+     ["Tapi bukan abadi",["Mereka tetap bisa mati, terutama saat sedang aktif. Superpower-nya muncul saat masuk mode tun. Tetap keren sih."]]] }
+];
+const BY = Object.fromEntries(A.map(a => [a.id, a]));
+const HOLES = [
+  { id:"bursa", title:"Dari bunga ke bursa", dek:"Gimana spekulasi bunga, kapal rempah, dan istilah pasar modern ternyata satu garis cerita.", ids:["tulip","voc","bullbear","candle"],
+    pts:[[30,120],[130,50],[230,96],[330,30]] },
+  { id:"jenius", title:"Perempuan yang kelewat jenius buat zamannya", dek:"Tiga orang yang nulis, ngitung, dan nemu hal-hal yang dunia belum siap terima.", ids:["kartini","lovelace","curie"],
+    pts:[[40,40],[180,118],[320,60]] },
+  { id:"langit", title:"Langit, cahaya, dan hal yang bikin merinding", dek:"Mulai dari warna langit, lanjut ke cahaya masa lalu, gunung yang ngubah sunset dunia, sampai hewan yang tahan ruang hampa.", ids:["langit","cahaya","krakatau","tardigrade"],
+    pts:[[30,60],[120,128],[240,40],[340,104]] }
+];
+const RADAR = ["cekberita","g20"];
+
+/* ================= HELPERS ================= */
+const BULAN = ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
+const fmtDate = d => { const [y,m,dd] = d.split("-").map(Number); return dd + " " + BULAN[m-1] + " " + y; };
+const words = a => (a.dek + " " + a.s.map(x => x[0] + " " + x[1].join(" ")).join(" ")).split(/\s+/).length;
+const mins = a => Math.max(1, Math.round(words(a) / 200));
+const esc = s => s.replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+const icon = (id, cls = "ico") => `<svg class="${cls}" aria-hidden="true"><use href="#i-${id}"/></svg>`;
+const catTag = c => `<span class="cat" data-c="${c}">${icon(c)}${CATS[c].label}</span>`;
+const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+const hay = a => norm([a.title, a.dek, a.tags, CATS[a.cat].label, a.also ? CATS[a.also].label : "", a.s.map(x => x[0] + " " + x[1].join(" ")).join(" ")].join(" "));
+A.forEach(a => { a._h = hay(a); a._m = mins(a); });
+$("#mCount").textContent = A.length;
+
+/* ================= THEME ================= */
+const themeBtn = $("#themeBtn");
+const sysDark = matchMedia("(prefers-color-scheme: dark)");
+const saved = store.get("cv-theme");
+if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
+const isDark = () => { const t = document.documentElement.dataset.theme; return t ? t === "dark" : sysDark.matches; };
+const syncThemeLabel = () => themeBtn.setAttribute("aria-label", isDark() ? "Ganti ke tema terang" : "Ganti ke tema gelap");
+syncThemeLabel();
+themeBtn.addEventListener("click", () => {
+  const next = isDark() ? "light" : "dark";
+  document.documentElement.dataset.theme = next; store.set("cv-theme", next);
+  syncThemeLabel(); window.dispatchEvent(new Event("cv-theme"));
+});
+sysDark.addEventListener("change", () => { syncThemeLabel(); window.dispatchEvent(new Event("cv-theme")); });
+
+/* ================= HERO TEXT ================= */
+const h1 = $("#headline");
+if (!reduced) {
+  let i = 0;
+  const wrapWords = node => {
+    [...node.childNodes].forEach(n => {
+      if (n.nodeType === 3) {
+        const frag = document.createDocumentFragment();
+        n.textContent.split(/(\s+)/).forEach(part => {
+          if (!part) return;
+          if (/^\s+$/.test(part)) { frag.appendChild(document.createTextNode(part)); return; }
+          const w = document.createElement("span"); w.className = "w";
+          const inner = document.createElement("span"); inner.textContent = part; inner.style.setProperty("--i", i++);
+          w.appendChild(inner); frag.appendChild(w);
+        });
+        n.replaceWith(frag);
+      } else if (n.nodeType === 1) wrapWords(n);
+    });
+  };
+  wrapWords(h1);
+  requestAnimationFrame(() => h1.classList.add("play"));
+}
+const PHRASES = ["duit yang bisa beranak","kenapa langit warnanya biru","saham pertama di dunia","gunung yang kedengeran 4.800 km","cewek yang nulis program pertama","cara baca berita tanpa auto panik","kapan market disebut bear","hewan yang selamat di luar angkasa"];
+const tw = $("#tw");
+(function typeLoop(){
+  let p = 0;
+  if (reduced) { setInterval(() => { p = (p + 1) % PHRASES.length; tw.textContent = PHRASES[p]; }, 4000); return; }
+  let txt = PHRASES[0], del = false, pause = 0;
+  const tick = () => {
+    if (document.hidden) return setTimeout(tick, 400);
+    if (pause > 0) { pause--; return setTimeout(tick, 60); }
+    if (!del) {
+      const target = PHRASES[p];
+      if (txt.length < target.length) { txt = target.slice(0, txt.length + 1); tw.textContent = txt; return setTimeout(tick, 42 + Math.random()*40); }
+      del = true; pause = 34; return setTimeout(tick, 60);
+    }
+    if (txt.length > 0) { txt = txt.slice(0, -1); tw.textContent = txt; return setTimeout(tick, 22); }
+    del = false; p = (p + 1) % PHRASES.length; return setTimeout(tick, 200);
+  };
+  pause = 40; setTimeout(tick, 900);
+})();
+
+/* ================= FEATURED ================= */
+const F = BY.tulip;
+$("#featMeta").innerHTML = catTag(F.cat) + `<span>${CATS[F.also].label}</span><span>${F._m} menit baca</span><span>${fmtDate(F.date)}</span>`;
+$("#featDek").textContent = F.dek;
+$("#featBtn").textContent = `Baca ceritanya (${F._m} menit)`;
+
+/* ================= FEED ================= */
+const state = { cat:"all", q:"", sort:"new" };
+const chipsEl = $("#chips"), feed = $("#feed"), countEl = $("#count");
+const countFor = c => A.filter(a => a.cat === c || a.also === c).length;
+chipsEl.innerHTML = `<button class="chip" type="button" data-cat="all" aria-pressed="true">Semua <span class="n">${A.length}</span></button>` +
+  ORDER.map(c => `<button class="chip" type="button" data-cat="${c}" aria-pressed="false" style="--dotc:var(--c-${c})"><span class="dot" aria-hidden="true"></span>${CATS[c].label} <span class="n">${countFor(c)}</span></button>`).join("");
+$("#legend").insertAdjacentHTML("beforeend", ORDER.map(c => `<button class="chip" type="button" data-goto="${c}" style="--dotc:var(--c-${c})"><span class="dot" aria-hidden="true"></span>${CATS[c].label}</button>`).join(""));
+
+function setCat(c){
+  state.cat = c;
+  $$("#chips .chip").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.cat === c)));
+  render();
+}
+function render(){
+  const q = norm(state.q.trim());
+  let list = A.filter(a => (state.cat === "all" || a.cat === state.cat || a.also === state.cat) && (!q || q.split(/\s+/).every(t => a._h.includes(t))));
+  if (state.sort === "new") list.sort((x,y) => y.date.localeCompare(x.date));
+  else if (state.sort === "short") list.sort((x,y) => x._m - y._m || y.date.localeCompare(x.date));
+  else list.sort((x,y) => x.title.localeCompare(y.title, "id"));
+  countEl.textContent = list.length ? `Menampilkan ${list.length} dari ${A.length} cerita` + (state.cat !== "all" ? ` di orbit ${CATS[state.cat].label}` : "") : "Nggak ada yang cocok";
+  if (!list.length) {
+    feed.innerHTML = `<div class="empty"><h3>Belum ketemu yang cocok${state.q ? ` sama "${esc(state.q)}"` : ""}.</h3><p>Coba kata lain kayak "saham", "bintang", atau "Kartini". Atau reset filter dan lihat semuanya.</p><button class="btn btn-ghost" type="button" id="resetF">Reset filter</button></div>`;
+    $("#resetF").addEventListener("click", () => { $("#q").value = ""; state.q = ""; setCat("all"); $("#q").focus(); });
+    return;
+  }
+  feed.innerHTML = list.map((a, i) => `
+    <article class="card${list.length > 2 && i % (cols() + 1) === 0 ? " wide" : ""}" data-c="${a.cat}">
+      <div>
+        <div class="meta" style="margin-bottom:var(--s-3)">${catTag(a.cat)}</div>
+        <h3><button type="button" data-open="${a.id}">${esc(a.title)}</button></h3>
+      </div>
+      <div style="display:grid;gap:var(--s-3)">
+        <p class="dek">${esc(a.dek)}</p>
+        <div class="meta"><span>${a._m} menit baca</span><span aria-hidden="true">·</span><span>${fmtDate(a.date)}</span></div>
+      </div>
+      <span class="glyph" aria-hidden="true">${icon(a.cat)}</span>
+    </article>`).join("");
+}
+function cols(){ const w = feed.clientWidth || 300; return Math.max(1, Math.floor((w + 24) / (290 + 24))); }
+let lastCols = 0;
+new ResizeObserver(() => { const c = cols(); if (c !== lastCols) { lastCols = c; render(); } }).observe(feed);
+chipsEl.addEventListener("click", e => { const b = e.target.closest("[data-cat]"); if (b) setCat(b.dataset.cat); });
+let qt; $("#q").addEventListener("input", e => { clearTimeout(qt); qt = setTimeout(() => { state.q = e.target.value; render(); }, 120); });
+$("#sort").addEventListener("change", e => { state.sort = e.target.value; render(); });
+render();
+function gotoCat(c){ setCat(c); $("#jelajah").scrollIntoView({ behavior: reduced ? "auto" : "smooth" }); }
+$("#legend").addEventListener("click", e => { const b = e.target.closest("[data-goto]"); if (b) gotoCat(b.dataset.goto); });
+
+/* ================= HOLES + RADAR ================= */
+$("#holes").innerHTML = HOLES.map(h => {
+  const d = h.pts.map((p,i) => (i ? "L" : "M") + p[0] + " " + p[1]).join(" ");
+  let len = 0; for (let i = 1; i < h.pts.length; i++) len += Math.hypot(h.pts[i][0]-h.pts[i-1][0], h.pts[i][1]-h.pts[i-1][1]);
+  return `<div class="hole rv" data-hole="${h.id}">
+    <div>
+      <h3>${esc(h.title)}</h3>
+      <p class="dek">${esc(h.dek)}</p>
+      <svg class="const" viewBox="0 0 370 160" aria-hidden="true">
+        <path class="ln" d="${d}" style="--len:${Math.ceil(len)}"/>
+        ${h.pts.map((p,i) => `<g><use class="st" href="#star4" x="${p[0]-9}" y="${p[1]-9}" width="18" height="18" data-open="${h.ids[i]}"/><text x="${p[0]}" y="${p[1] + (p[1] > 100 ? -16 : 26)}" text-anchor="middle">${i+1}</text></g>`).join("")}
+      </svg>
+    </div>
+    <ol class="steps">${h.ids.map(id => `<li><button type="button" data-open="${id}"><span class="t">${esc(BY[id].title)}</span><span class="m">${BY[id]._m} mnt</span></button></li>`).join("")}</ol>
+  </div>`;
+}).join("");
+$("#radar").innerHTML = RADAR.map(id => { const a = BY[id]; return `
+  <article class="card" data-c="${a.cat}">
+    <div><div class="meta" style="margin-bottom:var(--s-3)">${catTag(a.cat)}</div><h3><button type="button" data-open="${a.id}">${esc(a.title)}</button></h3></div>
+    <p class="dek">${esc(a.dek)}</p>
+    <div class="meta"><span>${a._m} menit baca</span></div>
+  </article>`; }).join("") +
+  `<div class="digest"><h3>Digest mingguan</h3><p>Edisi pertama lagi diracik. Belum ada isinya, jadi kita nggak mau pura-pura ada. Nanti di sini muncul rangkuman berita dunia minggu itu, lengkap dengan link sumber aslinya.</p><p class="count">Status: segera hadir</p></div>`;
+
+/* ================= READER ================= */
+const reader = $("#reader"), rIn = $("#readerIn"), rBody = $("#rBody"), rBar = $("#rBar");
+let lastFocus = null, current = null;
+const MONEY = new Set(["finance","market","saham"]);
+function related(a){
+  const hole = HOLES.find(h => h.ids.includes(a.id));
+  let ids = [];
+  if (hole) { const i = hole.ids.indexOf(a.id); ids = hole.ids.slice(i + 1).concat(hole.ids.slice(0, i)); }
+  A.forEach(x => { if (x.id !== a.id && !ids.includes(x.id) && (x.cat === a.cat || x.also === a.cat || x.cat === a.also)) ids.push(x.id); });
+  return { hole, ids: ids.slice(0, 3) };
+}
+function openArticle(id){
+  const a = BY[id]; if (!a) return;
+  if (!reader.open) lastFocus = document.activeElement;
+  current = id;
+  const rel = related(a);
+  $("#rCat").innerHTML = icon(a.cat) + CATS[a.cat].label;
+  $("#rCat").dataset.c = a.cat;
+  rBody.innerHTML = `
+    <h2 id="rTitle">${esc(a.title)}</h2>
+    <p class="dek">${esc(a.dek)}</p>
+    <div class="meta"><span>${a._m} menit baca</span><span aria-hidden="true">·</span><span>${fmtDate(a.date)}</span>${a.also ? `<span aria-hidden="true">·</span><span>juga di ${CATS[a.also].label}</span>` : ""}</div>
+    <details class="toc"><summary>Isi cerita (${a.s.length} bagian)</summary><ol>${a.s.map((x,i) => `<li><a href="#s-${a.id}-${i}" data-jump="s-${a.id}-${i}">${esc(x[0])}</a></li>`).join("")}</ol></details>
+    ${a.s.map((x,i) => `<h3 id="s-${a.id}-${i}">${esc(x[0])}</h3><div class="sec-p">${x[1].map(p => `<p>${esc(p)}</p>`).join("")}</div>`).join("")}
+    ${MONEY.has(a.cat) || MONEY.has(a.also) ? `<p class="disc">Konten ini buat belajar dan nambah wawasan, bukan saran investasi atau keuangan.</p>` : ""}
+    <div class="related"><h4>${rel.hole ? "Lanjut di rabbit hole: " + esc(rel.hole.title) : "Baca juga"}</h4>
+      <ul>${rel.ids.map(id => `<li><button type="button" data-open="${id}">${esc(BY[id].title)}</button></li>`).join("")}</ul></div>
+    <div class="r-actions"><button class="btn btn-primary" type="button" data-surprise>${icon("dice")}Surprise me lagi</button><button class="btn btn-ghost" type="button" data-close>Tutup</button></div>`;
+  if (!reader.open) reader.showModal();
+  rIn.scrollTop = 0; updateBar();
+  $("#rClose").focus({ preventScroll: true });
+  try { history.replaceState(null, "", "#baca-" + id); } catch(e){}
+}
+function closeReader(){ if (reader.open) reader.close(); }
+reader.addEventListener("close", () => {
+  current = null;
+  try { history.replaceState(null, "", location.pathname + location.search); } catch(e){}
+  if (lastFocus && document.contains(lastFocus)) lastFocus.focus({ preventScroll: true });
+});
+reader.addEventListener("click", e => { if (e.target === reader) closeReader(); });
+$("#rClose").addEventListener("click", closeReader);
+rBody.addEventListener("click", e => {
+  if (e.target.closest("[data-close]")) closeReader();
+  const j = e.target.closest("[data-jump]");
+  if (j) { e.preventDefault(); const t = document.getElementById(j.dataset.jump); if (t) t.scrollIntoView({ behavior: reduced ? "auto" : "smooth" }); }
+});
+function updateBar(){ const m = rIn.scrollHeight - rIn.clientHeight; rBar.style.transform = `scaleX(${m > 0 ? rIn.scrollTop / m : 1})`; }
+rIn.addEventListener("scroll", updateBar, { passive:true });
+function surprise(){
+  const pool = A.filter(a => a.id !== current);
+  openArticle(pool[Math.floor(Math.random() * pool.length)].id);
+}
+document.addEventListener("click", e => {
+  const o = e.target.closest("[data-open]");
+  if (o) { e.preventDefault(); if (search.open) search.close(); openArticle(o.dataset.open); return; }
+  if (e.target.closest("[data-surprise]")) { if (search.open) search.close(); surprise(); }
+});
+document.addEventListener("keydown", e => {
+  if (e.target.matches && e.target.matches(".const .st") && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); openArticle(e.target.dataset.open); }
+});
+$$(".const .st").forEach(s => { s.setAttribute("tabindex", "0"); s.setAttribute("role", "button"); s.setAttribute("aria-label", "Buka: " + BY[s.dataset.open].title); });
+
+/* ================= SEARCH (Ctrl/Cmd K) ================= */
+const search = $("#search"), sq = $("#sq"), sList = $("#sList");
+const isMac = /Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent);
+$("#kbd").textContent = isMac ? "⌘K" : "Ctrl K";
+let sel = 0, results = [];
+function runSearch(){
+  const q = norm(sq.value.trim());
+  results = q ? A.filter(a => q.split(/\s+/).every(t => a._h.includes(t))).slice(0, 8) : A.slice().sort((x,y) => y.date.localeCompare(x.date)).slice(0, 6);
+  sel = 0;
+  if (!results.length) {
+    sList.innerHTML = `<li class="s-empty"><p>Belum ada cerita soal "${esc(sq.value.trim())}". Coba "saham", "bintang", atau "Kartini".</p><button class="btn btn-ghost" type="button" data-surprise>${icon("dice")}Kasih yang random aja</button></li>`;
+    sq.removeAttribute("aria-activedescendant"); return;
+  }
+  sList.innerHTML = (q ? "" : `<li class="mm" style="padding:6px 12px;font:500 var(--t-xs)/1.4 var(--font-ui);color:var(--muted)">Terbaru</li>`) +
+    results.map((a,i) => `<li><button type="button" role="option" id="opt-${i}" data-open="${a.id}" aria-selected="${i === 0}">${icon(a.cat)}<span><span class="tt">${esc(a.title)}</span><span class="mm" style="display:block">${CATS[a.cat].label} · ${a._m} menit</span></span></button></li>`).join("");
+  sq.setAttribute("aria-activedescendant", "opt-0");
+}
+function moveSel(d){
+  if (!results.length) return;
+  sel = (sel + d + results.length) % results.length;
+  $$("#sList [role=option]").forEach((b,i) => b.setAttribute("aria-selected", String(i === sel)));
+  const b = $("#opt-" + sel); sq.setAttribute("aria-activedescendant", b.id); b.scrollIntoView({ block:"nearest" });
+}
+function openSearch(){ if (reader.open) reader.close(); sq.value = ""; runSearch(); search.showModal(); sq.focus(); }
+sq.addEventListener("input", runSearch);
+sq.addEventListener("keydown", e => {
+  if (e.key === "ArrowDown") { e.preventDefault(); moveSel(1); }
+  else if (e.key === "ArrowUp") { e.preventDefault(); moveSel(-1); }
+  else if (e.key === "Enter" && results[sel]) { e.preventDefault(); search.close(); openArticle(results[sel].id); }
+});
+$("#sClose").addEventListener("click", () => search.close());
+search.addEventListener("click", e => { if (e.target === search) search.close(); });
+$$("[data-search]").forEach(b => b.addEventListener("click", openSearch));
+document.addEventListener("keydown", e => {
+  if ((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) { e.preventDefault(); search.open ? search.close() : openSearch(); }
+  else if (e.key === "/" && !search.open && !reader.open && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { e.preventDefault(); openSearch(); }
+});
+
+/* ================= LAB: tabs ================= */
+const tabs = $$('[role="tab"]');
+function selectTab(t, focus){
+  tabs.forEach(x => { const on = x === t; x.setAttribute("aria-selected", String(on)); x.tabIndex = on ? 0 : -1; $("#" + x.getAttribute("aria-controls")).hidden = !on; });
+  if (focus) t.focus();
+  if (t.id === "tab-light") playLight();
+}
+tabs.forEach((t, i) => {
+  t.addEventListener("click", () => selectTab(t));
+  t.addEventListener("keydown", e => {
+    const n = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+    if (n) { e.preventDefault(); selectTab(tabs[(i + n + tabs.length) % tabs.length], true); }
+    if (e.key === "Home") { e.preventDefault(); selectTab(tabs[0], true); }
+    if (e.key === "End") { e.preventDefault(); selectTab(tabs[tabs.length-1], true); }
+  });
+});
+
+/* ================= LAB: compound ================= */
+const rp = new Intl.NumberFormat("id-ID");
+const rupiah = v => "Rp" + rp.format(Math.round(v));
+const short = v => v >= 1e12 ? "Rp" + (v/1e12).toLocaleString("id-ID",{maximumFractionDigits:1}) + " T" : v >= 1e9 ? "Rp" + (v/1e9).toLocaleString("id-ID",{maximumFractionDigits:1}) + " M" : v >= 1e6 ? "Rp" + (v/1e6).toLocaleString("id-ID",{maximumFractionDigits:1}) + " jt" : v >= 1e3 ? "Rp" + Math.round(v/1e3) + " rb" : "Rp" + Math.round(v);
+const mIn = { start:$("#m-start"), month:$("#m-month"), rate:$("#m-rate"), years:$("#m-years") };
+function calc(){
+  const P = +mIn.start.value, M = +mIn.month.value, r = +mIn.rate.value / 100, Y = +mIn.years.value;
+  $("#o-start").textContent = short(P); $("#o-month").textContent = short(M);
+  $("#o-rate").textContent = String(mIn.rate.value).replace(".", ",") + "%"; $("#o-years").textContent = Y + " tahun";
+  let bal = P; const rows = [];
+  for (let y = 1; y <= Y; y++) { for (let m = 0; m < 12; m++) bal = bal * (1 + r/12) + M; rows.push({ y, dep: P + M*12*y, bal }); }
+  const dep = P + M*12*Y, int = Math.max(0, bal - dep);
+  $("#r-total").textContent = rupiah(bal); $("#r-dep").textContent = rupiah(dep); $("#r-int").textContent = rupiah(int);
+  $("#r-72").textContent = "± " + (72 / (r*100)).toLocaleString("id-ID",{maximumFractionDigits:1}) + " tahun";
+  $("#r-share").textContent = bal > 0 ? Math.round(int / bal * 100) + "%" : "-";
+  drawChart(rows);
+}
+function niceMax(v){ if (v <= 0) return 1; const p = Math.pow(10, Math.floor(Math.log10(v))); const n = v / p; return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 2.5 ? 2.5 : n <= 5 ? 5 : 10) * p; }
+function drawChart(rows){
+  const svg = $("#chart"), W = 600, H = 260, L = 64, R = 8, T = 10, B = 28;
+  const max = niceMax(Math.max(...rows.map(r => r.bal), 1));
+  const cw = (W - L - R) / rows.length, bw = Math.max(2, cw * .66);
+  const y = v => T + (H - T - B) * (1 - v / max);
+  let out = "";
+  [0, .5, 1].forEach(f => { const v = max * f, yy = y(v); out += `<line class="grid" x1="${L}" x2="${W-R}" y1="${yy}" y2="${yy}"/><text x="${L-8}" y="${yy+4}" text-anchor="end">${short(v)}</text>`; });
+  rows.forEach((r, i) => {
+    const x = L + i*cw + (cw - bw)/2, dep = Math.min(r.dep, r.bal), yd = y(dep), yb = y(r.bal);
+    out += `<rect class="b-dep" x="${x}" y="${yd}" width="${bw}" height="${Math.max(0, y(0) - yd)}" rx="1.5"><title>Tahun ${r.y}: setoran ${rupiah(r.dep)}</title></rect>`;
+    out += `<rect class="b-int" x="${x}" y="${yb}" width="${bw}" height="${Math.max(0, yd - yb)}" rx="1.5"><title>Tahun ${r.y}: total ${rupiah(r.bal)}</title></rect>`;
+  });
+  const step = rows.length > 20 ? 5 : rows.length > 10 ? 2 : 1;
+  rows.forEach((r, i) => { if (r.y === 1 || r.y % step === 0 || r.y === rows.length) out += `<text x="${L + i*cw + cw/2}" y="${H-8}" text-anchor="middle">${r.y}</text>`; });
+  svg.innerHTML = out;
+  svg.setAttribute("aria-label", `Grafik saldo per tahun selama ${rows.length} tahun, saldo akhir ${rupiah(rows[rows.length-1].bal)}`);
+}
+Object.values(mIn).forEach(i => i.addEventListener("input", calc));
+calc();
+
+/* ================= LAB: candle ================= */
+const EXPLAIN = {
+  high:"<b>High</b> adalah harga tertinggi selama periode itu. Ditunjukkan ujung atas sumbu.",
+  low:"<b>Low</b> adalah harga terendah selama periode itu. Ditunjukkan ujung bawah sumbu.",
+  open:"<b>Open</b> adalah harga pertama saat periode dibuka. Di lilin naik, open ada di bawah badan. Di lilin turun, open ada di atas badan.",
+  close:"<b>Close</b> adalah harga terakhir saat periode ditutup. Close di atas open berarti naik, close di bawah open berarti turun.",
+  body:"<b>Body</b> adalah badan lilin, jarak antara open dan close. Badan panjang artinya pergerakan harganya besar di periode itu.",
+  wick:"<b>Wick</b> atau shadow adalah garis tipis di atas dan bawah badan. Panjangnya menunjukkan seberapa jauh harga sempat bergerak sebelum balik lagi."
+};
+const candle = $("#candle");
+function showPart(p){
+  candle.classList.add("focusing");
+  $$(".part", candle).forEach(el => el.classList.toggle("hl", el.classList.contains("p-" + p)));
+  $$("#parts .chip").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.part === p)));
+  $("#explain").innerHTML = EXPLAIN[p];
+}
+$("#parts").addEventListener("click", e => { const b = e.target.closest("[data-part]"); if (b) showPart(b.dataset.part); });
+candle.addEventListener("click", e => { const h = e.target.closest(".hit"); if (h) showPart(h.dataset.part); });
+
+/* ================= LAB: light ================= */
+const LIGHT = [
+  { n:"Bulan", t:"1,3 detik", s:1.3, f:"Hampir real-time. Bulan yang kamu lihat cuma telat sedetikan." },
+  { n:"Matahari", t:"8 menit 20 detik", s:500, f:"Kalau Matahari padam, Bumi baru tahu sekitar 8 menit kemudian. Creepy tapi keren." },
+  { n:"Proxima Centauri", t:"4,24 tahun", s:4.24*3.156e7, f:"Cahayanya yang sampai malam ini berangkat lebih dari empat tahun lalu." },
+  { n:"Pusat Bima Sakti", t:"± 26.000 tahun", s:26000*3.156e7, f:"Cahayanya berangkat waktu manusia masih hidup di Zaman Es terakhir." },
+  { n:"Andromeda", t:"± 2,5 juta tahun", s:2.5e6*3.156e7, f:"Objek terjauh yang bisa dilihat mata telanjang di langit gelap. Cahayanya lebih tua dari spesies kita." }
+];
+let li = 1, photonAnim;
+const seg = $("#lightSeg");
+seg.innerHTML = LIGHT.map((l,i) => `<button class="chip" type="button" role="radio" aria-checked="${i===li}" tabindex="${i===li?0:-1}" data-li="${i}">${l.n}</button>`).join("");
+function setLight(i, focus){
+  li = i; const l = LIGHT[i];
+  $$("[data-li]", seg).forEach((b,j) => { b.setAttribute("aria-checked", String(j===i)); b.setAttribute("aria-pressed", String(j===i)); b.tabIndex = j===i ? 0 : -1; if (j===i && focus) b.focus(); });
+  $("#lightLbl").textContent = "Waktu tempuh cahaya dari " + l.n;
+  $("#lightTime").textContent = l.t; $("#lightFun").textContent = l.f; $("#lightName").textContent = l.n;
+  playLight();
+}
+function playLight(){
+  const ph = $("#photon"); if (!ph) return;
+  if (photonAnim) photonAnim.cancel();
+  const dur = 500 + 170 * Math.log10(LIGHT[li].s + 1);
+  if (reduced || !ph.animate) { ph.setAttribute("cx", 40); return; }
+  ph.setAttribute("cx", 0);
+  photonAnim = ph.animate([{ transform:"translateX(680px)" }, { transform:"translateX(40px)" }], { duration: dur, easing:"cubic-bezier(.65,0,.35,1)", fill:"forwards" });
+}
+seg.addEventListener("click", e => { const b = e.target.closest("[data-li]"); if (b) setLight(+b.dataset.li); });
+seg.addEventListener("keydown", e => {
+  const n = (e.key === "ArrowRight" || e.key === "ArrowDown") ? 1 : (e.key === "ArrowLeft" || e.key === "ArrowUp") ? -1 : 0;
+  if (n) { e.preventDefault(); setLight((li + n + LIGHT.length) % LIGHT.length, true); }
+});
+setLight(1);
+
+/* ================= SCROLL: progress, reveals, footer orbit, stamp ================= */
+const prog = $("#progress"), wmOrbit = $("#wmOrbit"), stamp = $("#stamp"), foot = $(".foot");
+let ticking = false;
+function onScroll(){
+  if (ticking) return; ticking = true;
+  requestAnimationFrame(() => {
+    const max = document.documentElement.scrollHeight - innerHeight;
+    prog.style.transform = `scaleX(${max > 0 ? scrollY / max : 0})`;
+    const r = foot.getBoundingClientRect();
+    const p = Math.min(1, Math.max(0, (innerHeight - r.top) / (innerHeight * .8)));
+    wmOrbit.style.strokeDashoffset = reduced ? 0 : String(1 - p);
+    if (!reduced) stamp.style.transform = `rotate(${scrollY * .06}deg)`;
+    ticking = false;
+  });
+}
+addEventListener("scroll", onScroll, { passive:true }); onScroll();
+if ("IntersectionObserver" in window) {
+  const io = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } }), { rootMargin:"0px 0px -12% 0px" });
+  $$(".rv").forEach(el => io.observe(el));
+} else $$(".rv").forEach(el => el.classList.add("in"));
+
+/* ================= DEEP LINK ================= */
+const h = location.hash.match(/^#baca-([a-z0-9]+)$/);
+if (h && BY[h[1]]) openArticle(h[1]);
+
+/* ================= THREE.JS ORRERY ================= */
+(function orrery(){
+  const wrap = $("#orrery"), canvas = $("#orreryCanvas"), tip = $("#tip");
+  const fail = () => { canvas.hidden = true; $("#orreryFallback").hidden = false; };
+  if (!window.THREE) return fail();
+  let renderer;
+  try { renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:true }); } catch(e) { return fail(); }
+  const T = THREE;
+  renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
+  const scene = new T.Scene();
+  const camera = new T.PerspectiveCamera(38, 1, .1, 200);
+  camera.position.set(0, 2.4, 12.5);
+  const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const col = n => new T.Color(css(n) || "#A67C52");
+
+  const sys = new T.Group(); sys.rotation.x = .38; sys.rotation.z = -.12; scene.add(sys);
+  scene.add(new T.AmbientLight(0xffffff, .75));
+  const key = new T.PointLight(0xffffff, 1.15); key.position.set(4, 5, 8); scene.add(key);
+
+  // center: 4-point star + softer 8-point star behind (brand motif)
+  const starShape = (pts, outer, inner) => {
+    const s = new T.Shape();
+    for (let i = 0; i < pts * 2; i++) {
+      const r = i % 2 ? inner : outer, a = i / (pts * 2) * Math.PI * 2 + Math.PI / 2;
+      const x = Math.cos(a) * r, y = Math.sin(a) * r;
+      i ? s.lineTo(x, y) : s.moveTo(x, y);
+    }
+    return s;
+  };
+  const goldMat = new T.MeshStandardMaterial({ metalness:.55, roughness:.35 });
+  const star = new T.Mesh(new T.ExtrudeGeometry(starShape(4, .95, .2), { depth:.12, bevelEnabled:true, bevelSize:.03, bevelThickness:.03, bevelSegments:2 }), goldMat);
+  star.geometry.center();
+  const star8 = new T.Mesh(new T.ExtrudeGeometry(starShape(4, .55, .14), { depth:.06, bevelEnabled:false }), goldMat);
+  star8.geometry.center(); star8.rotation.z = Math.PI / 4; star8.position.z = -.05;
+  const core = new T.Group(); core.add(star, star8); scene.add(core);
+
+  // orbits + planets, one per category
+  const ringMat = new T.LineBasicMaterial({ transparent:true, opacity:.5 });
+  const planets = [];
+  ORDER.forEach((c, i) => {
+    const r = 1.75 + i * .5;
+    const pts = new T.EllipseCurve(0, 0, r, r * .94).getPoints(160).map(p => new T.Vector3(p.x, 0, p.y));
+    const g = new T.Group(); g.rotation.x = (i % 2 ? 1 : -1) * (.05 + i * .018); g.rotation.z = (i % 3 - 1) * .06;
+    g.add(new T.LineLoop(new T.BufferGeometry().setFromPoints(pts), ringMat));
+    const m = new T.Mesh(new T.SphereGeometry(.13 + (i % 3) * .035, 28, 18), new T.MeshStandardMaterial({ roughness:.45, metalness:.25 }));
+    m.userData = { cat:c, r, a: i * 2.1 + .4, sp: .32 / (1 + i * .42), base: m.geometry.parameters.radius };
+    g.add(m); sys.add(g); planets.push(m);
+  });
+
+  // starfield
+  const N = 650, pos = new Float32Array(N * 3);
+  for (let i = 0; i < N; i++) {
+    const r = 14 + Math.random() * 26, th = Math.random() * Math.PI * 2, ph = Math.acos(2 * Math.random() - 1);
+    pos[i*3] = r * Math.sin(ph) * Math.cos(th); pos[i*3+1] = r * Math.cos(ph) * .7; pos[i*3+2] = r * Math.sin(ph) * Math.sin(th) - 8;
+  }
+  const sg = new T.BufferGeometry(); sg.setAttribute("position", new T.BufferAttribute(pos, 3));
+  const dust = new T.Points(sg, new T.PointsMaterial({ size:.07, transparent:true, opacity:.6, sizeAttenuation:true }));
+  scene.add(dust);
+
+  function applyColors(){
+    goldMat.color = col("--accent"); goldMat.emissive = col("--accent"); goldMat.emissiveIntensity = isDark() ? .35 : .12;
+    ringMat.color = col("--line-strong"); ringMat.opacity = isDark() ? .65 : .55;
+    planets.forEach(p => p.material.color = col("--c-" + p.userData.cat));
+    dust.material.color = col("--fg"); dust.material.opacity = isDark() ? .7 : .45;
+    draw();
+  }
+
+  let w = 0, hgt = 0;
+  function resize(){
+    const r = wrap.getBoundingClientRect(); w = Math.max(1, r.width); hgt = Math.max(1, r.height);
+    renderer.setSize(w, hgt, false); camera.aspect = w / hgt;
+    const fitW = 5.3 / Math.tan(camera.fov * Math.PI / 360) / Math.min(1, camera.aspect);
+    camera.position.set(0, 2.2, Math.max(11, fitW));
+    camera.lookAt(0, 0, 0);
+    camera.updateProjectionMatrix(); draw();
+  }
+  const ro = new ResizeObserver(resize); ro.observe(wrap);
+
+  const ray = new T.Raycaster(), ptr = new T.Vector2(), target = { x:0, y:0 };
+  let hovered = null, visible = true, last = performance.now(), t = 0;
+  function pick(cx, cy){
+    const r = canvas.getBoundingClientRect();
+    ptr.x = ((cx - r.left) / r.width) * 2 - 1; ptr.y = -((cy - r.top) / r.height) * 2 + 1;
+    ray.setFromCamera(ptr, camera);
+    const hit = ray.intersectObjects(planets, false)[0];
+    return hit ? hit.object : null;
+  }
+  function setHover(p, cx, cy){
+    if (hovered && hovered !== p) hovered.scale.setScalar(1);
+    hovered = p;
+    if (p) {
+      p.scale.setScalar(1.5);
+      const r = wrap.getBoundingClientRect();
+      tip.textContent = CATS[p.userData.cat].label + " · " + countFor(p.userData.cat) + " cerita";
+      tip.style.left = (cx - r.left) + "px"; tip.style.top = (cy - r.top) + "px"; tip.classList.add("on");
+      canvas.style.cursor = "pointer";
+    } else { tip.classList.remove("on"); canvas.style.cursor = ""; }
+    draw();
+  }
+  canvas.addEventListener("pointermove", e => {
+    const r = canvas.getBoundingClientRect();
+    target.x = ((e.clientX - r.left) / r.width - .5); target.y = ((e.clientY - r.top) / r.height - .5);
+    if (e.pointerType === "mouse") setHover(pick(e.clientX, e.clientY), e.clientX, e.clientY);
+  });
+  canvas.addEventListener("pointerleave", () => { target.x = target.y = 0; setHover(null); });
+  canvas.addEventListener("click", e => {
+    const p = pick(e.clientX, e.clientY);
+    if (!p) return;
+    if (e.pointerType === "touch" || (e.pointerType === undefined && hovered !== p)) {
+      if (hovered !== p) { setHover(p, e.clientX, e.clientY); return; }
+    }
+    gotoCat(p.userData.cat); setHover(null);
+  });
+
+  function place(){ planets.forEach(p => { const u = p.userData; p.position.set(Math.cos(u.a) * u.r, 0, Math.sin(u.a) * u.r * .94); }); }
+  function draw(){ place(); renderer.render(scene, camera); }
+  function loop(now){
+    const dt = Math.min(.05, (now - last) / 1000); last = now;
+    if (visible && !document.hidden) {
+      t += dt;
+      planets.forEach(p => { if (p !== hovered) p.userData.a += p.userData.sp * dt; });
+      const sc = Math.min(1, scrollY / 700);
+      sys.rotation.y += ((target.x * .5 + sc * .9) - sys.rotation.y) * .05;
+      sys.rotation.x += ((.38 + target.y * .25 + sc * .25) - sys.rotation.x) * .05;
+      core.rotation.y = Math.sin(t * .7) * .55; core.rotation.z = t * .15; core.position.y = Math.sin(t * 1.2) * .08;
+      dust.rotation.y = t * .01;
+      draw();
+    }
+    requestAnimationFrame(loop);
+  }
+  new IntersectionObserver(es => { visible = es[0].isIntersecting; }).observe(wrap);
+  window.addEventListener("cv-theme", applyColors);
+  resize(); applyColors();
+  if (reduced) { draw(); } else requestAnimationFrame(loop);
+})();
+})();
+</script>
+
+</body>
+</html>
