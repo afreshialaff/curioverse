@@ -1,0 +1,21 @@
+name: Perpanjang token Instagram
+# Token Instagram (Instagram Login) berlaku 60 hari. Diperpanjang tiap tanggal 1 dan 15.
+# Butuh secret GH_SECRETS_PAT: fine-grained token GitHub untuk repo ini dengan izin "Secrets: Read and write".
+on:
+  schedule:
+    - cron: "0 2 1,15 * *"
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Perpanjang dan simpan token
+        env:
+          OLD: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_SECRETS_PAT }}
+        run: |
+          set -e
+          NEW=$(curl -sf "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=$OLD" | python3 -c "import sys,json;print(json.load(sys.stdin)['access_token'])")
+          echo "::add-mask::$NEW"
+          gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEW"
+          echo "Token diperpanjang."

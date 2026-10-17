@@ -1,0 +1,27 @@
+name: Ambil media sosial
+# Agent menaruh link ekspor Canva sementara di post.json; workflow ini menyimpannya ke repo
+# supaya Vercel bisa menyajikannya dari URL publik yang tetap.
+on:
+  push:
+    branches: [main]
+    paths: ["social/**/post.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: social-repo-write, cancel-in-progress: false }
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node scripts/social-fetch.mjs
+      - name: Commit media
+        run: |
+          git config user.name "curioverse-bot"
+          git config user.email "curioverse-bot@users.noreply.github.com"
+          git add social
+          git diff --cached --quiet && exit 0
+          git commit -m "social: simpan media hasil ekspor"
+          git pull --rebase origin main && git push origin HEAD:main

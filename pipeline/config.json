@@ -7,5 +7,13 @@
   "topik": "Bebas setiap hari. Kategori yang tersedia ada di content/categories.json; Kompas boleh menambah kategori baru kalau ide yang bagus nggak cocok dengan yang ada.",
   "variasi": "Hindari kategori yang sama 2 hari berturut-turut kecuali dari inbox. Cek 7 baris terakhir log.md.",
   "timezone": "Asia/Jakarta",
-  "site": "https://curioverse-beta.vercel.app"
+  "site": "https://curioverse-beta.vercel.app",
+  "social": {
+    "mode": "auto",
+    "post_time": "19:00",
+    "platform": "instagram",
+    "max_posts_per_day": 2,
+    "rotasi": "Artikel pertama yang terbit hari itu jadi carousel (Kanvas), artikel kedua jadi Reels (Layar). Kalau cuma satu artikel: tanggal ganjil carousel, tanggal genap Reels.",
+    "akun": "Instagram Professional milik Curioverse; token di GitHub Secrets IG_ACCESS_TOKEN"
+  }
 }

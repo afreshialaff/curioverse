@@ -1,5 +1,5 @@
 // Builds the static Curioverse site into ./dist. No dependencies: `node scripts/build.mjs`.
-import { mkdirSync, rmSync, writeFileSync, copyFileSync, readdirSync } from "node:fs";
+import { mkdirSync, rmSync, writeFileSync, copyFileSync, readdirSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { CATS, ORDER, A, HOLES, TOPIC_DESC, KINDS, SOURCES, CURATORS, CONTACT, PICKS, HOOKS, PIPELINE_IDS, IMAGES } from "../content/stories.mjs";
@@ -614,6 +614,14 @@ copyDir("assets/vendor", "assets/vendor");
 copyDir("assets/fonts", "assets/fonts");
 copyDir("assets/illustrations", "assets/illustrations");
 copyFileSync(join(ROOT, "favicon.svg"), join(OUT, "favicon.svg"));
+// Instagram media (social/<tgl>/<post>/...) is served publicly so the Instagram API can fetch it.
+const copyMedia = (rel) => { const src = join(ROOT, rel); if (!existsSync(src)) return;
+  for (const f of readdirSync(src, { withFileTypes:true })) {
+    const r = join(rel, f.name);
+    if (f.isDirectory()) copyMedia(r);
+    else if (/\.(jpe?g|png|mp4)$/i.test(f.name)) { mkdirSync(join(OUT, rel), { recursive:true }); copyFileSync(join(ROOT, r), join(OUT, r)); }
+  } };
+copyMedia("social");
 const urls = ["/", "/explore", "/lab", "/reading-paths", ...A.map(a => "/stories/" + a.id)];
 const lastmod = Object.fromEntries(A.map(a => ["/stories/" + a.id, a.date]));
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${SITE}${u}</loc>${lastmod[u] ? `<lastmod>${lastmod[u]}</lastmod>` : ""}</url>`).join("\n")}\n</urlset>\n`);
