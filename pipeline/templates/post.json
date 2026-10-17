@@ -1,0 +1,13 @@
+{
+  "date": "YYYY-MM-DD",
+  "story": "<id artikel>",
+  "story_url": "https://curioverse-beta.vercel.app/stories/<id>",
+  "type": "carousel | reel",
+  "made_by": "kanvas | layar",
+  "canva_design": "<link edit Canva, khusus carousel>",
+  "caption": "<caption, lihat RULES bagian 8>",
+  "media": [ { "file": "slide-1.jpg", "remote": "<URL ekspor Canva, dihapus otomatis setelah diunduh>" } ],
+  "cover": "cover.jpg (khusus reel)",
+  "review": { "status": "pending | lolos | ditolak", "by": "lup", "notes": "" },
+  "post": { "status": "queued" }
+}

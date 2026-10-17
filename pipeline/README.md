@@ -10,6 +10,10 @@ Empat agent yang tiap hari bikin satu sampai beberapa artikel baru, lalu menerbi
 | 09.00 | 🔎 **Lup** | Reviewer + cek fakta, buka semua link | draf + notes | `runs/<tgl>/review/<id>.md` |
 | 12.00 | ✒️ **Pena** | Revisi berdasarkan review | draf + review | `runs/<tgl>/final/<id>.json` |
 | 15.00 | 🕊️ **Merpati** | Publisher | final + review | `content/stories/<id>.json`, `log.md` |
+| 15.20 | 🎨 **Kanvas** | Carousel Instagram di Canva | artikel terbit hari ini | `social/<tgl>/<n>-<id>/post.json` (+ link ekspor) |
+| 15.25 | 🎬 **Layar** | Reels Instagram (HyperFrames) | artikel terbit hari ini | `social/<tgl>/<n>-<id>/reel.mp4`, `post.json` |
+| 17.30 | 🔎 **Lup sosial** | Cek fakta & visual post | post.json + artikel | `review` di post.json |
+| 19.00 | 🤖 GitHub Actions | Posting ke Instagram | post yang `lolos` | `post.permalink` di post.json |
 
 `<tgl>` = tanggal hari itu di WIB, format `YYYY-MM-DD`.
 
@@ -18,6 +22,9 @@ backlog.md ──► Kompas ──brief──► Pena ──draf+notes──► 
                  ▲                                         │ TOLAK                                     │ lolos lebih dari kuota
                  └──────────── ide yang ditolak/ditunda ◄──┘                                           └──► reserve/
 ```
+
+## Instagram
+Rotasi: artikel pertama hari itu → carousel (Kanvas), artikel kedua → Reels (Layar); kalau cuma satu artikel, tanggal ganjil carousel dan genap Reels. Media disimpan di `social/` dan disajikan Vercel di `/social/...` supaya API Instagram bisa mengambilnya. Workflow: `.github/workflows/social-fetch.yml` (unduh ekspor Canva + potong ke 4:5), `instagram-post.yml` (posting jam 19.00), `instagram-token-refresh.yml` (perpanjang token tiap tanggal 1 & 15). Mode di `config.json` → `social.mode` (`auto` atau `review`: kalau review, post butuh `review.approved_by_human: true`).
 
 ## Kasih ide dari luar (inbox)
 Tulis ide di `pipeline/inbox.md` bagian "Antrean" (lewat GitHub di HP, atau minta Claude di chat: "tambahin ide ke inbox Curioverse: ..."). Kompas memprosesnya malam itu juga, dan hari itu kuota terbit naik sampai 3 artikel. Topik harian lainnya bebas, kategori bisa bertambah lewat `content/categories.json`.

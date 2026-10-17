@@ -1,0 +1,5 @@
+[{"t":0.1,"kind":"whoosh"},{"t":0.35,"kind":"pop"},{"t":2.4,"kind":"swish"},
+ {"t":4.5,"kind":"whoosh"},{"t":5.3,"kind":"pop"},{"t":6.0,"kind":"rise","len":1.2},{"t":7.2,"kind":"ding"},
+ {"t":9.5,"kind":"whoosh"},{"t":10.4,"kind":"tick"},{"t":10.7,"kind":"tick"},{"t":11.0,"kind":"tick"},
+ {"t":14.5,"kind":"whoosh"},{"t":15.6,"kind":"rise","len":1.0},{"t":16.8,"kind":"thud"},
+ {"t":19.0,"kind":"whoosh"},{"t":19.9,"kind":"pop"},{"t":20.35,"kind":"pop"},{"t":20.8,"kind":"pop"},{"t":21.6,"kind":"ding"}]
