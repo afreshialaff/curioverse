@@ -9,12 +9,12 @@ Live: https://curioverse-beta.vercel.app
 content/stories.mjs   semua cerita, topik, reading paths, sumber, label Fakta/Interpretasi/Opini
 scripts/build.mjs     generator halaman statis (tanpa dependency) -> dist/
 src/styles.css        design tokens + komponen (buttons, cards, chips, search, dll.)
-src/app.js            semua halaman: tema, menu, search (Ctrl/Cmd K), Surprise Me, reveal
-src/home.js           headline + orrery three.js (lazy, hanya tablet/desktop)
+src/app.js            semua halaman: Lenis, nav + indikator, menu lingkaran, search (Ctrl/Cmd K), Surprise Me, reveal, tema
+src/home.js           slide cerita bertumpuk, grafik Lab yang tumbuh saat scroll, Reading Paths horizontal ter-pin, orrery three.js (lazy, tablet/desktop)
 src/explore.js        filter topik, cari, urutkan (state di URL: ?topik=&q=&urut=)
 src/lab.js            simulasi bunga majemuk, candlestick, delay cahaya
-src/story.js          progress bar baca
-assets/vendor/        three.js r128 (MIT)
+assets/vendor/        three.js r128 (MIT), Lenis 1.3.11 (MIT, smooth scroll)
+assets/fonts/         Inter Tight, Instrument Serif, JetBrains Mono (WOFF2, SIL OFL)
 ```
 
 Halaman yang dihasilkan: `/`, `/explore`, `/lab`, `/reading-paths`, `/stories/<id>`, `404`, plus `sitemap.xml` dan `robots.txt`.
@@ -34,3 +34,6 @@ Kalau domain berubah, set env `SITE_URL` di Vercel supaya canonical URL dan site
 2. Tambah sumbernya di `SOURCES[id]`, dan kalau ada bagian interpretasi/opini, tandai di `KINDS[id]`.
 3. Kalau masuk reading path, tambahkan `id`-nya ke `HOLES`.
 4. Push. Vercel build ulang sendiri.
+
+## Bahasa visual
+Font, motion, dan pola slide diadaptasi dari afreshia.vercel.app (Inter Tight + satu kata Instrument Serif italic, label JetBrains Mono, easing `cubic-bezier(.16,1,.3,1)`, Lenis, reveal mask, kartu sticky bertumpuk, track horizontal ter-pin). Identitas Curioverse tetap: palet Parchment/Ink/Moss/Gold/Dusk Blue, monogram C, orbit dan bintang empat sudut.

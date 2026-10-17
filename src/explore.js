@@ -36,8 +36,8 @@ function render(){
   if (!shown.length) $("#none-msg").textContent = state.q.trim() ? `Nggak ada cerita yang cocok sama "${state.q.trim()}"${state.cat !== "all" ? " di topik " + CV.LABEL[state.cat] : ""}. Coba kata lain atau topik lain.` : "Belum ada cerita di filter ini.";
   // visible active filters
   const tags = [];
-  if (state.cat !== "all") tags.push(`<span class="tag">Topik: ${CV.LABEL[state.cat]}<button type="button" data-clear="cat" aria-label="Hapus filter topik ${CV.LABEL[state.cat]}"><svg class="ico" aria-hidden="true" style="width:16px;height:16px"><use href="#i-close"/></svg></button></span>`);
-  if (state.q.trim()) tags.push(`<span class="tag">"${CV.esc(state.q.trim())}"<button type="button" data-clear="q" aria-label="Hapus kata kunci"><svg class="ico" aria-hidden="true" style="width:16px;height:16px"><use href="#i-close"/></svg></button></span>`);
+  if (state.cat !== "all") tags.push(`<span class="tagx">Topik: ${CV.LABEL[state.cat]}<button type="button" data-clear="cat" aria-label="Hapus filter topik ${CV.LABEL[state.cat]}"><svg class="ico" aria-hidden="true" style="width:16px;height:16px"><use href="#i-close"/></svg></button></span>`);
+  if (state.q.trim()) tags.push(`<span class="tagx">"${CV.esc(state.q.trim())}"<button type="button" data-clear="q" aria-label="Hapus kata kunci"><svg class="ico" aria-hidden="true" style="width:16px;height:16px"><use href="#i-close"/></svg></button></span>`);
   active.innerHTML = `<span>${shown.length ? `Menampilkan ${shown.length} dari ${cards.length} cerita` : "0 cerita"}</span>${tags.join("")}${tags.length ? '<button class="clear" type="button" data-clear="all">Hapus semua filter</button>' : ""}`;
   syncUrl();
 }
