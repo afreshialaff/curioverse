@@ -85,7 +85,7 @@ for (const dir of readdirSync(root).sort()) {
   if (p.post.status === "posted") { log(dir, "sudah terposting, lewati"); continue; }
   const approved = p.review && p.review.status === "lolos";
   const needHuman = (cfg.mode || "auto") === "review" && !p.review?.approved_by_human;
-  if (!approved || needHuman) { log(dir, `dilewati (review: ${p.review?.status || "belum"}${needHuman ? ", menunggu persetujuan manusia" : ""})`); p.post.status = "skipped"; writeFileSync(file, JSON.stringify(p, null, 2) + "\n"); continue; }
+  if (!approved || needHuman) { log(dir, `dilewati (review: ${p.review?.status || "belum"}${needHuman ? ", menunggu persetujuan manusia" : ""})`); p.post.status = "skipped"; if (!DRY) writeFileSync(file, JSON.stringify(p, null, 2) + "\n"); continue; }
   try {
     const r = await publish(dir, p);
     Object.assign(p.post, { status: "posted", at: new Date().toISOString(), media_id: r.id, permalink: r.permalink, error: null });
