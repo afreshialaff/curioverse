@@ -112,7 +112,7 @@
   },
   "voc": {
     "hero": {
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB%2C_Hendrik_Cornelisz_Vroom%2C_1599%2C_Rijksmuseum_SK-A-2858.jpg/1280px-De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB%2C_Hendrik_Cornelisz_Vroom%2C_1599%2C_Rijksmuseum_SK-A-2858.jpg",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB%2C_Hendrik_Cornelisz_Vroom%2C_1599%2C_Rijksmuseum_SK-A-2858.jpg/1280px-De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB%2C_Hendrik_Cornelisz_Vroom%2C_1599%2C_Rijksmuseum_SK-A-2858.jpg",
       "alt": "Lukisan kapal-kapal layar besar berbendera Belanda berlabuh di perairan Amsterdam yang ramai, dikelilingi perahu-perahu kecil",
       "caption": "Kembalinya ekspedisi kedua ke Hindia Timur di Amsterdam, 19 Juli 1599, dilukis Hendrick Cornelisz Vroom. Pelayaran semacam inilah yang modalnya kemudian dipersatukan dalam VOC tahun 1602. Koleksi Rijksmuseum.",
       "credit": "Hendrick Cornelisz Vroom",
@@ -121,7 +121,7 @@
     },
     "sections": {
       "1": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/VOC_aandeel_9_september_1606.jpg/1280px-VOC_aandeel_9_september_1606.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/VOC_aandeel_9_september_1606.jpg/1280px-VOC_aandeel_9_september_1606.jpg",
         "alt": "Lembar dokumen tua bertulisan tangan berbahasa Belanda: sertifikat saham VOC",
         "caption": "Sertifikat saham VOC bertanggal 9 September 1606, salah satu saham tertua yang diketahui. Ditemukan tahun 2010 di Westfries Archief, Hoorn.",
         "credit": "VOC",
@@ -132,7 +132,7 @@
   },
   "curie": {
     "hero": {
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Marie_Curie_c1920.jpg/1280px-Marie_Curie_c1920.jpg",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Marie_Curie_c1920.jpg/1280px-Marie_Curie_c1920.jpg",
       "alt": "Foto hitam-putih Marie Curie, perempuan berambut disanggul dan berbaju gelap, menatap ke samping",
       "caption": "Marie Curie sekitar tahun 1920, difoto Henri Manuel.",
       "credit": "Henri Manuel",
@@ -141,7 +141,7 @@
     },
     "sections": {
       "1": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Pierre_and_Marie_Curie.jpg/1280px-Pierre_and_Marie_Curie.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pierre_and_Marie_Curie.jpg/1280px-Pierre_and_Marie_Curie.jpg",
         "alt": "Foto hitam-putih Pierre dan Marie Curie berdiri di laboratorium di samping peralatan eksperimen",
         "caption": "Pierre dan Marie Curie di laboratorium mereka di Paris, sekitar 1904, dengan alat untuk mengukur radioaktivitas sampel bijih.",
         "credit": "Unknown photographer",
@@ -152,7 +152,7 @@
   },
   "lovelace": {
     "hero": {
-      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1280px-Ada_Lovelace_portrait.jpg",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1280px-Ada_Lovelace_portrait.jpg",
       "alt": "Lukisan cat air Ada Lovelace bergaun putih dengan rambut ditata, duduk menghadap ke samping",
       "caption": "Ada Lovelace sekitar tahun 1840, lukisan cat air karya Alfred Edward Chalon.",
       "credit": "Alfred Edward Chalon",
@@ -161,7 +161,7 @@
     },
     "sections": {
       "2": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/1280px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/1280px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg",
         "alt": "Tabel tua berisi baris-baris operasi dan variabel: langkah-langkah perhitungan untuk mesin hitung",
         "caption": "Diagram langkah perhitungan bilangan Bernoulli untuk Analytical Engine dari catatan Ada Lovelace (Note G), terbit 1843.",
         "credit": "Ada Lovelace",
