@@ -1,10 +1,15 @@
 // Curioverse content. Edit stories here, then run `node scripts/build.mjs`.
 // Each story: id, cat, also?, date, title, dek, tags, s: [[heading, [paragraphs]]].
+// Stories published by the agent pipeline live as one JSON file each in content/stories/ (loaded at the bottom of this file).
+import { readdirSync, readFileSync, existsSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
 export const CATS = {
   finance:{label:"Finance"}, science:{label:"Science"}, sejarah:{label:"Sejarah"}, biografi:{label:"Biografi"},
-  market:{label:"Market"}, saham:{label:"Saham"}, global:{label:"Global News"}
+  market:{label:"Market"}, saham:{label:"Saham"}, global:{label:"Global News"}, scam:{label:"Scam Files"}
 };
-export const ORDER = ["finance","science","sejarah","biografi","market","saham","global"];
+export const ORDER = ["finance","science","sejarah","biografi","market","saham","global","scam"];
 
 export const A = [
 { id:"tulip", cat:"sejarah", also:"finance", date:"2026-10-12",
@@ -28,7 +33,7 @@ export const A = [
   tags:"bunga compound interest tabungan investasi rule of 72 duit",
   s:[["Bunga yang berbunga",["Bunga biasa dihitung dari setoran awal aja. Bunga majemuk dihitung dari setoran awal plus bunga yang udah terkumpul. Awalnya bedanya tipis banget, tapi makin lama grafiknya makin melengkung ke atas. Bahan utamanya: waktu."]],
      ["Rule of 72",["Mau tau kira-kira berapa tahun uangmu jadi dua kali lipat? Bagi 72 dengan persentase bunga per tahun. Bunga 6% per tahun berarti sekitar 72 ÷ 6 = 12 tahun. Ini perkiraan kasar, tapi cukup akurat buat bunga di kisaran kecil sampai menengah."]],
-     ["Fun fact yang ternyata hoaks",["Kamu mungkin pernah lihat quote bunga majemuk adalah keajaiban dunia kedelapan yang katanya dari Einstein. Belum ada bukti Einstein pernah bilang itu. Konsepnya tetap valid, quote-nya aja yang nggak jelas asal-usulnya."]],
+     ["Fun fact yang ternyata hoaks",["Kamu mungkin pernah lihat quote bunga majemuk adalah keajaiban dunia kedelapan (atau versi lainnya: penemuan terbesar manusia) yang katanya dari Einstein. Belum ada bukti Einstein pernah bilang itu; jejak paling awal yang ditemukan peneliti kutipan baru muncul puluhan tahun setelah dia wafat, dan itu pun disebut kutipan yang konon. Konsepnya tetap valid, quote-nya aja yang nggak jelas asal-usulnya."]],
      ["Coba sendiri",["Main-main angkanya di Lab Kepo di halaman utama. Ingat ya, ini simulasi. Di dunia nyata ada inflasi, pajak, biaya admin, dan return yang naik turun."]]] },
 { id:"langit", cat:"science", date:"2026-10-05",
   title:"Kenapa langit biru, padahal cahaya matahari putih?",
@@ -134,7 +139,9 @@ export const HOLES = [
   { id:"jenius", title:"Perempuan yang kelewat jenius buat zamannya", dek:"Tiga orang yang nulis, ngitung, dan nemu hal-hal yang dunia belum siap terima.", ids:["kartini","lovelace","curie"],
     pts:[[40,40],[180,118],[320,60]] },
   { id:"langit", title:"Langit, cahaya, dan hal yang bikin merinding", dek:"Mulai dari warna langit, lanjut ke cahaya masa lalu, gunung yang ngubah sunset dunia, sampai hewan yang tahan ruang hampa.", ids:["langit","cahaya","krakatau","tardigrade"],
-    pts:[[30,60],[120,128],[240,40],[340,104]] }
+    pts:[[30,60],[120,128],[240,40],[340,104]] },
+  { id:"tipu", title:"Kitab penipu legendaris", dek:"Dari kupon pos sampai Menara Eiffel: tiga penipu paling terkenal, cara mereka bikin orang percaya, dan red flag yang masih berlaku sampai hari ini.", ids:["charles-ponzi","victor-lustig","frank-abagnale"],
+    pts:[[40,100],[190,36],[330,92]] }
 ];
 export const RADAR = ["cekberita","g20"];
 
@@ -147,7 +154,8 @@ export const TOPIC_DESC = {
   biografi:"Orang-orang yang kelewat jenius",
   market:"Istilah pasar, inflasi, dan mood ekonomi",
   saham:"Dari VOC sampai candlestick",
-  global:"Bekal buat baca berita dunia"
+  global:"Bekal buat baca berita dunia",
+  scam:"Penipu legendaris dan kenapa orang bisa ketipu"
 };
 
 // Section labels: fakta (default), interpretasi, opini. Key = story id, value = { sectionIndex: kind }.
@@ -168,21 +176,74 @@ export const KINDS = {
 // Sources and further reading. u is optional (print-only citations have no link).
 const W = t => "https://en.wikipedia.org/wiki/" + t;
 export const SOURCES = {
-  tulip:[{ t:"Wikipedia: Tulip mania", u:W("Tulip_mania") }, { t:"Anne Goldgar, Tulipmania: Money, Honor, and Knowledge in the Dutch Golden Age (University of Chicago Press, 2007)" }],
-  voc:[{ t:"Wikipedia: Dutch East India Company", u:W("Dutch_East_India_Company") }, { t:"Wikipedia: Dutch conquest of the Banda Islands", u:W("Dutch_conquest_of_the_Banda_Islands") }, { t:"Bursa Efek Indonesia", u:"https://www.idx.co.id" }],
-  majemuk:[{ t:"Wikipedia: Compound interest", u:W("Compound_interest") }, { t:"Wikipedia: Rule of 72", u:W("Rule_of_72") }],
-  langit:[{ t:"Wikipedia: Rayleigh scattering", u:W("Rayleigh_scattering") }, { t:"Wikipedia: Diffuse sky radiation", u:W("Diffuse_sky_radiation") }],
-  cahaya:[{ t:"Wikipedia: Speed of light", u:W("Speed_of_light") }, { t:"Wikipedia: Proxima Centauri", u:W("Proxima_Centauri") }, { t:"Wikipedia: Andromeda Galaxy", u:W("Andromeda_Galaxy") }],
-  curie:[{ t:"Wikipedia: Marie Curie", u:W("Marie_Curie") }, { t:"NobelPrize.org: Nobel Prize in Physics 1903", u:"https://www.nobelprize.org/prizes/physics/1903/summary/" }, { t:"NobelPrize.org: Nobel Prize in Chemistry 1911", u:"https://www.nobelprize.org/prizes/chemistry/1911/summary/" }],
-  lovelace:[{ t:"Wikipedia: Ada Lovelace", u:W("Ada_Lovelace") }, { t:"Wikipedia: Ada Lovelace Day", u:W("Ada_Lovelace_Day") }],
-  kartini:[{ t:"Wikipedia (ID): Kartini", u:"https://id.wikipedia.org/wiki/Kartini" }, { t:"Wikipedia (EN): Kartini", u:W("Kartini") }],
-  krakatau:[{ t:"Wikipedia: 1883 eruption of Krakatoa", u:W("1883_eruption_of_Krakatoa") }, { t:"Wikipedia: Anak Krakatoa", u:W("Anak_Krakatoa") }],
-  bullbear:[{ t:"Wikipedia: Market trend", u:W("Market_trend") }, { t:"Wikipedia: IDX Composite", u:W("IDX_Composite") }],
-  inflasi:[{ t:"Wikipedia: Inflation", u:W("Inflation") }, { t:"Bank Indonesia", u:"https://www.bi.go.id" }],
-  candle:[{ t:"Wikipedia: Candlestick chart", u:W("Candlestick_chart") }, { t:"Wikipedia: Homma Munehisa", u:W("Homma_Munehisa") }],
-  g20:[{ t:"Wikipedia: G20", u:W("G20") }, { t:"G20 (situs resmi)", u:"https://www.g20.org" }],
-  cekberita:[{ t:"Wikipedia: Fact-checking", u:W("Fact-checking") }, { t:"TurnBackHoax (Mafindo)", u:"https://turnbackhoax.id" }],
-  tardigrade:[{ t:"Wikipedia: Tardigrade", u:W("Tardigrade") }, { t:"Jönsson dkk. (2008), Tardigrades survive exposure to space in low Earth orbit, Current Biology 18(17)" }]
+  tulip:[{ t:"Wikipedia: Tulip mania", u:W("Tulip_mania") },
+    { t:"Smithsonian Magazine: There Never Was a Real Tulip Fever", u:"https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/" },
+    { t:"History.com: The Real Story Behind the 17th-Century 'Tulip Mania' Financial Crash", u:"https://www.history.com/news/tulip-mania-financial-crash-holland" },
+    { t:"Reviews in History (Institute of Historical Research): ulasan Tulipmania karya Anne Goldgar", u:"https://reviews.history.ac.uk/review/666" },
+    { t:"University of Chicago Press Blog: ulasan Tulipmania (Goldgar)", u:"https://pressblog.uchicago.edu/2007/05/24/review-goldgar-tulipmania.html" },
+    { t:"Anne Goldgar, Tulipmania: Money, Honor, and Knowledge in the Dutch Golden Age (University of Chicago Press, 2007)" }],
+  voc:[{ t:"Wikipedia: Dutch East India Company", u:W("Dutch_East_India_Company") },
+    { t:"Erasmus University Rotterdam: Verwijmeren on why the first share was amazing news for the Netherlands", u:"https://www.eur.nl/en/news/verwijmeren-why-first-share-was-amazing-news-netherlands" },
+    { t:"Euronews: How a Dutch trading company started the world's first stock exchange", u:"https://www.euronews.com/2025/04/13/how-a-dutch-trading-company-started-the-worlds-first-stock-exchange" },
+    { t:"Wikipedia: Dutch conquest of the Banda Islands", u:W("Dutch_conquest_of_the_Banda_Islands") },
+    { t:"Bursa Efek Indonesia", u:"https://www.idx.co.id" }],
+  majemuk:[{ t:"Wikipedia: Compound interest", u:W("Compound_interest") }, { t:"Wikipedia: Rule of 72", u:W("Rule_of_72") },
+    { t:"Investor.gov (SEC): Compound Interest Calculator", u:"https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator" },
+    { t:"Nasdaq Glossary: Rule of 72", u:"https://www.nasdaq.com/glossary/r/rule-of-72" },
+    { t:"Texas A&M University: The Rule of 72 for compound interest", u:"https://people.tamu.edu/~fulling/m152/interest.html" },
+    { t:"Quote Investigator: Compound Interest Is Man's Greatest Invention (atribusi ke Einstein tak terbukti)", u:"https://quoteinvestigator.com/2011/10/31/compound-interest/" }],
+  langit:[{ t:"NASA Space Place: Why Is the Sky Blue?", u:"https://spaceplace.nasa.gov/blue-sky/en/" },
+    { t:"Royal Museums Greenwich: Why is the sky blue?", u:"https://www.rmg.co.uk/stories/space-astronomy/why-sky-blue" },
+    { t:"Live Science: Why is the sky blue?", u:"https://www.livescience.com/planet-earth/why-is-the-sky-blue" },
+    { t:"Wikipedia: Rayleigh scattering", u:W("Rayleigh_scattering") }, { t:"Wikipedia: Diffuse sky radiation", u:W("Diffuse_sky_radiation") }],
+  cahaya:[{ t:"NIST: Meter (kecepatan cahaya 299.792.458 m/s)", u:"https://www.nist.gov/si-redefinition/meter" },
+    { t:"BBC Sky at Night Magazine: How long it takes light from the Sun to reach Earth", u:"https://www.skyatnightmagazine.com/space-science/how-take-light-from-sun-reach-earth" },
+    { t:"Wikipedia: Speed of light", u:W("Speed_of_light") }, { t:"Wikipedia: Proxima Centauri", u:W("Proxima_Centauri") }, { t:"Wikipedia: Andromeda Galaxy", u:W("Andromeda_Galaxy") }],
+  curie:[{ t:"NobelPrize.org: Nobel Prize in Physics 1903", u:"https://www.nobelprize.org/prizes/physics/1903/summary/" }, { t:"NobelPrize.org: Nobel Prize in Chemistry 1911", u:"https://www.nobelprize.org/prizes/chemistry/1911/summary/" },
+    { t:"The Christian Science Monitor: Marie Curie, why her papers are still radioactive", u:"https://www.csmonitor.com/Innovation/Horizons/2011/1107/Marie-Curie-Why-her-papers-are-still-radioactive" },
+    { t:"ScienceAlert: These personal effects of Marie Curie will be radioactive for another 1,500 years", u:"https://www.sciencealert.com/these-personal-effects-of-marie-curie-will-be-radioactive-for-another-1-500-years" },
+    { t:"Wikipedia: Marie Curie", u:W("Marie_Curie") }],
+  lovelace:[{ t:"BBC Science Focus: How Ada Lovelace's notes on the Analytical Engine created the first computer program", u:"https://www.sciencefocus.com/future-technology/how-ada-lovelaces-notes-on-the-analytical-engine-created-the-first-computer-program" },
+    { t:"Two-Bit History: What Did Ada Lovelace's Program Actually Do?", u:"https://twobithistory.org/2018/08/18/ada-lovelace-note-g.html" },
+    { t:"Finding Ada: Ada Lovelace Day", u:"https://findingada.com/" },
+    { t:"Wikipedia: Ada Lovelace", u:W("Ada_Lovelace") }, { t:"Wikipedia: Ada Lovelace Day", u:W("Ada_Lovelace_Day") }],
+  kartini:[{ t:"Universitas Pakuan: Sejarah R.A. Kartini (PDF)", u:"https://unpak.ac.id/pdf/Sejarah_R.A.Kartini.pdf" },
+    { t:"Bisnis.com: Hari Kartini 21 April, sejarah, makna, dan tujuan", u:"https://kabar24.bisnis.com/read/20240420/79/1758983/hari-kartini-21-april-sejarah-makna-dan-tujuan" },
+    { t:"CNBC Indonesia: Kisah Kartini, pahlawan RI yang tak pernah angkat senjata", u:"https://www.cnbcindonesia.com/lifestyle/20250421094210-33-627365/kisah-kartini-pahlawan-ri-yang-tak-pernah-angkat-senjata-di-perang" },
+    { t:"Wikipedia (ID): Kartini", u:"https://id.wikipedia.org/wiki/Kartini" }, { t:"Wikipedia (EN): Kartini", u:W("Kartini") }],
+  krakatau:[{ t:"Smithsonian Global Volcanism Program: Krakatau", u:"https://volcano.si.edu/volcano.cfm?vn=262000" },
+    { t:"Nautilus: The Sound So Loud That It Circled the Earth Four Times", u:"https://nautil.us/the-sound-so-loud-that-it-circled-the-earth-four-times-235101/" },
+    { t:"Oregon State University, Volcano World: Historical eruption sounds", u:"https://volcano.oregonstate.edu/historical-eruption-sounds" },
+    { t:"Wikipedia: 1883 eruption of Krakatoa", u:W("1883_eruption_of_Krakatoa") }, { t:"Wikipedia: Anak Krakatoa", u:W("Anak_Krakatoa") }],
+  bullbear:[{ t:"Investor.gov (SEC): Bear Market", u:"https://www.investor.gov/introduction-investing/investing-basics/glossary/bear-market" },
+    { t:"Investor.gov (SEC): Bull Market", u:"https://www.investor.gov/introduction-investing/investing-basics/glossary/bull-market" },
+    { t:"Bisnis.com: Apa itu IHSG? Fungsi, istilah, dan faktor yang memengaruhinya", u:"https://market.bisnis.com/read/20221017/7/1588284/apa-itu-ihsg-ini-fungsi-istilah-dan-faktor-yang-mempengaruhinya" },
+    { t:"Pegadaian: IHSG, pengertian dan cara membacanya", u:"https://pegadaian.co.id/artikel/keuangan/ihsg-adalah" },
+    { t:"Wikipedia: Market trend", u:W("Market_trend") }, { t:"Wikipedia: IDX Composite", u:W("IDX_Composite") }],
+  inflasi:[{ t:"Bank Indonesia: Inflasi", u:"https://www.bi.go.id/id/fungsi-utama/moneter/inflasi/default.aspx" },
+    { t:"Bank Indonesia: BI-Rate", u:"https://www.bi.go.id/id/fungsi-utama/moneter/bi-rate/default.aspx" },
+    { t:"IMF Finance & Development: Inflation, Prices on the Rise", u:"https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Inflation" },
+    { t:"Bisnis.com: Bukti inflasi, harga bakso dulu Rp200 sekarang Rp20.000", u:"https://finansial.bisnis.com/read/20230514/55/1655841/bukti-inflasi-harga-bakso-dulu-rp200-sekarang-rp20000-ini-pentingnya-investasi" },
+    { t:"Wikipedia: Inflation", u:W("Inflation") }],
+  candle:[{ t:"StockCharts ChartSchool: Introduction to Candlesticks", u:"https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/candlestick-charts/introduction-to-candlesticks" },
+    { t:"Pegadaian: Apa itu candlestick, cara baca dan pola umum", u:"https://pegadaian.co.id/artikel/investasi/candlestick-adalah" },
+    { t:"Mandiri Sekuritas: Cara baca candlestick patterns", u:"https://www.mandirisekuritas.co.id/en/press-releases-articles/articles/cara-baca-candlestick-patterns" },
+    { t:"Wikipedia: Candlestick chart", u:W("Candlestick_chart") }, { t:"Wikipedia: Homma Munehisa", u:W("Homma_Munehisa") }],
+  g20:[{ t:"Council on Foreign Relations: What Does the G20 Do?", u:"https://www.cfr.org/backgrounder/what-does-g20-do" },
+    { t:"Sekretariat Kabinet RI: Indonesia serahkan presidensi G20 ke India", u:"https://setkab.go.id/indonesia-serahkan-presidensi-g20-ke-india/" },
+    { t:"Medcom.id: KTT G20 dimulai hari ini (Bali, 15–16 November 2022)", u:"https://www.medcom.id/internasional/asean/VNxwa1yK-ktt-g20-dimulai-hari-ini-berikut-daftar-tamu-undangan-yang-hadir" },
+    { t:"G20 (situs resmi)", u:"https://www.g20.org" }, { t:"Wikipedia: G20", u:W("G20") }],
+  cekberita:[{ t:"TurnBackHoax (Mafindo)", u:"https://turnbackhoax.id" },
+    { t:"CekFakta.com: kolaborasi cek fakta Mafindo, AJI, dan AMSI", u:"https://cekfakta.com/" },
+    { t:"Antara: Cara menyaring informasi dan hindari hoaks di dunia maya", u:"https://www.antaranews.com/berita/4673753/cara-menyaring-informasi-dan-hindari-hoaks-di-dunia-maya/" },
+    { t:"Poynter: International Fact-Checking Network", u:"https://www.poynter.org/ifcn/" },
+    { t:"Wikipedia: Fact-checking", u:W("Fact-checking") }],
+  tardigrade:[{ t:"Space.com: Creature Survives Naked in Space", u:"https://www.space.com/5817-creature-survives-naked-space.html" },
+    { t:"NBC News: 'Water bear' survives naked in space", u:"https://www.nbcnews.com/id/wbna26613502" },
+    { t:"National Geographic: Tardigrades (water bears)", u:"https://www.nationalgeographic.com/animals/invertebrates/facts/tardigrades-water-bears" },
+    { t:"Université de Montpellier: The mystery of tardigrades' extreme resilience", u:"https://www.umontpellier.fr/en/articles/le-mystere-de-la-resistance-extreme-des-tardigrades-enfin-resolu/" },
+    { t:"Wikipedia: Tardigrade", u:W("Tardigrade") },
+    { t:"Jönsson dkk. (2008), Tardigrades survive exposure to space in low Earth orbit, Current Biology 18(17)" }]
 };
 
 export const CURATORS = "AfreshiaLa & LeoFa";
@@ -202,3 +263,28 @@ export const HOOKS = [
   { id:"voc", t:"VOC berdiri tahun 1602 dan sering disebut perusahaan pertama yang sahamnya diperdagangkan publik." },
   { id:"langit", t:"Ungu sebenernya dihamburkan atmosfer lebih kuat dari biru. Kok langit tetap kelihatan biru?" }
 ];
+
+/* ---------- pipeline stories: content/stories/<id>.json ----------
+   Format (lihat pipeline/RULES.md):
+   { id, cat, also?, date, title, dek, tags, hook?, path?,
+     sections:[{ h, kind?:"fakta"|"interpretasi"|"opini", p:[paragraf...] }],
+     sources:[{ t, u }] }                                                    */
+const STORY_DIR = join(dirname(fileURLToPath(import.meta.url)), "stories");
+export const PIPELINE_IDS = [];
+if (existsSync(STORY_DIR)) {
+  for (const f of readdirSync(STORY_DIR).filter(f => f.endsWith(".json")).sort()) {
+    const j = JSON.parse(readFileSync(join(STORY_DIR, f), "utf8"));
+    j._file = "content/stories/" + f;
+    A.push({ id:j.id, cat:j.cat, ...(j.also ? { also:j.also } : {}), date:j.date, title:j.title, dek:j.dek, tags:j.tags,
+      s:(j.sections || []).map(x => [x.h, x.p]), _file:j._file });
+    KINDS[j.id] = Object.fromEntries((j.sections || []).map((x, i) => [i, x.kind || "fakta"]).filter(([, k]) => k !== "fakta"));
+    SOURCES[j.id] = j.sources || [];
+    if (j.hook) HOOKS.push({ id:j.id, t:j.hook });
+    if (j.path) { const h = HOLES.find(h => h.id === j.path); if (h && !h.ids.includes(j.id)) h.ids.push(j.id); }
+    PIPELINE_IDS.push(j.id);
+  }
+}
+
+// Reading paths that grew from pipeline stories get fresh constellation points.
+for (const h of HOLES) if (h.pts.length !== h.ids.length)
+  h.pts = h.ids.map((_, i, a) => [30 + Math.round(i * 310 / Math.max(1, a.length - 1)), i % 2 ? 112 : 44]);

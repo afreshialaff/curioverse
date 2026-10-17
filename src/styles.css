@@ -20,7 +20,7 @@
   --glass:rgba(244,239,230,.82); --select:#D9C3A4;
   --lift:0 1px 1px rgba(27,26,23,.06), 0 10px 24px -14px rgba(27,26,23,.38);
   --lift-hi:0 2px 3px rgba(27,26,23,.08), 0 24px 44px -20px rgba(27,26,23,.45);
-  --c-finance:#A67C52; --c-science:#5B7C9A; --c-sejarah:#3F4A3B; --c-biografi:#1B1A17; --c-market:#7A5532; --c-saham:#9A3F2B; --c-global:#5C5649;
+  --c-finance:#A67C52; --c-science:#5B7C9A; --c-sejarah:#3F4A3B; --c-biografi:#1B1A17; --c-market:#7A5532; --c-saham:#9A3F2B; --c-global:#5C5649; --c-scam:#7A4560;
   --k-fakta:#3F4A3B; --k-interpretasi:#46647F; --k-opini:#7A5532;
 
   --serif:"Instrument Serif", "Iowan Old Style", Georgia, serif;
@@ -50,7 +50,7 @@
   --tape:rgba(201,162,122,.3); --tape-2:rgba(147,179,207,.24);
   --glass:rgba(37,35,30,.84); --select:#4A3D2C;
   --lift:0 1px 1px rgba(0,0,0,.25), 0 10px 24px -14px rgba(0,0,0,.7); --lift-hi:0 2px 3px rgba(0,0,0,.3), 0 24px 44px -20px rgba(0,0,0,.8);
-  --c-finance:#C9A27A; --c-science:#93B3CF; --c-sejarah:#9DB08F; --c-biografi:#EFE8DA; --c-market:#D6B38C; --c-saham:#E08A6E; --c-global:#ABA291;
+  --c-finance:#C9A27A; --c-science:#93B3CF; --c-sejarah:#9DB08F; --c-biografi:#EFE8DA; --c-market:#D6B38C; --c-saham:#E08A6E; --c-global:#ABA291; --c-scam:#D3A3BC;
   --k-fakta:#9DB08F; --k-interpretasi:#93B3CF; --k-opini:#D6B38C;
   color-scheme:dark;
 } }
@@ -63,7 +63,7 @@
   --tape:rgba(201,162,122,.3); --tape-2:rgba(147,179,207,.24);
   --glass:rgba(37,35,30,.84); --select:#4A3D2C;
   --lift:0 1px 1px rgba(0,0,0,.25), 0 10px 24px -14px rgba(0,0,0,.7); --lift-hi:0 2px 3px rgba(0,0,0,.3), 0 24px 44px -20px rgba(0,0,0,.8);
-  --c-finance:#C9A27A; --c-science:#93B3CF; --c-sejarah:#9DB08F; --c-biografi:#EFE8DA; --c-market:#D6B38C; --c-saham:#E08A6E; --c-global:#ABA291;
+  --c-finance:#C9A27A; --c-science:#93B3CF; --c-sejarah:#9DB08F; --c-biografi:#EFE8DA; --c-market:#D6B38C; --c-saham:#E08A6E; --c-global:#ABA291; --c-scam:#D3A3BC;
   --k-fakta:#9DB08F; --k-interpretasi:#93B3CF; --k-opini:#D6B38C;
   color-scheme:dark;
 }

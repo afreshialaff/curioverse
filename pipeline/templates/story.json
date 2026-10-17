@@ -1,0 +1,24 @@
+{
+  "id": "contoh-id-artikel",
+  "cat": "biografi",
+  "also": "science",
+  "date": "2026-10-17",
+  "title": "Judul yang bikin penasaran, maksimal 95 karakter",
+  "dek": "Satu-dua kalimat ringkasan yang bikin orang klik. Maksimal 240 karakter.",
+  "tags": "kata kunci pencarian dipisah spasi",
+  "hook": "Satu fakta mengejutkan yang bisa dicek, maksimal 170 karakter.",
+  "path": "",
+  "sections": [
+    { "h": "Judul bagian 1 (hook + konteks)", "p": ["Paragraf 1.", "Paragraf 2."] },
+    { "h": "Judul bagian 2 (inti / mekanisme)", "p": ["..."] },
+    { "h": "Judul bagian 3 (plot twist / mitos vs fakta)", "kind": "interpretasi", "p": ["..."] },
+    { "h": "Judul bagian 4 (so what)", "kind": "opini", "p": ["..."] }
+  ],
+  "sources": [
+    { "t": "Situs: Judul halaman", "u": "https://..." },
+    { "t": "Situs: Judul halaman", "u": "https://..." },
+    { "t": "Situs: Judul halaman", "u": "https://..." },
+    { "t": "Situs: Judul halaman", "u": "https://..." },
+    { "t": "Situs: Judul halaman", "u": "https://..." }
+  ]
+}

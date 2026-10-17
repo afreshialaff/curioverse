@@ -2,7 +2,14 @@
 import { mkdirSync, rmSync, writeFileSync, copyFileSync, readdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { CATS, ORDER, A, HOLES, TOPIC_DESC, KINDS, SOURCES, CURATORS, PICKS, HOOKS } from "../content/stories.mjs";
+import { CATS, ORDER, A, HOLES, TOPIC_DESC, KINDS, SOURCES, CURATORS, PICKS, HOOKS, PIPELINE_IDS } from "../content/stories.mjs";
+import { checkSite, report } from "./validate.mjs";
+
+// Quality gate first: if any story breaks the rules, the build fails and Vercel keeps the last good version live.
+if (!report(checkSite({ CATS, A, SOURCES, KINDS, HOOKS, PICKS, HOLES, PIPELINE_IDS }), "Quality gate")) {
+  console.error("Build dihentikan. Perbaiki masalah di atas (lihat pipeline/RULES.md).");
+  process.exit(1);
+}
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "dist");
@@ -34,6 +41,7 @@ const ICONS = `<svg width="0" height="0" style="position:absolute" aria-hidden="
 <symbol id="i-market" viewBox="0 0 24 24"><path d="M3 17l5-5 4 3 7-8"/><path d="M15 7h4v4"/><path d="M3 21h18"/></symbol>
 <symbol id="i-saham" viewBox="0 0 24 24"><path d="M7 3v4M7 15v5M17 5v3M17 17v3"/><rect x="5" y="7" width="4" height="8" rx=".6"/><rect x="15" y="8" width="4" height="9" rx=".6"/></symbol>
 <symbol id="i-global" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.6 2.7 3.9 5.7 3.9 9s-1.3 6.3-3.9 9c-2.6-2.7-3.9-5.7-3.9-9S9.4 5.7 12 3z"/></symbol>
+<symbol id="i-scam" viewBox="0 0 24 24"><path d="M3 9c3-2 6-2 9 0 3-2 6-2 9 0-.4 4-2.6 7-5.6 7-1.6 0-2.6-1-3.4-2.4-.8 1.4-1.8 2.4-3.4 2.4C5.6 16 3.4 13 3 9z"/><circle cx="8" cy="10.6" r="1.4"/><circle cx="16" cy="10.6" r="1.4"/></symbol>
 <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></symbol>
 <symbol id="i-dice" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3.5"/><circle cx="9" cy="9" r=".9" fill="currentColor"/><circle cx="15" cy="15" r=".9" fill="currentColor"/><circle cx="15" cy="9" r=".9" fill="currentColor"/><circle cx="9" cy="15" r=".9" fill="currentColor"/><circle cx="12" cy="12" r=".9" fill="currentColor"/></symbol>
 <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
@@ -218,6 +226,7 @@ function stageArt(c){
     case "biografi": return S(`${stars}<circle class="a-draw" style="--len:600" cx="200" cy="150" r="88" fill="none" stroke="var(--gold)" stroke-width="2"/><circle cx="200" cy="128" r="30" class="a-pop ink" style="--d:.5s"/><path class="a-pop ink" style="--d:.7s" d="M146 214 C150 180 250 180 254 214 Z"/><path class="a-draw sink" style="--len:300;--d:1s" d="M282 270 C300 200 340 160 372 140 C350 190 320 230 282 270 Z" fill="none" stroke-width="1.8"/>`);
     case "market": return S(`${stars}<line x1="40" y1="260" x2="360" y2="260" class="sink" stroke-width="1.5"/><path class="a-draw sink" style="--len:520" d="M40 220 L90 200 L130 230 L180 150 L220 170 L270 100 L310 120 L360 70" fill="none" stroke-width="3" stroke-linejoin="round"/>${[[180,150],[270,100],[360,70]].map(([x,y],i) => `<circle class="a-pop" cx="${x}" cy="${y}" r="6" fill="var(--gold)" style="--d:${.8 + i * .25}s"/>`).join("")}<text x="40" y="290">BULL</text><text x="360" y="290" text-anchor="end">ILUSTRASI</text>`);
     case "saham": return S(`${stars}${[[70,150,210,120,240,1],[130,120,190,100,230,0],[190,100,170,80,200,1],[250,130,90,110,160,1],[310,80,130,60,150,0]].map(([x,o,c2,h,l,up],i) => { const top = Math.min(o, c2), bh = Math.abs(o - c2); return `<g class="a-grow" style="--d:${i * .15}s"><line x1="${x}" y1="${h}" x2="${x}" y2="${l + 40}" stroke="${up ? "var(--up)" : "var(--down)"}" stroke-width="2.5"/><rect x="${x - 15}" y="${top}" width="30" height="${bh}" rx="3" fill="${up ? "var(--up)" : "var(--card)"}" stroke="${up ? "var(--up)" : "var(--down)"}" stroke-width="2.5"/></g>`; }).join("")}`);
+    case "scam": return S(`${stars}<path class="a-draw sink" style="--len:900" d="M90 130 C150 90 200 92 200 132 C200 92 250 90 310 130 C304 196 270 232 232 232 C214 232 205 218 200 204 C195 218 186 232 168 232 C130 232 96 196 90 130 Z" fill="none" stroke-width="2.6" stroke-linejoin="round"/><circle class="a-pop ink" cx="160" cy="150" r="13" style="--d:.7s"/><circle class="a-pop ink" cx="240" cy="150" r="13" style="--d:.8s"/><rect class="a-grow" x="252" y="40" width="96" height="52" rx="6" fill="none" stroke="var(--gold)" stroke-width="2" style="--d:1s"/><text x="300" y="72" text-anchor="middle" fill="var(--gold)">100% ASLI?</text><text x="40" y="296">TOO GOOD</text><text x="360" y="296" text-anchor="end">TO BE TRUE</text>`);
     default: return S(`${stars}<circle class="a-draw" style="--len:700" cx="200" cy="160" r="100" fill="none" stroke="var(--on-night)" stroke-width="2"/><path class="a-draw" style="--len:640;--d:.4s" d="M200 60 C250 100 250 220 200 260 C150 220 150 100 200 60 M100 160 H300 M114 110 H286 M114 210 H286" fill="none" stroke="var(--on-night)" stroke-width="1.4"/><g class="a-orbit" style="--t:20s"><ellipse cx="200" cy="160" rx="150" ry="46" fill="none" stroke="var(--gold)" stroke-width="1.6" transform="rotate(-18 200 160)"/></g><circle class="a-pop" cx="340" cy="112" r="7" fill="var(--gold)" style="--d:1s"/>`);
   }
 }
@@ -373,7 +382,7 @@ function home(){
     </div>
   </div>
 </section>`;
-  return page({ path:"/", title:"Curioverse", desc:"Buku catatan buat orang kepo. Finance, science, sejarah, biografi, market, saham, dan berita dunia, ditulis santai oleh AfreshiaLa & LeoFa.", body, scripts:["home.js"],
+  return page({ path:"/", title:"Curioverse", desc:"Buku catatan buat orang kepo. Finance, science, sejarah, biografi, market, saham, berita dunia, sampai kisah penipu legendaris, ditulis santai oleh AfreshiaLa & LeoFa.", body, scripts:["home.js"],
     jsonld:{ "@context":"https://schema.org", "@type":"WebSite", name:"Curioverse", url:SITE + "/", inLanguage:"id",
       potentialAction:{ "@type":"SearchAction", target:SITE + "/explore?q={search_term_string}", "query-input":"required name=search_term_string" } } });
 }
@@ -413,7 +422,7 @@ ${pageHead("Explore", "Semua cerita", "pilih, cari, atau acak aja", "Semua cerit
     <div class="hero-ctas" style="margin-top:0"><button class="btn btn-ghost" type="button" id="reset">Reset filter</button><button class="btn btn-primary" type="button" data-surprise>${icon("dice")}Surprise Me</button></div>
   </div>
 </section>`;
-  return page({ path:"/explore", title:"Explore stories", desc:`Semua ${A.length} cerita Curioverse: finance, science, sejarah, biografi, market, saham, dan global news.`, body, active:"/explore", scripts:["explore.js"] });
+  return page({ path:"/explore", title:"Explore stories", desc:`Semua ${A.length} cerita Curioverse: finance, science, sejarah, biografi, market, saham, global news, dan Scam Files.`, body, active:"/explore", scripts:["explore.js"] });
 }
 
 function paths(){
