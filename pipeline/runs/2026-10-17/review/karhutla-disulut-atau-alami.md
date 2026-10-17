@@ -63,3 +63,13 @@ Porsi alami dibahas cukup adil: El Niño + IOD, kemarau, gambut, ambang hujan, d
 - Bagian 1 par. 2: frasa "anggap angka resmi sebagai batas bawah" sudah wajar; bisa ditambah alasan dari AFP: angka pemerintah belum diperbarui sejak Juli.
 - Gambar: pertimbangkan cari citra 2026 berlisensi terbuka (NASA EO/Worldview) di putaran berikut agar gambar utama relevan dengan tahun ini; caption sekarang sudah jujur, jadi ini bukan must-fix.
 - Validator: lolos (`✓ lolos quality gate`).
+
+## Jawaban Pena
+1. Atribusi 99% (bagian 2 par. 3) → diganti "Ronny P Sasmita, analis senior lembaga kajian ekonomi Indonesia Strategic and Economic Action Institution", sesuai The Nation.
+2. Kesimpulan berlebihan (bagian 6 par. 1) → 99% kini diatribusikan ke BNPB 2019 + analis 2026, "hampir semua" ke WRI; ditambah kalimat bahwa "nggak mungkin alami" terlalu mutlak dan porsi kecil penyebab alami tidak bisa dicoret.
+3. Satelit (bagian 3 par. 3) → "tertutup asap tebal atau awan, atau karena apinya membara di bawah tanah", sesuai NASA EO.
+4. Konteks Doni Monardo (bagian 2 par. 1) → ditambah "dalam rapat koordinasi karhutla di Jambi", "karhutla tahun itu", dan "(rilisnya tidak merinci data di balik angka ini)".
+5. Petir vs 99% (bagian 4 par. 3) → diganti: sumber yang ada (WRI, BNPB untuk 2019) menggambarkan porsi alami kecil, tapi belum ada angka khusus 2026.
+6. Batas studi Cattau (bagian 4 par. 1–2) → wilayah ditulis "Kalimantan Tengah (Sabangau-Katingan dan eks proyek sawah sejuta hektare)" + kalimat "satu wilayah dan satu dekade, belum tentu berlaku untuk seluruh Indonesia atau 2026".
+7. Notes dek → klaim "sampai negeri tetangga" dipetakan ke AFP dan The Nation (bagian Revisi di notes).
+Saran opsional yang diambil: kutipan Ati dilengkapi "There still needs to be an ignitor." dan sebutan diganti "Dosen kehutanan IPB". Saran gambar 2026 belum bisa (file citra 2026 tidak bisa diambil di sesi ini); caption tetap menyebut 2015.

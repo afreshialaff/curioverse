@@ -52,3 +52,12 @@ Singkatan: CNBC = cnbcindonesia.com/...karhutla-makin-parah · AFP = malaymail.c
 
 ## Gambar
 - gambar: https://www.nasa.gov/image-article/smoke-fires-sumatra-october-2015/ — lisensi Public domain (karya NASA, pedoman media NASA) — dicek di halaman: tanggal citra 22 Okt 2015, Aqua/MODIS, kredit "NASA image courtesy Jeff Schmaltz, MODIS Rapid Response Team", file https://www.nasa.gov/wp-content/uploads/2023/03/sumatra.a2015295.0640.1km.jpg. Caption menegaskan foto 2015, bukan 2026. (Bukan Commons karena Commons/Earthdata 2026 tidak bisa diambil di sesi ini.)
+
+## Revisi (Pena, setelah review Lup)
+- dek "Asap ... sudah sampai negeri tetangga" → AFP (judul: haze across Malaysia and Singapore) dan NATION (sekolah ditutup di Sarawak, polusi di Manila)
+- "Ronny P Sasmita, analis senior ... Indonesia Strategic and Economic Action Institution" → NATION
+- "dalam rapat koordinasi karhutla di Jambi ... tahun itu ... rilisnya tidak merinci data" → SETKAB (rakor Jambi 23 Sep 2019, luas 2019 328.724 ha)
+- "tertutup asap tebal atau awan, atau ... membara di bawah tanah" → SD (MODIS/VIIRS sulit mendeteksi api di bawah asap tebal, kanopi, gambut bawah tanah)
+- "Kalimantan Tengah (Sabangau-Katingan dan eks proyek sawah sejuta hektare)" → CATTAU (wilayah studi)
+- "'There still needs to be an ignitor.'" + "Dosen kehutanan IPB" → AFP
+- Bagian 6: 99% diatribusikan ke BNPB 2019 + analis The Nation; "hampir semua" → WRI
