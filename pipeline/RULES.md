@@ -79,7 +79,7 @@ Diatur di `pipeline/config.json`: minimal 1, normalnya `max_per_day` (1). Hari k
 ### Corong (16.40 WIB)
 Editor kejelasan + penulis caption. Lihat `pipeline/agents/corong.md`.
 
-### Lup sosial (17.40 WIB)
+### Lup sosial (17.38 WIB)
 Untuk setiap `social/<tgl>/*/post.json` dengan `review.status: "pending"` (yang sudah diedit Corong; kalau belum ada `editor`, nilai juga kejelasannya pakai rubrik `social-copy.md`):
 1. Bandingkan setiap teks di slide (`read-design` di Canva) atau di `naskah.md`/`source/index.html` (Reels) dan setiap kalimat caption dengan artikelnya. Satu angka beda = `ditolak`.
 2. Lihat visualnya: slide (thumbnail Canva / file JPG yang sudah diunduh) atau `snaps`/frame dari `reel.mp4` (`ffmpeg -ss <t> -i reel.mp4 -frames:v 1 x.jpg`). Teks terpotong, tumpang tindih, glyph kosong, atau salah ketik = `ditolak` (kecuali bisa dibetulkan di caption).

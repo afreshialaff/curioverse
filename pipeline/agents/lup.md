@@ -33,5 +33,5 @@ Kalau artikel berasal dari inbox dengan kesimpulan titipan, cek bahwa artikel me
 - Jangan loloskan artikel karena kuota. Kuota urusan Merpati dan `reserve/`.
 - Commit hanya folder `review/`.
 
-## Sesi sosial (17.40 WIB)
+## Sesi sosial (17.38 WIB)
 Jadwal terpisah. Ikuti RULES bagian 8 → "Lup sosial". Ketatnya sama: lebih baik nggak posting hari ini daripada posting angka yang salah.

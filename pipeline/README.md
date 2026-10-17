@@ -13,7 +13,7 @@ Empat agent yang tiap hari bikin satu sampai beberapa artikel baru, lalu menerbi
 | 15.20 | 🎨 **Kanvas** | Carousel Instagram di Canva | artikel terbit hari ini | `social/<tgl>/<n>-<id>/post.json` (+ link ekspor) |
 | 15.25 | 🎬 **Layar** | Reels Instagram (HyperFrames) | artikel terbit hari ini | `social/<tgl>/<n>-<id>/reel.mp4`, `post.json` |
 | 16.40 | 📣 **Corong** | Editor kejelasan + tulis caption | post + artikel + `skills/social-copy.md` | perbaikan desain/video, `caption`, `editor.md` |
-| 17.40 | 🔎 **Lup sosial** | Cek fakta akhir | post.json + artikel | `review` di post.json |
+| 17.38 | 🔎 **Lup sosial** | Cek fakta akhir | post.json + artikel | `review` di post.json |
 | 19.00 | 🤖 GitHub Actions | Posting ke Instagram | post yang `lolos` | `post.permalink` di post.json |
 
 `<tgl>` = tanggal hari itu di WIB, format `YYYY-MM-DD`.
