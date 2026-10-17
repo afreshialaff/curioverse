@@ -36,4 +36,4 @@ Kalau domain berubah, set env `SITE_URL` di Vercel supaya canonical URL dan site
 4. Push. Vercel build ulang sendiri.
 
 ## Bahasa visual
-Font, motion, dan pola slide diadaptasi dari afreshia.vercel.app (Inter Tight + satu kata Instrument Serif italic, label JetBrains Mono, easing `cubic-bezier(.16,1,.3,1)`, Lenis, reveal mask, kartu sticky bertumpuk, track horizontal ter-pin). Identitas Curioverse tetap: palet Parchment/Ink/Moss/Gold/Dusk Blue, monogram C, orbit dan bintang empat sudut.
+Tema sketchbook: jurnal rasa ingin tahu dengan kertas sobek, washi tape, catatan tulisan tangan (Caveat), fase bulan, dan band hijau bergelombang, dalam palet Curioverse (Parchment, Midnight Ink, Moss, Sepia Gold, Dusk Blue). Heading Instrument Serif, teks Inter Tight 18px. Motion dari afreshia.vercel.app tetap dipakai: Lenis, reveal mask, slide bertumpuk, track horizontal ter-pin, indikator nav, menu lingkaran. Hook pembuka di beranda mengambil satu fakta acak dari `HOOKS` di `content/stories.mjs`, dan tiga artikel unggulan diatur lewat `PICKS`.

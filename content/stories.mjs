@@ -187,3 +187,18 @@ export const SOURCES = {
 
 export const CURATORS = "AfreshiaLa & LeoFa";
 export const FEATURED = "tulip";
+
+// Three curated picks shown right under the hero ("Pilihan minggu ini"). Curated, not traffic-based.
+export const PICKS = ["krakatau", "tulip", "curie"];
+
+// Opening hooks: one short, checkable fact per story. A random one is shown per visit.
+export const HOOKS = [
+  { id:"krakatau", t:"Dentuman Krakatau tahun 1883 kedengeran sampai Pulau Rodrigues, sekitar 4.800 km jauhnya." },
+  { id:"cahaya", t:"Cahaya Matahari yang kamu lihat sekarang berangkat sekitar 8 menit 20 detik yang lalu." },
+  { id:"curie", t:"Marie Curie menang Nobel di dua bidang sains yang berbeda: Fisika 1903 dan Kimia 1911." },
+  { id:"tardigrade", t:"Tahun 2007, tardigrade dibawa ke luar angkasa dan sebagian selamat dari ruang hampa." },
+  { id:"lovelace", t:"Tahun 1843, Ada Lovelace nulis algoritma buat mesin yang nggak pernah selesai dibangun." },
+  { id:"majemuk", t:"Quote bunga majemuk itu keajaiban dunia kedelapan sering dibilang dari Einstein. Buktinya belum ada." },
+  { id:"voc", t:"VOC berdiri tahun 1602 dan sering disebut perusahaan pertama yang sahamnya diperdagangkan publik." },
+  { id:"langit", t:"Ungu sebenernya dihamburkan atmosfer lebih kuat dari biru. Kok langit tetap kelihatan biru?" }
+];

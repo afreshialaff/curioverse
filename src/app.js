@@ -21,7 +21,8 @@ window.CV = { INDEX, norm, esc, LABEL, store, isDark, reduced };
 /* ---------- smooth scroll (Lenis), skipped for reduced motion ---------- */
 let lenis = null;
 if (!reduced && window.Lenis) {
-  lenis = new Lenis({ autoRaf:true, lerp:.1, smoothWheel:true, wheelMultiplier:1, touchMultiplier:1.2, anchors:{ offset:-12 } });
+  const navH = parseFloat(getComputedStyle(root).getPropertyValue("--nav-h")) || 72;
+  lenis = new Lenis({ autoRaf:true, lerp:.1, smoothWheel:true, wheelMultiplier:1, touchMultiplier:1.2, anchors:{ offset:-(navH + 16) } });
 }
 window.CV.lenis = lenis;
 const lock = on => { if (on) { lenis && lenis.stop(); root.style.overflow = "hidden"; } else { lenis && lenis.start(); root.style.overflow = ""; } };

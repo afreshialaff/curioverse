@@ -2,7 +2,7 @@
 import { mkdirSync, rmSync, writeFileSync, copyFileSync, readdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { CATS, ORDER, A, HOLES, TOPIC_DESC, KINDS, SOURCES, CURATORS, FEATURED } from "../content/stories.mjs";
+import { CATS, ORDER, A, HOLES, TOPIC_DESC, KINDS, SOURCES, CURATORS, PICKS, HOOKS } from "../content/stories.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "dist");
@@ -57,7 +57,7 @@ function header(active){
 <div class="nav-progress" aria-hidden="true"><i data-progress></i></div>
 <header class="nav" data-nav>
   <div class="wrap nav-inner">
-    <a class="nav-brand" href="/" aria-label="Curioverse, ke beranda"><span class="nav-mark" aria-hidden="true">${MARK}</span><span class="nav-name" aria-hidden="true">Curioverse<small>A curious mind lives here</small></span></a>
+    <a class="nav-brand" href="/" aria-label="Curioverse, ke beranda"><span class="nav-mark" aria-hidden="true">${MARK}</span><span class="nav-name" aria-hidden="true">Curioverse</span></a>
     <div class="nav-right">
       <nav class="nav-pill" aria-label="Navigasi utama">
         <span class="nav-ind" aria-hidden="true"></span>
@@ -77,8 +77,8 @@ function dialogs(){
   <div class="wrap menu-top"><a class="nav-brand" href="/" aria-label="Curioverse, ke beranda"><span class="nav-mark" aria-hidden="true">${MARK}</span></a><button class="menu-close" type="button" data-close>Tutup</button></div>
   <div class="wrap menu-body">
     <ol>
-      ${NAV.map((n, i) => `<li><a href="${n.href}" style="--i:${i}"><span>0${i + 1}</span>${n.label}</a></li>`).join("")}
-      <li><a href="/#kurator" style="--i:3"><span>04</span>Tentang <em>kami</em></a></li>
+      ${NAV.map((n, i) => `<li><a href="${n.href}" style="--i:${i}">${n.label}<small>${["semua cerita","main sambil belajar","seri yang nyambung"][i]}</small></a></li>`).join("")}
+      <li><a href="/#kurator" style="--i:3">Tentang kami<small>siapa kita</small></a></li>
     </ol>
     <div class="menu-foot">
       <button class="btn btn-primary" type="button" data-surprise>${icon("dice")}Surprise Me</button>
@@ -119,25 +119,26 @@ function dialogs(){
 }
 
 function footer(){
-  return `<footer class="foot">
+  return `<footer class="foot wave">
   <div class="wrap">
     <div class="foot-cta">
-      <p class="tag rv"><b>Masih penasaran?</b></p>
-      <h2 class="h2 rv-mask"><span>Stay <em>curious.</em></span></h2>
-      <div class="hero-ctas rv" style="--i:1; margin-top:0"><a class="btn btn-primary" href="/explore">Explore Stories <i class="arr" aria-hidden="true">↗</i></a><button class="btn btn-ghost" type="button" data-surprise>${icon("dice")}Surprise Me</button></div>
+      <p class="hand rv">masih penasaran?</p>
+      <h2 class="h2 rv-mask"><span>Tetap kepo, ya.</span></h2>
+      <div class="hero-ctas rv" style="--i:1"><a class="btn btn-primary" href="/explore">Explore Stories <i class="arr" aria-hidden="true">↗</i></a><button class="btn btn-ghost" type="button" data-surprise>${icon("dice")}Surprise Me</button></div>
     </div>
-    <div class="foot-word" role="img" aria-label="Curioverse">
+    <div class="foot-word" role="img" aria-label="Curioverse, a curious mind lives here">
       <svg viewBox="0 0 1200 250" aria-hidden="true">
         <path class="orb" data-orbit d="M70 196 C 30 40, 1170 10, 1150 120 C 1136 214, 520 250, 150 226" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>
         <text class="wm" x="600" y="190" text-anchor="middle" textLength="1100" lengthAdjust="spacingAndGlyphs">CURIOVERSE</text>
         <use class="sp" href="#star4" x="572" y="0" width="56" height="56"/><use class="sp" href="#star4" x="1040" y="24" width="30" height="30"/><circle class="sp" cx="1150" cy="120" r="8"/>
       </svg>
     </div>
+    ${phases()}
     <div class="foot-row">
       <nav class="foot-links" aria-label="Navigasi footer">
         <a href="/explore">Explore</a><a href="/lab">Lab</a><a href="/reading-paths">Reading Paths</a><a href="/explore?topik=global">Radar Global</a><a href="/#kurator">Tentang kami</a><button type="button" data-surprise>Surprise Me</button>
       </nav>
-      <p class="fine">© 2026 ${esc(CURATORS)} · Bukan saran investasi</p>
+      <p class="fine">© 2026 ${esc(CURATORS)} · A curious mind lives here · Bukan saran investasi</p>
     </div>
   </div>
 </footer>`;
@@ -167,7 +168,8 @@ function page({ path, title, desc, body, active = "", scripts = [], jsonld = nul
 <meta name="theme-color" content="#1B1A17" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/InterTight-Variable.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/InstrumentSerif-Italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/InstrumentSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/Caveat-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/styles.css?v=${V}">
 <script>(function(d){d.classList.add("js");try{var t=localStorage.getItem("cv-theme");if(t==="light"||t==="dark")d.dataset.theme=t}catch(e){}setTimeout(function(){if(!window.CV)d.classList.add("rv-safe")},3500)})(document.documentElement)</script>
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ""}
@@ -190,13 +192,12 @@ ${scripts.map(s => `<script src="/assets/${s}?v=${V}" defer></script>`).join("\n
 }
 
 /* ---------- components ---------- */
-const head = (n, label, title, accent, extra = "") => `<div class="sec-head"><p class="tag rv"><b>${n}</b> · ${label}</p><h2 class="h2 rv-mask"${extra}><span>${title} <em>${accent}</em></span></h2></div>`;
+const head = (hand, title, extra = "") => `<div class="sec-head"><p class="hand rv">${hand}</p><h2 class="h2 rv-mask"${extra}><span>${title}</span></h2></div>`;
 
 const card = (a, i = 0) => `<article class="card rv" style="--i:${i % 3}" data-id="${a.id}" data-c="${a.cat}" data-also="${a.also || ""}" data-date="${a.date}" data-min="${a.min}" data-title="${esc(a.title)}" data-h="${esc(norm([a.title, a.dek, a.tags, CATS[a.cat].label, a.also ? CATS[a.also].label : ""].join(" ")))}">
-  ${badge(a.cat)}
   <h3><a href="/stories/${a.id}">${esc(a.title)}</a></h3>
   <p class="dek">${esc(a.dek)}</p>
-  <div class="meta"><span>${a.min} menit</span><span aria-hidden="true">·</span><time datetime="${a.date}">${fmtDate(a.date)}</time></div>
+  <div class="meta">${badge(a.cat)}<span>${a.min} menit</span><span aria-hidden="true">·</span><time datetime="${a.date}">${fmtDate(a.date)}</time></div>
 </article>`;
 
 function constellation(h, w = 370, ht = 150){
@@ -217,75 +218,109 @@ function stageArt(c){
     case "biografi": return S(`${stars}<circle class="a-draw" style="--len:600" cx="200" cy="150" r="88" fill="none" stroke="var(--gold)" stroke-width="2"/><circle cx="200" cy="128" r="30" class="a-pop ink" style="--d:.5s"/><path class="a-pop ink" style="--d:.7s" d="M146 214 C150 180 250 180 254 214 Z"/><path class="a-draw sink" style="--len:300;--d:1s" d="M282 270 C300 200 340 160 372 140 C350 190 320 230 282 270 Z" fill="none" stroke-width="1.8"/>`);
     case "market": return S(`${stars}<line x1="40" y1="260" x2="360" y2="260" class="sink" stroke-width="1.5"/><path class="a-draw sink" style="--len:520" d="M40 220 L90 200 L130 230 L180 150 L220 170 L270 100 L310 120 L360 70" fill="none" stroke-width="3" stroke-linejoin="round"/>${[[180,150],[270,100],[360,70]].map(([x,y],i) => `<circle class="a-pop" cx="${x}" cy="${y}" r="6" fill="var(--gold)" style="--d:${.8 + i * .25}s"/>`).join("")}<text x="40" y="290">BULL</text><text x="360" y="290" text-anchor="end">ILUSTRASI</text>`);
     case "saham": return S(`${stars}${[[70,150,210,120,240,1],[130,120,190,100,230,0],[190,100,170,80,200,1],[250,130,90,110,160,1],[310,80,130,60,150,0]].map(([x,o,c2,h,l,up],i) => { const top = Math.min(o, c2), bh = Math.abs(o - c2); return `<g class="a-grow" style="--d:${i * .15}s"><line x1="${x}" y1="${h}" x2="${x}" y2="${l + 40}" stroke="${up ? "var(--up)" : "var(--down)"}" stroke-width="2.5"/><rect x="${x - 15}" y="${top}" width="30" height="${bh}" rx="3" fill="${up ? "var(--up)" : "var(--card)"}" stroke="${up ? "var(--up)" : "var(--down)"}" stroke-width="2.5"/></g>`; }).join("")}`);
-    default: return S(`${stars}<circle class="a-draw" style="--len:700" cx="200" cy="160" r="100" fill="none" stroke="var(--ink)" stroke-width="2"/><path class="a-draw" style="--len:640;--d:.4s" d="M200 60 C250 100 250 220 200 260 C150 220 150 100 200 60 M100 160 H300 M114 110 H286 M114 210 H286" fill="none" stroke="var(--ink)" stroke-width="1.4"/><g class="a-orbit" style="--t:20s"><ellipse cx="200" cy="160" rx="150" ry="46" fill="none" stroke="var(--gold)" stroke-width="1.6" transform="rotate(-18 200 160)"/></g><circle class="a-pop" cx="340" cy="112" r="7" fill="var(--gold)" style="--d:1s"/>`);
+    default: return S(`${stars}<circle class="a-draw" style="--len:700" cx="200" cy="160" r="100" fill="none" stroke="var(--on-night)" stroke-width="2"/><path class="a-draw" style="--len:640;--d:.4s" d="M200 60 C250 100 250 220 200 260 C150 220 150 100 200 60 M100 160 H300 M114 110 H286 M114 210 H286" fill="none" stroke="var(--on-night)" stroke-width="1.4"/><g class="a-orbit" style="--t:20s"><ellipse cx="200" cy="160" rx="150" ry="46" fill="none" stroke="var(--gold)" stroke-width="1.6" transform="rotate(-18 200 160)"/></g><circle class="a-pop" cx="340" cy="112" r="7" fill="var(--gold)" style="--d:1s"/>`);
   }
 }
 
 /* ---------- pages ---------- */
+/* moon phase drawing, p in [0,1): 0 new, .25 first quarter, .5 full, .75 last quarter */
+function moon(p, r = 24, cls = ""){
+  const c = r + 2, top = `${c} ${c - r}`, bot = `${c} ${c + r}`;
+  const rx = Math.abs(r * Math.cos(2 * Math.PI * p)).toFixed(2);
+  let lit = "";
+  if (p > .02 && p < .98) {
+    if (Math.abs(p - .5) < .02) lit = `<circle class="moon-lit" cx="${c}" cy="${c}" r="${r}"/>`;
+    else if (p < .5) lit = `<path class="moon-lit" d="M${top} A${r} ${r} 0 0 1 ${bot} A${rx} ${r} 0 0 ${p < .25 ? 0 : 1} ${top}Z"/>`;
+    else lit = `<path class="moon-lit" d="M${top} A${r} ${r} 0 0 0 ${bot} A${rx} ${r} 0 0 ${p > .75 ? 1 : 0} ${top}Z"/>`;
+  }
+  return `<svg class="${cls}" viewBox="0 0 ${c * 2} ${c * 2}" aria-hidden="true"><circle class="moon-disc" cx="${c}" cy="${c}" r="${r}"/>${lit}</svg>`;
+}
+const PHASES = [[0,"awal kepo"],[.13,"mulai nyari"],[.25,"nemu clue"],[.38,"makin dalam"],[.5,"aha!"],[.62,"cerita ke pacar"],[.75,"rehat"],[.88,"kepo lagi"]];
+const phases = (extra = "") => `<div class="phases${extra}" aria-hidden="true">${PHASES.map(([p, l], i) => `<div class="phase rv" style="--i:${i}">${moon(p)}<span>${l}</span></div>`).join("")}</div>`;
+
 function home(){
-  const slides = [BY[FEATURED], ...latest.filter(a => a.id !== FEATURED)].slice(0, 4);
-  // illustrative compound example for the scroll-driven lab card: Rp500 rb per bulan, 6% per tahun, 20 tahun
+  const picks = PICKS.map(id => BY[id]);
+  const recent = latest.filter(a => !PICKS.includes(a.id)).slice(0, 4);
+  const hook = HOOKS[0];
   let bal = 0; const yrs = [];
   for (let y = 1; y <= 20; y++){ for (let m = 0; m < 12; m++) bal = bal * (1 + .06 / 12) + 500000; yrs.push({ y, dep:500000 * 12 * y, bal }); }
   const maxB = yrs[19].bal;
+  const lead = picks[0];
   const body = `
 <section class="hero" aria-labelledby="hero-title">
-  <p class="hero-ghost" aria-hidden="true">CURIOVERSE</p>
-  <div class="wrap hero-grid">
-    <div class="hero-text">
-      <p class="tag"><b>A curious mind lives here</b><span class="tag-x"> · dikurasi ${esc(CURATORS)}</span></p>
-      <h1 class="h1" id="hero-title"><span>Welcome to the curious</span> <span>side of the <em>universe.</em></span></h1>
-      <p class="hero-sub">Science, history, money, human stories, and everything in between. Follow your curiosity.</p>
-      <ol class="hero-focus" aria-label="Mulai dari mana">
-        <li><a href="/explore"><span>01</span><b>Explore stories</b><small>${A.length} cerita di ${ORDER.length} topik, dari finance sampai global news</small><i class="arr" aria-hidden="true">↗</i></a></li>
-        <li><a href="/reading-paths"><span>02</span><b>Reading Paths</b><small>Rabbit Holes: seri cerita yang saling nyambung</small><i class="arr" aria-hidden="true">↗</i></a></li>
-        <li><a href="/lab"><span>03</span><b>Lab Kepo</b><small>Simulasi yang bisa kamu pencet-pencet sendiri</small><i class="arr" aria-hidden="true">↗</i></a></li>
-      </ol>
-      <div class="hero-ctas">
-        <a class="btn btn-primary" href="/explore">Explore Stories <i class="arr" aria-hidden="true">↗</i></a>
-        <button class="btn btn-ghost" type="button" data-surprise>${icon("dice")}Surprise Me</button>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <h1 class="display" id="hero-title"><span class="rv-mask"><span>Buku catatan</span></span><span class="rv-mask" style="--i:1"><span>buat orang kepo.</span></span></h1>
+        <p class="hand rv" style="--i:2">satu fakta kecil, penasaran seharian.</p>
+        <p class="lede rv" style="--i:3">Curioverse itu jurnal pengetahuan punya AfreshiaLa &amp; LeoFa. Finance, science, sejarah, sampai berita dunia, ditulis santai biar enak dibaca sambil rebahan.</p>
+        <div class="hero-ctas rv" style="--i:4">
+          <a class="btn btn-primary" href="#pilihan">Baca pilihan minggu ini <i class="arr" aria-hidden="true">↓</i></a>
+          <button class="btn btn-ghost" type="button" data-surprise>${icon("dice")}Surprise Me</button>
+        </div>
+      </div>
+      <div class="hook-wrap rv" style="--i:3">
+        <figure class="hook scrap night taped" style="margin:0" aria-labelledby="hook-label">
+          <div class="hook-top"><p class="hand" id="hook-label">Tau nggak?</p><svg class="hook-moon" viewBox="0 0 84 84" aria-hidden="true"><circle cx="42" cy="42" r="40" fill="var(--gold)"/><circle cx="30" cy="30" r="8" fill="rgba(27,26,23,.16)"/><circle cx="54" cy="50" r="11" fill="rgba(27,26,23,.13)"/><circle cx="36" cy="58" r="5" fill="rgba(27,26,23,.16)"/><circle cx="58" cy="26" r="4" fill="rgba(27,26,23,.14)"/></svg></div>
+          <q id="hook-q" aria-live="polite">${esc(hook.t)}</q>
+          <div class="hook-acts">
+            <a class="link" id="hook-link" href="/stories/${hook.id}">Kok bisa? Baca ceritanya <i class="arr" aria-hidden="true">↗</i></a>
+            <button class="hook-more" type="button" id="hook-more">${icon("dice")}Fakta lain</button>
+          </div>
+        </figure>
+        <span class="note" aria-hidden="true">ganti tiap kamu mampir</span>
+        <script type="application/json" id="hooks">${JSON.stringify(HOOKS).replace(/</g, "\\u003c")}</script>
       </div>
     </div>
-    <div class="hero-stage" id="orrery" aria-hidden="true">
-      <svg class="poster" viewBox="0 0 400 400">
-        <g class="spin" fill="none" stroke="var(--line-2)" stroke-width="1.2">${[80,112,144,176].map(r => `<ellipse cx="200" cy="200" rx="${r}" ry="${Math.round(r * .4)}" transform="rotate(-16 200 200)"/>`).join("")}</g>
-        <g class="spin2">${[[280,200,"var(--blue)"],[120,214,"var(--gold)"],[300,170,"var(--up)"],[96,190,"var(--down)"]].map(([x,y,f]) => `<circle cx="${x}" cy="${y}" r="7" fill="${f}"/>`).join("")}</g>
-        <use href="#star4" x="166" y="166" width="68" height="68" fill="var(--gold)"/>
-      </svg>
-      <canvas></canvas>
-      <div class="tip" data-tip></div>
+    ${phases()}
+  </div>
+</section>
+
+<section class="section" id="pilihan" aria-labelledby="h-pilihan">
+  <div class="wrap">
+    <div class="sec-row">${head("mulai dari sini, ya", "Pilihan minggu ini", ' id="h-pilihan"')}<p class="lede rv">Tiga cerita yang paling bikin kita heboh minggu ini. Dipilih kurator, bukan algoritma.</p></div>
+    <div class="feat-grid">
+      <a class="scrap feat-lead taped rv" data-play href="/stories/${lead.id}">
+        <div class="pic stage">${stageArt(lead.cat)}<span class="stage-tag">ilustrasi</span></div>
+        <div class="txt">
+          <h3>${esc(lead.title)}</h3>
+          <p class="dek">${esc(lead.dek)}</p>
+          <p class="meta">${badge(lead.cat)}<span>${lead.min} menit baca</span><span aria-hidden="true">·</span><time datetime="${lead.date}">${fmtDate(lead.date)}</time></p>
+          <span class="link" style="justify-self:start">Baca ceritanya <i class="arr" aria-hidden="true">↗</i></span>
+        </div>
+      </a>
+      <div class="feat-side">
+        ${picks.slice(1).map((a, i) => `<a class="scrap feat-item taped${i ? " blue" : ""} rv" data-play style="--i:${i + 1}" href="/stories/${a.id}"><div class="mini stage">${stageArt(a.cat)}</div><div><h3>${esc(a.title)}</h3><p class="dek">${esc(a.dek)}</p><p class="meta" style="margin-top:10px">${badge(a.cat)}<span>${a.min} menit baca</span></p></div></a>`).join("")}
+        <p class="feat-note rv" style="--i:3">sisanya ada di <a class="link" href="/explore" style="font:inherit">Explore</a></p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section" id="topik" aria-labelledby="h-topik">
+<section class="band wave" id="topik" aria-labelledby="h-topik">
   <div class="wrap">
-    <div class="sec-row">${head("01", "Explore by topic", "Pick your", "orbit.", ' id="h-topik"')}<p class="lede rv">Tujuh topik, satu rasa penasaran. Pilih yang paling bikin kamu kepo duluan.</p></div>
+    <div class="sec-row">${head("pilih orbit kamu", "Mau kepo soal apa?", ' id="h-topik"')}<p class="lede rv">Tujuh topik, satu rasa penasaran. Ketuk salah satu buat lihat semua ceritanya.</p></div>
     <div class="topics">
-      ${ORDER.map((c, i) => `<a class="topic rv" style="--i:${i % 4}; --tc:var(--c-${c})" href="/explore?topik=${c}"><span class="topic-top"><span class="topic-ico">${icon(c)}</span><span class="topic-n">${String(countFor(c)).padStart(2, "0")} cerita</span></span><span><b>${CATS[c].label}</b><small>${TOPIC_DESC[c]}</small></span></a>`).join("")}
-      <button class="topic alt rv" style="--i:3" type="button" data-surprise><span class="topic-top"><span class="topic-ico">${icon("dice")}</span><span class="topic-n">Random</span></span><span><b>Surprise Me</b><small>Biarin semesta yang milih cerita buat kamu</small></span></button>
+      ${ORDER.map((c, i) => `<a class="topic rv" style="--i:${i % 4}; --tc:var(--c-${c})" href="/explore?topik=${c}"><span class="topic-ico">${icon(c)}</span><b>${CATS[c].label}</b><small>${TOPIC_DESC[c]}</small><span class="n">${countFor(c)} cerita</span></a>`).join("")}
+      <button class="topic alt rv" style="--i:3" type="button" data-surprise><span class="topic-ico">${icon("dice")}</span><b>Surprise Me</b><small>Biarin semesta yang milih cerita</small><span class="n">acak</span></button>
     </div>
   </div>
 </section>
 
-<section class="section" id="cerita" aria-labelledby="h-cerita" style="padding-top:0">
+<section class="section" id="cerita" aria-labelledby="h-cerita">
   <div class="wrap">
-    <div class="sec-row">${head("02", "Latest stories", "Fresh from the", "universe.", ' id="h-cerita"')}<span class="link-wrap rv"><a class="link" href="/explore">Lihat semua ${A.length} cerita <i class="arr" aria-hidden="true">↗</i></a></span></div>
+    <div class="sec-row">${head("baru ditulis", "Cerita terbaru", ' id="h-cerita"')}<a class="link rv" href="/explore">Lihat semua ${A.length} cerita <i class="arr" aria-hidden="true">↗</i></a></div>
     <ol class="stack" data-stack>
-      ${slides.map((a, i) => { const h = holeOf(a.id); return `<li class="slide" style="--i:${i}">
+      ${recent.map((a, i) => { const h = holeOf(a.id); return `<li class="slide" style="--i:${i}">
         <article class="slide-in">
           <div class="slide-txt">
-            <div class="slide-top"><span><b>${String(i + 1).padStart(2, "0")}</b> / ${String(slides.length).padStart(2, "0")}</span><span>${a.id === FEATURED ? `<span class="flag">Editor's pick</span>` : fmtDate(a.date)}</span></div>
+            <div class="slide-top"><span class="hand">${fmtDate(a.date)}</span></div>
             <h3><a href="/stories/${a.id}">${esc(a.title)}</a></h3>
             <p class="dek">${esc(a.dek)}</p>
-            <dl>
-              <div><dt>Topik</dt><dd>${CATS[a.cat].label}${a.also ? " · " + CATS[a.also].label : ""}</dd></div>
-              <div><dt>Waktu baca</dt><dd>${a.min} menit · ${a.s.length} bagian</dd></div>
-              ${h ? `<div><dt>Reading path</dt><dd>${esc(h.title)}, cerita ${h.ids.indexOf(a.id) + 1} dari ${h.ids.length}</dd></div>` : ""}
-            </dl>
-            <div class="slide-cta"><a class="btn btn-ghost" href="/stories/${a.id}" tabindex="-1" aria-hidden="true">Baca cerita <i class="arr" aria-hidden="true">↗</i></a></div>
+            <div class="slide-facts"><span>${CATS[a.cat].label}</span><span>${a.min} menit baca</span><span>${a.s.length} bagian</span>${h ? `<span>Reading Path: ${esc(h.title)}</span>` : ""}</div>
+            <a class="btn btn-ghost" style="align-self:flex-start" href="/stories/${a.id}" tabindex="-1" aria-hidden="true">Baca cerita <i class="arr" aria-hidden="true">↗</i></a>
           </div>
-          <div class="stage">${stageArt(a.cat)}<span class="stage-tag">Ilustrasi · ${CATS[a.cat].label}</span></div>
+          <div class="stage">${stageArt(a.cat)}<span class="stage-tag">ilustrasi</span></div>
         </article>
       </li>`; }).join("")}
     </ol>
@@ -294,20 +329,20 @@ function home(){
 
 <section class="section" id="lab" aria-labelledby="h-lab" style="padding-top:0">
   <div class="wrap">
-    <div class="sec-row">${head("03", "Lab Kepo", "Learn by", "playing.", ' id="h-lab"')}<p class="lede rv">Konsep yang biasanya cuma dijelasin pakai teks, sekarang bisa kamu geser dan pencet sendiri.</p></div>
+    <div class="sec-row">${head("lab kepo", "Belajar sambil main", ' id="h-lab"')}<p class="lede rv">Konsep yang biasanya cuma dijelasin pakai teks, sekarang bisa kamu geser dan pencet sendiri.</p></div>
     <div class="lab-grid">
-      <ol class="lab-list rv">
-        <li><a href="/lab#bunga"><span>01</span><b>Bunga majemuk</b><small>Geser setoran dan waktu, lihat duitmu beranak</small><i class="arr" aria-hidden="true">↗</i></a></li>
-        <li><a href="/lab#candlestick"><span>02</span><b>Anatomi candlestick</b><small>Pencet tiap bagian lilin: open, high, low, close</small><i class="arr" aria-hidden="true">↗</i></a></li>
-        <li><a href="/lab#cahaya"><span>03</span><b>Delay cahaya</b><small>Dari Bulan sampai Andromeda, berapa lama cahaya jalan?</small><i class="arr" aria-hidden="true">↗</i></a></li>
-      </ol>
-      <div class="grow rv" style="--i:1" data-grow>
-        <svg viewBox="0 0 400 230" role="img" aria-label="Contoh: menabung Rp500 ribu per bulan dengan bunga 6% per tahun selama 20 tahun menjadi sekitar ${short(maxB)}.">
-          <text x="0" y="14">NABUNG RP500 RB/BULAN · BUNGA 6%</text>
-          <text class="big" x="0" y="56" data-grow-v>${short(maxB)}</text>
-          ${yrs.map((r, i) => { const x = 4 + i * 19.6, hB = 140 * r.bal / maxB, hD = 140 * r.dep / maxB; return `<g data-bar="${i}"><rect x="${x}" y="${222 - hB}" width="14" height="${hB - hD}" rx="2" fill="var(--gold)"/><rect x="${x}" y="${222 - hD}" width="14" height="${hD}" rx="2" fill="var(--up)"/></g>`; }).join("")}
+      <ul class="lab-list">
+        <li class="rv"><a href="/lab#bunga"><b>Bunga majemuk</b><small>Geser setoran dan waktu, lihat duitmu beranak</small><i class="arr" aria-hidden="true">↗</i></a></li>
+        <li class="rv" style="--i:1"><a href="/lab#candlestick"><b>Anatomi candlestick</b><small>Pencet tiap bagian lilin: open, high, low, close</small><i class="arr" aria-hidden="true">↗</i></a></li>
+        <li class="rv" style="--i:2"><a href="/lab#cahaya"><b>Delay cahaya</b><small>Dari Bulan sampai Andromeda, berapa lama cahaya jalan?</small><i class="arr" aria-hidden="true">↗</i></a></li>
+      </ul>
+      <div class="scrap grow taped rv" style="--i:1" data-grow>
+        <svg viewBox="0 0 400 236" role="img" aria-label="Contoh: menabung Rp500 ribu per bulan dengan bunga 6% per tahun selama 20 tahun menjadi sekitar ${short(maxB)}.">
+          <text x="0" y="14">Nabung Rp500 rb per bulan, bunga 6% per tahun</text>
+          <text class="big" x="0" y="62" data-grow-v>${short(maxB)}</text>
+          ${yrs.map((r, i) => { const x = 4 + i * 19.6, hB = 140 * r.bal / maxB, hD = 140 * r.dep / maxB; return `<g data-bar="${i}"><rect x="${x}" y="${228 - hB}" width="14" height="${hB - hD}" rx="2" fill="var(--gold)"/><rect x="${x}" y="${228 - hD}" width="14" height="${hD}" rx="2" fill="var(--up)"/></g>`; }).join("")}
         </svg>
-        <div class="grow-cap"><span data-grow-y>Tahun 20</span><span class="grow-ok">Dobel tiap ±12 tahun</span></div>
+        <div class="grow-cap"><span data-grow-y>Tahun 20</span><span class="grow-ok">dobel tiap ±12 tahun!</span></div>
       </div>
     </div>
   </div>
@@ -315,46 +350,48 @@ function home(){
 
 <section class="pin" id="paths" aria-labelledby="h-paths" data-pin>
   <div class="pin-sticky">
-    <div class="wrap pin-head">${head("04", "Reading Paths", "Fall into a", "rabbit hole.", ' id="h-paths"')}<div class="pin-meta"><span>${HOLES.length} seri cerita yang saling nyambung</span><span class="pin-prog"><i data-pin-prog></i></span></div></div>
+    <div class="wrap pin-head">${head("rabbit holes", "Baca satu, lanjut terus", ' id="h-paths"')}<span class="pin-prog" aria-hidden="true"><i data-pin-prog></i></span></div>
     <div class="track" data-track>
-      ${HOLES.map(h => `<article class="path-card">${constellation(h)}<h3>${esc(h.title)}</h3><p>${esc(h.dek)}</p><p class="meta">${String(h.ids.length).padStart(2, "0")} cerita · ±${pathMinutes(h)} menit</p><a class="btn btn-primary" href="/stories/${h.ids[0]}">Mulai dari cerita 1 <i class="arr" aria-hidden="true">↗</i></a></article>`).join("")}
-      <article class="path-card end"><p class="tag" style="color:inherit"><b style="color:inherit">Rabbit Holes</b></p><h3>Satu cerita, lalu lanjut terus sampai tamat.</h3><p>Di akhir tiap cerita ada tombol Continue This Rabbit Hole buat lanjut ke bagian berikutnya.</p><a class="btn" href="/reading-paths">Lihat semua path <i class="arr" aria-hidden="true">↗</i></a></article>
+      ${HOLES.map(h => `<article class="scrap path-card taped">${constellation(h)}<h3>${esc(h.title)}</h3><p>${esc(h.dek)}</p><p class="meta">${h.ids.length} cerita · sekitar ${pathMinutes(h)} menit</p><a class="btn btn-primary" href="/stories/${h.ids[0]}">Mulai dari cerita 1 <i class="arr" aria-hidden="true">↗</i></a></article>`).join("")}
+      <article class="scrap path-card night taped blue"><p class="hand" style="color:var(--gold)">cara mainnya</p><h3>Di akhir tiap cerita ada tombol buat lanjut ke cerita berikutnya.</h3><p>Tiap seri disusun kayak rasi bintang: urutannya penting, jadi mulai dari bintang pertama.</p><a class="btn btn-light" href="/reading-paths">Lihat semua path <i class="arr" aria-hidden="true">↗</i></a></article>
     </div>
   </div>
 </section>
 
 <section class="section" id="kurator" aria-labelledby="h-kurator">
   <div class="wrap">
-    ${head("05", "Curators", "Two curious", "minds.", ' id="h-kurator"')}
+    <div class="sec-row">${head("yang nulis jurnal ini", "Kenalan, yuk", ' id="h-kurator"')}</div>
     <div class="cur-grid">
       <div class="rv">
-        <p class="statement">Kita AfreshiaLa dan LeoFa. Kalau nemu fakta random, rasanya harus langsung di-<em>share</em> ke satu sama lain.</p>
-        <p class="lede">Curioverse itu tempat kita nyimpen semua "eh tau nggak sih" itu biar nggak tenggelam di chat. Kalau kamu ikut kepo, welcome. A curious mind lives here, dan sekarang kamu juga.</p>
+        <p class="statement">Kita AfreshiaLa dan LeoFa. Kalau nemu fakta random, rasanya harus langsung di-share ke satu sama lain.</p>
+        <p class="lede">Curioverse itu tempat kita nyimpen semua "eh tau nggak sih" biar nggak tenggelam di chat. Kalau kamu ikut kepo, welcome. A curious mind lives here, dan sekarang kamu juga.</p>
       </div>
-      <div class="people rv" style="--i:1">
-        <div class="person"><span class="av" aria-hidden="true">A</span><span><b>AfreshiaLa</b><small>Co-curator</small></span></div>
-        <div class="person"><span class="av" aria-hidden="true">L</span><span><b>LeoFa</b><small>Co-curator</small></span></div>
+      <div class="people">
+        <div class="scrap person taped rv"><span class="av" aria-hidden="true">A</span><span><b>AfreshiaLa</b><small>co-curator</small></span></div>
+        <div class="scrap person taped blue rv" style="--i:1"><span class="av" aria-hidden="true">L</span><span><b>LeoFa</b><small>co-curator</small></span></div>
       </div>
     </div>
   </div>
 </section>`;
-  return page({ path:"/", title:"Curioverse", desc:"Science, history, money, human stories, and everything in between. Rak pengetahuan pribadi AfreshiaLa & LeoFa.", body, scripts:["home.js"],
+  return page({ path:"/", title:"Curioverse", desc:"Buku catatan buat orang kepo. Finance, science, sejarah, biografi, market, saham, dan berita dunia, ditulis santai oleh AfreshiaLa & LeoFa.", body, scripts:["home.js"],
     jsonld:{ "@context":"https://schema.org", "@type":"WebSite", name:"Curioverse", url:SITE + "/", inLanguage:"id",
       potentialAction:{ "@type":"SearchAction", target:SITE + "/explore?q={search_term_string}", "query-input":"required name=search_term_string" } } });
 }
+
 function short(v){ return v >= 1e9 ? "Rp" + (v / 1e9).toLocaleString("id-ID", { maximumFractionDigits:1 }) + " M" : "Rp" + (v / 1e6).toLocaleString("id-ID", { maximumFractionDigits:1 }) + " jt"; }
 
-function pageHead(label, title, accent, lede){
+function pageHead(label, title, hand, lede){
   return `<div class="wrap page-head">
   <nav class="crumb" aria-label="Breadcrumb"><a href="/">Beranda</a><span aria-hidden="true">/</span><span>${label}</span></nav>
-  <h1 class="h2 rv-mask"><span>${title} <em>${accent}</em></span></h1>
-  <p class="lede rv">${lede}</p>
+  <h1 class="display rv-mask"><span>${title}</span></h1>
+  <p class="hand rv">${hand}</p>
+  <p class="lede rv" style="--i:1">${lede}</p>
 </div>`;
 }
 
 function explore(){
   const body = `
-${pageHead("Explore", "Explore", "stories.", "Semua cerita Curioverse. Filter per topik, cari kata kunci, atau urutkan biar yang singkat duluan.")}
+${pageHead("Explore", "Semua cerita", "pilih, cari, atau acak aja", "Semua cerita Curioverse. Filter per topik, cari kata kunci, atau urutkan biar yang singkat duluan.")}
 <section class="wrap" aria-label="Daftar cerita" style="padding-bottom:var(--section-y)">
   <div class="controls">
     <div class="scroller"><div class="chips" id="chips" role="group" aria-label="Filter topik">
@@ -367,7 +404,7 @@ ${pageHead("Explore", "Explore", "stories.", "Semua cerita Curioverse. Filter pe
     </div>
     <div class="active-bar" id="active" aria-live="polite"><span>Menampilkan ${A.length} cerita</span></div>
   </div>
-  <div class="note-box" id="digest" hidden><b>Digest mingguan Radar Global</b><p>Edisi pertama lagi diracik dan belum ada isinya. Nanti di sini muncul rangkuman berita dunia minggu itu, lengkap dengan link sumber aslinya. Sementara itu, ini bekal buat baca berita global.</p></div>
+  <div class="note-box taped" id="digest" hidden><b>Digest mingguan Radar Global</b><p>Edisi pertama lagi diracik dan belum ada isinya. Nanti di sini muncul rangkuman berita dunia minggu itu, lengkap dengan link sumber aslinya. Sementara itu, ini bekal buat baca berita global.</p></div>
   <div class="grid" id="results">${latest.map((a, i) => card(a, i)).join("")}</div>
   <div class="empty" id="none" hidden>
     <h2>Belum ketemu yang cocok.</h2>
@@ -381,7 +418,7 @@ ${pageHead("Explore", "Explore", "stories.", "Semua cerita Curioverse. Filter pe
 
 function paths(){
   const body = `
-${pageHead("Reading Paths", "Reading", "paths.", "Kita nyebutnya Rabbit Holes: seri cerita yang saling nyambung. Baca dari cerita pertama, dan di akhir tiap cerita ada tombol buat lanjut ke berikutnya.")}
+${pageHead("Reading Paths", "Reading Paths", "a.k.a. rabbit holes", "Kita nyebutnya Rabbit Holes: seri cerita yang saling nyambung. Baca dari cerita pertama, dan di akhir tiap cerita ada tombol buat lanjut ke berikutnya.")}
 <div class="wrap" style="padding-bottom:var(--section-y)">
   ${HOLES.map(h => `<section class="path-full rv" id="${h.id}" aria-labelledby="h-${h.id}">
     <div><h2 id="h-${h.id}">${esc(h.title)}</h2><p>${esc(h.dek)}</p><p class="meta" style="margin-top:12px">${String(h.ids.length).padStart(2, "0")} cerita · ±${pathMinutes(h)} menit</p>${constellation(h)}<div class="hero-ctas"><a class="btn btn-primary" href="/stories/${h.ids[0]}">Mulai dari cerita 1 <i class="arr" aria-hidden="true">↗</i></a></div></div>
@@ -393,10 +430,10 @@ ${pageHead("Reading Paths", "Reading", "paths.", "Kita nyebutnya Rabbit Holes: s
 
 function lab(){
   const sec = (id, n, label, title, accent, lede, inner) => `<section class="lab-sec" id="${id}" aria-labelledby="h-${id}"><div class="wrap">
-  <p class="tag rv"><b>${n}</b> · ${label}</p><h2 class="h2 rv-mask" id="h-${id}"><span>${title} <em>${accent}</em></span></h2><p class="lede rv">${lede}</p>
+  <p class="hand rv">${label.toLowerCase()}</p><h2 class="h2 rv-mask" id="h-${id}"><span>${title} ${accent}</span></h2><p class="lede rv">${lede}</p>
   <div class="panel rv">${inner}</div></div></section>`;
   const body = `
-${pageHead("Lab", "Lab", "Kepo.", "Tiga simulasi kecil buat ngerti konsep yang biasanya cuma dijelasin pakai teks. Bisa dipakai pakai mouse, sentuhan, atau keyboard.")}
+${pageHead("Lab", "Lab Kepo", "belajar sambil pencet-pencet", "Tiga simulasi kecil buat ngerti konsep yang biasanya cuma dijelasin pakai teks. Bisa dipakai pakai mouse, sentuhan, atau keyboard.")}
 <nav class="lab-nav" aria-label="Lompat ke simulasi"><div class="wrap scroller"><div class="chips">
   <a class="chip" href="#bunga">${icon("finance")}Bunga majemuk</a><a class="chip" href="#candlestick">${icon("saham")}Anatomi candlestick</a><a class="chip" href="#cahaya">${icon("science")}Delay cahaya</a>
 </div></div></nav>
@@ -456,12 +493,11 @@ function story(a){
   if (hole) hole.ids.forEach(id => { if (id !== a.id && id !== nextId) rel.push(id); });
   A.forEach(x => { if (x.id !== a.id && x.id !== nextId && !rel.includes(x.id) && (x.cat === a.cat || x.also === a.cat || x.cat === a.also)) rel.push(x.id); });
   latest.forEach(x => { if (x.id !== a.id && x.id !== nextId && !rel.includes(x.id)) rel.push(x.id); });
-  const t = a.title.split(" "), last = t.pop();
   const body = `
 <article class="story wrap">
   <div class="story-in">
     <nav class="crumb" aria-label="Breadcrumb"><a href="/">Beranda</a><span aria-hidden="true">/</span><a href="/explore?topik=${a.cat}">${CATS[a.cat].label}</a></nav>
-    <h1 class="h1 rv-mask"><span>${esc(t.join(" "))} <em>${esc(last)}</em></span></h1>
+    <h1 class="display rv-mask"><span>${esc(a.title)}</span></h1>
     <p class="dek rv">${esc(a.dek)}</p>
     <div class="byline rv" style="--i:1">
       <span class="who"><span class="av" aria-hidden="true">A</span><span class="av" aria-hidden="true">L</span>Dikurasi oleh ${esc(CURATORS)}</span>
@@ -478,7 +514,7 @@ function story(a){
       <ol>${(SOURCES[a.id] || []).map(s => `<li>${s.u ? `<a href="${s.u}" target="_blank" rel="noopener">${esc(s.t)}</a>` : esc(s.t)}</li>`).join("")}</ol>
       <p>Nemu yang keliru? Kabarin kita, nanti dikoreksi dan dicatat di sini.</p>
     </section>
-    ${nextId ? `<a class="next" href="/stories/${nextId}"><small>Story ${pos + 2} of ${hole.ids.length} · ${esc(hole.title)}</small><b>${esc(BY[nextId].title)}</b><span>Continue This Rabbit Hole →</span></a>` : hole ? `<a class="next" href="/reading-paths"><small>Kamu udah tamat reading path ini</small><b>${esc(hole.title)}</b><span>Pilih reading path lain →</span></a>` : ""}
+    ${nextId ? `<a class="next scrap taped" href="/stories/${nextId}"><small>Story ${pos + 2} of ${hole.ids.length} · ${esc(hole.title)}</small><b>${esc(BY[nextId].title)}</b><span>Continue This Rabbit Hole →</span></a>` : hole ? `<a class="next scrap taped" href="/reading-paths"><small>Kamu udah tamat reading path ini</small><b>${esc(hole.title)}</b><span>Pilih reading path lain →</span></a>` : ""}
     <section class="related" aria-labelledby="h-rel"><h2 id="h-rel">Baca juga</h2><div class="grid">${rel.slice(0, 3).map((id, i) => card(BY[id], i)).join("")}</div></section>
     <div class="story-actions"><button class="btn btn-primary" type="button" data-surprise>${icon("dice")}Surprise Me</button><a class="btn btn-ghost" href="/explore">Semua cerita</a></div>
   </div>
@@ -490,7 +526,7 @@ function story(a){
 }
 
 function notFound(){
-  return page({ path:"/404", title:"Halaman tidak ditemukan", desc:"Halaman tidak ditemukan.", body:`${pageHead("404", "Nyasar ke luar", "orbit.", "Link-nya mungkin salah ketik atau ceritanya udah pindah. Coba mulai dari sini.")}<div class="wrap" style="padding-bottom:var(--section-y)"><div class="hero-ctas"><a class="btn btn-primary" href="/explore">Explore Stories <i class="arr" aria-hidden="true">↗</i></a><button class="btn btn-ghost" type="button" data-surprise>${icon("dice")}Surprise Me</button></div></div>` });
+  return page({ path:"/404", title:"Halaman tidak ditemukan", desc:"Halaman tidak ditemukan.", body:`${pageHead("404", "Nyasar ke luar orbit", "halaman ini nggak ketemu", "Link-nya mungkin salah ketik atau ceritanya udah pindah. Coba mulai dari sini.")}<div class="wrap" style="padding-bottom:var(--section-y)"><div class="hero-ctas"><a class="btn btn-primary" href="/explore">Explore Stories <i class="arr" aria-hidden="true">↗</i></a><button class="btn btn-ghost" type="button" data-surprise>${icon("dice")}Surprise Me</button></div></div>` });
 }
 
 /* ---------- write ---------- */
