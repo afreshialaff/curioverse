@@ -3,7 +3,7 @@
   "story": "charles-ponzi",
   "story_url": "https://curioverse-beta.vercel.app/stories/charles-ponzi",
   "type": "reel",
-  "made_by": "layar v2 (tes ulang oleh Claude, standar social-copy)",
+  "made_by": "layar v2 (tes ulang oleh Claude, standar social-copy); revisi teks + render ulang oleh Lup 18 Okt",
   "backfill": true,
   "caption": "Tahun 1920, Charles Ponzi menjanjikan warga Boston untung 50% dalam 45 hari, dan namanya kini dipakai untuk skema Ponzi, atau penipuan yang membayar investor lama pakai uang investor baru.\n\nPonzi mengaku untung dari kupon pos internasional, kupon yang bisa ditukar prangko di negara lain. Menurut hitungannya, $1 dapat 5 kupon di Boston tapi 66 kupon di Roma. Bisnis kupon itu nyaris nggak jalan.\n\nJuli 1920, hampir $6,5 juta masuk dari lebih dari 20.000 orang. Bulan berikutnya koran Boston Post membongkarnya, dan audit terakhir cuma menemukan kupon senilai $61. Investor yang telat dapat balik sekitar 30-an sen per dolar.\n\nKamu bakal curiga di angka berapa?\n\nA curious mind lives here.\n\n#skemaponzi #investasibodong #literasikeuangan #curioverse",
   "media": [
@@ -13,9 +13,9 @@
   ],
   "cover": "cover.jpg",
   "review": {
-    "status": "ditolak",
+    "status": "lolos",
     "by": "lup",
-    "notes": "Lup: ditolak karena ada klaim di video yang tidak ada di artikel. (1) Adegan 2: 'Tahun 1920, dia buka Securities Exchange Company di Boston'. Artikel tidak menyebut tahun pendirian (investor pertama baru Januari 1920), dan menurut catatan sejarah perusahaan itu berdiri akhir 1919. Ganti jadi 'Dia buka Securities Exchange Company di Boston.' (2) Adegan 5: label Juni '$2,5 juta', padahal artikel 'lebih dari $2,5 juta'. Ganti jadi 'lebih dari $2,5 juta'. (3) Adegan 7: Barron ditampilkan sebagai kutipan langsung, padahal artikel hanya parafrase ('Intinya, kata Barron'). Tulis 'Intinya, kata Clarence Barron: ...' atau buang gaya kutipan. Selebihnya cocok dengan artikel: 50%/45 hari, 5 vs 66 kupon (grid 5 dan 66 kotak), ±7.800 dan 20.000+ orang, hampir $6,5 juta, audit $61, 30-an sen per dolar. Batang proporsional (346/900 px = 2,5/6,5). Media ada di repo: reel.mp4 H.264+AAC 1080x1920, 55 dtk, cover.jpg. Frame diperiksa: tanpa teks terpotong atau glyph kosong. Caption cocok dengan artikel. Perlu render ulang oleh Layar, lalu review ulang."
+    "notes": "Lup: lolos setelah revisi (atas permintaan Thea agar tetap posting hari ini). Tiga teks dibetulkan di source/index.html lalu render ulang: adegan 2 'Tahun 1920, dia buka...' jadi 'Dia buka Securities Exchange Company di Boston.' (tahun pendirian tidak ada di artikel); adegan 5 label Juni jadi 'lebih dari $2,5 juta' sesuai artikel; adegan 7 atribusi jadi 'Ringkasan pendapat Clarence Barron... kepada Boston Post' karena di artikel itu parafrase. Cek ulang: semua teks layar dan caption cocok dengan content/stories/charles-ponzi.json (50%/45 hari, 5 vs 66 kupon, ±7.800 orang/lebih dari $2,5 juta, 20.000+ orang/hampir $6,5 juta, audit $61, 30-an sen per dolar). Batang proporsional (346/900 = 2,5/6,5), grid 5 dan 66 kotak. 7 frame dilihat: tanpa teks terpotong atau glyph kosong. reel.mp4 H.264 High + AAC 48 kHz, 1080x1920, 55 dtk, 7,4 MB; cover.jpg diperbarui."
   },
   "post": {
     "status": "queued"

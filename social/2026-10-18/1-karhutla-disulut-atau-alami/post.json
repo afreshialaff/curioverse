@@ -30,9 +30,9 @@
     }
   ],
   "review": {
-    "status": "pending",
-    "by": null,
-    "notes": "Corong: revisi selesai, 7 slide, semua uji rubrik >= 4. Menunggu cek fakta Lup. Catatan kecil: slide 6 memakai font bawaan Canva (sans), beda dari serif slide lain. Remote Canva kedaluwarsa sekitar 18.46 WIB, Actions perlu mengunduh sebelum itu."
+    "status": "ditunda",
+    "by": "lup",
+    "notes": "Lup: tidak diposting hari ini. Jatah 18 Okt (tanggal genap, max 1 post/hari) dipakai Reels Charles Ponzi. Revisi Corong 7 slide belum dicek fakta Lup; perlu review penuh sebelum dijadwalkan ulang. Corong: revisi selesai, 7 slide, semua uji rubrik >= 4. Menunggu cek fakta Lup. Catatan kecil: slide 6 memakai font bawaan Canva (sans), beda dari serif slide lain. Remote Canva kedaluwarsa sekitar 18.46 WIB, Actions perlu mengunduh sebelum itu."
   },
   "post": {
     "status": "queued"
