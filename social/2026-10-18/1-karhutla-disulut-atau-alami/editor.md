@@ -1,35 +1,39 @@
-# Editor (Corong) · Carousel karhutla · 2026-10-18
+# Editor (Corong) · Carousel karhutla v3 · 2026-10-18
 
-Status: ditolak
+Status: ditolak (2 uji < 4, butuh slide tambahan dari Kanvas)
 
 | Uji | Skor | Catatan |
 |---|---|---|
-| Sampul | 3 | Judul berupa pertanyaan, bukan pernyataan berita; tanpa kutipan |
-| Judul berantai | 4 | Judul nyambung, tapi "Kesimpulannya" bukan judul yang bercerita |
-| Orang asing | 4 | Cerita utuh terbaca tanpa web |
-| Jargon | 3 | "Karhutla" dan "konsesi" tidak pernah dijelaskan di slide |
-| Angka | 4 | Angka sama dengan artikel |
-| Atribusi | 3 | Slide 5 (biaya, The Nation), slide 6 ("cuma pemicu", Ati Dwi Nurhayati/IPB) dan slide 8 (imbauan BMKG) tanpa pemilik |
-| Bahasa | 3 | Slide 8 penutup nasihat ("Kabar baiknya... jangan bakar sampah") |
-| Visual | 3 | Setiap slide dipaksa punya gambar/grafik (kegagalan v2 di social-copy.md bagian 1); ilustrasi Singapura dekoratif |
-| Tata letak | 2 | Chrome beda-beda (bingkai hanya di slide 5, 7, 8), tanpa "a curious mind lives here", judul slide 2, 3, 4, 6 di luar zona aman 120 px |
-| Keterbacaan | 3 | Teks isi slide 1 dan 4 kecil di HP |
-| Penutup | 2 | Tanpa kutipan bernama, ditutup nasihat + baris link |
-| Caption | 5 | Ditulis ulang format BBC, 101 kata |
+| Sampul | 4 | Pernyataan 2 baris memuat beritanya; kini ada penjelas karhutla + atribusi WRI. Tanpa kutipan pendek. |
+| Judul berantai | 4 | Asapnya nyata, Siapa yang menyalakan?, Kenapa pakai api?, El Niño = bensin, Bukan alam sendirian: nyambung. |
+| Orang asing | 3 | Apa dan kok bisa terjawab, tapi cuma 6 slide dan langkah plot twist (Cattau dkk.: lahan rusak vs konsesi) hilang. |
+| Jargon | 4 | Karhutla dan titik panas kini dijelaskan pola 'X atau Y'. |
+| Angka | 4 | Sama dengan artikel. 1.297 kini 'di antaranya 505/346/330' supaya tidak terbaca sebagai total yang salah. |
+| Atribusi | 4 | WRI, BMKG, The Nation, Ati Dwi Nurhayati/AFP, Doni Monardo/BNPB 2019 semua bernama. |
+| Bahasa | 4 | Rangkaian tiga di penutup lama dibuang. Lolos tes tukar topik. |
+| Visual | 4 | Perbandingan api vs mekanis di slide 4; slide lain teks + ilustrasi. Tanpa baris sumber di bawah visual (kini di teks). |
+| Tata letak | 3 | Rata kiri, ruang kosong cukup. Chrome tidak konsisten: tagline hanya slide 6, bingkai hanya slide 2 dan 6. |
+| Keterbacaan | 4 | Teks cukup besar; slide 3 tidak lagi tertimpa ilustrasi. Angka 6/6 kontras rendah. |
+| Penutup | 4 | Kutipan bernama (Doni Monardo) lalu pertanyaan terbuka, tanpa kartu link. |
+| Caption | 5 | 3 paragraf + 1 pertanyaan, 90 kata, tanpa emoji/tanda seru. |
 
 ## Yang diubah
-Caption ditulis ulang format BBC. Desain tidak diubah: masalahnya struktural (chrome, zona aman, visual di setiap slide, penutup), perlu dibuat ulang oleh Kanvas sesuai social-copy.md v3.
+Canva: sampul dapat penjelas 'karhutla atau kebakaran hutan dan lahan' + atribusi WRI; slide 2 jelaskan titik panas dan 'di antaranya' (1.297 vs 505+346+330 sesuai artikel); slide 3 teks tak lagi menimpa ilustrasi; slide 4 sumber The Nation; slide 5 atribusi Ati Dwi Nurhayati/AFP; slide 6 penutup jadi kutipan Doni Monardo (BNPB 2019) + pertanyaan, link diganti 'a curious mind lives here'. Ekspor ulang, remote diganti, slide lama dihapus. Caption BBC 3 paragraf.
+
+## Yang belum bisa dibetulkan
+- Tambah slide plot twist (Cattau dkk. 2016, Kalimantan Tengah 2000–2010: 68–71% penyulutan di lahan rusak, 17–19% di konsesi sawit) supaya 7 slide.
+- Chrome seragam: tagline 'a curious mind lives here' + wordmark + penghitung di semua slide.
 
 ## Caption
 
-Asap karhutla, atau kebakaran hutan dan lahan, kembali menyelimuti Sumatra, Kalimantan, dan Papua, dan menurut World Resources Institute hampir semua kebakaran hutan di Indonesia dimulai manusia, sengaja maupun lalai.
+Asap karhutla, atau kebakaran hutan dan lahan, dari Sumatra, Kalimantan, dan Papua sudah sampai ke negeri tetangga. Menurut World Resources Institute, hampir semua kebakaran hutan di Indonesia dimulai manusia, sengaja atau lalai.
 
-Hutan hujan dan gambut alami terlalu lembap untuk terbakar sendiri. Buka lahan pakai api sekitar US$28–57 per hektare, pakai alat berat US$566–850, menurut laporan The Nation. El Niño memperpanjang kemarau, jadi api kecil gampang menjalar.
+Hutan hujan dan gambut alami terlalu lembap untuk terbakar sendiri. Laporan The Nation menyebut buka lahan pakai api sekitar US$28–57 per hektare, sementara cara mekanis US$566–850.
 
-Kementerian Kehutanan mencatat lebih dari 202.000 hektare terbakar pada Januari–Juli 2026. Tapi studi Cattau dkk. di Kalimantan Tengah (data 2000–2010) menemukan 68–71% api bermula di lahan rusak tak terkelola, dan 17–19% di konsesi sawit.
+BMKG mencatat 1.297 titik panas per 14 Oktober 2026. Dosen kehutanan IPB Ati Dwi Nurhayati kepada AFP menyebut El Niño cuma pemicu: tetap harus ada yang menyalakan.
 
-Daerahmu kena asap karhutla tahun ini?
+Daerahmu kena asap tahun ini?
 
 A curious mind lives here.
 
-#karhutla #gambut #lingkungan #curioverse
+#karhutla #gambut #elnino #lingkungan #curioverse
