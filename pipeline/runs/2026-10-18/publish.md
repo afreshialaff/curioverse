@@ -18,3 +18,6 @@ Alasan: kuota tepat 1 artikel per hari.
 
 ## Build
 `node scripts/build.mjs` sukses (27 halaman, quality gate lolos).
+
+## Cek deploy
+- Deploy belum terlihat: setelah ±3 menit, halaman /stories/barnum-effect-kok-gue-banget tidak bisa dibuka dari sesi agent (WebFetch butuh izin yang tidak dijawab, curl diblokir proxy). Bukan bukti deploy gagal; perlu dicek manusia.
