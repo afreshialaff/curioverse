@@ -1,18 +1,18 @@
 # Editor (Corong) · Carousel karhutla v3 · 2026-10-18
 
-Status: ditolak (2 uji < 4, butuh slide tambahan dari Kanvas)
+Status: pending (revisi selesai, semua uji >= 4, menunggu Lup)
 
 | Uji | Skor | Catatan |
 |---|---|---|
 | Sampul | 4 | Pernyataan 2 baris memuat beritanya; kini ada penjelas karhutla + atribusi WRI. Tanpa kutipan pendek. |
 | Judul berantai | 4 | Asapnya nyata, Siapa yang menyalakan?, Kenapa pakai api?, El Niño = bensin, Bukan alam sendirian: nyambung. |
-| Orang asing | 3 | Apa dan kok bisa terjawab, tapi cuma 6 slide dan langkah plot twist (Cattau dkk.: lahan rusak vs konsesi) hilang. |
+| Orang asing | 4 | Revisi: 7 slide, plot twist Cattau dkk. ada di slide 6. Apa, kok bisa, terus kenapa terjawab. |
 | Jargon | 4 | Karhutla dan titik panas kini dijelaskan pola 'X atau Y'. |
 | Angka | 4 | Sama dengan artikel. 1.297 kini 'di antaranya 505/346/330' supaya tidak terbaca sebagai total yang salah. |
 | Atribusi | 4 | WRI, BMKG, The Nation, Ati Dwi Nurhayati/AFP, Doni Monardo/BNPB 2019 semua bernama. |
 | Bahasa | 4 | Rangkaian tiga di penutup lama dibuang. Lolos tes tukar topik. |
 | Visual | 4 | Perbandingan api vs mekanis di slide 4; slide lain teks + ilustrasi. Tanpa baris sumber di bawah visual (kini di teks). |
-| Tata letak | 3 | Rata kiri, ruang kosong cukup. Chrome tidak konsisten: tagline hanya slide 6, bingkai hanya slide 2 dan 6. |
+| Tata letak | 4 | Revisi: tagline + wordmark + penghitung x/7 di semua slide. Bingkai masih beda-beda; slide 6 font sans bawaan. |
 | Keterbacaan | 4 | Teks cukup besar; slide 3 tidak lagi tertimpa ilustrasi. Angka 6/6 kontras rendah. |
 | Penutup | 4 | Kutipan bernama (Doni Monardo) lalu pertanyaan terbuka, tanpa kartu link. |
 | Caption | 5 | 3 paragraf + 1 pertanyaan, 90 kata, tanpa emoji/tanda seru. |
@@ -20,9 +20,10 @@ Status: ditolak (2 uji < 4, butuh slide tambahan dari Kanvas)
 ## Yang diubah
 Canva: sampul dapat penjelas 'karhutla atau kebakaran hutan dan lahan' + atribusi WRI; slide 2 jelaskan titik panas dan 'di antaranya' (1.297 vs 505+346+330 sesuai artikel); slide 3 teks tak lagi menimpa ilustrasi; slide 4 sumber The Nation; slide 5 atribusi Ati Dwi Nurhayati/AFP; slide 6 penutup jadi kutipan Doni Monardo (BNPB 2019) + pertanyaan, link diganti 'a curious mind lives here'. Ekspor ulang, remote diganti, slide lama dihapus. Caption BBC 3 paragraf.
 
-## Yang belum bisa dibetulkan
-- Tambah slide plot twist (Cattau dkk. 2016, Kalimantan Tengah 2000–2010: 68–71% penyulutan di lahan rusak, 17–19% di konsesi sawit) supaya 7 slide.
-- Chrome seragam: tagline 'a curious mind lives here' + wordmark + penghitung di semua slide.
+## Revisi kedua (Corong, atas permintaan)
+- Slide 6/7 baru: "Kebanyakan bukan dari kebun sawit". Cattau dkk. 2016, Kalimantan Tengah 2000–2010: lahan rusak 68–71%, konsesi sawit 17–19%. Batang proporsional, baris sumber, catatan satu wilayah, satu dekade.
+- Tagline 'a curious mind lives here' di semua slide, penghitung x/7, kontras 7/7 diperbaiki.
+- Sisa catatan kecil: slide 6 pakai font sans bawaan Canva.
 
 ## Caption
 
