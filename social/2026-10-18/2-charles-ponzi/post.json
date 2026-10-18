@@ -18,7 +18,11 @@
     "notes": "Lup: lolos setelah revisi (atas permintaan Thea agar tetap posting hari ini). Tiga teks dibetulkan di source/index.html lalu render ulang: adegan 2 'Tahun 1920, dia buka...' jadi 'Dia buka Securities Exchange Company di Boston.' (tahun pendirian tidak ada di artikel); adegan 5 label Juni jadi 'lebih dari $2,5 juta' sesuai artikel; adegan 7 atribusi jadi 'Ringkasan pendapat Clarence Barron... kepada Boston Post' karena di artikel itu parafrase. Cek ulang: semua teks layar dan caption cocok dengan content/stories/charles-ponzi.json (50%/45 hari, 5 vs 66 kupon, ±7.800 orang/lebih dari $2,5 juta, 20.000+ orang/hampir $6,5 juta, audit $61, 30-an sen per dolar). Batang proporsional (346/900 = 2,5/6,5), grid 5 dan 66 kotak. 7 frame dilihat: tanpa teks terpotong atau glyph kosong. reel.mp4 H.264 High + AAC 48 kHz, 1080x1920, 55 dtk, 7,4 MB; cover.jpg diperbarui."
   },
   "post": {
-    "status": "queued"
+    "status": "posted",
+    "at": "2026-10-18T12:29:09.663Z",
+    "media_id": "17933768400408304",
+    "permalink": "https://www.instagram.com/reel/DeorvxAFbsI/",
+    "error": null
   },
   "editor": {
     "by": "corong",
