@@ -5,7 +5,7 @@
   "type": "carousel",
   "made_by": "kanvas v3 (desain ulang sesuai social-copy.md bagian 2, 5, 6; ilustrasi v1); revisi Corong 18 Okt: slide plot twist + chrome seragam, 7 slide",
   "canva_design": "https://www.canva.com/d/sLO1nHY0t0VWpKA",
-  "caption": "Asap karhutla, atau kebakaran hutan dan lahan, dari Sumatra, Kalimantan, dan Papua sudah sampai ke negeri tetangga. Menurut World Resources Institute, hampir semua kebakaran hutan di Indonesia dimulai manusia, sengaja atau lalai.\n\nHutan hujan dan gambut alami terlalu lembap untuk terbakar sendiri. Laporan The Nation menyebut buka lahan pakai api sekitar US$28–57 per hektare, sementara cara mekanis US$566–850.\n\nBMKG mencatat 1.297 titik panas per 14 Oktober 2026. Dosen kehutanan IPB Ati Dwi Nurhayati kepada AFP menyebut El Niño cuma pemicu: tetap harus ada yang menyalakan.\n\nDaerahmu kena asap tahun ini?\n\nA curious mind lives here.\n\n#karhutla #gambut #elnino #lingkungan #curioverse",
+  "caption": "Asap karhutla, atau kebakaran hutan dan lahan, dari Sumatra, Kalimantan, dan Papua sudah sampai ke negeri tetangga. Menurut World Resources Institute, hampir semua kebakaran hutan di Indonesia disebabkan manusia.\n\nHutan hujan dan gambut alami terlalu lembap untuk terbakar sendiri. Laporan The Nation menyebut buka lahan pakai api sekitar US$28–57 per hektare, sementara cara mekanis US$566–850.\n\nBMKG mencatat 1.297 titik panas dengan tingkat kepercayaan tinggi per 14 Oktober 2026. Dosen kehutanan IPB Ati Dwi Nurhayati kepada AFP menyebut El Niño cuma pemicu: tetap harus ada yang menyalakan.\n\nDaerahmu kena asap tahun ini?\n\nA curious mind lives here.\n\n#karhutla #gambut #elnino #lingkungan #curioverse",
   "media": [
     {
       "file": "slide-1.jpg"
@@ -30,9 +30,9 @@
     }
   ],
   "review": {
-    "status": "pending",
-    "by": null,
-    "notes": "Dibuka ulang 18 Okt malam atas permintaan pemilik untuk cek ulang. Jatah posting 18 Okt sudah dipakai Reels Ponzi (lolos), jadi carousel ini dicek sebagai kandidat tanggal 19 Okt (ganjil). Lup: cek fakta penuh."
+    "status": "ditolak",
+    "by": "lup",
+    "notes": "Lup 18 Okt (cek ulang, kandidat 19 Okt): DITOLAK karena desain. (1) Slide 4 teks tumpang tindih: garis atas kotak 'Api' dan bintang kecil menembus judul 'pakai api?'; garis kanan kotak 'Mekanis' menempel/menabrak '/ha'. (2) Slide 4 visual menyesatkan: kotak biaya api (US$28–57) lebih besar dari kotak mekanis (US$566–850), padahal mekanis 10–30 kali lebih mahal; ganti dengan batang proporsional (skala dari nilai) + baris sumber The Nation. (3) Slide 2: 1.297 di artikel adalah titik panas 'dengan tingkat kepercayaan tinggi'; kualifier itu hilang, tulis mis. 'yang terdeteksi dengan tingkat kepercayaan tinggi'. (4) Slide 3: 'sengaja atau lalai' bukan klaim WRI di artikel (itu kata Doni Monardo/BNPB 2019); pisahkan atribusinya. Yang sudah cocok dengan artikel: slide 1, 5, 6 (68–71% vs 17–19%, batang proporsional 568 vs 152 px, baris sumber ada), 7 (kutipan Doni Monardo 2019). Media 7 JPG 1080x1350 ada di repo. Caption dibetulkan Lup: 'sengaja atau lalai' dilepas dari atribusi WRI; 1.297 diberi 'dengan tingkat kepercayaan tinggi'. Sisa caption cocok (US$28–57 vs US$566–850 The Nation, Ati Dwi Nurhayati/AFP). Setelah Kanvas/Corong membetulkan slide 2, 3, 4 dan ekspor ulang, set pending lagi."
   },
   "post": {
     "status": "queued"
