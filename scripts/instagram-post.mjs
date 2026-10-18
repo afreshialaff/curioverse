@@ -68,6 +68,17 @@ async function publish(dir, p) {
 
 // ---- main ----
 if (!TOKEN && !DRY) { console.error("IG_ACCESS_TOKEN belum diset di GitHub Secrets."); process.exit(1); }
+// Token check (also in dry run): confirms the secret works and points at the expected professional account.
+if (TOKEN) {
+  try {
+    const me = await api(USER, { fields: "user_id,username,account_type" }, "GET");
+    log(`Token OK: @${me.username} (${me.account_type || "?"}), user_id ${me.user_id}`);
+    if (process.env.IG_USER_ID && me.user_id && String(me.user_id) !== String(process.env.IG_USER_ID))
+      log(`PERINGATAN: IG_USER_ID (${process.env.IG_USER_ID}) beda dengan user_id token (${me.user_id}).`);
+    const lim = await api(`${USER}/content_publishing_limit`, { fields: "quota_usage,config" }, "GET").catch(e => ({ error: e.message }));
+    log("Kuota posting 24 jam:", JSON.stringify(lim.data?.[0] || lim));
+  } catch (e) { console.error("Token Instagram TIDAK valid:", e.message); process.exit(1); }
+} else if (DRY) log("DRY RUN tanpa token: IG_ACCESS_TOKEN belum diset.");
 const root = join("social", today);
 if (!existsSync(root)) { log(`Tidak ada folder ${root}; tidak ada yang diposting.`); process.exit(0); }
 
