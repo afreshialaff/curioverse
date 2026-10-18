@@ -5,7 +5,7 @@
   "type": "reel",
   "made_by": "layar v2 (tes ulang oleh Claude, standar social-copy)",
   "backfill": true,
-  "caption": "Gimana caranya 20.000 orang ketipu janji untung 50%? Ini kisah Charles Ponzi.\n\nTahun 1920 di Boston, Ponzi menjanjikan setoran $100 jadi $150 dalam 45 hari. Alasannya: kupon pos internasional, kupon yang bisa ditukar prangko di negara lain. Menurut hitungannya, setelah lira anjlok, $1 dapat 5 kupon di Boston tapi 66 kupon di Roma.\n\nMasalahnya, bisnis kupon itu nyaris nggak jalan. \"Untung\" investor lama dibayar pakai setoran investor baru. Juni 1920 masuk lebih dari $2,5 juta dari sekitar 7.800 orang. Juli, hampir $6,5 juta dari lebih dari 20.000 orang.\n\nAgustus 1920, koran Boston Post membongkar semuanya. Audit terakhir cuma nemu kupon senilai $61, dan investor yang telat cuma dapat balik sekitar 30-an sen per dolar.\n\nItulah skema Ponzi: untung lama dibayar uang baru. Waspadai untung tinggi yang \"dijamin\", untung yang stabil terus apa pun kondisi pasar, dan susahnya menarik uang sendiri.\n\nPernah ditawari investasi yang mirip begini? 👀\n\nSumber: Smithsonian Magazine, Investor.gov (SEC), Poynter, The Pulitzer Prizes, EBSCO. Daftar lengkap di link bio. Bukan saran investasi.\n\n#skemaponzi #investasibodong #scamfiles #literasikeuangan #sejarahkeuangan #curioverse",
+  "caption": "Tahun 1920, Charles Ponzi menjanjikan warga Boston untung 50% dalam 45 hari, dan namanya kini dipakai untuk skema Ponzi, atau penipuan yang membayar investor lama pakai uang investor baru.\n\nPonzi mengaku untung dari kupon pos internasional, kupon yang bisa ditukar prangko di negara lain. Menurut hitungannya, $1 dapat 5 kupon di Boston tapi 66 kupon di Roma. Bisnis kupon itu nyaris nggak jalan.\n\nJuli 1920, hampir $6,5 juta masuk dari lebih dari 20.000 orang. Bulan berikutnya koran Boston Post membongkarnya, dan audit terakhir cuma menemukan kupon senilai $61. Investor yang telat dapat balik sekitar 30-an sen per dolar.\n\nKamu bakal curiga di angka berapa?\n\nA curious mind lives here.\n\n#skemaponzi #investasibodong #literasikeuangan #curioverse",
   "media": [
     {
       "file": "reel.mp4"
@@ -21,18 +21,21 @@
     "status": "queued"
   },
   "editor": {
-    "by": "corong (demo oleh Claude)",
+    "by": "corong",
     "skor": {
-      "hook": 5,
+      "sampul": 4,
       "judul_berantai": 5,
       "orang_asing": 5,
       "jargon": 5,
-      "angka": 5,
-      "visual": 5,
-      "alur": 5,
+      "angka": 4,
+      "atribusi": 4,
+      "bahasa": 4,
+      "visual": 4,
+      "tata_letak": 4,
       "keterbacaan": 4,
-      "penutup": 5
+      "penutup": 4,
+      "caption": 5
     },
-    "diubah": "Versi 2: 7 adegan 52 detik, ada penjelasan kupon pos, diagram alur uang, batang setoran proporsional ($2,5 jt vs $6,5 jt), definisi skema Ponzi di akhir. Caption baru."
+    "diubah": "Reels: chrome kanan-bawah jadi \"a curious mind lives here\"; tagline kosong adegan 1 dibuang; teks adegan 1, 5, 6 dipangkas; penutup kartu link + daftar red flag diganti pendapat Clarence Barron + pertanyaan terbuka; durasi 52 jadi 55 dtk, render ulang. Caption baru format BBC."
   }
 }

@@ -5,7 +5,7 @@
   "type": "carousel",
   "made_by": "kanvas v2 (tes ulang oleh Claude, standar social-copy)",
   "canva_design": "https://canva.link/f41xnqvfxl59j7t",
-  "caption": "Karhutla 2026 bikin langit Sumatra, Kalimantan, dan Papua berasap lagi. Pertanyaannya: apinya pasti dibakar orang?\n\nPer 14 Oktober 2026, BMKG mendeteksi 1.297 titik panas lewat satelit. Januari–Juli saja, lebih dari 202.000 hektare terbakar (Kementerian Kehutanan), hampir 3 kali luas Singapura. Asapnya menyumbang lebih dari 170.000 kasus infeksi saluran pernapasan di provinsi terdampak.\n\nHutan hujan dan gambut alami terlalu basah untuk terbakar sendiri, jadi WRI menyimpulkan hampir semua kebakaran hutan di Indonesia dimulai manusia, sengaja maupun lalai. Alasannya sering soal biaya: buka lahan pakai api sekitar US$28–57 per hektare, pakai alat berat US$566–850. El Niño bikin kemarau panjang sehingga api kecil gampang menjalar, dan gambut yang kering jadi bahan bakarnya.\n\nPlot twist: satu studi di Kalimantan Tengah (data 2000–2010) menemukan 68–71% titik awal api ada di lahan rusak tak terkelola, sementara konsesi sawit 17–19%.\n\nJadi dugaan \"pasti disulut\" hampir benar. Tapi \"hampir semua\" bukan \"semua\".\n\nDaerahmu pernah kena asap karhutla? Cerita di komentar 👇\n\nSumber: BMKG, Kementerian Kehutanan, Kemenkes (via AFP), WRI, Cattau dkk. (2016). Daftar lengkap di link bio.\n\n#karhutla #kebakaranhutan #gambut #elnino #lingkungan #cekdata #curioverse",
+  "caption": "Asap karhutla, atau kebakaran hutan dan lahan, kembali menyelimuti Sumatra, Kalimantan, dan Papua, dan menurut World Resources Institute hampir semua kebakaran hutan di Indonesia dimulai manusia, sengaja maupun lalai.\n\nHutan hujan dan gambut alami terlalu lembap untuk terbakar sendiri. Buka lahan pakai api sekitar US$28–57 per hektare, pakai alat berat US$566–850, menurut laporan The Nation. El Niño memperpanjang kemarau, jadi api kecil gampang menjalar.\n\nKementerian Kehutanan mencatat lebih dari 202.000 hektare terbakar pada Januari–Juli 2026. Tapi studi Cattau dkk. di Kalimantan Tengah (data 2000–2010) menemukan 68–71% api bermula di lahan rusak tak terkelola, dan 17–19% di konsesi sawit.\n\nDaerahmu kena asap karhutla tahun ini?\n\nA curious mind lives here.\n\n#karhutla #gambut #lingkungan #curioverse",
   "media": [
     {
       "file": "slide-1.jpg"
@@ -33,27 +33,30 @@
     }
   ],
   "review": {
-    "status": "pending",
-    "by": null,
-    "notes": ""
+    "status": "ditolak",
+    "by": "corong",
+    "notes": "Uji < 4: sampul, jargon, atribusi, bahasa, visual, tata letak (2), keterbacaan, penutup (2). Perlu desain ulang Kanvas sesuai social-copy.md bagian 2, 5, 6. Hari ini tanggal genap (jatah Reels), jadi tidak ada slot carousel yang hilang."
   },
   "post": {
     "status": "queued"
   },
   "backfill": true,
   "editor": {
-    "by": "corong (demo oleh Claude)",
+    "by": "corong",
     "skor": {
-      "hook": 5,
-      "judul_berantai": 5,
-      "orang_asing": 5,
-      "jargon": 5,
-      "angka": 5,
-      "visual": 4,
-      "alur": 5,
-      "keterbacaan": 4,
-      "penutup": 5
+      "sampul": 3,
+      "judul_berantai": 4,
+      "orang_asing": 4,
+      "jargon": 3,
+      "angka": 4,
+      "atribusi": 3,
+      "bahasa": 3,
+      "visual": 3,
+      "tata_letak": 2,
+      "keterbacaan": 3,
+      "penutup": 2,
+      "caption": 5
     },
-    "diubah": "Batang biaya slide 5 dibuat proporsional (sebelumnya selisih ~5x, seharusnya ~15x). Caption baru: ringkasan lengkap tanpa perlu buka slide/web."
+    "diubah": "Caption ditulis ulang format BBC. Desain tidak diubah: masalahnya struktural (chrome, zona aman, visual di setiap slide, penutup), perlu dibuat ulang oleh Kanvas sesuai social-copy.md v3."
   }
 }

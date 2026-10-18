@@ -3,4 +3,4 @@
  {"t":22,"kind":"whoosh"},{"t":24.6,"kind":"pop"},{"t":25.6,"kind":"pop"},{"t":26.6,"kind":"pop"},
  {"t":32,"kind":"whoosh"},{"t":33.1,"kind":"tick"},{"t":34.0,"kind":"rise","len":1.0},
  {"t":38.5,"kind":"whoosh"},{"t":39.5,"kind":"rise","len":1.0},{"t":40.6,"kind":"thud"},
- {"t":45,"kind":"whoosh"},{"t":46.9,"kind":"pop"},{"t":47.4,"kind":"pop"},{"t":47.9,"kind":"pop"},{"t":49.2,"kind":"ding"}]
+ {"t":45,"kind":"whoosh"},{"t":46.0,"kind":"pop"},{"t":49.8,"kind":"ding"}]
