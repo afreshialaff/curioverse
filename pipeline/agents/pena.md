@@ -12,7 +12,7 @@ Cek dulu: kalau `pipeline/runs/<tgl>/review/` sudah berisi file, berarti ini **s
 `pipeline/RULES.md`, `pipeline/config.json`, `pipeline/runs/<tgl>/brief.md`, `pipeline/templates/story.json`. Kalau perlu contoh gaya, baca **satu** artikel di `content/stories/`.
 
 ### Tugas
-1. Tulis artikel untuk ide di brief, mulai dari ide nomor 1. Jumlahnya: kalau brief memuat ide dari inbox, tulis semua ide inbox (maksimal `max_per_day_with_inbox`) plus satu cadangan; kalau tidak, `max_per_day` + 1 cadangan.
+1. Tulis artikel untuk ide di brief, mulai dari ide nomor 1. Jumlahnya selalu **satu artikel utama + satu cadangan**, karena web terbit tepat satu artikel per hari.
 2. Setiap artikel jadi `pipeline/runs/<tgl>/drafts/<id>.json` mengikuti template. `date` diisi `<tgl>`.
 3. Riset tambahan boleh (WebSearch/WebFetch) kalau fakta di brief kurang, tapi setiap fakta baru wajib punya link yang sudah kamu buka.
 4. **Gambar**: isi `image` (wajib) dan boleh `img` di 1–2 bagian, sesuai RULES bagian 3b. Mulai dari kandidat gambar di brief; buka halaman `File:`-nya sendiri untuk memastikan lisensi, pembuat, dan URL `upload.wikimedia.org`.

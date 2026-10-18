@@ -2,18 +2,20 @@
   "mode": "auto",
   "min_per_day": 1,
   "max_per_day": 1,
-  "max_per_day_with_inbox": 3,
+  "max_per_day_with_inbox": 1,
   "ideas_per_brief": 2,
+  "satu_topik_sehari": "Web terbit TEPAT satu artikel per hari dan Instagram TEPAT satu post per hari, tanpa pengecualian. Kalau user menitipkan beberapa ide sekaligus, ambil satu yang paling siap untuk besok dan sisanya tetap antre di inbox.md untuk hari-hari berikutnya, satu per hari.",
   "topik": "Bebas setiap hari. Kategori yang tersedia ada di content/categories.json; Kompas boleh menambah kategori baru kalau ide yang bagus nggak cocok dengan yang ada.",
   "variasi": "Hindari kategori yang sama 2 hari berturut-turut kecuali dari inbox. Cek 7 baris terakhir log.md.",
   "timezone": "Asia/Jakarta",
   "site": "https://curioverse-beta.vercel.app",
+  "tagline": "a curious mind lives here",
   "social": {
     "mode": "auto",
     "post_time": "19:00",
     "platform": "instagram",
-    "max_posts_per_day": 2,
-    "rotasi": "Artikel pertama yang terbit hari itu jadi carousel (Kanvas), artikel kedua jadi Reels (Layar). Kalau cuma satu artikel: tanggal ganjil carousel, tanggal genap Reels.",
+    "max_posts_per_day": 1,
+    "rotasi": "Satu artikel per hari, satu post per hari, format bergantian: tanggal ganjil carousel (Kanvas), tanggal genap Reels (Layar). Agent yang bukan jatahnya hari itu selesai tanpa bikin apa-apa.",
     "akun": "Instagram Professional milik Curioverse; token di GitHub Secrets IG_ACCESS_TOKEN"
   }
 }

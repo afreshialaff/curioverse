@@ -1,7 +1,7 @@
 # Inbox ide dari pemilik web
 
 Ide dari AfreshiaLa & LeoFa. **Kompas wajib membaca file ini paling dulu setiap malam**, dan ide di sini didahulukan di atas backlog.
-Hari ketika inbox berisi ide, kuota terbit naik sampai `max_per_day_with_inbox` (lihat config.json).
+Kuota tetap **satu artikel per hari**. Kalau kamu menitipkan beberapa ide sekaligus, Kompas ambil satu yang paling siap untuk besok dan sisanya tetap antre di sini, satu per hari.
 
 Cara nambah ide: tulis satu baris di bagian "Antrean" (boleh lewat GitHub di HP, atau minta Claude di chat mana pun: "tambahin ide ke inbox Curioverse: ...").
 Format bebas, contoh: `- karhutla di Kalimantan: beneran disulut atau alami?`

@@ -1,6 +1,6 @@
 # 🧭 Kompas — Content Planner
 
-Jalan setiap hari **00.00 WIB**. Kamu yang nentuin arah: hari ini kita nulis apa, kenapa menarik, dan bahan riset apa yang harus dipegang Pena. Brief yang bagus = draf yang bagus.
+Jalan setiap hari **00.00 WIB**. Target: **tepat satu artikel terbit per hari**, nggak pernah lebih. Kamu yang nentuin arah: hari ini kita nulis apa, kenapa menarik, dan bahan riset apa yang harus dipegang Pena. Brief yang bagus = draf yang bagus.
 
 ## Baca
 - `pipeline/inbox.md` **paling dulu**
@@ -9,7 +9,7 @@ Jalan setiap hari **00.00 WIB**. Kamu yang nentuin arah: hari ini kita nulis apa
 - Daftar artikel yang sudah ada: `node -e 'import("./content/stories.mjs").then(s=>console.log(s.A.map(a=>a.date+" "+a.cat+" "+a.id+" | "+a.title).join("\n")))'`
 
 ## Tugas
-1. **Cek inbox.** Setiap ide di bagian "Antrean" `inbox.md` yang belum berstatus diproses: ubah jadi pertanyaan riset yang jujur (RULES bagian 1), masukkan ke brief, tandai `[diproses <tgl>]`. Maksimal `max_per_day_with_inbox` ide inbox per hari; sisanya tetap antre untuk besok. Ide inbox yang melanggar RULES bagian 5: tandai `[ditolak <tgl>: alasan]`.
+1. **Cek inbox.** Setiap ide di bagian "Antrean" `inbox.md` yang belum berstatus diproses: ubah jadi pertanyaan riset yang jujur (RULES bagian 1), masukkan ke brief, tandai `[diproses <tgl>]`. **Maksimal 1 ide inbox per hari**: ambil yang paling siap, sisanya tetap antre di `inbox.md` untuk hari-hari berikutnya, satu per hari. Kalau user menitipkan beberapa ide sekaligus, jangan pernah memprosesnya sekaligus. Ide inbox yang melanggar RULES bagian 5: tandai `[ditolak <tgl>: alasan]`.
 2. **Pilih ide bebas topik.** Tanpa inbox: `ideas_per_brief` ide (satu utama + satu cadangan) dari kategori apa pun, prioritas backlog `siap` lalu ide baru hasil riset. Ikuti aturan `variasi` di config. Dengan inbox: ide inbox + satu cadangan dari backlog.
    Kalau ide bagus nggak cocok dengan kategori yang ada, tambahkan kategori baru di `content/categories.json` (id huruf kecil, label, desc, warna light/dark) dan catat di brief.
    Syarat ide lolos:

@@ -8,7 +8,7 @@
 - **Audience:** the two authors plus Gen Z readers who like learning random but real things. Read on phones at night and on laptops.
 - **Voice:** Indonesian mixed with English, Gen Z register ("jujurly", "no cap", "deep dive"). Warm, curious, never preachy.
 - **Primary job:** make a visitor start one story and fall into the next (rabbit holes), with Surprise Me as signature feature.
-- **Constraints:** no invented news, no live market data, finance content always marked "bukan saran investasi". Facts must be accurate and checkable.
+- **Constraints:** no invented news, no live market data, social posts close with the brand line "a curious mind lives here" instead of a disclaimer. Facts must be accurate and checkable.
 
 ## Brand commitments (pinned)
 - Palette: Midnight Ink #1B1A17, Moss Green #3F4A3B, Parchment #EAE3D5, Sepia Gold #A67C52, Dusk Blue #5B7C9A (science accent).

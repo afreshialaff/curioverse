@@ -1,6 +1,6 @@
 # Dapur Redaksi Curioverse 🧭✒️🔎🕊️
 
-Empat agent yang tiap hari bikin satu sampai beberapa artikel baru, lalu menerbitkannya ke curioverse-beta.vercel.app. Mereka nggak ngobrol langsung; mereka saling titip kerjaan lewat folder ini di repo, jadi tiap sesi cuma membaca file yang dia butuh (hemat token) dan semua jejak kerja tersimpan di git.
+Agent-agent yang tiap hari bikin **tepat satu artikel baru** (dan satu post Instagram), lalu menerbitkannya ke curioverse-beta.vercel.app. Mereka nggak ngobrol langsung; mereka saling titip kerjaan lewat folder ini di repo, jadi tiap sesi cuma membaca file yang dia butuh (hemat token) dan semua jejak kerja tersimpan di git.
 
 ## Jadwal harian (WIB)
 | Jam | Agent | Peran | Baca | Tulis |
@@ -25,7 +25,7 @@ backlog.md ──► Kompas ──brief──► Pena ──draf+notes──► 
 ```
 
 ## Instagram
-Rotasi: artikel pertama hari itu → carousel (Kanvas), artikel kedua → Reels (Layar); kalau cuma satu artikel, tanggal ganjil carousel dan genap Reels. Media disimpan di `social/` dan disajikan Vercel di `/social/...` supaya API Instagram bisa mengambilnya. Workflow: `.github/workflows/social-fetch.yml` (unduh ekspor Canva + potong ke 4:5), `instagram-post.yml` (posting jam 19.00), `instagram-token-refresh.yml` (perpanjang token tiap tanggal 1 & 15). Mode di `config.json` → `social.mode` (`auto` atau `review`: kalau review, post butuh `review.approved_by_human: true`).
+Satu post per hari, bergantian: tanggal ganjil carousel (Kanvas), tanggal genap Reels (Layar). Media disimpan di `social/` dan disajikan Vercel di `/social/...` supaya API Instagram bisa mengambilnya. Workflow: `.github/workflows/social-fetch.yml` (unduh ekspor Canva + potong ke 4:5), `instagram-post.yml` (posting jam 19.00), `instagram-token-refresh.yml` (perpanjang token tiap tanggal 1 & 15). Mode di `config.json` → `social.mode` (`auto` atau `review`: kalau review, post butuh `review.approved_by_human: true`).
 
 ## Kasih ide dari luar (inbox)
 Tulis ide di `pipeline/inbox.md` bagian "Antrean" (lewat GitHub di HP, atau minta Claude di chat: "tambahin ide ke inbox Curioverse: ..."). Kompas memprosesnya malam itu juga, dan hari itu kuota terbit naik sampai 3 artikel. Topik harian lainnya bebas, kategori bisa bertambah lewat `content/categories.json`.

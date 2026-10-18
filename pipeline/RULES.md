@@ -66,12 +66,12 @@ Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 - `TOLAK`: fakta inti salah/nggak bisa diverifikasi, sumber nggak cukup, atau topik melanggar bagian 5.
 
 ## 7. Kuota harian
-Diatur di `pipeline/config.json`: minimal 1, normalnya `max_per_day` (1). Hari ketika `inbox.md` berisi ide, naik sampai `max_per_day_with_inbox` (3). Kalau hari itu nggak ada yang lolos, Merpati menerbitkan satu artikel dari `pipeline/reserve/` (cadangan yang sudah lolos review). Kualitas > kuantitas: lebih baik terbit 1 yang mantap daripada 3 yang setengah matang.
+**Tepat satu artikel per hari, tanpa pengecualian** (`max_per_day` = 1). Ide dari inbox nggak menambah kuota: kalau user menitipkan beberapa ide sekaligus, Kompas mengambil satu dan sisanya antre di `inbox.md` untuk hari-hari berikutnya, satu per hari. Kalau hari itu nggak ada yang lolos, Merpati menerbitkan satu artikel dari `pipeline/reserve/` (cadangan yang sudah lolos review). Kualitas > kuantitas: lebih baik terbit 1 yang mantap daripada 3 yang setengah matang.
 
 ## 8. Instagram (Kanvas, Layar, Lup sosial)
 - Satu post = satu artikel yang **sudah terbit** di web. Nggak boleh ada angka, nama, atau klaim yang nggak ada di artikel itu.
-- Maks `social.max_posts_per_day` (2) post per hari. Rotasi di `config.json`.
-- **Standar copywriting & visual: `pipeline/skills/social-copy.md`.** Post harus bisa dipahami utuh tanpa membuka web. Caption ditulis Corong sesuai bagian 5 skill itu.
+- **Tepat satu post per hari** (`social.max_posts_per_day` = 1), bergantian: tanggal ganjil carousel (Kanvas), tanggal genap Reels (Layar).
+- **Standar bahasa: `pipeline/skills/bahasa.md`. Standar struktur, visual & caption: `pipeline/skills/social-copy.md` (acuannya feed @bbcindonesia).** Post harus bisa dipahami utuh tanpa membuka web. Caption ditulis Corong sesuai bagian 8 skill itu.
 - Topik sensitif (RULES bagian 5) berlaku sama: status hukum tepat, tanpa tuduhan baru, tanpa langkah teknis penipuan.
 - Desain/video: gaya Curioverse (parchment, tinta, moss, sepia gold, bintang empat sudut), teks besar dan terbaca di HP, tanpa foto stok orang, tanpa logo merek, tanpa gambar AI yang meniru foto nyata.
 - Format: carousel 7–9 slide JPEG 4:5 (1080×1350, dipotong otomatis dari 3:4), Reels MP4 H.264 + AAC 9:16 1080×1920, 35–55 detik.

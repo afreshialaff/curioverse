@@ -3,13 +3,13 @@
 Jalan setiap hari **15.25 WIB**. Kamu mengubah satu artikel yang sudah terbit jadi **Reels 9:16, 35–55 detik** dengan teks bergerak, musik dan efek suara dari kode. Isi video = ringkasan artikel, bukan riset baru.
 
 ## Baca
-**`pipeline/skills/social-copy.md` (wajib, standar copywriting & visual)**, `pipeline/RULES.md` (bagian 8), `pipeline/config.json` (`social`), `pipeline/log.md` (baris hari ini), artikel yang dipilih di `content/stories/<id>.json`, `pipeline/templates/post.json`, dan contoh komposisi `pipeline/templates/reel/index.html`.
+**`pipeline/skills/bahasa.md` dan `pipeline/skills/social-copy.md` (wajib, dua-duanya)**, `pipeline/RULES.md` (bagian 8), `pipeline/config.json` (`social`), `pipeline/log.md` (baris hari ini), artikel yang dipilih di `content/stories/<id>.json`, `pipeline/templates/post.json`, dan contoh komposisi `pipeline/templates/reel/index.html`.
 
 ## Pilih artikel (aturan rotasi)
-1. Artikel yang terbit hari ini (urutan sesuai `log.md`).
-2. 2 artikel atau lebih → artikel **kedua** milikmu.
-3. Cuma 1 artikel → milikmu kalau tanggalnya **genap**; kalau ganjil, itu jatah Kanvas dan kamu selesai.
-4. Nol artikel, atau `social/<tgl>/` sudah berisi 2 post buatan pipeline (abaikan yang `"backfill": true`) → selesai.
+Web terbit **satu artikel per hari** dan Instagram **satu post per hari**.
+1. Artikel yang terbit hari ini (baris `<tgl>` di `log.md`).
+2. Reels adalah jatahmu kalau tanggalnya **genap**. Tanggal ganjil itu jatah Kanvas: kamu selesai tanpa bikin apa-apa.
+3. Nol artikel, atau `social/<tgl>/` sudah berisi 1 post buatan pipeline (abaikan yang `"backfill": true`) → selesai.
 
 ## Bikin Reels
 1. Naskah dulu di `social/<tgl>/<n>-<id>/naskah.md` mengikuti **struktur 6 langkah** di `social-copy.md`: 6 adegan, tiap adegan `Judul` + `Teks layar` + `Visual penjelas` + `Durasi` (minimal 0,4 detik per kata yang tampil, + 1 detik jeda) + `Sumber artikel: bagian N`. Hook di adegan 1 harus menyebut topiknya. Maks 14 kata di layar sekaligus. Wajib ada adegan **mekanisme** dengan diagram alur. Grafik proporsional dengan angka (hitung lebarnya dari nilai, jangan dikira-kira). Lakukan uji judul berantai dan uji orang asing sebelum coding.
@@ -23,7 +23,7 @@ Jalan setiap hari **15.25 WIB**. Kamu mengubah satu artikel yang sudah terbit ja
    cp <repo>/pipeline/templates/reel/index.html <repo>/pipeline/templates/reel/synth.py .
    export HYPERFRAMES_BROWSER_PATH=$(ls /opt/pw-browsers/chromium_headless_shell-*/chrome-linux/headless_shell | head -1)
    ```
-   Ganti teks, angka, kicker, dan warna aksen (warna kategori dari `content/categories.json`) di `index.html`. Pertahankan gaya Curioverse: parchment, band hijau bergelombang di bawah, bintang empat sudut, judul Instrument Serif, isi Inter Tight, label JetBrains Mono, tangan Caveat. Untuk kategori finance/market/saham/scam, chrome kanan-bawah wajib "bukan saran investasi".
+   Ganti teks, angka, kicker, dan warna aksen (warna kategori dari `content/categories.json`) di `index.html`. Pertahankan gaya Curioverse: parchment, band hijau bergelombang di bawah, bintang empat sudut, judul Instrument Serif, isi Inter Tight, label JetBrains Mono, tangan Caveat. Chrome kanan-bawah selalu "a curious mind lives here" (semboyan brand, bukan disclaimer).
 3. Suara: tulis `cues.json` (whoosh tiap ganti adegan, pop saat kartu muncul, tick untuk angka, rise sebelum momen besar, ding di akhir) lalu `pip install -q --break-system-packages numpy && python3 -I synth.py <durasi> cues.json assets/audio/bgm.wav 0.9`.
 4. `npx hyperframes check` (0 error, warning struktur boleh) → `npx hyperframes snapshot --at <tengah tiap adegan> -o snaps` → **lihat** `snaps/contact-sheet.jpg`. Perbaiki teks terpotong/tabrakan/ruang kosong, ulangi.
 5. Render: `npx hyperframes render --output reel.mp4 --quality draft` (±10 menit di 2 CPU; jalankan di background dan pantau log). Lalu pastikan format Instagram:

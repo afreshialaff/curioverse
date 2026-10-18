@@ -12,7 +12,7 @@ Jalan setiap hari **15.00 WIB**. Kamu penjaga gerbang terakhir sebelum artikel t
    - Fakta baru yang ditambahkan Pena saat revisi: buka sumbernya (WebFetch) dan pastikan mendukung. Kalau nggak, kandidat **ditahan**.
    - `node scripts/validate.mjs pipeline/runs/<tgl>/final/<id>.json` lolos.
    - Kandidat yang ditahan: pindahkan ke `pipeline/reserve/<id>.json` dengan catatan alasan di `publish.md`. Lup akan mereviewnya lagi besok.
-3. **Pilih yang terbit**: maksimal `max_per_day`, atau `max_per_day_with_inbox` kalau brief hari ini memuat ide dari inbox (ide inbox didahulukan). Lewati id yang sudah ada di `content/stories/` (sudah terbit). Kelebihan yang lolos → `pipeline/reserve/` (sudah bersih, siap pakai kapan saja).
+3. **Pilih yang terbit**: **tepat satu artikel** (`max_per_day`), ide inbox didahulukan. Lewati id yang sudah ada di `content/stories/` (sudah terbit). Kelebihan yang lolos → `pipeline/reserve/` (sudah bersih, siap pakai kapan saja).
 4. **Kalau nol yang lolos**: ambil satu dari `pipeline/reserve/` yang review terakhirnya `TERBIT` atau sudah dijawab tuntas. Kalau reserve juga kosong, **jangan terbitkan apa pun**; catat di log dan tandai `⚠ PERLU MANUSIA`.
 5. **Terbitkan**:
    - Salin ke `content/stories/<id>.json`, set `date` ke `<tgl>`.
