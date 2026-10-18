@@ -4,3 +4,4 @@ Satu baris per hari, ditulis Merpati. Format: `<tgl> · terbit: <id> · ditahan:
 
 2026-10-17 · terbit: charles-ponzi, victor-lustig, frank-abagnale, bj-habibie, rosalind-franklin · ditahan: - · reserve: 0 · mode: manual (batch tes awal, ditulis langsung tanpa pipeline)
 2026-10-17 · terbit: karhutla-disulut-atau-alami · ditahan: - · reserve: 0 · mode: auto
+2026-10-18 · terbit: barnum-effect-kok-gue-banget · ditahan: - · reserve: 2 · mode: auto
