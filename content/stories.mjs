@@ -238,8 +238,11 @@ export const SOURCES = {
 
 export const CURATORS = "AfreshiaLa & LeoFa";
 // Kontak yang tampil di beranda (#kontak), footer, dan ajakan koreksi di tiap cerita.
+// short = teks pendek di footer; personal = akun pribadi kurator, tidak masuk sameAs situs.
 export const CONTACT = { email:"afreshiala@gmail.com", social:[
-  { label:"Instagram", icon:"instagram", handle:"@anec_dote1", url:"https://www.instagram.com/anec_dote1" },
+  { label:"Instagram · Curioverse", short:"IG Curioverse", icon:"instagram", handle:"@ocurioverse", url:"https://www.instagram.com/ocurioverse" },
+  { label:"Instagram · AfreshiaLa", short:"IG AfreshiaLa", icon:"instagram", handle:"@afreshialaff", url:"https://www.instagram.com/afreshialaff", personal:true },
+  { label:"Instagram · LeoFa", short:"IG LeoFa", icon:"instagram", handle:"@anec_dote1", url:"https://www.instagram.com/anec_dote1", personal:true },
   { label:"Threads", icon:"threads", handle:"@anec_dote1", url:"https://www.threads.com/@anec_dote1" },
   { label:"X", icon:"x", handle:"@ghaghafa", url:"https://x.com/ghaghafa" }
 ] };

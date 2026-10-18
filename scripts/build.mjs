@@ -176,7 +176,7 @@ function footer(){
         <a href="/explore">Explore</a><a href="/lab">Lab</a><a href="/reading-paths">Reading Paths</a><a href="/explore?topik=global">Radar Global</a><a href="/#kurator">Tentang kami</a><a href="/#kontak">Kontak</a><button type="button" data-surprise>Surprise Me</button>
       </nav>
       <nav class="foot-social" aria-label="Kontak">
-        <a href="${MAILTO()}" aria-label="Email: ${esc(CONTACT.email)}">${icon("mail")}<span>Email</span></a>${CONTACT.social.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener" aria-label="${esc(s.label)} ${esc(s.handle)} (tab baru)">${icon(s.icon)}<span>${esc(s.label)}</span></a>`).join("")}
+        <a href="${MAILTO()}" aria-label="Email: ${esc(CONTACT.email)}">${icon("mail")}<span>Email</span></a>${CONTACT.social.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener" aria-label="${esc(s.label)} ${esc(s.handle)} (tab baru)">${icon(s.icon)}<span>${esc(s.short || s.label)}</span></a>`).join("")}
       </nav>
       <p class="fine">© 2026 ${esc(CURATORS)} · A curious mind lives here · Bukan saran investasi</p>
     </div>
@@ -444,7 +444,7 @@ function home(){
 </section>`;
   return page({ path:"/", title:"Curioverse", desc:"Buku catatan buat orang kepo. Finance, science, sejarah, biografi, market, saham, berita dunia, sampai kisah penipu legendaris, ditulis santai oleh AfreshiaLa & LeoFa.", body, scripts:["home.js"],
     jsonld:{ "@context":"https://schema.org", "@type":"WebSite", name:"Curioverse", url:SITE + "/", inLanguage:"id",
-      sameAs:CONTACT.social.map(s => s.url), potentialAction:{ "@type":"SearchAction", target:SITE + "/explore?q={search_term_string}", "query-input":"required name=search_term_string" } } });
+      sameAs:CONTACT.social.filter(s => !s.personal).map(s => s.url), potentialAction:{ "@type":"SearchAction", target:SITE + "/explore?q={search_term_string}", "query-input":"required name=search_term_string" } } });
 }
 
 function short(v){ return v >= 1e9 ? "Rp" + (v / 1e9).toLocaleString("id-ID", { maximumFractionDigits:1 }) + " M" : "Rp" + (v / 1e6).toLocaleString("id-ID", { maximumFractionDigits:1 }) + " jt"; }
