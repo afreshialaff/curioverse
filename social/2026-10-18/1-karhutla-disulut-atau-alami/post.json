@@ -3,60 +3,41 @@
   "story": "karhutla-disulut-atau-alami",
   "story_url": "https://curioverse-beta.vercel.app/stories/karhutla-disulut-atau-alami",
   "type": "carousel",
-  "made_by": "kanvas v2 (tes ulang oleh Claude, standar social-copy)",
-  "canva_design": "https://canva.link/f41xnqvfxl59j7t",
-  "caption": "Asap karhutla, atau kebakaran hutan dan lahan, kembali menyelimuti Sumatra, Kalimantan, dan Papua, dan menurut World Resources Institute hampir semua kebakaran hutan di Indonesia dimulai manusia, sengaja maupun lalai.\n\nHutan hujan dan gambut alami terlalu lembap untuk terbakar sendiri. Buka lahan pakai api sekitar US$28–57 per hektare, pakai alat berat US$566–850, menurut laporan The Nation. El Niño memperpanjang kemarau, jadi api kecil gampang menjalar.\n\nKementerian Kehutanan mencatat lebih dari 202.000 hektare terbakar pada Januari–Juli 2026. Tapi studi Cattau dkk. di Kalimantan Tengah (data 2000–2010) menemukan 68–71% api bermula di lahan rusak tak terkelola, dan 17–19% di konsesi sawit.\n\nDaerahmu kena asap karhutla tahun ini?\n\nA curious mind lives here.\n\n#karhutla #gambut #lingkungan #curioverse",
+  "made_by": "kanvas v3 (desain ulang sesuai social-copy.md bagian 2, 5, 6; ilustrasi v1)",
+  "canva_design": "https://www.canva.com/d/sLO1nHY0t0VWpKA",
+  "caption": "",
   "media": [
     {
-      "file": "slide-1.jpg"
+      "file": "slide-1.jpg",
+      "remote": "https://export-download.canva.com/dHSJ4/DAHYWkdHSJ4/-1/0/0001-5132371133515388488.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261018T022947Z&X-Amz-Expires=32244&X-Amz-Signature=6ca55da24a9c49554bcefa05c5d4956b08d4e6e782517e0fd8cef82cf1a49f3c&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2018%20Oct%202026%2011%3A27%3A11%20GMT"
     },
     {
-      "file": "slide-2.jpg"
+      "file": "slide-2.jpg",
+      "remote": "https://export-download.canva.com/dHSJ4/DAHYWkdHSJ4/-1/0/0002-5132371133515388488.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261018T064257Z&X-Amz-Expires=18110&X-Amz-Signature=576f83df81db3188932cc4064124245c750f456f8e14f943dfd1d33f61a09914&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2018%20Oct%202026%2011%3A44%3A47%20GMT"
     },
     {
-      "file": "slide-3.jpg"
+      "file": "slide-3.jpg",
+      "remote": "https://export-download.canva.com/dHSJ4/DAHYWkdHSJ4/-1/0/0003-5132371133515388488.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261017%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261017T194224Z&X-Amz-Expires=57439&X-Amz-Signature=53c03d59012bbb43940806465cc29a7dc6a8f2f975afdaa842c7904fcb477af2&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2018%20Oct%202026%2011%3A39%3A43%20GMT"
     },
     {
-      "file": "slide-4.jpg"
+      "file": "slide-4.jpg",
+      "remote": "https://export-download.canva.com/dHSJ4/DAHYWkdHSJ4/-1/0/0004-5132371133515388488.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261017%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261017T104107Z&X-Amz-Expires=89426&X-Amz-Signature=301e2582e71a000c7418d385a1761676c17cb63c4d020f97a71d14eab8d7f9d4&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2018%20Oct%202026%2011%3A31%3A33%20GMT"
     },
     {
-      "file": "slide-5.jpg"
+      "file": "slide-5.jpg",
+      "remote": "https://export-download.canva.com/dHSJ4/DAHYWkdHSJ4/-1/0/0005-5132371133515388488.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261018T025225Z&X-Amz-Expires=31790&X-Amz-Signature=7af0173e6dd818f33eaade52a7c246e6f5a00f99a0a57998e45401c183836181&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2018%20Oct%202026%2011%3A42%3A15%20GMT"
     },
     {
-      "file": "slide-6.jpg"
-    },
-    {
-      "file": "slide-7.jpg"
-    },
-    {
-      "file": "slide-8.jpg"
+      "file": "slide-6.jpg",
+      "remote": "https://export-download.canva.com/dHSJ4/DAHYWkdHSJ4/-1/0/0006-5132371133515388488.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261017%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261017T225403Z&X-Amz-Expires=48195&X-Amz-Signature=66a52eb0fc6e24f35acddedb934b339caf1fe3360f983f1b552fc62ff5390bb4&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Sun%2C%2018%20Oct%202026%2012%3A17%3A18%20GMT"
     }
   ],
   "review": {
-    "status": "ditolak",
-    "by": "corong",
-    "notes": "Uji < 4: sampul, jargon, atribusi, bahasa, visual, tata letak (2), keterbacaan, penutup (2). Perlu desain ulang Kanvas sesuai social-copy.md bagian 2, 5, 6. Hari ini tanggal genap (jatah Reels), jadi tidak ada slot carousel yang hilang."
+    "status": "pending",
+    "by": null,
+    "notes": "Desain ulang Kanvas v3: 6 slide, ilustrasi v1. Perlu caption BBC dari Corong. Catatan untuk Corong: angka total titik panas 1.297 belum sama dengan jumlah 505+346+330 (1.181). Cocokkan dengan artikel sebelum lolos. Penutup belum memakai kutipan bernama, hanya pernyataan."
   },
   "post": {
     "status": "queued"
-  },
-  "backfill": true,
-  "editor": {
-    "by": "corong",
-    "skor": {
-      "sampul": 3,
-      "judul_berantai": 4,
-      "orang_asing": 4,
-      "jargon": 3,
-      "angka": 4,
-      "atribusi": 3,
-      "bahasa": 3,
-      "visual": 3,
-      "tata_letak": 2,
-      "keterbacaan": 3,
-      "penutup": 2,
-      "caption": 5
-    },
-    "diubah": "Caption ditulis ulang format BBC. Desain tidak diubah: masalahnya struktural (chrome, zona aman, visual di setiap slide, penutup), perlu dibuat ulang oleh Kanvas sesuai social-copy.md v3."
   }
 }
