@@ -13,9 +13,9 @@
   ],
   "cover": "cover.jpg",
   "review": {
-    "status": "pending",
-    "by": null,
-    "notes": ""
+    "status": "ditolak",
+    "by": "lup",
+    "notes": "Lup: ditolak karena ada klaim di video yang tidak ada di artikel. (1) Adegan 2: 'Tahun 1920, dia buka Securities Exchange Company di Boston'. Artikel tidak menyebut tahun pendirian (investor pertama baru Januari 1920), dan menurut catatan sejarah perusahaan itu berdiri akhir 1919. Ganti jadi 'Dia buka Securities Exchange Company di Boston.' (2) Adegan 5: label Juni '$2,5 juta', padahal artikel 'lebih dari $2,5 juta'. Ganti jadi 'lebih dari $2,5 juta'. (3) Adegan 7: Barron ditampilkan sebagai kutipan langsung, padahal artikel hanya parafrase ('Intinya, kata Barron'). Tulis 'Intinya, kata Clarence Barron: ...' atau buang gaya kutipan. Selebihnya cocok dengan artikel: 50%/45 hari, 5 vs 66 kupon (grid 5 dan 66 kotak), ±7.800 dan 20.000+ orang, hampir $6,5 juta, audit $61, 30-an sen per dolar. Batang proporsional (346/900 px = 2,5/6,5). Media ada di repo: reel.mp4 H.264+AAC 1080x1920, 55 dtk, cover.jpg. Frame diperiksa: tanpa teks terpotong atau glyph kosong. Caption cocok dengan artikel. Perlu render ulang oleh Layar, lalu review ulang."
   },
   "post": {
     "status": "queued"
