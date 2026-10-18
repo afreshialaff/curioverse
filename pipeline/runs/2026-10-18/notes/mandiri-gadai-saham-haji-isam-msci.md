@@ -1,4 +1,4 @@
-Catatan: brief.md 2026-10-18 tidak ada (Kompas tidak menghasilkan brief); ide diambil langsung dari inbox.md.
+Catatan (dikoreksi revisi 12.00): brief.md 2026-10-18 ada (ide 3, id brief `mandiri-jhonlin-gadai-saham-msci`). Catatan draf yang menyebut brief tidak ada itu keliru; draf ditulis dari inbox.md dan riset sendiri.
 
 # Notes · mandiri-gadai-saham-haji-isam-msci (peta klaim → sumber)
 
@@ -19,6 +19,7 @@ Singkatan:
 - OJK24 = https://ojk.go.id/en/berita-dan-kegiatan/siaran-pers/Pages/MSCI-Acknowledges-Indonesia-Capital-Market-Reform-Emerging-Market-Status-Retained.aspx (SP 119/DKPU/OJK/VI/2026, 24 Jun 2026)
 - BS24J = https://market.bisnis.com/read/20260624/7/1982867/msci-apresiasi-reformasi-ojk-bei-masih-ada-risiko-ke-frontier-market (24 Jun 2026)
 - EN = https://www.euronews.com/2026/10/16/indonesian-stocks-plunge-11-as-msci-proposes-emerging-market-downgrade (16 Okt 2026)
+- EN12 = https://emitennews.com/news/valuasi-premium-pgun-beber-gadai-saham-ke-bank-mandiri (12 Okt 2026, ditambahkan revisi 12.00, menggantikan KB17)
 - BS17 = https://market.bisnis.com/read/20261017/7/2013374/wacana-msci-tekan-ihsg-investor-asing-asyik-borong-saham-bbca-asii (17 Okt 2026)
 
 ## Meta (judul, dek, hook)
@@ -31,12 +32,12 @@ Singkatan:
 ## Bagian 1 · Yang tercatat resmi
 - "Komanya hilang di alamat web" → IDXC (slug URL "rp14-triliun" vs teks "Rp1,4 triliun"); juga EmitenNews 28 Okt 2024 menulis Rp1,4 T (dibuka, tidak dipakai sebagai sumber)
 - "PT Eshan Agro Sentosa, pengendali ... JARR dengan porsi 86,64%, menggadaikan 7.997.556.204 saham ... 100% kepemilikannya" → KD7, KT9A
-- "Eshan dimiliki pengusaha Andi Syamsuddin Arsyad yang dikenal sebagai Haji Isam" → KD7
+- "Katadata menyebut JARR sebagai emiten milik pengusaha Andi Syamsuddin Arsyad alias Haji Isam" (revisi 12.00) → KD7 ("Emiten milik pengusaha Andi Syamsuddin Arsyad alias Haji Isam, PT Jhonlin Agro Raya Tbk (JARR)"); klaim kepemilikan Eshan dihapus
 - "ditandatangani di hadapan notaris pada 30 September 2026 dan diumumkan lewat keterbukaan informasi BEI pada 7 Oktober" → KT9A (akta gadai di hadapan notaris 30 Sep 2026; keterbukaan 7 Okt 2026), KD7
 - "Tiga pemegang sahamnya, PT Araya Agro Lestari, PT Citra Agro Raya, dan PT Baramega Citra Mulia Persada, ... sekitar 5,29 miliar saham, setara 92,38%" → KT10 (2,2 miliar + 2,19 miliar + 900 juta = ~5,29 miliar, 92,38%). Catatan: BS9 menulis "Baramega Cipta Mulia Persada"; KT10, KD9, KD14, KB17 menulis "Citra", jadi dipakai "Citra".
 - "jaminan untuk fasilitas kredit yang diterima perusahaan afiliasi ... tidak ada perubahan pengendalian dan tidak ada dilusi" → BS9 (Dirut JARR Indra Irawan; Direktur PGUN Tamlikho), KT9A
 - "crossing sekitar 10,08 miliar saham ... BYAN senilai sekitar Rp26,1 triliun di pasar negosiasi" pada 7 Okt → KD9 (crossing ~10,08 miliar saham, ~Rp26,1 T, tiga kali di pasar negosiasi, Rabu 7 Okt). Harga per saham sengaja tidak ditulis.
-- "Menurut manajemen Bayan ... PT Jhonlin Baratama kini memegang sekitar 30,25% saham BYAN" → KD9 (10.084.088.370 saham ≈ 30,25%, per manajemen Bayan)
+- "Menurut manajemen Bayan ... saham yang dialihkan ke PT Jhonlin Baratama sekitar 30,25% saham BYAN" (revisi 12.00, ikut rumusan sumber "akan dialihkan") → KD9 (10.084.088.370 saham ≈ 30,25%, per manajemen Bayan)
 - "gadai saham itu terjadi 'seiring' langkah ke BYAN" → KD9 (kata "seiring"; tidak mengonfirmasi hubungan sebab)
 - "laporan lanjutannya menyebut dananya 'ditengarai' untuk membeli saham tersebut" → KD14 (pembiayaan "ditenggarai" untuk membeli 30,25% BYAN; ejaan di sumber "ditenggarai", artikel memakai ejaan baku "ditengarai")
 - "belum menemukan dokumen resmi yang mengonfirmasi kaitan itu" → pernyataan batas riset; BS16/KB17: surat Mandiri tidak menyebut BYAN, hanya capex dan pembiayaan grup batu bara
@@ -68,11 +69,11 @@ Singkatan:
 - "Menurut Kontan, POJK 26/2024 melarang bank umum konvensional menyertakan modal selain ke lembaga jasa keuangan atau perusahaan yang mendukung industri perbankan" → KT9A
 - "Nafan ... 'tidak tepat jika langsung dianggap melanggar ketentuan'" → KT9B
 - "Kepala Pusat Makroekonomi dan Keuangan INDEF, M. Rizal Taufikurahman ... implikasi hukumnya berbeda kalau transaksi itu repo" → KT10
-- "Adhika Vista, SVP Corporate Secretary Group Bank Mandiri, dalam surat ke BEI" → KB17 ("Senior Vice President Corporate Secretary Group Bank Mandiri"); BS16 menulis "Corporate Secretary Bank Mandiri"
+- "Adhika Vista, Corporate Secretary Bank Mandiri, dalam surat ke BEI" (revisi 12.00) → BS16 ("Corporate Secretary"; dibuka ulang 18 Okt)
 - "Kreditnya diberikan ke PT Jhonlin Baratama ... 'bukan merupakan fasilitas untuk aktivitas trading saham' ... belanja modal dan kebutuhan pembiayaan grup di industri batu bara beserta penunjangnya" → BS16 (kutipan persis), KB17
 - "aset tetap, aset non-tetap, dan rekening perusahaan, dengan saham JARR dan PGUN sebagai agunan tambahan yang penilaiannya sesuai Pasal 4 POJK 40/2017" → BS16 ("telah sesuai dengan Pasal 4 POJK No. 40/POJK.03/2017 dan kebijakan internal Perseroan")
 - "'sebagai sumber pelunasan sekunder'" → BS16 ("Agunan saham diposisikan secara konservatif sebagai sumber pelunasan sekunder")
-- "PGUN, dalam suratnya tertanggal 9 Oktober, menyatakan tidak menerima aliran dana dari fasilitas itu" → KB17
+- "PGUN, menurut EmitenNews, menyatakan 'tidak ada aliran dana dari fasilitas kredit Bank Mandiri tersebut masuk perseroan'" (revisi 12.00) → EN12 = https://emitennews.com/news/valuasi-premium-pgun-beber-gadai-saham-ke-bank-mandiri (12 Okt 2026, dibuka 18 Okt; kalimat persis ada). "Tertanggal 9 Oktober" dihapus (tidak ada di sumber yang bisa dibuka). KB17 dihapus dari sources.
 - "selama OJK belum bersuara, label 'melanggar aturan' belum punya dasar resmi" → kesimpulan dari penelusuran (lihat Catatan keamanan)
 
 ## Bagian 4 · Angka yang sering tertukar
@@ -80,7 +81,7 @@ Singkatan:
 - "Direktur Keuangan JARR Temmy Iskandar dalam keterbukaan informasi BEI ... melunasi utang bank ... 12 sertifikat HGU kebun sawit" → IDXC
 - "Rp26,1 triliun adalah perkiraan nilai transaksi crossing saham BYAN pada 7 Oktober" → KD9
 - "Mirae Asset Sekuritas mengasumsikan pembiayaan untuk pembelian 30,25% saham BYAN sekitar Rp26,1 triliun (setara US$1,45 miliar), sepenuhnya dari utang, dengan biaya pinjaman 8%" → KD14
-- "Katadata menegaskan itu asumsi analis, bukan nilai kredit yang dikonfirmasi" → KD14
+- "Katadata menyebutnya asumsi analis. Nilai kredit sebenarnya tidak diungkap Bank Mandiri maupun keterbukaan informasi emiten" (revisi 12.00) → KD14 ("asumsi") + BS16 + KT10
 - "hampir 19 kali kredit Rp1,4 triliun" → hitungan Pena (26,1 ÷ 1,4 ≈ 18,6)
 - "Research Analyst Mirae, Muhammad Nurkholis Syafruddin ... 'kemampuan debitur membayar utang seharusnya menjadi dasar penilaian kredit, bukan semata-mata nilai aset yang dijaminkan.'" → KD14
 - "Keterbukaan informasi JARR dan PGUN tidak menyebutnya, surat Mandiri ke BEI juga tidak" → KT10, KT9A, BS16
@@ -105,7 +106,7 @@ Singkatan:
 - "Rp26,1 triliun ... nilai transaksi dan asumsi, bukan nilai kredit" → KD9, KD14
 - "Dokumen emiten di BEI biasanya menyebut jenis transaksinya, seperti yang dilakukan JARR" → KT9A (keterbukaan JARR menyebut gadai saham / akta gadai)
 - "MSCI sudah memberi peringatan berbulan-bulan sebelum gadai ini ada" → EN (Jan), BS24J (Jun)
-- "free float di bawah 3% ... butuh ratusan hari untuk dijual" → KD9 (2,70% dan 0,07%; ~900 hari bursa)
+- "free float sekecil JARR dan PGUN ... butuh ratusan hari untuk dijual" (revisi 12.00, dipersempit) → KD9 (2,70% dan 0,07%; ~900 hari bursa)
 - "belum ada regulator yang menyatakan pelanggaran" → lihat Catatan keamanan
 - Tidak ada saran beli/jual, tidak ada harga saham terkini, tidak ada janji return.
 
@@ -127,3 +128,14 @@ Singkatan:
 - Kaitan Mandiri → MSCI: tidak ada bukti. Rilis MSCI 15 Okt tidak menyebut pihak mana pun; isu MSCI sudah ada sejak Jan/Jun 2026. Artikel menyebutnya kemiripan tema, di bagian berlabel interpretasi.
 - Tanggapan pihak terkait yang dimuat: Bank Mandiri (Adhika Vista, surat ke BEI, BS16/KB17); JARR (Dirut Indra Irawan: tidak ada perubahan pengendalian, BS9/KD7; Direktur Keuangan Temmy Iskandar untuk kredit 2024, IDXC); PGUN (Direktur Tamlikho, BS9; surat 9 Okt: tidak menerima aliran dana, KB17). OJK: tidak ada tanggapan spesifik atas transaksi ini di sumber; yang dikutip hanya aturan dan siaran pers MSCI Juni.
 - Nama orang: Haji Isam disebut hanya sebagai pemilik Eshan sesuai KD7, tanpa tuduhan. Tidak ada foto orang. Tidak ada saran beli/jual, harga saham per lembar, atau janji return.
+
+## Revisi 12.00 (Pena)
+- Judul baru (netral, tanpa "langgar"): "Gadai saham JARR-PGUN ke Bank Mandiri: gadai atau repo, dan apa hubungannya dengan MSCI?"
+- hook + bagian 1 p1 (baru): "Saham JARR dan PGUN yang digadaikan bernilai sekitar Rp64,7 triliun ... transaksi harian Rp71,7 miliar ... sekitar 900 hari bursa" → KD9 (Fauzan). Fakta lama soal slug "rp14-triliun" dihapus dari hook dan pembuka; IDXC tetap dipakai di bagian 4.
+- Bagian 5 p1: kalimat "Ada dugaan ..." diganti pertanyaan tanpa klaim.
+- Bagian 5 p3: "menurut masukan pelaku pasar yang dikutip MSCI" → MSCI.
+- "PT Baramega Citra Mulia Persada (sebagian media menulis 'Cipta')" → KT10/KD9 menulis Citra; EN12 dan BS9 menulis Cipta (EN12 = emitennews.com, lihat di atas).
+- "ditengarai" tanpa tanda kutip (ejaan baku; sumber KD14 menulis "ditenggarai").
+- Bagian 6: "Keterbukaan informasi seperti milik JARR bisa menunjukkan jenis transaksinya" → KT9A (Kontan membaca keterbukaan JARR: gadai, bukan repo).
+- Judul sumber #3 disesuaikan dengan judul halaman sekarang.
+- gambar (revisi 12.00): https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/mandiri-gadai-saham-haji-isam-msci-v1.svg — lisensi Ilustrasi sendiri (Curioverse) — dibuat lewat scripts/illustrations.mjs: kolom Gadai vs Repo (POJK 9/2015 via KT9A: repo wajib perpindahan kepemilikan; gadai: saham tetap milik pemberi gadai sampai eksekusi, KT10) + garis waktu Jan 2026 (EN), 24 Jun (OJK24/BS24J), 30 Sep akta gadai JARR (KD7), 7 Okt pengumuman (KD7), 15 Okt konsultasi MSCI (MSCI). Tanpa logo bank/emiten.

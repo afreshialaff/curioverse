@@ -93,3 +93,12 @@ Catatan: banyak link awalnya ditolak WebFetch (izin belum dijawab, bukan situsny
 - Bagian 9 paragraf 1 kalimat 3: NBER menyebut sebagian bukti soal klaster Route 128/Silicon Valley masih "preliminary". Tambahkan "menurut temuan awal" supaya jujur soal batasnya.
 - Sumber 18: path `gps.gov/systems/gps` masih bisa dibuka, tapi situs GPS.gov sudah pindah struktur (halaman baru `https://www.gps.gov/gps`, yang lama di `archive.gps.gov`). Pertimbangkan ganti ke `https://www.gps.gov/gps` supaya link tidak mati.
 - Gambar: `src` memakai file `~orig.jpg` yang kemungkinan besar beresolusi tinggi. Kalau halaman NASA menyediakan versi ~1280px (`~large.jpg`/`~medium.jpg`), pakai itu supaya halaman lebih ringan (RULES 3b).
+
+## Jawaban Pena
+1. Bagian 2 p3 k2 → "Dana Inggris terbatas dan pabriknya tidak sanggup memproduksi magnetron secara massal dalam jumlah yang dibutuhkan."
+2. Bagian 5 p1 k4 → "Menurut IEEE Spectrum, di akhir perang ada 10 Colossus di Bletchley Park." Bagian plakat "enam" dihapus.
+3. Bagian 5 p4 k5 → "Kotak Kotex pertama terjual di Woolworth's Chicago pada Oktober 1919, dan kampanye iklan besarnya dimulai 1921."
+4. Bagian 7 p1 k5 → anak kalimat "sasaran empuk di medan perang" dihapus; tersisa bagian packet switching.
+5. Bagian 8 p2 k2 → "di bidang-bidang yang terkena perintah rahasia, lebih dari separuh paten, kadang sampai 90%, 'menghilang' dari publik di puncak perang."
+
+Saran opsional yang dipakai: magnetron "meningkatkan daya, efisiensi, dan kestabilan frekuensinya" (bagian 1); "NDRC dibentuk Juni 1940 atas usul Vannevar Bush, lalu berkembang jadi OSRD" (bagian 2); kalimat Velcro di bagian 8 dihapus; "Menurut temuan awal Gross dan Sampat" (bagian 9). Tidak dipakai: sumber kedua untuk 90% Pfizer, rumusan Teflon/Velcro di bagian 7, ganti link GPS.gov, versi gambar ~large (butuh sumber/URL baru yang belum dibuka).

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Tiga kartu hasil tes kepribadian yang isinya sama persis untuk tiga mahasiswa berbeda">
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+
+<text x="100" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#1B1A17" font-weight="700">Satu profil untuk semua</text>
+<text x="100" y="170" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#4D483F">Forer, 1948: 39 mahasiswa menerima “hasil tes” yang isinya sama persis</text>
+<g transform="translate(150 250)">
+  <circle cx="200" cy="0" r="46" fill="#3F4A3B"/><circle cx="200" cy="-12" r="18" fill="#EAE3D5"/><path d="M168 30 Q200 0 232 30" fill="#EAE3D5"/>
+  <text x="200" y="84" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#1B1A17" font-weight="700" text-anchor="middle">Mahasiswa A</text>
+  <rect x="0" y="110" width="400" height="390" rx="18" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+  <text x="30" y="160" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#7A5532" font-weight="700">HASIL TES KEPRIBADIANMU</text>
+  <line x1="30" x2="370" y1="180" y2="180" stroke="#CDBFA6" stroke-width="2"/>
+  <text x="30" y="226" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">Kadang kamu ekstrover</text><text x="30" y="260" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">dan supel, kadang introver</text><text x="30" y="294" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">dan pendiam.</text>
+  <text x="30" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">Kamu punya kapasitas besar</text><text x="30" y="384" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">yang belum kamu manfaatkan.</text>
+  <rect x="30" y="420" width="340" height="50" rx="10" fill="#E1D8C6"/><text x="200" y="454" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#3F4A3B" font-weight="700" text-anchor="middle">“Kok gue banget!”</text>
+</g><g transform="translate(600 250)">
+  <circle cx="200" cy="0" r="46" fill="#3F4A3B"/><circle cx="200" cy="-12" r="18" fill="#EAE3D5"/><path d="M168 30 Q200 0 232 30" fill="#EAE3D5"/>
+  <text x="200" y="84" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#1B1A17" font-weight="700" text-anchor="middle">Mahasiswa B</text>
+  <rect x="0" y="110" width="400" height="390" rx="18" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+  <text x="30" y="160" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#7A5532" font-weight="700">HASIL TES KEPRIBADIANMU</text>
+  <line x1="30" x2="370" y1="180" y2="180" stroke="#CDBFA6" stroke-width="2"/>
+  <text x="30" y="226" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">Kadang kamu ekstrover</text><text x="30" y="260" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">dan supel, kadang introver</text><text x="30" y="294" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">dan pendiam.</text>
+  <text x="30" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">Kamu punya kapasitas besar</text><text x="30" y="384" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">yang belum kamu manfaatkan.</text>
+  <rect x="30" y="420" width="340" height="50" rx="10" fill="#E1D8C6"/><text x="200" y="454" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#3F4A3B" font-weight="700" text-anchor="middle">“Kok gue banget!”</text>
+</g><g transform="translate(1050 250)">
+  <circle cx="200" cy="0" r="46" fill="#3F4A3B"/><circle cx="200" cy="-12" r="18" fill="#EAE3D5"/><path d="M168 30 Q200 0 232 30" fill="#EAE3D5"/>
+  <text x="200" y="84" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#1B1A17" font-weight="700" text-anchor="middle">Mahasiswa C</text>
+  <rect x="0" y="110" width="400" height="390" rx="18" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+  <text x="30" y="160" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#7A5532" font-weight="700">HASIL TES KEPRIBADIANMU</text>
+  <line x1="30" x2="370" y1="180" y2="180" stroke="#CDBFA6" stroke-width="2"/>
+  <text x="30" y="226" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">Kadang kamu ekstrover</text><text x="30" y="260" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">dan supel, kadang introver</text><text x="30" y="294" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">dan pendiam.</text>
+  <text x="30" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">Kamu punya kapasitas besar</text><text x="30" y="384" font-family="Georgia, 'Times New Roman', serif" font-size="25" fill="#1B1A17" font-style="italic">yang belum kamu manfaatkan.</text>
+  <rect x="30" y="420" width="340" height="50" rx="10" fill="#E1D8C6"/><text x="200" y="454" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" fill="#3F4A3B" font-weight="700" text-anchor="middle">“Kok gue banget!”</text>
+</g>
+<line x1="550" x2="600" y1="555" y2="555" stroke="#A67C52" stroke-width="5" stroke-dasharray="10 8"/>
+<line x1="1000" x2="1050" y1="555" y2="555" stroke="#A67C52" stroke-width="5" stroke-dasharray="10 8"/>
+<text x="800" y="815" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#7A5532" font-weight="700" text-anchor="middle">Rata-rata dinilai tepat ±4,3 dari 5</text>
+<text x="1540" y="846" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#4D483F" text-anchor="end">Ilustrasi: Curioverse · kalimat diparafrase dari profil Forer</text>
+</svg>

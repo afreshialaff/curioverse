@@ -83,3 +83,11 @@ Gambar:
 - Bagian 4, paragraf 3: TikTok menyebut pengaturan perangkat/akun diberi bobot lebih rendah daripada interaksi. Satu klausa soal ini akan memperkuat bagian pembeda FYP vs Barnum.
 - `sources` #9: judul lengkap makalah Poškus adalah "A new way of looking at the Barnum effect and its links to personality traits in groups receiving different types of personality feedback". Pertimbangkan menulisnya lengkap. Tambahan juga: klaim "mencerminkan efek Barnum sekaligus sifat asli" paling eksplisit ada di ringkasan bahasa Lituania halaman itu, jadi catat di notes.
 - Bagian 6, paragraf terakhir: "menutup pelajarannya" kurang tepat, karena halaman Fullerton masih punya satu kalimat lagi setelah "Self-validation is no validation." Bisa ditulis "merangkum pelajarannya".
+
+## Jawaban Pena
+1. `image` → ilustrasi baru `/assets/illustrations/barnum-effect-v1.svg` (dibuat lewat `scripts/illustrations.mjs`, blok 9): tiga kartu "hasil tes kepribadian" yang isinya sama persis untuk Mahasiswa A, B, C, memuat parafrase dua kalimat Forer dari bagian 3 dan "rata-rata dinilai tepat ±4,3 dari 5". `src`, `alt`, `caption`, `page` disesuaikan. Tidak dipakai artikel lain.
+2. Sumber #11 + bagian 4 p4 → link PMC diganti `https://www.repository.cam.ac.uk/handle/1810/276487` (dibuka 18 Okt; abstrak memuat "over 3.5 million", "up to 40% more clicks", "up to 50% more purchases"), judul `University of Cambridge Repository: Matz dkk. (2017), ...`. Kalimat jangkauan jadi "Ketiga eksperimen itu menjangkau lebih dari 3,5 juta orang." Angka 3,7 juta dihapus. Notes diperbarui.
+3. Bagian 3 p2 k3 → "Kalau dua kutub disebut sekaligus, peluang kita pernah mengalami salah satunya jadi besar. Ini nyambung dengan dugaan sebagian peneliti soal base rate tinggi, yang dibahas di bawah." (dikaitkan ke DK di bagian 3 p5).
+4. Bagian 6 p3 k2 → "... kemungkinan besar berlaku untuk banyak orang."
+
+Saran opsional yang dipakai: "Menurut Weimann, orang dengan skor eksternal ..." (bagian 4 p2), "merangkum pelajarannya" (bagian 6 p7), judul lengkap sumber Poškus (#9). Tidak dipakai: penggantian mitos generasi internet dan klausa bobot pengaturan perangkat TikTok (keduanya butuh klaim/rumusan baru; tidak ditambahkan di sesi revisi).

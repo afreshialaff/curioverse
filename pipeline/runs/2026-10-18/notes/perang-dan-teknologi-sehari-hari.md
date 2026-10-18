@@ -34,15 +34,15 @@ Wikipedia: 1 dari 22 sumber.
 - dek "perang jarang jadi penemunya ... pedal gas: dana besar, tenggat ketat, dan pabrik" → interpretasi Pena dari NBER (urgensi, dana miliaran, sambungan lab–pilot plant–pabrik) + bagian 8 (ide inti sudah ada sebelum perang)
 
 ## Bagian 1
-- "Antara 1939 dan 1941, tiga peneliti University of Birmingham, John Randall, Harry Boot, dan James Sayers, membuatnya jauh lebih kuat dan stabil" → ETHW (teks citation: di gedung ini 1939–1941 peneliti Univ. Birmingham Randall, Boot, Sayers meningkatkan daya, efisiensi, dan stabilitas frekuensi magnetron)
+- "Antara 1939 dan 1941, tiga peneliti University of Birmingham, John Randall, Harry Boot, dan James Sayers, meningkatkan daya, efisiensi, dan kestabilan frekuensinya" (revisi 12.00) → ETHW (teks citation: di gedung ini 1939–1941 peneliti Univ. Birmingham Randall, Boot, Sayers meningkatkan daya, efisiensi, dan stabilitas frekuensi magnetron)
 - "Komponen inti microwave namanya magnetron" → ETHW (magnetron kemudian diadaptasi untuk pemanas industri dan oven microwave)
 - "dipakai Sekutu untuk radar gelombang mikro di Perang Dunia II, termasuk radar di pesawat pemburu kapal selam" → ETHW (membantu Sekutu memakai radar microwave; muat di hidung pesawat untuk sistem night-fighter dan anti-submarine; radar udara mendeteksi kapal selam di permukaan)
 
 ## Bagian 2
-- "Pada Juni 1940, Vannevar Bush mengusulkan National Defense Research Committee, yang kemudian dikenal sebagai OSRD" → NBER (OSRD "initially formed in June 1940 as the National Defense Research Committee", diusulkan dan dipimpin Bush)
+- "NDRC dibentuk Juni 1940 atas usul Vannevar Bush, lalu berkembang jadi OSRD" (revisi 12.00) → NBER (OSRD "initially formed in June 1940 as the National Defense Research Committee", diusulkan dan dipimpin Bush)
 - "ekonom Daniel Gross dan Bhaven Sampat di NBER Reporter ... inti delapan orang jadi badan pendanaan berisi 1.500 orang dengan anggaran miliaran dolar" → NBER (penulis; dari eight-person nucleus ke 1,500-person, multibillion-dollar funding agency)
 - "'basic knowledge at hand' ... banyak 'moonshot' dikerjakan bersamaan lalu dikelola dari pusat ... laboratorium, pilot plant, dan pabrik disambungkan langsung" → NBER (kutipan Conant "basic knowledge at hand"; "many moonshots pursued all at once, collectively managed from the center"; "connect effectively the laboratory, the pilot plant, and the factory")
-- "Inggris tidak punya dana dan kapasitas pabrik untuk memproduksi magnetron secara massal ... Churchill setuju desain magnetron ditawarkan ke Amerika ... Misi Tizard pada September 1940 ... langsung diadopsi untuk produksi massal, dan Bell Labs mulai membuat salinannya" → ETHW (limited funding, tidak mampu produksi massal; Churchill setuju Tizard menawarkan desain; dibawa lewat Tizard Mission Sept 1940; "immediately adopted for mass production"; "Bell Labs quickly began making copies")
+- "Dana Inggris terbatas dan pabriknya tidak sanggup memproduksi magnetron secara massal dalam jumlah yang dibutuhkan (revisi 12.00) ... Churchill setuju desain magnetron ditawarkan ke Amerika ... Misi Tizard pada September 1940 ... langsung diadopsi untuk produksi massal, dan Bell Labs mulai membuat salinannya" → ETHW (limited funding, tidak mampu produksi massal; Churchill setuju Tizard menawarkan desain; dibawa lewat Tizard Mission Sept 1940; "immediately adopted for mass production"; "Bell Labs quickly began making copies")
 
 ## Bagian 3
 - "Di Raytheon, AS, ada Percy Spencer" → SPEC-MW (peneliti Raytheon di Waltham, Massachusetts)
@@ -68,7 +68,7 @@ Wikipedia: 1 dari 22 sumber.
 - "Colossus, buatan insinyur kantor pos Inggris Tommy Flowers, memproses pesan Jerman pertamanya di Bletchley Park pada 5 Februari 1944" → SPEC-COL (Flowers dipinjamkan dari British Post Office, Post Office Research Station; pesan Jerman pertama 5 Feb 1944)
 - "sandi mesin Lorenz Jerman yang dijuluki 'Tunny'" → SPEC-COL
 - "Colossus II, selesai Juni 1944, memakai 2.400 tabung vakum dan memproses 25.000 karakter per detik" → SPEC-COL
-- "artikel IEEE Spectrum menyebut 10 Colossus di akhir perang, sementara teks plakat IEEE Milestone yang dikutip di artikel yang sama menyebut enam" → SPEC-COL (10 Colossi di akhir perang; plakat: enam Colossus beroperasi di Block H 1944–1945). Beda disebut terang.
+- "Menurut IEEE Spectrum, di akhir perang ada 10 Colossus di Bletchley Park" (revisi 12.00) → SPEC-COL (10 Colossi di akhir perang). Kalimat plakat "enam" dihapus: itu jumlah di Block H, bukan versi yang bertentangan.
 - "Angkatan Darat mendanai ENIAC di University of Pennsylvania untuk menghitung tabel tembak artileri" → NMUSA (Mauchly & Eckert minta Army menyediakan sumber daya; tabel tembak; Moore School UPenn) + WIKI-ENIAC (dibiayai Army Ordnance Corps untuk Ballistic Research Laboratory)
 - "Kontraknya diteken 5 Juni 1943" → WIKI-ENIAC
 - "Menurut Museum Nasional Angkatan Darat AS, ... 17.468 tabung vakum (Wikipedia menyebut sekitar 18.000 di akhir masa operasinya, 1955), berat lebih dari 27 ton, ... 1.800 kaki persegi" → NMUSA (17.468 tabung, >27 ton, 1.800 sq ft) + WIKI-ENIAC (18.000 tabung pada akhir operasi 1955). "167 m², dua lapangan bulu tangkis" = konversi Pena (1.800 × 0,0929; lapangan 13,4 × 6,1 m ≈ 82 m²)
@@ -79,7 +79,7 @@ Wikipedia: 1 dari 22 sumber.
 - "Kimberly-Clark membuat perban Cellucotton dari bubur kayu untuk rumah sakit perang, lima kali lebih menyerap daripada perban kapas dan jauh lebih murah" → SMITH-KOTEX (dari wood pulp; "five times as absorbent as cotton bandages but much less expensive"; dipakai di rumah sakit PD I)
 - "Perawat Angkatan Darat menulis surat ke American Fund for the French Wounded bahwa mereka memakainya sebagai pembalut darurat" → SMITH-KOTEX ("used Cellucotton surgical dressings as makeshift sanitary napkins")
 - "Menurut sejarawan yang dikutip Smithsonian Magazine, dari situ Kimberly-Clark dapat ide pembalut" → SMITH-KOTEX (menurut sejarawan Thomas Heinrich dan Bob Batchelor, ide datang dari American Fund for the French Wounded)
-- "Kotex, masuk pasar pada 1921" → SMITH-KOTEX (catatan: kotak pertama terjual Oktober 1919 di Woolworth's Chicago; artikel memakai tanggal masuk pasar 1921)
+- "Kotak Kotex pertama terjual di Woolworth's Chicago pada Oktober 1919, dan kampanye iklan besarnya dimulai 1921" (revisi 12.00) → SMITH-KOTEX (kotak pertama Oktober 1919 di Woolworth's Chicago; kampanye iklan besar 1921)
 
 ## Bagian 6
 - "perencana Departemen Pertahanan AS, yang menggabungkan beberapa program navigasi jadi satu sistem. Pengembangan komponennya dimulai pada 1973, dikelola Joint Program Office di bawah Angkatan Udara" → SI-GPS ("Defense Department planners" menggabungkan program; "Developing GPS components began in 1973"; "Joint Program Office was established under the Air Force")
@@ -94,7 +94,7 @@ Wikipedia: 1 dari 22 sumber.
 
 ## Bagian 7 (mitos vs fakta)
 - "Para perintis internet, termasuk Vint Cerf dan Robert Kahn, menulis di Internet Society bahwa itu rumor keliru. Rumor itu muncul dari studi RAND yang memang membahas komunikasi suara aman saat perang nuklir, sementara ARPANET tidak" → ISOC (penulis: Leiner, Cerf, Clark, Kahn, Kleinrock, dkk.; catatan kaki 5: "false rumor" bahwa ARPANET terkait jaringan "resistant to nuclear war", tidak pernah benar untuk ARPANET, hanya studi RAND soal secure voice yang mempertimbangkan perang nuklir)
-- "packet switching dirancang agar jaringan tidak tumbang saat satu titik rusak, dan menyinggung infrastruktur tetap sebagai sasaran empuk di medan perang" → DARPA (desain sirkuit: "failure of a single node could take down the entire network"; packet switching agar tak bergantung satu node; infrastruktur tetap "prime and easy targets on a battlefield")
+- "packet switching dirancang agar jaringan tidak tumbang saat satu titik rusak" → DARPA (desain sirkuit: "failure of a single node could take down the entire network"; packet switching agar tak bergantung satu node). Anak kalimat "sasaran empuk di medan perang" dihapus di revisi 12.00 karena di DARPA itu konteks riset jaringan mobile 1990-an.
 - "kerja internetworking belakangan memang menekankan ketahanan" → ISOC (catatan kaki 5: kerja Internetting belakangan menekankan robustness and survivability)
 - "Velcro diciptakan insinyur Swiss George de Mestral pada 1940-an setelah melihat biji tanaman berduri menempel di bulu anjingnya" → MOF (burrs caught in his dog's fur; 1940s)
 - "Tang buatan General Foods sudah dijual sejak 1957 sebelum diadaptasi NASA dan dipakai di misi Friendship 7 John Glenn pada 1962" → MOF
@@ -107,13 +107,13 @@ Wikipedia: 1 dari 22 sumber.
 - "Whittle mematenkan mesin jet pada 1930, Hans von Ohain di Jerman pada 1935, dan pesawat jet He 178 sudah terbang 27 Agustus 1939, seminggu sebelum Inggris menyatakan perang" → ASF (paten Whittle 1930; paten von Ohain 10 Nov 1935; He-178 terbang 27 Agu 1939, "the first turbojet aircraft ever to fly"; deklarasi perang Inggris 3 Sep 1939)
 - "Visi jaringan 'Galactic Network' dari J.C.R. Licklider pada 1962 bicara soal interaksi sosial lewat jaringan komputer" → ISOC (memo Agustus 1962, "first recorded description of the social interactions that could be enabled through networking")
 - "Masuk akal untuk menduga sebagian besar teknologi ini tetap akan lahir, hanya mungkin lebih lambat" → interpretasi Pena (ditandai kind interpretasi), dari tanggal-tanggal di atas
-- "di puncak perang lebih dari separuh, di beberapa bidang sampai 90%, paten teknologi penting dikenai perintah rahasia. Riset Gross menemukan kerahasiaan ini menghambat komersialisasi dan memperlambat inovasi lanjutan" → NBER
+- "di bidang-bidang yang terkena perintah rahasia, lebih dari separuh paten, kadang sampai 90%, 'menghilang' dari publik di puncak perang (revisi 12.00; NBER: paten di "affected areas" yang "going dark"). Riset Gross menemukan kerahasiaan ini menghambat komersialisasi dan memperlambat inovasi lanjutan" → NBER
 - "sekitar 15 juta kematian di medan tempur dan 45 juta kematian warga sipil ... estimasinya sangat beragam" → WW2M-DEATHS (tabel Worldwide Casualties: 15.000.000 battle deaths, 45.000.000 civilian deaths; "Worldwide casualty estimates vary widely in several sources"). Pena tidak menulis total (museum tidak menyebut total; catatan museum: korban sipil Tiongkok saja mungkin >50 juta)
 - "salah satu tugas pertamanya adalah menghitung reaksi termonuklir pada Desember 1945" → WIKI-ENIAC ("In December 1945, the ENIAC was used to calculate thermonuclear reactions")
 
 ## Bagian 9 (opini)
 - "dana besar, masalah yang jelas, banyak tim bekerja paralel, dan jalur pendek dari lab ke pabrik" → rangkuman NBER (bagian 2)
-- "jejak OSRD bertahan puluhan tahun lewat klaster teknologi seperti Boston/Route 128 dan Silicon Valley" → NBER (OSRD mengkatalisasi hub teknologi Boston/Route 128 dan Silicon Valley, pertumbuhan output inventif puluhan tahun; sebagian temuan masih preliminary)
+- "Menurut temuan awal ... jejak OSRD bertahan puluhan tahun lewat klaster teknologi seperti Boston/Route 128 dan Silicon Valley" → NBER (OSRD mengkatalisasi hub teknologi Boston/Route 128 dan Silicon Valley, pertumbuhan output inventif puluhan tahun; sebagian temuan masih preliminary)
 - Sisanya opini (kind opini).
 
 ## Gambar

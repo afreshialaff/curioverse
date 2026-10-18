@@ -218,3 +218,46 @@ ${t(820, 300, 28, "bentuk gelembung harga,", { c: C.mute })}${t(820, 336, 28, "b
   save("tulip-v1.svg", frame("Ilustrasi tulip bergaris merah-putih dan grafik pola gelembung harga yang naik lalu jatuh pada Februari 1637", body));
 }
 console.log("ok");
+
+/* 9. barnum-effect: satu profil identik untuk banyak orang (Forer 1948) */
+{
+  const card = (x, who) => `<g transform="translate(${x} 250)">
+  <circle cx="200" cy="0" r="46" fill="${C.moss}"/><circle cx="200" cy="-12" r="18" fill="${C.bg}"/><path d="M168 30 Q200 0 232 30" fill="${C.bg}"/>
+  ${t(200, 84, 28, who, { a: "middle", w: 700 })}
+  <rect x="0" y="110" width="400" height="390" rx="18" fill="${C.card}" stroke="${C.line}" stroke-width="3"/>
+  ${t(30, 160, 22, "HASIL TES KEPRIBADIANMU", { w: 700, c: C.goldT })}
+  <line x1="30" x2="370" y1="180" y2="180" stroke="${C.line}" stroke-width="2"/>
+  ${t(30, 226, 25, "Kadang kamu ekstrover", { f: SERIF, i: 1 })}${t(30, 260, 25, "dan supel, kadang introver", { f: SERIF, i: 1 })}${t(30, 294, 25, "dan pendiam.", { f: SERIF, i: 1 })}
+  ${t(30, 350, 25, "Kamu punya kapasitas besar", { f: SERIF, i: 1 })}${t(30, 384, 25, "yang belum kamu manfaatkan.", { f: SERIF, i: 1 })}
+  <rect x="30" y="420" width="340" height="50" rx="10" fill="${C.bg2}"/>${t(200, 454, 24, "“Kok gue banget!”", { a: "middle", w: 700, c: C.moss })}
+</g>`;
+  const body = `
+${t(100, 120, 60, "Satu profil untuk semua", { f: SERIF, w: 700 })}
+${t(100, 170, 32, "Forer, 1948: 39 mahasiswa menerima “hasil tes” yang isinya sama persis", { c: C.mute })}
+${card(150, "Mahasiswa A")}${card(600, "Mahasiswa B")}${card(1050, "Mahasiswa C")}
+<line x1="550" x2="600" y1="555" y2="555" stroke="${C.gold}" stroke-width="5" stroke-dasharray="10 8"/>
+<line x1="1000" x2="1050" y1="555" y2="555" stroke="${C.gold}" stroke-width="5" stroke-dasharray="10 8"/>
+${t(800, 815, 30, "Rata-rata dinilai tepat ±4,3 dari 5", { a: "middle", w: 700, c: C.goldT })}`;
+  save("barnum-effect-v1.svg", frame("Tiga kartu hasil tes kepribadian yang isinya sama persis untuk tiga mahasiswa berbeda", body, "Ilustrasi: Curioverse · kalimat diparafrase dari profil Forer"));
+}
+
+/* 10. mandiri-gadai-saham-haji-isam-msci: gadai vs repo + garis waktu */
+{
+  const col = (x, head, color, lines) => `<g transform="translate(${x} 205)">
+  <rect width="620" height="290" rx="18" fill="${C.card}" stroke="${C.line}" stroke-width="3"/>
+  <rect width="620" height="70" rx="18" fill="${color}"/><rect y="50" width="620" height="20" fill="${color}"/>
+  ${t(310, 48, 36, head, { a: "middle", w: 700, c: C.card })}
+  ${lines.map((l, i) => `<circle cx="44" cy="${128 + i * 62}" r="8" fill="${color}"/>${t(70, 138 + i * 62, 28, l)}`).join("")}
+</g>`;
+  const ev = [["Jan 2026", "MSCI singgung", "risiko turun kelas"], ["24 Jun", "MSCI: tetap Emerging,", "beri tenggat"], ["30 Sep", "Akta gadai", "saham JARR"], ["7 Okt", "Gadai diumumkan", "di BEI"], ["15 Okt", "MSCI usul pindah", "ke Standalone"]];
+  const X0 = 200, X1 = 1400, Y = 640, xs = ev.map((_, i) => X0 + (X1 - X0) * i / (ev.length - 1));
+  const tl = ev.map(([d, a, b], i) => { const g = i === 2 || i === 3; return `<circle cx="${xs[i]}" cy="${Y}" r="16" fill="${g ? C.down : C.moss}"/>${t(xs[i], Y - 34, 28, d, { a: "middle", w: 700, c: g ? C.down : C.moss })}${t(xs[i], Y + 54, 24, a, { a: "middle" })}${t(xs[i], Y + 86, 24, b, { a: "middle", c: C.mute })}`; }).join("");
+  const body = `
+${t(100, 120, 60, "Gadai atau repo?", { f: SERIF, w: 700 })}
+${t(100, 170, 30, "Pertanyaan kuncinya: siapa yang memegang saham", { c: C.mute })}
+${col(150, "GADAI", C.moss, ["Saham tetap milik pemberi gadai", "Jadi agunan tambahan kredit", "Dieksekusi hanya jika gagal bayar"])}
+${col(830, "REPO", C.goldT, ["Kepemilikan saham pindah dulu", "Diwajibkan POJK 9/2015", "Ada janji beli kembali"])}
+<line x1="${X0}" x2="${X1}" y1="${Y}" y2="${Y}" stroke="${C.line}" stroke-width="6"/>
+${tl}`;
+  save("mandiri-gadai-saham-haji-isam-msci-v1.svg", frame("Dua kolom gadai saham dan repo, dengan garis waktu Januari sampai 15 Oktober 2026", body, "Ilustrasi: Curioverse · skema disederhanakan, tanpa skala waktu"));
+}

@@ -2,7 +2,7 @@ Catatan: brief.md 2026-10-18 tidak ada (Kompas tidak menghasilkan brief); ide di
 
 # Notes · barnum-effect-kok-gue-banget (peta klaim → sumber)
 
-Singkatan: DK = cortecs.org/...the-barnum-effect-in-personality-assessment-a-review-of-the-literature.pdf (Dickson & Kelly, Psychological Reports 1985, 57, 367–382) · SKEP = skepdic.com/forer.html · EBSCO = ebsco.com/research-starters/psychology/barnum-effect (Janine Ungvarsky, 2021) · FF = fallacyfiles.org/ptbarnum.html · LOC = blogs.loc.gov/law/2011/08/the-hoax-is-on-you... · FUL = psych.fullerton.edu/mbirnbaum/psych101/barnum_demo.htm · NANTES = blogspedago.univ-nantes.fr/psychologyinenglish/?p=3155 · TOP = ifp.nyu.edu/2024/journal-article-abstracts/00986283241240454/ · VU = journals.vu.lt/psichologija/article/view/4893 · TT = newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you/ · PNAS = pmc.ncbi.nlm.nih.gov/articles/PMC5715760 · WBE = en.wikipedia.org/wiki/Barnum_effect · WBF = en.wikipedia.org/wiki/Bertram_Forer
+Singkatan: DK = cortecs.org/...the-barnum-effect-in-personality-assessment-a-review-of-the-literature.pdf (Dickson & Kelly, Psychological Reports 1985, 57, 367–382) · SKEP = skepdic.com/forer.html · EBSCO = ebsco.com/research-starters/psychology/barnum-effect (Janine Ungvarsky, 2021) · FF = fallacyfiles.org/ptbarnum.html · LOC = blogs.loc.gov/law/2011/08/the-hoax-is-on-you... · FUL = psych.fullerton.edu/mbirnbaum/psych101/barnum_demo.htm · NANTES = blogspedago.univ-nantes.fr/psychologyinenglish/?p=3155 · TOP = ifp.nyu.edu/2024/journal-article-abstracts/00986283241240454/ · VU = journals.vu.lt/psichologija/article/view/4893 · TT = newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you/ · PNAS = repository.cam.ac.uk/handle/1810/276487 (abstrak terbuka; revisi 12.00 mengganti link PMC yang diblokir reCAPTCHA) · WBE = en.wikipedia.org/wiki/Barnum_effect · WBF = en.wikipedia.org/wiki/Bertram_Forer
 
 Catatan angka Forer (sumber berbeda, jadi ditulis "sekitar 4,3 ... antara 4,26 dan 4,31"): SKEP 4,26 ("class average evaluation was 4.26") · WBF 4,26 · DK 4,3 · EBSCO 4,3 · WBE 4,30 · NANTES 4,31. Jumlah 39 mahasiswa: DK ("39 students in his introductory psychology class") dan WBE (39 psychology students); SKEP/WBF/NANTES tidak menyebut jumlah. Sumber bahan profil: DK "came largely from a newsstand astrology book"; EBSCO "horoscope book"; WBE "newsstand astrology book"; SKEP "newsstand astrology column"; WBF "newspaper astrology column" → di artikel ditulis "sebagian besar diambil dari buku astrologi yang dijual di kios koran" (ikut DK).
 
@@ -27,7 +27,7 @@ Catatan angka Forer (sumber berbeda, jadi ditulis "sekitar 4,3 ... antara 4,26 d
 - "\"Kadang kamu ekstrover, ramah, dan supel ... introver, waspada, dan pendiam.\"" → SKEP ("At times you are extroverted, affable, and sociable, while at other times you are introverted, wary, and reserved.")
 - "\"Kamu punya kapasitas yang cukup besar yang belum kamu manfaatkan.\"" → SKEP ("You have considerable unused capacity that you have not turned to your advantage." – diterjemahkan bebas, bagian akhir dipendekkan)
 - "pernyataan samar, terutama yang memakai kata \"kadang\" (at times), termasuk yang memperkuat efeknya" → WBE (faktor: vague statements, terutama yang memakai "at times")
-- "Kalau dua kutub disebut sekaligus, hampir semua orang pernah mengalami salah satunya." → penjelasan Pena (logika), bukan klaim dari sumber
+- "Kalau dua kutub disebut sekaligus, peluang kita pernah mengalami salah satunya jadi besar. Ini nyambung dengan dugaan sebagian peneliti soal base rate tinggi" (revisi 12.00) → DK (sebagian peneliti menduga pernyataan Barnum punya base rate tinggi di populasi umum); klaim mutlak "hampir semua orang" dihapus
 - "penerimaan profil Barnum bisa dinaikkan cukup dengan melabelinya \"for you\" ... Snyder dan Larson (1972) ... direplikasi ... Collins dkk., 1977 ... tren yang tidak signifikan" → DK
 - "interpretasi yang menyenangkan lebih gampang diterima ... tidak enak lebih gampang diterima kalau datang dari sumber berstatus tinggi" → DK ("Favorable interpretations are more readily accepted"; unfavorable diterima lebih kalau dari sumber berstatus tinggi); juga SKEP
 - "neurotisisme, kebutuhan akan pengakuan, dan sikap otoriter berhubungan positif dengan percaya pada profil ala Forer" → SKEP ("Neuroticism, need for approval, and authoritarianism are positively related to belief in Forer-like profiles")
@@ -41,7 +41,7 @@ Catatan angka Forer (sumber berbeda, jadi ditulis "sekitar 4,3 ... antara 4,26 d
 - "Menonton video panjang sampai habis dihitung sinyal minat yang kuat" → TT (contoh strong indicator: menonton video lebih panjang sampai selesai)
 - "tiga eksperimen lapangan yang dimuat PNAS (2017), S.C. Matz dan rekan ... Like di Facebook yang terkait tingkat ekstraversi atau keterbukaan" → PNAS (Matz, Kosinski, Nave, Stillwell; PNAS 114(48); Like terkait ekstraversi/keterbukaan dipakai sebagai target)
 - "hingga 40% lebih banyak klik dan hingga 50% lebih banyak pembelian dibanding yang tidak cocok atau tidak dipersonalisasi" → PNAS (abstrak)
-- "sekitar 3,5 sampai 3,7 juta orang; abstrak dan pendahuluan makalah itu menyebut angka yang berbeda" → PNAS (abstrak "over 3.5 million"; pendahuluan "more than 3.7 million")
+- "Ketiga eksperimen itu menjangkau lebih dari 3,5 juta orang" (revisi 12.00) → PNAS/Cambridge (abstrak: "three field experiments that reached over 3.5 million individuals"; juga "up to 40% more clicks and up to 50% more purchases"). Angka 3,7 juta dihapus.
 - "Bedanya penting ..." → penjelasan Pena yang merangkum definisi DK + mekanisme TT/PNAS
 
 ## Bagian 5
@@ -60,7 +60,8 @@ Catatan angka Forer (sumber berbeda, jadi ditulis "sekitar 4,3 ... antara 4,26 d
 - Tips lain (tukar label, cari "kadang", hitung pujian, tanya siapa yang bilang) = opini Pena, diturunkan dari faktor di DK/SKEP/WBE
 
 ## Gambar
-- gambar: https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/cekberita-v1.svg — lisensi Ilustrasi sendiri (Curioverse) — file ada di repo (assets/illustrations/cekberita-v1.svg). Foto P.T. Barnum (Commons File:PT_Barnum_by_Brady_c1860.jpg) batal dipakai karena halaman File: Commons tidak bisa dibuka WebFetch di sesi ini, jadi lisensinya tak terverifikasi. Kalau Lup/Merpati bisa membuka halaman itu dan lisensinya domain publik, boleh diganti di sesi revisi.
+- gambar (revisi 12.00): https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/barnum-effect-v1.svg — lisensi Ilustrasi sendiri (Curioverse) — dibuat lewat scripts/illustrations.mjs: tiga kartu "hasil tes kepribadian" identik untuk tiga orang, memuat parafrase dua kalimat Forer yang sudah dikutip di bagian 3 (SKEP) dan skor rata-rata ±4,3/5 (bagian 1). Tanpa wajah tokoh asli.
+- gambar lama (diganti): https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/cekberita-v1.svg — lisensi Ilustrasi sendiri (Curioverse) — file ada di repo (assets/illustrations/cekberita-v1.svg). Foto P.T. Barnum (Commons File:PT_Barnum_by_Brady_c1860.jpg) batal dipakai karena halaman File: Commons tidak bisa dibuka WebFetch di sesi ini, jadi lisensinya tak terverifikasi. Kalau Lup/Merpati bisa membuka halaman itu dan lisensinya domain publik, boleh diganti di sesi revisi.
 
 ## Klaim yang dibuang (tak bersumber / sumber bertentangan)
 - "Hanya 5 mahasiswa menilai di bawah 4" (DK) vs "hanya satu di bawah 4" (NANTES): bertentangan, dibuang.
@@ -69,3 +70,7 @@ Catatan angka Forer (sumber berbeda, jadi ditulis "sekitar 4,3 ... antara 4,26 d
 - Pembanding "3,5 juta ≈ sepertiga penduduk Jakarta": tidak bersumber, dibuang.
 - Nama penulis studi Teaching of Psychology (Gonthier dkk., Université de Nantes) hanya ada di Gigazine (dengan ejaan tidak konsisten) dan tidak ada di abstrak TOP; tidak disebut. psycnet.apa.org tidak bisa dibuka.
 - Dampak kesehatan mental: tidak diklaim.
+
+## Revisi 12.00 (Pena)
+- "kemungkinan besar berlaku untuk banyak orang" (bagian 6) menggantikan "hampir pasti berlaku untuk semua orang"; tidak ada klaim baru.
+- Saran opsional yang dipakai: "Menurut Weimann, orang dengan skor eksternal ..." → DK (bagian laporan Weimann 1982); "merangkum pelajarannya" (FUL); judul lengkap sumber Poškus (VU).
