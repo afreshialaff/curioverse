@@ -66,7 +66,7 @@ Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 - `TOLAK`: fakta inti salah/nggak bisa diverifikasi, sumber nggak cukup, atau topik melanggar bagian 5.
 
 ## 7. Kuota harian
-**Tepat satu artikel per hari, tanpa pengecualian** (`max_per_day` = 1). Ide dari inbox nggak menambah kuota: kalau user menitipkan beberapa ide sekaligus, Kompas mengambil satu dan sisanya antre di `inbox.md` untuk hari-hari berikutnya, satu per hari. Kalau hari itu nggak ada yang lolos, Merpati menerbitkan satu artikel dari `pipeline/reserve/` (cadangan yang sudah lolos review). Kualitas > kuantitas: lebih baik terbit 1 yang mantap daripada 3 yang setengah matang.
+**Tepat satu artikel per hari, tanpa pengecualian** (`max_per_day` = 1). Antrean jalan FIFO: Merpati menerbitkan isi `pipeline/reserve/` yang paling lama dulu, dan Kompas berhenti bikin ide baru selama reserve berisi 2 artikel atau lebih. Ide dari inbox nggak menambah kuota: kalau user menitipkan beberapa ide sekaligus, Kompas mengambil satu dan sisanya antre di `inbox.md` untuk hari-hari berikutnya, satu per hari. Kalau hari itu nggak ada yang lolos, Merpati menerbitkan satu artikel dari `pipeline/reserve/` (cadangan yang sudah lolos review). Kualitas > kuantitas: lebih baik terbit 1 yang mantap daripada 3 yang setengah matang.
 
 ## 8. Instagram (Kanvas, Layar, Lup sosial)
 - Satu post = satu artikel yang **sudah terbit** di web. Nggak boleh ada angka, nama, atau klaim yang nggak ada di artikel itu.
