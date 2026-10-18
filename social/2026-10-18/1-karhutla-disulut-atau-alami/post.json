@@ -30,9 +30,9 @@
     }
   ],
   "review": {
-    "status": "pending",
-    "by": null,
-    "notes": "Kanvas perbaiki sesuai temuan Lup 18 Okt: slide 2 kualifier 'tingkat kepercayaan tinggi'; slide 3 'sengaja atau lalai' dilepas dari atribusi WRI; slide 4 kotak biaya diganti batang proporsional (api 57 vs mekanis 850, skala batas atas), tanpa tumpang tindih. Caption sudah dibetulkan Lup. Perlu cek ulang Lup sebelum posting 18 Okt (posting kedua hari ini, atas persetujuan pemilik)."
+    "status": "lolos",
+    "by": "lup",
+    "notes": "Lup cek ulang 18 Okt (19.40 WIB, lewat jadwal 18.45): semua teks 7 slide JPG dan caption cocok dengan content/stories/karhutla-disulut-atau-alami.json: 1.297 titik panas tingkat kepercayaan tinggi per 14 Okt 2026 (di antaranya 505/346/330), WRI 'hampir semua disebabkan manusia' + hutan hujan/gambut terlalu lembap, The Nation US$28–57 vs US$566–850 per hektare, Ati Dwi Nurhayati/AFP, Cattau dkk. 2016 (Kalteng, 2000–2010, 68–71% vs 17–19%, catatan satu wilayah satu dekade), Doni Monardo 2019 'ada yang disengaja ada yang lalai'. Grafik proporsional: slide 4 batang 47 vs 700 px (57/850), slide 6 567 vs 151 px (71/19). 7 JPG 1080x1350 ada di repo. Caption tidak diubah. Catatan kecil (bukan salah fakta): slide 4 pakai kurung '(dibakar)'/'(alat berat)' dan 'alat berat' tidak tertulis di artikel (penjelas istilah mekanis); garis asap tipis di belakang kata 'hektare' dan retakan tanah di belakang baris akhir slide 5, masih terbaca. Lolos."
   },
   "post": {
     "status": "skipped"
