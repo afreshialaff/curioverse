@@ -1,0 +1,87 @@
+{
+  "id": "10000-langkah-angka-iklan",
+  "cat": "healthy",
+  "also": "science",
+  "date": "2026-10-20",
+  "title": "10.000 langkah sehari: angka dari nama pedometer, bukan resep dokter",
+  "dek": "Target default di jam pintar kita berasal dari nama alat penghitung langkah Jepang tahun 1960-an. Tiga studi besar menunjukkan manfaatnya sudah terasa jauh sebelum angka itu, dan di mana kurvanya mulai mendatar.",
+  "tags": "10000 langkah 10.000 langkah langkah per hari jalan kaki pedometer manpo-kei manpokei yamasa hatano smartwatch jam pintar step count olahraga kesehatan mortalitas who aktivitas fisik 7000 langkah",
+  "hook": "Target 10.000 langkah sehari kemungkinan besar berasal dari nama pedometer Jepang tahun 1965, \"Manpo-kei\" atau \"meteran 10.000 langkah\", bukan dari uji klinis.",
+  "path": "",
+  "image": {
+    "src": "https://npgallery.nps.gov/GetAsset/b0a14e8a-58e8-44a3-b27a-a6f5825a25c6/proxymdres.jpg",
+    "alt": "Beberapa orang berjalan kaki di jalur beraspal yang sedikit menanjak di antara pepohonan",
+    "caption": "Pengunjung berjalan di jalur Tower Fall Trailhead, Taman Nasional Yellowstone, 20 Agustus 2019.",
+    "credit": "NPS/Diane Renkin",
+    "license": "Public domain (National Park Service)",
+    "page": "https://npgallery.nps.gov/AssetDetail/b0a14e8a-58e8-44a3-b27a-a6f5825a25c6"
+  },
+  "sections": [
+    {
+      "h": "Dari mana angka 10.000 itu datang?",
+      "p": [
+        "Buka aplikasi kesehatan di HP atau jam pintar, dan kemungkinan besar targetnya sudah terpasang: 10.000 langkah. Kalau malam ini baru 6.000, lingkaran di layar belum penuh dan rasanya kayak gagal. Pertanyaannya, siapa yang memutuskan angka itu?",
+        "Para peneliti sendiri bilang asalnya nggak jelas. Dalam paper di JAMA Internal Medicine tahun 2019, I-Min Lee dan rekan-rekannya dari Harvard menulis bahwa asal target 10.000 langkah \"tidak jelas\". Dugaan terkuat mereka: nama sebuah pedometer yang dijual tahun 1965 oleh Yamasa Clock and Instrument Company di Jepang. Nama alat itu Manpo-kei, yang artinya kurang lebih \"meteran 10.000 langkah\".",
+        "Kepada Harvard Health Publishing, Lee bilang lebih lugas: \"The name was a marketing tool.\" Nama itu alat pemasaran. Angka bulat 10.000 enak diingat dan enak dijual, tapi bukan hasil uji klinis.",
+        "Ada versi lain yang sedikit berbeda. Artikel di situs Sasakawa Sports Foundation (2017) menceritakan bahwa Olimpiade Tokyo 1964, olimpiade pertama yang disiarkan ke seluruh dunia, bikin orang Jepang demam olahraga. Saat itu, menurut artikel yang sama, rata-rata orang Jepang berjalan 3.500 sampai 5.000 langkah per hari. Tim yang dipimpin Dr. Yoshiro Hatano lalu menyimpulkan bahwa menaikkan jumlah itu ke 10.000 bakal bagus buat kesehatan, dan Hatano disebut menjual pedometer bernama manpo-kei. Jadi sumbernya berbeda soal siapa penjualnya: paper JAMA menyebut produsen Yamasa, artikel SSF menyebut Hatano. Keduanya sepakat soal satu hal. SSF bahkan menyebut angka itu \"arbitrary\", alias dipilih begitu saja.",
+        "Kalau angkanya lahir dari pemasaran, apakah artinya salah? Belum tentu. Untuk tahu, kita perlu data orang yang langkahnya benar-benar diukur, lalu diikuti bertahun-tahun."
+      ]
+    },
+    {
+      "h": "Studi 16.741 perempuan: di mana manfaatnya mulai mendatar?",
+      "p": [
+        "Tim Lee melakukan persis itu. Mereka meminta 16.741 perempuan berusia 62 sampai 101 tahun (rata-rata 72 tahun) memakai akselerometer, alat pengukur gerak, selama tujuh hari antara 2011 dan 2015. Lalu para peserta diikuti rata-rata 4,3 tahun. Dalam periode itu, 504 orang meninggal.",
+        "Hasilnya membalik intuisi \"pokoknya harus 10.000\". Kelompok dengan median sekitar 2.718 langkah per hari dijadikan pembanding. Kelompok di atasnya, dengan median sekitar 4.363 langkah, punya hazard ratio 0,59. Artinya risiko meninggal selama periode studi sekitar 41% lebih rendah. Selisih langkahnya cuma sekitar 1.600 per hari.",
+        "Risiko terus turun seiring langkah bertambah, sampai sekitar 7.500 langkah per hari. Setelah itu kurvanya mendatar. Di populasi ini, langkah ke-8.000 sampai ke-10.000 hampir nggak menambah apa-apa untuk angka kematian.",
+        "Ada temuan kedua yang jarang dibahas. Lee dan timnya juga mengukur intensitas, misalnya berapa lama orang berjalan dengan ritme cepat. Setelah jumlah langkah total diperhitungkan, sebagian besar hubungan intensitas dengan kematian melemah dan nggak lagi signifikan. Di kelompok lansia ini, jumlah langkah lebih penting daripada kecepatannya.",
+        "Tapi pesertanya perempuan berusia rata-rata 72 tahun. Apakah polanya sama untuk orang yang jauh lebih muda?"
+      ]
+    },
+    {
+      "h": "Bagaimana dengan orang di bawah 60 tahun?",
+      "p": [
+        "Jawabannya datang dari meta-analisis Amanda Paluch dan rekan-rekan di The Lancet Public Health tahun 2022. Mereka menggabungkan data 15 kohort dari Amerika, Eropa, Jepang, Australia, dan satu studi lintas 40 negara. Totalnya 47.471 orang dewasa, diikuti dengan median 7,1 tahun, dengan 3.013 kematian.",
+        "Peserta dibagi empat kelompok sama besar menurut jumlah langkah. Median kelompok terbawah 3.553 langkah per hari. Dibanding kelompok itu, kelompok kedua (median 5.801 langkah) punya hazard ratio 0,60, kelompok ketiga (7.842 langkah) 0,55, dan kelompok teratas (10.901 langkah) 0,47. Lompatan terbesar terjadi di tangga pertama, dari sekitar 3.500 ke 5.800 langkah. Tangga-tangga berikutnya masih menurunkan risiko, tapi makin tipis.",
+        "Di sinilah usia mulai berperan. Untuk orang berusia 60 tahun ke atas, penurunan risiko mulai mendatar di sekitar 6.000 sampai 8.000 langkah per hari. Untuk orang di bawah 60 tahun, titik datarnya lebih tinggi: sekitar 8.000 sampai 10.000 langkah.",
+        "Jadi buat yang masih muda, 10.000 bukan angka ngawur. Angka itu berada di ujung atas rentang yang masih memberi manfaat. Bedanya, 10.000 bukan garis lulus. Soal kecepatan jalan, Paluch dan timnya menemukan bukti yang \"tidak konsisten\" bahwa intensitas punya hubungan dengan kematian di luar jumlah langkah total.",
+        "Tiga tahun kemudian, sebuah tim di Sydney mencoba merangkum lebih banyak lagi studi, dan bukan cuma soal kematian."
+      ]
+    },
+    {
+      "h": "Angka 7.000 dari 57 studi",
+      "p": [
+        "Tahun 2025, tim yang dipimpin Profesor Melody Ding dari University of Sydney menerbitkan tinjauan 57 studi (2014 sampai 2025, dari lebih dari sepuluh negara) di The Lancet Public Health. Mereka tidak cuma melihat kematian, tapi juga penyakit jantung, demensia, dan gejala depresi.",
+        "Dibanding orang yang berjalan 2.000 langkah per hari, orang yang berjalan 7.000 langkah punya risiko kematian 47% lebih rendah dan risiko demensia 38% lebih rendah. Untuk kematian, angka di 7.000 langkah hampir sama dengan di 10.000. Untuk demensia, naik dari 7.000 ke 10.000 langkah hanya menambah penurunan risiko sekitar 7%, menurut rilis universitas itu.",
+        "\"Aiming for 7000 steps is a realistic goal based on our findings,\" kata Ding dalam rilis yang dimuat ScienceDaily. Menargetkan 7.000 langkah itu realistis. Ding juga menekankan bahwa kenaikan kecil, misalnya dari 2.000 ke 4.000 langkah sehari, sudah terkait dengan manfaat kesehatan yang berarti.",
+        "Rekan penulisnya, Dr. Katherine Owen, menambahkan catatan penting supaya nggak ada yang salah tangkap: \"For people who are already active, 10,000 steps a day is great.\" Buat yang sudah aktif, 10.000 langkah tetap bagus. Hanya saja, menurut Owen, di atas 7.000 langkah manfaat tambahan untuk sebagian besar hasil kesehatan yang mereka teliti tergolong kecil."
+      ]
+    },
+    {
+      "h": "Mitos vs fakta: \"di bawah 10.000 = percuma\"",
+      "kind": "interpretasi",
+      "p": [
+        "Kalau tiga studi tadi dijejerkan, mitos yang paling perlu dibuang adalah rasa gagal karena lingkaran di layar belum penuh. Data justru menunjukkan perbedaan terbesar ada di langkah-langkah awal. Di studi Lee, beda sekitar 1.600 langkah per hari sudah terkait dengan risiko kematian yang jauh lebih rendah. Di studi Paluch, lompatan paling curam ada dari kelompok terbawah ke kelompok kedua.",
+        "Tapi kebalikannya juga mitos. Bilang \"10.000 langkah itu nggak berguna\" juga keliru. Untuk orang di bawah 60 tahun, Paluch menemukan manfaat masih bertambah sampai sekitar 8.000 sampai 10.000 langkah. Jadi yang perlu dikoreksi adalah anggapan bahwa 10.000 itu garis wajib, bukan angkanya.",
+        "Satu batas lagi yang jujurly sering dilupakan: semua studi ini observasional. Paluch dan timnya menulis terang-terangan bahwa kesimpulan sebab-akibat tidak bisa ditarik dari data mereka. Lee juga mengakui kemungkinan sebab-akibat terbalik: orang yang sudah lebih sehat wajar saja bisa berjalan lebih banyak. Karena itu yang tepat adalah \"lebih banyak langkah terkait dengan risiko lebih rendah\", bukan \"langkah menyebabkan umur panjang\"."
+      ]
+    },
+    {
+      "h": "WHO menghitung pakai menit, bukan langkah",
+      "kind": "opini",
+      "p": [
+        "Kalau kamu cari angka 10.000 di pedoman resmi Organisasi Kesehatan Dunia (WHO) tahun 2020, kamu nggak bakal ketemu. Pedoman yang dirangkum Fiona Bull dan rekan-rekan di British Journal of Sports Medicine itu ditulis dalam menit per minggu. Orang dewasa disarankan melakukan 150 sampai 300 menit aktivitas fisik intensitas sedang, atau 75 sampai 150 menit intensitas berat, plus latihan penguatan otot minimal dua hari seminggu. Tidak ada target jumlah langkah per hari di situ.",
+        "Jadi angka 10.000 di jam tanganmu adalah pengaturan bawaan, bukan resep dokter. Data yang ada mendukung langkah yang lebih sederhana: mulai dari jumlah langkahmu sekarang, lalu naikkan sedikit demi sedikit. Kalau sekarang di kisaran 3.000, tambahan beberapa ribu langkah sudah masuk zona yang menurut studi-studi ini paling banyak bedanya. Untuk target pribadi, terutama kalau punya kondisi kesehatan tertentu, tetap tanya tenaga kesehatan.",
+        "Pertanyaan di awal pun terjawab. Angka 10.000 lahir dari nama alat dan semangat Olimpiade, lalu sains datang belakangan untuk mengeceknya. Hasilnya: angka itu nggak salah, tapi lingkaran yang belum penuh juga bukan tanda kamu gagal."
+      ]
+    }
+  ],
+  "sources": [
+    { "t": "JAMA Internal Medicine (PDF di Stanford WHISH): Lee dkk. 2019, Association of Step Volume and Intensity With All-Cause Mortality in Older Women", "u": "https://whish.stanford.edu/wp-content/uploads/2019/10/Step-Volume-Intensity-Mortality_JAMA-IntMedicine-2019-.pdf" },
+    { "t": "Harvard Health Publishing: 10,000 steps a day, or fewer?", "u": "https://www.health.harvard.edu/blog/10000-steps-a-day-or-fewer-2019071117305" },
+    { "t": "PMC / The Lancet Public Health: Paluch dkk. 2022, Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts", "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9289978" },
+    { "t": "University of Sydney: Rethink the 10,000-a-day step goal, study suggests (2025)", "u": "https://www.sydney.edu.au/news-opinion/news/2025/07/24/rethink-the-10000-a-day-step-goal-study-suggests.html" },
+    { "t": "ScienceDaily: rilis University of Sydney tentang studi 7.000 langkah (Lancet Public Health 2025)", "u": "https://sciencedaily.com/releases/2025/07/250726234359.htm" },
+    { "t": "British Journal of Sports Medicine: Bull dkk. 2020, World Health Organization 2020 guidelines on physical activity and sedentary behaviour", "u": "https://bjsm.bmj.com/node/121498.full" },
+    { "t": "Sasakawa Sports Foundation: Manpo-kei (David Minton, 2017)", "u": "https://www.ssf.or.jp/international/uk/20171011.html" }
+  ]
+}
