@@ -3,6 +3,7 @@ import { mkdirSync, rmSync, writeFileSync, copyFileSync, readdirSync, existsSync
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { CATS, ORDER, A, HOLES, TOPIC_DESC, KINDS, SOURCES, CURATORS, CONTACT, PICKS, HOOKS, PIPELINE_IDS, IMAGES } from "../content/stories.mjs";
+import { QUIZ, TIMELINE } from "../content/lab-games.mjs";
 import { checkSite, report } from "./validate.mjs";
 
 // Quality gate first: if any story breaks the rules, the build fails and Vercel keeps the last good version live.
@@ -10,6 +11,10 @@ if (!report(checkSite({ CATS, A, SOURCES, KINDS, HOOKS, PICKS, HOLES, PIPELINE_I
   console.error("Build dihentikan. Perbaiki masalah di atas (lihat pipeline/RULES.md).");
   process.exit(1);
 }
+
+// Lab games must point at real stories, so "Baca ceritanya" never leads to a 404.
+const gameMiss = [...QUIZ, ...TIMELINE].filter(g => !A.some(a => a.id === g.id)).map(g => g.id);
+if (gameMiss.length) { console.error("Lab games: cerita tidak ditemukan: " + [...new Set(gameMiss)].join(", ")); process.exit(1); }
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "dist");
@@ -84,7 +89,7 @@ const MARK = `<svg viewBox="0 0 40 40" aria-hidden="true"><text class="c" x="20"
 
 const NAV = [
   { href:"/explore", label:"Explore", desc:"Semua cerita, filter per topik" },
-  { href:"/lab", label:"Lab", desc:"Simulasi: bunga majemuk, candlestick, cahaya" },
+  { href:"/lab", label:"Lab", desc:"Main dan simulasi: fakta atau hoaks, bunga majemuk, cahaya" },
   { href:"/reading-paths", label:"Reading Paths", desc:"Rabbit Holes: seri cerita yang nyambung" }
 ];
 
@@ -381,9 +386,10 @@ function home(){
     <div class="sec-row">${head("lab kepo", "Belajar sambil main", ' id="h-lab"')}<p class="lede rv">Konsep yang biasanya cuma dijelasin pakai teks, sekarang bisa kamu geser dan pencet sendiri.</p></div>
     <div class="lab-grid">
       <ul class="lab-list">
-        <li class="rv"><a href="/lab#bunga"><b>Bunga majemuk</b><small>Geser setoran dan waktu, lihat duitmu beranak</small><i class="arr" aria-hidden="true">↗</i></a></li>
-        <li class="rv" style="--i:1"><a href="/lab#candlestick"><b>Anatomi candlestick</b><small>Pencet tiap bagian lilin: open, high, low, close</small><i class="arr" aria-hidden="true">↗</i></a></li>
-        <li class="rv" style="--i:2"><a href="/lab#cahaya"><b>Delay cahaya</b><small>Dari Bulan sampai Andromeda, berapa lama cahaya jalan?</small><i class="arr" aria-hidden="true">↗</i></a></li>
+        <li class="rv"><a href="/lab#hoaks"><b>Fakta atau hoaks?</b><small>Tebak delapan pernyataan dari cerita kami, lihat skormu</small><i class="arr" aria-hidden="true">↗</i></a></li>
+        <li class="rv" style="--i:1"><a href="/lab#bunga"><b>Bunga majemuk</b><small>Geser setoran dan waktu, lihat duitmu beranak</small><i class="arr" aria-hidden="true">↗</i></a></li>
+        <li class="rv" style="--i:2"><a href="/lab#candlestick"><b>Anatomi candlestick</b><small>Pencet tiap bagian lilin: open, high, low, close</small><i class="arr" aria-hidden="true">↗</i></a></li>
+        <li class="rv" style="--i:3"><a href="/lab#cahaya"><b>Delay cahaya</b><small>Dari Bulan sampai Andromeda, berapa lama cahaya jalan?</small><i class="arr" aria-hidden="true">↗</i></a></li>
       </ul>
       <div class="scrap grow taped rv" style="--i:1" data-grow>
         <svg viewBox="0 0 400 236" role="img" aria-label="Contoh: menabung Rp500 ribu per bulan dengan bunga 6% per tahun selama 20 tahun menjadi sekitar ${short(maxB)}.">
@@ -502,11 +508,33 @@ function lab(){
   <p class="hand rv">${label.toLowerCase()}</p><h2 class="h2 rv-mask" id="h-${id}"><span>${title} ${accent}</span></h2><p class="lede rv">${lede}</p>
   <div class="panel rv">${inner}</div></div></section>`;
   const body = `
-${pageHead("Lab", "Lab Kepo", "belajar sambil pencet-pencet", "Tiga simulasi kecil buat ngerti konsep yang biasanya cuma dijelasin pakai teks. Bisa dipakai pakai mouse, sentuhan, atau keyboard.")}
+${pageHead("Lab", "Lab Kepo", "belajar sambil pencet-pencet", "Dua permainan cepat dan tiga simulasi kecil buat ngerti konsep yang biasanya cuma dijelasin pakai teks. Bisa dimainkan pakai mouse, sentuhan, atau keyboard.")}
 <nav class="lab-nav" aria-label="Lompat ke simulasi"><div class="wrap scroller"><div class="chips">
+  <a class="chip" href="#hoaks">${icon("dice")}Fakta atau Hoaks?</a><a class="chip" href="#duluan">${icon("sejarah")}Duluan mana?</a>
   <a class="chip" href="#bunga">${icon("finance")}Bunga majemuk</a><a class="chip" href="#candlestick">${icon("saham")}Anatomi candlestick</a><a class="chip" href="#cahaya">${icon("science")}Delay cahaya</a>
 </div></div></nav>
-${sec("bunga", "01", "Finance", "Duit kamu, kalau dikasih", "waktu.", `Ubah angkanya pakai slider atau ketik langsung. Konsepnya dijelasin di cerita <a class="link" href="/stories/majemuk">Bunga majemuk</a>.`, `<div class="panel-grid">
+${sec("hoaks", "01", "Main", "Fakta atau", "hoaks?", `Delapan pernyataan acak dari cerita-cerita di Curioverse. Tebak, lalu lihat penjelasannya. Tiap kali main, soalnya beda.`, `<div class="game" id="quiz">
+    <div class="game-top"><span class="game-step" data-step>Soal 1 dari 8</span><span class="game-score" data-score>Skor 0</span></div>
+    <ol class="game-dots" data-dots aria-hidden="true"></ol>
+    <div class="game-play" data-play>
+      <p class="quiz-q" data-q tabindex="-1"></p>
+      <div class="game-choices" role="group" aria-label="Jawabanmu"><button class="btn btn-primary" type="button" data-ans="1">Fakta</button><button class="btn btn-ghost" type="button" data-ans="0">Hoaks</button></div>
+      <div class="game-fb" data-fb aria-live="polite"></div>
+    </div>
+    <div class="game-end" data-end hidden></div>
+  </div>`)}
+${sec("duluan", "02", "Main", "Duluan", "mana?", `Dua kejadian dari cerita-cerita kami. Pilih yang terjadi lebih dulu. Ada yang selisihnya ratusan tahun, ada yang cuma dua tahun.`, `<div class="game" id="order">
+    <div class="game-top"><span class="game-step" data-step>Ronde 1 dari 8</span><span class="game-score" data-score>Skor 0</span></div>
+    <ol class="game-dots" data-dots aria-hidden="true"></ol>
+    <div class="game-play" data-play>
+      <p class="order-ask" data-q tabindex="-1">Mana yang terjadi lebih dulu?</p>
+      <div class="order-pair" role="group" aria-label="Pilih kejadian yang lebih dulu" data-pair></div>
+      <div class="game-fb" data-fb aria-live="polite"></div>
+    </div>
+    <div class="game-end" data-end hidden></div>
+  </div>`)}
+<script type="application/json" id="lab-games">${JSON.stringify({ quiz:QUIZ, timeline:TIMELINE, titles:Object.fromEntries([...new Set([...QUIZ, ...TIMELINE].map(g => g.id))].map(id => [id, A.find(a => a.id === id).title])) }).replace(/</g, "\\u003c")}</script>
+${sec("bunga", "03", "Finance", "Duit kamu, kalau dikasih", "waktu.", `Ubah angkanya pakai slider atau ketik langsung. Konsepnya dijelasin di cerita <a class="link" href="/stories/majemuk">Bunga majemuk</a>.`, `<div class="panel-grid">
     <div class="vstack">
       ${[["start","Setoran awal","Rp",0,100000000,500000,5000000],["month","Nabung per bulan","Rp",0,10000000,100000,500000],["rate","Bunga per tahun","%",1,15,.5,6],["years","Lama waktu","tahun",1,40,1,15]].map(([k,l,u,mn,mx,st,v]) => `<div class="ctrl">
         <div class="ctrl-top"><label for="r-${k}">${l}</label><label class="num" for="n-${k}">${u === "Rp" ? "<span>Rp</span>" : ""}<input id="n-${k}" type="text" inputmode="${u === "%" ? "decimal" : "numeric"}" aria-label="${l} (angka)">${u !== "Rp" ? `<span>${u}</span>` : ""}</label></div>
@@ -522,7 +550,7 @@ ${sec("bunga", "01", "Finance", "Duit kamu, kalau dikasih", "waktu.", `Ubah angk
       <p class="summary" id="o-sum" aria-live="polite"></p>
     </div>
   </div>`)}
-${sec("candlestick", "02", "Saham", "Satu lilin, empat", "harga.", `Pilih bagian lilinnya, lewat tombol atau langsung di gambar. Bacaan lengkapnya di <a class="link" href="/stories/candle">Cara baca candlestick</a>.`, `<div class="panel-grid">
+${sec("candlestick", "04", "Saham", "Satu lilin, empat", "harga.", `Pilih bagian lilinnya, lewat tombol atau langsung di gambar. Bacaan lengkapnya di <a class="link" href="/stories/candle">Cara baca candlestick</a>.`, `<div class="panel-grid">
     <div class="vstack">
       <div class="parts" id="parts" role="group" aria-label="Bagian candlestick">${["high","open","close","low","body","wick"].map(p => `<button class="chip" type="button" data-part="${p}" aria-pressed="false">${p[0].toUpperCase() + p.slice(1)}</button>`).join("")}</div>
       <div class="explain" id="explain" aria-live="polite"><b>Mulai dari mana aja.</b> Tiap lilin merangkum satu periode, misalnya satu hari perdagangan.</div>
@@ -538,7 +566,7 @@ ${sec("candlestick", "02", "Saham", "Satu lilin, empat", "harga.", `Pilih bagian
       <rect class="hit" data-part="wick" x="270" y="44" width="40" height="52" fill="transparent"/><rect class="hit" data-part="body" x="260" y="96" width="60" height="104" fill="transparent"/><rect class="hit" data-part="wick" x="270" y="200" width="40" height="74" fill="transparent"/>
     </svg>
   </div>`)}
-${sec("cahaya", "03", "Science", "Cahaya yang kamu lihat itu", "masa lalu.", `Pilih sumber cahayanya. Bacaan lengkapnya di <a class="link" href="/stories/cahaya">Bintang yang kamu lihat malam ini</a>.`, `<div class="vstack">
+${sec("cahaya", "05", "Science", "Cahaya yang kamu lihat itu", "masa lalu.", `Pilih sumber cahayanya. Bacaan lengkapnya di <a class="link" href="/stories/cahaya">Bintang yang kamu lihat malam ini</a>.`, `<div class="vstack">
     <div class="seg" id="lightSeg" role="radiogroup" aria-label="Pilih sumber cahaya"></div>
     <svg class="light-svg" viewBox="0 0 720 120" aria-hidden="true">
       <line class="track" x1="40" y1="60" x2="680" y2="60" stroke-width="2"/><circle cx="40" cy="60" r="14" fill="var(--blue)"/><text x="40" y="104" text-anchor="middle">BUMI</text>
@@ -548,7 +576,7 @@ ${sec("cahaya", "03", "Science", "Cahaya yang kamu lihat itu", "masa lalu.", `Pi
     <p id="lightFun" class="lede"></p>
     <p class="note">Animasinya pakai skala logaritmik biar Bulan dan Andromeda muat di satu layar. Angka jarak adalah perkiraan rata-rata.</p>
   </div>`)}`;
-  return page({ path:"/lab", title:"Lab Kepo", desc:"Simulasi interaktif Curioverse: kalkulator bunga majemuk, anatomi candlestick saham, dan waktu tempuh cahaya dari Bulan sampai Andromeda.", body, active:"/lab", scripts:["lab.js"] });
+  return page({ path:"/lab", title:"Lab Kepo", desc:"Permainan dan simulasi interaktif Curioverse: tebak fakta atau hoaks, urutkan kejadian sejarah, kalkulator bunga majemuk, anatomi candlestick saham, dan waktu tempuh cahaya dari Bulan sampai Andromeda.", body, active:"/lab", scripts:["lab.js"] });
 }
 
 function story(a){
