@@ -1,0 +1,1 @@
+Tidak ada draf di `pipeline/runs/2026-10-19/drafts/` (brief Kompas: antrean penuh, tidak ada brief baru); dua artikel di `reserve/` (mandiri-gadai-saham-haji-isam-msci, perang-dan-teknologi-sehari-hari) sudah punya review di `runs/2026-10-18/review/` dan versi reserve identik dengan `final/` yang dicek Merpati, jadi tidak ada yang perlu direview hari ini.
