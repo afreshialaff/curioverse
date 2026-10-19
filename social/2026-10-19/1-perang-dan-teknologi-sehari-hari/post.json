@@ -5,10 +5,11 @@
   "type": "carousel",
   "made_by": "kanvas",
   "canva_design": "https://canva.link/ahxbg7tifo678k9",
-  "caption": "",
+  "caption": "Microwave, penisilin, dan GPS punya masa lalu militer, tapi perang lebih sering mempercepat teknologi itu daripada menciptakannya.\n\nDi Amerika Serikat, pemercepatnya bernama OSRD atau Office of Scientific Research and Development. Menurut ekonom Daniel Gross dan Bhaven Sampat, lembaga ini tumbuh dari 8 orang jadi 1.500 orang dengan anggaran miliaran dolar. Laboratorium disambungkan langsung ke pabrik.\n\nSampai Maret 1942, empat perusahaan obat AS baru menghasilkan penisilin yang cukup untuk satu pasien. Menurut majalah The Chemical Engineer, 90% penisilin yang menyertai pendaratan Sekutu pada D-Day 1944 dibuat Pfizer. Harganya mahal: National WWII Museum mencatat sekitar 15 juta kematian di medan tempur dan 45 juta warga sipil di Perang Dunia II, dengan estimasi yang sangat beragam.\n\nA curious mind lives here.\n\n#sejarah #teknologi #perangduniaII #penisilin #curioverse",
   "media": [
     {
-      "file": "slide-1.jpg"
+      "file": "slide-1.jpg",
+      "remote": "https://export-download.canva.com/BH6GA/DAHYcCBH6GA/-1/0/0001-3579755259907830715.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261018%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261018T193845Z&X-Amz-Expires=54314&X-Amz-Signature=33d49caa99ecabacf1613c84427159aeddec5ed0e7adc7f3dcea24cbed555b5a&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Mon%2C%2019%20Oct%202026%2010%3A43%3A59%20GMT"
     },
     {
       "file": "slide-2.jpg"
@@ -42,5 +43,23 @@
   },
   "post": {
     "status": "queued"
+  },
+  "editor": {
+    "by": "corong",
+    "skor": {
+      "sampul": 4,
+      "judul_berantai": 5,
+      "orang_asing": 4,
+      "jargon": 4,
+      "angka": 4,
+      "atribusi": 4,
+      "bahasa": 4,
+      "visual": 4,
+      "tata_letak": 4,
+      "keterbacaan": 4,
+      "penutup": 4,
+      "caption": 5
+    },
+    "diubah": "Canva slide 1: subjudul 'Jejak militer benda di sekitarmu, mitosnya, dan harganya.' (rangkaian tiga, bahasa.md bagian 2) diganti kalimat dek artikel 'Banyak benda di sekitarmu punya masa lalu militer.' Commit, ekspor ulang slide 1, remote diganti, slide-1.jpg lama dihapus. Slide 2–9 tidak diubah. Caption BBC 3 paragraf (118 kata) + hashtag."
   }
 }
