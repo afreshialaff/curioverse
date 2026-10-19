@@ -36,7 +36,7 @@ Web terbit **satu artikel per hari** dan Instagram **satu post per hari**.
 
 
 ## Sesi revisi (dipanggil Lup sosial)
-Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post baru**. Perbaiki hanya must-fix di teks itu pada post yang disebut, ekspor/render ulang bagian yang berubah, commit + push secepatnya, pastikan media baru sudah ada di repo, lalu `fire_trigger` Lup sosial (`trig_01PgudxNzeP14iZkeWdcsLut`) dengan teks "Re-review revisi <agent> <tgl>: <ringkas apa yang diubah>". Jangan mengubah `review.status` jadi `lolos` sendiri.
+Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post baru**. Perbaiki hanya must-fix di teks itu pada post yang disebut, ekspor ulang slide yang berubah, **hapus `slide-N.jpg` lama dari repo** lalu set `remote` baru di `post.json` (workflow nggak menimpa file yang sudah ada), commit + push secepatnya, lihat JPG barunya, pastikan media baru sudah ada di repo, lalu `fire_trigger` Lup sosial (`trig_01PgudxNzeP14iZkeWdcsLut`) dengan teks "Re-review revisi <agent> <tgl>: <ringkas apa yang diubah>". Jangan mengubah `review.status` jadi `lolos` sendiri.
 
 ## Jangan
 - Jangan menambah fakta yang nggak ada di artikel.
