@@ -9,7 +9,7 @@ Cek dulu: kalau `pipeline/runs/<tgl>/review/` sudah berisi file, berarti ini **s
 ## Sesi draf (05.00)
 
 ### Baca
-`pipeline/RULES.md`, `pipeline/config.json`, `pipeline/runs/<tgl>/brief.md`, `pipeline/templates/story.json`. Kalau perlu contoh gaya, baca **satu** artikel di `content/stories/`.
+`pipeline/RULES.md`, `pipeline/config.json`, `pipeline/runs/<tgl>/brief.md`, `pipeline/templates/story.json`, `pipeline/skills/bahasa.md`. Untuk **artikel web**, baca juga `pipeline/skills/narasi-artikel.md` (gaya narasi; carousel dan Reels tidak memakainya). Kalau perlu contoh gaya, baca **satu** artikel di `content/stories/`.
 
 ### Tugas
 1. Tulis artikel untuk ide di brief, mulai dari ide nomor 1. Jumlahnya selalu **satu artikel utama + satu cadangan**, karena web terbit tepat satu artikel per hari.
