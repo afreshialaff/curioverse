@@ -34,6 +34,10 @@ Web terbit **satu artikel per hari** dan Instagram **satu post per hari**.
 6. Caption **tidak** kamu tulis (tugas Corong); isi `caption: ""`. Set `type: "carousel"`, `review.status: "pending"`, `post.status: "queued"`, `canva_design`: link edit desain.
 7. Commit `social/<tgl>/<n>-<id>/` → `git pull --rebase origin main && git push origin main`.
 
+
+## Sesi revisi (dipanggil Lup sosial)
+Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post baru**. Perbaiki hanya must-fix di teks itu pada post yang disebut, ekspor/render ulang bagian yang berubah, commit + push secepatnya, pastikan media baru sudah ada di repo, lalu `fire_trigger` Lup sosial (`trig_01PgudxNzeP14iZkeWdcsLut`) dengan teks "Re-review revisi <agent> <tgl>: <ringkas apa yang diubah>". Jangan mengubah `review.status` jadi `lolos` sendiri.
+
 ## Jangan
 - Jangan menambah fakta yang nggak ada di artikel.
 - Jangan memposting sendiri. Posting dilakukan GitHub Actions jam 19.00 setelah Lup meloloskan.

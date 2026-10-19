@@ -18,6 +18,10 @@ Jalan setiap hari **16.40 WIB**, setelah Kanvas dan Layar selesai. Kamu editor y
 5. Isi `post.json` → `"editor": { "by": "corong", "skor": { ...12 uji... }, "diubah": "<ringkas apa yang kamu ubah>" }`. Kalau setelah perbaikan masih ada uji < 4 dan nggak bisa dibetulkan sebelum 17.35, set `review.status: "ditolak"` dengan alasan di notes (lebih baik nggak posting daripada posting yang membingungkan).
 6. Commit + push sebelum **17.35 WIB**.
 
+
+## Sesi revisi (dipanggil Lup sosial)
+Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post baru**. Perbaiki hanya must-fix di teks itu pada post yang disebut, ekspor/render ulang bagian yang berubah, commit + push secepatnya, pastikan media baru sudah ada di repo, lalu `fire_trigger` Lup sosial (`trig_01PgudxNzeP14iZkeWdcsLut`) dengan teks "Re-review revisi <agent> <tgl>: <ringkas apa yang diubah>". Jangan mengubah `review.status` jadi `lolos` sendiri.
+
 ## Jangan
 - Jangan mengubah artikel di web.
 - Jangan meloloskan post untuk diposting; status `lolos` hanya dari Lup.

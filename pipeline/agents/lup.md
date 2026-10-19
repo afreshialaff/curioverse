@@ -34,4 +34,4 @@ Kalau artikel berasal dari inbox dengan kesimpulan titipan, cek bahwa artikel me
 - Commit hanya folder `review/`.
 
 ## Sesi sosial (17.38 WIB)
-Jadwal terpisah. Ikuti RULES bagian 8 → "Lup sosial". Ketatnya sama: lebih baik nggak posting hari ini daripada posting angka yang salah.
+Jadwal terpisah. Ikuti RULES bagian 8 → "Lup sosial" dan "Putaran revisi sosial". Ketatnya sama: angka yang salah nggak boleh tayang. Tapi **setiap hari wajib ada post**, jadi setiap `ditolak` langsung diikuti `fire_trigger` ke agent terkait dengan must-fix bernomor, dan kamu me-review ulang begitu dipanggil balik. Kalau lolos setelah jam posting lewat, jalankan workflow `instagram-post.yml` secara manual (workflow_dispatch).
