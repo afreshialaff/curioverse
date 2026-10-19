@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Dua kolom yang membandingkan jumlah asumsi dua penjelasan untuk kejadian ketindihan di malam hari">
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+
+<text x="100" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#1B1A17" font-weight="700">Hitung asumsinya</text>
+<text x="100" y="170" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F">Kejadian: bangun tengah malam, badan kaku, terasa ada sosok di kamar</text>
+<g transform="translate(150 215)"><rect width="1300" height="80" rx="16" fill="#F1ECE1" stroke="#A67C52" stroke-width="3" stroke-dasharray="12 8"/>
+<text x="650" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#1B1A17" text-anchor="middle" font-style="italic">Pisau Ockham: jangan menambah asumsi kalau yang sudah ada cukup</text></g>
+<g transform="translate(150 330)">
+  <rect width="620" height="430" rx="18" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+  <rect width="620" height="70" rx="18" fill="#3F4A3B"/><rect y="50" width="620" height="20" fill="#3F4A3B"/>
+  <text x="310" y="48" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#F1ECE1" font-weight="700" text-anchor="middle">PENJELASAN 1: KETINDIHAN</text>
+  <circle cx="44" cy="128" r="8" fill="#3F4A3B"/><text x="70" y="138" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#1B1A17">Otot lumpuh saat tidur REM (sudah terukur)</text><circle cx="44" cy="190" r="8" fill="#3F4A3B"/><text x="70" y="200" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#1B1A17">Mimpi bocor ke saat setengah sadar</text><circle cx="44" cy="252" r="8" fill="#3F4A3B"/><text x="70" y="262" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#1B1A17">Lebih sering kalau kurang tidur</text>
+  <rect x="30" y="340" width="560" height="60" rx="10" fill="#E1D8C6"/><text x="310" y="380" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#3F4A3B" font-weight="700" text-anchor="middle">Tidak butuh entitas baru</text>
+</g>
+<g transform="translate(830 330)">
+  <rect width="620" height="430" rx="18" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+  <rect width="620" height="70" rx="18" fill="#7A5532"/><rect y="50" width="620" height="20" fill="#7A5532"/>
+  <text x="310" y="48" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#F1ECE1" font-weight="700" text-anchor="middle">PENJELASAN 2: SOSOK DARI LUAR</text>
+  <circle cx="44" cy="128" r="8" fill="#7A5532"/><text x="70" y="138" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#1B1A17">Ada sosok yang datang ke kamar</text><circle cx="44" cy="190" r="8" fill="#7A5532"/><text x="70" y="200" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#1B1A17">Ia bisa menekan dada tanpa jejak</text><circle cx="44" cy="252" r="8" fill="#7A5532"/><text x="70" y="262" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#1B1A17">Mekanismenya belum bisa diukur</text>
+  <rect x="30" y="340" width="560" height="60" rx="10" fill="#E1D8C6"/><text x="310" y="380" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#7A5532" font-weight="700" text-anchor="middle">Butuh entitas + mekanisme baru</text>
+</g>
+<text x="1540" y="846" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#4D483F" text-anchor="end">Ilustrasi: Curioverse · alat berpikir, bukan penilaian atas keyakinan</text>
+</svg>

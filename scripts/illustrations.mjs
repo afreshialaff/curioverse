@@ -261,3 +261,63 @@ ${col(830, "REPO", C.goldT, ["Kepemilikan saham pindah dulu", "Diwajibkan POJK 9
 ${tl}`;
   save("mandiri-gadai-saham-haji-isam-msci-v1.svg", frame("Dua kolom gadai saham dan repo, dengan garis waktu Januari sampai 15 Oktober 2026", body, "Ilustrasi: Curioverse · skema disederhanakan, tanpa skala waktu"));
 }
+
+/* 11. dark-triad: tiga ciri yang tumpang tindih (Paulhus &amp; Williams, 2002) + masuk vs berprestasi */
+{
+  const ring = (cx, cy, color) => `<circle cx="${cx}" cy="${cy}" r="165" fill="${color}" fill-opacity=".16" stroke="${color}" stroke-width="5"/>`;
+  const lab = (x, y, color, label, sub) => `<rect x="${x - 165}" y="${y - 38}" width="330" height="86" rx="14" fill="${C.card}" stroke="${color}" stroke-width="2"/>${t(x, y, 32, label, { a: "middle", w: 700, c: color })}${t(x, y + 34, 23, sub, { a: "middle", c: C.mute })}`;
+  const row = (y, a, b, color) => `<circle cx="1062" cy="${y - 9}" r="9" fill="${color}"/>${t(1084, y, 27, a, { w: 700 })}${t(1084, y + 34, 24, b, { c: C.mute })}`;
+  const body = `
+${t(100, 120, 60, "Tiga sisi gelap, satu inti", { f: SERIF, w: 700 })}
+${t(100, 170, 30, "Paulhus &amp; Williams (2002): tumpang tindih, tapi bukan hal yang sama", { c: C.mute })}
+${ring(420, 400, C.goldT)}${ring(640, 400, C.down)}${ring(530, 580, C.moss)}
+${lab(230, 250, C.goldT, "Narsisme", "merasa istimewa")}
+${lab(830, 250, C.down, "Machiavellianisme", "manipulatif")}
+${lab(530, 790, C.moss, "Psikopati", "impulsif, minim empati")}
+<circle cx="530" cy="460" r="58" fill="${C.card}" stroke="${C.ink}" stroke-width="3"/>
+${t(530, 452, 22, "kurang", { a: "middle", w: 700 })}${t(530, 480, 22, "ramah", { a: "middle", w: 700 })}
+<g transform="translate(1020 250)"><rect width="500" height="500" rx="18" fill="${C.card}" stroke="${C.line}" stroke-width="3"/></g>
+${t(1062, 310, 30, "Naik vs berprestasi", { f: SERIF, w: 700 })}
+${row(380, "Narsisme", "gaji lebih tinggi (Spurk dkk.)", C.goldT)}
+${row(470, "Machiavellianisme", "lebih sering jadi atasan", C.down)}
+${row(560, "Psikopati", "gaji &amp; posisi justru lebih rendah", C.moss)}
+<line x1="1062" x2="1478" y1="625" y2="625" stroke="${C.line}" stroke-width="2"/>
+${t(1062, 670, 26, "Kinerja kerja: hampir nol", { w: 700, c: C.ink })}
+${t(1062, 706, 24, "~1% variasi (O'Boyle dkk., 2012)", { c: C.mute })}`;
+  save("dark-triad-v1.svg", frame("Diagram tiga lingkaran narsisme, Machiavellianisme, dan psikopati yang tumpang tindih, dengan ringkasan hubungannya dengan karier", body, "Ilustrasi: Curioverse · disederhanakan dari riset yang dikutip"));
+}
+
+/* 12. pisau-ockham-hantu: hitung asumsi untuk satu kejadian ketindihan */
+{
+  const col = (x, head, color, lines, foot) => `<g transform="translate(${x} 330)">
+  <rect width="620" height="430" rx="18" fill="${C.card}" stroke="${C.line}" stroke-width="3"/>
+  <rect width="620" height="70" rx="18" fill="${color}"/><rect y="50" width="620" height="20" fill="${color}"/>
+  ${t(310, 48, 32, head, { a: "middle", w: 700, c: C.card })}
+  ${lines.map((l, i) => `<circle cx="44" cy="${128 + i * 62}" r="8" fill="${color}"/>${t(70, 138 + i * 62, 26, l)}`).join("")}
+  <rect x="30" y="340" width="560" height="60" rx="10" fill="${C.bg2}"/>${t(310, 380, 26, foot, { a: "middle", w: 700, c: color })}
+</g>`;
+  const body = `
+${t(100, 120, 60, "Hitung asumsinya", { f: SERIF, w: 700 })}
+${t(100, 170, 30, "Kejadian: bangun tengah malam, badan kaku, terasa ada sosok di kamar", { c: C.mute })}
+<g transform="translate(150 215)"><rect width="1300" height="80" rx="16" fill="${C.card}" stroke="${C.gold}" stroke-width="3" stroke-dasharray="12 8"/>
+${t(650, 52, 28, "Pisau Ockham: jangan menambah asumsi kalau yang sudah ada cukup", { a: "middle", f: SERIF, i: 1 })}</g>
+${col(150, "PENJELASAN 1: KETINDIHAN", C.moss, ["Otot lumpuh saat tidur REM (sudah terukur)", "Mimpi bocor ke saat setengah sadar", "Lebih sering kalau kurang tidur"], "Tidak butuh entitas baru")}
+${col(830, "PENJELASAN 2: SOSOK DARI LUAR", C.goldT, ["Ada sosok yang datang ke kamar", "Ia bisa menekan dada tanpa jejak", "Mekanismenya belum bisa diukur"], "Butuh entitas + mekanisme baru")}`;
+  save("pisau-ockham-hantu-v1.svg", frame("Dua kolom yang membandingkan jumlah asumsi dua penjelasan untuk kejadian ketindihan di malam hari", body, "Ilustrasi: Curioverse · alat berpikir, bukan penilaian atas keyakinan"));
+}
+
+/* 13. halo-effect: Landy &amp; Sigall (1974), nilai esai menurut foto penulis */
+{
+  const X0 = 260, Y0 = 735, H = 420 / 9;
+  const bar = (x, v, color) => `<rect x="${x}" y="${Y0 - v * H}" width="130" height="${v * H}" rx="8" fill="${color}"/>${t(x + 65, Y0 - v * H - 18, 32, String(v).replace(".", ","), { a: "middle", w: 700 })}`;
+  const key = (x, color, lab) => `<rect x="${x}" y="222" width="34" height="34" rx="6" fill="${color}"/>${t(x + 48, 249, 26, lab)}`;
+  const grp = (x, title, [a, c, u]) => `${bar(x, a, C.gold)}${bar(x + 150, c, C.line)}${bar(x + 300, u, C.blue)}${t(x + 215, Y0 + 50, 30, title, { a: "middle", w: 700 })}`;
+  const body = `
+${t(100, 120, 60, "Esai yang sama, nilai yang beda", { f: SERIF, w: 700 })}
+${t(100, 170, 30, "Landy &amp; Sigall (1974): 60 mahasiswa menilai esai, skala 1–9", { c: C.mute })}
+${key(260, C.gold, "foto penulis menarik")}${key(640, C.line, "tanpa foto")}${key(900, C.blue, "foto penulis tidak menarik")}
+<line x1="${X0 - 40}" x2="1460" y1="${Y0}" y2="${Y0}" stroke="${C.ink}" stroke-width="3"/>
+${grp(X0, "Esai bagus", [6.7, 6.6, 5.9])}
+${grp(X0 + 640, "Esai jelek", [5.2, 4.7, 2.7])}`;
+  save("halo-effect-v1.svg", frame("Grafik batang nilai esai bagus dan jelek menurut foto penulis: menarik, tanpa foto, tidak menarik", body, "Ilustrasi: Curioverse · data Landy &amp; Sigall (1974)"));
+}
