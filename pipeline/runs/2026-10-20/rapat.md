@@ -58,3 +58,48 @@ Usulan Kompas dan Layar sudah tertulis di usulan-kompas.md dan usulan-layar.md, 
 
 ## Catatan untuk besok
 Hal yang paling perlu diperhatikan besok: apakah Pena menjawab must-fix mandiri, dan apakah data insight 20 Okt sudah masuk sebelum rapat 21 Okt. Kendala hari ini: data performa belum ada, dan BBC Indonesia tidak bisa dibuka dari sesi ini.
+
+---
+
+# Rapat kedua · 20.30 WIB · agenda dadakan pemilik
+
+Dasar: `pipeline/rapat/agenda-dadakan-2026-10-20.md` (58d9462). Bagian ini menambah rapat pertama di atas, tidak menggantikannya.
+
+## A. Koreksi dari rapat pertama
+- Post Reels 10.000 langkah sudah tercatat `posted` di `post.json`: 13:18:28 UTC (20.18 WIB), permalink https://www.instagram.com/reel/Det69iKFWcM/. Jadwal 19.00 WIB. Penyebab keterlambatan belum saya telusuri. Status "queued" di pembukaan rapat pertama sudah tidak berlaku.
+- Angka "+35%" untuk Reels di viral-log dan referensi tidak saya temukan di halaman siaran pers Metricool (16 Jun 2026). Yang tertulis di sana: watch time Reels lebih dari dua kali lipat YoY menjadi 8,5 detik; carousel saves sekitar 9 kali foto tunggal. Data itu lintas 375.118 akun, bukan akun kita. Halaman itu terakhir diperbarui 22 Jun 2026, bukan 1 Juli. Koreksinya ditulis di viral-log.
+
+## B. Agenda 1: format Reels (dicek ke frame dan source)
+- Judul sampul memang kabur di 0,5 detik pertama (frame 0,5 dtk: "Target 10.000" masih blur). Ini terkonfirmasi.
+- Pengamatan pemilik "judul diulang di frame 5 dan 30" tidak terkonfirmasi. Frame 5 menampilkan judul sekali. Frame 30 menampilkan adegan 4 yang batangnya masih muncul bertahap (source `index.html` baris 109 sampai 110). Judul hanya ada di adegan 1 (source baris 67). Perlu dicek ulang pemilik, mungkin pengamatan dari render sebelumnya.
+- Judul sampul berisi "bukan resep dokter" di baris yang sama dengan kalimat pertama. Itu bukan pengulangan, tetapi judul sampul terlalu panjang: sembilan kata dalam empat baris di 100 px.
+- `naskah.md` masih memuat "ternyata nama pedometer" di adegan 1, sedangkan source sudah "diduga berasal". Naskah tidak diperbarui setelah Corong mengubah sampul.
+
+## C. Jawaban per agen (satu usulan dan cara mengukurnya)
+- **Layar:** hook 0–2 detik berupa foto subjek (pedometer) plus judul pendek di bawahnya, maksimal 8 kata. Ukur: frame 0,5 dtk dan 2 dtk terbaca penuh saat Lup sosial memeriksa. Batasnya: foto harus berlisensi dan pemilik harus menyetujui foto dari Wikimedia Commons (agenda poin 5, belum disetujui).
+- **Pena:** tidak ada kebuntuan alur hari ini, jadi tidak ada usulan baru untuk alur.
+- **Kompas:** untuk video 35 sampai 55 detik, sudut terbaik adalah satu pertanyaan yang dijawab adegan pertama, misalnya "kenapa 10.000?". Ukur: enam adegan selesai di dalam 55 detik dengan waktu baca 0,4 dtk per kata.
+- **Corong:** caption sudah menambah konteks lewat paragraf 1 (Manpo-kei dijelaskan di kalimat yang sama). Tidak ada usulan.
+- **Kanvas:** chrome dan kartu sumber bisa dipakai ulang di Reels. Tidak ada karya hari ini, jadi tidak dievaluasi.
+- **Lup sosial:** tambahkan cek frame 0,5 dtk dan 2 dtk, serta cek bahwa animasi grafik sudah selesai di frame yang dibaca. Ukur: tidak ada frame yang menampilkan batang grafik masih bertahap.
+- **Hope:** format per adegan memang berbeda (sampul, mekanisme, angka, plot twist, penutup). Variasi format antar Reels sebaiknya diuji dengan dua hipotesis di viral-log, bukan diputuskan sekarang.
+
+## D. Pemantauan viral (Hope)
+- H3, keyakinan rendah: Reels dengan foto subjek di 2 detik pertama mendapat rata-rata tonton 3 detik lebih tinggi daripada Reels dengan teks saja. Dasar: pencarian pola 20 Okt 2026 (blog vendor, bukan data resmi) dan studi Metricool 16 Jun 2026 (watch time naik). Uji: bandingkan retensi 3 detik dari ig-insights untuk Reels format lama dan baru, minimal 3 Reels per format. Data akun kita belum tersedia.
+- Pencarian Instagram Indonesia hari ini hanya menemukan blog vendor. Tidak ada yang dijadikan dasar keputusan.
+
+## E. Keputusan (dua dari tiga slot hari ini)
+1. **Layar:** hook 0–2 detik, judul muncul sekali, teks layar minimal 36 px untuk isi dan 60 px untuk angka. Disetujui rapat untuk Reels 22 Okt (tanggal genap). Pemilik: Layar. Selesai: Reels 22 Okt lolos Lup sosial dengan frame 0,5 dtk dan 2 dtk terbaca penuh. Dicatat di `usulan-layar.md`.
+2. **Layar:** `naskah.md` ikut diperbarui setiap kali sampul diubah pihak lain. Pemilik: Layar. Selesai: naskah dan source sampul sama pada Reels 22 Okt.
+- Keputusan pemilik yang masih menunggu: foto Wikimedia untuk hook (agenda poin 5) dan dua skill yang disarankan (lihat `permintaan-skill.md`).
+
+## F. Kebutuhan skill
+- Dua entri baru di `pipeline/rapat/permintaan-skill.md`: plugin Social Media Skills dan Windsor.ai. Keduanya menunggu keputusan pemilik. Windsor.ai berpotensi mengisi kekosongan data insight.
+
+## G. Pemantauan data
+- Workflow "Ambil insight Instagram" (`instagram-insights.yml`) dibuat 11.17 WIB hari ini. Sampai pukul 20.30 WIB, GitHub Actions tidak mencatat satu pun run untuk workflow itu, padahal jadwalnya 20.00 WIB. `ig-insights/` masih kosong. Penyebabnya belum diketahui dari sesi ini. Pemilik perlu mengecek jadwal workflow di GitHub.
+
+## Catatan untuk besok
+- 21 Okt ganjil, jatah Kanvas (carousel). 22 Okt genap, jatah Layar (Reels), dan di situ keputusan 1 dan 2 diuji.
+- Hal yang paling perlu diperhatikan besok: apakah insight 19 dan 20 Okt sudah masuk. Kalau belum, workflow perlu dicek.
+- Kendala hari ini: data performa belum ada, BBC Indonesia tidak bisa dibuka dari sesi ini, dan Jawaban Pena untuk mandiri (REVISI 19 Okt) masih "(belum; menunggu revisi)".

@@ -1,5 +1,10 @@
 # Referensi media besar (Kompas, Hope)
 
+## 2026-10-20 · Metricool, "2026 Instagram Study" (siaran pers 16 Jun 2026; dibaca 20 Okt 2026, diperbarui 22 Jun 2026)
+- Pola: studi lintas 375.118 akun, bukan data akun kita. Carousel saves sekitar 9× foto tunggal; watch time Reels naik lebih dari dua kali lipat YoY ke 8,5 dtk.
+- Koreksi: angka +35% di entri viral-log sebelumnya tidak ditemukan di halaman ini.
+- Sumber: https://metricool.com/press-release-instagram-study-2026/
+
 Paling baru di atas. Analisis pola saja, tanpa menyalin teks.
 
 ## 2026-10-20 · detik.com (inet): "Berkaca dari mitigasi Swiss", Desa Blatten (dibaca 20 Okt 2026, terbit 30 Mei 2025)
