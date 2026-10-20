@@ -3,7 +3,7 @@
 Aksen: sejarah #3F4A3B (moss). 9 slide. Visual data hanya di slide 4, 5, 6.
 
 ## Slide 1 (sampul)
-- Judul: Microwave, penisilin, GPS: dipercepat perang, jarang diciptakan perang
+- Judul: Microwave, penisilin, GPS: perang mempercepatnya, jarang menciptakannya
 - Isi: Jejak militer benda di sekitarmu, mitosnya, dan harganya.
 - Visual: sketsa tinta microwave, botol obat kecil, dan satelit, berjajar di setengah bawah
 - Sumber artikel: judul + dek
@@ -18,14 +18,14 @@ Aksen: sejarah #3F4A3B (moss). 9 slide. Visual data hanya di slide 4, 5, 6.
 ## Slide 3 (mekanisme)
 - Judul: Caranya begini: magnetron radar pindah ke dapur
 - Isi: Magnetron, atau komponen inti microwave, ditingkatkan peneliti University of Birmingham pada 1939–1941 untuk radar Sekutu. Percy Spencer di Raytheon merancang cara memproduksinya massal.
-  Setelah perang, cokelat di sakunya meleleh di dekat magnetron. Soal tahun patennya, sumber beda: 1945 atau 1946.
+  Setelah perang, cokelat di sakunya meleleh di dekat magnetron. Tahun patennya berbeda antarsumber: 1945 atau 1946.
 - Visual: sketsa microwave dan batang cokelat meleleh
 - Sumber artikel: bagian 1, 3
 
 ## Slide 4 (bukti angka, perbandingan)
-- Judul: Masalahnya, penisilin susah dibuat banyak
+- Judul: Masalahnya, penisilin sulit dibuat massal
 - Isi: Fleming menemukan penisilin pada 1928. Sampai Maret 1942, empat perusahaan obat AS baru menghasilkan cukup untuk satu pasien. Pfizer lalu mengisi bekas pabrik es di Brooklyn dengan 14 tangki fermentasi.
-- Visual: belah dua. Kiri "MARET 1942" / "cukup untuk 1 pasien" (satu botol kecil). Kanan "D-DAY, 6 JUNI 1944" / "90% penisilin pendaratan Sekutu buatan Pfizer" (deretan tangki).
+- Visual: belah dua. Kiri "MARET 1942" / "cukup untuk 1 pasien" (satu botol kecil). Kanan "D-DAY, 6 JUNI 1944" / "90% penisilin pasukan Sekutu buatan Pfizer" (deretan tangki).
 - Baris sumber: Sumber: USDA ARS; The Chemical Engineer
 - Sumber artikel: bagian 4
 
@@ -37,29 +37,29 @@ Aksen: sejarah #3F4A3B (moss). 9 slide. Visual data hanya di slide 4, 5, 6.
 - Sumber artikel: bagian 5
 
 ## Slide 6 (plot twist, garis waktu)
-- Judul: Plot twist-nya: GPS dibuka untuk sipil setelah tragedi
+- Judul: Yang mengejutkan: GPS dibuka untuk sipil setelah tragedi
 - Isi: Pada 1 September 1983, pesawat Korean Air Lines 007 tersasar ke wilayah udara Soviet dan ditembak jatuh. 269 orang tewas. Presiden Ronald Reagan lalu menegaskan GPS gratis untuk sipil di seluruh dunia.
 - Visual: garis waktu 3 titik: "1973" pengembangan dimulai / "1983" dijanjikan gratis untuk sipil / "2000" penurunan akurasi sengaja dimatikan
 - Baris sumber: Sumber: Smithsonian NASM; GPS.gov
 - Sumber artikel: bagian 6
 
 ## Slide 7 (mitos vs fakta)
-- Judul: Mitos vs fakta: nggak semua cerita militer benar
+- Judul: Mitos atau fakta: tidak semua cerita militer benar
 - Isi: Mitos: internet dibuat supaya tahan perang nuklir. Vint Cerf dan Robert Kahn menyebutnya rumor keliru.
-  Mitos: Velcro dan Tang ciptaan NASA. Menurut Museum of Flight, Velcro dibuat George de Mestral, Tang dijual General Foods sejak 1957. NASA cuma memakainya.
+  Mitos: Velcro dan Tang ciptaan NASA. Menurut Museum of Flight, Velcro dibuat George de Mestral, Tang dijual General Foods sejak 1957. NASA memakai dan mengadaptasinya.
 - Visual: sketsa kecil gulungan Velcro dan gelas minuman
 - Sumber artikel: bagian 7
 
 ## Slide 8 (jawaban)
 - Judul: Jadi, perang lebih mirip pedal gas daripada penemu
 - Isi: Banyak idenya sudah ada sebelum perang. Penisilin ditemukan 1928, Whittle mematenkan mesin jet 1930.
-  Harganya mahal. Menurut National WWII Museum, Perang Dunia II mencatat sekitar 15 juta kematian di medan tempur dan 45 juta warga sipil, dengan estimasi yang sangat beragam.
+  Harganya mahal. Menurut National WWII Museum, Perang Dunia II mencatat sekitar 15 juta kematian di medan tempur dan 45 juta warga sipil, dan angka pastinya berbeda antarsumber.
 - Visual: sketsa pedal gas sederhana
 - Sumber artikel: bagian 8
 
 ## Slide 9 (penutup)
 - Judul: Tapi perang juga bisa mengerem
-- Isi: Ekonom Daniel Gross dan Bhaven Sampat mencatat, di bidang yang kena perintah rahasia, lebih dari separuh paten, kadang sampai 90%, 'menghilang' dari publik di puncak perang.
+- Isi: Ekonom Daniel Gross dan Bhaven Sampat mencatat, di bidang yang berada di bawah perintah rahasia, lebih dari separuh paten, kadang sampai 90%, 'menghilang' dari publik di puncak perang.
   Masalah damai apa yang menurutmu layak dikejar secepat itu?
 - Visual: sketsa map arsip bercap rahasia
 - Sumber artikel: bagian 8
