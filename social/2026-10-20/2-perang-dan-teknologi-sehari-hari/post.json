@@ -14,10 +14,12 @@
       "file": "slide-2.jpg"
     },
     {
-      "file": "slide-3.jpg"
+      "file": "slide-3.jpg",
+      "remote": "https://export-download.canva.com/BH6GA/DAHYcCBH6GA/-1/0/0003-2302984892478368424.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T021317Z&X-Amz-Expires=48583&X-Amz-Signature=603b346ff1082df8006567ffd1e14a551cc23f57ff23aa1aba9f061d4f39d0fb&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2020%20Oct%202026%2015%3A43%3A00%20GMT"
     },
     {
-      "file": "slide-4.jpg"
+      "file": "slide-4.jpg",
+      "remote": "https://export-download.canva.com/BH6GA/DAHYcCBH6GA/-1/0/0004-2302984892478368424.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261019%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261019T172327Z&X-Amz-Expires=82177&X-Amz-Signature=801ea2efb23b6f6f994b7d1c36dc6456b05aa81b075018ae5155fe069378add7&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2020%20Oct%202026%2016%3A13%3A04%20GMT"
     },
     {
       "file": "slide-5.jpg"
@@ -38,7 +40,7 @@
   "review": {
     "status": "pending",
     "by": "lup",
-    "notes": "KEPUTUSAN PEMILIK (21.36 WIB): kalau ditolak, langsung revisi lalu posting tanpa perlu izin atau persetujuan pemilik lagi. Lup dan Kanvas tidak perlu bertanya ke pemilik. Revisi slide diterapkan di folder ini. Setelah lolos, Lup menjalankan instagram-post.yml dengan date=2026-10-20. | Lup 21.34 WIB. FAKTA: semua angka/nama di 9 slide + caption cocok dengan artikel (OSRD 8→1.500, NDRC Juni 1940, magnetron 1939–1941, paten 1945/1946, Fleming 1928, Maret 1942 1 pasien, 14 tangki, 90% D-Day 6 Juni 1944, Colossus II 2.400/Juni 1944, ENIAC 17.468/>27 ton, KAL 007 1 Sep 1983/269 tewas, GPS 1973/1983/2000, de Mestral, Tang 1957, Whittle 1930, 15 jt & 45 jt, paten rahasia >separuh s.d. 90%). Batang slide 5 proporsional (70:514 px ≈ 2.400:17.468). Caption tidak diubah. DITOLAK karena slide 3: teks isi terduplikasi dan saling tumpang tindih (kedua paragraf muncul dua kali, baris 'Setelah perang...' menimpa 'University of Birmingham... radar Sekutu' dan teks menabrak ilustrasi microwave), terkonfirmasi juga di Canva (read-design halaman 3). Catatan minor: slide-3.jpg dan slide-4.jpg berukuran 1013×1266, bukan 1080×1350. Dipanggil: Kanvas (trig_01WN127A3ob8rzm6WituMcGb) 21.34 WIB. | 21.35 WIB: fire posting-ulang (isi = commit 3637564) dicek; media belum berubah, slide 3 hasil f39b572 masih teks dobel. Tetap ditolak, workflow tidak dijalankan; menunggu revisi Kanvas yang sudah dipanggil 21.34. | Kanvas 21.4x WIB (sesi revisi): slide 3 teks dobel dihapus, tiap kotak teks satu paragraf persis naskah.md, tidak menimpa ilustrasi; slide 3 dan 4 diekspor ulang 1080x1350. Menunggu re-review Lup."
+    "notes": "KEPUTUSAN PEMILIK (21.36 WIB): kalau ditolak, langsung revisi lalu posting tanpa perlu izin atau persetujuan pemilik lagi. Lup dan Kanvas tidak perlu bertanya ke pemilik. Revisi slide diterapkan di folder ini. Setelah lolos, Lup menjalankan instagram-post.yml dengan date=2026-10-20. | Lup 21.34 WIB. FAKTA: semua angka/nama di 9 slide + caption cocok dengan artikel (OSRD 8→1.500, NDRC Juni 1940, magnetron 1939–1941, paten 1945/1946, Fleming 1928, Maret 1942 1 pasien, 14 tangki, 90% D-Day 6 Juni 1944, Colossus II 2.400/Juni 1944, ENIAC 17.468/>27 ton, KAL 007 1 Sep 1983/269 tewas, GPS 1973/1983/2000, de Mestral, Tang 1957, Whittle 1930, 15 jt & 45 jt, paten rahasia >separuh s.d. 90%). Batang slide 5 proporsional (70:514 px ≈ 2.400:17.468). Caption tidak diubah. DITOLAK karena slide 3: teks isi terduplikasi dan saling tumpang tindih (kedua paragraf muncul dua kali, baris 'Setelah perang...' menimpa 'University of Birmingham... radar Sekutu' dan teks menabrak ilustrasi microwave), terkonfirmasi juga di Canva (read-design halaman 3). Catatan minor: slide-3.jpg dan slide-4.jpg berukuran 1013×1266, bukan 1080×1350. Dipanggil: Kanvas (trig_01WN127A3ob8rzm6WituMcGb) 21.34 WIB. | 21.35 WIB: fire posting-ulang (isi = commit 3637564) dicek; media belum berubah, slide 3 hasil f39b572 masih teks dobel. Tetap ditolak, workflow tidak dijalankan; menunggu revisi Kanvas yang sudah dipanggil 21.34. | Kanvas ~21.40 WIB (sesi revisi): slide 3 teks dobel dihapus, tiap kotak teks satu paragraf persis naskah.md, tidak menimpa ilustrasi; slide 3 dan 4 diekspor ulang 1080x1350. Menunggu re-review Lup. | Kanvas 21.50 WIB: ekspor pertama masih menyisakan potongan teks dan 1013x1266 (ekspor dengan tinggi 1350 menyusutkan lebar); diekspor ulang lebar 1080 lalu dipotong workflow ke 1080x1350."
   },
   "post": {
     "status": "queued"
