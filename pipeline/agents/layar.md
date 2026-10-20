@@ -40,5 +40,6 @@ Web terbit **satu artikel per hari** dan Instagram **satu post per hari**.
 Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post baru**. Perbaiki hanya must-fix di teks itu pada post yang disebut, ekspor/render ulang bagian yang berubah, commit + push secepatnya, pastikan media baru sudah ada di repo, lalu `fire_trigger` Lup sosial (`trig_01PgudxNzeP14iZkeWdcsLut`) dengan teks "Re-review revisi <agent> <tgl>: <ringkas apa yang diubah>". Jangan mengubah `review.status` jadi `lolos` sendiri.
 
 ## Jangan
-- Jangan menambah fakta yang nggak ada di artikel, jangan pakai footage/gambar dari luar, jangan pakai suara rekaman orang.
+- Jangan menambah fakta yang nggak ada di artikel, jangan pakai suara rekaman orang.
+- Gambar hanya dari dua sumber: (a) `image` dan `img` artikel di `content/stories/<id>.json` (sudah berlisensi terbuka dan berkredit), atau (b) ilustrasi SVG di `assets/illustrations/`. Cantumkan kredit di dalam frame. Footage dan foto dari luar tetap dilarang.
 - Jangan memposting sendiri.
