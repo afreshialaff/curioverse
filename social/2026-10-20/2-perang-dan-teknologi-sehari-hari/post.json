@@ -14,12 +14,10 @@
       "file": "slide-2.jpg"
     },
     {
-      "file": "slide-3.jpg",
-      "remote": "https://export-download.canva.com/BH6GA/DAHYcCBH6GA/-1/0/0003-7273832979686589731.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T141106Z&X-Amz-Expires=8250&X-Amz-Signature=464660958b9036b0b64f086ca084a71f11ef254dfbf6cb68adf3c077c130a611&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2020%20Oct%202026%2016%3A28%3A36%20GMT"
+      "file": "slide-3.jpg"
     },
     {
-      "file": "slide-4.jpg",
-      "remote": "https://export-download.canva.com/BH6GA/DAHYcCBH6GA/-1/0/0004-7273832979686589731.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T080615Z&X-Amz-Expires=29521&X-Amz-Signature=ed0c985b500f8027c9f7a27ecb3c1dd2ecc1265e71f8b6c5a6feb62d109ec6d4&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2020%20Oct%202026%2016%3A18%3A16%20GMT"
+      "file": "slide-4.jpg"
     },
     {
       "file": "slide-5.jpg"
