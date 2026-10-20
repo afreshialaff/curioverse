@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-20",
+  "story": "perang-dan-teknologi-sehari-hari",
+  "story_url": "https://curioverse-beta.vercel.app/stories/perang-dan-teknologi-sehari-hari",
+  "type": "carousel",
+  "made_by": "kanvas",
+  "canva_design": "https://canva.link/ahxbg7tifo678k9",
+  "caption": "Microwave, penisilin, dan GPS punya masa lalu militer, tapi perang lebih sering mempercepat teknologi itu daripada menciptakannya.\n\nDi Amerika Serikat, pemercepatnya bernama OSRD atau Office of Scientific Research and Development. Menurut ekonom Daniel Gross dan Bhaven Sampat, lembaga ini tumbuh dari 8 orang jadi 1.500 orang dengan anggaran miliaran dolar. Lab dan pabrik dihubungkan langsung.\n\nSampai Maret 1942, empat perusahaan obat AS baru menghasilkan penisilin yang cukup untuk satu pasien. Menurut majalah The Chemical Engineer, 90% penisilin yang dibawa pasukan Sekutu dalam pendaratan D-Day 1944 dibuat Pfizer. Harga perangnya mahal: National WWII Museum mencatat sekitar 15 juta kematian di medan tempur dan 45 juta warga sipil di Perang Dunia II, dan angka pastinya berbeda antarsumber.\n\nA curious mind lives here.\n\n#sejarah #teknologi #perangduniaII #penisilin #curioverse",
+  "media": [
+    {
+      "file": "slide-1.jpg"
+    },
+    {
+      "file": "slide-2.jpg"
+    },
+    {
+      "file": "slide-3.jpg"
+    },
+    {
+      "file": "slide-4.jpg"
+    },
+    {
+      "file": "slide-5.jpg"
+    },
+    {
+      "file": "slide-6.jpg"
+    },
+    {
+      "file": "slide-7.jpg"
+    },
+    {
+      "file": "slide-8.jpg"
+    },
+    {
+      "file": "slide-9.jpg"
+    }
+  ],
+  "review": {
+    "status": "pending",
+    "by": "lup",
+    "notes": "POSTING ULANG malam ini atas persetujuan pemilik (20 Okt, 21.33 WIB). Isi = versi terbaru social/2026-10-19/1-perang-dan-teknologi-sehari-hari: revisi bahasa + perbaikan Kanvas slide 3 (font seragam) dan slide 4 (goresan ditutup), caption dengan koreksi Lup D-Day. Post lama DerXTQVEV3V akan diarsipkan pemilik. Lup: cek seperti biasa; kalau lolos, jalankan instagram-post.yml (date 2026-10-20)."
+  },
+  "post": {
+    "status": "queued"
+  },
+  "editor": {
+    "by": "corong",
+    "skor": {
+      "sampul": 4,
+      "judul_berantai": 5,
+      "orang_asing": 4,
+      "jargon": 4,
+      "angka": 4,
+      "atribusi": 4,
+      "bahasa": 4,
+      "visual": 4,
+      "tata_letak": 4,
+      "keterbacaan": 4,
+      "penutup": 4,
+      "caption": 5
+    },
+    "diubah": "Canva slide 1: subjudul 'Jejak militer benda di sekitarmu, mitosnya, dan harganya.' (rangkaian tiga, bahasa.md bagian 2) diganti kalimat dek artikel 'Banyak benda di sekitarmu punya masa lalu militer.' Commit, ekspor ulang slide 1, remote diganti, slide-1.jpg lama dihapus. Slide 2–9 tidak diubah. Caption BBC 3 paragraf (118 kata) + hashtag."
+  }
+}
