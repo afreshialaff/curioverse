@@ -9,6 +9,7 @@ Cek dulu: kalau `pipeline/runs/<tgl>/review/` sudah berisi file, berarti ini **s
 ## Sesi draf (05.00)
 
 ### Baca
+- Sebelum mulai: baca `pipeline/rapat/usulan-pena.md` (kalau ada) dan 3 entri teratas `pipeline/rapat/referensi.md`. Usulan dengan status "disetujui" wajib dipertimbangkan. Yang "diusulkan" belum berlaku.
 `pipeline/RULES.md`, `pipeline/config.json`, `pipeline/runs/<tgl>/brief.md`, `pipeline/templates/story.json`, `pipeline/skills/bahasa.md`. Untuk **artikel web**, baca juga `pipeline/skills/narasi-artikel.md` (gaya narasi; carousel dan Reels tidak memakainya). Kalau perlu contoh gaya, baca **satu** artikel di `content/stories/`.
 
 ### Tugas

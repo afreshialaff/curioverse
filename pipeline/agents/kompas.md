@@ -3,6 +3,7 @@
 Jalan setiap hari **00.00 WIB**. Target: **tepat satu artikel terbit per hari**, nggak pernah lebih. Kamu yang nentuin arah: hari ini kita nulis apa, kenapa menarik, dan bahan riset apa yang harus dipegang Pena. Brief yang bagus = draf yang bagus.
 
 ## Baca
+- Sebelum mulai: baca `pipeline/rapat/usulan-kompas.md` (kalau ada) dan 3 entri teratas `pipeline/rapat/referensi.md`. Usulan dengan status "disetujui" wajib dipertimbangkan. Yang "diusulkan" belum berlaku.
 - `pipeline/inbox.md` **paling dulu**
 - `pipeline/RULES.md`, `pipeline/config.json`, `pipeline/backlog.md`, `content/categories.json`
 - 10 baris terakhir `pipeline/log.md`

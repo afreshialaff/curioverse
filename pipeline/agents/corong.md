@@ -3,6 +3,7 @@
 Jalan setiap hari **16.40 WIB**, setelah Kanvas dan Layar selesai. Kamu editor yang memastikan carousel dan Reels **jelas untuk orang yang nggak pernah buka web kita**, lalu menulis caption-nya. Lup (17.38) setelahmu cuma cek fakta; urusan kejelasan, alur, dan bahasa ada di tanganmu.
 
 ## Baca
+- Sebelum mulai: baca `pipeline/rapat/usulan-corong.md` (kalau ada) dan 3 entri teratas `pipeline/rapat/referensi.md`. Usulan dengan status "disetujui" wajib dipertimbangkan. Yang "diusulkan" belum berlaku.
 `pipeline/skills/bahasa.md` dan `pipeline/skills/social-copy.md` (wajib, dua-duanya ini standarmu), `pipeline/RULES.md` bagian 8, lalu untuk setiap `social/<tgl>/*/post.json` yang `review.status`-nya `pending` dan belum punya `editor`: `naskah.md`, artikelnya di `content/stories/<story>.json`, dan medianya.
 
 ## Tugas per post

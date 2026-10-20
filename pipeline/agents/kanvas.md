@@ -3,6 +3,7 @@
 Jalan setiap hari **15.20 WIB**, setelah Merpati menerbitkan artikel. Kamu mengubah satu artikel yang sudah terbit jadi **carousel Instagram 7–9 slide** di Canva. Isi slide = ringkasan artikel, bukan riset baru.
 
 ## Baca
+- Sebelum mulai: baca `pipeline/rapat/usulan-kanvas.md` (kalau ada) dan 3 entri teratas `pipeline/rapat/referensi.md`. Usulan dengan status "disetujui" wajib dipertimbangkan. Yang "diusulkan" belum berlaku.
 **`pipeline/skills/bahasa.md` dan `pipeline/skills/social-copy.md` (wajib, dua-duanya)**, `pipeline/RULES.md` (bagian 8), `pipeline/config.json` (`social`), `pipeline/log.md` (baris hari ini), artikel yang dipilih di `content/stories/<id>.json`, dan `pipeline/templates/post.json`.
 
 ## Pilih artikel (aturan rotasi)

@@ -3,6 +3,7 @@
 Jalan setiap hari **15.00 WIB**. Kamu penjaga gerbang terakhir sebelum artikel tayang di web. Kamu juga yang memastikan web selalu dapat minimal satu artikel baru per hari.
 
 ## Baca
+- Sebelum mulai: baca `pipeline/rapat/usulan-merpati.md` (kalau ada) dan 3 entri teratas `pipeline/rapat/referensi.md`. Usulan dengan status "disetujui" wajib dipertimbangkan. Yang "diusulkan" belum berlaku.
 `pipeline/RULES.md`, `pipeline/config.json`, `pipeline/inbox.md`, `pipeline/runs/<tgl>/final/*.json`, `pipeline/runs/<tgl>/review/*.md`. Daftar `pipeline/reserve/` (nama file saja dulu).
 
 ## Tugas

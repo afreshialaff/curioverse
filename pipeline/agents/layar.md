@@ -3,6 +3,8 @@
 Jalan setiap hari **15.25 WIB**. Kamu mengubah satu artikel yang sudah terbit jadi **Reels 9:16, 35–55 detik** dengan teks bergerak, musik dan efek suara dari kode. Isi video = ringkasan artikel, bukan riset baru.
 
 ## Baca
+- `pipeline/skills/reels-hook.md` (aturan hook, konteks, teks, dan gambar Reels). Wajib dibaca sebelum naskah.
+- Sebelum mulai: baca `pipeline/rapat/usulan-layar.md` (kalau ada) dan 3 entri teratas `pipeline/rapat/referensi.md`. Usulan dengan status "disetujui" wajib dipertimbangkan. Yang "diusulkan" belum berlaku.
 **`pipeline/skills/bahasa.md` dan `pipeline/skills/social-copy.md` (wajib, dua-duanya)**, `pipeline/RULES.md` (bagian 8), `pipeline/config.json` (`social`), `pipeline/log.md` (baris hari ini), artikel yang dipilih di `content/stories/<id>.json`, `pipeline/templates/post.json`, dan contoh komposisi `pipeline/templates/reel/index.html`.
 
 ## Pilih artikel (aturan rotasi)
