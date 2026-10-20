@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-20",
+  "story": "10000-langkah-angka-iklan",
+  "story_url": "https://curioverse-beta.vercel.app/stories/10000-langkah-angka-iklan",
+  "type": "reel",
+  "made_by": "layar",
+  "caption": "",
+  "media": [ { "file": "reel.mp4" } ],
+  "cover": "cover.jpg",
+  "review": { "status": "pending", "by": "lup", "notes": "" },
+  "post": { "status": "queued" }
+}
