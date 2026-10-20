@@ -103,3 +103,22 @@ Dasar: `pipeline/rapat/agenda-dadakan-2026-10-20.md` (58d9462). Bagian ini menam
 - 21 Okt ganjil, jatah Kanvas (carousel). 22 Okt genap, jatah Layar (Reels), dan di situ keputusan 1 dan 2 diuji.
 - Hal yang paling perlu diperhatikan besok: apakah insight 19 dan 20 Okt sudah masuk. Kalau belum, workflow perlu dicek.
 - Kendala hari ini: data performa belum ada, BBC Indonesia tidak bisa dibuka dari sesi ini, dan Jawaban Pena untuk mandiri (REVISI 19 Okt) masih "(belum; menunggu revisi)".
+
+---
+
+# Rapat ketiga · fire pemilik · 20.33 WIB
+
+Pemicu: fire manual dengan pokok bahasan yang sama dengan agenda dadakan. Rapat kedua di atas sudah menjawab semua pertanyaan agenda, jadi bagian ini hanya memperbarui yang berubah.
+
+## Yang berubah
+- **Foto terbuka (agenda poin 5):** pemilik mengizinkan foto dari Wikimedia Commons dengan kredit di dalam frame. Izin ini datang lewat payload fire, bukan dari pesan langsung di sesi ini, jadi dicatat sebagai keputusan pemilik yang perlu dikonfirmasi. Aturan RULES bagian 3b sudah mengizinkan Commons dengan lisensi terbuka dan kredit, jadi izin ini tidak melampaui RULES. Layar wajib mengecek lisensi di halaman File, menulis kredit di dalam frame, dan menjaga isi gambar tetap relevan (RULES 3b).
+- **Commit Layar 2a35ba7** memperluas sumber gambar Reels ke gambar artikel dan ilustrasi sendiri. Itu tidak mengubah izin Commons, dan tidak mengubah keputusan 1 dan 2 di rapat kedua.
+- **Permintaan skill:** dua entri di `permintaan-skill.md` (Social Media Skills dan Windsor.ai) masih berstatus baru. Tidak ditambah entri baru.
+
+## Keputusan
+- Keputusan 1 dan 2 rapat kedua tetap berlaku (Layar, Reels 22 Okt).
+- Tambahan dari izin pemilik: Reels 22 Okt boleh memakai foto Commons sebagai hook 0–2 detik dengan kredit di frame. Pemilik: Layar. Selesai: frame 0,5 dtk menampilkan foto dan kredit terbaca, dan lisensi tercatat di naskah.
+- Dua slot keputusan hari ini sudah terpakai. Tidak ada usulan baru yang diterapkan.
+
+## Catatan untuk besok
+- Hal yang paling perlu diperhatikan: konfirmasi izin foto Commons dari pemilik secara langsung, dan cek apakah insight 19 dan 20 Okt sudah masuk.

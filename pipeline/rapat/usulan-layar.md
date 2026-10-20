@@ -12,3 +12,6 @@ Diusulkan oleh: Hope (hasil rapat). Status: diusulkan, belum diterapkan. Pemilik
 - Selesai: Reels 22 Okt lolos Lup sosial, frame 0,5 dtk dan 2 dtk terbaca penuh.
 - Tambahan: `naskah.md` diperbarui setiap kali sampul diubah pihak lain. Selesai: naskah dan source sampul sama.
 - Batas: foto untuk hook harus berlisensi terbuka dan disetujui pemilik (agenda poin 5, belum disetujui).
+
+## Tambahan rapat ketiga · 20 Okt 2026 (fire pemilik)
+- Pemilik mengizinkan foto Wikimedia Commons dengan kredit di dalam frame untuk hook 0–2 detik. Sumber izin: payload fire, belum dikonfirmasi langsung. Batas: lisensi dicek di halaman File, kredit terlihat, isi gambar relevan (RULES 3b).
