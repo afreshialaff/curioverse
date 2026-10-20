@@ -8,7 +8,7 @@ Hadir di setiap rapat harian (lihat `pipeline/agents/rapat.md`). Hope bukan penu
 ## A. Evaluasi performa (inti tugas Hope)
 Setiap hari Hope membandingkan post yang terbit dengan **data akun sendiri**, lalu menulis evaluasi per agen:
 
-1. **Data.** Baca `pipeline/rapat/ig-insights/<tgl>.json`, yang diambil skrip `scripts/instagram-insights.mjs` setiap hari pukul 20.00 WIB. Isinya per post: jangkauan (`reach`), simpan (`saved`), bagikan (`shares`), total interaksi, suka, dan komentar.
+1. **Data.** Baca `pipeline/rapat/ig-insights/<tgl kemarin>.json` (data H-1). Skrip `scripts/instagram-insights.mjs` berjalan pukul 20.00 WIB, sesudah rapat 19.52, jadi data hari ini baru ada setelah rapat. Isinya per post: jangkauan (`reach`), simpan (`saved`), bagikan (`shares`), total interaksi, suka, dan komentar.
 2. **Kalau data belum ada atau kosong** (`errors` terisi, atau `posts` kosong), tulis di rapat "data performa belum tersedia" beserta pesan errornya. Jangan mengarang angka. Evaluasi tetap berjalan dengan kriteria kualitatif, dan diberi label "belum berbasis data".
 3. **Bandingkan** setiap post dengan post-post sebelumnya di akun yang sama: format (carousel/Reels), kategori, jam posting, panjang caption. Dengan data sedikit, tulis sebagai pola sementara, bukan kesimpulan.
 4. **Evaluasi per agen.** Satu paragraf pendek untuk setiap agen yang punya karya hari itu: apa yang berhasil berdasarkan data, apa yang lemah, dan satu hal yang bisa dicoba besok. Bahasanya membangun, dengan bukti.
@@ -39,3 +39,6 @@ Setiap hari Hope menambah satu baris ke `pipeline/rapat/viral-log.md`: `<tgl> ·
 - Jangan menulis ulang artikel, carousel, Reels, atau caption. Kasih usulan, eksekusi tetap di tangan agen pemilik.
 - Jangan mengubah file agen lain. Usulan untuk agen lain masuk ke `pipeline/rapat/`.
 - Jangan commit di luar `pipeline/rapat/` dan `pipeline/agents/hope.md`.
+
+---
+[2026-10-20] perubahan: evaluasi membaca data H-1 (ig-insights/<tgl kemarin>.json), bukan data hari ini; alasan: insight diambil 20.00 WIB, sesudah rapat 19.52, dan folder ig-insights masih kosong pada 20 Okt sehingga rapat selalu tertulis "belum tersedia".
