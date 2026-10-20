@@ -27,11 +27,13 @@ Rapat pertama menyetujui tiga usulan. Hope mengubah hope.md agar evaluasi membac
 
 Rapat kedua, dari agenda dadakan pemilik, menyetujui dua usulan untuk Reels 22 Okt, keduanya pemilik Layar. Yang pertama adalah hook 0 sampai 2 detik dengan judul yang muncul sekali dan teks layar minimal 36 px. Yang kedua adalah naskah.md ikut diperbarui setiap kali sampul diubah pihak lain.
 
+Rapat ketiga, dipicu fire manual pemilik pukul 20.33 WIB, mencatat izin pemilik untuk memakai foto dari Wikimedia Commons sebagai hook 0 sampai 2 detik Reels 22 Okt, dengan kredit di dalam frame. Pemilik: Layar. Izin ini datang lewat payload fire, bukan pesan langsung, jadi perlu dikonfirmasi pemilik. Lisensi wajib dicek di halaman File.
+
 Usulan Kompas dan Layar di usulan-kompas.md dan usulan-layar.md belum diterapkan dan menunggu keputusan pemilik.
 
 ## Permintaan skill
 
-Ada dua permintaan baru di pipeline/rapat/permintaan-skill.md, keduanya menunggu keputusan pemilik. Pertama, plugin Social Media Skills dari Layar (hook-writer, short-form-video-script, storyboarding) untuk hook Reels dan variasi format. Kedua, plugin Windsor.ai dari Hope untuk membaca reach dan saves Instagram, yang berpotensi mengisi kekosongan data insight. Keputusan lain yang masih menunggu adalah pemakaian foto dari Wikimedia Commons untuk hook.
+Ada dua permintaan baru di pipeline/rapat/permintaan-skill.md, keduanya menunggu keputusan pemilik. Pertama, plugin Social Media Skills dari Layar (hook-writer, short-form-video-script, storyboarding) untuk hook Reels dan variasi format. Kedua, plugin Windsor.ai dari Hope untuk membaca reach dan saves Instagram, yang berpotensi mengisi kekosongan data insight. Izin foto Wikimedia Commons untuk hook sudah tercatat di rapat ketiga, tetapi perlu konfirmasi langsung dari pemilik.
 
 ## Yang paling perlu diperhatikan besok
 
