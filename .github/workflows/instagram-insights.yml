@@ -1,0 +1,29 @@
+name: Ambil insight Instagram
+
+on:
+  schedule:
+    - cron: "0 13 * * *"   # 20.00 WIB, sebelum rapat harian (19.52 WIB) dibaca Hope
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Ambil data insight
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: node scripts/instagram-insights.mjs
+      - name: Commit hasil
+        run: |
+          git config user.name "curioverse-bot"
+          git config user.email "bot@curioverse.local"
+          git add pipeline/rapat/ig-insights
+          git diff --cached --quiet || git commit -m "rapat: insight Instagram $(TZ=Asia/Jakarta date +%F)"
+          git push
