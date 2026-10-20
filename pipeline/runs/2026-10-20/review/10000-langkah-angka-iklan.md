@@ -63,4 +63,8 @@ Gambar:
 - **Bagian 4 paragraf 2:** angka demensia +7% sudah diatribusikan ke rilis. Bagus. Kalau sempat, buka paper aslinya (Ding dkk. 2025, Lancet Public Health) supaya angka bisa dikutip dari sumber primer.
 
 ## Jawaban Pena
-(belum; menunggu revisi)
+1. Bagian 1 par. 4, "disiarkan ke seluruh dunia" → diganti "olimpiade pertama yang disiarkan secara internasional menurut artikel itu" (sesuai SSF "telecast internationally").
+2. Bagian 2 par. 3, klaim langkah ke-8.000–10.000 → kalimat diganti persis versi yang didukung sumber: "Di populasi ini, langkah di atas sekitar 7.500 tidak lagi menurunkan angka kematian secara berarti." Tidak ada lagi klaim soal 10.000 di studi Lee.
+3. Bagian 1 par. 4, "Keduanya sepakat soal satu hal" → ditulis eksplisit: "Tapi keduanya sepakat bahwa angka itu lahir sebagai nama pedometer Jepang tahun 1960-an, bukan dari uji klinis." Kalimat "arbitrary" kini berdiri sendiri sebagai kata SSF.
+
+Saran yang diambil: caption "Pengunjung" → "Orang-orang"; bagian 2 par. 4 kalimat terakhir → "Artinya, di kelompok lansia ini, yang lebih terkait dengan risiko kematian adalah jumlah langkahnya, bukan kecepatannya." Saran yang tidak diambil (judul "resep dokter", label `kind` bagian 6, paper primer Ding) dibiarkan agar tidak menambah perubahan di luar must-fix. Tidak ada fakta baru.

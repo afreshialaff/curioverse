@@ -1,0 +1,98 @@
+{
+  "id": "pisang-radioaktif",
+  "cat": "science",
+  "also": "healthy",
+  "date": "2026-10-20",
+  "title": "Pisang itu radioaktif, dan kamu tetap aman",
+  "dek": "Satu pisang memberi dosis radiasi sekitar 0,1 mikrosievert, sampai ahli proteksi radiasi menjadikannya satuan bercanda. Ini mekanismenya, seberapa kecil angkanya, dan kenapa makan banyak pisang nggak bikin radiasinya menumpuk.",
+  "tags": "pisang radioaktif banana equivalent dose bed kalium kalium-40 k-40 potassium radiasi alami dosis radiasi sievert mikrosievert millirem rontgen kacang brazil radiasi latar makanan",
+  "hook": "Satu pisang memberi dosis radiasi sekitar 0,1 mikrosievert. Menurut EPA, kamu perlu makan sekitar 100 pisang untuk menyamai radiasi alami satu hari di Amerika Serikat.",
+  "path": "",
+  "image": {
+    "src": "https://www.ars.usda.gov/ARSUserFiles/oc/graphics/photos/jan95/k5727-9.jpg",
+    "alt": "Tandan-tandan pisang sedang disiapkan untuk dikirim di sebuah gudang pengemasan",
+    "caption": "Pisang disiapkan untuk pengiriman di gudang pengemasan di Puerto Riko. Foto arsip USDA ARS (K5727-9).",
+    "credit": "Scott Bauer, USDA Agricultural Research Service",
+    "license": "Public domain (USDA ARS Image Gallery)",
+    "page": "https://www.ars.usda.gov/oc/images/photos/jan95/k5727-9/"
+  },
+  "sections": [
+    {
+      "h": "Kenapa buah sesehat pisang bisa radioaktif?",
+      "p": [
+        "Pisang di meja makanmu memancarkan radiasi. Ini bukan hoaks dan bukan pisang hasil laboratorium. Badan Perlindungan Lingkungan Amerika Serikat (EPA) menyebut pisang dan kacang Brazil sebagai contoh makanan paling terkenal yang mengandung zat radioaktif alami.",
+        "Penyebabnya adalah kalium, mineral yang bikin pisang terkenal sebagai makanan sehat. Menurut Joe Schwarcz dari McGill Office for Science and Society, satu pisang mengandung sekitar 450 mg kalium. Sekitar 0,012% atom kalium di alam adalah versi radioaktif bernama kalium-40 (K-40). Waktu paruhnya sekitar 1,3 miliar tahun.",
+        "Pisang juga bukan satu-satunya. McGill mencontohkan benda lain yang sedikit radioaktif: bayam, kentang, jeruk, kacang Brazil, granit meja dapur, udara, sampai tubuh manusia sendiri. Sumber radiasinya tidak selalu kalium. Di udara, misalnya, penyumbang utamanya radon. Untuk K-40 sendiri, Komisi Keselamatan Nuklir Kanada (CNSC) menyebut makanan lain selain pisang: daging merah, wortel, dan kacang lima. Kacang Brazil punya bonus, kata EPA: sedikit radium yang diserap dari tanah tempatnya tumbuh.",
+        "Kalau hampir semua makanan mengandung sedikit radiasi, pertanyaan berikutnya jelas. Seberapa besar dosis dari satu pisang?"
+      ]
+    },
+    {
+      "h": "Menghitung dosis satu pisang",
+      "p": [
+        "Para ahli punya jawabannya, lengkap dengan hitungan. Situs proteksi radiasi Ionactive dari Inggris menulis bahwa satu pisang rata-rata mengandung sekitar 15 becquerel K-40. Becquerel adalah satuan aktivitas radioaktif. Lalu ada koefisien dosis dari ICRP 119, dokumen Komisi Internasional Perlindungan Radiologi: 6,2 × 10⁻⁹ sievert untuk setiap becquerel yang tertelan.",
+        "Kalikan keduanya dan hasilnya sekitar 0,093 mikrosievert, dibulatkan jadi 0,1 mikrosievert (μSv). EPA memakai angka yang sama dalam satuan lama Amerika: 0,01 millirem, atau 0,1 mikrosievert. Sievert adalah satuan yang mengukur potensi efek radiasi pada tubuh, dan satu mikrosievert itu sepersejuta sievert.",
+        "Angka 0,1 μSv ini cukup terkenal sampai punya nama sendiri: banana equivalent dose (BED), dosis setara pisang. Halaman pendidikan proteksi radiasi University of Groningen di Belanda menyebutnya \"mock unit\", satuan bercanda. Definisinya: 1 BED ≈ 0,1 μSv, dosis efektif dari rata-rata K-40 dalam satu pisang.",
+        "Satuan ini juga pernah dipakai untuk meyakinkan publik. Menurut Ionactive, satu kali pemindaian keamanan x-ray backscatter memberi dosis efektif paling banyak 0,1 μSv, alias paling banyak satu pisang, dan beberapa penyedia peralatan keamanan memakai angka itu untuk menyebut pemindaiannya aman. Uni Eropa tetap melarang alat itu di Eropa, meski risikonya tampak sangat kecil. Jadi dosis \"setara pisang\" membantu membayangkan besarnya angka, tapi tidak otomatis menjawab apakah sesuatu boleh dipakai. Lalu satu pisang itu kecil dibanding apa?"
+      ]
+    },
+    {
+      "h": "Satu pisang dibanding radiasi sehari-hari",
+      "p": [
+        "Kita semua menerima radiasi alami setiap hari dari tanah, udara, makanan, dan sinar kosmis. Menurut fact sheet CNSC tahun 2020, rata-rata dosis tahunan dari sumber alami di seluruh dunia sekitar 2,4 milisievert. Itu sama dengan 2.400 mikrosievert, atau kalau dihitung pakai satuan pisang, sekitar 24.000 pisang per tahun.",
+        "EPA memberi perbandingan yang lebih dekat. Untuk menyamai dosis radiasi alami rata-rata satu hari di Amerika Serikat, kamu perlu makan sekitar 100 pisang. Rontgen dada, menurut McGill, memberi sekitar 10 millirem, jadi butuh minimal 1.000 pisang untuk menyamainya.",
+        "Sumber terbesar radiasi alami justru bukan makanan. CNSC menyebut radon yang terhirup sebagai penyumbang terbesar, rata-rata sekitar 1,2 milisievert per tahun di seluruh dunia. Seluruh makanan dan minuman kita menyumbang sekitar 0,3 milisievert per tahun. Di dalam kelompok itu, CNSC menyebut K-40 sebagai sumber utama radiasi dari dalam tubuh, selain hasil peluruhan radon.",
+        "Angka latar ini juga beda-beda tergantung tempat tinggal. CNSC mencatat pesisir Kerala di India menerima sekitar 12,5 milisievert per tahun, dan sebagian wilayah utara Iran sampai 260 milisievert.",
+        "Sampai sini, hitungannya terdengar seperti makin banyak pisang, makin banyak radiasi yang terkumpul. Di bagian inilah tubuh punya plot twist."
+      ]
+    },
+    {
+      "h": "Plot twist: dosis pisang nggak menumpuk",
+      "kind": "interpretasi",
+      "p": [
+        "Banyak orang membayangkan radiasi seperti tabungan: tiap pisang menambah saldo. Untuk pisang, gambaran itu keliru. McGill menjelaskan bahwa tubuh orang dewasa menyimpan sekitar 120 gram kalium dan menjaga jumlahnya tetap stabil lewat homeostasis. Kalium dari makanan yang berlebih tidak ditimbun.",
+        "University of Groningen menulis hal yang sama dari sisi proteksi radiasi: metabolisme kita membuang kelebihan kalium hampir seketika lewat urin. Karena itu, kata mereka, makan pisang hampir tidak mengubah dosis yang benar-benar diterima tubuh. Ionactive bahkan menyebut BED secara teknis \"does not deliver a committed effective dose at all\", tidak memberi dosis efektif yang benar-benar tertanam, karena asupan dan pembuangan kalium seimbang.",
+        "Jadi pisang kedua, ketiga, atau kesepuluh hari ini tidak menaikkan kadar K-40 di tubuhmu secara permanen. Kadar K-40 di tubuh mengikuti kadar kaliumnya, dan kadar itu diatur tubuh sendiri. Ionactive tetap menganggap BED masuk akal sebagai alat peraga, asal orang paham batas ini.",
+        "Plot twist kecil lainnya: kamu sendiri juga radioaktif. Sarah Loughran dari ARPANSA, badan proteksi radiasi Australia, menulis tahun 2022 bahwa \"we are also a little bit radioactive\" dan tubuh kita memang terbiasa menghadapi radiasi dalam jumlah kecil."
+      ]
+    },
+    {
+      "h": "Kenapa satuan pisang berguna buat baca berita",
+      "kind": "opini",
+      "p": [
+        "Kata \"radioaktif\" gampang bikin panik, apalagi kalau muncul di judul berita soal makanan, air, atau bahan bangunan. Pisang mengajarkan satu hal penting: pertanyaannya bukan \"ada radiasinya atau nggak?\", tapi \"berapa dosisnya?\". Hampir semua hal mengandung sedikit radiasi, termasuk tubuhmu. Yang menentukan aman atau tidaknya adalah angkanya.",
+        "Lain kali ketemu klaim \"makanan X mengandung radiasi\", cari satuannya. Kalau ada angka dalam mikrosievert atau millirem, bandingkan dengan patokan di artikel ini: 0,1 μSv untuk satu pisang, sekitar 2.400 μSv per tahun untuk radiasi alami rata-rata dunia. Patokan pisang membantu membaca besarnya dosis, tapi keputusan aman atau tidaknya sebuah alat atau paparan tetap ada di tangan lembaga proteksi radiasi. Kalau klaimnya tanpa angka sama sekali, itu tanda untuk curiga dulu, bukan takut dulu.",
+        "Dan buat pisangnya sendiri: EPA menyebut radiasi dari makanan seperti ini sangat kecil dan tidak menimbulkan risiko radiasi. Jadi pisang tetap aman masuk kotak bekal, lengkap dengan K-40 di dalamnya."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "t": "US EPA RadTown (arsip resmi EPA, snapshot 19 Januari 2025): Natural Radioactivity in Food",
+      "u": "https://19january2025snapshot.epa.gov/radtown/natural-radioactivity-food/index.html"
+    },
+    {
+      "t": "McGill Office for Science and Society: Is it true that a banana is radioactive? (Joe Schwarcz, 2018)",
+      "u": "https://www.mcgill.ca/oss/article/you-asked/it-true-banana-radioactive"
+    },
+    {
+      "t": "University of Groningen, Radiation Protection A-Z: Banana equivalent dose",
+      "u": "https://www.rug.nl/education/courses/other-education/radiation-protection/a-z/a-z-data/banana-equivalent-dose?lang=en"
+    },
+    {
+      "t": "Ionactive: Radioactive bananas (Banana equivalent dose)",
+      "u": "https://ionactive.co.uk/resource-hub/guidance/radioactive-bananas-banana-equivalent-dose"
+    },
+    {
+      "t": "Canadian Nuclear Safety Commission: Natural Background Radiation, fact sheet (2020)",
+      "u": "https://api.cnsc-ccsn.gc.ca/dms/digital-medias/Fact-Sheet-Background-Radiation-eng.pdf/object"
+    },
+    {
+      "t": "University of Wollongong (dari The Conversation): Are bananas really radioactive? (Sarah Loughran, 2022)",
+      "u": "https://www.uow.edu.au/media/2022/are-bananas-really-radioactive-.php"
+    },
+    {
+      "t": "9News VERIFY: Are bananas radioactive?",
+      "u": "https://www.9news.com/article/news/verify/food-verify/bananas-natural-radiation-radioactivity-potassium-fact-check/536-69d40988-fb91-4706-b92b-37a343714c69"
+    }
+  ]
+}

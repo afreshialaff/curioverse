@@ -7,7 +7,7 @@ Semua link di bawah dibuka Pena (WebFetch) di sesi ini. Sumber brief `bjsm.bmj.c
 - "pedometer yang dijual tahun 1965 oleh Yamasa Clock and Instrument Company ... Manpo-kei ... \"meteran 10.000 langkah\"" → PDF JAMA yang sama (kemungkinan berasal dari pedometer 1965 Yamasa, Manpo-kei = "10 000 steps meter")
 - "I-Min Lee dan rekan-rekannya dari Harvard ... JAMA Internal Medicine tahun 2019" → PDF JAMA (Lee IM, Shiroma EJ, Kamada M, Bassett DR, Matthews CE, Buring JE; terbit online 29 Mei 2019) + https://www.health.harvard.edu/blog/10000-steps-a-day-or-fewer-2019071117305 (Dr. Lee dari Harvard)
 - "\"The name was a marketing tool.\"" → https://www.health.harvard.edu/blog/10000-steps-a-day-or-fewer-2019071117305 (kutipan Dr. Lee)
-- "Olimpiade Tokyo 1964, olimpiade pertama yang disiarkan ke seluruh dunia" → https://www.ssf.or.jp/international/uk/20171011.html ("first to be telecast internationally")
+- "Olimpiade Tokyo 1964, olimpiade pertama yang disiarkan secara internasional menurut artikel itu" (revisi 2026-10-20) → https://www.ssf.or.jp/international/uk/20171011.html ("first to be telecast internationally")
 - "rata-rata orang Jepang berjalan 3.500 sampai 5.000 langkah per hari" → SSF (published findings; artikel tidak menyebut studi aslinya, makanya ditulis "menurut artikel yang sama")
 - "Tim yang dipimpin Dr. Yoshiro Hatano ... menaikkan ke 10.000 ... Hatano disebut menjual pedometer bernama manpo-kei" → SSF
 - "SSF bahkan menyebut angka itu \"arbitrary\"" → SSF ("this arbitrary number quickly grew into the ideal daily number")
@@ -17,6 +17,8 @@ Semua link di bawah dibuka Pena (WebFetch) di sesi ini. Sumber brief `bjsm.bmj.c
 - "sekitar 41% lebih rendah" → Harvard Health ("41% reduction in mortality"; konsisten dengan HR 0,59)
 - "Selisih langkahnya cuma sekitar 1.600 per hari" → hitungan dari PDF JAMA (4.363 − 2.718 = 1.645)
 - "sampai sekitar 7.500 langkah per hari. Setelah itu kurvanya mendatar" → PDF JAMA + Harvard Health ("leveling off at approximately 7,500 steps per day")
+- "keduanya sepakat bahwa angka itu lahir sebagai nama pedometer Jepang tahun 1960-an, bukan dari uji klinis" (revisi) → PDF JAMA (Manpo-kei 1965) + Harvard Health ("marketing tool") + SSF (manpo-kei)
+- "langkah di atas sekitar 7.500 tidak lagi menurunkan angka kematian secara berarti" (revisi, menggantikan klaim 8.000–10.000 yang dicoret) → PDF JAMA ("before leveling at approximately 7500 steps/d") + Harvard Health
 - "Setelah jumlah langkah total diperhitungkan, sebagian besar hubungan intensitas ... nggak lagi signifikan" → PDF JAMA (atenuasi setelah adjust steps/day; mis. HR 1,27, CI 0,96–1,68)
 - "Amanda Paluch ... The Lancet Public Health tahun 2022 ... 15 kohort dari Amerika, Eropa, Jepang, Australia, dan satu studi lintas 40 negara" → https://pmc.ncbi.nlm.nih.gov/articles/PMC9289978 (8 AS, 4 Eropa, 1 Jepang, 1 Australia, NAVIGATOR 40 negara)
 - "47.471 orang dewasa ... median 7,1 tahun ... 3.013 kematian" → PMC9289978
