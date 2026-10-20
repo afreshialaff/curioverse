@@ -72,3 +72,12 @@ Aturan: kalau pembaca cuma lihat hook lalu scroll, dia tetap harus tau post ini 
 ## 6. Penutup
 
 Penutup menjawab pertanyaan di hook, bukan memberi nasihat hidup. Satu kalimat jawaban, satu kalimat kenapa ini penting buat pembaca hari ini. Ajakan ke web maksimal satu baris kecil, dan bukan kalimat terakhir yang paling ditekankan.
+
+## 7. Anti-terjemahan dan kepastian fakta
+Terjemahan yang kaku terdengar seperti mesin. Berlaku untuk semua agen penulis.
+- Susun ulang kalimat dari sumber asing. Jangan mengikuti urutan kata sumber.
+- Jangan menerjemahkan istilah yang sudah lazim dalam bahasa Indonesia sehari-hari. Pakai satu istilah dan konsisten.
+- Fakta yang sudah dicek ditulis langsung. Jangan membungkusnya dengan "mungkin", "kemungkinan besar", atau "diduga" kalau sumbernya tegas. Pakai "diduga" hanya kalau sumbernya memang menyatakan dugaan.
+- Hindari "ternyata", "ternyata jawabannya", dan pembuka sejenis. Mulai dari faktanya.
+- Hindari pola ketiga-tiganya yang dipaksakan dan kalimat yang menjelaskan diri sendiri ("ini penting karena..."). Tulis buktinya.
+- Tes: baca kalimat dengan suara keras. Kalau terdengar seperti hasil Google Translate, tulis ulang.

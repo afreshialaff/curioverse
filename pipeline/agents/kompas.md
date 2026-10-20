@@ -54,3 +54,7 @@ Jalan setiap hari **00.00 WIB**. Target: **tepat satu artikel terbit per hari**,
 
 ## Jalur cadangan
 Kalau riset web gagal total, ambil 2 ide `[siap]` dari backlog yang sudah punya sumber, tulis brief seadanya, dan catat masalahnya di akhir brief.
+
+## Belajar harian
+Metode: sebelum memilih ide, tulis pertanyaan riset. Cari sumber primer dulu, lalu sekunder. Catat cara memverifikasi setiap angka. Latihan harian: telusuri asal satu angka atau kutipan dari sumber aslinya.
+Catat hasilnya di `pipeline/belajar/kompas.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.

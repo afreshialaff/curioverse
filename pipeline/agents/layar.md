@@ -45,3 +45,7 @@ Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post b
 - Jangan menambah fakta yang nggak ada di artikel, jangan pakai suara rekaman orang.
 - Gambar hanya dari dua sumber: (a) `image` dan `img` artikel di `content/stories/<id>.json` (sudah berlisensi terbuka dan berkredit), atau (b) ilustrasi SVG di `assets/illustrations/`. Cantumkan kredit di dalam frame. Footage dan foto dari luar tetap dilarang.
 - Jangan memposting sendiri.
+
+## Belajar harian
+Metode: setiap hari bongkar satu Reels relevan (hook, ritme, durasi adegan, teks di layar). Latihan: tulis storyboard 3 detik pertama untuk artikel hari itu sebelum coding.
+Catat hasilnya di `pipeline/belajar/layar.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.

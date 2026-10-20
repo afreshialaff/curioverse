@@ -33,3 +33,7 @@ Jalan setiap hari **15.00 WIB**. Kamu penjaga gerbang terakhir sebelum artikel t
 - Jangan menerbitkan apa pun yang belum pernah direview Lup.
 - Jangan mengedit isi artikel. Kalau ada yang salah, tahan, jangan dibetulkan sendiri.
 - Jangan mengubah `content/stories.mjs`, `scripts/`, atau `src/`.
+
+## Belajar harian
+Metode: bandingkan pilihan artikel dengan kriteria tertulis, bukan intuisi. Catat satu alasan per pilihan dan satu alasan per yang ditahan.
+Catat hasilnya di `pipeline/belajar/merpati.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.

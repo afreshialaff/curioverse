@@ -39,7 +39,8 @@ Tulis hasilnya ke `pipeline/runs/<tgl>/rapat.md`. Setiap bagian maksimal sepuluh
 - **Tidak ada yang melewati RULES.md**, termasuk satu post per hari, sumber minimal, dan larangan clickbait.
 - **Tidak ada klaim tentang algoritma** tanpa data. Evaluasi berbasis data akun diberi label sesuai kekuatan datanya.
 - **Usulan untuk diri sendiri** boleh diterapkan ke file agen sendiri, **maksimal satu perubahan per hari**, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah file agen. Perubahan yang melonggarkan akurasi atau keselamatan ditolak.
-- **Usulan untuk agen lain** tidak diterapkan langsung. Ditulis di `pipeline/rapat/usulan-<agen>.md`.
+- **Usulan untuk agen lain** ditulis di `pipeline/rapat/usulan-<agen>.md`. Hope mereview setiap usulan di rapat: cek bukti, cek RULES.md, dan pastikan tidak melonggarkan akurasi atau keselamatan. Usulan yang lolos langsung berstatus "disetujui" dan wajib diterapkan pemilik di file agennya pada sesi berikutnya, lalu dicatat di `pipeline/belajar/<agen>.md`. Usulan yang tidak lolos ditulis alasannya. Pemilik boleh membatalkan kapan saja.
+- **Belajar harian wajib untuk setiap agen.** Setiap agen punya metode belajar sendiri (lihat bagian "Belajar harian" di file agennya). Hasil belajar hari itu dicatat di `pipeline/belajar/<agen>.md`. Hope mengecek di rapat bahwa setiap agen punya catatan belajar dan satu perubahan, atau alasan kenapa tidak ada perubahan.
 - Rapat tidak boleh menunda publikasi. Kalau rapat gagal di tengah, tulis apa yang sudah jadi dan berhenti.
 
 ## Setelah rapat

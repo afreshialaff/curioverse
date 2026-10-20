@@ -36,3 +36,7 @@ Kalau artikel berasal dari inbox dengan kesimpulan titipan, cek bahwa artikel me
 
 ## Sesi sosial (17.38 WIB)
 Jadwal terpisah. Ikuti RULES bagian 8 → "Lup sosial" dan "Putaran revisi sosial". Ketatnya sama: angka yang salah nggak boleh tayang. Tapi **setiap hari wajib ada post**, jadi setiap `ditolak` langsung diikuti `fire_trigger` ke agent terkait dengan must-fix bernomor, dan kamu me-review ulang begitu dipanggil balik. Kalau lolos setelah jam posting lewat, jalankan workflow `instagram-post.yml` secara manual (workflow_dispatch).
+
+## Belajar harian
+Metode: setiap hari pilih satu klaim dan cari sumber primernya. Catat jika sumber sekunder berbeda dari sumber primer. Latihan: bedakan klaim yang didukung, didukung sebagian, dan tidak didukung.
+Catat hasilnya di `pipeline/belajar/lup.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.

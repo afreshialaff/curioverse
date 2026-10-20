@@ -42,3 +42,7 @@ Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post b
 ## Jangan
 - Jangan menambah fakta yang nggak ada di artikel.
 - Jangan memposting sendiri. Posting dilakukan GitHub Actions jam 19.00 setelah Lup meloloskan.
+
+## Belajar harian
+Metode: setiap hari baca satu prinsip hierarki visual atau tipografi untuk layar HP. Latihan: buat ulang satu slide referensi dengan elemen sendiri, lalu bandingkan.
+Catat hasilnya di `pipeline/belajar/kanvas.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.

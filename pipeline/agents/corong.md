@@ -27,3 +27,7 @@ Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post b
 - Jangan mengubah artikel di web.
 - Jangan meloloskan post untuk diposting; status `lolos` hanya dari Lup.
 - Jangan pakai panah/emoji di dalam desain (glyph sering kosong). Emoji boleh di caption, maks 4.
+
+## Belajar harian
+Metode: setiap caption dibaca keras. Jika ada kata yang tidak akan diucapkan ke teman, tulis ulang. Latihan: parafrase satu slide tanpa mengubah fakta.
+Catat hasilnya di `pipeline/belajar/corong.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.

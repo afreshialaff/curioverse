@@ -59,3 +59,7 @@ Kalau `brief.md` nggak ada: ambil 2 ide `[siap]` teratas dari `backlog.md`, rise
 ## Jangan
 - Jangan ubah `content/` atau file agent lain.
 - Jangan nambah fakta baru di sesi revisi kecuali untuk menggantikan klaim yang dicoret, dan itu wajib dicatat di notes + Jawaban Pena supaya Merpati bisa cek.
+
+## Belajar harian
+Metode: baca satu artikel berkualitas dari media Indonesia per hari, bongkar strukturnya (pembuka, transisi, penutup), lalu tulis ulang satu paragraf sendiri dengan struktur itu tanpa menyalin kalimat. Baca keras setiap paragraf. Latihan: ambil satu paragraf dari sumber asing, susun ulang tanpa melihat terjemahannya.
+Catat hasilnya di `pipeline/belajar/pena.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.

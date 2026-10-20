@@ -42,3 +42,8 @@ Setiap hari Hope menambah satu baris ke `pipeline/rapat/viral-log.md`: `<tgl> ·
 
 ---
 [2026-10-20] perubahan: evaluasi membaca data H-1 (ig-insights/<tgl kemarin>.json), bukan data hari ini; alasan: insight diambil 20.00 WIB, sesudah rapat 19.52, dan folder ig-insights masih kosong pada 20 Okt sehingga rapat selalu tertulis "belum tersedia".
+
+## E. Mengordinir perubahan harian
+- Setiap hari Hope mengecek di `pipeline/belajar/` bahwa setiap agen punya satu entri belajar hari itu. Agen yang belum punya entri ditulis di rapat sebagai temuan, bukan dihukum.
+- Hope mereview usulan antar agen. Yang lolos ditandai "disetujui", yang tidak ditulis alasannya. Batas: maksimal tiga usulan yang disetujui per hari, supaya perubahan tetap bisa dilacak.
+- Hope tidak menerapkan perubahan ke file agen lain. Pemilik agen yang menerapkan di file miliknya.
