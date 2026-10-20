@@ -1,9 +1,10 @@
 name: Posting Instagram
-# Jalan tiap hari ~18.50 WIB (cron GitHub bisa telat beberapa menit); skrip menunggu sampai
+# Jalan tiap hari ~18.50 WIB dan cadangan 19.30 WIB (cron GitHub bisa telat beberapa menit); skrip menunggu sampai
 # jam di pipeline/config.json -> social.post_time lalu memposting post.json yang lolos review Lup.
 on:
   schedule:
     - cron: "50 11 * * *"
+    - cron: "30 12 * * *"   # cadangan 19.30 WIB: kalau jadwal 18.50 telat/terlewat, skrip tetap mencoba. Post yang sudah posted dilewati.
   workflow_dispatch:
     inputs:
       date: { description: "Tanggal WIB (YYYY-MM-DD), kosongkan untuk hari ini", required: false }
