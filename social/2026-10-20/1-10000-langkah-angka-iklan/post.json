@@ -4,9 +4,37 @@
   "story_url": "https://curioverse-beta.vercel.app/stories/10000-langkah-angka-iklan",
   "type": "reel",
   "made_by": "layar",
-  "caption": "",
-  "media": [ { "file": "reel.mp4" } ],
+  "caption": "Target 10.000 langkah sehari di jam pintar kemungkinan besar berasal dari nama pedometer, atau alat penghitung langkah, buatan Jepang tahun 1965 bernama Manpo-kei, bukan dari uji klinis.\n\nPeneliti Harvard I-Min Lee menyebut asal angka itu tidak jelas. Kepada Harvard Health Publishing, ia bilang nama itu alat pemasaran. Versi Sasakawa Sports Foundation mengaitkannya dengan demam olahraga di Jepang setelah Olimpiade Tokyo 1964.\n\nMeta-analisis Amanda Paluch atas 47.471 orang dewasa menemukan penurunan risiko kematian terbesar terjadi di langkah-langkah awal. Untuk usia di bawah 60 tahun, manfaatnya masih bertambah sampai sekitar 8.000 hingga 10.000 langkah. Tinjauan 57 studi yang dipimpin Melody Ding dari University of Sydney menyebut 7.000 langkah sebagai target yang realistis. Semua studi ini observasional.\n\nA curious mind lives here.\n\n#jalankaki #kesehatan #10000langkah #sains #curioverse",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
   "cover": "cover.jpg",
-  "review": { "status": "pending", "by": "lup", "notes": "" },
-  "post": { "status": "queued" }
+  "review": {
+    "status": "pending",
+    "by": "lup",
+    "notes": ""
+  },
+  "post": {
+    "status": "queued"
+  },
+  "editor": {
+    "by": "corong",
+    "skor": {
+      "sampul": 5,
+      "judul_berantai": 4,
+      "orang_asing": 4,
+      "jargon": 4,
+      "angka": 4,
+      "atribusi": 4,
+      "bahasa": 4,
+      "visual": 4,
+      "tata_letak": 4,
+      "keterbacaan": 4,
+      "penutup": 5,
+      "caption": 5
+    },
+    "diubah": "Sampul: 'ternyata nama pedometer' jadi 'diduga berasal dari nama pedometer' (sesuai artikel: dugaan). Adegan 4: kalimat pengantar diberi pemilik klaim (Paluch dan tim). Adegan 5: sumbu langkah bergeser 80 px, diperbaiki supaya rentang 6–8 rb dan 8–10 rb proporsional. Render ulang + cover baru. Caption ditulis."
+  }
 }
