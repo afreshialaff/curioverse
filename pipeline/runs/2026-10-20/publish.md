@@ -27,3 +27,6 @@
 
 ## Catatan gambar
 - Gambar kedua artikel (npgallery.nps.gov, ars.usda.gov) tidak bisa dibuka dari sesi agent (proxy menolak host). Lisensi & halaman sudah diverifikasi Lup; tampilnya `src` perlu dicek manusia di halaman live.
+
+## Cek deploy
+- Setelah ±3 menit, /stories/10000-langkah-angka-iklan sudah tampil di web live (judul & tanggal 20 Okt 2026 cocok).
