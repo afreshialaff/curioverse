@@ -9,6 +9,7 @@ on:
     inputs:
       date: { description: "Tanggal WIB (YYYY-MM-DD), kosongkan untuk hari ini", required: false }
       dry_run: { description: "1 = cuma simulasi", required: false, default: "0" }
+      site_url: { description: "Opsional: basis URL media (mis. https://raw.githubusercontent.com/afreshialaff/curioverse/main) kalau deploy Vercel gagal", required: false }
 permissions:
   contents: write
 concurrency: { group: social-repo-write, cancel-in-progress: false }
@@ -25,6 +26,7 @@ jobs:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          SITE_URL: ${{ github.event.inputs.site_url || '' }}
         run: node scripts/instagram-post.mjs ${{ github.event.inputs.date }}
       - name: Catat hasil
         if: always()
