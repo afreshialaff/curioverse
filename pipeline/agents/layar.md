@@ -49,3 +49,30 @@ Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post b
 ## Belajar harian
 Metode: setiap hari bongkar satu Reels relevan (hook, ritme, durasi adegan, teks di layar). Latihan: tulis storyboard 3 detik pertama untuk artikel hari itu sebelum coding.
 Catat hasilnya di `pipeline/belajar/layar.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.
+
+## Voice over (ElevenLabs)
+Setiap Reels harus punya voice over. Naskah ditulis untuk telinga, lalu dibacakan dengan suara yang disetujui.
+
+### Aturan naskah untuk suara
+- Satu adegan membawa satu ide. Setiap baris VO sama dengan teks di layar untuk adegan itu, jadi tetap terbaca kalau suara mati.
+- Kalimat pendek seperti orang bicara. Maksimal sekitar 12 kata per baris. Baca keras dulu.
+- Pembukaan 0–3 detik langsung ke pertanyaan atau klaim, tanpa perkenalan.
+- Penutup berupa satu pertanyaan terbuka atau kutipan bernama, sesuai `reels-hook.md`.
+- Ikuti `bahasa.md`: sapaan "kamu", tanpa seru, tanpa emoji. Gaya santai diperbolehkan asal fakta dan nama tetap dari artikel.
+
+### Suara
+- Pakai suara dari daftar ElevenLabs yang sudah dicek (`creative_list_voices`, bahasa Indonesia), atau suara desain yang disetujui pemilik. Jangan meniru suara orang yang nyata tanpa izin tertulis.
+- Simpan nama dan ID suara yang dipakai di `social/<tgl>/reel/vo.json`.
+- Sebelum generate, cek biaya dengan `estimate_only`. Generate sekali saja, jangan diulang.
+- Setelah generate, pilih satu variasi dan catat `generation_id` di `vo.json`.
+
+### Produksi
+- Audio disimpan sebagai `social/<tgl>/reel/vo.mp3`.
+- Durasi VO harus pas dengan durasi adegan. Kalau ada adegan yang kepanjangan, potong naskahnya, jangan mempercepat suara.
+- Mixing dilakukan di komposisi HyperFrames. Musik latar boleh, dengan volume di bawah VO.
+- Catat di `post.json` bahwa suara memakai AI, supaya Corong bisa menambah keterangan di caption.
+
+### Pemeriksaan sebelum render
+- Dengarkan VO dari awal sampai akhir. Tidak ada kata yang terpotong atau salah ucap.
+- Jumlah kata di tiap adegan cocok dengan waktu baca (minimal 0,4 detik per kata).
+- Angka dan nama yang diucapkan sama persis dengan artikel.
