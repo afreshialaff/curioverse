@@ -5,7 +5,7 @@
   "type": "carousel",
   "made_by": "kanvas",
   "canva_design": "https://canva.link/0hk775a21zqsp2w",
-  "caption": "",
+  "caption": "Pisang memancarkan radiasi, tapi dosis dari satu pisang cuma sekitar 0,1 mikrosievert, satuan yang mengukur potensi efek radiasi pada tubuh. Angkanya begitu kecil sampai University of Groningen menjulukinya 'satuan bercanda'.\n\nSumbernya kalium. Menurut McGill, satu pisang mengandung sekitar 450 mg kalium, dan sekitar 0,012% atom kalium di alam adalah kalium-40 atau K-40 yang radioaktif. Dosisnya juga nggak menumpuk. Tubuh orang dewasa menjaga kaliumnya stabil di sekitar 120 gram, kata McGill. Kelebihannya dibuang lewat urin, tulis University of Groningen.\n\nMenurut EPA, kamu perlu makan sekitar 100 pisang untuk menyamai radiasi alami satu hari di Amerika Serikat. Rontgen dada setara minimal 1.000 pisang, kata McGill.\n\nKlaim \"radioaktif\" apa yang pernah kamu baca tanpa angka dosisnya?\n\nA curious mind lives here.\n#curioverse #sains #radiasi #faktasains #pisang",
   "media": [
     {
       "file": "slide-1.jpg"
@@ -14,13 +14,15 @@
       "file": "slide-2.jpg"
     },
     {
-      "file": "slide-3.jpg"
+      "file": "slide-3.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0003-2583334051286396218.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T173926Z&X-Amz-Expires=62839&X-Amz-Signature=3c3b8ea13d226a62a6f21a2572a1aff2642592b496314c3bf94d910916015de2&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2011%3A06%3A45%20GMT"
     },
     {
       "file": "slide-4.jpg"
     },
     {
-      "file": "slide-5.jpg"
+      "file": "slide-5.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0005-2583334051286396218.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T132818Z&X-Amz-Expires=77584&X-Amz-Signature=b42ea10456807d7adcd5ff8a1834168533705f84c7219dbb656ead9036ce5b7a&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2011%3A01%3A22%20GMT"
     },
     {
       "file": "slide-6.jpg"
@@ -29,9 +31,28 @@
       "file": "slide-7.jpg"
     },
     {
-      "file": "slide-8.jpg"
+      "file": "slide-8.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0008-2583334051286396218.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T125126Z&X-Amz-Expires=80400&X-Amz-Signature=7c4bfd15a15049b3f053335608e0c8b54b01c4c5547ae0cdb916992fff191ba5&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2011%3A11%3A26%20GMT"
     }
   ],
+  "editor": {
+    "by": "corong",
+    "skor": {
+      "sampul": 5,
+      "judul_berantai": 4,
+      "orang_asing": 5,
+      "jargon": 4,
+      "angka": 5,
+      "atribusi": 5,
+      "bahasa": 4,
+      "visual": 4,
+      "tata_letak": 4,
+      "keterbacaan": 4,
+      "penutup": 4,
+      "caption": 5
+    },
+    "diubah": "Slide 3: 'Becquerel atau satuan aktivitas radioaktif' (fragmen) jadi 'Becquerel adalah satuan aktivitas radioaktif'. Slide 5: judul 'Masalahnya, satu pisang itu kecil sekali' jadi 'Dibanding radiasi harian, satu pisang kecil sekali' (penghubung 'masalahnya' salah makna, judul berantai lebih jelas). Slide 8: kutipan Loughran diberi terjemahan 'atau kita juga sedikit radioaktif', kotak dilebarkan, pertanyaan digeser turun. Ekspor ulang slide 3, 5, 8. Caption baru format BBC (118 kata)."
+  },
   "review": {
     "status": "pending",
     "by": "lup",
