@@ -1,0 +1,23 @@
+name: Posting Threads
+# Dipicu manual atau oleh Hope. Input: file JSON berisi text.
+on:
+  workflow_dispatch:
+    inputs:
+      file: { description: "Path file JSON post, mis. social/trial-threads/post.json", required: true }
+      dry_run: { description: "1 = cuma simulasi", required: false, default: "0" }
+permissions:
+  contents: read
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Posting ke Threads
+        env:
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+        run: node scripts/threads-post.mjs "${{ github.event.inputs.file }}"
