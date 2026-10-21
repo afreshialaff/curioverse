@@ -23,7 +23,8 @@
       "file": "slide-5.jpg"
     },
     {
-      "file": "slide-6.jpg"
+      "file": "slide-6.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0006-6516102441670571335.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261021%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261021T120542Z&X-Amz-Expires=8729&X-Amz-Signature=27be9fa03729230deb69b6cf0bbc8151e7fb20bd9135a9885012fc10999b8769&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2014%3A31%3A11%20GMT"
     },
     {
       "file": "slide-7.jpg"
