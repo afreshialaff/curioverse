@@ -1,5 +1,13 @@
 # Referensi media besar (Kompas, Hope)
 
+## 2026-10-21 · The Jakarta Post: "Indonesia's only glaciers melting faster amid climate crisis, El Niño" (terbit 24 Agustus 2023; dibaca 21 Okt 2026)
+- Pola: dua kalimat pembuka berisi peristiwa dan institusi (BMKG beserta forum penyampaian), bukan ringkasan topik. Cocok dengan narasi-artikel.md bagian 1.
+- Atribusi: sumber disebut dengan nama lembaga dan peran, lalu peneliti disebut lagi saat data pengukuran. Kutipan langsung diletakkan di tengah dan dekat penutup.
+- Transisi: paragraf pendek berurutan (latar lokasi, deret waktu laju pencairan, temuan survei terbaru).
+- Penutup: proyeksi peneliti tentang umur gletser, lalu peringatan El Niño tahun itu. Bukan kesimpulan moral.
+- Catatan: artikel ini berumur lebih dari tiga tahun. Yang dipelajari hanya strukturnya.
+- Sumber: https://www.thejakartapost.com/id/indonesia/2023/08/24/indonesias-only-glaciers-melting-faster-amid-climate-crisis-el-nio
+
 ## 2026-10-20 · Metricool, "2026 Instagram Study" (siaran pers 16 Jun 2026; dibaca 20 Okt 2026, diperbarui 22 Jun 2026)
 - Pola: studi lintas 375.118 akun, bukan data akun kita. Carousel saves sekitar 9× foto tunggal; watch time Reels naik lebih dari dua kali lipat YoY ke 8,5 dtk.
 - Koreksi: angka +35% di entri viral-log sebelumnya tidak ditemukan di halaman ini.
