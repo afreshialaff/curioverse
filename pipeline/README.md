@@ -37,6 +37,7 @@ Tulis ide di `pipeline/inbox.md` bagian "Antrean" (lewat GitHub di HP, atau mint
 Ganti mode cukup edit satu baris di `config.json` dan push.
 
 ## Protokol setiap sesi (wajib untuk semua agent)
+0. **Kerja mandiri (perintah pemilik 2026-10-21).** Jangan menunggu persetujuan pemilik. Kalau ada beberapa pilihan, ambil yang paling bagus menurut RULES.md dan langsung jalankan, lalu laporkan di ringkasan. Batasnya tetap RULES.md: akurasi, review Lup, kuota, dan keselamatan tidak boleh dilonggarkan. Usulan rapat yang sudah "disetujui" Hope langsung diterapkan tanpa menunggu pemilik. Tanya pemilik hanya kalau semua pilihan melanggar RULES atau tidak bisa dibatalkan.
 1. Repo: `afreshialaff/curioverse`. Kalau belum ada di sesi, attach dulu, lalu `git clone --depth 1` dan `git pull --rebase origin main` sebelum mulai.
 2. Tanggal: `TZ=Asia/Jakarta date +%F`. Pakai itu sebagai `<tgl>`.
 3. Baca `pipeline/RULES.md` dan file peranmu di `pipeline/agents/`. **Jangan** baca file lain di luar daftar "Baca" peranmu kecuali perlu (hemat token).

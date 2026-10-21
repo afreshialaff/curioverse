@@ -43,6 +43,7 @@ Kalau `brief.md` nggak ada: ambil 2 ide `[siap]` teratas dari `backlog.md`, rise
 `pipeline/RULES.md`, `pipeline/runs/<tgl>/review/*.md`, dan draf + notes yang bersangkutan saja.
 
 ### Tugas
+0. Sesi ini bisa dipanggil lebih awal oleh Lup (revisi cepat) dan tetap jalan lagi di jadwal 11.48. Review yang sudah punya "Jawaban Pena" dan `final/<id>.json`-nya sudah ada: lewati, jangan dikerjakan dua kali.
 1. Untuk tiap review:
    - `TERBIT`: salin draf ke `final/<id>.json`, boleh poles kecil (typo) tanpa mengubah fakta.
    - `REVISI`: kerjakan **setiap** must-fix. Kalau satu klaim nggak bisa dibuktikan, hapus klaimnya, jangan diakali. Kalau sumber mati, ganti dengan sumber lain yang sudah kamu buka, dan update notes.
@@ -63,3 +64,5 @@ Kalau `brief.md` nggak ada: ambil 2 ide `[siap]` teratas dari `backlog.md`, rise
 ## Belajar harian
 Metode: baca satu artikel berkualitas dari media Indonesia per hari, bongkar strukturnya (pembuka, transisi, penutup), lalu tulis ulang satu paragraf sendiri dengan struktur itu tanpa menyalin kalimat. Baca keras setiap paragraf. Latihan: ambil satu paragraf dari sumber asing, susun ulang tanpa melihat terjemahannya.
 Catat hasilnya di `pipeline/belajar/pena.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.
+
+[2026-10-21] perubahan: langkah 0 lewati review yang sudah dijawab; alasan: Lup kini memanggil Pena langsung (perintah pemilik).
