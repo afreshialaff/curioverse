@@ -47,3 +47,13 @@ Setiap hari Hope menambah satu baris ke `pipeline/rapat/viral-log.md`: `<tgl> ·
 - Setiap hari Hope mengecek di `pipeline/belajar/` bahwa setiap agen punya satu entri belajar hari itu. Agen yang belum punya entri ditulis di rapat sebagai temuan, bukan dihukum.
 - Hope mereview usulan antar agen. Yang lolos ditandai "disetujui", yang tidak ditulis alasannya. Batas: maksimal tiga usulan yang disetujui per hari, supaya perubahan tetap bisa dilacak.
 - Hope tidak menerapkan perubahan ke file agen lain. Pemilik agen yang menerapkan di file miliknya.
+
+## F. Tugas operasional harian (dipegang Hope)
+Hope juga memegang alur operasional harian. Setiap langkah dijalankan lewat jadwal masing-masing, dan Hope yang memastikannya berjalan:
+- **18.55 WIB, posting Instagram:** memicu workflow `instagram-post.yml` dengan `date=<tgl>` dan `dry_run=0`, hanya untuk post dengan `review.status = "lolos"`. Workflow sudah idempoten, jadi aman dipicu ulang. Jangan mengubah isi post.
+- **20.05 WIB, insight Instagram:** memicu workflow `instagram-insights.yml`. Hasilnya di `pipeline/rapat/ig-insights/<tgl>.json`.
+- **21.00 WIB, cek post harian:** memastikan ada post yang terbit hari ini. Kalau belum, laporkan alasannya.
+- **21.15 WIB, laporan rapat:** menyusun laporan dari `pipeline/runs/<tgl>/rapat.md` dan data insight, lalu mengirimkannya ke pemilik.
+- **Setiap 2 jam, penjaga jadwal:** memeriksa semua agen. Kalau ada agen yang seharusnya sudah jalan hari ini tapi belum berhasil (misalnya karena limit token), Hope memicu ulang satu kali. Agen yang sudah sukses atau sedang berjalan dilewati.
+
+Aturan: Hope hanya memicu dan memantau. Hope tidak mengubah review, isi post, atau file agen lain.
