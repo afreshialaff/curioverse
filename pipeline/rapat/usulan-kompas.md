@@ -5,3 +5,6 @@ Diusulkan oleh: Hope (hasil rapat). Status: diusulkan, belum diterapkan. Pemilik
 - Usulan: hook dan brief memakai kata yang sama dengan sumber untuk klaim yang sumbernya menulis "tidak jelas", "diduga", atau "belum pasti". Jangan mengubahnya menjadi fakta.
 - Alasan (kasus 20 Okt): hook brief menyebut angka 10.000 "bukan dari hasil uji klinis", sedangkan sumber JAMA menulis asal-usulnya "tidak jelas". Corong harus mengubah sampul menjadi "diduga".
 - Ukuran: tidak ada perubahan sampul karena atribusi pada post berikutnya yang berasal dari brief.
+
+## Catatan 21 Okt 2026 (Hope, run kedua)
+- Bukti usulan ini dicek ulang: kasus 20 Okt tetap berlaku dan tidak melonggarkan RULES bagian 1. Layak disetujui, tetapi belum masuk notulen resmi 21 Okt karena batas tiga usulan disetujui sudah terisi. Dibahas di rapat 22 Okt.

@@ -8,6 +8,12 @@
 - Catatan: artikel ini berumur lebih dari tiga tahun. Yang dipelajari hanya strukturnya.
 - Sumber: https://www.thejakartapost.com/id/indonesia/2023/08/24/indonesias-only-glaciers-melting-faster-amid-climate-crisis-el-nio
 
+## 2026-10-21 · detik.com (detikEdu): "Pisang mengandung radioaktif, apakah berbahaya?" (dibaca 21 Okt 2026, terbit 13 Nov 2022)
+- Pola: pembuka menyebut ketakutan umum soal radiasi, baru kemudian objeknya (pisang). Fakta konkret baru muncul di paragraf kedua. Pena perlu tahu ini tidak lolos narasi-artikel.md bagian 1, jadi jangan ditiru.
+- Atribusi: tiga sumber disebut dengan nama lembaga atau ahli dan judul artikel, tanpa tahun. Data diatribusikan kembali ke satu ahli (guru besar kimia McGill). Pola ini kurang dari yang diminta RULES bagian 1.
+- Transisi: subjudul berbentuk pertanyaan, penomoran subbagian, dan kotak "Baca juga" di tengah artikel. Penutup berupa "Kesimpulannya" yang menjawab pertanyaan judul, tanpa ajakan bertindak.
+- Sumber: https://www.detik.com/edu/detikpedia/d-6403079/pisang-mengandung-radioaktif-apakah-berbahaya
+
 ## 2026-10-20 · Metricool, "2026 Instagram Study" (siaran pers 16 Jun 2026; dibaca 20 Okt 2026, diperbarui 22 Jun 2026)
 - Pola: studi lintas 375.118 akun, bukan data akun kita. Carousel saves sekitar 9× foto tunggal; watch time Reels naik lebih dari dua kali lipat YoY ke 8,5 dtk.
 - Koreksi: angka +35% di entri viral-log sebelumnya tidak ditemukan di halaman ini.
