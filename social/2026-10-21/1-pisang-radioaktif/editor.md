@@ -23,3 +23,8 @@ Dilihat dari slide JPG 1–8 dan thumbnail Canva setelah edit.
 - Slide 8: kutipan "'We are also a little bit radioactive,'" ditambah "atau kita juga sedikit radioaktif"; kotak dilebarkan ke 718 px, pertanyaan digeser ke top 660.
 - Slide 3, 5, 8 diekspor ulang (remote di post.json; file lama dihapus supaya diunduh ulang Actions).
 - Caption ditulis.
+
+## Revisi Kanvas 2026-10-21 (20.05 WIB), must-fix Lup slide 6
+- Batang lama bertekstur/bergaris tepi sehingga ter-render lebih pendek (613/303/61 px). Diganti persegi panjang polos.
+- Hitungan: lebar = nilai / 2,4 x 640. Total 2,4 = 640 px; Radon 1,2 = 1,2/2,4 x 640 = 320 px; Makanan dan minuman 0,3 = 0,3/2,4 x 640 = 80 px. (Dengan skala Lup 613 px: 0,3/2,4 x 613 = 77 px; rasio yang sama, 1/8 dari total.)
+- Diukur di slide-6.jpg baru (1080x1350): 640 / 320 / 80 px. Teks dan label tidak berubah. Hanya slide 6 diekspor ulang.
