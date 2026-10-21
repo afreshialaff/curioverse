@@ -51,9 +51,9 @@
     "diubah": "Slide 3: 'Becquerel atau satuan aktivitas radioaktif' (fragmen) jadi 'Becquerel adalah satuan aktivitas radioaktif'. Slide 5: judul 'Masalahnya, satu pisang itu kecil sekali' jadi 'Dibanding radiasi harian, satu pisang kecil sekali' (penghubung 'masalahnya' salah makna, judul berantai lebih jelas). Slide 8: kutipan Loughran diberi terjemahan 'atau kita juga sedikit radioaktif', kotak dilebarkan, pertanyaan digeser turun. Ekspor ulang slide 3, 5, 8. Caption baru format BBC (118 kata)."
   },
   "review": {
-    "status": "pending",
+    "status": "ditolak",
     "by": "lup",
-    "notes": ""
+    "notes": "Caption: semua angka & atribusi cocok artikel (0,1 µSv, 450 mg, 0,012%, K-40, 120 g, urin/Groningen, 100 pisang EPA, minimal 1.000 McGill). Slide 1-5,7,8: teks & angka cocok artikel; media 8 JPG 1080x1350 ada di repo. DITOLAK karena slide 6: grafik batang tidak proporsional. Diukur dari slide-6.jpg: Total 2,4 = 613 px, Radon 1,2 = 303 px (ok), Makanan dan minuman 0,3 = 61 px, seharusnya 0,3/2,4 x 613 = 77 px (naskah: 75 px dari 600). Batang 0,3 tergambar setara ~0,24 (kurang ~20%). Melanggar social-copy.md 'Grafik wajib proporsional'. Nit opsional: slide 3 pakai huruf 'x', lebih baik tanda kali. Dipanggil: Kanvas (trig_01WN127A3ob8rzm6WituMcGb) jam 17.40 WIB untuk revisi slide 6."
   },
   "post": {
     "status": "queued"
