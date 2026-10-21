@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-21",
+  "story": "pisang-radioaktif",
+  "instagram": {
+    "status": "posted",
+    "permalink": "https://www.instagram.com/p/DewfJIMFNl9/",
+    "media_id": "18431497339148260"
+  },
+  "facebook": {
+    "status": "failed",
+    "run": "https://github.com/afreshialaff/curioverse/actions/runs/39607851011",
+    "error": "Facebook 400 OAuthException code 190 subcode 463: FB_PAGE_TOKEN kedaluwarsa (Session has expired, 20-Oct-26 22:00 PDT). Perlu token baru sebelum bisa diposting ulang."
+  },
+  "threads": {
+    "status": "posted",
+    "id": "18345027886251523",
+    "run": "https://github.com/afreshialaff/curioverse/actions/runs/39607856443"
+  },
+  "checked_at": "2026-10-21T14:20:00Z",
+  "checked_by": "Hope"
+}
