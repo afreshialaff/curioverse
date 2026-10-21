@@ -3,7 +3,7 @@
 ## Terbit dan ditahan
 - Terbit hari ini dari reserve, lewat Merpati: "Pisang itu radioaktif, dan kamu tetap aman" (science, also healthy). https://curioverse-beta.vercel.app/stories/pisang-radioaktif
 - Carousel Instagram pisang-radioaktif terbit pukul 20.12 WIB, setelah Lup meloloskan revisi slide 6 pukul 20.10 WIB. https://www.instagram.com/p/DewfJIMFNl9/ Posting dijalankan ulang lewat workflow_dispatch karena jadwal 18.50 dan 19.30 sudah lewat. Catatan: rapat pukul 19.52 WIB masih mencatat Instagram belum terbit, jadi laporan ini mengikuti status terbaru di repo.
-- Teks Facebook dan Threads untuk pisang sudah dibuat (social/2026-10-21), tetapi belum ada catatan posting untuk keduanya.
+- Silang platform (cross.json): Threads terbit (id 18345027886251523). Facebook gagal karena FB_PAGE_TOKEN kedaluwarsa, dan perlu token baru sebelum bisa diposting ulang.
 - Ditahan: mandiri-gadai-saham-haji-isam-msci. Revisi Lup 19 Okt dengan 8 must-fix belum dijawab Pena, dan artikel ini sudah tiga hari di reserve. Sisa reserve: 1.
 
 ## Performa post hari ini
@@ -28,4 +28,4 @@ Data insight diambil 21 Okt pukul 20.14 WIB tanpa error. Carousel pisang baru be
 - Masih menunggu pemilik dari 20 Okt: Layar (plugin Social Media Skills) dan Hope (plugin Windsor.ai).
 
 ## Perlu diperhatikan besok
-Pemilik perlu meninjau dua hal sekaligus. Pertama, posting Instagram pukul 20.12 WIB dijalankan ulang di luar jadwal tanpa keputusan tertulis di rapat. Kedua, commit 6c953c0 (20.24 WIB) mengubah aturan agen supaya semua agen bekerja tanpa menunggu persetujuan, dengan alasan "perintah langsung pemilik" di sesi. Jika itu bukan keputusan pemilik, aturan tersebut perlu dibalik.
+Pemilik perlu meninjau tiga hal. Pertama, posting Instagram pukul 20.12 WIB dijalankan ulang di luar jadwal tanpa keputusan tertulis di rapat. Kedua, token Facebook Page sudah kedaluwarsa dan perlu diganti sebelum posting Facebook bisa jalan. Ketiga, commit 6c953c0 (20.24 WIB) mengubah aturan agen supaya semua agen bekerja tanpa menunggu persetujuan, dengan alasan "perintah langsung pemilik" di sesi. Jika itu bukan keputusan pemilik, aturan tersebut perlu dibalik.
