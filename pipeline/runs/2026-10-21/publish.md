@@ -31,3 +31,4 @@
 
 ## Cek deploy
 - Setelah ±6 menit, beranda live belum menampilkan pisang-radioaktif (masih 10000-langkah teratas) dan /stories/pisang-radioaktif gagal dibuka dari sesi agent. Dicatat "deploy belum terlihat", tidak di-push ulang. Build lokal sukses, jadi kemungkinan Vercel masih antre/gagal: perlu dicek manusia di dashboard Vercel.
+- Update: penyebabnya Ignored Build Step di vercel.json (git diff ke SHA deploy terakhir 00e7881 gagal exit 128 karena di luar clone depth 10 Vercel). Semua deploy gagal sejak 20 Okt 14.22 UTC. Diperbaiki di 65061bd (build kalau SHA tidak ada). Deploy sukses, /stories/pisang-radioaktif tampil (21 Okt 2026).
