@@ -1,0 +1,36 @@
+name: Threads tukar tiket jadi token
+# Manual saja. Menukar kode OAuth (sekali pakai) jadi token Threads jangka panjang lalu mengecek akun.
+# Token dicetak di log run ini supaya bisa disalin ke secret THREADS_ACCESS_TOKEN. Hapus run setelah selesai.
+on:
+  workflow_dispatch:
+    inputs:
+      code: { description: "Kode OAuth dari URL callback (tanpa #_)", required: true }
+permissions:
+  contents: read
+jobs:
+  exchange:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Tukar kode
+        env:
+          APP_ID: "1086531554000253"
+          APP_SECRET: ${{ secrets.THREADS_APP_SECRET }}
+          REDIRECT: "https://curioverse-beta.vercel.app/threads-callback"
+          CODE: ${{ github.event.inputs.code }}
+        run: |
+          set -e
+          SHORT=$(curl -s -X POST https://graph.threads.net/oauth/access_token \
+            -d client_id="$APP_ID" -d client_secret="$APP_SECRET" \
+            -d grant_type=authorization_code -d redirect_uri="$REDIRECT" -d code="$CODE")
+          SHORT_TOKEN=$(echo "$SHORT" | node -pe 'JSON.parse(require("fs").readFileSync(0)).access_token || ""')
+          if [ -z "$SHORT_TOKEN" ]; then echo "Gagal: $SHORT"; exit 1; fi
+          LONG=$(curl -s "https://graph.threads.net/access_token?grant_type=th_exchange_token&client_secret=$APP_SECRET&access_token=$SHORT_TOKEN")
+          LONG_TOKEN=$(echo "$LONG" | node -pe 'JSON.parse(require("fs").readFileSync(0)).access_token || ""')
+          if [ -z "$LONG_TOKEN" ]; then echo "Gagal tukar long-lived: $LONG"; exit 1; fi
+          ME=$(curl -s "https://graph.threads.net/v1.0/me?fields=id,username&access_token=$LONG_TOKEN")
+          echo "Cek akun: $ME"
+          echo "Masa berlaku (detik): $(echo "$LONG" | node -pe 'JSON.parse(require("fs").readFileSync(0)).expires_in')"
+          echo "=== SALIN TOKEN INI KE SECRET THREADS_ACCESS_TOKEN ==="
+          echo "$LONG_TOKEN"
+          echo "=== AKHIR TOKEN ==="
