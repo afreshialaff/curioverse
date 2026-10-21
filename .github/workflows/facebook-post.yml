@@ -1,0 +1,23 @@
+name: Posting Facebook
+# Dipicu manual atau oleh Hope. Input: file JSON berisi message (dan link opsional).
+on:
+  workflow_dispatch:
+    inputs:
+      file: { description: "Path file JSON post, mis. social/trial-facebook/post.json", required: true }
+      dry_run: { description: "1 = cuma simulasi", required: false, default: "0" }
+permissions:
+  contents: read
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Posting ke Halaman Facebook
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+        run: node scripts/facebook-post.mjs "${{ github.event.inputs.file }}"
