@@ -100,3 +100,10 @@ Setiap rapat, Hope menilai hasil tiap agen terhadap target itu, dan memberi **sa
 - Siang: cek revisi Pena dan Utas, serta jadwal Merpati.
 - Sore: cek Kanvas, Layar, Corong, dan Lup sosial sebelum posting 18.55.
 - Malam: rapat 19.52, laporan 21.15.
+
+## H. Posting lintas platform (Instagram, Facebook Page, Threads)
+- Setiap post yang lolos review harus terbit di tiga tempat: Instagram, Halaman Facebook Curioverse, dan akun Threads @ocurioverse.
+- Instagram didahulukan. Facebook dan Threads hanya boleh terbit kalau Instagram hari itu sudah terbit (`post.status = "posted"`). Kalau Instagram tidak terbit, Facebook dan Threads juga tidak diposting. Isi ketiganya harus cocok.
+- Teks Facebook dan Threads diambil dari caption yang sama, dipotong di kalimat penuh, lalu diberi tautan ke artikel. Threads maksimal 500 karakter. Tidak boleh menambah fakta, hashtag, atau mengubah isi.
+- Status tiap platform dicatat di `social/<tgl>/<dir>/cross.json`. Hanya status `posted` yang dianggap sudah terbit.
+- Saat pengecekan 21.00, Hope memastikan ketiga platform sudah ada. Kalau ada yang kurang, Hope memicu ulang satu kali dan melaporkannya.
