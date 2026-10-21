@@ -13,7 +13,7 @@ Singkatan: PW = www2.psych.ubc.ca/.../JRP.02.pdf (Paulhus & Williams 2002) · SP
 - "Hare memperkirakan psikopat sekitar 1% dari populasi umum" → TIME (per Hare, about 1% of the general population). Catatan: BAB sendiri membandingkan dengan sampel komunitas MacArthur memakai PCL:SV (3% vs 0,2% pada ambang setara 30); tidak dipakai supaya artikel nggak kebanyakan angka.
 - "makin bagus nilai mereka soal kemampuan komunikasi, kreativitas, dan berpikir strategis" → BAB (communication ρ=.33, creative/innovative ρ=.27, strategic thinking ρ=.30)
 - "makin tinggi skornya, makin rendah penilaian kinerjanya. Penilaian sebagai team player pun ikut turun" → BAB (teks: "the higher the PCL-R scores the lower the performance appraisal ratings"; team player dan management style juga lebih rendah). Catatan untuk Lup: tabel 2 menulis korelasi tanpa tanda minus, tapi teks penulis jelas menyebut arahnya negatif; artikel ikut teks.
-- Hook "Penilaian kinerja mereka justru lebih rendah" → BAB (kelompok PCL-R ≥25 dinilai jauh lebih rendah di semua variabel 360 dan kinerja kecuali komunikasi)
+- Hook "Makin tinggi skornya, makin rendah nilai kinerjanya" → BAB (teks: "the higher the PCL-R scores the lower the performance appraisal ratings"). Diganti Pena 22 Okt dari versi lama "Penilaian kinerja mereka justru lebih rendah", karena versi lama menyiratkan data khusus 8 orang ber-skor ≥30, padahal BAB melaporkan korelasi seluruh sampel dan perbandingan kelompok ≥25.
 
 ## Bagian 2
 - "diperkenalkan Delroy Paulhus dan Kevin Williams dari University of British Columbia pada 2002, di Journal of Research in Personality ... 245 mahasiswa" → PW (JRP 36, 556–563; 245 mahasiswa psikologi); WDT (first introduced by Paulhus & Williams in 2002)
@@ -61,3 +61,10 @@ Singkatan: PW = www2.psych.ubc.ca/.../JRP.02.pdf (Paulhus & Williams 2002) · SP
 
 ## Gambar
 - gambar: /assets/illustrations/dark-triad-v1.svg — ilustrasi sendiri (Curioverse), dibuat lewat scripts/illustrations.mjs blok 11. Isi diagram: angka/temuan dari PW, SPURK, OB di atas.
+
+## Poles Pena · sesi draf 2026-10-22 (tanpa fakta baru)
+- Hook diperketat supaya persis sesuai teks BAB (lihat baris hook di atas).
+- Bagian 1: "Detail yang lebih menarik ada di penilaian kerja mereka" → "Lalu penilaian kerja mereka dibuka." (kata "menarik" masuk daftar buang bahasa.md).
+- Bagian 4: "ternyata" dihapus dari kalimat O'Boyle (umpan balik pemilik 20 Okt: fakta ditulis langsung).
+- Teknik yang diterapkan hari ini (dari referensi The Jakarta Post, 21 Okt): penutup berisi jawaban berbasis data, bukan kesimpulan moral. Penutup bagian 6 sudah memenuhi ini, jadi tidak diubah.
+- validate.mjs: lolos setelah poles.
