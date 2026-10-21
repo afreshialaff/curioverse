@@ -2,6 +2,7 @@
 
 Dikelola Kompas. Format: `- [siap|riset|terpakai] <cat> · <judul kerja> — <angle> (sumber awal: <link>)`
 `siap` = sumber awal sudah ketemu dan dibuka. `riset` = masih perlu dicari.
+**Urutan (permintaan pemilik 2026-10-21): FIFO.** Ide inbox diproses sesuai urutan masuk. Di antara ide backlog `[siap]` yang lolos aturan variasi, ambil yang paling lama masuk dulu. Psikologi berikutnya: Spotlight effect (masuk 18 Okt) → Dunning-Kruger (19 Okt) → Kitty Genovese (21 Okt).
 ## Finance
 - [siap] finance · Gunting Sjafruddin: waktu uang Indonesia digunting jadi dua — Maret 1950, uang di atas 2,50 gulden dipotong: kiri berlaku setengah nilai, kanan ditukar obligasi negara (sumber awal: https://finance.detik.com/moneter/d-6242736/rupiah-pernah-digunting-lho-nilainya-jadi-cuma-setengah/amp ; https://www.djkn.kemenkeu.go.id/kpknl-manado/baca-artikel/16540/Belajar-Integritas-dari-Syafruddin-Prawiranegara-Menteri-Keuangan-Ke-2-Republik-Indnesia.html)
 - [siap] finance · Mitos "latte factor": beneran kopi harian yang bikin kamu nggak kaya? — istilah David Bach (1999); data justru nunjuk biaya tetap (rumah, kesehatan, pendidikan) dan guncangan (sakit, PHK) sebagai pemicu utang (sumber awal: https://www.slate.com/articles/business/the_united_states_of_debt/2016/05/the_latte_is_a_lie_and_buying_coffee_has_nothing_to_do_with_debt_an_excerpt.html)
