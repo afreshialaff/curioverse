@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-21",
+  "story": "pisang-radioaktif",
+  "story_url": "https://curioverse-beta.vercel.app/stories/pisang-radioaktif",
+  "type": "carousel",
+  "made_by": "kanvas",
+  "canva_design": "https://canva.link/0hk775a21zqsp2w",
+  "caption": "",
+  "media": [
+    {
+      "file": "slide-1.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0001-8802805131047862098.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T085853Z&X-Amz-Expires=89076&X-Amz-Signature=53a6b7c2c55ec3d8fd748f969afe84fd2e7cf6c7e7bf47ead38d722395726faf&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2009%3A43%3A29%20GMT"
+    },
+    {
+      "file": "slide-2.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0002-8802805131047862098.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T144321Z&X-Amz-Expires=69783&X-Amz-Signature=361a1fdde5ef886ac61fb79aaf51e1af4226c03fff0720886910a08c85da6bca&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2010%3A06%3A24%20GMT"
+    },
+    {
+      "file": "slide-3.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0003-8802805131047862098.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T130927Z&X-Amz-Expires=74853&X-Amz-Signature=67ae81c9648823ecc61cecf18c1d426b5482a244e2d8977870aa8497fb2cbef7&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2009%3A57%3A00%20GMT"
+    },
+    {
+      "file": "slide-4.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0004-8802805131047862098.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T203510Z&X-Amz-Expires=47066&X-Amz-Signature=da2915aced4d57b11e04b5d2b503f016ae9799775e97eb55e8922712a30e7a88&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2009%3A39%3A36%20GMT"
+    },
+    {
+      "file": "slide-5.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0005-8802805131047862098.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261020%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261020T124556Z&X-Amz-Expires=75797&X-Amz-Signature=0b760c9d55c85778a7f0eb9b482a3d680b3591b4eebea001baa07c1a65230fdd&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2009%3A49%3A13%20GMT"
+    },
+    {
+      "file": "slide-6.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0006-8802805131047862098.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261021%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261021T082634Z&X-Amz-Expires=4423&X-Amz-Signature=17c40d24bb18f40391d7cdc9f1b660ac993c867c0eb80d97d92cbb8c6ff09d12&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2009%3A40%3A17%20GMT"
+    },
+    {
+      "file": "slide-7.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0007-8802805131047862098.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261021%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261021T073818Z&X-Amz-Expires=9408&X-Amz-Signature=320701ebcbf21521f05c2cab9ea0bc043e5452bcb936a3f76d70052e13ca1188&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2010%3A15%3A06%20GMT"
+    },
+    {
+      "file": "slide-8.jpg",
+      "remote": "https://export-download.canva.com/Kqc9o/DAHYoLKqc9o/-1/0/0008-8802805131047862098.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261021%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261021T014755Z&X-Amz-Expires=28454&X-Amz-Signature=ac96de0af98b0074ee8cae903deb2b096bd210eeaf72d8724adc267ac5be569f&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2021%20Oct%202026%2009%3A42%3A09%20GMT"
+    }
+  ],
+  "review": {
+    "status": "pending",
+    "by": "lup",
+    "notes": ""
+  },
+  "post": {
+    "status": "queued"
+  }
+}
