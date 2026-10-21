@@ -7,3 +7,4 @@ Satu baris per hari, ditulis Merpati. Format: `<tgl> · terbit: <id> · ditahan:
 2026-10-18 · terbit: barnum-effect-kok-gue-banget · ditahan: - · reserve: 2 · mode: auto
 2026-10-19 · terbit: perang-dan-teknologi-sehari-hari · ditahan: - · reserve: 1 · mode: auto
 2026-10-20 · terbit: 10000-langkah-angka-iklan · ditahan: mandiri-gadai-saham-haji-isam-msci (reserve, REVISI 19 Okt belum dijawab) · reserve: 2 · mode: auto
+2026-10-21 · terbit: pisang-radioaktif · ditahan: mandiri-gadai-saham-haji-isam-msci (reserve, REVISI 19 Okt belum dijawab) · reserve: 1 · mode: auto
