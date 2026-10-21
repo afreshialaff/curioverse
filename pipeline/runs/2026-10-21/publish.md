@@ -28,3 +28,6 @@
 
 ## Catatan gambar
 - Gambar (ars.usda.gov, foto USDA ARS domain publik) tidak bisa dibuka dari sesi agent. Manusia perlu memastikan gambar tampil di halaman live.
+
+## Cek deploy
+- Setelah ±6 menit, beranda live belum menampilkan pisang-radioaktif (masih 10000-langkah teratas) dan /stories/pisang-radioaktif gagal dibuka dari sesi agent. Dicatat "deploy belum terlihat", tidak di-push ulang. Build lokal sukses, jadi kemungkinan Vercel masih antre/gagal: perlu dicek manusia di dashboard Vercel.
