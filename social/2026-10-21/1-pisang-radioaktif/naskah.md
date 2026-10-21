@@ -4,12 +4,12 @@ Aksen: science #5B7C9A (biru kabut). 8 slide. Visual data hanya di slide 3, 5, 6
 
 ## Slide 1 (sampul)
 - Judul: Pisang itu radioaktif, dan kamu tetap aman
-- Isi (kutipan): 'satuan bercanda'. University of Groningen, soal dosis setara pisang
+- Isi (kutipan): 'satuan bercanda'. Keterangan: Julukan University of Groningen untuk dosis radiasi dari satu pisang, sekitar 0,1 mikrosievert
 - Visual: sketsa tinta satu pisang di setengah bawah, bintang empat sudut kecil
 - Sumber artikel: judul + bagian 2
 
 ## Slide 2 (konteks)
-- Judul: Penyebabnya kalium, mineral andalan pisang
+- Judul: Radiasinya datang dari kalium di dalam pisang
 - Isi: Menurut Joe Schwarcz dari McGill Office for Science and Society, satu pisang mengandung sekitar 450 mg kalium.
   Sekitar 0,012% atom kalium di alam adalah versi radioaktif bernama kalium-40, atau K-40. Waktu paruhnya sekitar 1,3 miliar tahun.
 - Visual: sketsa pisang dikupas setengah
@@ -59,6 +59,6 @@ Aksen: science #5B7C9A (biru kabut). 8 slide. Visual data hanya di slide 3, 5, 6
 - Sumber artikel: bagian 4, 5
 
 ## Uji
-- Judul berantai: pisang radioaktif tapi aman > penyebabnya kalium > 15 becquerel jadi 0,1 mikrosievert > angkanya punya nama > satu pisang itu kecil > sumber terbesar bukan makanan > dosisnya nggak menumpuk > yang menentukan angka dosisnya. Nyambung.
+- Judul berantai: pisang radioaktif tapi aman > radiasinya dari kalium > 15 becquerel jadi 0,1 mikrosievert > angkanya punya nama > satu pisang itu kecil > sumber terbesar bukan makanan > dosisnya nggak menumpuk > yang menentukan angka dosisnya. Nyambung.
 - Orang asing: apa (pisang memancarkan radiasi dari K-40), kok bisa (kalium, 0,012% radioaktif, 15 Bq jadi 0,1 µSv), terus kenapa (kecil dibanding radiasi alami, tubuh membuang kelebihan kalium; tanya angkanya). Terjawab tanpa web.
 - Tukar topik: tiap kalimat memuat nama/angka spesifik artikel. Nol em dash, nol emoji, nol panah, nol "bukan X tapi Y".
