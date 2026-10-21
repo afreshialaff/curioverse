@@ -13,3 +13,5 @@ Brief dan draf hari ini **sudah disiapkan lebih awal** (2026-10-19) atas permint
 ## 1. dark-triad-orang-jahat-sukses · Dark triad: benarkah orang yang licik dan narsis lebih gampang sukses?
 - Asal ide: inbox (pemilik, 2026-10-19)
 - Detail riset, fakta kunci, dan sumber terverifikasi: lihat `notes/dark-triad-orang-jahat-sukses.md`.
+
+> Catatan Kompas 2026-10-22 00.00 WIB: sesuai catatan di atas, brief tidak diubah dan tidak ada brief baru. Reserve 1 artikel (mandiri-gadai-saham-haji-isam-msci, masih menunggu jawaban REVISI 19 Okt), jadi antrean belum penuh. Sesi ini hanya bulking backlog: +6 ide `[siap]` (finance, science, sejarah, global, scam, healthy) dan 5 baris dibuang (3 duplikat artikel yang sudah terbit: tardigrade, Krakatau, tulip; 2 ide `[riset]` tanpa sumber). Kalau dark triad DITOLAK Lup, cadangan non-psikologi terdekat dari backlog FIFO: Gunting Sjafruddin (finance, `[siap]`), tapi tetap wajib lewat Pena → Lup; jangan terbitkan tanpa review.
