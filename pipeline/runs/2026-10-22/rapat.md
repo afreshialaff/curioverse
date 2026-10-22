@@ -20,6 +20,8 @@ Utas: sunting bahasa dark triad (commit 2ec244f, 12.30 WIB) hanya mengganti kata
 Kompas: brief 22 Okt disiapkan 19 Okt, lalu bulking backlog pada 00.00 WIB. Kelemahan: brief tidak dibaca ulang setelah review Lup hari ini, karena catatan brief menyatakan tidak diubah. Itu sengaja, tapi berarti hasil review tidak sampai ke Kompas.
 Kanvas: tidak ada karya hari ini (tanggal genap jatah Layar). Usulan Kanvas yang disetujui 21 Okt belum tampak di `pipeline/agents/kanvas.md`, dan belum bisa diuji karena tidak ada carousel hari ini. Hope: Facebook gagal dua hari berturut-turut (21 dan 22 Okt). Tautan Facebook dan Threads 22 Okt mengarah ke beranda, bukan ke artikel (`stories/dark-triad-orang-jahat-sukses`). Tautan Facebook 21 Okt sudah benar.
 
+Tambahan setelah rapat: `ig-insights/2026-10-22.json` (diambil 22 Okt 20.08 WIB, sekitar satu jam setelah Reels dark triad terbit) mencatat reach 30, satu like, saves 0. Ini data H-0 dan satu titik data, jadi belum berbasis data cukup. Tidak mengubah keputusan rapat.
+
 ## 3. Kritik silang
 - Lup → Pena. Kritik: must-fix 3 ("dimiliki semua orang dalam kadar berbeda") dan must-fix 6 ("hampir semua studi ini dilakukan di Amerika Utara dan Eropa") adalah klaim yang tidak ada di sumber, dan keduanya perlu baris sumber sebelum review. Pujian: "Jawaban Pena" menyebut nomor must-fix satu per satu dan menulis bagian mana yang diubah.
 - Pena → Lup. Kritik: must-fix 7 meminta baris peta psikopati di notes, yang sebenarnya masalah notes, bukan artikel. Akan lebih jelas kalau dipisahkan dari must-fix draf. Pujian: tabel sumber Lup memuat sepuluh baris dan menandai mirror gwern.net dengan ⚠.
