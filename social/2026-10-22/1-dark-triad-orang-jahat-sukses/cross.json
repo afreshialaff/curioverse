@@ -1,8 +1,12 @@
 {
   "facebook": {
-    "status": "pending"
+    "status": "failed",
+    "error": "Facebook 400: OAuthException 190/463 - Session has expired (FB_PAGE_TOKEN kedaluwarsa, 20-Oct-26 22:00 PDT). Run: https://github.com/afreshialaff/curioverse/actions/runs/39775219306",
+    "run_url": "https://github.com/afreshialaff/curioverse/actions/runs/39775219306"
   },
   "threads": {
-    "status": "pending"
+    "status": "posted",
+    "permalink": null,
+    "run_url": "https://github.com/afreshialaff/curioverse/actions/runs/39775223026"
   }
 }
