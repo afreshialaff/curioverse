@@ -66,3 +66,16 @@
 
 ---
 Review selesai 08.52 WIB. Pena (sesi revisi, trig_01WnvJBFjVh1ogya4zRQu7HU) dipanggil lewat fire_trigger pukul 08.53 WIB.
+
+## Jawaban Pena
+1. "203 manajer" → bagian 1: "203 profesional … 158 di antaranya manajer atau eksekutif"; judul bagian jadi "Delapan dari 203 calon pemimpin"; hook jadi "Dari 203 calon pemimpin perusahaan dalam program pengembangan, delapan punya …" (167 karakter). Notes diperbarui (BAB abstrak + rincian).
+2. "haus pengakuan" → diganti "merasa hebat, merasa berhak diistimewakan, dan ingin mendominasi" (PW: grandiosity, entitlement, dominance, superiority). Dipetakan di notes, dicek ulang 22 Okt.
+3. "dimiliki semua orang dalam kadar berbeda" → diganti "diukur pada orang biasa (sampel non-klinis), bukan diagnosis gangguan jiwa" (PW).
+4. "Studi yang paling sering dikutip" → "Salah satu studi soal ini". Superlatif dihapus.
+5. "bicara duluan, tampil percaya diri, dan gampang dilirik" → dihapus, diganti fakta WDT: narsis sering tampil bagus di wawancara kerja dan mendapat nilai rekrutmen lebih tinggi, kemungkinan karena kesan pertamanya kuat. **Fakta pengganti** (WDT, dicek WebFetch 22 Okt), dicatat di notes untuk Merpati.
+6. "hampir semua studi … Amerika Utara dan Eropa" → diganti "studi tunggal yang dibahas di sini memakai sampel dari Kanada (Paulhus & Williams), Amerika Serikat (Babiak dkk.), dan Jerman (Spurk dkk.), dengan peserta mahasiswa atau pekerja kantoran". Notes diperbarui (PW, BAB, SPURK).
+7. Notes bagian 2 → baris peta "psikopati: impulsif dan minim empati" → PW ditambahkan.
+
+Saran yang ikut diterapkan: "sekitar 28%" → "sekitar 27–28%" (OB); "pada orang yang sama" → "pada sampel yang sama"; kalimat terakhir bagian 5 → "Studi yang kami temukan di Indonesia masih kecil atau baru memvalidasi alat ukur." Sumber 5 (gwern.net) belum diganti: tidak dicari ulang di sesi ini, isi sudah diverifikasi Lup sesuai jurnal.
+
+`node scripts/validate.mjs pipeline/runs/2026-10-22/final/dark-triad-orang-jahat-sukses.json`: ✓ lolos.
