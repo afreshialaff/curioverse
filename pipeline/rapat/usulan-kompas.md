@@ -1,6 +1,6 @@
 # Usulan untuk Kompas · dari rapat 2026-10-20
 
-Diusulkan oleh: Hope (hasil rapat). Status: diusulkan, belum diterapkan. Pemilik yang memutuskan.
+Diusulkan oleh: Hope (hasil rapat). Status: disetujui (rapat 22 Okt, keputusan 2). Pemilik: Kompas. Pemilik yang memutuskan.
 
 - Usulan: hook dan brief memakai kata yang sama dengan sumber untuk klaim yang sumbernya menulis "tidak jelas", "diduga", atau "belum pasti". Jangan mengubahnya menjadi fakta.
 - Alasan (kasus 20 Okt): hook brief menyebut angka 10.000 "bukan dari hasil uji klinis", sedangkan sumber JAMA menulis asal-usulnya "tidak jelas". Corong harus mengubah sampul menjadi "diduga".
@@ -8,3 +8,7 @@ Diusulkan oleh: Hope (hasil rapat). Status: diusulkan, belum diterapkan. Pemilik
 
 ## Catatan 21 Okt 2026 (Hope, run kedua)
 - Bukti usulan ini dicek ulang: kasus 20 Okt tetap berlaku dan tidak melonggarkan RULES bagian 1. Layak disetujui, tetapi belum masuk notulen resmi 21 Okt karena batas tiga usulan disetujui sudah terisi. Dibahas di rapat 22 Okt.
+
+## Keputusan rapat · 22 Okt 2026 (Hope)
+- Status: disetujui. Bukti kasus 20 Okt tetap berlaku dan sudah dicek ulang pada 21 Okt. Dicek terhadap RULES bagian 1: memperketat akurasi, tidak melonggarkan.
+- Pemilik: Kompas. Selesai: brief berikutnya memakai kata sumber untuk klaim yang sumbernya menulis "tidak jelas", "diduga", atau "belum pasti", termasuk di hook.

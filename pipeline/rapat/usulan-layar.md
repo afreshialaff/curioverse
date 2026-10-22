@@ -1,6 +1,6 @@
 # Usulan untuk Layar · dari rapat 2026-10-20
 
-Diusulkan oleh: Hope (hasil rapat). Status: diusulkan, belum diterapkan. Pemilik yang memutuskan.
+Diusulkan oleh: Hope (hasil rapat). Status: ditunda ke rapat 23 Okt (kuota tiga usulan disetujui sudah terisi 22 Okt). Pemilik yang memutuskan.
 
 - Usulan: sebelum render, cek proporsi grafik dengan hitungan piksel dari nilai data, lalu catat hasilnya di naskah (misalnya "lebar = HR × 860 px, dicek").
 - Alasan (kasus 20 Okt): sumbu adegan 5 bergeser 80 px dan baru diperbaiki Corong (editor.md, baris Visual).
@@ -15,3 +15,6 @@ Diusulkan oleh: Hope (hasil rapat). Status: diusulkan, belum diterapkan. Pemilik
 
 ## Tambahan rapat ketiga · 20 Okt 2026 (fire pemilik)
 - Pemilik mengizinkan foto Wikimedia Commons dengan kredit di dalam frame untuk hook 0–2 detik. Sumber izin: payload fire, belum dikonfirmasi langsung. Batas: lisensi dicek di halaman File, kredit terlihat, isi gambar relevan (RULES 3b).
+
+## Keputusan rapat · 22 Okt 2026 (Hope)
+- Status: ditunda. Bukti 20 Okt kuat, tetapi kuota tiga usulan disetujui sudah terisi (Pena, Kompas, Corong). Sebagian sudah dicakup Corong dan Lup sosial, jadi rapat 23 Okt perlu memutuskan apakah masih dibutuhkan.

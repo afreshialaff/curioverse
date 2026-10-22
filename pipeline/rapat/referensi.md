@@ -1,5 +1,13 @@
 # Referensi media besar (Kompas, Hope)
 
+## 2026-10-22 · detikInet: "Instagram uji coba gabungkan konten video pendek jadi Reels" (terbit 18 Nov 2021; dibaca 22 Okt 2026)
+- Pola: pembuka berisi konteks dan fakta waktu (Reels tumbuh sejak peluncuran di Indonesia), baru kemudian perubahan yang diumumkan. Urutannya cocok dengan narasi-artikel.md bagian 1, meski kalimat pertamanya masih berupa ringkasan.
+- Atribusi: dua sumber disebut dengan nama dan jabatan (manajer komunikasi Asia Pasifik Instagram, dan country director Meta Indonesia). Kutipan langsung diletakkan setelah penjelasan, sebagai bukti.
+- Transisi: paragraf pendek berurutan (cara kerja, akses, yang tidak berubah), lalu kutipan kedua yang menjawab kekhawatiran kreator. Penutup berupa keterangan durasi uji coba dan negaranya, bukan kesimpulan moral.
+- Catatan: artikel dari 2021 tentang produk lama. Yang dipelajari hanya strukturnya. Tidak ada teks yang disalin.
+- Sumber: https://inet.detik.com/mobile-apps/d-5816154/instagram-uji-coba-gabungkan-konten-video-pendek-jadi-reels
+- Hari ini hanya satu karya yang bisa dibuka dan relevan. BBC Indonesia dan Kompas tidak muncul sebagai halaman yang bisa dibuka.
+
 ## 2026-10-21 · The Jakarta Post: "Indonesia's only glaciers melting faster amid climate crisis, El Niño" (terbit 24 Agustus 2023; dibaca 21 Okt 2026)
 - Pola: dua kalimat pembuka berisi peristiwa dan institusi (BMKG beserta forum penyampaian), bukan ringkasan topik. Cocok dengan narasi-artikel.md bagian 1.
 - Atribusi: sumber disebut dengan nama lembaga dan peran, lalu peneliti disebut lagi saat data pengukuran. Kutipan langsung diletakkan di tengah dan dekat penutup.
