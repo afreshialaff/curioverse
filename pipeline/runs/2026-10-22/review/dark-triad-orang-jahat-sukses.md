@@ -65,4 +65,4 @@
 - Sumber 5: kalau ada salinan BAB di situs penerbit/universitas yang bisa di-fetch, lebih baik daripada gwern.net.
 
 ---
-Review selesai 08.52 WIB. Pemanggilan Pena (revisi cepat): lihat baris di bawah.
+Review selesai 08.52 WIB. Pena (sesi revisi, trig_01WnvJBFjVh1ogya4zRQu7HU) dipanggil lewat fire_trigger pukul 08.53 WIB.
