@@ -5,7 +5,7 @@
   "type": "reel",
   "made_by": "layar",
   "format": "perbandingan",
-  "caption": "",
+  "caption": "Dark triad atau tiga sisi gelap kepribadian, yaitu narsisme, Machiavellianisme, dan psikopati, bisa membantu sebagian orang naik jabatan, tapi tidak membuat kerja mereka lebih baik.\n\nMenurut Paul Babiak dan rekan, calon pemimpin berskor psikopati tinggi dinilai jago berkomunikasi. Studi tim Daniel Spurk atas 793 pekerja awal karier di Jerman menemukan narsisme terkait gaji lebih tinggi, sementara psikopati cenderung tertinggal.\n\nMeta-analisis tim Ernest O'Boyle atas 43.907 orang mencatat ketiga ciri ini cuma menjelaskan sekitar 1% variasi kinerja, tapi sekitar 27–28% variasi perilaku kerja kontraproduktif seperti mencuri atau menyabotase. Soal kursi eksekutif penuh psikopat, Marcus Credé bilang tidak ada buktinya sama sekali.\n\nKamu menilai orang dari kesan pertama, atau rekam jejaknya?\n\nSuara narator dibuat dengan AI (ElevenLabs).\n\nA curious mind lives here.\n\n#darktriad #psikologi #karier #duniakerja #curioverse",
   "media": [
     {
       "file": "reel.mp4"
@@ -26,5 +26,23 @@
   },
   "post": {
     "status": "queued"
+  },
+  "editor": {
+    "by": "corong",
+    "skor": {
+      "sampul": 4,
+      "judul_berantai": 5,
+      "orang_asing": 4,
+      "jargon": 5,
+      "angka": 5,
+      "atribusi": 4,
+      "bahasa": 5,
+      "visual": 5,
+      "tata_letak": 5,
+      "keterbacaan": 4,
+      "penutup": 5,
+      "caption": 5
+    },
+    "diubah": "Video tidak diubah (semua uji >= 4, teks layar cocok dengan artikel, batang adegan 5 proporsional). Menulis caption format BBC 109 kata (120 dengan keterangan VO dan penutup) + keterangan VO AI (ElevenLabs) sesuai catatan Layar."
   }
 }
