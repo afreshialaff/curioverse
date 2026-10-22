@@ -50,7 +50,7 @@ Singkatan: SEP = plato.stanford.edu/entries/simplicity/ · WOR = en.wikipedia.or
 
 ## Bagian 6 (interpretasi)
 - "dugaan sederhana bisa gugur kalau datanya berubah" → WOR
-- "pembelaan terkuat pun cuma bilang hipotesis sederhana lebih mungkin benar" → SEP (Swinburne: "more likely to be the true one")
+- "pembelaan seperti dari filsuf Richard Swinburne pun cuma bilang hipotesis sederhana lebih mungkin benar" → SEP (Swinburne: "more likely to be the true one")
 - "Francis Crick ... \"very dangerous\"" → WOR
 - "ketindihan ditemukan di banyak budaya, termasuk pada mahasiswa yang angkanya justru lebih tinggi" → PSU
 
@@ -59,3 +59,24 @@ Singkatan: SEP = plato.stanford.edu/entries/simplicity/ · WOR = en.wikipedia.or
 
 ## Gambar
 - gambar: /assets/illustrations/pisau-ockham-hantu-v1.svg — ilustrasi sendiri (Curioverse), scripts/illustrations.mjs blok 12. Isi: perbandingan asumsi, diturunkan dari CNNSP dan SEP. Netral terhadap keyakinan (catatan kaki "alat berpikir, bukan penilaian atas keyakinan").
+
+## Poles Pena 2026-10-23 (sesi draf 05.00) · audit kata penguat
+Sesuai keputusan rapat 22 Okt (usulan-pena.md): setiap kata penguat wajib punya baris sumber. WebFetch tidak bisa dipakai di sesi ini (izin URL tidak terjawab), jadi kata penguat yang belum punya baris sumber **dihapus atau dilemahkan**, bukan diverifikasi ulang. Tidak ada fakta baru.
+- "Rumusan paling terkenal" → "Salah satu rumusan" (tidak ada baris sumber untuk "paling terkenal")
+- "Versi paling terkenalnya ditulis John Punch" → "Kalimat persis itu ditulis John Punch" (WOR: Punch 1639)
+- "satu dugaan populer" → "satu dugaan" (MC tidak dipetakan untuk "populer")
+- "Contoh yang sering dipakai" → "Contohnya" (contoh tetap dari MC)
+- "amigdala ... sangat aktif" → "aktif" (belum ada kutipan untuk "sangat"; mekanisme tetap dari CNNSP)
+- "faktor yang paling sering disebut dokter" → "faktor yang memengaruhi seberapa sering ketindihan terjadi" (CNNSP: kurang tidur memengaruhi frekuensi dan beratnya)
+- "Teori infrasound ini sempat jadi favorit untuk menjelaskan rumah hantu" → dihapus; diganti "Peneliti lain kemudian menguji teori infrasound ini." (HAUNT)
+- "pembelaan terkuat pun" → "pembelaan seperti dari filsuf Richard Swinburne pun" (SEP: Swinburne, sudah ada di peta)
+
+Kata penguat yang tersisa dan pemilik sumbernya:
+- "tertinggi di Asia Tenggara di antara negara yang disurvei" → PEW
+- "Istilah \"pisau\" baru muncul berabad-abad setelah ia wafat" → WOR (a few centuries after his death)
+- "hampir 32%" → PSU (nearly 32%)
+- "biasanya bukan manusia" → CNNSP (studi 2019)
+- "berbagai budaya" / "banyak budaya" → PSU (alien, inkubus/sukubus, makhluk lain)
+- "banyak peserta memang melaporkan sensasi aneh" → HAUNT
+- "penjelasan yang paling parsimonious" → HAUNT ("most parsimonious explanation", kutipan sumber)
+- "Penjelasan yang terdengar paling \"ilmiah\"" = gaya bahasa penulis (bagian interpretasi), bukan klaim fakta.
