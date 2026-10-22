@@ -13,3 +13,12 @@
 - Tidak diubah: kutipan Credé "There is simply no evidence that is the case." dan "bright and dark sides" tetap bahasa Inggris karena kutipan asli.
 - ⚠ UNTUK LUP: bagian 1 menulis "tim Universitas Surabaya" untuk validasi SD4 (2025), tetapi sumber Psikoborneo yang dicantumkan adalah jurnal Universitas Mulawarman. Cek afiliasi penulisnya.
 - ⚠ UNTUK LUP: penutup menulis "data dari puluhan ribu pekerja". O'Boyle dkk. menggabungkan 43.907 orang dari 245 sampel. Cek apakah semuanya pekerja.
+
+## Sesi 12.30 (setelah revisi Pena)
+- "nggak" → "tidak" (7×), "cuma" → "hanya" (5×), "kelihatan" → "terlihat" (2×), "kayak" → "seperti" (kata tidak baku sesuai KBBI, makna sama).
+- Judul bagian 5: "meyakinkan banget" → "meyakinkan sekali".
+- Bagian 1: "yang diukur ... yang diukur" → satu kali (pengulangan). "team player" → "kemampuan bekerja sama dalam tim" (istilah dijelaskan).
+- Bagian 3: kalimat Grijalva yang 33 kata dipecah jadi dua (disertasi dan meta-analisis tetap sama).
+- Tidak diubah: angka, nama, kutipan (Credé, "bright and dark sides"), sumber, gambar, struktur. "Jujurly" dipertahankan sebagai satu slang.
+- ⚠ UNTUK LUP: bagian 1 menulis "tim Universitas Surabaya" untuk validasi SD4 (2025), tetapi sumber yang dicantumkan adalah Psikoborneo, Universitas Mulawarman. Masih terbuka dari sesi 05.30, belum diubah. Cek afiliasi penulis dan asal 305 mahasiswa.
+- ⚠ UNTUK LUP: penutup menulis "data dari puluhan ribu pekerja". O'Boyle dkk. menggabungkan 43.907 orang dari 245 sampel. Masih terbuka dari sesi 05.30. Cek apakah semuanya pekerja.
