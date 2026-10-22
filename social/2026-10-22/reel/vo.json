@@ -13,5 +13,17 @@
   "estimate_credits": "1794 untuk 2 take (estimate_only); dijalankan 1 take = 909 kredit (USD 0,09)",
   "raw_duration_s": 60.72,
   "ai_voice": true,
-  "catatan": "Empat percobaan pertama ditolak 429 (rate limit) sebelum mulai, tanpa generasi dan tanpa biaya. Generasi yang berhasil hanya satu. Ejaan 'Makiavelianisme' di prompt supaya diucapkan benar; di layar tertulis 'Machiavellianisme'. Angka ditulis dengan huruf di prompt supaya dibaca utuh."
+  "catatan": "Empat percobaan pertama ditolak 429 (rate limit) sebelum mulai, tanpa generasi dan tanpa biaya. Generasi yang berhasil hanya satu. Ejaan 'Makiavelianisme' di prompt supaya diucapkan benar; di layar tertulis 'Machiavellianisme'. Angka ditulis dengan huruf di prompt supaya dibaca utuh.",
+  "files": {
+    "vo.mp3": "VO final yang dipakai di reel.mp4 (sudah dipotong, 52,9 dtk)",
+    "vo-asli.mp3": "hasil generasi asli ElevenLabs, 60,7 dtk"
+  },
+  "final_duration_s": 52.94,
+  "edit": "Dua kalimat dibuang dari audio supaya Reels <= 55 dtk: 'Istilah dari Paulhus dan Williams, tahun 2002.' (11,48-14,50 dtk asli) dan 'Data 43.907 orang dari 245 sampel riset.' (35,20-40,40 dtk asli). Jeda antar kalimat dirapatkan (0,24 dtk; 0,55-0,6 dtk antar adegan). Kecepatan suara tidak diubah. Unduhan lewat workflow social-fetch (sandbox tidak bisa menjangkau storage.googleapis.com).",
+  "cek_transkrip": {
+    "tool": "ElevenLabs Scribe (eleven_scribe_v1)",
+    "generation_id": "6pd7xE6jNDM9JdiFk6pu",
+    "hasil": "Semua kata naskah terucap utuh dan berurutan; Credé terbaca 'Krede', Machiavellianisme terbaca 'Makiavelianisme'. Tidak ada kata terpotong."
+  },
+  "mixing": "Di komposisi HyperFrames: VO volume 1 (track 8), musik + efek synth.py volume 0,35 (track 9)."
 }

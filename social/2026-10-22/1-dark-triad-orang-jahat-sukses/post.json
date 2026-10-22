@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-22",
+  "story": "dark-triad-orang-jahat-sukses",
+  "story_url": "https://curioverse-beta.vercel.app/stories/dark-triad-orang-jahat-sukses",
+  "type": "reel",
+  "made_by": "layar",
+  "format": "perbandingan",
+  "caption": "",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "ElevenLabs",
+    "voice": "Jefri - Suara Penjelasan Lembut",
+    "detail": "social/2026-10-22/reel/vo.json",
+    "catatan_untuk_corong": "Suara narator dibuat dengan AI (ElevenLabs). Mohon tambahkan keterangan di caption."
+  },
+  "review": {
+    "status": "pending",
+    "by": "lup",
+    "notes": ""
+  },
+  "post": {
+    "status": "queued"
+  }
+}

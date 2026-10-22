@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1080, height=1920">
+<title>Curioverse Reel · Dark triad</title>
+<style>
+@font-face{font-family:CvSerif;src:url(assets/fonts/InstrumentSerif-Regular.woff2) format("woff2")}
+@font-face{font-family:CvSerifI;src:url(assets/fonts/InstrumentSerif-Italic.woff2) format("woff2")}
+@font-face{font-family:CvSans;src:url(assets/fonts/InterTight-Variable.woff2) format("woff2");font-weight:100 900}
+@font-face{font-family:CvHand;src:url(assets/fonts/Caveat-Variable.woff2) format("woff2");font-weight:400 700}
+@font-face{font-family:CvMono;src:url(assets/fonts/JetBrainsMono-Variable.woff2) format("woff2");font-weight:100 800}
+:root{--paper:#EAE3D5;--card:#F4EFE6;--ink:#1B1A17;--mute:#5C5649;--moss:#3F4A3B;--gold:#A67C52;--acc:#5E4F8C;--red:#9A3F2B}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#root{width:100%;height:100%;position:relative;font-family:CvSans;color:var(--ink)}
+.clip{position:absolute;inset:0}
+.bg{background:var(--paper);overflow:hidden}
+.grain{position:absolute;inset:0;background:radial-gradient(circle at 80% 12%,rgba(166,124,82,.18),transparent 45%),radial-gradient(circle at 10% 90%,rgba(94,79,140,.14),transparent 50%)}
+.band{position:absolute;left:-40px;right:-40px;bottom:-60px;height:300px;background:var(--moss);clip-path:polygon(0 30%,8% 22%,18% 34%,30% 20%,44% 32%,58% 18%,70% 30%,84% 16%,100% 28%,100% 100%,0 100%)}
+.star{position:absolute;width:40px;height:40px;fill:var(--gold)}
+.chrome{position:absolute;inset:0;font-family:CvMono;font-size:26px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.chrome .tl{position:absolute;left:72px;top:150px}
+.chrome .tr{position:absolute;right:72px;top:150px}
+.chrome .bl{position:absolute;left:72px;bottom:96px;color:var(--paper);font-family:CvSerif;font-size:44px;letter-spacing:0;text-transform:none}
+.chrome .br{position:absolute;right:72px;bottom:104px;color:#D9CDB4}
+.inner{position:absolute;inset:0;padding:0 80px}
+.kicker{position:absolute;top:300px;left:80px;font:700 30px CvMono;letter-spacing:.16em;text-transform:uppercase;color:var(--acc);display:flex;gap:18px;align-items:center}
+.kicker i{width:16px;height:16px;border-radius:50%;background:var(--acc);display:block}
+.h{position:absolute;left:80px;right:80px;font-family:CvSerif;font-weight:400;line-height:1.0;letter-spacing:-.01em}
+.it{font-family:CvSerifI}
+.capbox{position:absolute;left:80px;right:80px;top:380px;height:360px}
+.cap{position:absolute;left:0;right:0;top:0;font-family:CvSerif;font-size:80px;line-height:1.04;opacity:0}
+.credit{position:absolute;left:80px;right:80px;font:500 26px CvMono;letter-spacing:.02em;color:var(--mute);line-height:1.35}
+.note{position:absolute;left:80px;right:80px;font-size:38px;line-height:1.3;color:var(--mute)}
+.venn{position:absolute;left:80px;width:920px;height:760px;transform-origin:top left}
+.venn .c{position:absolute;width:440px;height:440px;border-radius:50%;mix-blend-mode:multiply}
+.venn .c1{left:110px;top:40px;background:rgba(94,79,140,.55)}
+.venn .c2{left:370px;top:40px;background:rgba(166,124,82,.55)}
+.venn .c3{left:240px;top:260px;background:rgba(154,63,43,.45)}
+.vl{position:absolute;font:600 36px CvSans;color:var(--ink);background:rgba(244,239,230,.85);padding:4px 14px;border-radius:10px}
+.core{position:absolute;left:390px;top:310px;width:150px;text-align:center;font:700 40px CvHand;color:var(--paper);line-height:1}
+.node{position:absolute;left:120px;width:840px;height:130px;border-radius:24px;background:var(--card);box-shadow:0 14px 40px rgba(27,26,23,.10);display:flex;align-items:center;justify-content:center;font:600 46px CvSans}
+.vline{position:absolute;left:536px;width:8px;background:var(--acc);border-radius:4px;transform-origin:top center}
+.row{position:absolute;left:80px;right:80px;height:140px;border-radius:24px;background:var(--card);box-shadow:0 14px 40px rgba(27,26,23,.08);display:flex;flex-direction:column;justify-content:center;padding:0 40px}
+.rk{font:700 30px CvMono;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.rv{font:600 46px CvSans;color:var(--acc)}
+.rv.neg{color:var(--red)}
+.blbl{position:absolute;left:80px;font:600 32px CvMono;letter-spacing:.04em;color:var(--mute)}
+.bar{position:absolute;left:80px;height:72px;border-radius:8px;background:var(--acc);transform-origin:left center}
+.bar.ghost{background:rgba(94,79,140,.35);border-radius:0 8px 8px 0}
+.bval{position:absolute;font-family:CvSerif;font-size:76px;line-height:1}
+.card{position:absolute;background:var(--card);border-radius:28px;box-shadow:0 24px 60px rgba(27,26,23,.12),0 2px 6px rgba(27,26,23,.06)}
+.tape{position:absolute;width:180px;height:54px;background:rgba(166,124,82,.45);transform:rotate(-6deg)}
+.qen{font-family:CvSerifI;font-size:62px;line-height:1.08;color:var(--ink)}
+.qid{margin-top:26px;font:600 46px CvSans;color:var(--acc)}
+.qby{margin-top:30px;font:500 30px CvMono;color:var(--mute);line-height:1.35}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="54.2" data-width="1080" data-height="1920">
+  <audio id="bgm" src="assets/audio/bgm.wav" data-start="0" data-duration="54.2" data-track-index="9" data-volume="0.35"></audio>
+  <audio id="vo" src="assets/audio/vo.mp3" data-start="0" data-duration="54.2" data-track-index="8" data-volume="1"></audio>
+  <section class="clip bg" data-start="0" data-duration="54.2" data-track-index="0" data-layout-allow-overflow>
+    <div class="grain" id="grain"></div>
+    <svg class="star" id="st1" style="left:900px;top:250px" viewBox="-10 -10 20 20"><path d="M0-10C.9-3 3-.9 10 0 3 .9.9 3 0 10-.9 3-3 .9-10 0-3-.9-.9-3 0-10z"/></svg>
+    <div class="band"></div>
+  </section>
+  <section class="clip" data-start="0" data-duration="54.2" data-track-index="2">
+    <div class="chrome"><div class="tl">Curioverse · Psikologi</div><div class="tr" id="prog">01 / 06</div><div class="bl">curioverse</div><div class="br">a curious mind lives here</div></div>
+  </section>
+  <section class="clip" data-start="0.00" data-duration="3.75" data-track-index="1"><div class="inner" id="s1"><div class="kicker"><i></i>Psikologi · Dark triad</div>
+<h1 class="h" style="top:430px;font-size:112px">Benarkah orang <span class="it" style="color:var(--acc)">licik</span> dan <span class="it" style="color:var(--acc)">narsis</span> lebih gampang sukses?</h1>
+
+<div class="venn" style="top:980px;transform:scale(0.82)">
+  <div class="c c1"></div><div class="c c2"></div><div class="c c3"></div>
+  
+</div>
+<p class="credit" style="top:1640px">Ilustrasi: Curioverse</p></div></section><section class="clip" data-start="3.75" data-duration="7.95" data-track-index="1"><div class="inner" id="s2"><div class="kicker"><i></i>Kenalan dulu</div>
+<div class="capbox"><p class="cap" id="s2c0">Dark triad, atau tiga sisi gelap kepribadian.</p><p class="cap" id="s2c1">Narsisme, Machiavellianisme, dan psikopati.</p></div>
+
+<div class="venn" style="top:760px;transform:scale(1.0)">
+  <div class="c c1"></div><div class="c c2"></div><div class="c c3"></div>
+  <p class="vl" style="left:40px;top:120px">Narsisme</p><p class="vl" style="left:470px;top:120px">Machiavellianisme</p><p class="vl" style="left:330px;top:640px">Psikopati</p><p class="core">kurang<br>ramah</p>
+</div>
+<p class="note" style="top:1500px">Ciri kepribadian orang biasa, bukan diagnosis.</p>
+<p class="credit" style="top:1570px">Paulhus &amp; Williams, Journal of Research in Personality, 2002</p></div></section><section class="clip" data-start="11.70" data-duration="7.40" data-track-index="1"><div class="inner" id="s3"><div class="kicker"><i></i>Caranya begini</div>
+<div class="capbox"><p class="cap" id="s3c0">Caranya: mereka tampil meyakinkan di kesan pertama.</p><p class="cap" id="s3c1">Orang narsis sering dapat nilai rekrutmen lebih tinggi.</p></div>
+<div class="node n" style="top:820px">Tampil meyakinkan</div>
+<div class="vline" id="l1" style="top:950px;height:70px"></div>
+<div class="node n" style="top:1030px">Nilai rekrutmen lebih tinggi</div>
+<div class="vline" id="l2" style="top:1160px;height:70px"></div>
+<div class="node n" style="top:1240px;background:var(--acc);color:var(--paper)">Lebih mungkin jadi pemimpin</div>
+<p class="credit" style="top:1420px">Babiak, Neumann &amp; Hare, 2010 · Grijalva, University of Illinois, 2013</p></div></section><section class="clip" data-start="19.10" data-duration="9.70" data-track-index="1"><div class="inner" id="s4"><div class="kicker"><i></i>Datanya · Jerman</div>
+<div class="capbox"><p class="cap" id="s4c0">Studi 793 pekerja awal karier di Jerman.</p><p class="cap" id="s4c1">Narsisme terkait gaji lebih tinggi.</p><p class="cap" id="s4c2">Psikopati justru cenderung tertinggal.</p></div>
+<div class="row r" style="top:820px"><span class="rk">Narsisme</span><span class="rv">Gaji lebih tinggi</span></div><div class="row r" style="top:990px"><span class="rk">Machiavellianisme</span><span class="rv">Jabatan pemimpin, puas karier</span></div><div class="row r" style="top:1160px"><span class="rk">Psikopati</span><span class="rv neg">Negatif di ketiganya</span></div>
+<p class="credit" style="top:1350px">Spurk, Keller &amp; Hirschi, University of Bern, 2016 · usia 25–34 tahun</p></div></section><section class="clip" data-start="28.80" data-duration="14.55" data-track-index="1"><div class="inner" id="s5"><div class="kicker"><i></i>Plot twist</div>
+<div class="capbox"><p class="cap" id="s5c0">Plot twist-nya: kinerja mereka tidak lebih baik.</p><p class="cap" id="s5c1">Dark triad cuma menjelaskan sekitar 1% variasi kinerja.</p><p class="cap" id="s5c2">Tapi sekitar 27–28% variasi perilaku kerja kontraproduktif.</p></div>
+<p class="blbl" style="top:840px">Kinerja kerja</p>
+<div class="bar" id="b1" style="top:895px;width:31px"></div>
+<p class="bval" id="b1v" style="top:888px;left:135px">sekitar 1%</p>
+<p class="blbl" style="top:1020px">Perilaku kerja kontraproduktif</p>
+<div class="bar" id="b2" style="top:1075px;width:829px"></div>
+<div class="bar ghost" id="b2g" style="top:1075px;left:909px;width:31px"></div>
+<p class="bval" id="b2v" style="top:1160px;left:80px;color:var(--acc)">27–28%</p>
+<p class="note" style="top:1290px">Kontraproduktif atau mencuri, menyabotase, memperlakukan rekan dengan buruk.</p>
+<p class="credit" style="top:1420px">Variasi yang dijelaskan dark triad · O'Boyle dkk., Journal of Applied Psychology, 2012 · 245 sampel, 43.907 orang, 1951–2011</p></div></section><section class="clip" data-start="43.35" data-duration="10.85" data-track-index="1"><div class="inner" id="s6"><div class="kicker"><i></i>Jadi</div>
+<div class="capbox"><p class="cap" id="s6c0">Soal kursi eksekutif penuh psikopat, kata Marcus Credé:</p><p class="cap" id="s6c1">Kamu menilai orang dari kesan, atau rekam jejaknya?</p></div>
+<div class="card qc" id="qc" style="left:80px;right:80px;top:900px;padding:60px 60px">
+  <div class="tape" style="left:40px;top:-22px"></div>
+  <p class="qen">'There is simply no evidence that is the case.'</p>
+  <p class="qid">Tidak ada buktinya sama sekali.</p>
+  <p class="qby">Marcus Credé, salah satu peneliti meta-analisis atas 92 studi</p>
+</div></div></section>
+</div>
+<script src="assets/vendor/gsap.min.js"></script>
+<script>
+const tl = gsap.timeline({ paused: true });
+const blurIn = (sel, at, st = 0.07) => tl.fromTo(sel, { opacity: 0, y: 26, filter: 'blur(18px)' }, { opacity: 1, y: 0, filter: 'blur(0px)', duration: 0.55, ease: 'power3.out', stagger: st }, at);
+const out = (sel, at) => tl.fromTo(sel, { opacity: 1, y: 0 }, { opacity: 0, y: -30, duration: 0.4, ease: 'power2.in' }, at);
+const starts = [0, 3.75, 11.7, 19.1, 28.8, 43.35];
+starts.forEach((t, i) => tl.call(() => { document.getElementById('prog').textContent = '0' + (i + 1) + ' / 06'; }, null, t + 0.01));
+tl.fromTo('#grain', { x: 0, y: 0 }, { x: -40, y: 30, duration: 54.2, ease: 'none' }, 0);
+tl.fromTo('#st1', { rotation: 0 }, { rotation: 120, duration: 54.2, ease: 'none' }, 0);
+out('#s1', 3.35);
+blurIn('#s2 .kicker', 3.80, 0.07);
+tl.fromTo('#s2c0', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 3.92);
+tl.to('#s2c0', {opacity:0,y:-20,duration:.25,ease:'power2.in'}, 7.38);
+tl.fromTo('#s2c1', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 7.63);
+tl.fromTo('#s2 .c', {opacity:0,scale:.6}, {opacity:1,scale:1,duration:.5,ease:'back.out(1.6)',stagger:.35}, 4.67);
+blurIn('#s2 .vl', 8.08, 0.35);
+blurIn('#s2 .core', 9.18, 0.07);
+blurIn('#s2 .note', 9.78, 0.07);
+blurIn('#s2 .credit', 10.18, 0.07);
+out('#s2', 11.30);
+blurIn('#s3 .kicker', 11.75, 0.07);
+tl.fromTo('#s3c0', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 11.87);
+tl.to('#s3c0', {opacity:0,y:-20,duration:.25,ease:'power2.in'}, 15.37);
+tl.fromTo('#s3c1', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 15.62);
+tl.fromTo('#s3 .n', {opacity:0,x:-40}, {opacity:1,x:0,duration:.5,ease:'power3.out',stagger:1.1}, 12.42);
+tl.fromTo('#l1', {scaleY:0}, {scaleY:1,duration:.4}, 12.92); tl.fromTo('#l2', {scaleY:0}, {scaleY:1,duration:.4}, 14.02);
+blurIn('#s3 .credit', 14.82, 0.07);
+out('#s3', 18.70);
+blurIn('#s4 .kicker', 19.15, 0.07);
+tl.fromTo('#s4c0', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 19.23);
+tl.to('#s4c0', {opacity:0,y:-20,duration:.25,ease:'power2.in'}, 23.07);
+tl.fromTo('#s4c1', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 23.32);
+tl.to('#s4c1', {opacity:0,y:-20,duration:.25,ease:'power2.in'}, 25.69);
+tl.fromTo('#s4c2', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 25.94);
+tl.fromTo('#s4 .r', {opacity:0,x:-40}, {opacity:1,x:0,duration:.5,ease:'power3.out',stagger:.6}, 19.88);
+blurIn('#s4 .credit', 21.58, 0.07);
+out('#s4', 28.40);
+blurIn('#s5 .kicker', 28.85, 0.07);
+tl.fromTo('#s5c0', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 28.93);
+tl.to('#s5c0', {opacity:0,y:-20,duration:.25,ease:'power2.in'}, 32.17);
+tl.fromTo('#s5c1', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 32.42);
+tl.to('#s5c1', {opacity:0,y:-20,duration:.25,ease:'power2.in'}, 36.60);
+tl.fromTo('#s5c2', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 36.85);
+blurIn('#s5 .blbl', 32.37, 0.4);
+tl.fromTo('#b1', {scaleX:0}, {scaleX:1,duration:.5,ease:'power3.out'}, 32.87);
+blurIn('#b1v', 33.17, 0.07);
+tl.fromTo('#b2', {scaleX:0}, {scaleX:1,duration:1.0,ease:'power3.out'}, 37.20);
+tl.fromTo('#b2g', {opacity:0}, {opacity:1,duration:.3}, 38.10);
+blurIn('#b2v', 38.00, 0.07);
+blurIn('#s5 .note', 38.60, 0.07);
+blurIn('#s5 .credit', 29.68, 0.07);
+out('#s5', 42.95);
+blurIn('#s6 .kicker', 43.40, 0.07);
+tl.fromTo('#s6c0', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 43.50);
+tl.to('#s6c0', {opacity:0,y:-20,duration:.25,ease:'power2.in'}, 49.09);
+tl.fromTo('#s6c1', {opacity:0,y:24}, {opacity:1,y:0,duration:.35,ease:'power3.out'}, 49.34);
+tl.fromTo('#qc', {opacity:0,y:60}, {opacity:1,y:0,duration:.6,ease:'back.out(1.6)'}, 46.94);
+document.fonts.ready.then(() => { window.__timelines = window.__timelines || {}; window.__timelines["main"] = tl; });
+</script>
+</body>
+</html>
