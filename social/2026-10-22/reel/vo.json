@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-22",
+  "story": "dark-triad-orang-jahat-sukses",
+  "provider": "ElevenLabs (creative_generate_speech)",
+  "voice_name": "Jefri - Suara Penjelasan Lembut",
+  "voice_id": "1ijzBXcD3AIVH8RGMcQd",
+  "voice_note": "Suara library ElevenLabs bahasa Indonesia (aksen standar), dipilih dari creative_list_voices. Bukan tiruan suara orang nyata.",
+  "model_id": "eleven_v4",
+  "flow_id": "vaf2jPf41zUvZLc5kvrj",
+  "session_id": "drdZXFhJJLotZcttD4dq",
+  "generation_id": "4vIeG8nyhvvZq2FlIxX3",
+  "generations": 1,
+  "estimate_credits": "1794 untuk 2 take (estimate_only); dijalankan 1 take = 909 kredit (USD 0,09)",
+  "raw_duration_s": 60.72,
+  "ai_voice": true,
+  "catatan": "Empat percobaan pertama ditolak 429 (rate limit) sebelum mulai, tanpa generasi dan tanpa biaya. Generasi yang berhasil hanya satu. Ejaan 'Makiavelianisme' di prompt supaya diucapkan benar; di layar tertulis 'Machiavellianisme'. Angka ditulis dengan huruf di prompt supaya dibaca utuh."
+}

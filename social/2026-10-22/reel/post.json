@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-22",
+  "type": "asset",
+  "made_by": "layar",
+  "note": "Bukan post Instagram. Folder aset VO Reels 2026-10-22 (vo.mp3 + vo.json); post.json ini hanya dipakai workflow social-fetch untuk mengunduh vo.mp3 dari ElevenLabs karena sandbox agent tidak bisa menjangkau storage.googleapis.com.",
+  "media": [ { "file": "vo.mp3", "remote": "https://storage.googleapis.com/xi-backend/database/workspace/75d1d0c61a2e4a07b4d4f385b1e5c4c2/content_generation/drdZXFhJJLotZcttD4dq/4vIeG8nyhvvZq2FlIxX3/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261022%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261022T083111Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=80098cfc96597bfc9174bb75617aa7c2c64f923d2d617a6fc85f8c9238a1ad80ce590253b97cb4644bc48bc90606dff373e60f449f6eca2fa73190c78b7a923f9e6aa18309ed578057e9a17b1f3c099672cd9562c2c785c03e654bee16a35b465b4d5c64c89d2adb35edeb232ad4dfdd71d66b37d83274cdd7cf3f9c1f04f7630c02a7bfccc99b09ddf8d70ac28b59b48bc5bcb55ef0182f4162b04d3f2cce4fa5e2d51daa8db9337eeb8f62c76daf6f05ff1888c167ece46e1021a84cd85f7bb27b8289264eea6168f5a22daf456fc7238164b7beb4650cbece7a5d27bacec3497c8cfb283fd547aaae20eba330888941f8f30a74b3029de920a08f8e16186c" } ],
+  "review": { "status": "n/a", "by": "", "notes": "aset, bukan post" },
+  "post": { "status": "not-a-post" }
+}
