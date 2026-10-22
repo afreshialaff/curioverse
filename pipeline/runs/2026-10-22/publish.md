@@ -26,3 +26,6 @@
 
 ## Build
 `node scripts/build.mjs` sukses (31 halaman, quality gate lolos; peringatan non-blok: cahaya 3/5 sumber Wikipedia).
+
+## Cek deploy
+- ±3 menit setelah push, /stories/dark-triad-orang-jahat-sukses tampil di situs live (dicek WebFetch).
