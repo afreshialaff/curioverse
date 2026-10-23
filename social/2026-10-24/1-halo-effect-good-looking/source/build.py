@@ -14,7 +14,7 @@ base = open('base.css').read().replace('</style>', '''
 lines = {
  's2': ["Tahun 1920, psikolog Edward Thorndike memeriksa penilaian atasan.", "Perwira yang dinilai tegap cenderung ikut dinilai cerdas."],
  's3': ["Caranya: satu kesan baik merembes ke penilaian lain.", "Wajah menarik dianggap berkepribadian lebih baik."],
- 's4': ["Esai jelek yang sama dinilai 60 mahasiswa.", "Foto penulis menarik: nilainya 5,2 dari 9.", "Foto tidak menarik: cuma 2,7."],
+ 's4': ["Esai jelek yang sama diberi foto penulis berbeda.", "Foto penulis menarik: nilainya 5,2 dari 9.", "Foto tidak menarik: cuma 2,7."],
  's5': ["Plot twist-nya: keuntungan ini bisa berbalik.", "Perempuan menarik dinilai kurang cocok jadi insinyur mesin."],
  's6': ["Mei 2025, syarat berpenampilan menarik di lowongan dilarang.", "Saran Thorndike: nilai setiap sifat secara terpisah.", "Kamu menilai orang dari wajah, atau buktinya?"],
 }

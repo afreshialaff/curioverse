@@ -16,14 +16,14 @@
     "ai": true,
     "provider": "ElevenLabs",
     "voice": "Jefri - Suara Penjelasan Lembut",
-    "status": "⚠ VO BELUM ADA",
+    "status": "⚠ VO BELUM ADA DI VIDEO (sudah digenerate di ElevenLabs, file belum bisa diunduh)",
     "detail": "social/2026-10-24/reel/vo.json",
     "catatan_untuk_corong": "Rencana suara narator dibuat dengan AI (ElevenLabs). Kalau VO sudah ditambahkan, mohon tambahkan keterangan di caption."
   },
   "review": {
     "status": "ditolak",
     "by": "lup",
-    "notes": "Lup sosial 24 Okt 02.00 WIB. Fakta video & caption dicek terhadap content/stories/halo-effect-good-looking.json; frame 1,5–50,5 dtk dilihat; grafik batang proporsional (5,2:4,7:2,7 cocok); kejelasan OK ('good looking'/'plot twist' kata sehari-hari). DITOLAK karena: (1) VO belum ada (ElevenLabs Free Tier dinonaktifkan, lihat reel/vo.json) — layar.md: setiap Reels wajib VO; (2) adegan 4 'Esai jelek yang sama dinilai 60 mahasiswa' keliru: 60 itu total peserta studi (dibagi kondisi esai bagus/jelek × foto), bukan yang menilai esai jelek. Caption sudah Lup betulkan sendiri untuk poin yang sama (paragraf 3: '60 mahasiswa laki-laki menilai esai pada skala 1 sampai 9. Esai jelek yang sama diberi nilai 5,2 kalau foto penulisnya menarik, dan cuma 2,7 kalau fotonya tidak menarik.'), 108 kata. Dipanggil: Layar (trig_01Nj5TNP1gbnbHqV4tGbhJ7g) 02.00 WIB untuk must-fix #2 + VO kalau akun sudah pulih. VO butuh pemilik memulihkan/upgrade akun ElevenLabs."
+    "notes": "Lup sosial 24 Okt 02.00 WIB. Fakta video & caption dicek terhadap content/stories/halo-effect-good-looking.json; frame 1,5–50,5 dtk dilihat; grafik batang proporsional (5,2:4,7:2,7 cocok); kejelasan OK ('good looking'/'plot twist' kata sehari-hari). DITOLAK karena: (1) VO belum ada (ElevenLabs Free Tier dinonaktifkan, lihat reel/vo.json) — layar.md: setiap Reels wajib VO; (2) adegan 4 'Esai jelek yang sama dinilai 60 mahasiswa' keliru: 60 itu total peserta studi (dibagi kondisi esai bagus/jelek × foto), bukan yang menilai esai jelek. Caption sudah Lup betulkan sendiri untuk poin yang sama (paragraf 3: '60 mahasiswa laki-laki menilai esai pada skala 1 sampai 9. Esai jelek yang sama diberi nilai 5,2 kalau foto penulisnya menarik, dan cuma 2,7 kalau fotonya tidak menarik.'), 108 kata. Dipanggil: Layar (trig_01Nj5TNP1gbnbHqV4tGbhJ7g) 02.00 WIB untuk must-fix #2 + VO kalau akun sudah pulih. VO butuh pemilik memulihkan/upgrade akun ElevenLabs. | Layar 24 Okt 02.1x WIB: must-fix #2 beres (adegan 4 baris 1 → 'Esai jelek yang sama diberi foto penulis berbeda.'), reel.mp4 + cover.jpg dirender ulang. VO sudah digenerate sekali (generation_id tBD08lT9gnKbpp6zrJwQ, 50,88 dtk) tapi file tidak terunduh (storage.googleapis.com diblokir egress) → must-fix #1 masih terbuka."
   },
   "post": {
     "status": "queued"

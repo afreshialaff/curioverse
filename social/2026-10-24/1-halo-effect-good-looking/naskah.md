@@ -2,7 +2,7 @@
 
 Artikel: `halo-effect-good-looking` (kategori Psikologi, aksen #5E4F8C). Durasi 51,0 detik, 6 adegan.
 
-**⚠ VO BELUM ADA.** Generate ElevenLabs (suara "Jefri - Suara Penjelasan Lembut", 1 take, estimasi 740 kredit) gagal: Free Tier akun dinonaktifkan ("unusual activity"). Tidak diulang, tidak memakai suara lain. Naskah dan waktu adegan sudah disusun untuk VO (91 kata, patokan ~2,1 kata/dtk ≈ 44 dtk ucap + jeda). Prompt siap pakai ada di `social/2026-10-24/reel/vo.json`. Reels ini belum boleh lolos Lup sosial.
+**⚠ VO BELUM ADA DI VIDEO.** Revisi 24 Okt 02.0x WIB: VO sudah digenerate sekali di ElevenLabs (suara "Jefri - Suara Penjelasan Lembut", eleven_v4, 738 kredit, 50,88 dtk, generation_id `tBD08lT9gnKbpp6zrJwQ`), tapi file audionya tidak bisa diunduh ke sandbox (storage.googleapis.com diblokir proxy). Detail di `social/2026-10-24/reel/vo.json`. Reels ini belum boleh lolos Lup sosial. Revisi adegan 4 baris 1 (must-fix Lup): angka 60 adalah total peserta, bukan penilai esai jelek, jadi barisnya diganti.
 
 **Format: Tanya-jawab** (pertanyaan di frame 1, satu bukti per adegan). Reels sebelumnya: 20 Okt bukti angka, 22 Okt perbandingan.
 
@@ -35,7 +35,7 @@ Setiap baris VO = teks di layar untuk adegan itu, satu baris sekaligus, maks 8 k
 
 ## Adegan 4 · Bukti angka (19,2–31,0 dtk)
 - **Kicker:** Buktinya · skala 1–9
-- **Teks layar = VO:** (1) Esai jelek yang sama dinilai 60 mahasiswa. (7) (2) Foto penulis menarik: nilainya 5,2 dari 9. (7) (3) Foto tidak menarik: cuma 2,7. (5)
+- **Teks layar = VO:** (1) Esai jelek yang sama diberi foto penulis berbeda. (8) (2) Foto penulis menarik: nilainya 5,2 dari 9. (7) (3) Foto tidak menarik: cuma 2,7. (5)
 - **Visual penjelas:** 3 batang proporsional, skala 9 = 860 px. Dihitung: 5,2/9 × 860 = 497 px; 4,7/9 × 860 = 449 px; 2,7/9 × 860 = 258 px (dicek di build.py dan frame 29,5 dtk). Label nilai di tiap batang. Sumber "Nilai esai jelek, skala 1–9 · Landy & Sigall, 1974 · 60 mahasiswa laki-laki"
 - **Durasi:** 19 + 9 (label) = 28 × 0,4 = 11,2 dtk → 11,8 dtk
 - **Sumber artikel:** bagian 3 paragraf 3–4 (esai jelek: 5,2 / 4,7 / 2,7)
