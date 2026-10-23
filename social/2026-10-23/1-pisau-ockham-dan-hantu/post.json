@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-23",
+  "story": "pisau-ockham-dan-hantu",
+  "story_url": "https://curioverse-beta.vercel.app/stories/pisau-ockham-dan-hantu",
+  "type": "carousel",
+  "made_by": "kanvas",
+  "canva_design": "https://www.canva.com/d/drCGMevlxAdEuGD",
+  "caption": "",
+  "media": [
+    {
+      "file": "slide-1.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0001-5593990603402769220.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261022T130250Z&X-Amz-Expires=75590&X-Amz-Signature=856e973bdb647ae79ff94254400e8ffa32fb2527737f2842a90aa1df77847047&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2010%3A02%3A40%20GMT"
+    },
+    {
+      "file": "slide-2.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0002-5593990603402769220.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261022T220226Z&X-Amz-Expires=42692&X-Amz-Signature=c70586dec77cc177b6dc8e388320f3927ab40fd6b4d5207fbcfc99c5f17dbe8a&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2009%3A53%3A58%20GMT"
+    },
+    {
+      "file": "slide-3.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0003-5593990603402769220.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261022T121429Z&X-Amz-Expires=77750&X-Amz-Signature=8aa2dc66b990537a5b126938f35ec89341028df6e5bcb140d125d6f19e3de56b&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2009%3A50%3A19%20GMT"
+    },
+    {
+      "file": "slide-4.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0004-5593990603402769220.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261022T210024Z&X-Amz-Expires=45875&X-Amz-Signature=77cc6c23e1e1523615eb1b2d642b0731ff068d4e5f00bb180efadc8a6b54d0d9&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2009%3A44%3A59%20GMT"
+    },
+    {
+      "file": "slide-5.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0005-5593990603402769220.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261022T091010Z&X-Amz-Expires=87569&X-Amz-Signature=9e91262442bceb4040c1879980dfe46367ee1c7b710106ea93f51d948b18c97a&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2009%3A29%3A39%20GMT"
+    },
+    {
+      "file": "slide-6.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0006-5593990603402769220.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261023T063714Z&X-Amz-Expires=13536&X-Amz-Signature=d7c6ffdff50831298593f9b76f88aac774239a1e3559f49aa9016360665c03dd&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2010%3A22%3A50%20GMT"
+    },
+    {
+      "file": "slide-7.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0007-5593990603402769220.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261023T071604Z&X-Amz-Expires=8405&X-Amz-Signature=cd65277b38eb31a4452bdc7b5a17ec59fb4dac69c1cc5574079d0627c716a9f1&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2009%3A36%3A09%20GMT"
+    },
+    {
+      "file": "slide-8.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0008-5593990603402769220.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261022T170505Z&X-Amz-Expires=59099&X-Amz-Signature=5fff0a3678a3e8555d3a80a5164355d2f125138c38cc7b8c7025c8ab8db2bb0b&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2009%3A30%3A04%20GMT"
+    }
+  ],
+  "review": {
+    "status": "pending",
+    "by": "lup",
+    "notes": ""
+  },
+  "post": {
+    "status": "queued"
+  }
+}
