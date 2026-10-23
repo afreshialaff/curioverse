@@ -1,8 +1,11 @@
 {
   "facebook": {
-    "status": "pending"
+    "status": "failed",
+    "error": "403 (#200): token halaman Facebook belum punya izin pages_read_engagement dan pages_manage_posts (admin halaman). Perlu manusia memeriksa token FB_PAGE_TOKEN."
   },
   "threads": {
-    "status": "pending"
+    "status": "posted",
+    "id": "18128869492868068",
+    "at": "2026-10-23T12:05:58Z"
   }
 }
