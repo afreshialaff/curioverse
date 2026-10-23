@@ -17,7 +17,7 @@ Aksen: psikologi #5E4F8C (ungu lembayung). 8 slide. Visual data hanya di slide 5
 
 ## Slide 3 (mekanisme)
 - Judul: Ketindihan terjadi saat tidur REM terbawa ke setengah sadar
-- Isi: Ketindihan atau kelumpuhan tidur (sleep paralysis). Saat REM, fase mimpi paling hidup, otot dilumpuhkan supaya kita nggak memperagakan mimpi.
+- Isi: Ketindihan atau kelumpuhan tidur terkait tidur REM, fase saat mimpi paling hidup. Di fase ini otot dilumpuhkan supaya kita nggak memperagakan mimpi.
   Menurut Brian Sharpless, orang bisa setengah bangun saat kelumpuhan itu masih jalan. Mimpi lalu bercampur dengan kamar nyata.
 - Visual: alur tiga kotak: "Tidur REM: otot dilumpuhkan" / "Setengah bangun" / "Mimpi bercampur dengan kamar nyata"
 - Sumber artikel: bagian 4 paragraf 2
@@ -46,7 +46,7 @@ Aksen: psikologi #5E4F8C (ungu lembayung). 8 slide. Visual data hanya di slide 5
 ## Slide 7 (plot twist, perbandingan)
 - Judul: Plot twist: teori hantu 19 hertz pun ikut terpotong
 - Isi: Vic Tandy (1998) mengaitkan penampakan dengan infrasound, atau suara frekuensi sangat rendah, sekitar 19 hertz.
-  Proyek Haunt dari Goldsmiths (Cortex, 2009) menguji 79 peserta selama 50 menit. Kesimpulan peneliti: sugesti.
+  Proyek Haunt dari Goldsmiths (Cortex, 2009) menguji 79 peserta selama 50 menit. Kesimpulan peneliti: sugesti. Temuan Tandy sendiri masih diperdebatkan.
 - Visual: dua kotak berdampingan: "Dengan paparan" / "Tanpa paparan apa pun", keterangan di bawah: "Laporan sensasi aneh: jumlahnya nggak berbeda"
 - Baris sumber: Sumber: French dkk. (2009), Goldsmiths
 - Sumber artikel: bagian 5
@@ -66,3 +66,6 @@ Aksen: psikologi #5E4F8C (ungu lembayung). 8 slide. Visual data hanya di slide 5
 ## Catatan produksi
 - create-design gagal (quota_exceeded). Desain dibuat dengan copy-design dari carousel 21 Okt lalu semua teks, ilustrasi, dan grafik diganti lewat edit-design. Ilustrasi pisang lama dihapus semua; sketsa pisau dan kamar digambar ulang pakai insert_shape.
 - Slide 3 baris sumber: "Sumber: Brian Sharpless, lewat Penn State News". Slide 2 dan 4 kredit kecil "Ilustrasi: Curioverse".
+
+## Diubah Corong (2026-10-23)
+- Slide 3 paragraf 1 dan slide 7 paragraf 2 diganti seperti di atas. Slide 2 dan 6: bintik tekstur latar ditutup patch warna latar.

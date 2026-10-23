@@ -5,16 +5,18 @@
   "type": "carousel",
   "made_by": "kanvas",
   "canva_design": "https://www.canva.com/d/drCGMevlxAdEuGD",
-  "caption": "",
+  "caption": "Penjelasan \"ada makhluk halus\" untuk ketindihan, atau kelumpuhan tidur, terasa paling sederhana. Menurut pisau Ockham, atau aturan jangan menambah hal baru tanpa keperluan, penjelasan itu justru menambah banyak asumsi.\n\nKetindihan terjadi saat tidur REM terbawa ke setengah sadar. Otot masih dilumpuhkan, sementara mimpi bercampur dengan kamar nyata. Menurut Daniel Denis dari Beth Israel Deaconess Medical Center, amigdala sangat aktif saat REM, jadi rasa takut muncul duluan, lalu otak mencari pelakunya.\n\nTinjauan Brian Sharpless dan Jacques Barber (2011) atas 35 studi memperkirakan 7,6% orang di populasi umum, sekitar 1 dari 13, pernah mengalaminya. Pisau Ockham sendiri bukan bukti. Ia cuma membantu memilih dugaan mana yang diuji dulu.\n\nA curious mind lives here.\n\n#pisauockham #ketindihan #psikologi #berpikirkritis #curioverse",
   "media": [
     {
       "file": "slide-1.jpg"
     },
     {
-      "file": "slide-2.jpg"
+      "file": "slide-2.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0002-547707219019292355.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261023T072958Z&X-Amz-Expires=10631&X-Amz-Signature=f9efdcc922936a8ea70fe26b46da7b97201b3a57777dac64cded4dd4cd83cd10&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2010%3A27%3A09%20GMT"
     },
     {
-      "file": "slide-3.jpg"
+      "file": "slide-3.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0003-547707219019292355.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261023T040156Z&X-Amz-Expires=22222&X-Amz-Signature=33edd2e87375acf9754ac863d22c0de2c05abb617396db20b1eb29c80991f5f4&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2010%3A12%3A18%20GMT"
     },
     {
       "file": "slide-4.jpg"
@@ -23,10 +25,12 @@
       "file": "slide-5.jpg"
     },
     {
-      "file": "slide-6.jpg"
+      "file": "slide-6.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0006-547707219019292355.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261022T224918Z&X-Amz-Expires=42101&X-Amz-Signature=c451107d70877acf7338c82c21a65de03d7249f0a977da038f6e5da36da1a9d1&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2010%3A30%3A59%20GMT"
     },
     {
-      "file": "slide-7.jpg"
+      "file": "slide-7.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0007-547707219019292355.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261022T231640Z&X-Amz-Expires=38717&X-Amz-Signature=478fc4000461af074ece0bcec521e33c48c7c1b15ceae4837fa7398d6f67264f&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2010%3A01%3A57%20GMT"
     },
     {
       "file": "slide-8.jpg"
@@ -39,5 +43,23 @@
   },
   "post": {
     "status": "queued"
+  },
+  "editor": {
+    "by": "corong",
+    "skor": {
+      "sampul": 4,
+      "judul_berantai": 4,
+      "orang_asing": 4,
+      "jargon": 4,
+      "angka": 5,
+      "atribusi": 4,
+      "bahasa": 4,
+      "visual": 4,
+      "tata_letak": 4,
+      "keterbacaan": 4,
+      "penutup": 5,
+      "caption": 5
+    },
+    "diubah": "Slide 3: kalimat fragmen pembuka jadi kalimat utuh (ketindihan terkait tidur REM). Slide 7: tambah \"Temuan Tandy sendiri masih diperdebatkan\" (artikel bagian 5). Slide 2 dan 6: bintik tekstur latar yang terlihat seperti tanda di atas huruf ditutup. Ekspor ulang slide 2, 3, 6, 7. Caption baru format BBC (103 kata isi)."
   }
 }
