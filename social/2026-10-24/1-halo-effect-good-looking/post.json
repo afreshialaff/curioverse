@@ -5,7 +5,7 @@
   "type": "reel",
   "made_by": "layar",
   "format": "tanya-jawab",
-  "caption": "Wajah yang menarik bisa membuat karya seseorang ikut dinilai lebih bagus, padahal isinya sama persis.\n\nPsikolog Edward Thorndike mencatat pola ini pada 1920, saat memeriksa penilaian atasan terhadap perwira Angkatan Darat AS. Perwira yang dinilai tegap cenderung ikut dinilai cerdas. Menurut Thorndike, kesan baik tentang seseorang memancar dan mewarnai penilaian atas kemampuan lainnya.\n\nDalam studi Landy dan Sigall (1974), 60 mahasiswa laki-laki menilai esai jelek yang sama pada skala 1 sampai 9. Dengan foto penulis yang menarik, nilainya 5,2. Dengan foto yang tidak menarik, cuma 2,7. Sejak Mei 2025, Menteri Ketenagakerjaan Yassierli melarang syarat \"berpenampilan menarik\" di lowongan kerja.\n\nKamu menilai orang dari wajahnya, atau dari buktinya?\n\nA curious mind lives here.\n\n#psikologi #penampilan #duniakerja #goodlooking #curioverse",
+  "caption": "Wajah yang menarik bisa membuat karya seseorang ikut dinilai lebih bagus, padahal isinya sama persis.\n\nPsikolog Edward Thorndike mencatat pola ini pada 1920, saat memeriksa penilaian atasan terhadap perwira Angkatan Darat AS. Perwira yang dinilai tegap cenderung ikut dinilai cerdas. Menurut Thorndike, kesan baik tentang seseorang memancar dan mewarnai penilaian atas kemampuan lainnya.\n\nDalam studi Landy dan Sigall (1974), 60 mahasiswa laki-laki menilai esai pada skala 1 sampai 9. Esai jelek yang sama diberi nilai 5,2 kalau foto penulisnya menarik, dan cuma 2,7 kalau fotonya tidak menarik. Sejak Mei 2025, Menteri Ketenagakerjaan Yassierli melarang syarat \"berpenampilan menarik\" di lowongan kerja.\n\nKamu menilai orang dari wajahnya, atau dari buktinya?\n\nA curious mind lives here.\n\n#psikologi #penampilan #duniakerja #goodlooking #curioverse",
   "media": [
     {
       "file": "reel.mp4"
@@ -21,9 +21,9 @@
     "catatan_untuk_corong": "Rencana suara narator dibuat dengan AI (ElevenLabs). Kalau VO sudah ditambahkan, mohon tambahkan keterangan di caption."
   },
   "review": {
-    "status": "pending",
+    "status": "ditolak",
     "by": "lup",
-    "notes": "⚠ VO BELUM ADA: generate ElevenLabs gagal (Free Tier akun dinonaktifkan, 'unusual activity'). reel.mp4 saat ini hanya musik + efek. Sesuai perintah pemilik, Reels tanpa VO tidak boleh lolos sebelum VO ada. Detail di social/2026-10-24/reel/vo.json."
+    "notes": "Lup sosial 24 Okt 02.00 WIB. Fakta video & caption dicek terhadap content/stories/halo-effect-good-looking.json; frame 1,5–50,5 dtk dilihat; grafik batang proporsional (5,2:4,7:2,7 cocok); kejelasan OK ('good looking'/'plot twist' kata sehari-hari). DITOLAK karena: (1) VO belum ada (ElevenLabs Free Tier dinonaktifkan, lihat reel/vo.json) — layar.md: setiap Reels wajib VO; (2) adegan 4 'Esai jelek yang sama dinilai 60 mahasiswa' keliru: 60 itu total peserta studi (dibagi kondisi esai bagus/jelek × foto), bukan yang menilai esai jelek. Caption sudah Lup betulkan sendiri untuk poin yang sama (paragraf 3: '60 mahasiswa laki-laki menilai esai pada skala 1 sampai 9. Esai jelek yang sama diberi nilai 5,2 kalau foto penulisnya menarik, dan cuma 2,7 kalau fotonya tidak menarik.'), 108 kata. Dipanggil: Layar (trig_01Nj5TNP1gbnbHqV4tGbhJ7g) 02.00 WIB untuk must-fix #2 + VO kalau akun sudah pulih. VO butuh pemilik memulihkan/upgrade akun ElevenLabs."
   },
   "post": {
     "status": "queued"
