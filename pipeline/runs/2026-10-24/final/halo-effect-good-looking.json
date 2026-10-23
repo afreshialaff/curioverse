@@ -1,0 +1,117 @@
+{
+  "id": "halo-effect-good-looking",
+  "cat": "psikologi",
+  "also": "finance",
+  "date": "2026-10-24",
+  "title": "Efek halo: benarkah hidup orang good looking lebih mudah?",
+  "dek": "Esai jelek dinilai jauh lebih tinggi kalau foto penulisnya menarik. Orang berparas menarik juga cenderung digaji lebih besar. Tapi efek halo punya batas, bahkan bisa berbalik. Ini datanya, dari Thorndike 1920 sampai aturan rekrutmen 2025.",
+  "tags": "efek halo halo effect good looking pretty privilege beauty premium thorndike what is beautiful is good penampilan menarik lowongan kerja kemnaker diskriminasi rekrutmen gaji psikologi bias kognitif",
+  "hook": "Esai yang sama jeleknya dinilai 5,2 dari 9 kalau foto penulisnya menarik, dan cuma 2,7 kalau fotonya tidak menarik. Isinya nggak berubah sedikit pun.",
+  "path": "",
+  "image": {
+    "src": "/assets/illustrations/halo-effect-v1.svg",
+    "alt": "Grafik batang nilai esai bagus dan esai jelek pada skala 1 sampai 9, dibagi tiga kelompok: foto penulis menarik, tanpa foto, dan foto penulis tidak menarik",
+    "caption": "Data Landy dan Sigall (1974). Selisih terbesar muncul pada esai yang jelek: penampilan penulis ikut \"menolong\" atau \"menjatuhkan\" nilai tulisannya.",
+    "credit": "Curioverse",
+    "license": "Ilustrasi sendiri (Curioverse)",
+    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/halo-effect-v1.svg"
+  },
+  "sections": [
+    {
+      "h": "Syarat yang sekarang dilarang",
+      "p": [
+        "Syarat \"berpenampilan menarik\" di lowongan kerja kini dilarang di Indonesia, bersama syarat tinggi badan dan status \"harus single\". Pada Mei 2025, Menteri Ketenagakerjaan Yassierli menerbitkan Surat Edaran Nomor M/6/HK.04/V/2025. Isinya melarang pemberi kerja memasang syarat diskriminatif yang nggak relevan dengan pekerjaan.",
+        "Menurut CNA Indonesia, syarat yang disebut termasuk usia, penampilan fisik, status pernikahan, tinggi badan, suku, dan warna kulit. Batas usia masih boleh, tapi hanya kalau usia benar-benar memengaruhi sifat atau fungsi pekerjaannya. \"Surat edaran ini diterbitkan untuk mempertegas komitmen pemerintah terhadap prinsip non-diskriminasi,\" kata Yassierli.",
+        "Kenapa penampilan perlu diatur sampai ke surat menteri? Karena psikologi sudah lama tahu, wajah yang menarik bisa membuat kita menilai hal lain tentang orang itu secara keliru. Namanya efek halo."
+      ]
+    },
+    {
+      "h": "Asal-usul: atasan yang menilai perwira",
+      "p": [
+        "Istilahnya datang dari psikolog Edward Thorndike, lewat artikel \"A Constant Error in Psychological Ratings\" di Journal of Applied Psychology tahun 1920. Ia memeriksa penilaian yang diberikan atasan kepada para perwira di Angkatan Darat AS, untuk beberapa sifat berbeda: fisik, kecerdasan, kepemimpinan, dan karakter.",
+        "Kalau penilaiannya objektif, sifat-sifat itu seharusnya nggak berkaitan terlalu erat. Perwira yang tegap belum tentu paling cerdas. Tapi Thorndike menemukan sebaliknya. Setelah dirata-rata dari tiga penilai, nilai fisik berkorelasi 0,31 dengan kecerdasan, 0,39 dengan kepemimpinan, dan 0,28 dengan karakter. Menurut dia, korelasinya \"too high and too even\", terlalu tinggi dan terlalu seragam.",
+        "Thorndike menyebutnya halo. Kesan umum yang baik tentang seseorang memancar dan mewarnai penilaian atas kemampuan-kemampuan khususnya. Kebalikannya, kesan buruk yang menyeret semua penilaian ke bawah, belakangan disebut efek tanduk atau horn effect.",
+        "Sarannya sederhana dan masih relevan: nilai setiap sifat secara terpisah, berdasarkan bukti untuk sifat itu saja."
+      ]
+    },
+    {
+      "h": "\"What is beautiful is good\"",
+      "p": [
+        "Lima puluh tahun lebih kemudian, para peneliti menguji halo yang paling kelihatan: wajah. Pada 1972, Karen Dion, Ellen Berscheid, dan E. Walster menerbitkan studi berjudul \"What is beautiful is good\" di Journal of Personality and Social Psychology. Orang yang berparas menarik dinilai punya kepribadian yang lebih disukai secara sosial, dan diperkirakan lebih sukses di sebagian besar aspek hidup.",
+        "Pada 1990, menurut catatan Social Sciences Citation Index, studi itu sudah dikutip di lebih dari 360 publikasi. Dion sendiri menulis bahwa hasilnya \"strong and provocative\", karena menilai orang dari wajah bertentangan dengan rasa keadilan yang kita anut.",
+        "Dua tahun kemudian, Landy dan Sigall menguji apakah halo itu merembes ke penilaian karya. Sebanyak 60 mahasiswa laki-laki diminta menilai sebuah esai pada skala 1 sampai 9. Sepertiga melihat foto penulis perempuan yang menarik, sepertiga melihat foto yang tidak menarik, dan sepertiga tanpa foto.",
+        "Untuk esai yang ditulis bagus, nilainya 6,7 dengan foto menarik, 6,6 tanpa foto, dan 5,9 dengan foto tidak menarik. Untuk esai yang ditulis jelek, jaraknya melebar: 5,2 dengan foto menarik, 4,7 tanpa foto, dan cuma 2,7 dengan foto tidak menarik. Penampilan paling berpengaruh justru saat kualitas karyanya paling meragukan."
+      ]
+    },
+    {
+      "h": "Jadi, hidupnya beneran lebih mudah?",
+      "p": [
+        "Di beberapa bidang, data bilang iya. Ekonom Daniel Hamermesh dan Jeff Biddle memakai survei di Amerika Serikat (1971 dan 1977) serta Kanada (1981), dengan penampilan responden dinilai oleh pewawancara. Setelah faktor demografi dan pasar kerja diperhitungkan, pekerja berwajah biasa saja (plain) digaji sekitar 5 sampai 10% lebih rendah daripada yang berpenampilan rata-rata. Penalti itu sedikit lebih besar daripada bonus untuk yang berpenampilan menarik.",
+        "Kenapa bisa begitu? Eksperimen Markus Mobius dan Tanya Rosenblat dengan 330 mahasiswa di Argentina memberi petunjuk. Separuh peserta jadi \"pekerja\" yang mengerjakan labirin selama 15 menit, separuh lagi jadi \"pemberi kerja\" yang menentukan upah. Penampilan sama sekali nggak memengaruhi kemampuan menyelesaikan labirin.",
+        "Hasilnya, menurut Harvard Magazine, pekerja yang menarik dibayar 12 sampai 17% lebih tinggi, padahal produktivitasnya nggak lebih baik. Kalau pemberi kerja cuma melihat CV, bonus kecantikan itu hilang. Sekitar 40% bonus berasal dari stereotip visual, sekitar 20% dari rasa percaya diri pekerja yang menarik, dan sisanya, sekitar 40%, dari cara mereka berbicara. Bonusnya bahkan tetap muncul saat wawancara dilakukan lewat telepon.",
+        "Dan ini bukan cuma soal gaji, bestie. Halo juga muncul di bidang lain. Meta-analisis Hosoda dan rekan (2003) atas lebih dari 60 hasil studi menemukan orang berparas menarik lebih mungkin direkrut dan dipromosikan. Studi Efran (1974) dengan juri tiruan menemukan peserta lebih lunak pada terdakwa yang menarik, \"even though exactly the same crime was committed\" (meski kejahatannya persis sama). Ritts dan rekan (1992) mencatat guru punya harapan lebih tinggi pada murid yang berpenampilan menarik."
+      ]
+    },
+    {
+      "h": "Plot twist: halonya punya batas",
+      "p": [
+        "Halo kecantikan ternyata nggak berlaku rata. Meta-analisis Eagly dan rekan (1991) menemukan hubungan antara penampilan dan penilaian sifat hanya kuat untuk kompetensi sosial, misalnya dianggap supel dan gampang bergaul. Orang yang menarik juga dinilai lebih sombong dan kurang rendah hati.",
+        "Halo juga bisa berbalik. Dalam studi Sigall dan Ostrove (1975), terdakwa perempuan yang menarik justru dihukum lebih berat ketika kecantikannya dipakai untuk melakukan kejahatan, yaitu penipuan.",
+        "Di dunia kerja ada efek yang dijuluki \"beauty is beastly\". Stefanie Johnson dan rekan (Journal of Social Psychology, 2010) menemukan perempuan yang menarik dinilai kurang cocok untuk pekerjaan yang dianggap maskulin dan tidak menuntut penampilan. Contohnya sipir penjara, sopir truk derek, direktur keamanan, dan insinyur mesin. Mereka malah lebih sering diarahkan ke posisi resepsionis atau sekretaris. Laki-laki yang menarik nggak mengalami penalti serupa. \"In these professions being attractive was highly detrimental to women,\" kata Johnson. Artinya, di profesi seperti itu, penampilan menarik sangat merugikan perempuan.",
+        "Ada lagi temuan yang lebih ganjil. Johnson menulis di LSE Business Review (2017) tentang sebuah studi dengan 20.745 peserta. Studi itu menemukan orang yang sangat menarik dan yang sangat tidak menarik sama-sama cenderung berpenghasilan lebih tinggi daripada yang berpenampilan rata-rata. Penulis studi itu menyimpulkan sebagian bonus kecantikan mungkin terjadi karena orang menarik rata-rata lebih cerdas, lebih sehat, dan punya kepribadian yang lebih baik, bukan semata karena bias. Jadi, nggak semua selisih gaji itu murni efek halo."
+      ]
+    },
+    {
+      "h": "So what: cara melawan halo, termasuk halo kita sendiri",
+      "kind": "opini",
+      "p": [
+        "Jujurly, kita semua kena efek halo, termasuk saat menilai teman, pacar, atau influencer. Yang bisa kita lakukan itu sederhana: kasih diri sendiri waktu untuk menilai ulang.",
+        "Untuk perekrut, eksperimen Mobius dan Rosenblat memberi petunjuk paling jelas: bonus kecantikan hilang saat pemberi kerja cuma melihat CV. Dari temuan itu, kesimpulan kami: menyaring berdasarkan data kemampuan sebelum bertemu kandidat bisa memangkas sebagian bias. Syarat \"berpenampilan menarik\" untuk pekerjaan yang nggak membutuhkannya kini memang dilarang.",
+        "Kalau untuk sehari-hari, pakai saran Thorndike dari 1920: nilai setiap hal secara terpisah. Orang yang wajahnya enak dilihat belum tentu jujur. Konten yang estetis belum tentu akurat. Tanyakan, \"Apa buktinya untuk sifat yang ini?\"",
+        "Jadi, benarkah hidup orang good looking lebih mudah? Di banyak situasi, iya, mereka dapat keuntungan awal yang terukur. Tapi keuntungan itu paling besar justru saat informasi lain sedikit, dan bisa berbalik di situasi tertentu. Semakin banyak bukti nyata yang kita lihat, semakin kecil ruang untuk halo."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "t": "CNA Indonesia: Kemnaker resmi hapus syarat usia dan berpenampilan menarik di lowongan kerja",
+      "u": "https://www.cna.id/indonesia/kemnaker-resmi-hapus-syarat-usia-dan-berpenampilan-menarik-di-lowongan-kerja-33586"
+    },
+    {
+      "t": "detikJogja: Catat! Syarat Good Looking-Tinggi Badan di Lowongan Kerja Kini Dilarang",
+      "u": "https://www.detik.com/jogja/bisnis/d-8120180/catat-syarat-good-looking-tinggi-badan-di-lowongan-kerja-kini-dilarang"
+    },
+    {
+      "t": "Gwern.net (salinan PDF): Thorndike (1920), A Constant Error in Psychological Ratings",
+      "u": "https://www.Gwern.net/doc/psychology/personality/1920-thorndike.pdf"
+    },
+    {
+      "t": "Wikipedia: Halo effect",
+      "u": "https://en.wikipedia.org/wiki/Halo_effect"
+    },
+    {
+      "t": "University of Pennsylvania, Citation Classics (Current Contents 1990): Dion, Berscheid & Walster (1972), What is beautiful is good",
+      "u": "https://garfield.library.upenn.edu/classics1990/A1990EH31100001.pdf"
+    },
+    {
+      "t": "NBER: Hamermesh & Biddle, Beauty and the Labor Market (Working Paper 4518)",
+      "u": "https://www.nber.org/papers/w4518"
+    },
+    {
+      "t": "Harvard Magazine: The Beauty Bounty",
+      "u": "https://www.harvardmagazine.com/node/2603"
+    },
+    {
+      "t": "Wikipedia: Physical attractiveness stereotype",
+      "u": "https://en.wikipedia.org/wiki/Physical_attractiveness_stereotype"
+    },
+    {
+      "t": "ScienceDaily: Beautiful women face discrimination in certain jobs, study finds",
+      "u": "https://www.sciencedaily.com/releases/2010/08/100806132218.htm"
+    },
+    {
+      "t": "LSE Research Online (LSE Business Review): Johnson (2017), The effects of good looks on professional success: It's complicated",
+      "u": "https://researchonline.lse.ac.uk/id/eprint/80035/1/blogs.lse.ac.uk-The%20effects%20of%20good%20looks%20on%20professional%20success%20Its%20complicated.pdf"
+    }
+  ]
+}

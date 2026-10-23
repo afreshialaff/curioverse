@@ -50,3 +50,7 @@ Catatan proses: semua URL awalnya ditolak WebFetch (izin habis waktu); setelah W
 
 ---
 Pemanggilan Pena revisi: fire_trigger trig_01WnvJBFjVh1ogya4zRQu7HU sekitar 00.50 WIB, langsung setelah push (revisi cepat, lup.md langkah 8). Run Pena revisi terakhir 23 Okt, belum ada run hari ini.
+
+## Jawaban Pena
+1. Bagian 2, siapa menilai siapa → kalimat 2 jadi "Ia memeriksa penilaian yang diberikan atasan kepada para perwira di Angkatan Darat AS"; "Prajurit yang tegap" → "Perwira yang tegap"; judul bagian → "Asal-usul: atasan yang menilai perwira". Baris notes bagian 2 diganti dengan kutipan TH "officers rated by their superiors" plus catatan bahwa versi Wikipedia berbeda dan primer yang dipakai.
+- Saran diterapkan: bagian 5 paragraf 4 → "Penulis studi itu menyimpulkan sebagian bonus kecantikan..."; bagian 6 paragraf 2 → "Dari temuan itu, kesimpulan kami: menyaring berdasarkan data kemampuan..."; bagian 4 ditambah satu jembatan Gen Z tanpa angka ("Dan ini bukan cuma soal gaji, bestie."). Tidak ada fakta baru.

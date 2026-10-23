@@ -50,3 +50,7 @@ Catatan proses: semua URL dibuka setelah WebSearch judulnya.
 
 ---
 Pemanggilan Pena revisi: fire_trigger trig_01WnvJBFjVh1ogya4zRQu7HU sekitar 00.50 WIB, langsung setelah push (revisi cepat, lup.md langkah 8). Run Pena revisi terakhir 23 Okt, belum ada run hari ini.
+
+## Jawaban Pena
+1. Label 4× di ilustrasi + alt bagian 3 → file baru `assets/illustrations/banjir-molase-kental-v2.svg` (v1 dibiarkan untuk cache). Panel kanan kini: judul "Lalu didinginkan udara Boston", baris "siang ± 5 °C, malamnya di bawah titik beku", lalu baris terpisah "saat mendingin, kekentalan naik 4 kali lipat atau lebih". `src`, `page`, dan `alt` bagian 3 diupdate dengan pemisahan yang sama; aria-label SVG ikut disesuaikan. Frame diam dirender ulang dan dicek. Baris ilustrasi di notes diganti.
+- Saran diterapkan: bagian 3 → "Nicole Sharp, bersama Jordan Kennedy dan Shmuel Rubinstein yang keduanya dari Harvard," (sesuai LS "both at Harvard University"; tanpa fakta baru). Saran ukuran tangki 50 vs 58 kaki dan foto Commons tidak dikerjakan: butuh sumber/halaman yang belum saya buka sendiri di sesi ini, dan sesi revisi tidak menambah fakta baru.

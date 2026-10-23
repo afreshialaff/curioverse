@@ -17,7 +17,7 @@ Singkatan: CNA = cna.id/indonesia/kemnaker-resmi-hapus-syarat-usia-...-33586 (29
 
 ## Bagian 2
 - "Edward Thorndike ... \"A Constant Error in Psychological Ratings\" di Journal of Applied Psychology tahun 1920" → WHE (JAP 4(1): 25–29)
-- "penilaian perwira kepada prajurit mereka ... fisik, kecerdasan, kepemimpinan, dan karakter" → WHE (two commanding officers rated soldiers on physical qualities, intellect, leadership, personal qualities), TH (rencana penilaian Scott: Physical Qualities, Intelligence, Leadership, Personal Qualities/character)
+- "penilaian yang diberikan atasan kepada para perwira di Angkatan Darat AS ... fisik, kecerdasan, kepemimpinan, dan karakter" → TH ("officers rated by their superiors"; rencana penilaian Scott: Physical Qualities, Intelligence, Leadership, Personal Qualities/character). Revisi 2026-10-24: versi WHE ("commanding officers rated their soldiers") berbeda dengan sumber primer, jadi primer yang dipakai.
 - "rata-rata tiga penilai ... 0,31 ... 0,39 ... 0,28" → TH, WHE
 - "\"too high and too even\"" → WHE (kutipan Thorndike)
 - "Kesan umum yang baik ... mewarnai penilaian atas kemampuan khusus" → TH ("a halo of general merit is extended to influence the rating for the special ability")
