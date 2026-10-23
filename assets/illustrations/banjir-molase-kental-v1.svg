@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Ilustrasi gelombang molase yang mengalir lalu mengental saat didinginkan udara Boston">
+<style>
+.wave{animation:jalan 10s ease-out infinite}
+.dingin{animation:pudar 10s ease-out infinite}
+@keyframes jalan{0%{transform:translateX(-260px)}55%{transform:translateX(0)}100%{transform:translateX(30px)}}
+@keyframes pudar{0%,30%{opacity:0}60%,100%{opacity:1}}
+@media (prefers-reduced-motion: reduce){.wave,.dingin{animation:none}}</style>
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+
+<text x="100" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="58" fill="#1B1A17" font-weight="700">Kenapa molase dingin jadi jebakan</text>
+<text x="100" y="170" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#4D483F">Perumpamaannya: madu yang baru keluar dari kulkas</text>
+<line x1="90" x2="1510" y1="640" y2="640" stroke="#4D483F" stroke-width="4"/>
+<rect x="90" y="640" width="1420" height="18" fill="#CDBFA6"/>
+<g class="wave">
+  <path d="M120,640 C200,420 360,380 470,470 C560,540 620,610 700,628 L700,640 Z" fill="#5A3417"/>
+  <path d="M700,628 C900,605 1100,600 1300,610 C1360,612 1400,620 1430,640 L700,640 Z" fill="#3A200D"/>
+</g>
+<g class="dingin"><text x="1060" y="585" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#5B7C9A" font-weight="700" text-anchor="middle">lapisan makin kental, susah dilewati</text></g>
+<g transform="translate(110 220)">
+  <rect width="560" height="150" rx="16" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+  <rect x="24" y="30" width="36" height="12" rx="6" fill="#5A3417"/><text x="74" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#1B1A17" font-weight="700">Keluar dari tangki</text>
+  <text x="24" y="92" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#4D483F">± 4 sampai 5 °C lebih hangat dari udara</text>
+  <text x="24" y="128" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#4D483F">masih cukup encer, didorong beratnya</text>
+</g>
+<g transform="translate(860 220)">
+  <rect width="640" height="150" rx="16" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+  <rect x="24" y="30" width="36" height="12" rx="6" fill="#3A200D"/><text x="74" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#1B1A17" font-weight="700">Didinginkan udara Boston (± 5 °C)</text>
+  <text x="24" y="92" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#4D483F">kekentalan naik 4 kali lipat atau lebih</text>
+  <text x="24" y="128" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#4D483F">orang yang terjebak susah bergerak</text>
+</g>
+<g transform="translate(110 720)">
+  <text x="0" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#1B1A17" font-weight="700">Madu dingin = molase yang mendingin   ·   tumpah sekaligus = 2,3 juta galon jebol dari tangki</text>
+  <text x="0" y="44" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#4D483F" font-style="italic">Batas perumpamaan: molase tidak membeku jadi padat, ia cuma makin kental.</text>
+</g>
+<text x="1540" y="846" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#4D483F" text-anchor="end">Ilustrasi: Curioverse · angka dari Smithsonian, Live Science, CSMonitor</text>
+</svg>

@@ -1,0 +1,126 @@
+{
+  "id": "banjir-molase-boston-1919",
+  "cat": "sejarah",
+  "also": "science",
+  "date": "2026-10-24",
+  "title": "Banjir molase Boston 1919: kok sirup bisa jadi gelombang yang menewaskan 21 orang?",
+  "dek": "Tangki berisi 2,3 juta galon molase pecah di North End, Boston. Gelombangnya cepat, tapi dinginnya Januari ikut membuatnya mematikan. Ini fisika di baliknya, dan siapa yang akhirnya dinyatakan bersalah.",
+  "tags": "banjir molase boston 1919 great molasses flood tangki north end fisika fluida kekentalan usia purity distilling sertifikasi insinyur sejarah",
+  "hook": "Tahun 1919, tangki molase pecah di Boston. Menurut peneliti Harvard, sekitar separuh korban tewas karena terjebak sirup yang makin kental.",
+  "path": "",
+  "image": {
+    "src": "/assets/illustrations/banjir-molase-tangki-v1.svg",
+    "alt": "Diagram tangki molase silinder setinggi sekitar 15 meter dengan diameter sekitar 27 meter, di sampingnya kartu berisi 2,3 juta galon atau sekitar 8,7 juta liter, dan tinggi gelombang yang dilaporkan 15 sampai 40 kaki",
+    "caption": "Ukuran tangki milik Purity Distilling di Commercial Street, Boston, pada Januari 1919. Tinggi gelombangnya berbeda-beda antar sumber.",
+    "credit": "Curioverse",
+    "license": "Ilustrasi sendiri (Curioverse)",
+    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/banjir-molase-tangki-v1.svg"
+  },
+  "sections": [
+    {
+      "h": "Siang hari, gelombang cokelat di North End",
+      "p": [
+        "Kamu pernah nggak sih kepikiran, kok bisa sirup kental pembuat kue jadi bencana yang menewaskan orang? Di Boston, Amerika Serikat, itu benar-benar terjadi. Tanggal 15 Januari 1919, sedikit lewat pukul 12.40 siang, sebuah tangki baja berisi sekitar 2,3 juta galon molase pecah di North End.",
+        "Molase itu sirup cokelat yang pekat. Isinya setara sekitar 8,7 juta liter, kira-kira 12.000 ton. Cairan sebanyak itu tumpah sekaligus ke jalan dan berubah jadi gelombang.",
+        "Gelombangnya menewaskan 21 orang dan melukai sekitar 150 lainnya, menurut History.com dan kantor berita AP. Beberapa kuda ikut mati. Struktur rel kereta layang di dekatnya rusak, dan pecahan dinding tangki terlempar ke tiang-tiangnya.",
+        "Kedengarannya absurd banget, jujurly. Tapi justru itu yang bikin penasaran: kenapa cairan yang terkenal lambat bisa sebegitu mematikan? Sebelum ke fisikanya, kita lihat dulu tangkinya."
+      ]
+    },
+    {
+      "h": "Tangki raksasa yang sudah lama bocor",
+      "p": [
+        "Tangki itu berdiri di 529 Commercial Street. Tingginya sekitar 15 meter dan diameternya sekitar 27 meter, menurut ringkasan di Wikipedia. Kapasitasnya 3 juta galon, dan pada Januari 1919 isinya hampir penuh, menurut kantor Secretary of the Commonwealth of Massachusetts.",
+        "Pemiliknya Purity Distilling Company, yang sejak 1917 dimiliki United States Industrial Alcohol (USIA). Molase dari Karibia dikirim ke sana untuk difermentasi jadi alkohol. Alkohol itu dipakai untuk minuman keras dan untuk pembuatan amunisi.",
+        "Masalahnya, tangki ini sering bocor sampai ke jalan. History.com mencatat minimal satu karyawan sudah memperingatkan atasannya bahwa strukturnya tidak aman. Respons perusahaan cuma menambal ulang sambungannya. Wikipedia menambahkan dua detail: tangki itu dicat cokelat supaya bocorannya tidak kelihatan, dan bendahara USIA, Arthur Jell, melewatkan uji keamanan dasar.",
+        "Red flag-nya sudah kelihatan dari awal. Tinggal satu pertanyaan: kenapa tumpahannya bisa membunuh, bukan cuma bikin jalan lengket?"
+      ]
+    },
+    {
+      "h": "Kok bisa sirup jadi jebakan?",
+      "img": {
+        "src": "/assets/illustrations/banjir-molase-kental-v1.svg",
+        "alt": "Animasi gelombang molase cokelat yang mengalir dari kiri, lalu melebar dan menjadi lapisan lebih gelap dan kental di kanan. Label kiri: keluar dari tangki sekitar 4 sampai 5 derajat Celsius lebih hangat dari udara. Label kanan: didinginkan udara Boston sekitar 5 derajat Celsius, kekentalan naik 4 kali lipat atau lebih",
+        "caption": "Molase yang keluar dari tangki masih lebih hangat dari udara. Begitu didinginkan udara Januari, ia mengental dan menahan siapa pun yang terjebak di dalamnya.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/banjir-molase-kental-v1.svg"
+      },
+      "p": [
+        "Bayangin madu yang baru dikeluarkan dari kulkas. Dituang dari sendok, ia turun pelan banget. Tapi kalau satu galon madu dingin ditumpahkan sekaligus dari tempat tinggi, beratnya sendiri yang mendorong. Begitu berhenti, madu dingin itu menempel dan susah dilepas dari apa pun yang tertimbun.",
+        "Pemetaannya begini. Madu dingin sama dengan molase yang didinginkan udara musim dingin. Menumpahkan segalon sekaligus sama dengan 2,3 juta galon yang jebol dari tangki. Batasnya: molase tidak membeku jadi padat seperti es. Ia cuma makin kental.",
+        "Pada 2016, Nicole Sharp bersama Jordan Kennedy dan Shmuel Rubinstein dari Harvard memaparkan analisis mereka di pertemuan tahunan Division of Fluid Dynamics, American Physical Society, di Portland, Oregon. Mereka menghitung bahwa gravitasi saja sudah cukup untuk menjelaskan kecepatan gelombangnya, menurut APS News.",
+        "Lalu bagian krusialnya. Molase di tangki diperkirakan 7 sampai 9 derajat Fahrenheit (sekitar 4 sampai 5 °C) lebih hangat dari udara Boston, menurut Smithsonian. Suhu udara siang itu sekitar 5 °C, dan malamnya turun sedikit di bawah titik beku, menurut Live Science. Saat molase menyebar di jalan, udara dingin mendinginkannya dengan cepat. Hitungan tim itu: kekentalannya naik empat kali lipat atau lebih.",
+        "Akibatnya fatal. Menurut Rubinstein, sekitar separuh korban tewas pada dasarnya karena terjebak, seperti dikutip The Christian Science Monitor. Sharp menyebut kekentalan yang tinggi itu juga faktor besar yang menyulitkan kerja penyelamatan."
+      ]
+    },
+    {
+      "h": "Plot twist: \"slow as molasses in January\"",
+      "kind": "interpretasi",
+      "p": [
+        "Di Amerika ada ungkapan \"slow as molasses in January\", artinya lambat banget, selambat molase di bulan Januari. Sharp, yang berasal dari Arkansas, mengutip ungkapan itu sendiri, lalu bilang molase yang ini sama sekali tidak lambat, menurut AP.",
+        "Plot twist-nya berlapis. Lapis pertama, gelombang awalnya cepat. Kecepatannya sering ditulis sekitar 35 mil per jam (sekitar 56 km/jam), misalnya oleh History.com dan AP. Live Science menulis lebih dari 15 meter per detik (sekitar 54 km/jam). Tingginya pun beda-beda antar sumber: History.com dan pemerintah Massachusetts menulis 15 kaki (sekitar 4,5 m), AP dan The Christian Science Monitor menulis 25 kaki (sekitar 7,6 m), dan Smithsonian mencatat laporan antara 15 dan 40 kaki.",
+        "Lapis kedua, dinginnya Januari tidak membuat gelombang awalnya lambat. Dingin justru bekerja setelah gelombang lewat, saat molase mengental di sekitar orang yang terjebak. Tangki itu juga baru diisi kiriman molase dari Karibia dua hari sebelumnya, yang belum sempat dingin menyesuaikan cuaca Boston.",
+        "Dari sini tim peneliti sampai pada kesimpulan yang bikin mikir: kalau tangki pecah di musim semi, panas, atau gugur, korbannya mungkin sedikit atau bahkan tidak ada, menurut AP. Ini kesimpulan tim peneliti, bukan catatan sejarah."
+      ]
+    },
+    {
+      "h": "Siapa yang salah? Enam tahun di pengadilan",
+      "p": [
+        "Begitu tangkinya runtuh, USIA punya versi sendiri. Perusahaan berdalih tangki itu diledakkan oleh orang-orang berniat jahat, menurut History.com. Dari sisi perusahaan, dalih itu make sense: kalau tangkinya disabotase, kesalahannya bukan di tangki mereka.",
+        "Korban dan keluarganya mengajukan 119 gugatan terpisah, yang kemudian digabung. Pada April 1925, auditor negara bagian Hugh W. Ogden memutuskan USIA bertanggung jawab, bukan bom. USIA diwajibkan membayar ganti rugi $628.000, menurut History.com.",
+        "Analisis teknik belakangan memperkuat putusan itu. Insinyur Ronald Mayville berpendapat dinding tangki terlalu tipis untuk menahan 2,3 juta galon, dan bajanya rendah mangan sehingga mudah retak, menurut The Christian Science Monitor. Uniknya, Mayville juga menyebut bajanya sesuai standar zaman itu.",
+        "Ada juga dugaan bahwa pengisian tangki dikebut demi mendahului larangan minuman keras di AS (Prohibition). Wikipedia menyebut ini klaim beberapa penulis, jadi statusnya masih dugaan, bukan fakta yang sudah dibuktikan."
+      ]
+    },
+    {
+      "h": "Bersih-bersih, lalu aturan baru",
+      "p": [
+        "Yang pertama datang menolong adalah 116 kadet Angkatan Laut di bawah Letnan Komandan H. J. Copeland, menurut Wikipedia. Pemerintah Massachusetts mencatat mereka berasal dari kapal USS Nantucket, yang posisinya paling dekat dengan lokasi.",
+        "Lebih dari 300 pekerja membersihkan puing pada hari-hari setelahnya, menurut History.com. Pembersihan di sekitar lokasi makan waktu berminggu-minggu, dan air pelabuhan Boston tetap berwarna cokelat sampai musim panas."
+      ]
+    },
+    {
+      "h": "So what: kenapa insinyur harus tanda tangan",
+      "kind": "interpretasi",
+      "p": [
+        "Warisan paling nyata dari banjir molase ada di aturan bangunan. Setelah bencana ini, Massachusetts mewajibkan pengawasan profesional dan pemeriksaan mutu di beberapa tahap konstruksi. Aturan itu lalu ditiru negara bagian lain di AS, menurut kantor Secretary of the Commonwealth of Massachusetts.",
+        "Polanya relate banget: tanda-tandanya ada, peringatan sudah disampaikan, tapi yang dilakukan cuma tambal dan cat. Tangki Boston sudah sering bocor sebelum runtuh, dan satu karyawan sudah bilang strukturnya tidak aman.",
+        "Jadi, kenapa sirup bisa membunuh 21 orang? Karena tangki yang lolos tanpa uji keamanan dasar menumpahkan jutaan galon cairan berat sekaligus, lalu udara Januari mengubahnya jadi jebakan. Lain kali kamu lihat stempel insinyur di dokumen bangunan, itu bukan formalitas. Sebagian asal-usulnya ada di North End, 1919."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "t": "The Christian Science Monitor: Scientists finally decode the Great Molasses Flood of 1919",
+      "u": "https://www.csmonitor.com/layout/set/amphtml/Science/2016/1129/Scientists-finally-decode-the-Great-Molasses-Flood-of-1919"
+    },
+    {
+      "t": "Boston.com (AP): Slow as molasses? Sweet but deadly 1919 disaster explained",
+      "u": "https://www.boston.com/news/history/2016/11/24/slow-as-molasses-sweet-but-deadly-1919-disaster-explained"
+    },
+    {
+      "t": "History.com: The Great Molasses Flood of 1919",
+      "u": "https://www.history.com/news/the-great-molasses-flood-of-1919"
+    },
+    {
+      "t": "Secretary of the Commonwealth of Massachusetts: Molasses Flood",
+      "u": "https://www.sec.state.ma.us/divisions/state-house-tours/did-you-know/Molasses-Flood.htm"
+    },
+    {
+      "t": "Smithsonian Magazine: Why the Boston Molasses Disaster Was So Deadly",
+      "u": "https://www.smithsonianmag.com/smart-news/why-boston-molasses-disaster-was-so-deadly-180961209/"
+    },
+    {
+      "t": "Live Science: Great Molasses Flood of 1919: Why This Deluge of Goo Was So Deadly",
+      "u": "https://www.livescience.com/56947-why-molasses-flood-1919-was-deadly.html"
+    },
+    {
+      "t": "APS News: January 15, 1919: Physics and the Boston Molasses Flood",
+      "u": "https://aps.org/publications/apsnews/201701/physicshistory.cfm"
+    },
+    {
+      "t": "Wikipedia: Great Molasses Flood",
+      "u": "https://en.wikipedia.org/wiki/Great_Molasses_Flood"
+    }
+  ]
+}

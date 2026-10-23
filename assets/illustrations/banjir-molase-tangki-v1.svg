@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Diagram tangki molase Boston 1919: tinggi sekitar 15 meter, diameter sekitar 27 meter, berisi 2,3 juta galon">
+
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+
+<text x="100" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="60" fill="#1B1A17" font-weight="700">Tangki molase di Commercial Street, 1919</text>
+<text x="100" y="172" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#4D483F">Milik Purity Distilling, anak usaha United States Industrial Alcohol (USIA)</text>
+<line x1="90" x2="1510" y1="640" y2="640" stroke="#4D483F" stroke-width="4"/>
+<path d="M180,340 L180,640 A270,46 0 0 0 720,640 L720,340" fill="#5A3417"/>
+<path d="M180,410 L180,640 A270,46 0 0 0 720,640 L720,410" fill="#3A200D" opacity=".55"/>
+<ellipse cx="450" cy="340" rx="270" ry="46" fill="#7A4B26" stroke="#1B1A17" stroke-width="4"/>
+<path d="M180,340 L180,640 A270,46 0 0 0 720,640 L720,340" fill="none" stroke="#1B1A17" stroke-width="4"/>
+<line x1="130" x2="130" y1="340" y2="640" stroke="#1B1A17" stroke-width="3"/>
+<line x1="116" x2="144" y1="340" y2="340" stroke="#1B1A17" stroke-width="3"/>
+<line x1="116" x2="144" y1="640" y2="640" stroke="#1B1A17" stroke-width="3"/>
+<g transform="translate(108 490) rotate(-90)"><text x="0" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#1B1A17" font-weight="700" text-anchor="middle">± 15 m</text></g>
+<line x1="180" x2="720" y1="720" y2="720" stroke="#1B1A17" stroke-width="3"/>
+<line x1="180" x2="180" y1="706" y2="734" stroke="#1B1A17" stroke-width="3"/>
+<line x1="720" x2="720" y1="706" y2="734" stroke="#1B1A17" stroke-width="3"/>
+<text x="450" y="764" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#1B1A17" font-weight="700" text-anchor="middle">diameter ± 27 m</text>
+<text x="450" y="520" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" fill="#F1ECE1" font-weight="700" text-anchor="middle">molase</text>
+<g transform="translate(860 250)">
+  <rect width="640" height="420" rx="18" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+  <text x="36" y="70" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F">Isinya pada 15 Januari 1919</text>
+  <text x="36" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="56" fill="#7A5532" font-weight="700">2,3 juta galon</text>
+  <text x="36" y="192" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" fill="#1B1A17" font-weight="700">± 8,7 juta liter, sekitar 12.000 ton</text>
+  <line x1="36" x2="604" y1="232" y2="232" stroke="#CDBFA6" stroke-width="2"/>
+  <text x="36" y="284" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#1B1A17" font-weight="700">Gelombang: dilaporkan 15 sampai 40 kaki</text>
+  <text x="36" y="326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F">(± 4,5 sampai 12 m), angkanya beda</text>
+  <text x="36" y="366" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#4D483F">antar sumber</text>
+</g>
+<text x="1540" y="846" font-family="'Helvetica Neue', Arial, sans-serif" font-size="26" fill="#4D483F" text-anchor="end">Ilustrasi: Curioverse · ukuran dari Wikipedia; skala tangki digambar proporsional</text>
+</svg>
