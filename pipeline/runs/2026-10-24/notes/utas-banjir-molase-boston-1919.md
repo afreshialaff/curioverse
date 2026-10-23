@@ -12,3 +12,8 @@ Sunting bahasa saja. Klaim, angka, nama, kutipan, dan sumber tidak berubah.
 - "bukan fakta yang sudah dibuktikan" → "belum terbukti". Alasan: ringkas, makna sama.
 - "makan waktu" → "memakan waktu". Alasan: KBBI.
 - ⚠ UNTUK LUP: "Tangki itu juga baru diisi kiriman molase dari Karibia dua hari sebelumnya" belum jelas sumbernya di peta klaim. Tolong cek.
+
+## Sesi 12.30 (setelah revisi Pena)
+- "melukai sekitar 150 lainnya" → "melukai sekitar 150 orang lain". Alasan: kejelasan.
+- Kalimat tiga sumber tinggi gelombang dipecah jadi tiga kalimat, angka tidak berubah. Alasan: kalimat terlalu panjang.
+- Jawaban Pena (ilustrasi v2, nama Sharp) tidak disentuh, dan tidak ada ⚠ baru.

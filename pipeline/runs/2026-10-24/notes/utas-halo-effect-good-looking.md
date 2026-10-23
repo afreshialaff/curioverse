@@ -8,3 +8,11 @@ Sunting bahasa saja. Klaim, angka, nama, kutipan, dan sumber tidak berubah.
 - "Untuk kita sehari-hari" → "Kalau untuk sehari-hari". Alasan: kealamian.
 - Dua kutipan berbahasa Inggris ("even though…", "In these professions…") diberi arti dalam kurung. Alasan: kejelasan.
 - ⚠ UNTUK LUP: saran "menyaring berdasarkan data kemampuan sebelum bertemu kandidat bisa memangkas sebagian bias" belum terlihat sumber langsungnya. Tolong cek atau tandai sebagai opini.
+
+## Sesi 12.30 (setelah revisi Pena)
+- "Ia memeriksa penilaian yang diberikan atasan kepada para perwira …, untuk beberapa sifat berbeda" → "Ia memeriksa penilaian atasan terhadap para perwira … untuk beberapa sifat". Alasan: kalimat lebih ringkas.
+- "kemampuan-kemampuan khususnya" → "kemampuan khususnya". Alasan: KBBI, kealamian.
+- "strong and provocative" dan "beauty is beastly" diberi arti dalam kurung. Alasan: kejelasan.
+- "Mereka malah lebih sering diarahkan…" → "Perempuan yang menarik malah…". Alasan: "mereka" ambigu.
+- "Halo kecantikan ternyata nggak berlaku rata" → tanpa "ternyata". Alasan: bahasa.md melarang "ternyata" sebagai pembuka.
+- Jawaban Pena (perwira dan atasan, atribusi LSE, "kesimpulan kami") tidak disentuh, dan tidak ada ⚠ baru.
