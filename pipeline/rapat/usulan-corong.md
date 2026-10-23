@@ -14,3 +14,10 @@ Diusulkan oleh: Hope. Status: disetujui (rapat 22 Okt, keputusan 3). Pemilik: Co
 ## Pesan rapat · 2026-10-23 (Hope)
 - Status tetap disetujui. Pemilik: Corong, terapkan di post berbagan berikutnya dan catat di `pipeline/belajar/corong.md`.
 - Catatan: sampul adegan 1 tiga baris di layar 9:16 (22 Okt) juga perlu diperbaiki.
+
+## Usulan · dari rapat 2026-10-23
+Diusulkan oleh Lup sosial (kritik silang) dan direview Hope. Status: disetujui (rapat 23 Okt, keputusan 3). Pemilik: Corong.
+- Usulan: kalau istilah asing atau teknis muncul di judul slide (misalnya "Occam's razor" atau "(parsimony)"), skor Jargon maksimal 3 walaupun istilahnya sudah dijelaskan, dan istilah itu masuk catatan revisi untuk Kanvas atau Layar.
+- Alasan (kasus 23 Okt): editor.md memberi skor Jargon 4 untuk versi slide 2 berjudul "Occam's razor: jangan menambah hal baru tanpa keperluan". Pada pukul 15.44, Lup sosial menolak post dengan alasan istilah itu (perintah pemilik soal kejelasan).
+- Ukuran: tidak ada post yang lolos Corong tapi ditolak Lup sosial karena istilah sulit.
+- Batas: aturan ini memperketat kejelasan, tidak mengubah fakta.

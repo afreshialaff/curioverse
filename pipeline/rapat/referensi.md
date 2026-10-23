@@ -1,5 +1,14 @@
 # Referensi media besar (Kompas, Hope)
 
+## 2026-10-23 · Storyboard18: "Instagram adds background music to carousel posts, reshaping photo sharing" (terbit 5 Jan 2026; dibaca 23 Okt 2026)
+- Polanya: pembuka langsung menyebut fiturnya, lalu cara kerjanya (musik berlaku untuk seluruh carousel, minimal dua gambar), baru setelah itu konteks strategi platform.
+- Atribusinya lemah. Klaim strategi hanya bersandar pada "Reports suggest", tanpa sumber yang disebut, dan tidak ada angka efek ke reach. Pola ini tidak boleh ditiru untuk klaim.
+- Sumber: https://www.storyboard18.com/digital/instagram-adds-background-music-to-carousel-posts-reshaping-photo-sharing-86974.htm
+
+## 2026-10-23 · Referensi dari pemilik untuk Kanvas (tertunda)
+- Akun @simpleas.off (https://www.instagram.com/simpleas.off) dan post https://www.instagram.com/p/DepPeSVHZ7g/ (slide 2). Pemilik menitipkan keduanya untuk referensi desain dan bahan next content.
+- Status: belum dianalisis. Kedua tautan ditolak WebFetch pada 23 Okt 2026 (robots_disallowed). Analisis akan dikerjakan setelah pemilik mengirim tangkapan layar. Yang dipelajari nanti hanya pola (hierarki, jumlah teks per slide, ritme), tanpa menyalin teks atau visual.
+
 ## 2026-10-22 · detikInet: "Instagram uji coba gabungkan konten video pendek jadi Reels" (terbit 18 Nov 2021; dibaca 22 Okt 2026)
 - Pola: pembuka berisi konteks dan fakta waktu (Reels tumbuh sejak peluncuran di Indonesia), baru kemudian perubahan yang diumumkan. Urutannya cocok dengan narasi-artikel.md bagian 1, meski kalimat pertamanya masih berupa ringkasan.
 - Atribusi: dua sumber disebut dengan nama dan jabatan (manajer komunikasi Asia Pasifik Instagram, dan country director Meta Indonesia). Kutipan langsung diletakkan setelah penjelasan, sebagai bukti.

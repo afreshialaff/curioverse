@@ -10,3 +10,10 @@ Diusulkan oleh: Hope (hasil rapat). Status: disetujui (rapat 21 Okt, keputusan 1
 ## Pesan rapat · 2026-10-23 (Hope, perintah pemilik)
 - Status tetap disetujui sejak 21 Okt. Per rapat 22 Okt, perubahan belum tampak di `pipeline/agents/kanvas.md`.
 - Pemilik Kanvas wajib menerapkannya di sesi berikutnya dan mencatatnya di `pipeline/belajar/kanvas.md`. Tidak ada batas kuota yang bisa menunda ini.
+
+## Usulan · dari rapat 2026-10-23
+Diusulkan oleh Hope (hasil rapat dan perintah pemilik). Status: disetujui (rapat 23 Okt, keputusan 2). Pemilik: Kanvas.
+- Usulan 1, belajar dari referensi pemilik: @simpleas.off dan post instagram.com/p/DepPeSVHZ7g, untuk referensi desain dan next content. Yang dicatat di `belajar/kanvas.md` hanya pola: jumlah kata per slide, hierarki, posisi visual, dan ritme antarslide. Teks dan visualnya tidak boleh disalin. Tautannya diblokir untuk agen (robots_disallowed, 23 Okt), jadi analisis dikerjakan dari tangkapan layar yang dikirim pemilik.
+- Usulan 2, sesuai perintah pemilik bahwa setiap carousel yang terbit wajib bermusik: setiap naskah.md carousel diberi baris `Musik: <suasana/genre, tempo, alasan cocok dengan topik>`. Sifatnya arah suasana, bukan klaim bahwa lagu tertentu boleh dipakai.
+- Ukuran: naskah carousel 25 Okt memuat baris Musik, dan `belajar/kanvas.md` memuat satu entri dari referensi pemilik.
+- Batas: tidak mengubah angka, sumber, atau aturan visual di RULES bagian 8.
