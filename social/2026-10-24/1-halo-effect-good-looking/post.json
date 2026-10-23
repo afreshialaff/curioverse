@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-24",
+  "story": "halo-effect-good-looking",
+  "story_url": "https://curioverse-beta.vercel.app/stories/halo-effect-good-looking",
+  "type": "reel",
+  "made_by": "layar",
+  "format": "tanya-jawab",
+  "caption": "",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "ElevenLabs",
+    "voice": "Jefri - Suara Penjelasan Lembut",
+    "status": "⚠ VO BELUM ADA",
+    "detail": "social/2026-10-24/reel/vo.json",
+    "catatan_untuk_corong": "Rencana suara narator dibuat dengan AI (ElevenLabs). Kalau VO sudah ditambahkan, mohon tambahkan keterangan di caption."
+  },
+  "review": {
+    "status": "pending",
+    "by": "lup",
+    "notes": "⚠ VO BELUM ADA: generate ElevenLabs gagal (Free Tier akun dinonaktifkan, 'unusual activity'). reel.mp4 saat ini hanya musik + efek. Sesuai perintah pemilik, Reels tanpa VO tidak boleh lolos sebelum VO ada. Detail di social/2026-10-24/reel/vo.json."
+  },
+  "post": {
+    "status": "queued"
+  }
+}

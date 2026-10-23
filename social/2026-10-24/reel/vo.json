@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-24",
+  "story": "halo-effect-good-looking",
+  "status": "⚠ VO BELUM ADA",
+  "provider": "ElevenLabs (creative_generate_speech)",
+  "voice_name": "Jefri - Suara Penjelasan Lembut",
+  "voice_id": "1ijzBXcD3AIVH8RGMcQd",
+  "voice_note": "Suara library ElevenLabs bahasa Indonesia (aksen standar), dipilih dari creative_list_voices, sama dengan Reels 22 Okt. Bukan tiruan suara orang nyata.",
+  "model_id": "eleven_v4",
+  "flow_id": "xDH4BvkjgB3enjd1hEES",
+  "node_id": "ImksP7m9h3BHWiEbxypG",
+  "session_id": "FsWVoQd2IfbnFi1fmHEZ",
+  "generation_id": "oUnzBqpzbnjoQ1wlSpRn",
+  "generation_status": "failed",
+  "error": "Unusual activity has been detected on your account, so Free Tier access has been disabled. This can be triggered by using a proxy or VPN, or by creating multiple free accounts. Please upgrade to a paid subscription to continue.",
+  "estimate_credits": "740 kredit untuk 1 take (estimate_only, USD 0,074)",
+  "generations": 1,
+  "catatan": "Generate dicoba sekali (24 Okt 01.4x WIB) dan gagal di sisi akun ElevenLabs. Tidak diulang dan tidak memakai suara lain, sesuai perintah. vo.mp3 belum ada. Reels ini tidak boleh lolos Lup sosial sebelum VO ada. Perlu pemilik: pulihkan/upgrade akun ElevenLabs, lalu generate sekali dengan prompt di bawah dan ganti komentar <!--VO--> di source/index.html dengan <audio id=\"vo\" src=\"assets/audio/vo.mp3\" data-start=\"0\" data-duration=\"51\" data-track-index=\"8\" data-volume=\"1\">.",
+  "prompt_siap_pakai": "Benarkah hidup orang gud luking lebih mudah?\n\nTahun seribu sembilan ratus dua puluh, psikolog Edward Thorndaik memeriksa penilaian atasan. Perwira yang dinilai tegap, cenderung ikut dinilai cerdas.\n\nCaranya: satu kesan baik merembes ke penilaian lain. Wajah menarik dianggap berkepribadian lebih baik.\n\nEsai jelek yang sama dinilai enam puluh mahasiswa. Foto penulis menarik: nilainya lima koma dua dari sembilan. Foto tidak menarik: cuma dua koma tujuh.\n\nPlot twis-nya: keuntungan ini bisa berbalik. Perempuan menarik dinilai kurang cocok jadi insinyur mesin.\n\nMei dua ribu dua puluh lima, syarat berpenampilan menarik di lowongan dilarang. Saran Thorndaik: nilai setiap sifat secara terpisah. Kamu menilai orang dari wajah, atau buktinya?",
+  "ejaan_prompt": "'gud luking' = good looking, 'Thorndaik' = Thorndike, 'Plot twis-nya' = Plot twist-nya; angka ditulis dengan huruf supaya dibaca utuh.",
+  "ai_voice": true,
+  "mixing_rencana": "VO volume 1 (track 8), musik + efek synth.py volume 0,35 (track 9)."
+}
