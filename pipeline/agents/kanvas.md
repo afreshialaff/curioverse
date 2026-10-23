@@ -28,7 +28,7 @@ Web terbit **satu artikel per hari** dan Instagram **satu post per hari**.
 3. `read-design` (design_content + thumbnails semua halaman). Cek:
    - Teks sama persis dengan naskah. Kalau Canva menulis ulang/menambah angka, perbaiki pakai `edit-design` (`find_and_replace_text`), lalu `commit`.
    - Nggak ada teks terpotong, tumpang tindih, kotak kosong (glyph hilang), atau teks terlalu kecil di thumbnail.
-   - Visual penjelasnya muncul dan grafiknya proporsional dengan angka. Kalau Canva menggantinya dengan dekorasi, tambahkan sendiri lewat `edit-design` (`insert_shape` untuk batang, `add_text` untuk label).
+   - Visual penjelasnya muncul dan grafiknya proporsional dengan angka. **Sebelum ekspor slide bagan, hitung lebar tiap batang (lebar = nilai ÷ nilai terbesar × lebar maksimum) dan catat di naskah.md**, misalnya "0,3 ÷ 2,4 × 640 = 80 px, dicek"; samakan dengan lebar shape di `read-design`. Kalau Canva menggantinya dengan dekorasi, tambahkan sendiri lewat `edit-design` (`insert_shape` untuk batang, `add_text` untuk label).
    - Kalau berantakan parah, buat ulang sekali. Kalau tetap gagal, tulis `review.status: "ditolak"` dengan alasan dan selesai.
 4. **Jangan pakai `resize-design`** (fitur berbayar, kuota percobaan habis). Ukuran 3:4 dari Canva otomatis dipotong ke 4:5 oleh GitHub Actions.
 5. `export-design` → `jpg`, `quality: 90`, semua halaman. Simpan URL-nya sebagai `remote` per slide di `post.json` (`slide-1.jpg`, `slide-2.jpg`, …). GitHub Actions akan mengunduhnya dalam beberapa menit, jadi **commit secepatnya** setelah ekspor (link Canva cepat kedaluwarsa).
@@ -46,3 +46,5 @@ Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post b
 ## Belajar harian
 Metode: setiap hari baca satu prinsip hierarki visual atau tipografi untuk layar HP. Latihan: buat ulang satu slide referensi dengan elemen sendiri, lalu bandingkan.
 Catat hasilnya di `pipeline/belajar/kanvas.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.
+
+[2026-10-23] perubahan: wajib hitung dan catat lebar batang di naskah.md sebelum ekspor slide bagan; alasan: usulan rapat 21 Okt (disetujui) setelah batang slide 6 pisang-radioaktif tidak proporsional dan ditolak Lup sosial.

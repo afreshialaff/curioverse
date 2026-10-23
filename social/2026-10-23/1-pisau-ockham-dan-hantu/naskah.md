@@ -24,7 +24,7 @@ Aksen: psikologi #5E4F8C (ungu lembayung). 8 slide. Visual data hanya di slide 5
 
 ## Slide 4 (mekanisme lanjutan)
 - Judul: Rasa takut datang duluan, lalu otak mencari pelakunya
-- Isi: Daniel Denis dari Beth Israel Deaconess Medical Center, Boston: amigdala atau pusat emosi otak sangat aktif saat REM. Takut muncul tanpa sebab, lalu otak 'menghasilkan solusi untuk paradoks itu'.
+- Isi: Menurut Daniel Denis dari Beth Israel Deaconess Medical Center, amigdala atau pusat emosi otak sangat aktif saat REM. Takut muncul tanpa sebab, lalu otak 'menghasilkan solusi untuk paradoks itu'.
   Studi klinis 2019 yang dikutip CNN Indonesia: 58% dari 185 pasien merasakan kehadiran sesuatu di kamar.
 - Visual: sketsa kamar gelap sederhana di bawah, tanpa sosok
 - Sumber artikel: bagian 4 paragraf 2 dan 3
@@ -33,7 +33,7 @@ Aksen: psikologi #5E4F8C (ungu lembayung). 8 slide. Visual data hanya di slide 5
 - Judul: Sekitar 1 dari 13 orang pernah mengalaminya
 - Isi: Tinjauan Brian Sharpless dan Jacques Barber (2011) atas 35 studi dengan 36.533 peserta.
 - Visual: 3 batang horizontal: Populasi umum 7,6% / Mahasiswa 28% / Pasien psikiatri hampir 32%
-- Hitung lebar (skala 32% = 600 px): 7,6 ÷ 32 × 600 = 142,5 px; 28 ÷ 32 × 600 = 525 px; 32 ÷ 32 × 600 = 600 px. Dicek di thumbnail setelah ekspor.
+- Hitung lebar (skala 32% = 640 px, usulan rapat 21 Okt): 7,6 ÷ 32 × 640 = 152 px; 28 ÷ 32 × 640 = 560 px; 32 ÷ 32 × 640 = 640 px. Di Canva: batang 640 / 560 / 152 px (dicek di dokumen desain, rasio 1 : 0,875 : 0,2375).
 - Baris sumber: Sumber: Sharpless & Barber (2011)
 - Sumber artikel: bagian 4 paragraf 1 (1 dari 13 = hook artikel)
 
@@ -55,10 +55,14 @@ Aksen: psikologi #5E4F8C (ungu lembayung). 8 slide. Visual data hanya di slide 5
 - Judul: Pisau Ockham bukan bukti, juga bukan alat menilai iman
 - Isi: Ia cuma memilih dugaan yang diuji dulu. Ahli biologi Francis Crick bahkan menyebut kesederhanaan sebagai panduan di biologi bisa 'very dangerous', atau sangat berbahaya.
   Kejadian aneh apa yang pernah kamu alami, dan berapa asumsi penjelasannya?
-- Visual: tanpa gambar, bintang empat sudut kecil
+- Visual: tanpa gambar, bintang empat sudut kecil sepia gold
 - Sumber artikel: bagian 6
 
 ## Uji
 - Judul berantai: penjelasan gaib terasa sederhana padahal asumsinya banyak, pisau Ockham artinya jangan menambah hal baru, ketindihan = REM terbawa ke setengah sadar, takut duluan lalu otak cari pelaku, 1 dari 13 orang mengalaminya, hitung asumsinya, teori 19 hertz pun terpotong, pisau Ockham bukan bukti. Nyambung.
 - Orang asing: apa (ketindihan & sosok di kamar), kok bisa (REM + amigdala), terus kenapa (cek asumsi sebelum menyimpulkan gaib). Terjawab tanpa web.
 - Tukar topik: tiap kalimat memuat nama/angka spesifik artikel ini.
+
+## Catatan produksi
+- create-design gagal (quota_exceeded). Desain dibuat dengan copy-design dari carousel 21 Okt lalu semua teks, ilustrasi, dan grafik diganti lewat edit-design. Ilustrasi pisang lama dihapus semua; sketsa pisau dan kamar digambar ulang pakai insert_shape.
+- Slide 3 baris sumber: "Sumber: Brian Sharpless, lewat Penn State News". Slide 2 dan 4 kredit kecil "Ilustrasi: Curioverse".
