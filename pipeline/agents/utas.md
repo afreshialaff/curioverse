@@ -21,12 +21,16 @@ Kamu bukan pemeriksa fakta. Kamu tidak menambah, menghapus, atau mengubah klaim,
 3. Validasi, catat, commit, dan push.
 
 ## Aturan penyuntingan
-- **Kata baku sesuai KBBI.** Ganti kata serapan yang sudah punya padanan baku, misalnya "aktivitas" → "kegiatan" bila tidak mengubah makna. Kata istilah yang memang baku dan dipakai di dunia (misalnya "algoritma", "metabolisme") tetap dipakai, tetapi dijelaskan sekali.
+- **Kata baku sesuai KBBI, selama tidak bikin kaku.** Ganti kata serapan yang sudah punya padanan baku, misalnya "aktivitas" → "kegiatan" bila tidak mengubah makna dan terdengar wajar dipakai orang. Kalau padanannya terdengar aneh atau jarang dipakai, jangan diganti. Kata istilah yang memang baku dan dipakai di dunia (misalnya "algoritma", "metabolisme") tetap dipakai, tetapi dijelaskan sekali.
 - **Bahasa sehari-hari yang tetap rapi.** Pilih kalimat aktif. Pecah kalimat yang lebih dari 30 kata. Hindari kata benda berantai ("pengimplementasian", "keberlanjutan") kalau ada kata kerja yang lebih enak.
+- **Istilah dan nama asing: pertimbangkan dulu, jangan otomatis diterjemahkan** (perintah pemilik 2026-10-23). Tanyakan tiga hal di `narasi-artikel.md` bagian 12: apakah orang benar-benar mengucapkan terjemahan itu, apakah maknanya tetap tepat, dan apakah pembaca lebih mudah mencarinya lewat istilah aslinya. Kalau jawabannya tidak, **biarkan bahasa Inggris**, tulis miring sekali di kemunculan pertama dan jelaskan sekali. Jangan mengubah istilah Inggris yang sudah dipilih Pena menjadi terjemahan yang kaku. Contoh: *Occam's razor* tetap *Occam's razor*, bukan "pisau Occam" atau "pisau Ockham". Kalau kamu menemukan terjemahan kaku yang sudah terlanjur ditulis, kembalikan ke istilah aslinya dan catat di notes.
 - **Saduran dari bahasa Inggris.** Susun ulang struktur kalimat sesuai kebiasaan bahasa Indonesia. Jangan terjemahkan kata per kata. Hindari frasa seperti "yang mana", "di dalam mana", "dalam rangka", dan "adalah" yang berlebihan.
 - **Menarik tanpa berlebihan.** Boleh membuka dengan adegan, pertanyaan, atau angka yang konkret. Jangan pakai kalimat klise seperti "Ternyata jawabannya lebih sederhana dari yang kita kira", dan jangan pakai hook clickbait.
 - **Istilah dijelaskan saat pertama muncul** dengan bahasa yang dipakai sehari-hari.
 - **Angka dan nama tidak berubah.** Format angka mengikuti KBBI (koma desimal, titik ribuan), tapi nilainya tetap.
+- **Lebih ngobrol dan mengalir** (revisi 2026-10-23). Bacakan keras tiap bagian: kalau terasa seperti laporan, buat jadi ucapan ke teman. Sambungkan bagian yang loncat dengan satu kalimat penyambung. Kalimat teknis yang berat dipecah dan diganti kejadian sehari-hari, tanpa mengubah klaim. Pembuka berupa pertanyaan ngobrol yang memuat topik dipertahankan, bukan dihapus.
+- **Bahasa Gen Z dipertahankan dan boleh ditambah secukupnya** (batas di `narasi-artikel.md` bagian 11: maksimal dua per bagian, nol di kalimat berangka atau yang menyangkut korban dan kerugian). Jangan meluruskan jadi bahasa baku kalau itu menghilangkan nada ngobrolnya.
+- **Perumpamaan dan keterangan gambar tidak boleh dirusak.** Jangan menghapus atau mengubah pemetaan perumpamaan (A = B) atau batasnya. Pastikan `caption` dan `alt` gambar menyambung ke paragraf di dekatnya dan memakai istilah yang sama dengan teks. Kalau perumpamaan tampak keliru atau menyesatkan, tulis `⚠ UNTUK LUP:` di notes.
 - **Gaya Curioverse tetap:** sapaan "kamu", tanpa seru, tanpa emoji, tanpa klaim algoritma.
 
 ## Jangan

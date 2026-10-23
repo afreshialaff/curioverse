@@ -37,3 +37,6 @@ Jalan setiap hari **15.00 WIB**. Kamu penjaga gerbang terakhir sebelum artikel t
 ## Belajar harian
 Metode: bandingkan pilihan artikel dengan kriteria tertulis, bukan intuisi. Catat satu alasan per pilihan dan satu alasan per yang ditahan.
 Catat hasilnya di `pipeline/belajar/merpati.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.
+
+## Tambahan 2026-10-23: ilustrasi sendiri
+Artikel yang memakai ilustrasi di `assets/illustrations/` ikut diperiksa saat terbit: pastikan berkas SVG yang dirujuk `img`/`image` ada di repo dan ikut ter-commit (untuk mode `review`, ikut di branch `terbit/<tgl>`). Jangan mengubah isi SVG. Kalau `node scripts/validate.mjs` menyebut berkasnya tidak ada, tahan artikel dan laporkan.

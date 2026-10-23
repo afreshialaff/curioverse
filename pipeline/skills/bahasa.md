@@ -21,7 +21,7 @@ Masalahnya bukan "kurang bagus". Masalahnya **kedengeran mesin**: kalimat yang r
 | Rangkaian tiga yang dipaksa | "Cepat, mudah, dan menguntungkan" | satu sifat yang paling penting, dengan buktinya |
 | Fragmen dramatis beruntun | "Tahun 1920. Boston. Semua berubah." | satu kalimat utuh |
 | "Dari X hingga Y" kosong | "Dari investor kecil hingga bankir kakap" | sebut siapa persisnya, berapa orang |
-| Pembuka orientasi | "Di era digital saat ini", "Pernahkah kamu berpikir" | mulai dari faktanya |
+| Pembuka orientasi | "Di era digital saat ini", "Pernahkah kamu berpikir" yang kosong dan bisa ditempel ke topik mana pun | mulai dari faktanya. Untuk **artikel web**, pembuka berupa pertanyaan ngobrol yang memuat topik boleh (lihat `narasi-artikel.md` bagian 10) |
 | Penutup moral | "Pada akhirnya, kita belajar bahwa..." | satu kalimat yang menjawab pertanyaan di hook |
 | Pertanyaan retoris beruntun | "Kenapa bisa? Apa yang salah? Siapa yang untung?" | maksimal satu, dan harus langsung dijawab |
 | Benda mati jadi pelaku | "Skema ini memakan korban" | "Sekitar 20.000 orang menyetor uang" |
@@ -52,7 +52,7 @@ Teman yang kepo dan rajin baca, lagi cerita ke temannya. Santai, tapi nggak pern
 
 - Kalimat pendek, maksimal 15 kata. Aktif.
 - "kita" dan "kamu" boleh. "Anda" jangan.
-- Slang Gen Z maksimal 1 per slide/paragraf, dan **nol** di kalimat yang memuat angka.
+- Slang Gen Z maksimal 1 per slide/paragraf, dan **nol** di kalimat yang memuat angka. Pengecualian **artikel web** (perintah pemilik 2026-10-23): boleh lebih banyak dan lebih ngobrol, sampai maksimal dua per bagian, aturan lengkapnya di `narasi-artikel.md` bagian 11. Slide, Reels, dan caption tetap memakai batas di atas.
 - Humor boleh di hook dan penutup, jangan di bagian korban, kematian, atau kerugian orang.
 - Jujur soal yang nggak diketahui: "sumber beda-beda, antara X dan Y" lebih baik daripada memilih satu angka diam-diam.
 - Satu istilah, satu nama, sepanjang satu tulisan.
@@ -81,3 +81,6 @@ Terjemahan yang kaku terdengar seperti mesin. Berlaku untuk semua agen penulis.
 - Hindari "ternyata", "ternyata jawabannya", dan pembuka sejenis. Mulai dari faktanya.
 - Hindari pola ketiga-tiganya yang dipaksakan dan kalimat yang menjelaskan diri sendiri ("ini penting karena..."). Tulis buktinya.
 - Tes: baca kalimat dengan suara keras. Kalau terdengar seperti hasil Google Translate, tulis ulang.
+
+## 8. Istilah asing yang dibiarkan (perintah pemilik 2026-10-23)
+Berlaku untuk semua agen penulis dan penyunting. Jangan memaksa terjemahan atau padanan baku kalau hasilnya terdengar aneh atau tidak dipakai orang. Contoh: *Occam's razor* dibiarkan, bukan "pisau Occam" atau "pisau Ockham". Pertimbangkan dulu dengan tiga pertanyaan di `narasi-artikel.md` bagian 12. Kalau dibiarkan, tulis miring saat pertama muncul, jelaskan sekali dengan bahasa sehari-hari, lalu konsisten. Aturan "kata baku sesuai KBBI" kalah dari aturan ini kalau penggantinya membuat kalimat kaku.

@@ -25,7 +25,7 @@ Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 - `title` ≤ 95 karakter, `dek` ≤ 240 karakter, `hook` ≤ 170 karakter (satu fakta mengejutkan yang bisa dicek, tampil acak di beranda).
 - Minimal **4 bagian** (`sections`) dan **700 kata**. Target ideal 900–1.400 kata. Lebih panjang boleh kalau tetap padat.
 - Bagian yang isinya analisis diberi `"kind":"interpretasi"`, pendapat kita diberi `"kind":"opini"`. Default fakta.
-- **Gambar wajib** 🤖: `image` = gambar utama. Opsional `img` di 1–2 bagian. Semua gambar berlisensi terbuka (lihat bagian 3b).
+- **Gambar wajib** 🤖: `image` = gambar utama (minimal satu media per artikel). Opsional `img` di 1–2 bagian. Semua gambar berlisensi terbuka (lihat bagian 3b). Kalau tulisan memakai perumpamaan atau menjelaskan proses, bagian itu **harus** punya `img` ilustrasi yang menggambarkannya, boleh beranimasi (revisi pemilik 2026-10-23; aturan di `skills/narasi-artikel.md` bagian 13–14).
 - Alur yang disarankan: **hook** (kenapa harus peduli) → **konteks** → **inti/mekanisme** (bagian paling daging) → **plot twist / mitos vs fakta** → **so what** (relevansi buat pembaca hari ini).
 
 ## 3b. Gambar 🤖
@@ -33,14 +33,15 @@ Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 - Field: `{ "src": "https://upload.wikimedia.org/...", "alt": "deskripsi isi gambar", "caption": "opsional", "credit": "nama pembuat", "license": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:..." }`.
 - Cara dapat `src`: WebFetch halaman `File:` di Commons, ambil URL `upload.wikimedia.org` versi thumbnail lebar ±1280px (pola `/thumb/.../1280px-Nama.jpg`) atau file aslinya kalau lebih kecil. Pastikan URL itu benar-benar ada di halaman.
 - Gambar harus relevan dan **jujur**: jangan pakai foto peristiwa lain seolah-olah peristiwa yang dibahas, jangan pakai foto orang lain sebagai tokoh artikel. Caption menyebut tahun/tempat kalau diketahui.
-- Ilustrasi sendiri: file SVG di `assets/illustrations/<id>-v1.svg` (dibuat lewat `scripts/illustrations.mjs`), `src` = `/assets/illustrations/<id>-v1.svg`, `credit` = "Curioverse", `license` = "Ilustrasi sendiri (Curioverse)", `page` = link file di GitHub. Cocok untuk konsep (finance, diagram sains). Jangan dipakai untuk wajah tokoh asli atau meniru foto peristiwa. Ganti isi gambar → naikkan versi nama file (cache /assets 1 tahun).
+- Ilustrasi sendiri: file SVG di `assets/illustrations/<id>-v1.svg` (dibuat lewat `scripts/illustrations.mjs`), `src` = `/assets/illustrations/<id>-v1.svg`, `credit` = "Curioverse", `license` = "Ilustrasi sendiri (Curioverse)", `page` = link file di GitHub. Cocok untuk konsep (finance, diagram sains, perumpamaan). Boleh beranimasi dengan CSS/SMIL tanpa skrip, wajib punya frame diam yang lengkap dan blok `prefers-reduced-motion`, di bawah 150 KB. Jangan dipakai untuk wajah tokoh asli atau meniru foto peristiwa. Ganti isi gambar → naikkan versi nama file (cache /assets 1 tahun).
 - Dilarang: gambar dari Google Images, Getty, Shutterstock, situs berita (hak cipta media), poster film, logo merek, dan gambar AI yang meniru foto peristiwa nyata.
 
 ## 4. Suara
-- Bahasa Indonesia santai campur Inggris secukupnya, register Gen Z yang hangat: "jujurly", "plot twist", "bestie" boleh, tapi maksimal 2–3 slang per artikel. Isi tetap serius.
+- Bahasa Indonesia santai campur Inggris secukupnya, register Gen Z yang hangat: "jujurly", "plot twist", "bestie", "relate" boleh. Untuk **artikel web**, sampai sekitar 5–8 ungkapan Gen Z per artikel (maksimal dua per bagian, nol di kalimat berangka; revisi pemilik 2026-10-23, rincian di `skills/narasi-artikel.md` bagian 10–14). Slide, Reels, dan caption tetap 1 per slide/paragraf. Isi tetap serius dan akurat.
+- Artikel diajak ngobrol dengan pembaca: pembuka boleh berupa pertanyaan yang memuat topik (satu per artikel). Istilah atau nama yang terjemahannya aneh dibiarkan dalam bahasa Inggris, ditulis miring dan dijelaskan sekali (contoh: *Occam's razor*). Topik berat dijelaskan dengan perumpamaan yang jelas pemetaannya.
 - Kalimat pendek, satu ide per kalimat. Paragraf 2–5 kalimat.
 - Angka besar dikasih pembanding ("setara 4.800 km, kira-kira Jakarta ke Tokyo").
-- Hindari: em dash berlebihan, kalimat motivasi kosong, "di era digital ini", "tidak bisa dipungkiri", "mari kita", pembuka "Pernahkah kamu…" berturut-turut di banyak artikel.
+- Hindari: em dash berlebihan, kalimat motivasi kosong, "di era digital ini", "tidak bisa dipungkiri", "mari kita", pembuka berbentuk pertanyaan yang sama berturut-turut di banyak artikel (pertanyaan pembuka yang spesifik dan berganti-ganti boleh).
 
 ## 5. Topik sensitif
 - **Finance/market/saham**: build otomatis menambah catatan "bukan saran investasi". Tetap dilarang menyuruh beli/jual aset tertentu, menjanjikan return, atau menyebut harga terkini.

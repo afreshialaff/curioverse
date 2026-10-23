@@ -39,6 +39,9 @@ Jalan setiap hari **00.00 WIB**. Target: **tepat satu artikel terbit per hari**,
 - Sumber terverifikasi (sudah kamu buka): 
   - <Situs: Judul> — <url>   (minimal 6, dari ≥3 situs berbeda)
 - Hati-hati: <bagian yang rawan salah, angka yang beda antar sumber, isu sensitif>
+- Perumpamaan yang cocok (wajib untuk topik teknis atau abstrak): <A = B, pemetaan singkat, dan di mana perumpamaan itu berhenti berlaku>
+- Ide visual pendamping (SVG sendiri, boleh beranimasi): <apa yang digambarkan dan digerakkan, bagian artikel mana>
+- Istilah asing yang sebaiknya dibiarkan bahasa Inggris: <daftar, dengan alasannya>
 - Reading path yang cocok: <id path atau ->
 - Kandidat gambar (Commons/domain publik, sudah dibuka): <halaman File:> — <lisensi> — <kenapa relevan>
 - Asal ide: <inbox | backlog | riset Kompas>
