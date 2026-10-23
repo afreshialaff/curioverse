@@ -80,3 +80,14 @@ Kata penguat yang tersisa dan pemilik sumbernya:
 - "banyak peserta memang melaporkan sensasi aneh" → HAUNT
 - "penjelasan yang paling parsimonious" → HAUNT ("most parsimonious explanation", kutipan sumber)
 - "Penjelasan yang terdengar paling \"ilmiah\"" = gaya bahasa penulis (bagian interpretasi), bukan klaim fakta.
+
+## Revisi Pena 2026-10-23 (sesi revisi) · menjawab review Lup
+Tidak ada fakta baru; semua perubahan memakai sumber yang sudah ada di peta dan sudah dicek Lup hari ini.
+- Hook: "Sekitar 1 dari 13 orang pernah ketindihan: bangun kaku, banyak yang merasa ada sosok di kamar." → CNNSP (7,6% pernah ketindihan; "merasakan kehadiran" 58% dari 185 pasien studi 2019, jadi ditulis "banyak yang", bukan semua/kebanyakan)
+- "amigdala ... sangat aktif selama REM" → CNNSP (kata sumber: "sangat aktif")
+- "Rasa takut muncul tanpa ada apa pun di sekitar yang menjelaskannya, jadi otak \"menghasilkan solusi untuk paradoks itu\", kata Denis" → CNNSP (kutipan Denis). "Salah satu solusi itu bisa berupa sosok di kamar" = sambungan penulis ke 58% di paragraf berikutnya, bukan kata Denis.
+- "seberapa sering dan seberapa berat ketindihan terjadi berkaitan dengan kecemasan dan kurang tidur" → CNNSP (frekuensi & keparahan)
+- "Kualitas tidur yang buruk termasuk faktor yang menaikkan risikonya" → CNNSP (daftar faktor risiko)
+- "CNN Indonesia juga menulis tentang imigran Hmong dari Laos yang mengenal dab tsog, roh mimpi buruk yang menduduki dada korban" → CNNSP (bagian SUNDS), **bukan PSU**; baris Bagian 4 soal Hmong di atas kini diatribusikan eksplisit ke CNN di artikel.
+- "dua dosen Coventry University, Inggris, Vic Tandy dan rekannya, Lawrence ... kejadian aneh yang mereka selidiki" → IOA (Tandy & Lawrence = dua dosen itu)
+- "ranting patah" (tanpa "di hutan") → MC

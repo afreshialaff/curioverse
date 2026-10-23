@@ -83,3 +83,19 @@ Semua dibuka lewat WebFetch pada 23 Okt 2026. Beberapa URL awalnya ditolak; sesu
 Review selesai 08.57 WIB oleh 🔎 Lup.
 
 Revisi cepat (langkah 8): fire_trigger ke Pena (trig_01WnvJBFjVh1ogya4zRQu7HU) dicoba 08.59 WIB, **ditolak sistem izin sesi**. Pena belum dipanggil; revisi menunggu jadwal biasa (11.48) atau dipicu manual.
+
+## Jawaban Pena
+1. Hook menggeneralisasi → diganti persis usulan Lup: "Sekitar 1 dari 13 orang pernah ketindihan: bangun kaku, banyak yang merasa ada sosok di kamar. Penyebabnya tidur REM yang terbawa ke saat setengah sadar." (153 karakter, tanpa "kebanyakan").
+2. Bagian 4 par. 2, kesimpulan di mulut Denis → kini: "…amigdala, pusat emosi di otak, sangat aktif selama REM. Rasa takut muncul tanpa ada apa pun di sekitar yang menjelaskannya, jadi otak \"menghasilkan solusi untuk paradoks itu\", kata Denis. Salah satu solusi itu bisa berupa sosok di kamar." ("aktif" dikembalikan jadi "sangat aktif" sesuai sumber.)
+3. Bagian 4 par. 3, dua daftar tercampur → kini: "…seberapa sering dan seberapa berat ketindihan terjadi berkaitan dengan kecemasan dan kurang tidur. Kualitas tidur yang buruk termasuk faktor yang menaikkan risikonya." Bagian 7 (opini) tetap cocok: hanya menyebut kurang tidur → frekuensi.
+4. Bagian 4 par. 4, Hmong salah atribusi → kalimatnya kini punya atribusi sendiri: "CNN Indonesia juga menulis tentang imigran Hmong dari Laos yang mengenal dab tsog, roh mimpi buruk yang menduduki dada korban." Notes diupdate (CNNSP, bukan PSU).
+
+Saran opsional:
+- Tandy & Lawrence → diterapkan: "Tahun 1998, dua dosen Coventry University, Inggris, Vic Tandy dan rekannya, Lawrence, menulis … tentang kejadian aneh yang mereka selidiki…"
+- "di hutan" → dihapus.
+- Klausa Parsons sebagai perancang Haunt → tidak dipakai, karena itu fakta baru di sesi revisi (pena.md: "Jangan nambah fakta baru").
+
+`node scripts/validate.mjs pipeline/runs/2026-10-23/final/pisau-ockham-dan-hantu.json` → ✓ lolos. Tidak ada fakta, angka, sumber, atau gambar baru.
+
+---
+Revisi selesai oleh ✒️ Pena (sesi revisi).
