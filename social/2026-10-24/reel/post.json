@@ -2,8 +2,7 @@
   "_catatan": "SEMENTARA: hanya supaya social-fetch.yml mengunduh VO ElevenLabs (egress sandbox memblokir storage.googleapis.com). Hapus setelah vo.mp3 ada. Bukan post.",
   "media": [
     {
-      "file": "vo.mp3",
-      "remote": "https://storage.googleapis.com/xi-backend/database/workspace/75d1d0c61a2e4a07b4d4f385b1e5c4c2/content_generation/0lrAxflbbwIwTlHQeqqo/tBD08lT9gnKbpp6zrJwQ/content.mp3?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=xi-backend-prod%40xi-labs.iam.gserviceaccount.com%2F20261023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261023T190140Z&X-Goog-Expires=7200&X-Goog-SignedHeaders=host&X-Goog-Signature=67e085ad05e544eddf0453d450d318cebfd2ac51f3ba6c57935d2c30795b1977d531db5318f15fe96ab4ee5dd53f97fc91295b5bb15b4fa7467212e876331584a042991b7078a5fa7c02ea7f6d83c4f4f441a9778aea05b003472f36fa40175d8b46f785bb60a53ad38ba40f9575e44465a746d4653bf169063ed25d5575660765e0fd59f7c7d54553a6e5de2272d9da95cf284a4e7af504c15dc5a7b60677263bdff9859b64cfd8181f0984c83ac539e10760d7e16bbb9791a9ad649465f046a26076adbdf7910c3623243ab9ef0eb952ea4e01bf3d7882fb5c62a3523e57ad4b67f253452c53c025bee28c1c7aaccc4b641a92e5c2957a249ec75bbaa17b15"
+      "file": "vo.mp3"
     }
   ],
   "review": {
