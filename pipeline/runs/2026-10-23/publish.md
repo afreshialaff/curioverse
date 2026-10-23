@@ -15,3 +15,6 @@
 **Ditahan:** -
 **Masuk reserve:** - (reserve: 0)
 **Mode:** auto (push ke main)
+
+**Deploy:** terlihat di web (WebFetch ±3 menit setelah push, judul tampil, bukan 404).
+**Rantai sosial:** 23 = ganjil → Kanvas. Tidak di-fire karena cron Kanvas sudah mulai 15.20 WIB dan masih berjalan (<90 menit).
