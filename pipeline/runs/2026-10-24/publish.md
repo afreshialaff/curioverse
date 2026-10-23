@@ -14,3 +14,6 @@
 **Ditahan:** -
 **Masuk reserve:** `banjir-molase-boston-1919` (lolos, kelebihan slot; catatan cek ulang kalimat Harvard di atas). Reserve: 1
 **Mode:** auto (push ke main)
+
+**Deploy:** deploy belum terlihat — WebFetch ke halaman artikel ±3 menit setelah push gagal karena izin (sesi terjadwal tanpa manusia), bukan karena 404. Tidak di-push ulang.
+**Rantai sosial:** 24 = genap → Layar di-fire ±01.26 WIB (belum ada run Layar hari ini).
