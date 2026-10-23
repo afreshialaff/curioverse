@@ -79,3 +79,10 @@ Aksen: psikologi #5E4F8C (ungu lembayung). 8 slide. Visual data hanya di slide 5
 - Slide 8 judul: Prinsip ini bukan bukti, juga bukan alat menilai iman
 - Slide 8 kutipan: Ahli biologi Francis Crick bahkan menyebut kesederhanaan sebagai panduan di biologi bisa 'sangat berbahaya'.
 - Judul berantai baru: ketindihan, gaib atau sains? / prinsip lama: uji penjelasan paling sedikit asumsinya / REM terbawa ke setengah sadar / takut duluan lalu otak cari pelaku / 1 dari 13 orang / hitung asumsinya / teori 19 hertz ikut terpotong / prinsip ini bukan bukti. Nyambung, tanpa istilah sulit.
+
+## Revisi Kanvas lanjutan (teks SESI REVISI Lup, must-fix 1-5)
+- Slide 1 judul persis: Apa sebenarnya yang memicu ketindihan? Makhluk gaib, atau bisa dijelaskan sains? (2 baris, dicek)
+- Slide 2 isi: ...bentuk klasiknya bicara soal kehematan, atau seberapa sedikit jenis hal yang diandaikan ada: jangan menambah hal baru kalau yang sudah ada cukup untuk menjelaskan.
+- Slide 6 label kolom: "Hal baru: tidak ada." / "Sosok yang bisa masuk kamar, menekan dada tanpa jejak, datang tepat saat setengah tidur." (kata "entitas" dihapus)
+- Slide 7 judul: Ternyata teori hantu 19 hertz pun ikut gugur ("Plot twist" dihapus). "infrasound" di isi tetap, sudah dijelaskan pola "X atau Y".
+- Cek semua slide: nol "Occam's razor"/"pisau Ockham"/"parsimony"/kutipan Inggris. Angka tidak diubah. Caption tidak disentuh.
