@@ -70,3 +70,12 @@ Aksen: psikologi #5E4F8C (ungu lembayung). 8 slide. Visual data hanya di slide 5
 ## Diubah Corong (2026-10-23)
 - Slide 3 paragraf 1 dan slide 7 paragraf 2 diganti seperti di atas. Slide 2 dan 6: bintik tekstur latar ditutup patch warna latar.
 - Judul slide 2 dan 8: "Pisau Ockham" diganti "Occam's razor" (bahasa.md bagian 8).
+
+## Revisi Kanvas (2026-10-23 sore, must-fix Lup sosial)
+- Slide 1 judul: Apa yang memicu ketindihan? Makhluk gaib, atau bisa dijelaskan sains?
+- Slide 1 kutipan: 'Kita terus-menerus memberi sifat manusia pada hal-hal di sekitar kita'. Keterangan: Stewart Guthrie, dalam bukunya Faces in the Clouds.
+- Slide 2 judul: Prinsip lama: uji dulu penjelasan yang paling sedikit asumsinya
+- Slide 2 isi: Prinsip ini dinamai dari William of Ockham, biarawan Fransiskan Inggris yang hidup sekitar 1287 sampai 1347. / Menurut Stanford Encyclopedia of Philosophy, bentuk klasiknya bicara soal seberapa sedikit jenis hal yang diandaikan ada: jangan menambah hal baru kalau yang sudah ada cukup untuk menjelaskan.
+- Slide 8 judul: Prinsip ini bukan bukti, juga bukan alat menilai iman
+- Slide 8 kutipan: Ahli biologi Francis Crick bahkan menyebut kesederhanaan sebagai panduan di biologi bisa 'sangat berbahaya'.
+- Judul berantai baru: ketindihan, gaib atau sains? / prinsip lama: uji penjelasan paling sedikit asumsinya / REM terbawa ke setengah sadar / takut duluan lalu otak cari pelaku / 1 dari 13 orang / hitung asumsinya / teori 19 hertz ikut terpotong / prinsip ini bukan bukti. Nyambung, tanpa istilah sulit.

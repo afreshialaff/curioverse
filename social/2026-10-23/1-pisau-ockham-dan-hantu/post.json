@@ -4,14 +4,16 @@
   "story_url": "https://curioverse-beta.vercel.app/stories/pisau-ockham-dan-hantu",
   "type": "carousel",
   "made_by": "kanvas",
-  "canva_design": "https://www.canva.com/d/drCGMevlxAdEuGD",
+  "canva_design": "https://www.canva.com/design/DAHY0D1tlM8/edit",
   "caption": "Apa sebenarnya yang memicu ketindihan, atau kelumpuhan tidur? Makhluk gaib, atau sesuatu yang bisa dijelaskan sains? Jawaban \"makhluk halus\" terasa paling sederhana, padahal asumsinya paling banyak.\n\nKetindihan terjadi saat tidur REM, fase saat mimpi paling hidup, terbawa ke setengah sadar. Otot masih dilumpuhkan, sementara mimpi bercampur dengan kamar nyata. Menurut Daniel Denis dari Beth Israel Deaconess Medical Center, amigdala atau pusat emosi otak sangat aktif saat REM, jadi rasa takut muncul duluan, lalu otak mencari pelakunya.\n\nTinjauan Brian Sharpless dan Jacques Barber (2011) atas 35 studi memperkirakan 7,6% orang di populasi umum, sekitar 1 dari 13, pernah mengalaminya. Jadi sebelum menyimpulkan gaib, periksa dulu penjelasan yang paling sedikit asumsinya. Itu bukan bukti, cuma cara memilih dugaan yang diuji dulu.\n\nA curious mind lives here.\n\n#ketindihan #psikologi #berpikirkritis #sains #curioverse",
   "media": [
     {
-      "file": "slide-1.jpg"
+      "file": "slide-1.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0001-5255094729969191153.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261023T040902Z&X-Amz-Expires=22628&X-Amz-Signature=664e5a22ee3f4bc5345b248c134494ed746a748d687f45a47bbe62fe30329910&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2010%3A26%3A10%20GMT"
     },
     {
-      "file": "slide-2.jpg"
+      "file": "slide-2.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0002-5255094729969191153.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261023T015714Z&X-Amz-Expires=31060&X-Amz-Signature=10ab4f2b20497bff543d7a458b7de30add69e84182f8e45786bd2c938993fa08&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2010%3A34%3A54%20GMT"
     },
     {
       "file": "slide-3.jpg"
@@ -29,13 +31,14 @@
       "file": "slide-7.jpg"
     },
     {
-      "file": "slide-8.jpg"
+      "file": "slide-8.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0008-5255094729969191153.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261023T063819Z&X-Amz-Expires=13997&X-Amz-Signature=85cf101c9c6f3e2a7732e5d254cdfea6639056e9a4faaca7d07db562c10547cb&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2010%3A31%3A36%20GMT"
     }
   ],
   "review": {
     "status": "ditolak",
     "by": "lup",
-    "notes": "Ditolak 15.44 WIB atas perintah pemilik (kejelasan, bukan fakta; fakta tetap cocok dengan artikel). Istilah 'Occam's razor' jadi judul slide 2 dan 8, kata '(parsimony)' di slide 2, kutipan Inggris di slide 1 dan 8, dan sampul yang dibuka dari konsep, bukan dari pengalaman penonton. Caption sudah Lup tulis ulang sendiri: dibuka pertanyaan ketindihan, tanpa 'Occam's razor', hashtag #occamsrazor diganti #sains. Desain dikirim ke Kanvas (trig_01WN127A3ob8rzm6WituMcGb) pukul 15.44 WIB dengan 5 must-fix."
+    "notes": "Ditolak 15.44 WIB atas perintah pemilik (kejelasan, bukan fakta; fakta tetap cocok dengan artikel). Istilah 'Occam's razor' jadi judul slide 2 dan 8, kata '(parsimony)' di slide 2, kutipan Inggris di slide 1 dan 8, dan sampul yang dibuka dari konsep, bukan dari pengalaman penonton. Caption sudah Lup tulis ulang sendiri: dibuka pertanyaan ketindihan, tanpa 'Occam's razor', hashtag #occamsrazor diganti #sains. Desain dikirim ke Kanvas (trig_01WN127A3ob8rzm6WituMcGb) pukul 15.44 WIB dengan 5 must-fix. | Revisi Kanvas 23 Okt (sore): slide 1 sampul jadi hook 'Apa yang memicu ketindihan? Makhluk gaib, atau bisa dijelaskan sains?' + kutipan Guthrie terjemahan saja; slide 2 judul 'Prinsip lama: uji dulu penjelasan yang paling sedikit asumsinya', '(parsimony)' dihapus; slide 8 judul 'Prinsip ini bukan bukti...', kutipan Crick terjemahan saja. Slide 1, 2, 8 diekspor ulang. Menunggu re-review Lup."
   },
   "post": {
     "status": "queued"
