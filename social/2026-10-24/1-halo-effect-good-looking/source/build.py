@@ -1,5 +1,5 @@
 import json
-D = 51.0
+D = 52.0
 base = open('base.css').read().replace('</style>', '''
 .ess{position:absolute;width:400px;height:560px;top:960px;background:var(--card);border-radius:24px;box-shadow:0 18px 50px rgba(27,26,23,.12)}
 .face{position:absolute;left:130px;top:50px;width:140px;height:140px;border-radius:50%;background:#CDBFA6}
@@ -18,15 +18,15 @@ lines = {
  's5': ["Plot twist-nya: keuntungan ini bisa berbalik.", "Perempuan menarik dinilai kurang cocok jadi insinyur mesin."],
  's6': ["Mei 2025, syarat berpenampilan menarik di lowongan dilarang.", "Saran Thorndike: nilai setiap sifat secara terpisah.", "Kamu menilai orang dari wajah, atau buktinya?"],
 }
-starts = [0, 3.6, 11.6, 19.2, 31.0, 39.6]
+starts = [0, 3.05, 13.1, 20.6, 31.4, 38.6]
 ends = starts[1:] + [D]
 # line windows (show, hide)
 win = {
- 's2': [(3.75, 7.6), (7.85, None)],
- 's3': [(11.75, 15.6), (15.85, None)],
- 's4': [(19.35, 23.0), (23.25, 26.9), (27.15, None)],
- 's5': [(31.15, 34.6), (34.85, None)],
- 's6': [(39.75, 43.6), (43.85, 47.3), (47.55, None)],
+ 's2': [(3.15, 9.05), (9.3, None)],
+ 's3': [(13.2, 17.25), (17.45, None)],
+ 's4': [(20.7, 24.05), (24.25, 28.4), (28.62, None)],
+ 's5': [(31.5, 34.75), (34.92, None)],
+ 's6': [(38.7, 43.65), (43.85, 47.5), (47.75, None)],
 }
 kick = {'s2': 'Dari tahun 1920', 's3': 'Caranya begini', 's4': 'Buktinya · skala 1–9', 's5': 'Plot twist', 's6': 'Jadi'}
 
@@ -108,15 +108,15 @@ for k in range(1, 6):
 for k in range(5):
     js.append(f"out('#s{k+1}', {ends[k]-0.4:.2f});")
 js += [
- "tl.fromTo('#s2card', {opacity:0,y:60}, {opacity:1,y:0,duration:.6,ease:'back.out(1.6)'}, 4.4);",
- "tl.fromTo('#s3 .n', {opacity:0,x:-40}, {opacity:1,x:0,duration:.5,ease:'power3.out',stagger:1.2}, 12.3);",
- "tl.fromTo('#l1', {scaleY:0}, {scaleY:1,duration:.4}, 12.8); tl.fromTo('#l2', {scaleY:0}, {scaleY:1,duration:.4}, 14.0);",
- "blurIn('#s4 .blbl', 19.9, 0.3);",
- "tl.fromTo('#b1', {scaleX:0}, {scaleX:1,duration:.6,ease:'power3.out'}, 20.6); blurIn('#b1v', 21.0);",
- "tl.fromTo('#b0', {scaleX:0}, {scaleX:1,duration:.8,ease:'power3.out'}, 23.3); blurIn('#b0v', 23.9);",
- "tl.fromTo('#b2', {scaleX:0}, {scaleX:1,duration:.6,ease:'power3.out'}, 27.2); blurIn('#b2v', 27.7);",
- "tl.fromTo('#s5card', {opacity:0,y:60}, {opacity:1,y:0,duration:.6,ease:'back.out(1.6)'}, 31.7);",
- "tl.fromTo('#s6card', {opacity:0,y:60}, {opacity:1,y:0,duration:.6,ease:'back.out(1.6)'}, 40.2);",
+ "tl.fromTo('#s2card', {opacity:0,y:60}, {opacity:1,y:0,duration:.6,ease:'back.out(1.6)'}, 4.0);",
+ "tl.fromTo('#s3 .n', {opacity:0,x:-40}, {opacity:1,x:0,duration:.5,ease:'power3.out',stagger:1.2}, 13.9);",
+ "tl.fromTo('#l1', {scaleY:0}, {scaleY:1,duration:.4}, 14.4); tl.fromTo('#l2', {scaleY:0}, {scaleY:1,duration:.4}, 15.6);",
+ "blurIn('#s4 .blbl', 21.3, 0.3);",
+ "tl.fromTo('#b1', {scaleX:0}, {scaleX:1,duration:.6,ease:'power3.out'}, 22.0); blurIn('#b1v', 22.4);",
+ "tl.fromTo('#b0', {scaleX:0}, {scaleX:1,duration:.8,ease:'power3.out'}, 25.8); blurIn('#b0v', 26.4);",
+ "tl.fromTo('#b2', {scaleX:0}, {scaleX:1,duration:.6,ease:'power3.out'}, 29.9); blurIn('#b2v', 30.4);",
+ "tl.fromTo('#s5card', {opacity:0,y:60}, {opacity:1,y:0,duration:.6,ease:'back.out(1.6)'}, 32.1);",
+ "tl.fromTo('#s6card', {opacity:0,y:60}, {opacity:1,y:0,duration:.6,ease:'back.out(1.6)'}, 39.2);",
 ]
 
 html = f'''<!doctype html>
@@ -130,7 +130,7 @@ html = f'''<!doctype html>
 <body>
 <div id="root" data-composition-id="main" data-start="0" data-duration="{D}" data-width="1080" data-height="1920">
   <audio id="bgm" src="assets/audio/bgm.wav" data-start="0" data-duration="{D}" data-track-index="9" data-volume="0.35"></audio>
-  <!--VO-->
+  <audio id="vo" src="assets/audio/vo.mp3" data-start="0" data-duration="50.91" data-track-index="8" data-volume="1"></audio>
   <section class="clip bg" data-start="0" data-duration="{D}" data-track-index="0" data-layout-allow-overflow>
     <div class="grain" id="grain"></div>
     <svg class="star" id="st1" style="left:900px;top:250px" viewBox="-10 -10 20 20"><path d="M0-10C.9-3 3-.9 10 0 3 .9.9 3 0 10-.9 3-3 .9-10 0-3-.9-.9-3 0-10z"/></svg>
@@ -158,8 +158,8 @@ document.fonts.ready.then(() => {{ window.__timelines = window.__timelines || {{
 open('index.html', 'w').write(html)
 cues = [{"t":0.05,"kind":"pop"}]
 for t in starts[1:]: cues.append({"t":t,"kind":"whoosh"})
-cues += [{"t":4.4,"kind":"pop"},{"t":12.3,"kind":"pop"},{"t":13.5,"kind":"pop"},{"t":14.7,"kind":"pop"},
-         {"t":20.6,"kind":"tick"},{"t":22.3,"kind":"rise","len":1.0},{"t":23.3,"kind":"tick"},{"t":27.2,"kind":"thud"},
-         {"t":31.7,"kind":"pop"},{"t":40.2,"kind":"pop"},{"t":49.8,"kind":"ding"}]
+cues += [{"t":4.0,"kind":"pop"},{"t":13.9,"kind":"pop"},{"t":15.1,"kind":"pop"},{"t":16.3,"kind":"pop"},
+         {"t":22.0,"kind":"tick"},{"t":24.8,"kind":"rise","len":1.0},{"t":25.8,"kind":"tick"},{"t":29.9,"kind":"thud"},
+         {"t":32.1,"kind":"pop"},{"t":39.2,"kind":"pop"},{"t":51.0,"kind":"ding"}]
 json.dump(cues, open('cues.json', 'w'))
 print('bars px', dict(zip([v for _, v in vals], bw)))
