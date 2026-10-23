@@ -1,7 +1,7 @@
 {
   "date": "2026-10-24",
   "story": "halo-effect-good-looking",
-  "status": "⚠ VO SUDAH DIGENERATE, BELUM TERUNDUH",
+  "status": "✅ vo.mp3 TERUNDUH (belum dimixing ke reel.mp4)",
   "provider": "ElevenLabs (creative_generate_speech)",
   "voice_name": "Jefri - Suara Penjelasan Lembut",
   "voice_id": "1ijzBXcD3AIVH8RGMcQd",
@@ -14,7 +14,7 @@
   "generation_status": "completed",
   "estimate_credits": "738 kredit untuk 1 take (estimate_only, USD 0,0738)",
   "generations": 1,
-  "catatan": "24 Okt 02.0x WIB: akun ElevenLabs sudah pulih, generate sekali berhasil (50,88 dtk, pas dengan video 51,0 dtk). Naskah adegan 4 baris 1 sudah direvisi jadi 'Esai jelek yang sama diberi foto penulis berbeda.' (must-fix Lup #2). File audio TIDAK bisa diunduh ke sandbox: storage.googleapis.com ditolak proxy egress (403). vo.mp3 belum ada di repo. Perlu pemilik: izinkan domain storage.googleapis.com di Settings > Capabilities, atau unduh dari riwayat ElevenLabs (history_item_id di atas) dan taruh di social/2026-10-24/reel/vo.mp3. Setelah itu: dengarkan penuh, ganti <!--VO--> di source/index.html dengan <audio id=\"vo\" src=\"assets/audio/vo.mp3\" data-start=\"0\" data-duration=\"51\" data-track-index=\"8\" data-volume=\"1\">, render ulang. JANGAN generate ulang.",
+  "catatan": "24 Okt 02.0x WIB: akun ElevenLabs sudah pulih, generate sekali berhasil (50,88 dtk, pas dengan video 51,0 dtk). Naskah adegan 4 baris 1 sudah direvisi jadi 'Esai jelek yang sama diberi foto penulis berbeda.' (must-fix Lup #2). File audio TIDAK bisa diunduh ke sandbox: storage.googleapis.com ditolak proxy egress (403). vo.mp3 belum ada di repo. Perlu pemilik: izinkan domain storage.googleapis.com di Settings > Capabilities, atau unduh dari riwayat ElevenLabs (history_item_id di atas) dan taruh di social/2026-10-24/reel/vo.mp3. Setelah itu: dengarkan penuh, ganti <!--VO--> di source/index.html dengan <audio id=\"vo\" src=\"assets/audio/vo.mp3\" data-start=\"0\" data-duration=\"51\" data-track-index=\"8\" data-volume=\"1\">, render ulang. JANGAN generate ulang. | Lup sosial 24 Okt 02.27 WIB: vo.mp3 diunduh lewat workflow social-fetch.yml (runner GitHub bisa akses storage.googleapis.com) memakai content_url dari creative_get_flow_run_status; 832.189 byte, 50,91 dtk, mp3 44,1 kHz, puncak -3,9 dB. Tidak generate ulang.",
   "prompt_siap_pakai": "Benarkah hidup orang gud luking lebih mudah?\n\nTahun seribu sembilan ratus dua puluh, psikolog Edward Thorndaik memeriksa penilaian atasan. Perwira yang dinilai tegap cenderung ikut dinilai cerdas.\n\nCaranya: satu kesan baik merembes ke penilaian lain. Wajah menarik dianggap berkepribadian lebih baik.\n\nEsai jelek yang sama diberi foto penulis berbeda. Foto penulis menarik: nilainya lima koma dua dari sembilan. Foto tidak menarik: cuma dua koma tujuh.\n\nPlot twis-nya: keuntungan ini bisa berbalik. Perempuan menarik dinilai kurang cocok jadi insinyur mesin.\n\nMei dua ribu dua puluh lima, syarat berpenampilan menarik di lowongan dilarang. Saran Thorndaik: nilai setiap sifat secara terpisah. Kamu menilai orang dari wajah, atau buktinya?",
   "ejaan_prompt": "'gud luking' = good looking, 'Thorndaik' = Thorndike, 'Plot twis-nya' = Plot twist-nya; angka ditulis dengan huruf supaya dibaca utuh.",
   "ai_voice": true,
