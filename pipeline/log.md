@@ -10,3 +10,4 @@ Satu baris per hari, ditulis Merpati. Format: `<tgl> · terbit: <id> · ditahan:
 2026-10-21 · terbit: pisang-radioaktif · ditahan: mandiri-gadai-saham-haji-isam-msci (reserve, REVISI 19 Okt belum dijawab) · reserve: 1 · mode: auto
 2026-10-22 · terbit: dark-triad-orang-jahat-sukses · ditahan: mandiri-gadai-saham-haji-isam-msci (reserve, REVISI 19 Okt belum dijawab) · reserve: 1 · mode: auto
 2026-10-23 · dicabut dari reserve (perintah pemilik): mandiri-gadai-saham-haji-isam-msci · tidak ditayangkan · reserve: 0 · mode: auto
+2026-10-23 · terbit: pisau-ockham-dan-hantu · ditahan: - · reserve: 0 · mode: auto
