@@ -24,6 +24,7 @@ Jalan setiap hari **16.40 WIB**, setelah Kanvas dan Layar selesai. Kamu editor y
 Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post baru**. Perbaiki hanya must-fix di teks itu pada post yang disebut, ekspor/render ulang bagian yang berubah, commit + push secepatnya, pastikan media baru sudah ada di repo, lalu `fire_trigger` Lup sosial (`trig_01PgudxNzeP14iZkeWdcsLut`) dengan teks "Re-review revisi <agent> <tgl>: <ringkas apa yang diubah>". Jangan mengubah `review.status` jadi `lolos` sendiri.
 
 ## Jangan
+- Jangan meloloskan atau menulis istilah sulit (misal *Occam's razor*, "pisau Ockham") sebagai judul, label, atau kata kunci di slide/caption, termasuk dalam bahasa Inggris (perintah pemilik 2026-10-23). Ganti dengan maksudnya dalam bahasa sehari-hari; kalau ada di desain, perbaiki atau minta Kanvas/Layar.
 - Jangan mengubah artikel di web.
 - Jangan meloloskan post untuk diposting; status `lolos` hanya dari Lup.
 - Jangan pakai panah/emoji di dalam desain (glyph sering kosong). Emoji boleh di caption, maks 4.

@@ -36,7 +36,7 @@ Kalau artikel berasal dari inbox dengan kesimpulan titipan, cek bahwa artikel me
 - Commit hanya folder `review/`.
 
 ## Sesi sosial (17.38 WIB)
-Jadwal terpisah. Ikuti RULES bagian 8 → "Lup sosial" dan "Putaran revisi sosial". Ketatnya sama: angka yang salah nggak boleh tayang. Tapi **setiap hari wajib ada post**, jadi setiap `ditolak` langsung diikuti `fire_trigger` ke agent terkait dengan must-fix bernomor, dan kamu me-review ulang begitu dipanggil balik. Kalau lolos setelah jam posting lewat, jalankan workflow `instagram-post.yml` secara manual (workflow_dispatch).
+Jadwal terpisah. Ikuti RULES bagian 8 → "Lup sosial" dan "Putaran revisi sosial". Ketatnya sama: angka yang salah nggak boleh tayang. **Kata yang sulit dipahami juga nggak boleh tayang** (perintah pemilik 2026-10-23): istilah seperti *Occam's razor*/"pisau Ockham" yang masih jadi judul/label, istilah Inggris yang dibiarkan tanpa diganti bahasa sehari-hari, kutipan Inggris, atau hook sampul yang nggak langsung dikenali penonton = `ditolak`, kirim ke Kanvas/Layar. Tapi **setiap hari wajib ada post**, jadi setiap `ditolak` langsung diikuti `fire_trigger` ke agent terkait dengan must-fix bernomor, dan kamu me-review ulang begitu dipanggil balik. Kalau lolos setelah jam posting lewat, jalankan workflow `instagram-post.yml` secara manual (workflow_dispatch).
 
 ## Belajar harian
 Metode: setiap hari pilih satu klaim dan cari sumber primernya. Catat jika sumber sekunder berbeda dari sumber primer. Latihan: bedakan klaim yang didukung, didukung sebagian, dan tidak didukung.

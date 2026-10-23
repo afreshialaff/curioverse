@@ -16,9 +16,13 @@ Tujuan setiap post: **orang yang nggak pernah buka web kita tetap paham ceritany
 
 Diamati langsung 18 Okt 2026 (carousel "Lapisan es di pegunungan Swiss menyusut drastis", 7 slide, dan Reels banjir São Paulo). Yang bikin tulisan mereka nggak terdengar seperti mesin bukan kosakatanya, tapi **disiplinnya**. Delapan hal yang kita tiru:
 
-1. **Judul sampul = pernyataan yang memuat beritanya**, maksimal 2 baris. "Lapisan es di pegunungan Swiss menyusut drastis". Bukan pertanyaan menggantung, bukan clickbait. Di bawahnya satu **kutipan pendek bertanda petik miring**: *'Ini benar-benar bencana'*. Dua baris itu sudah seluruh ceritanya.
+1. **Judul sampul = pernyataan yang memuat beritanya**, maksimal 2 baris. "Lapisan es di pegunungan Swiss menyusut drastis". Bukan pertanyaan menggantung tanpa topik, bukan clickbait (pertanyaan yang menyebut topik konkret boleh, lihat "Hook sampul" di bawah). Di bawahnya satu **kutipan pendek bertanda petik miring**: *'Ini benar-benar bencana'*. Dua baris itu sudah seluruh ceritanya.
 2. **Setiap klaim punya pemiliknya.** "Para saksi mengatakan...", "Wali Kota São Paulo, Ricardo Nunes, mengatakan...", "Ilmuwan menyebut kecepatan penyusutan ini 'luar biasa'". Nggak ada fakta melayang tanpa sumber.
 3. **Jargon dijelaskan di kalimat yang sama, pakai "atau".** "Gletser atau lapisan es pada barisan pegunungan di Swiss...". Nggak pakai kurung, nggak pakai catatan kaki.
+
+**Aturan istilah sulit (perintah pemilik 2026-10-23, berlaku untuk Instagram):** istilah yang orang awam nggak langsung paham (contoh: *Occam's razor*, "pisau Ockham", *parsimony*) **tidak boleh jadi judul, label, atau kata kunci** di slide, Reels, atau caption, baik dalam bahasa Indonesia maupun Inggris. Membiarkannya dalam bahasa Inggris bukan solusi. Tulis langsung maksudnya dengan bahasa sehari-hari ("prinsip lama: periksa dulu penjelasan yang paling sedikit asumsinya"). Nama orang (William of Ockham) boleh muncul sebagai asal-usul. Kutipan berbahasa Inggris ditulis dalam terjemahan Indonesianya saja. Uji: kalau penonton mungkin bertanya "itu apa?", ganti. Lup sosial wajib `ditolak` kalau masih ada.
+
+**Hook sampul (perintah pemilik 2026-10-23):** judul sampul dibuka dari pengalaman atau pertanyaan yang langsung dikenali penonton, bukan dari konsep. Contoh untuk artikel ketindihan: "Apa sebenarnya yang memicu ketindihan? Makhluk gaib, atau bisa dijelaskan sains?" atau "Tahukah kamu kenapa kamu bisa ketindihan?". Pertanyaan seperti ini boleh (menyebut topik konkret dan pilihan jawabannya, lalu dijawab di slide berikut); yang dilarang tetap pertanyaan menggantung tanpa topik dan clickbait.
 4. **Angka selalu dapat pembanding yang kebayang.** "curah hujannya mencapai 40 mm. Itu setara 40% dari total curah hujan yang turun bulan ini." "Lebih dari 5% es gletser yang masih tersisa lenyap dalam 12 bulan terakhir."
 5. **Slide teks isinya maksimal 2 paragraf pendek**, sekitar 45 kata, rata kiri, di atas setengah slide. Setengah bawah foto dengan kredit kecil ("Gletser Rhone di Swiss. AFP"). Banyak slide memang cuma teks dan foto, tanpa grafik apa pun.
 6. **Visual datanya perbandingan, bukan diagram.** Dua foto tahun berbeda dibelah layar dengan label tahun besar ("2004" / "2026"), atau grid lima foto berurut ("Perubahan gletser Rhone dalam lima tahun", 2022 sampai 2026), dengan baris sumber kecil di bawah: "Source: A. Bauder, M. Huss, VAW-ETHZ". Gambarnya yang berargumen, bukan tulisannya.
@@ -98,10 +102,10 @@ Format BBC, dengan satu tambahan hashtag.
 
 | Uji | Pertanyaan |
 |---|---|
-| Sampul | Judul memuat beritanya dalam maks 2 baris, bukan clickbait? Ada kutipan pendek kalau artikelnya punya? |
+| Sampul | Judul memuat beritanya (atau pertanyaan konkret soal pengalaman penonton) dalam maks 2 baris, bukan clickbait? Hook langsung bikin orang awam penasaran? Ada kutipan pendek kalau artikelnya punya? |
 | Judul berantai | Judul-judul saja sudah membentuk cerita? |
 | Orang asing | Tanpa buka web, penonton bisa menjawab: apa yang terjadi, kok bisa, terus kenapa? |
-| Jargon | Semua istilah dijelaskan saat pertama muncul, pola "X atau Y"? |
+| Jargon | Semua istilah dijelaskan saat pertama muncul, pola "X atau Y"? Nol istilah sulit sebagai judul/label/kata kunci, termasuk istilah Inggris yang dibiarkan (aturan istilah sulit)? Skor ≤ 3 kalau masih ada. |
 | Angka | Satuan, waktu, pemilik klaim, pembanding lengkap? Sama persis dengan artikel? |
 | Atribusi | Setiap klaim punya pemiliknya, yang belum pasti ditulis belum pasti, pihak yang belum menanggapi disebut? |
 | Bahasa | Lolos tes tukar topik dan tes baca keras? Nol pola terlarang `bahasa.md` bagian 2? |

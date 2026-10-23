@@ -82,6 +82,7 @@ Editor kejelasan + penulis caption. Lihat `pipeline/agents/corong.md`.
 
 ### Lup sosial (17.38 WIB)
 Untuk setiap `social/<tgl>/*/post.json` dengan `review.status: "pending"` (yang sudah diedit Corong; kalau belum ada `editor`, nilai juga kejelasannya pakai rubrik `social-copy.md`):
+0. **Kejelasan dulu (perintah pemilik 2026-10-23):** istilah sulit yang belum diganti bahasa sehari-hari (termasuk istilah Inggris yang dibiarkan, misal *Occam's razor*) atau hook sampul yang nggak langsung dikenali penonton = `ditolak`, walau faktanya benar. Lihat `social-copy.md` aturan istilah sulit dan hook sampul.
 1. Bandingkan setiap teks di slide (`read-design` di Canva) atau di `naskah.md`/`source/index.html` (Reels) dan setiap kalimat caption dengan artikelnya. Satu angka beda = `ditolak`.
 2. Lihat visualnya: slide (thumbnail Canva / file JPG yang sudah diunduh) atau `snaps`/frame dari `reel.mp4` (`ffmpeg -ss <t> -i reel.mp4 -frames:v 1 x.jpg`). Teks terpotong, tumpang tindih, glyph kosong, atau salah ketik = `ditolak` (kecuali bisa dibetulkan di caption).
 3. Cek media sudah ada di repo (`slide-*.jpg` / `reel.mp4`) dan bukan cuma `remote`. Kalau masih `remote`/`fetch_error`, tulis di notes.

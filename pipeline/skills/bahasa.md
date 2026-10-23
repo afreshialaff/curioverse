@@ -84,3 +84,4 @@ Terjemahan yang kaku terdengar seperti mesin. Berlaku untuk semua agen penulis.
 
 ## 8. Istilah asing yang dibiarkan (perintah pemilik 2026-10-23)
 Berlaku untuk semua agen penulis dan penyunting. Jangan memaksa terjemahan atau padanan baku kalau hasilnya terdengar aneh atau tidak dipakai orang. Contoh: *Occam's razor* dibiarkan, bukan "pisau Occam" atau "pisau Ockham". Pertimbangkan dulu dengan tiga pertanyaan di `narasi-artikel.md` bagian 12. Kalau dibiarkan, tulis miring saat pertama muncul, jelaskan sekali dengan bahasa sehari-hari, lalu konsisten. Aturan "kata baku sesuai KBBI" kalah dari aturan ini kalau penggantinya membuat kalimat kaku.
+**Pengecualian Instagram (perintah pemilik 2026-10-23, sore):** di slide, Reels, dan caption, istilah sulit seperti *Occam's razor* jangan dipakai sama sekali sebagai judul/label/kata kunci, dalam bahasa apa pun. Tulis maksudnya dengan bahasa sehari-hari. Lihat `social-copy.md` aturan istilah sulit.

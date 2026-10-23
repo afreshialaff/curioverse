@@ -15,11 +15,11 @@ Web terbit **satu artikel per hari** dan Instagram **satu post per hari**.
 
 ## Bikin carousel
 1. Tulis naskah slide dulu di `social/<tgl>/<n>-<id>/naskah.md` mengikuti **struktur 6 langkah** di `social-copy.md`: 7–9 slide, maks 45 kata per slide, tiap slide berisi `Judul` + `Isi` + `Visual` + `Sumber artikel: bagian N`. Setiap angka/klaim harus persis sama dengan artikel.
-   - **Sampul**: pernyataan yang memuat beritanya, maks 2 baris, plus kutipan pendek bertanda petik miring kalau artikelnya punya.
+   - **Sampul**: hook yang langsung dikenali penonton, dari pengalaman atau pertanyaan konkret ("Apa sebenarnya yang memicu ketindihan? Makhluk gaib, atau bisa dijelaskan sains?"), bukan dari konsep; maks 2 baris, plus kutipan pendek bertanda petik miring kalau artikelnya punya.
    - **Slide teks murni itu normal**: dua paragraf pendek di atas, gambar di bawah dengan kredit kecil. Cuma 2–3 slide yang perlu visual data.
    - **Visual data didahulukan dalam bentuk perbandingan** (sebelum/sesudah, janji/kenyataan, garis waktu, grid gambar berurut) dengan label besar dan baris sumber kecil. Diagram batang hanya kalau membandingkan besaran sejenis.
    - **Slide terakhir**: kutipan bernama lalu satu pertanyaan terbuka. Tanpa kartu promosi web.
-   - Setiap klaim sebut pemiliknya ("menurut audit Boston Post"). Jargon dijelaskan pola "X atau Y".
+   - Setiap klaim sebut pemiliknya ("menurut audit Boston Post"). Jargon dijelaskan pola "X atau Y". Istilah sulit (misal *Occam's razor*) jangan jadi judul/label sama sekali, termasuk dalam bahasa Inggris; tulis maksudnya dengan bahasa sehari-hari. Kutipan Inggris tulis terjemahannya saja.
    - Lakukan **uji judul berantai** dan **uji orang asing** sebelum lanjut.
 2. Canva: `create-design` dengan format `Instagram Post (Portrait)`. Di brief tulis teks tiap slide **persis** dan minta tanpa menulis ulang, deskripsikan **visual penjelas tiap slide** (misal "3 batang horizontal proporsional berlabel 505, 346, 330"), plus gaya tetap Curioverse:
    > sketchbook / jurnal rasa ingin tahu; latar parchment #EAE3D5, tinta #1B1A17, aksen moss #3F4A3B dan sepia gold #A67C52 (warna kategori dari `content/categories.json` boleh jadi aksen); judul serif elegan, isi sans bersih; motif bintang empat sudut, washi tape, kertas sobek; wordmark kecil "curioverse" kiri-bawah, penghitung slide kanan-bawah, dan baris "a curious mind lives here"; teks isi rata kiri (rata tengah hanya di sampul), teks di atas dan gambar di bawah, isi maksimal setengah tinggi slide, banyak ruang kosong; tanpa foto stok orang, tanpa clipart klise.
