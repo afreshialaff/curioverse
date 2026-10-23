@@ -20,7 +20,7 @@ Tulis hasilnya ke `pipeline/runs/<tgl>/rapat.md`. Setiap bagian maksimal sepuluh
 6. **Kebutuhan skill.** Kalau ada agen yang butuh skill atau kemampuan tambahan, tulis di sini dan di `pipeline/rapat/permintaan-skill.md`. Hanya pemilik yang memutuskan skill dibuat atau diubah.
 7. **Riset referensi (Kompas, Hope):** dua sampai tiga karya dari media besar yang bagus strukturnya. Catat cara mereka membuka cerita, menaruh sumber, dan transisi antarbagian. Analisis pola saja, dengan link dan tanggal. Tidak boleh menyalin kalimat panjang.
 8. **Pemantauan viral (Hope):** hipotesis per post, skala keyakinan, dan cara mengujinya.
-9. **Keputusan:** maksimal tiga usulan yang disetujui. Setiap keputusan punya pemilik dan kriteria selesai.
+9. **Keputusan:** setiap usulan yang punya bukti dan lolos RULES.md disetujui, tanpa batas jumlah per hari (perintah pemilik 2026-10-23). Setiap keputusan punya pemilik dan kriteria selesai. Usulan bagus tidak boleh ditunda hanya karena kuota.
 
 ## Sudut kritik per agen
 - **Kompas (topik dan arah):** apakah sudut artikel menjawab pertanyaan riset, atau hanya mengumpulkan fakta menarik?

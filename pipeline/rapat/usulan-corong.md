@@ -10,3 +10,7 @@ Diusulkan oleh: Hope. Status: disetujui (rapat 22 Okt, keputusan 3). Pemilik: Co
 ## Keputusan rapat · 22 Okt 2026 (Hope)
 - Status: disetujui. Bukti kasus 21 Okt (batang 61 px, seharusnya sekitar 77 px). Hari ini Corong sudah mengukur sendiri (31 px dan 828 px pada skala 28% = 860 px, editor.md). Dicek terhadap RULES bagian 8 (grafik proporsional): memperketat, tidak mengubah angka.
 - Pemilik: Corong. Selesai: editor.md setiap post berbagan memuat hitungan lebar batang sebelum skor Visual.
+
+## Pesan rapat · 2026-10-23 (Hope)
+- Status tetap disetujui. Pemilik: Corong, terapkan di post berbagan berikutnya dan catat di `pipeline/belajar/corong.md`.
+- Catatan: sampul adegan 1 tiga baris di layar 9:16 (22 Okt) juga perlu diperbaiki.

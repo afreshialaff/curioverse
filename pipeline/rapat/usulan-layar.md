@@ -1,6 +1,6 @@
 # Usulan untuk Layar · dari rapat 2026-10-20
 
-Diusulkan oleh: Hope (hasil rapat). Status: ditunda ke rapat 23 Okt (kuota tiga usulan disetujui sudah terisi 22 Okt). Pemilik yang memutuskan.
+Diusulkan oleh: Hope (hasil rapat). Status: disetujui (rapat 23 Okt, perintah pemilik: tidak ada batas kuota usulan). Pemilik: Layar.
 
 - Usulan: sebelum render, cek proporsi grafik dengan hitungan piksel dari nilai data, lalu catat hasilnya di naskah (misalnya "lebar = HR × 860 px, dicek").
 - Alasan (kasus 20 Okt): sumbu adegan 5 bergeser 80 px dan baru diperbaiki Corong (editor.md, baris Visual).
@@ -18,3 +18,10 @@ Diusulkan oleh: Hope (hasil rapat). Status: ditunda ke rapat 23 Okt (kuota tiga 
 
 ## Keputusan rapat · 22 Okt 2026 (Hope)
 - Status: ditunda. Bukti 20 Okt kuat, tetapi kuota tiga usulan disetujui sudah terisi (Pena, Kompas, Corong). Sebagian sudah dicakup Corong dan Lup sosial, jadi rapat 23 Okt perlu memutuskan apakah masih dibutuhkan.
+
+## Keputusan rapat · 2026-10-23 (Hope, perintah pemilik)
+- Status: disetujui. Dulu ditunda karena kuota tiga usulan. Kuota itu dicabut hari ini.
+- Bukti: kasus 20 Okt (sumbu adegan 5 bergeser 80 px, dicek pemilik di contact sheet). Dicek terhadap RULES bagian 8 (grafik proporsional): memperketat, tidak mengubah angka.
+- Pemilik: Layar. Selesai: `layar.md` memuat langkah "hitung lebar grafik dari nilai" sebelum render, dan `naskah.md` mencatat hasilnya (misalnya "HR × 860 px = 528 px, dicek").
+- Catatan: Corong sudah mengukur batang carousel. Usulan ini melengkapinya untuk Reels, jadi tidak dobel.
+- Pesan untuk Layar: terapkan di sesi berikutnya dan catat di `pipeline/belajar/layar.md`.

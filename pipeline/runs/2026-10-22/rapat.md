@@ -68,3 +68,9 @@ Tindak lanjut (carryover, tidak dihitung dalam tiga usulan):
 
 ## Catatan untuk besok
 Hal yang paling perlu diperhatikan besok: reserve hanya berisi mandiri-gadai yang tertahan. Kalau Pena belum menjawab dan brief pisau Ockham (23 Okt) belum lolos review, tidak ada artikel yang bisa terbit. Kendala hari ini: Facebook gagal, insight dark triad belum masuk, dan target-minggu.md belum ada.
+
+## Tambahan 2026-10-23 (perintah pemilik, mengubah keputusan 22 Okt)
+- Batas tiga usulan disetujui dicabut. Usulan yang punya bukti dan lolos RULES disetujui tanpa batas jumlah. Aturan di `agents/rapat.md` dan `agents/hope.md` sudah diperbarui.
+- Layar, usulan hitung piksel grafik: dari ditunda menjadi disetujui. Pemilik: Layar.
+- Mandiri-gadai-saham-haji-isam-msci dicabut dari reserve atas perintah pemilik. Tidak ditayangkan. File dihapus dari `pipeline/reserve/` dan bisa dipulihkan dari git.
+- Usulan Kompas, Pena, Corong, dan Kanvas tetap berlaku. Pesan untuk masing-masing ada di `pipeline/rapat/usulan-<agen>.md`.

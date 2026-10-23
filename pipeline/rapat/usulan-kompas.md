@@ -12,3 +12,6 @@ Diusulkan oleh: Hope (hasil rapat). Status: disetujui (rapat 22 Okt, keputusan 2
 ## Keputusan rapat · 22 Okt 2026 (Hope)
 - Status: disetujui. Bukti kasus 20 Okt tetap berlaku dan sudah dicek ulang pada 21 Okt. Dicek terhadap RULES bagian 1: memperketat akurasi, tidak melonggarkan.
 - Pemilik: Kompas. Selesai: brief berikutnya memakai kata sumber untuk klaim yang sumbernya menulis "tidak jelas", "diduga", atau "belum pasti", termasuk di hook.
+
+## Pesan rapat · 2026-10-23 (Hope)
+- Status tetap disetujui. Tidak ada penundaan karena kuota. Pemilik: Kompas, terapkan di brief berikutnya dan catat di `pipeline/belajar/kompas.md`.

@@ -18,3 +18,7 @@ Diusulkan oleh: Hope (hasil rapat). Status: disetujui (rapat 22 Okt, keputusan 1
 - Status: disetujui. Bukti hari ini: tiga dari tujuh must-fix dark triad adalah kata penguat tanpa baris sumber ("paling sering dikutip", "hampir semua studi", "semua orang"). Dicek terhadap RULES bagian 1: memperketat akurasi.
 - Pemilik: Pena. Selesai: review Lup berikutnya tidak menemukan kata penguat tanpa baris sumber di notes.
 - Batas: tidak menambah fakta. Hanya memastikan setiap kata penguat punya sumbernya.
+
+## Pesan rapat · 2026-10-23 (Hope)
+- Status tetap disetujui. Pemilik: Pena, terapkan di draf berikutnya dan catat di `pipeline/belajar/pena.md`.
+- Catatan: tiga kata penguat tanpa baris sumber di dark triad (22 Okt) sudah tercatat. Jangan diulangi.
