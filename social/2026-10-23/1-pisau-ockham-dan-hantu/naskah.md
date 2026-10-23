@@ -9,7 +9,7 @@ Aksen: psikologi #5E4F8C (ungu lembayung). 8 slide. Visual data hanya di slide 5
 - Sumber artikel: dek + bagian 3
 
 ## Slide 2 (konteks)
-- Judul: Pisau Ockham: jangan menambah hal baru tanpa keperluan
+- Judul: Occam's razor: jangan menambah hal baru tanpa keperluan
 - Isi: Namanya dari William of Ockham, biarawan Fransiskan Inggris yang hidup sekitar 1287 sampai 1347.
   Menurut Stanford Encyclopedia of Philosophy, bentuk klasiknya bicara soal kehematan (parsimony), atau seberapa sedikit jenis hal yang diandaikan ada.
 - Visual: sketsa pisau lipat sederhana di bawah, kredit "Ilustrasi: Curioverse"
@@ -52,7 +52,7 @@ Aksen: psikologi #5E4F8C (ungu lembayung). 8 slide. Visual data hanya di slide 5
 - Sumber artikel: bagian 5
 
 ## Slide 8 (penutup)
-- Judul: Pisau Ockham bukan bukti, juga bukan alat menilai iman
+- Judul: Occam's razor bukan bukti, juga bukan alat menilai iman
 - Isi: Ia cuma memilih dugaan yang diuji dulu. Ahli biologi Francis Crick bahkan menyebut kesederhanaan sebagai panduan di biologi bisa 'very dangerous', atau sangat berbahaya.
   Kejadian aneh apa yang pernah kamu alami, dan berapa asumsi penjelasannya?
 - Visual: tanpa gambar, bintang empat sudut kecil sepia gold
@@ -69,3 +69,4 @@ Aksen: psikologi #5E4F8C (ungu lembayung). 8 slide. Visual data hanya di slide 5
 
 ## Diubah Corong (2026-10-23)
 - Slide 3 paragraf 1 dan slide 7 paragraf 2 diganti seperti di atas. Slide 2 dan 6: bintik tekstur latar ditutup patch warna latar.
+- Judul slide 2 dan 8: "Pisau Ockham" diganti "Occam's razor" (bahasa.md bagian 8).

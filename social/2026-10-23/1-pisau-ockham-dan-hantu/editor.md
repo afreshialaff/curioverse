@@ -22,4 +22,5 @@ Dilihat dari `slide-1.jpg` s.d. `slide-8.jpg` (1080×1350, hasil potong 4:5) dan
 - Slide 7 paragraf 2: ditambah "Temuan Tandy sendiri masih diperdebatkan." (artikel bagian 5 paragraf 4, ringkasan Institute of Acoustics).
 - Slide 2 dan 6: bintik tekstur latar ditutup bentuk kecil warna latar. Teks tidak berubah.
 - Slide 2, 3, 6, 7 diekspor ulang (`remote` di post.json, file lama dihapus supaya diunduh ulang). Slide 1, 4, 5, 8 tetap.
+- Judul slide 2 dan 8: "Pisau Ockham" diganti "Occam's razor" sesuai `bahasa.md` bagian 8 (perintah pemilik 23 Okt, contohnya persis istilah ini). Artikel memuat dua-duanya ("pisau Ockham (Occam's razor)"), slide 2 tetap menjelaskan asal namanya (William of Ockham). Caption ikut diganti, hashtag jadi #occamsrazor. Slide 2 dan 8 diekspor ulang.
 - `naskah.md` disesuaikan dengan teks baru.

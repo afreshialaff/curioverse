@@ -5,13 +5,14 @@
   "type": "carousel",
   "made_by": "kanvas",
   "canva_design": "https://www.canva.com/d/drCGMevlxAdEuGD",
-  "caption": "Penjelasan \"ada makhluk halus\" untuk ketindihan, atau kelumpuhan tidur, terasa paling sederhana. Menurut pisau Ockham, atau aturan jangan menambah hal baru tanpa keperluan, penjelasan itu justru menambah banyak asumsi.\n\nKetindihan terjadi saat tidur REM terbawa ke setengah sadar. Otot masih dilumpuhkan, sementara mimpi bercampur dengan kamar nyata. Menurut Daniel Denis dari Beth Israel Deaconess Medical Center, amigdala sangat aktif saat REM, jadi rasa takut muncul duluan, lalu otak mencari pelakunya.\n\nTinjauan Brian Sharpless dan Jacques Barber (2011) atas 35 studi memperkirakan 7,6% orang di populasi umum, sekitar 1 dari 13, pernah mengalaminya. Pisau Ockham sendiri bukan bukti. Ia cuma membantu memilih dugaan mana yang diuji dulu.\n\nA curious mind lives here.\n\n#pisauockham #ketindihan #psikologi #berpikirkritis #curioverse",
+  "caption": "Penjelasan \"ada makhluk halus\" untuk ketindihan, atau kelumpuhan tidur, terasa paling sederhana. Menurut Occam's razor, atau aturan jangan menambah hal baru tanpa keperluan, penjelasan itu justru menambah banyak asumsi.\n\nKetindihan terjadi saat tidur REM terbawa ke setengah sadar. Otot masih dilumpuhkan, sementara mimpi bercampur dengan kamar nyata. Menurut Daniel Denis dari Beth Israel Deaconess Medical Center, amigdala sangat aktif saat REM, jadi rasa takut muncul duluan, lalu otak mencari pelakunya.\n\nTinjauan Brian Sharpless dan Jacques Barber (2011) atas 35 studi memperkirakan 7,6% orang di populasi umum, sekitar 1 dari 13, pernah mengalaminya. Occam's razor sendiri bukan bukti. Ia cuma membantu memilih dugaan mana yang diuji dulu.\n\nA curious mind lives here.\n\n#occamsrazor #ketindihan #psikologi #berpikirkritis #curioverse",
   "media": [
     {
       "file": "slide-1.jpg"
     },
     {
-      "file": "slide-2.jpg"
+      "file": "slide-2.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0002-5590612900436037326.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261022T172546Z&X-Amz-Expires=59243&X-Amz-Signature=d4a07c374eb3deba064f3d713073038ac0382c54f7c2d4634f9628dd4ee4aa82&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2009%3A53%3A09%20GMT"
     },
     {
       "file": "slide-3.jpg"
@@ -29,7 +30,8 @@
       "file": "slide-7.jpg"
     },
     {
-      "file": "slide-8.jpg"
+      "file": "slide-8.jpg",
+      "remote": "https://export-download.canva.com/1tlM8/DAHY0D1tlM8/-1/0/0008-5590612900436037326.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261022%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261022T141421Z&X-Amz-Expires=73018&X-Amz-Signature=bec454565dc52915d161abdb9819a7223136304b9dfab47e3cf3bc67751f366d&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2023%20Oct%202026%2010%3A31%3A19%20GMT"
     }
   ],
   "review": {
@@ -56,6 +58,6 @@
       "penutup": 5,
       "caption": 5
     },
-    "diubah": "Slide 3: kalimat fragmen pembuka jadi kalimat utuh (ketindihan terkait tidur REM). Slide 7: tambah \"Temuan Tandy sendiri masih diperdebatkan\" (artikel bagian 5). Slide 2 dan 6: bintik tekstur latar yang terlihat seperti tanda di atas huruf ditutup. Ekspor ulang slide 2, 3, 6, 7. Caption baru format BBC (103 kata isi)."
+    "diubah": "Slide 3: kalimat fragmen pembuka jadi kalimat utuh (ketindihan terkait tidur REM). Slide 7: tambah \"Temuan Tandy sendiri masih diperdebatkan\" (artikel bagian 5). Slide 2 dan 6: bintik tekstur latar yang terlihat seperti tanda di atas huruf ditutup. Ekspor ulang slide 2, 3, 6, 7. Caption baru format BBC (103 kata isi). Istilah 'pisau Ockham' di judul slide 2 dan 8 serta caption diganti 'Occam's razor' (bahasa.md bagian 8, perintah pemilik 23 Okt); slide 2 dan 8 diekspor ulang."
   }
 }
