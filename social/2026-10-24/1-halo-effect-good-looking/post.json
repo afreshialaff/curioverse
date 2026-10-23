@@ -5,7 +5,7 @@
   "type": "reel",
   "made_by": "layar",
   "format": "tanya-jawab",
-  "caption": "",
+  "caption": "Wajah yang menarik bisa membuat karya seseorang ikut dinilai lebih bagus, padahal isinya sama persis.\n\nPsikolog Edward Thorndike mencatat pola ini pada 1920, saat memeriksa penilaian atasan terhadap perwira Angkatan Darat AS. Perwira yang dinilai tegap cenderung ikut dinilai cerdas. Menurut Thorndike, kesan baik tentang seseorang memancar dan mewarnai penilaian atas kemampuan lainnya.\n\nDalam studi Landy dan Sigall (1974), 60 mahasiswa laki-laki menilai esai jelek yang sama pada skala 1 sampai 9. Dengan foto penulis yang menarik, nilainya 5,2. Dengan foto yang tidak menarik, cuma 2,7. Sejak Mei 2025, Menteri Ketenagakerjaan Yassierli melarang syarat \"berpenampilan menarik\" di lowongan kerja.\n\nKamu menilai orang dari wajahnya, atau dari buktinya?\n\nA curious mind lives here.\n\n#psikologi #penampilan #duniakerja #goodlooking #curioverse",
   "media": [
     {
       "file": "reel.mp4"
@@ -27,5 +27,23 @@
   },
   "post": {
     "status": "queued"
+  },
+  "editor": {
+    "by": "corong",
+    "skor": {
+      "sampul": 5,
+      "judul_berantai": 5,
+      "orang_asing": 4,
+      "jargon": 5,
+      "angka": 5,
+      "atribusi": 4,
+      "bahasa": 5,
+      "visual": 5,
+      "tata_letak": 5,
+      "keterbacaan": 4,
+      "penutup": 5,
+      "caption": 5
+    },
+    "diubah": "Sampul jadi 2 baris (118 -> 100 px), koma subjek-predikat adegan 2 dibuang (juga di prompt VO), label kartu adegan 6 tidak patah lagi; render ulang reel.mp4 + cover.jpg. Caption format BBC 107 kata + penutup + 5 hashtag. Keterangan VO AI belum ditulis karena VO belum ada (teks siap di editor.md)."
   }
 }

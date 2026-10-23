@@ -12,7 +12,7 @@ base = open('base.css').read().replace('</style>', '''
 </style>''')
 
 lines = {
- 's2': ["Tahun 1920, psikolog Edward Thorndike memeriksa penilaian atasan.", "Perwira yang dinilai tegap, cenderung ikut dinilai cerdas."],
+ 's2': ["Tahun 1920, psikolog Edward Thorndike memeriksa penilaian atasan.", "Perwira yang dinilai tegap cenderung ikut dinilai cerdas."],
  's3': ["Caranya: satu kesan baik merembes ke penilaian lain.", "Wajah menarik dianggap berkepribadian lebih baik."],
  's4': ["Esai jelek yang sama dinilai 60 mahasiswa.", "Foto penulis menarik: nilainya 5,2 dari 9.", "Foto tidak menarik: cuma 2,7."],
  's5': ["Plot twist-nya: keuntungan ini bisa berbalik.", "Perempuan menarik dinilai kurang cocok jadi insinyur mesin."],
@@ -39,7 +39,7 @@ def cap(sid):
 
 S = {}
 S['s1'] = '''<div class="kicker"><i></i>Psikologi · Penampilan</div>
-<h1 class="h" style="top:430px;font-size:118px">Benarkah hidup orang <span class="it" style="color:var(--acc)">good looking</span> lebih mudah?</h1>
+<h1 class="h" style="top:440px;font-size:100px">Benarkah hidup orang<br><span class="it" style="color:var(--acc)">good looking</span> lebih mudah?</h1>
 <div class="ess" style="left:80px"><div class="halo"></div><div class="face" style="background:#B7A8DE"></div>
 <div class="ln" style="top:250px;width:300px"></div><div class="ln" style="top:290px;width:260px"></div><div class="ln" style="top:330px;width:290px"></div><div class="ln" style="top:370px;width:200px"></div><p class="q">?</p></div>
 <div class="ess" style="left:600px"><div class="face"></div>
@@ -85,9 +85,9 @@ S['s5'] = cap('s5') + '''
 S['s6'] = cap('s6') + '''
 <div class="card" id="s6card" style="left:80px;right:80px;top:820px;padding:56px 60px">
   <div class="tape" style="left:40px;top:-22px"></div>
-  <p class="rk">Surat Edaran Menaker Yassierli · Mei 2025</p>
+  <p class="rk">Menaker Yassierli · Mei 2025</p>
   <p class="tr2" style="margin-top:18px">Syarat tinggi badan dan "harus single" juga dilarang.</p>
-  <p class="qby">Nomor M/6/HK.04/V/2025</p>
+  <p class="qby">Surat Edaran Nomor M/6/HK.04/V/2025</p>
 </div>'''
 
 secs = ''

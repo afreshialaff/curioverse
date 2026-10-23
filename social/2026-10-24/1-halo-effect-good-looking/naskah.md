@@ -21,7 +21,7 @@ Setiap baris VO = teks di layar untuk adegan itu, satu baris sekaligus, maks 8 k
 
 ## Adegan 2 · Konteks (3,6–11,6 dtk)
 - **Kicker:** Dari tahun 1920
-- **Teks layar = VO:** (1) Tahun 1920, psikolog Edward Thorndike memeriksa penilaian atasan. (8) (2) Perwira yang dinilai tegap, cenderung ikut dinilai cerdas. (8)
+- **Teks layar = VO:** (1) Tahun 1920, psikolog Edward Thorndike memeriksa penilaian atasan. (8) (2) Perwira yang dinilai tegap cenderung ikut dinilai cerdas. (8)
 - **Visual penjelas:** kartu "Angkatan Darat AS · 1920 / Yang dinilai: fisik, kecerdasan, kepemimpinan, karakter." + kutipan terjemahan "Terlalu tinggi dan terlalu seragam," kata Thorndike soal kaitan antar-nilainya. Sumber "Edward Thorndike, Journal of Applied Psychology, 1920"
 - **Durasi:** 16 kata × 0,4 = 6,4 dtk + 1 = 7,4 → 8,0 dtk (kartu 20 kata dibaca selama baris 2)
 - **Sumber artikel:** bagian 2 paragraf 1–2 (nilai fisik berkorelasi 0,31 dengan kecerdasan; "too high and too even")
