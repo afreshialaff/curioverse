@@ -1,20 +1,36 @@
 {
   "date": "2026-10-24",
-  "fetched_at": "2026-10-23T17:44:06.608Z",
+  "fetched_at": "2026-10-24T13:06:24.079Z",
   "posts": [
+    {
+      "id": "18030672467688957",
+      "permalink": "https://www.instagram.com/reel/De4FRo7E8S_/",
+      "timestamp": "2026-10-24T12:00:33+0000",
+      "media_type": "VIDEO",
+      "like_count": 3,
+      "comments_count": 0,
+      "insights": {
+        "reach": 37,
+        "saved": 0,
+        "shares": 1,
+        "total_interactions": 4,
+        "likes": 3,
+        "comments": 0
+      }
+    },
     {
       "id": "18112909076130983",
       "permalink": "https://www.instagram.com/p/De1giSDG1re/",
       "timestamp": "2026-10-23T12:00:47+0000",
       "media_type": "CAROUSEL_ALBUM",
-      "like_count": 0,
+      "like_count": 1,
       "comments_count": 0,
       "insights": {
-        "reach": 0,
+        "reach": 2,
         "saved": 0,
         "shares": 0,
-        "total_interactions": 0,
-        "likes": 0,
+        "total_interactions": 1,
+        "likes": 1,
         "comments": 0
       }
     },
@@ -26,7 +42,7 @@
       "like_count": 3,
       "comments_count": 0,
       "insights": {
-        "reach": 107,
+        "reach": 110,
         "saved": 0,
         "shares": 0,
         "total_interactions": 3,
