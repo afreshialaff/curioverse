@@ -93,3 +93,10 @@ Untuk setiap `social/<tgl>/*/post.json` dengan `review.status: "pending"` (yang 
 - Agent yang dipanggil hanya memperbaiki must-fix (bagian "Sesi revisi" di file agent-nya), push, lalu fire Lup sosial dengan teks "Re-review revisi <agent> <tgl>".
 - Lup sosial yang di-fire untuk re-review: cek ulang **seluruh** post (bukan cuma slide yang diubah). Kalau masih salah, panggil lagi agent terkait (putaran berikutnya). Kalau `lolos` dan workflow "Posting Instagram" hari ini sudah lewat (post.status `skipped`, atau jam sudah lewat 18.50 WIB), jalankan ulang workflow `instagram-post.yml` lewat GitHub `actions_run_trigger` (workflow_dispatch, input `date` = <tgl>) supaya post tetap naik hari itu.
 - Kalau sampai 23.00 WIB belum ada yang lolos, kabari pemilik lewat ringkasan dengan baris pertama "⚠ PERLU MANUSIA".
+
+## 9. Hari Minggu libur
+- Setiap hari Minggu (Asia/Jakarta), Curioverse dan Titi World libur total. Tidak ada agen yang dijalankan, tidak ada posting Instagram, Facebook, atau Threads, dan tidak ada upload YouTube.
+- Hope dan penjaga jadwal tidak memicu agen, tidak memantau rantai, dan tidak mengirim laporan pada hari Minggu. Kalau sebuah run tetap sempat jalan di hari Minggu, ia berhenti dan menulis satu baris "Minggu libur, tidak ada yang dikerjakan".
+- Mandor (Titi World) tidak berpatroli pada hari Minggu.
+- Yang sudah terjadwal Sabtu tetap terbit Sabtu. Tidak ada yang disiapkan untuk Minggu.
+- Senin kembali normal, mulai dari jadwal Senin pagi.
