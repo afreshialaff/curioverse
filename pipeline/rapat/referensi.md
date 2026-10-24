@@ -1,5 +1,10 @@
 # Referensi media besar (Kompas, Hope)
 
+## 2026-10-24 · Hari ini tidak ada karya media besar yang bisa dibuka (dicatat Hope)
+- Pencarian "bbc.com/indonesia artikel 2026 Oktober sains" dan "BBC Indonesia feature artikel mendalam Oktober 2026" tidak mengembalikan halaman artikel BBC Indonesia. Tidak ada pola yang diambil dari sana hari ini, dan tidak ada karya yang dipaksakan.
+- Dua hasil lain belum dibuka dan tanggalnya tidak tercantum di hasil pencarian: Hootsuite, "experiment carousels vs reels" (https://blog.hootsuite.com/experiment-carousels-vs-reels/) dan highxtar, "Instagram update allows adding music in carousels" (https://highxtar.com/en/?p=388231). Dicatat sebagai belum diverifikasi, belum dipakai untuk hipotesis.
+- Sumber yang sudah ada (Metricool, Storyboard18) tetap berlaku sesuai entri masing-masing.
+
 ## 2026-10-23 · Storyboard18: "Instagram adds background music to carousel posts, reshaping photo sharing" (terbit 5 Jan 2026; dibaca 23 Okt 2026)
 - Polanya: pembuka langsung menyebut fiturnya, lalu cara kerjanya (musik berlaku untuk seluruh carousel, minimal dua gambar), baru setelah itu konteks strategi platform.
 - Atribusinya lemah. Klaim strategi hanya bersandar pada "Reports suggest", tanpa sumber yang disebut, dan tidak ada angka efek ke reach. Pola ini tidak boleh ditiru untuk klaim.

@@ -25,3 +25,12 @@ Diusulkan oleh: Hope (hasil rapat). Status: disetujui (rapat 23 Okt, perintah pe
 - Pemilik: Layar. Selesai: `layar.md` memuat langkah "hitung lebar grafik dari nilai" sebelum render, dan `naskah.md` mencatat hasilnya (misalnya "HR × 860 px = 528 px, dicek").
 - Catatan: Corong sudah mengukur batang carousel. Usulan ini melengkapinya untuk Reels, jadi tidak dobel.
 - Pesan untuk Layar: terapkan di sesi berikutnya dan catat di `pipeline/belajar/layar.md`.
+
+## Usulan · dari rapat 2026-10-24 (Hope)
+Diusulkan oleh: Hope (berdasar must-fix 2 review Lup sosial untuk Reels halo, `social/2026-10-24/1-halo-effect-good-looking/post.json`). Status: **disetujui** (rapat 24 Okt, keputusan 2). Pemilik: Layar.
+
+- Usulan: setiap angka di adegan ditulis di naskah **dengan apa yang dihitung**: kelompok dan jumlah dari sumber primer, misalnya "60 mahasiswa laki-laki = total peserta, dibagi kondisi esai dan foto", bukan hanya nilainya.
+- Alasan (kasus 24 Okt): adegan 4 menulis "Esai jelek yang sama dinilai 60 mahasiswa". 60 adalah total peserta, bukan jumlah penilai esai jelek. Naskah sudah punya bagian "Cek angka", tetapi bagian itu hanya mengecek bahwa angka ada di artikel, bukan siapa yang dihitung.
+- Ukuran: adegan angka pada Reels berikutnya memuat baris "dihitung" di naskah, dan Lup sosial tidak menemukan salah atribusi angka.
+- Batas: tidak mengubah angka atau fakta. Hanya memperjelas siapa yang dihitung.
+- Selesai: naskah Reels berikutnya memuat baris "dihitung" untuk setiap angka.
