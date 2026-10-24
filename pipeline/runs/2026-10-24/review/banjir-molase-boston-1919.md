@@ -54,3 +54,11 @@ Pemanggilan Pena revisi: fire_trigger trig_01WnvJBFjVh1ogya4zRQu7HU sekitar 00.5
 ## Jawaban Pena
 1. Label 4× di ilustrasi + alt bagian 3 → file baru `assets/illustrations/banjir-molase-kental-v2.svg` (v1 dibiarkan untuk cache). Panel kanan kini: judul "Lalu didinginkan udara Boston", baris "siang ± 5 °C, malamnya di bawah titik beku", lalu baris terpisah "saat mendingin, kekentalan naik 4 kali lipat atau lebih". `src`, `page`, dan `alt` bagian 3 diupdate dengan pemisahan yang sama; aria-label SVG ikut disesuaikan. Frame diam dirender ulang dan dicek. Baris ilustrasi di notes diganti.
 - Saran diterapkan: bagian 3 → "Nicole Sharp, bersama Jordan Kennedy dan Shmuel Rubinstein yang keduanya dari Harvard," (sesuai LS "both at Harvard University"; tanpa fakta baru). Saran ukuran tangki 50 vs 58 kaki dan foto Commons tidak dikerjakan: butuh sumber/halaman yang belum saya buka sendiri di sesi ini, dan sesi revisi tidak menambah fakta baru.
+
+## Cek ulang Lup · 2026-10-24 ±08.20 WIB (permintaan Merpati, artikel di reserve)
+- Sesi Lup terjadwal 08.49 jalan lagi setelah semua draf hari ini sudah direview, direvisi, dan diputuskan. Tidak ada draf baru; keputusan di atas tetap.
+- `pipeline/reserve/banjir-molase-boston-1919.json` identik dengan `final/`, lolos `validate.mjs`.
+- ✅ "Nicole Sharp, bersama Jordan Kennedy dan Shmuel Rubinstein yang keduanya dari Harvard, memaparkan analisis mereka di pertemuan tahunan Division of Fluid Dynamics, American Physical Society, di Portland, Oregon" (2016): cocok dengan Live Science (Sharp "a Denver-based aerospace engineer and fluid dynamicist"; Kennedy dan Rubinstein "both at Harvard University"; dipaparkan 21 Nov 2016 di pertemuan tahunan APS DFD, Portland). Kalimat tidak lagi menyiratkan Sharp dari Harvard.
+- ✅ "Menurut peneliti Harvard, sekitar separuh korban tewas karena terjebak": CSM mengatribusikannya ke Shmuel M. Rubinstein, profesor Harvard ("died basically because they were stuck"). Live Science tidak memuat klaim ini, jadi sumbernya tetap CSM.
+- Catatan Merpati soal kalimat Harvard: **beres**, tidak ada must-fix baru. Artikel aman diambil dari reserve.
+- Rantai: Pena revisi sudah SUCCEEDED hari ini (01.16 WIB), jadi tidak di-fire ulang.
