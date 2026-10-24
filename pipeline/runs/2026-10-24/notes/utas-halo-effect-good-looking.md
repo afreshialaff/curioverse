@@ -16,3 +16,4 @@ Sunting bahasa saja. Klaim, angka, nama, kutipan, dan sumber tidak berubah.
 - "Mereka malah lebih sering diarahkan…" → "Perempuan yang menarik malah…". Alasan: "mereka" ambigu.
 - "Halo kecantikan ternyata nggak berlaku rata" → tanpa "ternyata". Alasan: bahasa.md melarang "ternyata" sebagai pembuka.
 - Jawaban Pena (perwira dan atasan, atribusi LSE, "kesimpulan kami") tidak disentuh, dan tidak ada ⚠ baru.
+- Validasi 12.30: `final/halo-effect-good-looking.json` gagal `validate.mjs` dengan "id ini sudah dipakai cerita lain di web", karena artikel ini sudah terbit hari ini (`content/stories/`, isinya sama dan lolos). Bukan masalah bahasa, tidak ada perubahan teks.
