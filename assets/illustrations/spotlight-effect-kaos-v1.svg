@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Grafik batang dua studi kaos Gilovich dan rekan tahun 2000. Kaos Barry Manilow: pemakai menebak sekitar 50 persen orang sadar, kenyataannya sekitar 25 persen. Kaos pilihan sendiri: tebakan sekitar 50 persen, kenyataannya kurang dari 10 persen.">
+<style>.f{font-family:'Helvetica Neue',Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}</style>
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+<text x="100" y="115" class="s" font-size="58" font-weight="700" fill="#1B1A17">Tebakanmu vs kenyataan</text>
+<text x="100" y="165" class="f" font-size="28" fill="#4D483F">Berapa persen orang di ruangan yang sadar kaos yang kamu pakai? (Gilovich, Medvec &amp; Savitsky, 2000)</text>
+<g class="f">
+  <line x1="160" y1="720" x2="1460" y2="720" stroke="#1B1A17" stroke-width="4"/>
+  <line x1="160" y1="720" x2="160" y2="230" stroke="#1B1A17" stroke-width="3"/>
+  <text x="145" y="728" font-size="24" fill="#4D483F" text-anchor="end">0%</text>
+  <text x="145" y="478" font-size="24" fill="#4D483F" text-anchor="end">25%</text>
+  <text x="145" y="228" font-size="24" fill="#4D483F" text-anchor="end">50%</text>
+  <line x1="160" y1="470" x2="1460" y2="470" stroke="#CDBFA6" stroke-width="2" stroke-dasharray="8 8"/>
+  <line x1="160" y1="220" x2="1460" y2="220" stroke="#CDBFA6" stroke-width="2" stroke-dasharray="8 8"/>
+
+  <rect x="260" y="220" width="180" height="500" fill="#7A5532"/>
+  <text x="350" y="205" font-size="30" font-weight="700" fill="#7A5532" text-anchor="middle">±50%</text>
+  <rect x="470" y="470" width="180" height="250" fill="#3F4A3B"/>
+  <text x="560" y="455" font-size="30" font-weight="700" fill="#3F4A3B" text-anchor="middle">±25%</text>
+  <text x="455" y="770" font-size="28" font-weight="700" fill="#1B1A17" text-anchor="middle">Kaos Barry Manilow</text>
+  <text x="455" y="805" font-size="22" fill="#4D483F" text-anchor="middle">(kaos yang bikin malu)</text>
+
+  <rect x="900" y="220" width="180" height="500" fill="#7A5532"/>
+  <text x="990" y="205" font-size="30" font-weight="700" fill="#7A5532" text-anchor="middle">±50%</text>
+  <rect x="1110" y="625" width="180" height="95" fill="#3F4A3B"/>
+  <text x="1200" y="610" font-size="30" font-weight="700" fill="#3F4A3B" text-anchor="middle">&lt;10%</text>
+  <text x="1095" y="770" font-size="28" font-weight="700" fill="#1B1A17" text-anchor="middle">Kaos pilihan sendiri</text>
+  <text x="1095" y="805" font-size="22" fill="#4D483F" text-anchor="middle">(Bob Marley, Jerry Seinfeld, MLK Jr.)</text>
+
+  <rect x="1180" y="250" width="28" height="28" fill="#7A5532"/><text x="1220" y="273" font-size="24" fill="#1B1A17">Tebakan pemakai</text>
+  <rect x="1180" y="300" width="28" height="28" fill="#3F4A3B"/><text x="1220" y="323" font-size="24" fill="#1B1A17">Yang benar-benar sadar</text>
+</g>
+<text x="100" y="850" class="f" font-size="20" fill="#4D483F">Angka dibulatkan, seperti dirangkum Psychology Today (Mendoza-Denton, 2012)</text>
+</svg>

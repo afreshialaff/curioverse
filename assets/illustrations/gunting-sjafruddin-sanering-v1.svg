@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Perbandingan sanering dan redenominasi. Sanering: uang Rp10.000 jadi Rp10 tapi harga roti tetap Rp10.000, daya beli turun. Redenominasi: uang Rp10.000 jadi Rp10 dan harga cabai Rp8.000 jadi Rp8, daya beli sama.">
+<style>.f{font-family:'Helvetica Neue',Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}</style>
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+<text x="100" y="115" class="s" font-size="58" font-weight="700" fill="#1B1A17">Sama-sama "hapus nol", beda nasib</text>
+<text x="100" y="165" class="f" font-size="28" fill="#4D483F">Contoh angka dari detikFinance dan JPNN, untuk menjelaskan konsep (bukan data 1950)</text>
+
+<g transform="translate(110 220)" class="f">
+  <rect width="660" height="560" rx="18" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+  <rect width="660" height="80" rx="18" fill="#7A5532"/><rect y="60" width="660" height="20" fill="#7A5532"/>
+  <text x="330" y="54" font-size="36" font-weight="700" fill="#F1ECE1" text-anchor="middle">SANERING</text>
+  <text x="40" y="150" font-size="28" fill="#1B1A17">Uang: Rp10.000 → Rp10</text>
+  <text x="40" y="210" font-size="28" fill="#1B1A17">Harga roti: tetap Rp10.000</text>
+  <text x="40" y="270" font-size="28" fill="#1B1A17">Butuh 1.000 lembar Rp10</text>
+  <text x="40" y="310" font-size="28" fill="#1B1A17">untuk sepotong roti</text>
+  <rect x="40" y="440" width="580" height="80" rx="12" fill="#E1D8C6"/>
+  <text x="330" y="492" font-size="30" font-weight="700" fill="#7A5532" text-anchor="middle">Daya beli dipotong</text>
+</g>
+<g transform="translate(830 220)" class="f">
+  <rect width="660" height="560" rx="18" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+  <rect width="660" height="80" rx="18" fill="#3F4A3B"/><rect y="60" width="660" height="20" fill="#3F4A3B"/>
+  <text x="330" y="54" font-size="36" font-weight="700" fill="#F1ECE1" text-anchor="middle">REDENOMINASI</text>
+  <text x="40" y="150" font-size="28" fill="#1B1A17">Uang: Rp10.000 → Rp10</text>
+  <text x="40" y="210" font-size="28" fill="#1B1A17">Harga cabai sekilo:</text>
+  <text x="40" y="250" font-size="28" fill="#1B1A17">Rp8.000 → Rp8</text>
+  <text x="40" y="310" font-size="28" fill="#1B1A17">Belanjaanmu tetap sama</text>
+  <rect x="40" y="440" width="580" height="80" rx="12" fill="#E1D8C6"/>
+  <text x="330" y="492" font-size="30" font-weight="700" fill="#3F4A3B" text-anchor="middle">Cuma angkanya yang diringkas</text>
+</g>
+</svg>

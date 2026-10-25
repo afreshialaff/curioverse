@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Selembar uang kertas contoh dibelah dua. Bagian kiri tetap sah setengah nilai dan ditukar uang baru, bagian kanan ditukar obligasi negara bernilai setengah dengan bunga 3 persen per tahun. Di bawahnya perumpamaan pizza yang dibelah dua.">
+<style>
+.f{font-family:'Helvetica Neue',Arial,sans-serif}
+.s{font-family:Georgia,'Times New Roman',serif}
+@keyframes kiri{0%,20%{transform:translateX(40px)}45%,85%{transform:translateX(0)}100%{transform:translateX(40px)}}
+@keyframes kanan{0%,20%{transform:translateX(-40px)}45%,85%{transform:translateX(0)}100%{transform:translateX(-40px)}}
+@keyframes gunting{0%{transform:translateY(-40px);opacity:0}8%{opacity:1}35%{transform:translateY(330px);opacity:1}45%,100%{transform:translateY(330px);opacity:0}}
+.kiri{animation:kiri 10s ease-in-out infinite}
+.kanan{animation:kanan 10s ease-in-out infinite}
+.gunting{animation:gunting 10s ease-in-out infinite;opacity:0}
+@media (prefers-reduced-motion: reduce){.kiri,.kanan{animation:none;transform:none}.gunting{animation:none;opacity:0}}
+</style>
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+<text x="100" y="110" class="s" font-size="56" font-weight="700" fill="#1B1A17">Satu lembar, dua nasib</text>
+<text x="100" y="158" class="f" font-size="28" fill="#4D483F">Gunting Sjafruddin, 1950: uang Rp5 ke atas (uang NICA dan De Javasche Bank) dibelah dua</text>
+
+<g class="kiri">
+  <rect x="470" y="210" width="320" height="250" rx="14" fill="#F1ECE1" stroke="#7A5532" stroke-width="4"/>
+  <circle cx="560" cy="335" r="52" fill="none" stroke="#A67C52" stroke-width="4"/>
+  <text x="560" y="350" class="s" font-size="44" font-weight="700" fill="#7A5532" text-anchor="middle">10</text>
+  <text x="690" y="270" class="f" font-size="26" font-weight="700" fill="#7A5532" text-anchor="middle">KIRI</text>
+</g>
+<g class="kanan">
+  <rect x="810" y="210" width="320" height="250" rx="14" fill="#F1ECE1" stroke="#7A5532" stroke-width="4"/>
+  <text x="1040" y="350" class="s" font-size="44" font-weight="700" fill="#7A5532" text-anchor="middle">Rp</text>
+  <text x="910" y="270" class="f" font-size="26" font-weight="700" fill="#7A5532" text-anchor="middle">KANAN</text>
+</g>
+<line x1="800" y1="190" x2="800" y2="480" stroke="#1B1A17" stroke-width="4" stroke-dasharray="14 10"/>
+<text x="800" y="508" class="f" font-size="22" fill="#4D483F" text-anchor="middle">contoh uang Rp10 (bukan gambar uang asli)</text>
+<g class="gunting">
+  <g transform="translate(800 180)">
+    <circle cx="-22" cy="-30" r="16" fill="none" stroke="#1B1A17" stroke-width="5"/>
+    <circle cx="22" cy="-30" r="16" fill="none" stroke="#1B1A17" stroke-width="5"/>
+    <line x1="-12" y1="-18" x2="10" y2="30" stroke="#1B1A17" stroke-width="6"/>
+    <line x1="12" y1="-18" x2="-10" y2="30" stroke="#1B1A17" stroke-width="6"/>
+  </g>
+</g>
+
+<path d="M560 470 L330 560" stroke="#3F4A3B" stroke-width="4" fill="none"/>
+<path d="M1040 470 L1270 560" stroke="#7A5532" stroke-width="4" fill="none"/>
+<g transform="translate(90 560)">
+  <rect width="560" height="150" rx="16" fill="#3F4A3B"/>
+  <text x="280" y="50" class="f" font-size="30" font-weight="700" fill="#F1ECE1" text-anchor="middle">DIPEGANG: sah ½ nilai (Rp5)</text>
+  <text x="280" y="92" class="f" font-size="24" fill="#F1ECE1" text-anchor="middle">wajib ditukar uang baru di bank</text>
+  <text x="280" y="126" class="f" font-size="24" fill="#F1ECE1" text-anchor="middle">22 Maret sampai 16 April 1950</text>
+</g>
+<g transform="translate(950 560)">
+  <rect width="560" height="150" rx="16" fill="#7A5532"/>
+  <text x="280" y="50" class="f" font-size="30" font-weight="700" fill="#F1ECE1" text-anchor="middle">DIPINJAM NEGARA: obligasi ½ nilai</text>
+  <text x="280" y="92" class="f" font-size="24" fill="#F1ECE1" text-anchor="middle">bunga 3% per tahun, dibayar 30 tahun</text>
+  <text x="280" y="126" class="f" font-size="24" fill="#F1ECE1" text-anchor="middle">kemudian (Republika menyebut 40 tahun)</text>
+</g>
+<g transform="translate(90 745)">
+  <rect width="1420" height="90" rx="14" fill="#F1ECE1" stroke="#A67C52" stroke-width="3" stroke-dasharray="12 8"/>
+  <text x="710" y="40" class="s" font-size="26" font-style="italic" fill="#1B1A17" text-anchor="middle">Perumpamaan: pizza dibelah dua. Belahan kiri dimakan sekarang = belanja.</text>
+  <text x="710" y="74" class="s" font-size="26" font-style="italic" fill="#1B1A17" text-anchor="middle">Belahan kanan dititip ke negara = obligasi. Bedanya: titipan uang bisa digerogoti inflasi.</text>
+</g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Linimasa uang Indonesia 1946 sampai 1953: uang NICA terbit Maret 1946, ORI berlaku Oktober 1946, KMB 1949, Gunting Sjafruddin Maret 1950, dan harga bahan pokok 1953 disebut naik 250 persen dari 1950.">
+<style>.f{font-family:'Helvetica Neue',Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}</style>
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+<text x="100" y="115" class="s" font-size="58" font-weight="700" fill="#1B1A17">Dari uang dobel ke uang digunting</text>
+<text x="100" y="165" class="f" font-size="28" fill="#4D483F">Linimasa singkat uang Indonesia, 1946 sampai 1953</text>
+<line x1="140" y1="470" x2="1460" y2="470" stroke="#1B1A17" stroke-width="5"/>
+
+<g class="f">
+  <circle cx="200" cy="470" r="18" fill="#B5462F"/>
+  <text x="200" y="420" font-size="30" font-weight="700" fill="#1B1A17" text-anchor="middle">6 Mar 1946</text>
+  <text x="200" y="530" font-size="25" fill="#1B1A17" text-anchor="middle">NICA terbitkan</text>
+  <text x="200" y="563" font-size="25" fill="#1B1A17" text-anchor="middle">uang sendiri,</text>
+  <text x="200" y="596" font-size="25" fill="#B5462F" font-weight="700" text-anchor="middle">"uang merah"</text>
+
+  <circle cx="500" cy="470" r="18" fill="#3F4A3B"/>
+  <text x="500" y="420" font-size="30" font-weight="700" fill="#1B1A17" text-anchor="middle">30 Okt 1946</text>
+  <text x="500" y="530" font-size="25" fill="#1B1A17" text-anchor="middle">ORI berlaku,</text>
+  <text x="500" y="563" font-size="25" fill="#1B1A17" text-anchor="middle">sehari setelah</text>
+  <text x="500" y="596" font-size="25" fill="#1B1A17" text-anchor="middle">pidato Hatta di RRI</text>
+
+  <circle cx="800" cy="470" r="18" fill="#A67C52"/>
+  <text x="800" y="420" font-size="30" font-weight="700" fill="#1B1A17" text-anchor="middle">1949</text>
+  <text x="800" y="530" font-size="25" fill="#1B1A17" text-anchor="middle">"Duel" uang merah</text>
+  <text x="800" y="563" font-size="25" fill="#1B1A17" text-anchor="middle">vs uang putih</text>
+  <text x="800" y="596" font-size="25" fill="#1B1A17" text-anchor="middle">berlangsung sampai KMB</text>
+
+  <circle cx="1100" cy="470" r="26" fill="#1B1A17"/>
+  <text x="1100" y="420" font-size="30" font-weight="700" fill="#1B1A17" text-anchor="middle">10 Mar 1950</text>
+  <text x="1100" y="530" font-size="25" font-weight="700" fill="#1B1A17" text-anchor="middle">Gunting Sjafruddin</text>
+  <text x="1100" y="563" font-size="22" fill="#4D483F" text-anchor="middle">(jurnal UNNES: SK 19 Maret,</text>
+  <text x="1100" y="592" font-size="22" fill="#4D483F" text-anchor="middle">berlaku 20 Maret)</text>
+
+  <circle cx="1390" cy="470" r="18" fill="#7A5532"/>
+  <text x="1390" y="420" font-size="30" font-weight="700" fill="#1B1A17" text-anchor="middle">1953</text>
+  <text x="1390" y="530" font-size="25" fill="#1B1A17" text-anchor="middle">Harga bahan pokok</text>
+  <text x="1390" y="563" font-size="25" fill="#1B1A17" text-anchor="middle">disebut naik 250%</text>
+  <text x="1390" y="596" font-size="25" fill="#1B1A17" text-anchor="middle">dari 1950</text>
+</g>
+<text x="100" y="800" class="f" font-size="22" fill="#4D483F">Sumber: Bank Indonesia, DJKN Kemenkeu, Republika, Fauziah (2023) Journal of Indonesian History</text>
+</svg>

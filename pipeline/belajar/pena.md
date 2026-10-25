@@ -4,3 +4,4 @@ Metode: baca satu artikel berkualitas dari media Indonesia per hari, bongkar str
 
 Format entri: - <tgl> · yang dipelajari · bukti (link/sumber) · satu perubahan yang diterapkan (atau alasan tidak ada)
 
+- 2026-10-26 · Pola linimasa di pembuka konteks (dari pola detikInet di referensi.md 22 Okt: konteks dan fakta waktu dulu, baru perubahan): di artikel sejarah, bagian konteks disusun per tanggal supaya pembaca bisa menyusun kronologi sendiri (narasi-artikel bagian 9) · https://inet.detik.com/mobile-apps/d-5816154/instagram-uji-coba-gabungkan-konten-video-pendek-jadi-reels (dicatat di rapat/referensi.md) · diterapkan: gunting-sjafruddin-1950 bagian 2 (6 Mar 1946 → 30 Okt 1946 → KMB 1949 → awal 1950) plus gambar utama berupa linimasa; perbedaan tanggal antar sumber ditulis terbuka di bagian 1.
