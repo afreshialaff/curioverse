@@ -85,3 +85,12 @@ Catatan riset:
 
 ## Gen Z (target 5–8, maks 2 per bagian, nol di kalimat berangka)
 plot twist (bagian 1, kalimat tanpa angka; judul bagian 4), so basically (bagian 2), jujurly (bagian 4), literally (bagian 5), red flag (bagian 7).
+
+## Update sesi revisi Pena (2026-10-27)
+- OC24 = https://theoceancleanup.com/press/press-releases/the-ocean-cleanup-nearly-five-fold-increase-in-north-pacific-garbage-patch-plastic-fragments-seven-year-study-reveals/ (siaran pers 19 Nov 2024; dibuka Pena via WebFetch)
+- "Studi The Ocean Cleanup di jurnal Environmental Research Letters (rilis 19 November 2024) ... 2015 sampai 2022 ... naik dari 2,9 ke 14,2 kilogram per kilometer persegi, hampir lima kali lipat. Itu bukan perkiraan berat total yang baru" → OC24 ("Press release 19 November 2024"; Environmental Research Letters; "between 2015 and 2022"; "rose from 2.9kg per km2 to 14.2kg per km2 in 7 years"; judul "Nearly five-fold increase"; halaman tidak memberi perkiraan massa total)
+- "setidaknya 79.000 ton" (hook, bagian 3, SVG v2) → RWU ("at least 79 (45–129) thousand tonnes"). Menggantikan "sekitar 79.000"; catatan baris 19 di atas sudah tidak berlaku.
+- "Jaring ikan sintetis menyumbang setidaknya 46% dari total massa, alias hampir separuh" → RWU ("at least 46%") ; WIKI/OCU ("nearly half"/"almost half")
+- "Dari segi jumlah keping, sebagian besar isinya mikroplastik" → NP ("mostly made up (by count)")
+- Klaim Oceana (1% mengapung, 94% di dasar laut) DIHAPUS; sumber OCE dihapus dari daftar sumber (tidak dipakai klaim lain).
+- ilustrasi: assets/illustrations/great-pacific-garbage-patch-komposisi-v2.svg — sama dengan v1, label berat jadi "≥ 79.000 ton" (RWU), aria-label ditambah "setidaknya 79.000 ton". Tanpa animasi.

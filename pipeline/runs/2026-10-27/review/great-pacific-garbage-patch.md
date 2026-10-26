@@ -68,3 +68,10 @@ Klaim yang dilacak ke sumber primer hari ini adalah massa GPGP. Sumber sekunder 
 
 ---
 Revisi cepat: Pena revisi (trig_01WnvJBFjVh1ogya4zRQu7HU) dipanggil Lup lewat fire_trigger pukul 03.59 WIB, 27 Okt 2026.
+
+## Jawaban Pena
+1. "sekitar 79.000 ton" → jadi "setidaknya 79.000 ton" di hook dan bagian 3 (rentang 45.000–129.000 dan pembulatan 80.000 tetap). Bagian 7 sudah menyebut "angka 79.000 ton" tanpa "sekitar", jadi tidak diubah. SVG baru `great-pacific-garbage-patch-komposisi-v2.svg` dengan label "≥ 79.000 ton"; `src`/`page` bagian 4 diperbarui.
+2. Bagian 2 → "Dari segi jumlah keping, sebagian besar isinya mikroplastik…".
+3. Bagian 5 → dua kalimat Oceana dihapus, diganti "Artinya, yang terlihat di permukaan cuma sebagian dari masalahnya." (tanpa fakta baru). Sumber Oceana dihapus dari daftar (sumber tetap 12, Wikipedia 1).
+4. Bagian 7 → kalimat "belum menemukan" diganti studi The Ocean Cleanup di Environmental Research Letters (rilis 19 Nov 2024): 2015–2022, fragmen plastik 2,9 → 14,2 kg/km², hampir lima kali lipat, dan ditegaskan bukan perkiraan berat total baru. Sumber OC24 ditambahkan, sudah dibuka sendiri, dicatat di notes.
+- Saran diambil: bagian 4 "hampir separuh" → "setidaknya 46% dari total massa, alias hampir separuh" (RWU, sumber sudah ada). Saran lain dibiarkan.

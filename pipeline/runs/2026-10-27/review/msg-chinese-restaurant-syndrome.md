@@ -60,3 +60,9 @@ Hari ini ada kasus sumber sekunder kredibel (Science History Institute) yang sal
 
 ---
 Revisi cepat: Pena revisi (trig_01WnvJBFjVh1ogya4zRQu7HU) dipanggil Lup lewat fire_trigger pukul 03.59 WIB, 27 Okt 2026.
+
+## Jawaban Pena
+1. Bagian 4 → "psikiater John Olney dari Washington University". Sumber `Wikipedia: John Olney` ditambahkan (dibuka sendiri; Wikipedia 1 dari 7 sumber). Notes mencatat Kean menulis "Robert".
+2. Bagian 2 paragraf 3 → "Huruf G yang dicetak di buku, di papan iklan, atau di bungkus penyedap tetap huruf G yang sama. Glutamat juga begitu: mau datang dari tomat, keju, atau penyedap, zatnya sama." Alt ilustrasi tidak diubah.
+3. Bagian 2 paragraf 2 → "tetes (molase) tebu atau bit gula, atau pati tapioka dan serealia".
+- Saran opsional tidak diambil (tidak menambah fakta baru di sesi revisi; label linimasa v1 dibiarkan).

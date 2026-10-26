@@ -64,3 +64,9 @@ Semua link dibuka Pena lewat WebFetch pada sesi ini. Singkatan:
 
 ## Gen Z
 plot twist (judul bagian 3), jujurly + make sense (bagian 4, kalimat tanpa angka), red flag dan valid (bagian 6).
+
+## Update sesi revisi Pena (2026-10-27)
+- WIKIOL = https://en.wikipedia.org/wiki/John_Olney (dibuka Pena via WebFetch)
+- "psikiater John Olney dari Washington University" → WIKIOL ("John W. Olney, M.D."; "professor of psychiatry, pathology, and immunology at the Washington University School of Medicine"; makalah Science Mei 1969 "Brain lesions, obesity, and other disturbances in mice treated with monosodium glutamate"). Kean (KEAN) menulis "Robert Olney"; nama dipilih mengikuti sumber yang mengutip makalah aslinya. Detail percobaan tetap dari KEAN.
+- "tetes (molase) tebu atau bit gula, atau pati tapioka dan serealia" → NSW ("molasses from sugar cane or sugar beets", "food starch from tapioca or cereals"). Menggantikan baris "tetes tebu, gula bit" di atas.
+- perumpamaan (revisi): huruf G di buku/papan iklan/bungkus penyedap = glutamat dari tomat/keju/penyedap; batasnya: natrium (bagian 2 paragraf 4), tidak berubah.
