@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Tomat, keju, dan penyedap MSG sama-sama mengalirkan panah ke satu huruf G berlabel glutamat. Catatan: MSG membawa natrium sekitar 13 persen, garam dapur sekitar 40 persen.">
+<style>
+.f{font-family:'Helvetica Neue',Arial,sans-serif}
+.s{font-family:Georgia,'Times New Roman',serif}
+@keyframes jalan{to{stroke-dashoffset:-60}}
+.ar{stroke-dasharray:20 10;animation:jalan 3s linear infinite}
+@media (prefers-reduced-motion: reduce){.ar{animation:none}}
+</style>
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+<text x="90" y="110" class="s" font-size="52" fill="#1B1A17" font-weight="700">Glutamat: huruf yang sama, apa pun asalnya</text>
+<g transform="translate(330 300)"><circle r="70" fill="#9A3F2B"/><path d="M-25 -68 L0 -50 L25 -68 L10 -60 L0 -85 L-10 -60 Z" fill="#3F4A3B"/></g><g transform="translate(800 300)"><path d="M-90 40 L90 40 L90 -20 L-90 -60 Z" fill="#E8C77A" stroke="#7A5532" stroke-width="4"/><circle cx="-30" cy="5" r="12" fill="#A67C52"/><circle cx="35" cy="15" r="9" fill="#A67C52"/><circle cx="10" cy="-20" r="7" fill="#A67C52"/></g><g transform="translate(1270 300)"><rect x="-60" y="-75" width="120" height="150" rx="8" fill="#F1ECE1" stroke="#1B1A17" stroke-width="4"/><path d="M-60 -60 L-50 -75 L-40 -60 L-30 -75 L-20 -60 L-10 -75 L0 -60 L10 -75 L20 -60 L30 -75 L40 -60 L50 -75 L60 -60" fill="none" stroke="#1B1A17" stroke-width="3"/><text x="0" y="10" class="f" font-size="30" fill="#1B1A17" font-weight="700" text-anchor="middle">MSG</text><text x="0" y="48" class="f" font-size="22" fill="#4D483F" text-anchor="middle">621</text></g>
+<text x="330" y="410" class="f" font-size="30" fill="#1B1A17" font-weight="700" text-anchor="middle">tomat</text><text x="800" y="410" class="f" font-size="30" fill="#1B1A17" font-weight="700" text-anchor="middle">keju</text><text x="1270" y="410" class="f" font-size="30" fill="#1B1A17" font-weight="700" text-anchor="middle">penyedap (MSG)</text>
+<path class="ar" d="M330 430 L760 560" fill="none" stroke="#5B7C9A" stroke-width="7"/>
+<path class="ar" d="M800 430 L800 545" fill="none" stroke="#5B7C9A" stroke-width="7"/>
+<path class="ar" d="M1270 430 L840 560" fill="none" stroke="#5B7C9A" stroke-width="7"/>
+<rect x="720" y="560" width="160" height="130" rx="18" fill="#3F4A3B"/>
+<text x="800" y="655" class="s" font-size="96" fill="#FFFFFF" font-weight="700" text-anchor="middle">G</text>
+<text x="800" y="730" class="f" font-size="30" fill="#1B1A17" font-weight="700" text-anchor="middle">glutamat = zat yang sama (FSANZ)</text>
+<rect x="1070" y="560" width="440" height="150" rx="16" fill="#F1ECE1" stroke="#CDBFA6" stroke-width="3"/>
+<text x="1290" y="605" class="f" font-size="28" fill="#7A5532" font-weight="700" text-anchor="middle">MSG juga membawa natrium</text>
+<text x="1290" y="650" class="f" font-size="26" fill="#1B1A17" text-anchor="middle">MSG ± 13% natrium</text>
+<text x="1290" y="690" class="f" font-size="26" fill="#1B1A17" text-anchor="middle">garam dapur ± 40% natrium</text><text x="1540" y="850" class="f" font-size="24" fill="#4D483F" text-anchor="end">Ilustrasi: Curioverse</text>
+</svg>

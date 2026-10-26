@@ -1,0 +1,114 @@
+{
+  "id": "great-pacific-garbage-patch",
+  "cat": "lingkungan",
+  "also": "science",
+  "date": "2026-10-27",
+  "title": "Great Pacific Garbage Patch: bukan pulau sampah, tapi sup plastik raksasa",
+  "dek": "Nggak bisa diinjak, nggak kelihatan dari satelit, tapi isinya sekitar 1,8 triliun keping plastik. Yang paling berat justru jaring ikan, dan membersihkannya nggak semudah mengirim kapal.",
+  "tags": "great pacific garbage patch gpgp pulau sampah plastik laut mikroplastik gyre pasifik jaring ikan ghost net ocean cleanup noaa albatros penyu neopelagic lingkungan",
+  "hook": "Tumpukan plastik terbesar di Samudra Pasifik nggak bisa difoto dari satelit, padahal beratnya diperkirakan sekitar 79.000 ton.",
+  "path": "",
+  "image": {
+    "src": "/assets/illustrations/great-pacific-garbage-patch-gyre-v1.svg",
+    "alt": "Peta skematis Samudra Pasifik Utara. Jepang di kiri, California di kanan, Hawaii di bawah tengah. Panah arus besar berputar searah jarum jam membentuk gyre, dan titik-titik plastik terkumpul di dua area: Western Garbage Patch dekat Jepang dan Eastern Garbage Patch di antara Hawaii dan California.",
+    "caption": "Gambaran skematis, bukan peta berskala. Arus yang berputar (gyre) menggiring sampah ke tengahnya yang tenang. Batas areanya terus bergeser terbawa arus dan angin.",
+    "credit": "Curioverse",
+    "license": "Ilustrasi sendiri (Curioverse)",
+    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/great-pacific-garbage-patch-gyre-v1.svg"
+  },
+  "sections": [
+    {
+      "h": "Pulau yang nggak pernah bisa diinjak",
+      "p": [
+        "Tahun 1997, Charles Moore sedang berlayar pulang dari lomba yacht Transpacific. Di tengah Samudra Pasifik, ia mengaku menemukan hamparan sampah mengapung yang luas sekali. Oseanografer Curtis Ebbesmeyer kemudian menamai kawasan itu \"Eastern Garbage Patch\".",
+        "Plot twist pertama: tempat itu sebenarnya sudah diramal. Makalah terbitan NOAA, badan kelautan dan atmosfer Amerika Serikat, pada 1988 sudah memperkirakan penumpukan itu. Datanya berasal dari beberapa peneliti yang berbasis di Alaska, yang mengukur plastik di permukaan Pasifik Utara.",
+        "Sejak itu namanya membesar jadi *Great Pacific Garbage Patch*, disingkat GPGP. Media pun berlomba membuat perbandingan. Blog NOAA Marine Debris Program tahun 2012 mengumpulkan beberapa di antaranya: \"seukuran Greenland\", \"dua kali Texas\", sampai \"benua plastik yang mungkin sedalam 30 meter\".",
+        "Masalahnya, gambaran itu salah dari akarnya. Carey Morishige dari NOAA menulis di blog yang sama bahwa tidak ada pulau sampah yang terbentuk di tengah laut. Area itu juga tidak bisa dilihat lewat foto satelit maupun foto udara. Jadi, kalau bukan pulau, sebenarnya apa yang mengapung di sana?"
+      ]
+    },
+    {
+      "h": "Sup dengan taburan merica, diaduk sendok raksasa",
+      "p": [
+        "NOAA punya perumpamaan yang pas. Sampah di sana lebih mirip serpihan merica yang melayang di seluruh semangkuk sup, bukan lapisan lemak di permukaan yang tinggal diserok. Sebagian besar isinya mikroplastik, yaitu kepingan plastik yang lebih kecil dari 5 milimeter, dan kepingan itu tersebar di kolom air, bukan cuma di permukaan.",
+        "Ahli lain bilang hal serupa. Kepada KING 5, Nancy Wallace dari NOAA menyebut partikelnya terlalu kecil untuk terlihat bahkan dari satelit. Sarah-Jeanne Royer dari Scripps Institution of Oceanography menyebutnya \"a soup of microplastics\", sup mikroplastik.",
+        "Lalu kenapa merica itu kumpul di satu tempat? Di sinilah *gyre* masuk. Gyre adalah pusaran arus samudra raksasa yang berputar pelan. Bayangkan sup diaduk sendok terus-menerus: ampas cenderung berkumpul di tengah mangkuk, tempat airnya paling tenang. Menurut NOAA Marine Debris Program, garbage patch terbentuk oleh arus berputar seperti itu.",
+        "So basically, pemetaannya begini: kuah = Samudra Pasifik Utara, merica = mikroplastik, adukan sendok = gyre, dan tengah mangkuk = area GPGP. National Geographic Education menyebut sebenarnya ada dua kumpulan: Western Garbage Patch dekat Jepang dan Eastern Garbage Patch di antara Hawaii dan California.",
+        "Batas perumpamaannya penting. Merica di sup bisa disaring tanpa merugikan siapa-siapa. Di laut, saringan halus ikut menjaring makhluk hidup. Batasnya juga nggak tetap: NOAA menulis ukurannya sulit ditentukan karena sampahnya terus bergerak terbawa arus dan angin."
+      ],
+      "img": {
+        "src": "/assets/illustrations/great-pacific-garbage-patch-sup-v1.svg",
+        "alt": "Dua panel. Kiri berlabel bayangan banyak orang: sebuah pulau sampah padat yang menonjol di atas laut, dicoret. Kanan berlabel kenyataan: semangkuk sup dengan taburan merica kecil tersebar di seluruh kuah, dengan label kuah sama dengan laut, merica sama dengan mikroplastik, dan adukan sendok sama dengan gyre.",
+        "caption": "Perumpamaan NOAA: bukan pulau yang bisa diinjak, tapi serpihan merica di semangkuk sup. Adukan sendok menggambarkan gyre yang mengumpulkan sampah ke tengah.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/great-pacific-garbage-patch-sup-v1.svg"
+      }
+    },
+    {
+      "h": "Dihitung dan ditimbang: 1,8 triliun keping",
+      "p": [
+        "Kalau nggak kelihatan dari atas, gimana cara mengukurnya? Organisasi The Ocean Cleanup mencobanya lewat jalur laut dan udara. Pada 2015 mereka menyeberangi area itu dengan 30 kapal dan mengambil sampel memakai 652 jaring survei. Hasilnya sekitar 1,2 juta keping plastik.",
+        "Setahun kemudian, 2016, mereka terbang di atasnya dengan pesawat C-130 Hercules yang membawa sensor LiDAR untuk memindai benda yang lebih besar. Data kapal dan pesawat itu lalu dipakai untuk mengkalibrasi model.",
+        "Hasilnya terbit di jurnal Scientific Reports pada 22 Maret 2018, ditulis L. Lebreton dan 15 rekannya. Area GPGP dihitung sekitar 1,6 juta kilometer persegi, kira-kira tiga kali luas daratan Prancis. Isinya diperkirakan sekitar 1,8 triliun keping plastik dengan berat sekitar 79.000 ton. Rentang perkiraannya lebar, antara 45.000 dan 129.000 ton, dan rilis pers membulatkannya jadi 80.000 ton atau setara 500 pesawat jumbo jet.",
+        "Angka ini hasil model, bukan timbangan sungguhan, dan angka luasnya bergantung pada definisi. Studi itu menghitung area dengan lebih dari 10 kilogram plastik per kilometer persegi. Tapi perkiraannya 4 sampai 16 kali lebih tinggi dari laporan sebelumnya. Kok bisa melonjak sejauh itu?"
+      ]
+    },
+    {
+      "h": "Plot twist: yang paling berat justru jaring ikan",
+      "p": [
+        "Jawabannya ada di ukuran sampah. Survei lama biasanya memakai jaring halus yang kecil, umumnya kurang dari satu meter, jadi benda besar jarang tertangkap. Tim 2018 menyeret alat selebar enam meter dan memakai pesawat, sehingga sampah besar ikut terhitung.",
+        "Begitu sampah besar dihitung, gambarnya berubah total. Mikroplastik memang 94% dari jumlah keping, tapi cuma sekitar 8% dari beratnya. Sisa 92% berat datang dari benda yang lebih besar. Jaring ikan sintetis menyumbang hampir separuh dari total massa.",
+        "Studi lanjutan memperkuat itu. The Ocean Cleanup menganalisis lebih dari 6.000 benda plastik keras berukuran di atas 5 sentimeter yang diangkut dari GPGP pada 2019, dan hasilnya terbit di Scientific Reports pada 1 September 2022. Kesimpulannya, 75% sampai 86% sampah plastik di sana berasal dari aktivitas perikanan di laut lepas dan budi daya laut. Pembuat alat tangkap terbesarnya: Jepang, China, Semenanjung Korea, dan Amerika Serikat.",
+        "Jujurly, ini beda jauh dari bayangan umum soal sedotan dan kantong belanja. Sekitar sepertiga benda di studi 2022 memang berupa pecahan yang tidak bisa dikenali asalnya. Meski begitu, angka 75% sampai 86% tadi tetap jadi kesimpulan utama studinya."
+      ],
+      "img": {
+        "src": "/assets/illustrations/great-pacific-garbage-patch-komposisi-v1.svg",
+        "alt": "Dua batang horizontal. Batang atas berlabel jumlah keping: mikroplastik 94 persen, sisanya benda lebih besar. Batang bawah berlabel berat: mikroplastik sekitar 8 persen, benda lebih besar 92 persen, dengan catatan hampir separuh total berat adalah jaring ikan.",
+        "caption": "Data Lebreton dkk. (2018). Dihitung per keping, mikroplastik menang telak. Ditimbang, benda besar seperti jaring ikan yang mendominasi.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/great-pacific-garbage-patch-komposisi-v1.svg"
+      }
+    },
+    {
+      "h": "Kenapa nggak diangkut kapal aja?",
+      "p": [
+        "Kedengarannya simpel: kirim kapal, jaring sampahnya, beres. Dianna Parker dari NOAA Marine Debris Program menghitung kebalikannya dalam podcast NOAA tahun 2014. Untuk membersihkan kurang dari 1% Samudra Pasifik Utara, butuh 67 kapal yang bekerja selama setahun.",
+        "Masalah kedua ada di jaringnya sendiri. National Geographic Education menulis, jaring yang bisa menyerok sampah sekecil itu akan ikut menangkap hewan-hewan kecil yang hidup di sana. Literally, membersihkan dengan saringan halus bisa ikut mengangkut penghuni laut.",
+        "Masalah ketiga, banyak sampah yang sudah nggak mengapung. National Geographic Education menyebut sebagian besar sampah laut lama-lama tenggelam ke dasar. Oceana menulis angka yang lebih tajam: hanya sekitar 1% plastik laut yang mengapung di atau dekat permukaan, dan 94% ada di dasar laut. Oceana tidak menyebut sumber angka itu, jadi anggap sebagai klaim Oceana.",
+        "NOAA sendiri menulis bahwa garbage patch mungkin tidak bisa dihilangkan sepenuhnya. Lalu, selama sampah itu masih di sana, apa yang terjadi pada hewan yang tinggal di sekitarnya?"
+      ]
+    },
+    {
+      "h": "Makanan palsu dan penghuni baru",
+      "p": [
+        "Sebagian hewan tertipu. Menurut National Geographic Education, penyu sering mengira kantong plastik sebagai ubur-ubur, makanan favoritnya. Albatros mengira pelet plastik sebagai telur ikan, lalu menyuapkannya ke anak-anaknya.",
+        "Ada juga sisi yang lebih aneh. Pada 2 Desember 2021, Smithsonian Environmental Research Center melaporkan studi yang dipimpin ahli biologi laut Linsey Haram di jurnal Nature Communications. Mereka menemukan makhluk pesisir seperti anemon, hidroid, dan amfipoda (hewan kecil mirip udang) bukan cuma bertahan, tapi hidup subur di atas sampah plastik ratusan mil dari pantai.",
+        "Para penulis menyebut komunitas ini *neopelagic*, artinya komunitas baru di laut lepas. Sebelumnya, setelah tsunami Jepang 2011, peneliti mencatat hampir 300 spesies yang menumpang puing hanyut menyeberangi Pasifik."
+      ]
+    },
+    {
+      "h": "Jadi, gambar mana yang harus kita simpan di kepala?",
+      "kind": "interpretasi",
+      "p": [
+        "Gambar yang benar bukan pulau yang bisa difoto, tapi sup yang keruh oleh triliunan serpihan, dengan jaring ikan sebagai benda paling berat di dalamnya. Gambaran ini penting karena menentukan solusi yang masuk akal. Kalau kita membayangkan pulau, kita berharap ada kapal yang tinggal mengangkutnya.",
+        "Data yang ada mengarah ke tempat lain. Sumber sampah terbesarnya alat tangkap ikan di laut lepas, jadi urusannya juga menyangkut cara kapal ikan menangani jaring yang rusak atau hilang. Sementara itu, mikroplastik yang sudah tersebar sulit diambil tanpa merugikan hewan kecil.",
+        "Satu catatan jujur: angka 79.000 ton itu potret data 2015 sampai 2016. Penulis studi 2018 menyebut polusi plastik di sana tumbuh eksponensial sejak pengukuran dimulai pada 1970-an. Kami belum menemukan pengukuran baru dengan metode yang sama, jadi angka terkininya belum bisa disebut. Yang jelas, kalau ada yang bilang GPGP kelihatan dari luar angkasa, sekarang kamu tahu itu red flag hoaks."
+      ]
+    }
+  ],
+  "sources": [
+    { "t": "NOAA Marine Debris Blog (Carey Morishige, 2012): 'Garbage Patches': What We Really Know (Part 1)", "u": "https://blog.marinedebris.noaa.gov/node/88" },
+    { "t": "NOAA Marine Debris Program: Garbage Patches", "u": "https://marinedebris-cms.orr.noaa.gov/info/patch.html" },
+    { "t": "NOAA Ocean Service (podcast, 2014): Making Waves 126, garbage patch", "u": "https://oceanservice.noaa.gov/podcast/june14/mw126-garbagepatch.html" },
+    { "t": "The Ocean Cleanup (siaran pers, 22 Mar 2018): Great Pacific Garbage Patch growing rapidly, study shows", "u": "https://theoceancleanup.com/press/press-releases/great-pacific-garbage-patch-growing-rapidly-study-shows/" },
+    { "t": "Roger Williams University (arsip makalah): Lebreton dkk. (2018), Evidence that the Great Pacific Garbage Patch is rapidly accumulating plastic, Scientific Reports", "u": "https://docs.rwu.edu/fcas_fp/462" },
+    { "t": "The Ocean Cleanup (siaran pers, 1 Sep 2022): Over 75% of plastic in Great Pacific Garbage Patch originates from fishing", "u": "https://theoceancleanup.com/press/press-releases/over-75-of-plastic-in-great-pacific-garbage-patch-originates-from-fishing/" },
+    { "t": "The Ocean Cleanup: The other source, where does plastic in the Great Pacific Garbage Patch come from?", "u": "https://theoceancleanup.com/updates/the-other-source-where-does-plastic-in-the-great-pacific-garbage-patch-come-from/" },
+    { "t": "National Geographic Education: Great Pacific Garbage Patch", "u": "https://education.nationalgeographic.org/resource/great-pacific-garbage-patch/4th-grade" },
+    { "t": "Smithsonian Environmental Research Center (2 Des 2021): Coastal organisms thrive on floating plastic debris in the Great Pacific Garbage Patch", "u": "https://serc.si.edu/node/40534" },
+    { "t": "Oceana (Emily Nuñez, 9 Sep 2019): 3 misconceptions about the Great Pacific Garbage Patch", "u": "https://oceana.org/blog/3-misconceptions-about-great-pacific-garbage-patch/" },
+    { "t": "KING 5 Verify: No, you can't see the Great Pacific Garbage Patch from space", "u": "https://www.king5.com/article/news/verify/environment-verify/no-you-cant-see-the-great-pacific-garbage-patch-from-space/536-c5b4906b-3a69-48ce-8708-016fb90990c5" },
+    { "t": "Wikipedia: Great Pacific Garbage Patch", "u": "https://en.wikipedia.org/wiki/Great_Pacific_Garbage_Patch" }
+  ]
+}
