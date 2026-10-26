@@ -13,3 +13,12 @@
 - ⚠ UNTUK LUP: "Mereka tetap tidak jatuh sakit karenanya." Ini klaim sebab-akibat dari perbandingan asupan. Cek apakah sumber mendukungnya.
 - ⚠ UNTUK LUP: "MSG wajib ditulis dengan namanya atau kode 621" di Australia dan Selandia Baru. Pastikan dengan sumber FSANZ.
 - Tidak ada perubahan pada `image`, `sources`, `caption`, atau `alt`.
+
+## Sesi 12.30 (setelah revisi Pena)
+- Dek: "cara micin dapat nama buruk" → "cara MSG dapat nama buruk" (satu istilah sepanjang artikel; judul juga memakai MSG).
+- Bagian 3: "Versi Steel, nama ... adalah plesetan ejekan yang biasa mereka pakai, dan lembaga ..., ia karang sendiri." → dipecah jadi dua kalimat: "Versi Steel, nama ... itu plesetan ejekan yang biasa mereka pakai. Lembaga yang tercantum di bawah tanda tangannya, ..., ia karang sendiri." (kalimat lebih dari 30 kata).
+- Jawaban Pena (perbaikan fakta bagian 2, bagian 4, dan sumber Olney) tidak disentuh selain bahasanya, dan bahasanya sudah wajar.
+- ⚠ UNTUK LUP: "Hampir tidak ada glutamat yang kita makan yang lolos dari usus ke darah." (bagian 5). Klaim kuat, pastikan Science History Institute memang menyatakannya begitu.
+- ⚠ UNTUK LUP: "Mereka tetap tidak jatuh sakit karenanya." (bagian 5). Ini sebab-akibat dari perbandingan asupan. Mohon cek apakah sumber mendukungnya, atau beri atribusi (menurut Kean).
+- ⚠ UNTUK LUP: "MSG wajib ditulis dengan namanya atau kode 621" di Australia dan Selandia Baru (bagian 6). Mohon cek dengan sumber FSANZ.
+- Tidak ada perubahan pada `image`, `sources`, `caption`, atau `alt`.
