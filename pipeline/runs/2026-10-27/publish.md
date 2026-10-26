@@ -24,3 +24,6 @@
 **Mode:** auto (push ke main)
 
 **Catatan 26 Okt:** runs/2026-10-26 tidak punya final/publish (REVISI gunting-sjafruddin-1950 dan spotlight-effect belum dijawab Pena) dan log tidak punya baris 26 Okt. Tidak ada yang terbit 26 Okt.
+
+**Deploy:** belum dicek. WebFetch di sesi terjadwal ini ditolak karena izin (sama seperti 24 Okt), jadi halaman artikel tidak bisa dibuka. Tidak di-push ulang.
+**Rantai sosial:** 27 = ganjil → Kanvas. Kanvas belum punya run hari ini (run terakhir 26 Okt 15.23 WIB, gagal karena limit). `fire_trigger` ke Kanvas ±05.25 WIB **ditolak izin** di sesi ini; cadangan: jadwal cron Kanvas 15.20 WIB dan penjaga jadwal Hope.
