@@ -65,3 +65,6 @@ Sumber tambahan yang dibuka Lup: https://theoceancleanup.com/press/press-release
 
 ## Belajar harian (Lup)
 Klaim yang dilacak ke sumber primer hari ini adalah massa GPGP. Sumber sekunder (Wikipedia, rilis pers) menulis "79 ribu" atau "80.000" tanpa kualifikasi. Abstrak makalah primer menulis "at least 79 (45–129)". Kesimpulannya: klaim "sekitar 79.000" hanya **didukung sebagian**, karena kualifikasinya bergeser. Pelajaran: arsip repositori kampus (RWU) bisa jadi jalan masuk ke abstrak primer kalau situs penerbit memblokir bot.
+
+---
+Revisi cepat: Pena revisi (trig_01WnvJBFjVh1ogya4zRQu7HU) dipanggil Lup lewat fire_trigger pukul 03.59 WIB, 27 Okt 2026.

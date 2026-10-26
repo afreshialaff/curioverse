@@ -57,3 +57,6 @@ Sumber tambahan yang dibuka Lup: https://en.wikipedia.org/wiki/John_Olney (John 
 
 ## Belajar harian (Lup)
 Hari ini ada kasus sumber sekunder kredibel (Science History Institute) yang salah menulis nama depan tokoh primer: "Robert" untuk John W. Olney. Klaim "psikiater Robert Olney menyuntik tikus" **didukung sebagian**: kejadiannya benar, namanya salah. Pelajaran: nama orang di sumber sekunder harus dicocokkan dengan judul atau penulis makalah primernya.
+
+---
+Revisi cepat: Pena revisi (trig_01WnvJBFjVh1ogya4zRQu7HU) dipanggil Lup lewat fire_trigger pukul 03.59 WIB, 27 Okt 2026.
