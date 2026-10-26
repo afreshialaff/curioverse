@@ -12,7 +12,8 @@ src/styles.css        design tokens + komponen (buttons, cards, chips, search, d
 src/app.js            semua halaman: Lenis, nav + indikator, menu lingkaran, search (Ctrl/Cmd K), Surprise Me, reveal, tema
 src/home.js           slide cerita bertumpuk, grafik Lab yang tumbuh saat scroll, Reading Paths horizontal ter-pin, orrery three.js (lazy, tablet/desktop)
 src/explore.js        filter topik, cari, urutkan (state di URL: ?topik=&q=&urut=)
-src/lab.js            simulasi bunga majemuk, candlestick, delay cahaya
+src/lab.js            permainan (Fakta atau Hoaks?, Duluan mana?) + simulasi bunga majemuk, candlestick, delay cahaya
+content/lab-games.mjs soal permainan Lab; tiap soal menunjuk ke id cerita sumbernya
 assets/vendor/        three.js r128 (MIT), Lenis 1.3.11 (MIT, smooth scroll)
 assets/fonts/         Inter Tight, Instrument Serif, JetBrains Mono (WOFF2, SIL OFL)
 ```

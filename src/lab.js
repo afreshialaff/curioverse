@@ -1,8 +1,90 @@
-/* Curioverse · Lab Kepo: compound interest, candlestick anatomy, light travel time. */
+/* Curioverse · Lab Kepo: two quick games (fakta atau hoaks, duluan mana), compound interest, candlestick anatomy, light travel time. */
 (() => {
 "use strict";
 const $ = s => document.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ---------- games: shared round engine ---------- */
+const DATA = JSON.parse($("#lab-games").textContent);
+const ROUNDS = 8;
+const shuffle = arr => { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const escH = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+const storyLink = id => `<a class="link" href="/stories/${id}">Baca: ${escH(DATA.titles[id])}</a>`;
+const best = { get:k => { try { return +localStorage.getItem("cv-best-" + k) || 0; } catch { return 0; } }, set:(k, v) => { try { localStorage.setItem("cv-best-" + k, v); } catch {} } };
+const VERDICT = n => n === ROUNDS ? "Sempurna! Kepo level dewa." : n >= 6 ? "Mantap, kamu jelas rajin baca." : n >= 4 ? "Lumayan! Masih ada yang bisa dikepoin." : "Nggak apa-apa, justru ini alasan buat baca.";
+
+function game(root, { key, unit, makeRounds, renderRound }){
+  const el = n => root.querySelector(`[data-${n}]`);
+  let rounds, i, score, missed;
+  function dots(){ el("dots").innerHTML = rounds.map((r, k) => `<li class="${r.res === true ? "is-ok" : r.res === false ? "is-no" : k === i ? "is-now" : ""}"></li>`).join(""); }
+  function start(focus){
+    rounds = makeRounds(); i = 0; score = 0; missed = null;
+    el("play").hidden = false; el("end").hidden = true;
+    show(focus);
+  }
+  function show(focus){
+    el("step").textContent = `${unit} ${i + 1} dari ${ROUNDS}`; el("score").textContent = "Skor " + score;
+    el("fb").innerHTML = ""; dots();
+    renderRound(rounds[i], el, answer);
+    if (focus) el("q").focus();
+  }
+  function answer(ok, html){
+    const r = rounds[i]; r.res = ok;
+    if (ok) score++; else if (!missed) missed = r.id;
+    el("score").textContent = "Skor " + score; dots();
+    const last = i === ROUNDS - 1;
+    el("fb").innerHTML = `<div class="fb ${ok ? "is-ok" : "is-no"}"><p class="stamp-v hand">${ok ? "Betul!" : "Yah, meleset."}</p>${html}<div class="fb-acts">${storyLink(r.id)}<button class="btn btn-primary" type="button" data-next>${last ? "Lihat skor" : "Lanjut"}</button></div></div>`;
+    el("fb").querySelector("[data-next]").focus({ preventScroll:true });
+  }
+  function end(){
+    const prev = best.get(key), rec = score > prev;
+    if (rec) best.set(key, score);
+    el("play").hidden = true; el("end").hidden = false;
+    el("end").innerHTML = `<div class="big-out"><span class="l">Skor kamu</span><span class="v" tabindex="-1" data-final>${score} / ${ROUNDS}</span></div>
+      <p class="end-msg">${VERDICT(score)}${rec && prev ? " Rekor baru!" : prev ? ` Rekor kamu: ${prev}.` : ""}</p>
+      ${missed ? `<p class="note">Yang kelewat tadi ada di sini, siapa tahu jadi rabbit hole berikutnya:</p><p>${storyLink(missed)}</p>` : ""}
+      <button class="btn btn-primary" type="button" data-again>Main lagi</button>`;
+    el("step").textContent = "Selesai"; dots();
+    el("end").querySelector("[data-final]").focus();
+  }
+  root.addEventListener("click", e => {
+    if (e.target.closest("[data-next]")) { if (i === ROUNDS - 1) end(); else { i++; show(true); } }
+    else if (e.target.closest("[data-again]")) start(true);
+  });
+  start(false);
+}
+
+/* Fakta atau Hoaks: half fakta, half hoaks, shuffled */
+game($("#quiz"), { key:"quiz", unit:"Soal",
+  makeRounds: () => { const f = shuffle(DATA.quiz.filter(q => q.ok)), h = shuffle(DATA.quiz.filter(q => !q.ok)); return shuffle([...f.slice(0, ROUNDS / 2), ...h.slice(0, ROUNDS / 2)]).map(q => ({ ...q })); },
+  renderRound: (r, el, answer) => {
+    el("q").textContent = r.q;
+    const btns = $$("[data-ans]", el("play"));
+    btns.forEach(b => { b.disabled = false; b.classList.remove("is-pick", "is-right"); b.onclick = () => {
+      const pick = b.dataset.ans === "1";
+      btns.forEach(x => { x.disabled = true; x.classList.toggle("is-right", (x.dataset.ans === "1") === r.ok); });
+      b.classList.add("is-pick");
+      answer(pick === r.ok, `<p class="why">${escH(r.why)}</p>`);
+    }; });
+  }
+});
+
+/* Duluan Mana: pairs of events with different years, no event used twice in one game */
+game($("#order"), { key:"order", unit:"Ronde",
+  makeRounds: () => { const pool = shuffle(DATA.timeline), out = [];
+    while (out.length < ROUNDS && pool.length >= 2) { const a = pool.pop(), k = pool.findIndex(b => b.y !== a.y); if (k < 0) break; const b = pool.splice(k, 1)[0]; out.push({ a, b, id:(a.y < b.y ? a : b).id }); }
+    return out; },
+  renderRound: (r, el, answer) => {
+    el("pair").innerHTML = [r.a, r.b].map((e, k) => `<button class="order-card" type="button" data-k="${k}"><span class="order-t">${escH(e.t)}</span><span class="order-y" aria-hidden="true"></span></button>`).join(`<span class="order-vs hand" aria-hidden="true">atau</span>`);
+    const cards = $$(".order-card", el("pair")), ev = [r.a, r.b], first = r.a.y < r.b.y ? 0 : 1;
+    cards.forEach((c, k) => c.onclick = () => {
+      cards.forEach((x, j) => { x.disabled = true; x.classList.toggle("is-right", j === first); const y = x.querySelector(".order-y"); y.textContent = ev[j].y; y.removeAttribute("aria-hidden"); });
+      c.classList.add("is-pick");
+      const gap = Math.abs(r.a.y - r.b.y);
+      answer(k === first, `<p class="why"><b>${escH(ev[first].t)}</b> terjadi tahun ${ev[first].y}, sedangkan <b>${escH(ev[1 - first].t)}</b> tahun ${ev[1 - first].y}. Selisihnya ${gap} tahun.</p>`);
+    });
+  }
+});
 
 /* ---------- compound interest ---------- */
 const rp = new Intl.NumberFormat("id-ID");
