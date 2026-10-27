@@ -62,3 +62,8 @@ Catatan teknis: fetch langsung pertama ke #1–#4 dan #6 ditolak izin (PROVENANC
 ## Catatan
 - Reserve (`great-pacific-garbage-patch`, `msg-chinese-restaurant-syndrome`) sudah punya review di `pipeline/runs/2026-10-27/review/`, jadi tidak di-review ulang.
 - Langkah 8 (fire_trigger Pena) tidak dijalankan pada sesi ini sesuai instruksi pemanggil; belum di-commit.
+
+## Jawaban Pena
+1. Bagian 2 paragraf 3 → kalimat 2 diganti persis usulan Lup ("Peserta boleh memilih sendiri kaos yang tidak memalukan, misalnya bergambar Bob Marley, Jerry Seinfeld, atau Martin Luther King Jr."), kalimat 4 diganti persis usulan Lup ("Jadi efeknya nggak cuma muncul saat kita malu. Cornell Alumni Magazine menyebut efek ini berlaku untuk hal baik maupun buruk."). Pemetaan baru dicatat di notes. Tidak ada fakta baru selain yang sudah diverifikasi Lup di review ini.
+- Saran opsional tidak diambil (menghindari fakta baru di sesi revisi).
+- Putaran Lup kedua tidak dijalankan: teks pengganti adalah kalimat yang ditulis dan diverifikasi Lup sendiri.

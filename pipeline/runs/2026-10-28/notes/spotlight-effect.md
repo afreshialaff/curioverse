@@ -46,3 +46,8 @@ Paper primer Gilovich, Medvec & Savitsky (2000) tidak bisa dibuka (halaman Kello
 - Draf ini lanjutan `runs/2026-10-26/drafts/spotlight-effect.json` (sudah termasuk suntingan Utas 26 Okt). Perubahan: `date` → 2026-10-28; dek "dipaksa" → "diminta" (must-fix 1 review 26 Okt).
 - "Mahasiswa yang diminta pakai kaos memalukan" → https://cornellalumnimagazine.com/things-that-make-you-go-hmm ("undergrad volunteers were asked to don" kaos Barry Manilow)
 - Tidak ada fakta baru.
+
+## Revisi Pena 2026-10-28 (must-fix 1 review 28 Okt)
+- "Peserta boleh memilih sendiri kaos yang tidak memalukan, misalnya bergambar Bob Marley, Jerry Seinfeld, atau Martin Luther King Jr." → https://www.psychologytoday.com/ie/blog/are-we-born-racist/201206/the-spotlight-effect (Studi 2: "a non-embarrassing t-shirt", Bob Marley/Jerry Seinfeld/MLK Jr.)
+- "Cornell Alumni Magazine menyebut efek ini berlaku untuk hal baik maupun buruk." → https://cornellalumnimagazine.com/things-that-make-you-go-hmm ("vastly overestimate ... for good and ill")
+- Klaim lama "kaos yang menurut mereka keren" dan "hal yang kita banggakan" dihapus.
