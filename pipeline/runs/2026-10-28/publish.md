@@ -15,3 +15,5 @@
 **Masuk reserve:** `spotlight-effect`. Reserve: 2 (FIFO berikutnya: msg-chinese-restaurant-syndrome, lalu spotlight-effect).
 **Tertunda:** `gunting-sjafruddin-1950` (runs/2026-10-26, REVISI belum dijawab).
 **Mode:** auto (push ke main)
+
+**Deploy:** belum dicek. curl ditolak proxy dan WebFetch ditolak izin (sesi terjadwal tanpa manusia). Tidak di-push ulang.
