@@ -27,3 +27,5 @@
 
 **Deploy:** belum dicek. WebFetch di sesi terjadwal ini ditolak karena izin (sama seperti 24 Okt), jadi halaman artikel tidak bisa dibuka. Tidak di-push ulang.
 **Rantai sosial:** 27 = ganjil → Kanvas. Kanvas belum punya run hari ini (run terakhir 26 Okt 15.23 WIB, gagal karena limit). `fire_trigger` ke Kanvas ±05.25 WIB **ditolak izin** di sesi ini; cadangan: jadwal cron Kanvas 15.20 WIB dan penjaga jadwal Hope.
+
+**Run ulang Merpati (dipicu Hope, sesi siang):** `banjir-molase-boston-1919` sudah terbit pagi tadi (date 2026-10-27, kuota 1/hari terpenuhi). Reserve tetap 2 (great-pacific-garbage-patch, msg-chinese-restaurant-syndrome); revisi Utas 12.30 hanya bahasa dan sudah dicek di atas. `node scripts/build.mjs` ✓. Tidak ada yang diterbitkan ulang. Rantai sosial: social/2026-10-27 (carousel, 8 slide, editor Corong, review Lup sosial) sudah ada, jadi Kanvas tidak di-fire ulang.
