@@ -1,8 +1,10 @@
 {
   "facebook": {
-    "status": "pending"
+    "status": "failed",
+    "error": "403 (#200) izin Halaman Facebook kurang: pages_read_engagement dan pages_manage_posts (token halaman/admin) — perlu dicek manusia"
   },
   "threads": {
-    "status": "pending"
+    "status": "posted",
+    "run": "https://github.com/afreshialaff/curioverse/actions/runs/40501548325"
   }
 }
