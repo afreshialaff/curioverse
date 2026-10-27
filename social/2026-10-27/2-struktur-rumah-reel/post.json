@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-27",
+  "story": null,
+  "type": "reel",
+  "made_by": "claude (mega-shot)",
+  "format": "timeline",
+  "caption": "Rumah nggak langsung berdiri begitu saja. Dari tanah sampai atap, ada 8 bagian struktur yang masing-masing punya tugas: pondasi, sloof, kolom, dinding, ring balok, kuda-kuda, rangka atap, dan genteng.\n\nSatu hal yang sering salah paham: dinding bata itu pengisi di antara kolom, bukan penahan beban utama. Beban turun lewat kuda-kuda, ring balok, kolom, sloof, lalu pondasi ke tanah.\n\nUkuran di video, misalnya kolom minimal 15 x 15 cm, adalah panduan umum Kementerian PUPR dan BNPB untuk rumah satu lantai. Desain sebenarnya tetap dihitung ahli struktur. Suara narator dibuat dengan AI (ElevenLabs).\n\nBagian mana yang baru kamu tahu fungsinya?\n\nA curious mind lives here.\n\n#strukturbangunan #rumah #tekniksipil #pondasi #curioverse",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "ElevenLabs",
+    "voice": "Jefri",
+    "status": "sudah dimixing ke reel.mp4"
+  },
+  "review": {
+    "status": "lolos",
+    "by": "pemilik",
+    "approved_by_human": true,
+    "notes": "Diloloskan langsung atas perintah pemilik 27 Okt 2026 22.08 WIB (bukan Lup). Fakta dari Buku Saku PUPR dan panduan BNPB (Kontan); catatan batas ukuran ada di frame terakhir."
+  },
+  "post": {
+    "status": "queued"
+  }
+}

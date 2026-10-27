@@ -1,6 +1,6 @@
 // Posts a text post to the Curioverse Threads account (Threads API, two steps: create container, then publish).
 // Env: THREADS_USER_ID, THREADS_ACCESS_TOKEN, DRY_RUN=1 only prints.
-// Usage: node scripts/threads-post.mjs <file.json>   file berisi { "text": "..." } (maks 500 karakter)
+// Usage: node scripts/threads-post.mjs <file.json>   file berisi { "text": "...", "video_url": "..." opsional } (maks 500 karakter)
 import { readFileSync } from "node:fs";
 
 const API = "https://graph.threads.net/v1.0";
@@ -23,7 +23,16 @@ async function call(path, params) {
   if (!res.ok || j.error) throw new Error(`Threads ${path}: ${res.status} ${JSON.stringify(j.error || j).slice(0, 400)}`);
   return j;
 }
-const { id: creation } = await call(`${USER}/threads`, { media_type: "TEXT", text: p.text });
-await new Promise(r => setTimeout(r, 5000));
+const { id: creation } = await call(`${USER}/threads`, p.video_url
+  ? { media_type: "VIDEO", video_url: p.video_url, text: p.text }
+  : { media_type: "TEXT", text: p.text });
+if (p.video_url) {   // video diproses dulu: tunggu FINISHED (maks ~15 menit)
+  for (let i = 0; i < 90; i++) {
+    const r = await fetch(`${API}/${creation}?fields=status,error_message&access_token=${TOKEN}`).then(x => x.json());
+    if (r.status === "FINISHED") break;
+    if (r.status === "ERROR" || r.status === "EXPIRED") throw new Error(`Threads video ${r.status}: ${r.error_message || ""}`);
+    await new Promise(r => setTimeout(r, 10000));
+  }
+} else await new Promise(r => setTimeout(r, 5000));
 const { id: postId } = await call(`${USER}/threads_publish`, { creation_id: creation });
 console.log("Posted Threads id:", postId);
