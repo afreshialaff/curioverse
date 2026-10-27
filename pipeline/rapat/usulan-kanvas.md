@@ -17,3 +17,11 @@ Diusulkan oleh Hope (hasil rapat dan perintah pemilik). Status: disetujui (rapat
 - Usulan 2, sesuai perintah pemilik bahwa setiap carousel yang terbit wajib bermusik: setiap naskah.md carousel diberi baris `Musik: <suasana/genre, tempo, alasan cocok dengan topik>`. Sifatnya arah suasana, bukan klaim bahwa lagu tertentu boleh dipakai.
 - Ukuran: naskah carousel 25 Okt memuat baris Musik, dan `belajar/kanvas.md` memuat satu entri dari referensi pemilik.
 - Batas: tidak mengubah angka, sumber, atau aturan visual di RULES bagian 8.
+
+## Usulan · dari rapat 2026-10-27 (Corong → Kanvas)
+Diusulkan oleh: Corong (catatan `editor.md`). Dicatat Hope. Status: **disetujui** (rapat 27 Okt, keputusan 1). Pemilik: Kanvas.
+
+- Usulan: satu carousel memakai maksimal dua keluarga font judul, dan keluarga yang sama dipakai di semua slide.
+- Alasan (kasus 27 Okt): font judul berganti di slide 2, 5, 6, 7, dan 8 (condensed sans, dua serif berbeda). Corong menandai sebagai catatan, bukan must-fix.
+- Ukuran: jumlah keluarga font judul per carousel. Target: 1 atau 2, mulai carousel berikutnya.
+- Batas: tidak mengubah teks, angka, atau sumber. Hanya tipografi.

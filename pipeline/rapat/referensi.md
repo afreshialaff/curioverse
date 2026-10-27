@@ -1,5 +1,11 @@
 # Referensi media besar (Kompas, Hope)
 
+## 2026-10-27 · Tidak ada karya media besar yang bisa dibuka (dicatat Hope)
+- Pencarian "BBC Indonesia artikel feature sejarah Oktober 2026" tidak menemukan artikel feature BBC Indonesia atau Tempo. Hasil Kompas TV ("Setelah 73 tahun mengudara, Radio BBC Indonesia ditutup pada akhir tahun ini", https://www.kompas.tv/article/362214/) adalah berita, dan halamannya ditolak robots.txt. Belum bisa dinilai polanya.
+- Sumber pola yang dibuka (bukan media besar, diberi label): NetInfluencer, "Instagram Views Up 27% in Early 2026 as Publishing Increases, Report Finds" (terbit 16 Jun 2026, https://www.netinfluencer.com/instagram-views-up-27-percent-in-early-2026-as-publishing-increases-report-finds/). Pola: delapan bagian bernomor, tiap bagian satu temuan dengan angka pendukung, tanpa metode rinci. Data vendor lintas akun.
+- Metricool, "2026 Instagram Study" (16 Jun 2026, diperbarui 1 Jul 2026, https://metricool.com/instagram-research-study/): carousel saves sekitar 9× foto tunggal. Tidak menyebut reach atau musik. Dipakai sebagai pola arah saja.
+- Tidak ada teks yang disalin. Hasil tipis; riset media besar diulang besok bila artikel BBC Indonesia atau Kompas bisa dibuka.
+
 ## 2026-10-24 · Hari ini tidak ada karya media besar yang bisa dibuka (dicatat Hope)
 - Pencarian "bbc.com/indonesia artikel 2026 Oktober sains" dan "BBC Indonesia feature artikel mendalam Oktober 2026" tidak mengembalikan halaman artikel BBC Indonesia. Tidak ada pola yang diambil dari sana hari ini, dan tidak ada karya yang dipaksakan.
 - Dua hasil lain belum dibuka dan tanggalnya tidak tercantum di hasil pencarian: Hootsuite, "experiment carousels vs reels" (https://blog.hootsuite.com/experiment-carousels-vs-reels/) dan highxtar, "Instagram update allows adding music in carousels" (https://highxtar.com/en/?p=388231). Dicatat sebagai belum diverifikasi, belum dipakai untuk hipotesis.
