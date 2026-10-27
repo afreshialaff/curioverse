@@ -5,7 +5,7 @@
   "type": "carousel",
   "made_by": "kanvas",
   "canva_design": "https://www.canva.com/d/oDFhSACuMCdv-se",
-  "caption": "Pada 15 Januari 1919, tangki berisi sekitar 2,3 juta galon molase atau sirup cokelat pekat pecah di North End, Boston, dan gelombangnya menewaskan 21 orang, menurut History.com dan AP.\n\nNicole Sharp bersama dua peneliti Harvard, Jordan Kennedy dan Shmuel Rubinstein, menghitung bahwa gravitasi saja cukup menjelaskan kecepatan gelombangnya. Di jalan, udara Januari mendinginkan molase itu, dan menurut hitungan mereka kekentalannya naik empat kali lipat atau lebih.\n\nMenurut Rubinstein, dikutip The Christian Science Monitor, sekitar separuh korban tewas karena terjebak. Pada April 1925, auditor negara bagian Hugh W. Ogden memutuskan pemilik tangki, United States Industrial Alcohol, bertanggung jawab, bukan bom. Ganti ruginya $628.000, menurut History.com.\n\nA curious mind lives here.\n\n#sejarah #fisika #boston #banjirmolase #curioverse",
+  "caption": "Pada 15 Januari 1919, tangki berisi sekitar 2,3 juta galon molase atau sirup cokelat pekat pecah di North End, Boston, dan gelombangnya menewaskan 21 orang, menurut History.com dan AP.\n\nNicole Sharp bersama dua peneliti Harvard, Jordan Kennedy dan Shmuel Rubinstein, menghitung bahwa gravitasi saja cukup menjelaskan kecepatan gelombangnya. Di jalan, udara Januari mendinginkan molase itu, dan menurut hitungan mereka kekentalannya naik empat kali lipat atau lebih.\n\nMenurut Rubinstein, dikutip The Christian Science Monitor, sekitar separuh korban tewas karena terjebak. Pada April 1925, auditor negara bagian Hugh W. Ogden memutuskan United States Industrial Alcohol, induk perusahaan pemilik tangki, bertanggung jawab, bukan bom. Ganti ruginya $628.000, menurut History.com.\n\nA curious mind lives here.\n\n#sejarah #fisika #boston #banjirmolase #curioverse",
   "media": [
     {
       "file": "slide-1.jpg"
@@ -33,9 +33,9 @@
     }
   ],
   "review": {
-    "status": "pending",
+    "status": "lolos",
     "by": "lup",
-    "notes": ""
+    "notes": "Lolos (Lup sosial, 07.10 WIB). 8 slide JPG 1080×1350 ada di repo (slide 3–4 versi revisi Corong), tidak ada remote/fetch_error. Semua angka cocok dengan artikel: 2,3 juta galon/8,7 juta liter/12.000 ton, 21 tewas, ~150 luka, 4–5 °C, kekentalan 4 kali lipat atau lebih, ~56 km/jam (History.com/AP), 119 gugatan, April 1925, $628.000, Ogden, Mayville. Tidak ada bagan batang; teks tidak terpotong/tumpang tindih. Istilah: 'plot twist-nya' diizinkan social-copy.md sebagai penghubung; ungkapan Inggris hanya terjemahan. Koreksi caption: USIA disebut 'induk perusahaan pemilik tangki' (artikel: pemilik tangki Purity Distilling, milik USIA sejak 1917). Tidak ada agent yang dipanggil."
   },
   "post": {
     "status": "queued"
