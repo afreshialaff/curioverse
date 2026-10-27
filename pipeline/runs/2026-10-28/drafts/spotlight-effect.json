@@ -1,0 +1,113 @@
+{
+  "id": "spotlight-effect",
+  "cat": "psikologi",
+  "date": "2026-10-28",
+  "title": "Spotlight effect: orang lain nggak se-merhatiin kamu itu",
+  "dek": "Mahasiswa yang diminta pakai kaos memalukan menebak separuh ruangan sadar. Kenyataannya jauh lebih sedikit. Riset juga menunjukkan orang menilai blunder kita lebih lunak dan menyukai kita lebih dari yang kita kira.",
+  "tags": "spotlight effect efek sorotan overthinking malu insecure gilovich barry manilow liking gap illusion of transparency psikologi sosial bias kognitif kecemasan sosial",
+  "hook": "Mahasiswa berkaos Barry Manilow menebak sekitar separuh ruangan sadar kaosnya. Kenyataannya kurang dari seperempat.",
+  "path": "",
+  "image": {
+    "src": "/assets/illustrations/spotlight-effect-kaos-v1.svg",
+    "alt": "Grafik batang dua studi kaos. Kaos Barry Manilow: tebakan pemakai sekitar 50 persen, yang sadar sekitar 25 persen. Kaos pilihan sendiri: tebakan sekitar 50 persen, yang sadar kurang dari 10 persen.",
+    "caption": "Data dua studi Gilovich, Medvec, dan Savitsky (2000), dibulatkan seperti rangkuman Psychology Today. Batang cokelat tebakan pemakai kaos, batang hijau yang benar-benar sadar.",
+    "credit": "Curioverse",
+    "license": "Ilustrasi sendiri (Curioverse)",
+    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/spotlight-effect-kaos-v1.svg"
+  },
+  "sections": [
+    {
+      "h": "Satu jerawat, satu kelas yang (kamu kira) ngeliatin",
+      "p": [
+        "Kamu pernah nggak sih batal ke kampus gara-gara satu jerawat atau baju yang kamu rasa salah, karena yakin semua orang bakal ngeliatin? Relate banget. Psikolog punya nama untuk perasaan itu: *spotlight effect*.",
+        "Istilahnya memang lebih enak dibiarkan dalam bahasa Inggris. Artinya kurang lebih begini: kita cenderung jauh melebih-lebihkan seberapa besar perhatian orang lain kepada kita, untuk hal yang memalukan maupun yang membanggakan. Definisi itu dipakai Cornell Alumni Magazine saat menulis riset psikolog Cornell, Thomas Gilovich.",
+        "Kedengarannya seperti nasihat motivasi. Bedanya, ini diuji di laboratorium, dan alat ujinya cuma sebuah kaos."
+      ]
+    },
+    {
+      "h": "Eksperimen kaos Barry Manilow",
+      "p": [
+        "Pada tahun 2000, Gilovich bersama Victoria Medvec dan Kenneth Savitsky menerbitkan hasilnya di Journal of Personality and Social Psychology (volume 78, nomor 2). Mahasiswa sukarelawan diminta memakai kaos bergambar wajah Barry Manilow, penyanyi lagu \"Copacabana\" dari era 1970-an. Kaos itu sengaja dipilih karena bikin malu kalau dipakai. Lalu mereka masuk ke ruangan berisi dua sampai enam pengamat.",
+        "Setelah keluar, si pemakai kaos diminta menebak berapa orang di ruangan yang sadar soal kaosnya. Menurut Cornell Alumni Magazine, rata-rata tebakannya sekitar separuh, sedangkan kenyataannya kurang dari seperempat. Psychology Today merangkumnya sebagai sekitar 50% berbanding 25%. Berkeley Scientific Journal menulis tebakan pemakai rata-rata dua kali lipat dari tebakan pengamat.",
+        "Plot twist-nya ada di studi berikutnya. Peserta boleh memilih kaos yang menurut mereka keren, misalnya bergambar Bob Marley, Jerry Seinfeld, atau Martin Luther King Jr. Tebakannya tetap sekitar 50%, padahal yang benar-benar sadar kurang dari 10%. Jadi efeknya juga berlaku untuk hal yang kita banggakan, bukan cuma yang bikin malu."
+      ]
+    },
+    {
+      "h": "Kok bisa tebakan kita meleset sejauh itu?",
+      "p": [
+        "Jawabannya ada di titik awal tebakan. Berkeley Scientific Journal menjelaskannya lewat *anchoring and adjustment*: kita memulai tebakan dari pengalaman kita sendiri, lalu mencoba menyesuaikan dengan sudut pandang orang lain. Masalahnya, penyesuaian itu sering tidak cukup.",
+        "Kamu sadar banget soal kaosmu, karena kamu yang memakainya dan kamu yang deg-degan. Perasaan itu jadi patokan, lalu kamu cuma menggesernya sedikit saat membayangkan isi kepala orang lain. Artikel yang sama menyebut makin tinggi rasa *self-conscious* (sadar diri) seseorang, makin kuat ia kena efek ini.",
+        "Bayangkan tiap orang di ruangan memegang senter. Dari dalam kepalamu, rasanya ada satu lampu panggung besar yang menyorot kamu. Kenyataannya, setiap orang mengarahkan senternya ke dirinya sendiri: ke rambutnya, presentasinya, chat yang belum dibalas. Kamu cuma kebagian cahaya sisa.",
+        "Batas perumpamaan ini jelas. Kalau kamu memang sedang tampil, misalnya presentasi atau di atas panggung, sorotannya nyata. Wikipedia mencatat, saat tugas penonton memang hanya mengamati, perhatian mereka benar-benar terpusat pada orang yang tampil."
+      ],
+      "img": {
+        "src": "/assets/illustrations/spotlight-effect-senter-v1.svg",
+        "alt": "Dua panel. Kiri berlabel versi di kepalamu: satu lampu panggung besar menyorot satu orang di tengah. Kanan berlabel versi nyata: lima orang masing-masing memegang senter kecil yang diarahkan ke dirinya sendiri.",
+        "caption": "Lampu panggung besar itu hanya ada di kepala kita. Di ruangan sungguhan, tiap orang sibuk dengan senternya sendiri.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/spotlight-effect-senter-v1.svg"
+      }
+    },
+    {
+      "h": "Yang sadar pun menilai lebih lunak",
+      "p": [
+        "Oke, tapi gimana kalau orang memang melihat blundermu? Savitsky, Epley, dan Gilovich menguji ini pada 2001. Seperti dirangkum psikolog Tania Lombrozo di NPR, mahasiswa membayangkan kejadian memalukan: tidak sengaja membunyikan alarm perpustakaan, atau jadi satu-satunya tamu pesta yang datang tanpa kado.",
+        "Sebagian peserta membayangkan diri mereka sebagai pelakunya, sebagian lagi sebagai orang yang menonton. Hasilnya, pelaku mengira akan dinilai jauh lebih keras daripada penilaian para pengamat sebenarnya. Kata Lombrozo, pengamat lebih murah hati daripada yang dibayangkan pelaku.",
+        "Riset Alice Moon (Wharton), Clayton Critcher, dan Muping Gan menambahkan sisi lain lewat delapan eksperimen. Mereka menyebutnya *overblown implications effect*: kita mengira satu kegagalan, misalnya gagal parkir paralel, bakal dipakai orang untuk menilai seluruh kemampuan kita. Menurut Knowledge at Wharton, pengamat justru menilai kemampuan seseorang dari banyak hal sekaligus."
+      ]
+    },
+    {
+      "h": "Plot twist: bukan berarti nggak ada yang peduli",
+      "kind": "interpretasi",
+      "p": [
+        "Gampang menarik kesimpulan sinis: \"ya udah, nggak ada yang peduli sama aku.\" Riset tadi nggak bilang begitu. Yang ditunjukkan riset: orang memperhatikan kita lebih sedikit dari tebakan kita, dan saat memperhatikan, penilaiannya lebih lunak.",
+        "Soal disukai pun, kita cenderung meleset ke arah pesimis. Erica Boothby, Gus Cooney, Gillian Sandstrom, dan Margaret Clark menulis di Psychological Science (2018) bahwa orang secara sistematis meremehkan seberapa besar lawan bicaranya menyukai mereka. Mereka menyebutnya *liking gap*, dan mengujinya lewat lima studi, termasuk percakapan sekitar lima menit dengan orang asing.",
+        "Dalam studi pada teman sekamar mahasiswa, celah itu bertahan beberapa bulan. Peserta masih meremehkan rasa suka teman sekamarnya di survei September, Oktober, Desember, dan Februari. Celahnya baru tidak signifikan di survei Mei."
+      ]
+    },
+    {
+      "h": "So what: matikan lampu panggung di kepalamu",
+      "kind": "opini",
+      "p": [
+        "Lain kali kamu mau batal keluar gara-gara satu jerawat, ingat eksperimen kaos tadi. Orang lain lagi sibuk dengan senternya sendiri. Yang kamu anggap sorotan besar bisa jadi cuma lewat sekilas di mata mereka.",
+        "Kalau kamu habis bikin blunder kecil di depan orang, jujurly, riset Savitsky dan rekan menunjukkan pengamat cenderung menilainya lebih santai daripada pelakunya. Dan setelah ngobrol dengan orang baru, riset *liking gap* menunjukkan kita cenderung meremehkan seberapa besar dia suka sama kita.",
+        "Satu catatan penting: ini temuan psikologi sosial tentang orang pada umumnya, bukan pengganti bantuan profesional. Kalau rasa takut dinilai sudah bikin kamu menghindari banyak hal dalam hidup, ngobrol dengan psikolog itu langkah yang worth it."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "t": "Cornell Alumni Magazine: Things That Make You Go Hmm",
+      "u": "https://cornellalumnimagazine.com/things-that-make-you-go-hmm"
+    },
+    {
+      "t": "Berkeley Scientific Journal: You're overthinking (the spotlight effect)",
+      "u": "https://bsj.studentorg.berkeley.edu/youre-overthinking-the-spotlight-effect/"
+    },
+    {
+      "t": "Psychology Today (Mendoza-Denton): The Spotlight Effect",
+      "u": "https://www.psychologytoday.com/ie/blog/are-we-born-racist/201206/the-spotlight-effect"
+    },
+    {
+      "t": "NPR (Tania Lombrozo): Three Psychological Findings I Wish I'd Known In High School",
+      "u": "https://www.npr.org/sections/13.7/2014/06/30/326935808/three-psychological-findings-i-wish-i-d-known-in-high-school"
+    },
+    {
+      "t": "Knowledge at Wharton: Alice Moon tentang overblown implications effect",
+      "u": "https://knowledge.wharton.upenn.edu/article/stop-worrying-others-think-us/"
+    },
+    {
+      "t": "Association for Psychological Science: You Probably Made a Better First Impression Than You Think",
+      "u": "https://www.psychologicalscience.org/news/releases/you-probably-made-a-better-first-impression-than-you-think.html"
+    },
+    {
+      "t": "Wharton (PDF): Boothby, Cooney, Sandstrom & Clark (2018), The Liking Gap in Conversations, Psychological Science",
+      "u": "https://faculty.wharton.upenn.edu/wp-content/uploads/2020/05/The-Liking-Gap-in-Conversations.pdf"
+    },
+    {
+      "t": "Wikipedia: Spotlight effect",
+      "u": "https://en.wikipedia.org/wiki/Spotlight_effect"
+    }
+  ]
+}
