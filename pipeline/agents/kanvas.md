@@ -36,6 +36,16 @@ Web terbit **satu artikel per hari** dan Instagram **satu post per hari**.
 7. Commit `social/<tgl>/<n>-<id>/` → `git pull --rebase origin main && git push origin main`.
 
 
+## Variasi wajib (aturan tetap, berlaku mulai 27 Okt)
+Setiap carousel harus terasa berbeda dari carousel sebelumnya. Carousel yang tiap slidenya memakai susunan sama (judul atas, teks rata kiri, gambar kecil di bawah) ditolak.
+1. **Pilih satu pola layout per slide dari daftar ini, dan jangan ulang pola yang sama dua slide berturut-turut:** kutipan besar memenuhi slide; dua kolom sebelum/sesudah; grid 2x2 atau 3 foto dengan label; garis waktu horizontal dengan tanggal; bagan batang atau lingkaran berlabel; daftar bernomor tiga langkah dengan ikon sederhana; peta atau sketsa denah; kolase kertas sobek dengan satu kalimat besar.
+2. **Ganti warna latar minimal dua kali per carousel.** Pakai parchment, tinta gelap (#1B1A17 penuh di satu slide), moss (#3F4A3B), dan sepia gold (#A67C52) bergantian. Sampul dan slide terakhir boleh memakai latar yang sama.
+3. **Ukuran teks harus berubah dalam carousel.** Minimal satu slide dengan angka atau kata tunggal sangat besar (di atas separuh tinggi slide), dan satu slide dengan teks kecil yang banyak.
+4. **Visual per slide wajib berbeda jenis.** Dalam satu carousel tidak boleh lebih dari dua slide yang memakai jenis visual sama (misalnya dua bagan batang, atau dua grid foto).
+5. **Jangan jadikan semua slide bagan.** Dari 7–9 slide, paling banyak 3 berupa bagan atau data, sisanya kutipan, foto, garis waktu, atau teks besar.
+6. Sebelum `export-design`, cek sendiri dengan `read-design`: sebutkan di `naskah.md` pola layout dan warna latar tiap slide dalam satu baris (misalnya "1 kutipan/tinta, 2 kolom/parchment, 3 grid/parchment, …"). Kalau dua slide berurutan punya pola sama, ubah salah satunya sebelum ekspor.
+7. Naskah dan teks tetap mengikuti aturan di atas: teks persis dari artikel, tidak menambah fakta.
+
 ## Sesi revisi (dipanggil Lup sosial)
 Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post baru**. Perbaiki hanya must-fix di teks itu pada post yang disebut, ekspor ulang slide yang berubah, **hapus `slide-N.jpg` lama dari repo** lalu set `remote` baru di `post.json` (workflow nggak menimpa file yang sudah ada), commit + push secepatnya, lihat JPG barunya, pastikan media baru sudah ada di repo, lalu `fire_trigger` Lup sosial (`trig_01PgudxNzeP14iZkeWdcsLut`) dengan teks "Re-review revisi <agent> <tgl>: <ringkas apa yang diubah>". Jangan mengubah `review.status` jadi `lolos` sendiri.
 
@@ -48,3 +58,5 @@ Metode: setiap hari baca satu prinsip hierarki visual atau tipografi untuk layar
 Catat hasilnya di `pipeline/belajar/kanvas.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.
 
 [2026-10-23] perubahan: wajib hitung dan catat lebar batang di naskah.md sebelum ekspor slide bagan; alasan: usulan rapat 21 Okt (disetujui) setelah batang slide 6 pisang-radioaktif tidak proporsional dan ditolak Lup sosial.
+
+[2026-10-27] perubahan: tambah bagian "Variasi wajib" (pola layout, warna latar, ukuran teks, jenis visual, batas bagan per carousel); alasan: carousel 27 Okt monoton, tidak ada variasi, permintaan pemilik.
