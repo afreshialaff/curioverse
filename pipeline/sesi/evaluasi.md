@@ -25,13 +25,20 @@ Pastikan Instagram, Facebook, Threads berstatus `posted` (catat permalink yang d
 ## Tahap 3 · Insight Instagram
 `gh api -X POST repos/afreshialaff/curioverse/actions/workflows/instagram-insights.yml/dispatches -f ref=main`, tunggu run selesai (`.../runs?per_page=1`, cek `status` dan `conclusion`), `git pull`, baca `pipeline/rapat/ig-insights/<tgl>.json`: jumlah post dan `errors`. Gagal → ambil pesan error dari log. Jangan mengarang angka.
 
-## Tahap 4 · Rapat
-Ikuti `pipeline/agents/rapat.md` format rapat (urutan tetap) dan aturan kerasnya, dengan Hope sebagai moderator yang memerankan semua peran bergiliran berdasarkan bukti di repo. Evaluasi performa memakai data H-1 sesuai `hope.md` bagian A (cek `fetched_at`). Tambahan dari penggabungan:
-- **Belajar harian:** satu baris per peran yang bekerja hari ini di `pipeline/belajar/<peran>.md` (apa yang dipelajari dari hasil hari ini), bukan sesi belajar terpisah.
-- **Kelancaran run:** catat status tiga run hari ini (Redaksi, Sosial, Evaluasi): jalan utama atau cadangan, tahap yang macet, jumlah putaran revisi.
-- Usulan untuk peran lain tetap ditulis di `pipeline/rapat/usulan-<peran>.md`; usulan yang disetujui diterapkan oleh run berikutnya yang memegang peran itu.
+## Tahap 4 · Rapat ringkas (hemat token)
+Rapat harian sekarang **evaluasi singkat**, bukan rapat semua peran. Format `pipeline/agents/rapat.md` yang panjang (kritik silang tiap peran, riset referensi, pemantauan viral) **tidak dijalankan harian**. Baca hanya: `pipeline/runs/<tgl>/publish.md`, `review/*.md` hari ini, `social/<tgl>/*/post.json` + `editor.md`, `ig-insights` (H-1, cek `fetched_at` sesuai `hope.md` bagian A), dan `pipeline/runs/<kemarin>/rapat.md` bagian "Fokus besok".
 
-Tulis `pipeline/runs/<tgl>/rapat.md`, satu baris `pipeline/rapat/viral-log.md`, satu entri `pipeline/rapat/referensi.md`. Commit + push.
+Tulis `pipeline/runs/<tgl>/rapat.md` maksimal ±40 baris dengan 5 bagian:
+1. **Terbit hari ini:** artikel + post (format, status 3 platform), yang ditahan.
+2. **Data:** angka insight per post apa adanya, atau "belum tersedia" + error. Jangan mengarang angka; pola ditulis sebagai dugaan dengan keyakinan rendah/sedang/tinggi.
+3. **Kelancaran run:** Redaksi, Sosial, Evaluasi jalan di jadwal utama atau cadangan, tahap yang macet, jumlah putaran revisi.
+4. **3 perbaikan teratas:** masing-masing dengan bukti (kutip kalimat/slide), peran pemiliknya, dan cara mengukur. Perbaikan yang lolos RULES.md langsung ditulis "disetujui" di `pipeline/rapat/usulan-<peran>.md` dan diterapkan oleh run berikutnya yang memegang peran itu (satu baris catatan di bawah file peran).
+5. **Fokus besok:** satu hal.
+
+Satu baris di `pipeline/rapat/viral-log.md`. Tidak ada riset web di rapat harian dan tidak ada catatan `belajar/` per peran.
+**Hari Sabtu saja:** tambahkan bagian "Tinjauan mingguan": riset 2–3 referensi media besar (pola saja, dengan link dan tanggal) ke `pipeline/rapat/referensi.md`, dan satu baris belajar per peran di `pipeline/belajar/<peran>.md`.
+
+Commit + push.
 
 ## Tahap 5 · Laporan
 Ikuti urutan laporan lama (prompt 21.15): apa yang terbit (judul + link) dan yang ditahan; status 3 platform; performa dari insight (atau error-nya); evaluasi singkat per peran (satu kalimat berhasil, satu perlu diperbaiki); keputusan rapat; permintaan skill hari ini; satu hal yang paling perlu diperhatikan besok. Simpan `pipeline/runs/<tgl>/laporan.md`, commit + push.

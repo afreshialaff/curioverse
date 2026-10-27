@@ -4,9 +4,9 @@ Mulai 2026-10-28 tim Curioverse tidak lagi berjalan sebagai 16 jadwal terpisah y
 
 | Run | Jam WIB (utama · cadangan) | Peran yang dikerjakan | Hasil akhir |
 |---|---|---|---|
-| 📰 Redaksi | 05.07 · 10.07 | Kompas → Pena draf → Utas → **Lup (subagen)** → Pena revisi → Utas → Merpati | 1 artikel terbit di web |
+| 📰 Redaksi | 05.07 · 10.07 | Kompas → Pena draf → **Lup (subagen)** → Pena revisi → Utas (sekali) → Merpati | 1 artikel terbit di web |
 | 📱 Sosial | 14.07 · 16.07 | Kanvas (ganjil) / Layar (genap) → Corong → **Lup sosial (subagen)** → revisi | 1 post `review.status = "lolos"` sebelum 18.45 |
-| 🪑 Evaluasi | 19.52 · 21.52 | Facebook + Threads → cek 3 platform → insight → rapat (Hope) → laporan | `runs/<tgl>/laporan.md` + notifikasi ke pemilik |
+| 🪑 Evaluasi | 19.52 · 21.52 | Facebook + Threads → cek 3 platform → insight → rapat ringkas (Hope) → laporan | `runs/<tgl>/laporan.md` + notifikasi ke pemilik |
 
 Instagram tetap diposting otomatis oleh GitHub Actions (`instagram-post.yml`, 18.50 dan cadangan 19.30 WIB). Tidak ada run yang memposting Instagram sendiri kecuali post lolos setelah jam itu lewat.
 
@@ -17,7 +17,7 @@ Instagram tetap diposting otomatis oleh GitHub Actions (`instagram-post.yml`, 18
 4. **Pemeriksa harus mata segar.** Lup dan Lup sosial dijalankan sebagai **subagen baru** (tool `Agent`) yang hanya diberi path file dan aturannya, bukan pendapat penulis. Keputusan TERBIT/REVISI/TOLAK dan lolos/ditolak tetap milik subagen itu; run utama tidak boleh mengubahnya. Kalau tool `Agent` tidak tersedia, run membaca ulang semua sumber dari nol sebagai Lup dan menulis "review tanpa subagen" di file review.
 5. **Batas revisi.** Maksimal 2 putaran revisi per hari untuk artikel dan 2 untuk post sosial. Lewat dari itu, artikel masuk `reserve/` / post ditandai `ditolak`, dan laporan menulis "⚠ PERLU MANUSIA".
 6. **RULES.md tetap menang.** Penggabungan tidak melonggarkan akurasi, sumber, kuota (1 artikel + 1 post per hari), atau hari Minggu libur.
-7. **Belajar harian** tidak lagi ditulis tiap peran di setiap sesi. Catatan belajar dibuat sekali di run Evaluasi (bagian rapat).
+7. **Hemat token (keputusan pemilik 2026-10-27):** rapat harian ringkas (5 bagian, tanpa riset web), riset referensi dan catatan belajar hanya hari Sabtu, Utas hanya sekali di naskah final, run Evaluasi memakai model Sonnet. Lup tetap subagen terpisah.
 8. **Tidak ada penjaga jadwal.** Kegagalan ditangani oleh jadwal cadangan tiap run. Kalau run cadangan juga gagal, ringkasannya diawali "⚠ PERLU MANUSIA" dan pemilik mendapat notifikasi.
 
 Runbook tiap run: `redaksi.md`, `sosial.md`, `evaluasi.md` di folder ini.

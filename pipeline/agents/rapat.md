@@ -1,5 +1,7 @@
 # 🪑 Rapat Harian Redaksi Curioverse
 
+> **Mulai 2026-10-28 (hemat token):** rapat harian memakai format ringkas di `pipeline/sesi/evaluasi.md` Tahap 4. Format lengkap di bawah hanya dipakai untuk bagian "Tinjauan mingguan" hari Sabtu, dan aturan kerasnya (kritik berbukti, tidak mengubah fakta, tidak melewati RULES.md) tetap berlaku setiap hari.
+
 Dijalankan setiap hari **19.52 WIB**, sesudah post Instagram terjadwal (19.00 WIB) dan sesudah semua tugas harian selesai. Dipimpin Hope. Peserta: Kompas, Pena, Lup, Merpati, Kanvas, Layar, Corong, Lup sosial, dan Hope.
 
 Tujuannya seperti ruang redaksi yang baik: setiap orang mengkritik karya orang lain dengan bukti, lalu memperbaiki pekerjaannya sendiri dengan dasar yang sama. Rapat tidak menggantikan review. Lup tetap memutuskan TERBIT/REVISI/TOLAK, dan Lup sosial tetap memutuskan lolos/ditolak.
