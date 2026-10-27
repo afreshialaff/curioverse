@@ -5,7 +5,7 @@
   "type": "carousel",
   "made_by": "kanvas",
   "canva_design": "https://www.canva.com/d/oDFhSACuMCdv-se",
-  "caption": "",
+  "caption": "Pada 15 Januari 1919, tangki berisi sekitar 2,3 juta galon molase atau sirup cokelat pekat pecah di North End, Boston, dan gelombangnya menewaskan 21 orang, menurut History.com dan AP.\n\nNicole Sharp bersama dua peneliti Harvard, Jordan Kennedy dan Shmuel Rubinstein, menghitung bahwa gravitasi saja cukup menjelaskan kecepatan gelombangnya. Di jalan, udara Januari mendinginkan molase itu, dan menurut hitungan mereka kekentalannya naik empat kali lipat atau lebih.\n\nMenurut Rubinstein, dikutip The Christian Science Monitor, sekitar separuh korban tewas karena terjebak. Pada April 1925, auditor negara bagian Hugh W. Ogden memutuskan pemilik tangki, United States Industrial Alcohol, bertanggung jawab, bukan bom. Ganti ruginya $628.000, menurut History.com.\n\nA curious mind lives here.\n\n#sejarah #fisika #boston #banjirmolase #curioverse",
   "media": [
     {
       "file": "slide-1.jpg"
@@ -14,10 +14,12 @@
       "file": "slide-2.jpg"
     },
     {
-      "file": "slide-3.jpg"
+      "file": "slide-3.jpg",
+      "remote": "https://export-download.canva.com/kMXc8/DAHZJ7kMXc8/-1/0/0003-4481601873414401089.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261026%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T120811Z&X-Amz-Expires=47592&X-Amz-Signature=220d6e4272c968bd7ade8624cdcf03405115e055b0635f5683863d65a8cd39de&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2027%20Oct%202026%2001%3A21%3A23%20GMT"
     },
     {
-      "file": "slide-4.jpg"
+      "file": "slide-4.jpg",
+      "remote": "https://export-download.canva.com/kMXc8/DAHZJ7kMXc8/-1/0/0004-4481601873414401089.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20261026%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T134000Z&X-Amz-Expires=41580&X-Amz-Signature=1c5662519f74d52b3dbda1e965991fc8037154bc906a37f72c76a8de6700f07f&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Tue%2C%2027%20Oct%202026%2001%3A13%3A00%20GMT"
     },
     {
       "file": "slide-5.jpg"
@@ -39,5 +41,23 @@
   },
   "post": {
     "status": "queued"
+  },
+  "editor": {
+    "by": "corong",
+    "skor": {
+      "sampul": 4,
+      "judul_berantai": 5,
+      "orang_asing": 5,
+      "jargon": 5,
+      "angka": 4,
+      "atribusi": 4,
+      "bahasa": 4,
+      "visual": 4,
+      "tata_letak": 4,
+      "keterbacaan": 4,
+      "penutup": 4,
+      "caption": 5
+    },
+    "diubah": "Slide 3: judul yang terpecah dua ukuran (60/72 px, dua warna) disatukan jadi satu judul 64 px moss, dua baris. Slide 4: '(2016)' yang kaku diganti 'pada 2016', dan Kennedy & Rubinstein ditulis 'dua peneliti Harvard' sesuai artikel. Slide 3 dan 4 diekspor ulang (remote, menunggu social-fetch). Caption ditulis (104 kata isi)."
   }
 }
