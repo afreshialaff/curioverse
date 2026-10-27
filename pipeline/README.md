@@ -3,6 +3,8 @@
 Agent-agent yang tiap hari bikin **tepat satu artikel baru** (dan satu post Instagram), lalu menerbitkannya ke curioverse-beta.vercel.app. Mereka nggak ngobrol langsung; mereka saling titip kerjaan lewat folder ini di repo, jadi tiap sesi cuma membaca file yang dia butuh (hemat token) dan semua jejak kerja tersimpan di git.
 
 ## Jadwal harian (WIB)
+> **Mulai 2026-10-28: tim berjalan dalam 3 run (📰 Redaksi 05.07, 📱 Sosial 14.07, 🪑 Evaluasi 19.52), lihat `pipeline/sesi/`.** Tabel di bawah sekarang adalah urutan *tahap* di dalam run, bukan jadwal terpisah. Instruksi `fire_trigger`, rantai, dan jam di file peran tidak berlaku lagi.
+
 | Jam | Agent | Peran | Baca | Tulis |
 |---|---|---|---|---|
 | 00.00 | 🧭 **Kompas** | Content planner + riset awal | `inbox.md`, `backlog.md`, `log.md`, daftar artikel di web | `runs/<tgl>/brief.md`, update `backlog.md` & `inbox.md` |

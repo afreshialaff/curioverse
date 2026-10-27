@@ -49,13 +49,13 @@ Setiap hari Hope menambah satu baris ke `pipeline/rapat/viral-log.md`: `<tgl> ·
 - Hope tidak menerapkan perubahan ke file agen lain. Pemilik agen yang menerapkan di file miliknya.
 
 ## F. Tugas operasional harian (dipegang Hope)
-Hope juga memegang alur operasional harian. Setiap langkah dijalankan lewat jadwal masing-masing, dan Hope yang memastikannya berjalan:
+Hope juga memegang alur operasional harian. Mulai 2026-10-28 semua langkah di bawah dikerjakan Hope di dalam run 🪑 Evaluasi (`pipeline/sesi/evaluasi.md`); jam di bawah adalah urutan, bukan jadwal terpisah:
 - **18.55 WIB, posting Instagram:** memicu workflow `instagram-post.yml` dengan `date=<tgl>` dan `dry_run=0`, hanya untuk post dengan `review.status = "lolos"`. Workflow sudah idempoten, jadi aman dipicu ulang. Jangan mengubah isi post.
 - **20.05 WIB, insight Instagram:** memicu workflow `instagram-insights.yml`. Hasilnya di `pipeline/rapat/ig-insights/<tgl>.json`.
 - **21.00 WIB, cek post harian:** memastikan ada post yang terbit hari ini. Kalau belum, laporkan alasannya.
 - **Musik carousel (perintah pemilik 2026-10-23):** setiap carousel yang terbit wajib memakai musik. Saat cek 21.00, Hope mencatat apakah carousel hari itu bermusik. Audio API Instagram yang terdokumentasi hanya untuk Reels, dan `instagram-post.mjs` tidak punya parameter audio. Karena itu, sampai ada cara otomatis yang terverifikasi, musik ditambahkan manual lewat aplikasi, dan laporan 21.15 menyebut carousel yang belum bermusik. Pilihan suasana musik diambil dari baris "Musik:" di naskah Kanvas.
 - **21.15 WIB, laporan rapat:** menyusun laporan dari `pipeline/runs/<tgl>/rapat.md` dan data insight, lalu mengirimkannya ke pemilik.
-- **Setiap 2 jam, penjaga jadwal:** memeriksa semua agen. Kalau ada agen yang seharusnya sudah jalan hari ini tapi belum berhasil (misalnya karena limit token), Hope memicu ulang satu kali. Agen yang sudah sukses atau sedang berjalan dilewati.
+- ~~**Setiap 2 jam, penjaga jadwal:**~~ (dihapus 2026-10-28; diganti jadwal cadangan tiap run, lihat `pipeline/sesi/README.md`) memeriksa semua agen. Kalau ada agen yang seharusnya sudah jalan hari ini tapi belum berhasil (misalnya karena limit token), Hope memicu ulang satu kali. Agen yang sudah sukses atau sedang berjalan dilewati.
 
 Aturan: Hope hanya memicu dan memantau. Hope tidak mengubah review, isi post, atau file agen lain.
 

@@ -49,7 +49,7 @@ Tulis hasilnya ke `pipeline/runs/<tgl>/rapat.md`. Setiap bagian maksimal sepuluh
 3. Ringkasan 3–5 baris untuk pemilik: usulan yang disetujui, pemiliknya, dan satu hal yang paling perlu diperhatikan besok.
 
 ## Laporan pukul 21.15
-Laporan untuk pemilik dibuat oleh sesi terpisah pukul 21.15 WIB dari `pipeline/runs/<tgl>/rapat.md`. Kalau rapat tidak menghasilkan file itu, laporan menyebut bahwa rapat tidak berjalan dan apa penyebabnya.
+Laporan untuk pemilik dibuat di run 🪑 Evaluasi yang sama, langsung sesudah rapat (`pipeline/sesi/evaluasi.md` Tahap 5), dari `pipeline/runs/<tgl>/rapat.md`. Kalau rapat tidak menghasilkan file itu, laporan menyebut bahwa rapat tidak berjalan dan apa penyebabnya.
 
 ## Riset untuk hari berikutnya
 Riset referensi dan hasil rapat disimpan di `pipeline/rapat/referensi.md`, paling baru di atas. Kompas membacanya sebelum menyusun brief berikutnya.
