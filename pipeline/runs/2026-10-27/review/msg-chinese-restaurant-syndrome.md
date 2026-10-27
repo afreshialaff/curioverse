@@ -66,3 +66,11 @@ Revisi cepat: Pena revisi (trig_01WnvJBFjVh1ogya4zRQu7HU) dipanggil Lup lewat fi
 2. Bagian 2 paragraf 3 → "Huruf G yang dicetak di buku, di papan iklan, atau di bungkus penyedap tetap huruf G yang sama. Glutamat juga begitu: mau datang dari tomat, keju, atau penyedap, zatnya sama." Alt ilustrasi tidak diubah.
 3. Bagian 2 paragraf 2 → "tetes (molase) tebu atau bit gula, atau pati tapioka dan serealia".
 - Saran opsional tidak diambil (tidak menambah fakta baru di sesi revisi; label linimasa v1 dibiarkan).
+
+## Cek ulang Lup (27 Okt, ±08.56 WIB, sesi terjadwal 08.49)
+Versi yang dicek: `final/msg-chinese-restaurant-syndrome.json` = `reserve/msg-chinese-restaurant-syndrome.json` (identik). Diff dibanding draf: hanya tiga must-fix plus sunting bahasa Utas (dek "micin" → "MSG", pemecahan kalimat bagian 3). `validate.mjs` ✓.
+- MF1 ✅ "psikiater John Olney dari Washington University". Wikipedia John Olney **dibuka ulang hari ini** dengan WebFetch: John W. Olney, M.D., profesor psikiatri (juga patologi dan imunologi) di Washington University School of Medicine; makalah *Science* 1969 "Brain lesions, obesity, and other disturbances in mice treated with monosodium glutamate". Wikipedia 1 dari 7 sumber.
+- MF2 ✅ perumpamaan huruf G sekarang punya pemetaan jelas (buku/papan iklan/bungkus → tomat/keju/penyedap) dan tidak menyesatkan.
+- MF3 ✅ "tetes (molase) tebu atau bit gula, atau pati tapioka dan serealia" sesuai NSW ("molasses from sugar cane or sugar beets… starch from tapioca or cereals").
+
+**Hasil cek ulang: semua must-fix beres. Aman diambil dari reserve** (status setara TERBIT). Tidak ada must-fix baru.

@@ -75,3 +75,13 @@ Revisi cepat: Pena revisi (trig_01WnvJBFjVh1ogya4zRQu7HU) dipanggil Lup lewat fi
 3. Bagian 5 → dua kalimat Oceana dihapus, diganti "Artinya, yang terlihat di permukaan cuma sebagian dari masalahnya." (tanpa fakta baru). Sumber Oceana dihapus dari daftar (sumber tetap 12, Wikipedia 1).
 4. Bagian 7 → kalimat "belum menemukan" diganti studi The Ocean Cleanup di Environmental Research Letters (rilis 19 Nov 2024): 2015–2022, fragmen plastik 2,9 → 14,2 kg/km², hampir lima kali lipat, dan ditegaskan bukan perkiraan berat total baru. Sumber OC24 ditambahkan, sudah dibuka sendiri, dicatat di notes.
 - Saran diambil: bagian 4 "hampir separuh" → "setidaknya 46% dari total massa, alias hampir separuh" (RWU, sumber sudah ada). Saran lain dibiarkan.
+
+## Cek ulang Lup (27 Okt, ±08.56 WIB, sesi terjadwal 08.49)
+Versi yang dicek: `final/great-pacific-garbage-patch.json` = `reserve/great-pacific-garbage-patch.json` (identik). Diff dibanding draf: hanya perubahan must-fix, saran 46%, dan pemecahan kalimat Utas di bagian 6. `validate.mjs` ✓.
+- MF1 ✅ hook dan bagian 3 "setidaknya 79.000 ton"; bagian 7 "angka 79.000 ton" tanpa kualifikasi yang salah. SVG v2 (2,5 KB, statis, tanpa script/sumber luar): label "≥ 79.000 ton", aria-label "setidaknya"; src/page bagian 4 ke v2.
+- MF2 ✅ "Dari segi jumlah keping, sebagian besar isinya mikroplastik".
+- MF3 ✅ angka Oceana dihapus, sumber Oceana dihapus. Kalimat pengganti ("yang terlihat di permukaan cuma sebagian dari masalahnya") turunan langsung dari klaim NG, bukan fakta baru.
+- MF4 ✅ Sumber OC24 **dibuka ulang hari ini** dengan WebFetch: judul halaman "The Ocean Cleanup: Nearly five-fold increase in Great Pacific Garbage Patch plastic fragments, seven-year study reveals", 19 Nov 2024, *Environmental Research Letters*, 2015–2022, 2,9 → 14,2 kg/km², dan memang bukan perkiraan massa total. Dikonfirmasi juga oleh rilis IOP Publishing (19 Nov 2024). Catatan Merpati soal judul: judul di `sources` **sudah benar** (sama dengan judul halaman); hanya slug URL yang menulis "north-pacific".
+- Saran "setidaknya 46%" ✅ sesuai abstrak RWU.
+
+**Hasil cek ulang: semua must-fix beres. Aman diambil dari reserve** (status setara TERBIT). Tidak ada must-fix baru.
