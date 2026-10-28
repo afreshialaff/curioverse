@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-28",
+  "story": "great-pacific-garbage-patch",
+  "provider": "ElevenLabs (creative_generate_speech)",
+  "voice_name": "Jefri - Suara Penjelasan Lembut",
+  "voice_id": "1ijzBXcD3AIVH8RGMcQd",
+  "voice_note": "Suara library ElevenLabs bahasa Indonesia (aksen standar), dipilih dari creative_list_voices, sama dengan Reels 22 dan 24 Okt. Bukan tiruan suara orang nyata.",
+  "model_id": "eleven_v4",
+  "flow_id": "iZIkY5CjhYX19rWiK1EF",
+  "node_id": "dJkMNEHtSr9Lu8upUQIY",
+  "session_id": "DMPgQWGVQt4tVsLyc7s5",
+  "generation_id": "6BW3hHE26WUVxJecz5DU",
+  "history_item_id": "CKMu7tXeFdmAEwRv3nZu",
+  "estimate_credits": "738 kredit untuk 1 take (estimate_only, USD 0,1476)",
+  "generations": 1,
+  "raw_duration_s": 50.64,
+  "ai_voice": true,
+  "prompt": "Pulau sampah di Pasifik, beneran bisa diinjak?\n\nKata Kerei Morisyige dari No-a: tidak ada pulau sampah. Dari satelit pun tidak kelihatan.\n\nArus samudra berputar pelan, seperti sup diaduk. Sampah terkumpul di tengah yang paling tenang. Kebanyakan mikroplastik, atau serpihan di bawah lima milimeter.\n\nStudi dua ribu delapan belas memperkirakan satu koma delapan triliun keping plastik. Beratnya setidaknya tujuh puluh sembilan ribu ton.\n\nPlot twis-nya: yang paling berat justru jaring ikan. Mikroplastik: sembilan puluh empat persen jumlah keping, cuma delapan persen berat.\n\nHitungan Diana Parker dari No-a: enam puluh tujuh kapal setahun baru membersihkan kurang dari satu persen Pasifik Utara. Kamu tadinya membayangkan pulau, atau sup?",
+  "ejaan_prompt": "'Kerei Morisyige' = Carey Morishige, 'No-a' = NOAA, 'Diana' = Dianna, 'Plot twis-nya' = Plot twist-nya; angka ditulis dengan huruf supaya dibaca utuh.",
+  "files": {
+    "vo.mp3": "VO final yang dipakai di reel.mp4 (52,42 dtk)",
+    "vo-asli.mp3": "hasil generasi asli ElevenLabs, 50,64 dtk (diunduh langsung dari content_url, 828.427 byte)"
+  },
+  "edit": "Kata pembuka 'Kata' (3,28-3,60 dtk asli) dibuang supaya baris layar adegan 2 maks 8 kata dan sama dengan VO. Jeda hening disisipkan di antara adegan (0,6 / 0,4 / 0,4 / 0,4 / 0,5 dtk) supaya teks lama selesai dibaca sebelum adegan baru. Fade 5 ms di tiap potongan. Kecepatan suara tidak diubah.",
+  "cek_transkrip": {
+    "tool": "ElevenLabs Scribe (eleven_scribe_v1, flow yang sama, 0 kredit)",
+    "generation_id": "kJvAYxKfoNr4HhrFYNsK",
+    "hasil": "105 kata, sama dengan prompt, berurutan, tidak ada kata terpotong. Waktu per kata dipakai untuk menyelaraskan adegan."
+  },
+  "mixing": "HyperFrames: VO volume 1 (track 8), musik + efek synth.py volume 0,35 (track 9)."
+}
