@@ -34,3 +34,10 @@ Diusulkan oleh: Hope (berdasar must-fix 2 review Lup sosial untuk Reels halo, `s
 - Ukuran: adegan angka pada Reels berikutnya memuat baris "dihitung" di naskah, dan Lup sosial tidak menemukan salah atribusi angka.
 - Batas: tidak mengubah angka atau fakta. Hanya memperjelas siapa yang dihitung.
 - Selesai: naskah Reels berikutnya memuat baris "dihitung" untuk setiap angka.
+
+## Keputusan pemilik · 2026-10-28 (langsung, di sesi Sosial)
+- Masalah: Reels terlalu monoton, cuma motion dan teks tanpa aset gambar (pemilik, setelah Reels 28 Okt).
+- Keputusan: mulai Reels berikutnya, **setiap adegan wajib punya gambar** sebagai visual utama. Sumber yang disetujui pemilik: foto Wikimedia Commons (lisensi terbuka, kredit di frame), ilustrasi buatan Curioverse, dan gambar AI bergaya ilustrasi lewat Gemini atau Flow (Claude in Chrome). Batas RULES tetap: gambar AI tidak boleh meniru foto nyata, tanpa wajah tokoh asli, tanpa logo.
+- Diterapkan di: `pipeline/skills/reels-hook.md` bagian 5, `pipeline/agents/layar.md` langkah 1b dan "Jangan", `pipeline/RULES.md` bagian 8.
+- Catatan teknis: run Sosial terjadwal berjalan di cloud tanpa akses komputer pemilik, jadi Gemini/Flow lewat Chrome hanya bisa dipakai kalau task diset "Require this computer". Tanpa itu, Layar memakai foto Commons + ilustrasi sendiri.
+- Ukuran: Reels berikutnya (tanggal genap, 30 Okt) punya gambar di 6 dari 6 adegan dan lolos Lup sosial.

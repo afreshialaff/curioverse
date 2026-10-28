@@ -3,7 +3,7 @@
 Dipakai Layar saat menulis naskah dan membangun Reels. Lup sosial memakai bagian 1–3 untuk cek. Standar bahasa tetap di `bahasa.md`, standar struktur di `social-copy.md`. Skill ini menambah aturan khusus Reels.
 
 ## 1. Tiga detik pertama
-- Frame pertama sudah menampilkan subjek: gambar dari artikel atau ilustrasi, bukan latar kosong.
+- Frame pertama sudah menampilkan subjek: foto atau ilustrasi bergambar (bagian 5), bukan latar kosong atau kartu teks.
 - Hook memuat topik dan satu pertanyaan yang bisa dijawab di video. Contoh: "Angka 10.000 langkah itu dari mana?". Bukan "Ini yang nggak mereka kasih tau".
 - Judul tidak diputar pelan dari kosong. Teks sudah utuh sejak frame pertama.
 - Adegan kedua menjawab pertanyaan hook. Tidak mengulang judul.
@@ -26,11 +26,23 @@ Jangan pakai format yang sama dua hari berturut-turut. Catat pilihan di naskah:
 - Timeline: tahun berurutan, satu peristiwa per frame.
 - Perbandingan: dua hal berdampingan.
 
-## 5. Gambar
-- Boleh: `image` dan `img` artikel di `content/stories/<id>.json` (sudah berlisensi terbuka dan berkredit), atau ilustrasi SVG di `assets/illustrations/`.
-- Kredit ditampilkan di dalam frame, kecil tapi terbaca, di sudut bawah.
-- Gambar harus relevan dengan adegan. Dilarang memakai foto peristiwa lain seolah-olah peristiwa yang dibahas.
-- Footage dan foto dari luar tetap dilarang, kecuali keputusan pemilik yang tercatat di `pipeline/rapat/` untuk hook tertentu.
+## 5. Gambar (keputusan pemilik 2026-10-28: setiap adegan wajib punya gambar)
+Reels yang cuma teks bergerak dinilai terlalu monoton. Mulai Reels berikutnya, **keenam adegan punya visual utama berupa gambar** (foto atau ilustrasi bergambar), bukan cuma kartu teks atau kotak alur. Teks layar = VO tetap ada, tapi gambar jadi pusat frame. Grafik batang dan diagram alur tetap boleh, asal adegan itu juga punya gambar (misalnya grafik di atas foto/ilustrasi, atau ilustrasi di samping alur).
+
+Sumber yang boleh, urut prioritas:
+1. **Foto Wikimedia Commons** (Public domain, CC0, CC BY, CC BY-SA) atau foto domain publik pemerintah AS (NASA, NOAA, USGS, Library of Congress), sesuai RULES bagian 3b. Lisensi dicek di halaman File, kredit tampil di frame ("Foto: Wikimedia Commons / <pembuat> / <lisensi>"). Termasuk `image`/`img` artikel yang berupa foto.
+2. **Ilustrasi buatan Curioverse**: SVG/HTML yang digambar sendiri di komposisi atau dari `assets/illustrations/`, gaya Curioverse. Kredit "Ilustrasi: Curioverse".
+3. **Gambar AI bergaya ilustrasi** lewat Gemini atau Flow (Google), hanya kalau sesi punya akses Claude in Chrome ke komputer pemilik. Kredit "Ilustrasi AI (Gemini)" atau "Ilustrasi AI (Flow)" di frame. Prompt dan alat dicatat di `aset.json`.
+
+Batas yang tidak berubah:
+- Gambar harus relevan dengan adegan. Dilarang memakai foto peristiwa lain seolah-olah peristiwa yang dibahas, atau foto orang lain sebagai tokoh.
+- Gambar AI **tidak boleh meniru foto nyata**: tidak fotorealistik, tidak menggambarkan peristiwa/tempat tertentu seolah dokumentasi, tidak menggambar wajah tokoh asli, tanpa logo merek. Teks, angka, dan label tidak diambil dari gambar AI (sering salah eja); tulis di HTML di atasnya.
+- Tanpa foto stok, tanpa gambar dari Google Images, Getty, Shutterstock, atau situs berita.
+- Kredit kecil tapi terbaca (≥ 28 px) di sudut bawah gambar.
+
+Pencatatan: setiap aset disimpan di `social/<tgl>/<post>/source/assets/` dan didaftar di `social/<tgl>/<post>/aset.json`: `{ "adegan": 1, "file": "...", "jenis": "foto | ilustrasi | ilustrasi-ai", "sumber": "<URL halaman File / nama alat>", "lisensi": "...", "kredit": "...", "prompt": "<khusus AI>" }`.
+
+Lup sosial: adegan tanpa gambar = must-fix (video). Foto: buka halaman File, cek lisensi, kredit, dan relevansi. Gambar AI: cek labelnya ada di frame dan tidak meniru foto nyata. Aset tanpa catatan di `aset.json` = must-fix.
 
 ## 6. Sebelum render
 - Lihat contact sheet. Frame pertama harus sudah berisi subjek dan teks hook.

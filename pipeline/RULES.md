@@ -74,7 +74,7 @@ Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 - **Tepat satu post per hari** (`social.max_posts_per_day` = 1), bergantian: tanggal ganjil carousel (Kanvas), tanggal genap Reels (Layar).
 - **Standar bahasa: `pipeline/skills/bahasa.md`. Standar struktur, visual & caption: `pipeline/skills/social-copy.md` (acuannya feed @bbcindonesia).** Post harus bisa dipahami utuh tanpa membuka web. Caption ditulis Corong sesuai bagian 8 skill itu.
 - Topik sensitif (RULES bagian 5) berlaku sama: status hukum tepat, tanpa tuduhan baru, tanpa langkah teknis penipuan.
-- Desain/video: gaya Curioverse (parchment, tinta, moss, sepia gold, bintang empat sudut), teks besar dan terbaca di HP, tanpa foto stok orang, tanpa logo merek, tanpa gambar AI yang meniru foto nyata.
+- Desain/video: gaya Curioverse (parchment, tinta, moss, sepia gold, bintang empat sudut), teks besar dan terbaca di HP, tanpa foto stok orang, tanpa logo merek, tanpa gambar AI yang meniru foto nyata. **Reels: setiap adegan wajib punya gambar** (foto Commons/domain publik, ilustrasi Curioverse, atau ilustrasi AI Gemini/Flow berlabel; keputusan pemilik 2026-10-28, detail di `skills/reels-hook.md` bagian 5).
 - Format: carousel 7–9 slide JPEG 4:5 (1080×1350, dipotong otomatis dari 3:4), Reels MP4 H.264 + AAC 9:16 1080×1920, 35–55 detik.
 
 ### Corong (16.40 WIB)

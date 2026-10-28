@@ -15,6 +15,7 @@ Web terbit **satu artikel per hari** dan Instagram **satu post per hari**.
 
 ## Bikin Reels
 1. Naskah dulu di `social/<tgl>/<n>-<id>/naskah.md` mengikuti **struktur 6 langkah** di `social-copy.md`: 6 adegan, tiap adegan `Judul` + `Teks layar` + `Visual penjelas` + `Durasi` (minimal 0,4 detik per kata yang tampil, + 1 detik jeda) + `Sumber artikel: bagian N`. Hook di adegan 1 harus menyebut topiknya. Maks 14 kata di layar sekaligus. Wajib ada adegan **mekanisme** dengan diagram alur. Grafik proporsional dengan angka (hitung lebarnya dari nilai, jangan dikira-kira). Lakukan uji judul berantai dan uji orang asing sebelum coding.
+1b. **Aset gambar per adegan (keputusan pemilik 2026-10-28).** Setiap adegan wajib punya gambar sebagai visual utama (`reels-hook.md` bagian 5). Di naskah, tiap adegan diberi baris `Gambar:` (apa yang tampak, sumber, kredit). Cari dulu foto Commons yang relevan (cek lisensi di halaman File, unduh ke `source/assets/`); kalau tidak ada, gambar ilustrasi sendiri; gambar AI (Gemini/Flow lewat Claude in Chrome) hanya kalau komputer pemilik tersambung. Kalau komputer pemilik tidak tersambung dan aset AI dibutuhkan, pakai ilustrasi sendiri dan catat di ringkasan. Daftar semua aset di `aset.json`. Tata letak: gambar besar (minimal sekitar 40% tinggi frame) dengan sedikit gerak (zoom/pan pelan), teks baris tetap di atas, tanpa teks menimpa bagian penting gambar.
 2. Kalau skill `opus-video` / `hyperframes` tersedia di sesi, baca dulu. Kalau tidak, ikuti langkah ini (sudah teruji):
    ```bash
    W=$(mktemp -d); cd $W
@@ -43,7 +44,7 @@ Kalau sesi ini dimulai dengan teks "SESI REVISI" dari Lup: **jangan bikin post b
 
 ## Jangan
 - Jangan menambah fakta yang nggak ada di artikel, jangan pakai suara rekaman orang.
-- Gambar hanya dari dua sumber: (a) `image` dan `img` artikel di `content/stories/<id>.json` (sudah berlisensi terbuka dan berkredit), atau (b) ilustrasi SVG di `assets/illustrations/`. Cantumkan kredit di dalam frame. Footage dan foto dari luar tetap dilarang.
+- Gambar hanya dari sumber di `reels-hook.md` bagian 5: foto Wikimedia Commons / domain publik pemerintah AS, ilustrasi buatan Curioverse, atau gambar AI bergaya ilustrasi lewat Gemini/Flow (bukan fotorealistik). Cantumkan kredit di dalam frame dan catat di `aset.json`. Footage video dari luar tetap dilarang.
 - Jangan memposting sendiri.
 
 ## Belajar harian
