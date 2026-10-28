@@ -5,24 +5,19 @@
   "type": "aset",
   "media": [
     {
-      "file": "pl23_reef3052.jpg",
-      "remote": "https://s3.amazonaws.com/s3-east-testmedia-noaa.woc.noaa.gov/dam/Photos/legacy/pl23_reef3052.jpg"
+      "file": "pl23_reef3052.jpg"
     },
     {
-      "file": "pl23_reef3047.jpg",
-      "remote": "https://s3.amazonaws.com/s3-east-testmedia-noaa.woc.noaa.gov/dam/Photos/legacy/pl23_reef3047.jpg"
+      "file": "pl23_reef3047.jpg"
     },
     {
-      "file": "pl23_reef3023.jpg",
-      "remote": "https://s3.amazonaws.com/s3-east-testmedia-noaa.woc.noaa.gov/dam/Photos/legacy/pl23_reef3023.jpg"
+      "file": "pl23_reef3023.jpg"
     },
     {
-      "file": "pl23_reef3024.jpg",
-      "remote": "https://s3.amazonaws.com/s3-east-testmedia-noaa.woc.noaa.gov/dam/Photos/legacy/pl23_reef3024.jpg"
+      "file": "pl23_reef3024.jpg"
     },
     {
-      "file": "pl23_reef3051.jpg",
-      "remote": "https://s3.amazonaws.com/s3-east-testmedia-noaa.woc.noaa.gov/dam/Photos/legacy/pl23_reef3051.jpg"
+      "file": "pl23_reef3051.jpg"
     }
   ],
   "review": {
