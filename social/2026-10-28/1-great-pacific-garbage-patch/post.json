@@ -5,7 +5,7 @@
   "type": "reel",
   "made_by": "layar",
   "format": "bukti-satu-angka",
-  "caption": "Tumpukan sampah plastik terbesar di Samudra Pasifik Utara bukan pulau yang bisa diinjak. Menurut Carey Morishige dari NOAA, badan kelautan dan atmosfer Amerika Serikat, area itu tidak terlihat dari foto satelit.\n\nArus samudra yang berputar pelan menggiring sampah ke tengah yang paling tenang. NOAA mengibaratkannya merica dalam sup: dihitung per keping, kebanyakan berupa mikroplastik atau serpihan di bawah 5 milimeter.\n\nStudi Lebreton dkk. (2018) memperkirakan isinya 1,8 triliun keping, setidaknya 79.000 ton. Mikroplastik 94% jumlah keping tapi cuma 8% berat, sementara jaring ikan setidaknya 46%. Menurut Dianna Parker dari NOAA, membersihkan kurang dari 1% Samudra Pasifik Utara butuh 67 kapal selama setahun.\n\nKamu tadinya membayangkan pulau, atau sup?\n\nSuara narator dibuat dengan AI (ElevenLabs).\n\nA curious mind lives here.\n\n#sampahplastik #mikroplastik #lautpasifik #lingkungan #curioverse",
+  "caption": "Tumpukan sampah plastik terbesar di Samudra Pasifik Utara bukan pulau yang bisa diinjak. Menurut Carey Morishige dari NOAA, badan kelautan dan atmosfer AS, area itu tidak terlihat dari foto satelit.\n\nArus samudra yang berputar pelan menggiring sampah ke tengah yang paling tenang. NOAA mengibaratkannya merica dalam sup: dihitung per keping, kebanyakan berupa mikroplastik atau serpihan di bawah 5 milimeter.\n\nStudi Lebreton dkk. (2018) memperkirakan isinya 1,8 triliun keping, setidaknya 79.000 ton. Mikroplastik 94% jumlah keping tapi cuma sekitar 8% berat, sementara jaring ikan setidaknya 46% berat. Menurut Dianna Parker dari NOAA, membersihkan kurang dari 1% Samudra Pasifik Utara butuh 67 kapal selama setahun.\n\nKamu tadinya membayangkan pulau, atau sup?\n\nSuara narator dibuat dengan AI (ElevenLabs).\n\nA curious mind lives here.\n\n#sampahplastik #mikroplastik #lautpasifik #lingkungan #curioverse",
   "media": [
     {
       "file": "reel.mp4"
@@ -21,9 +21,9 @@
     "catatan_untuk_corong": "Suara narator dibuat dengan AI (ElevenLabs). Mohon tambahkan keterangan di caption."
   },
   "review": {
-    "status": "pending",
+    "status": "lolos",
     "by": "lup",
-    "notes": ""
+    "notes": "Lolos (Lup sosial 2026-10-28). Semua teks layar reel.mp4 (14 frame + transisi), source/index.html, naskah, dan caption cocok dengan artikel: 1997/Charles Moore, Carey Morishige NOAA 2012 (tidak ada pulau, tak terlihat dari satelit), perumpamaan merica-sup NOAA, mikroplastik < 5 mm, Lebreton dkk. Scientific Reports 22 Maret 2018, 1,8 triliun keping, setidaknya 79.000 ton, sekitar 1,6 juta km2 / 3 kali daratan Prancis, 94% keping / 8% berat / jaring ikan setidaknya 46%, Dianna Parker podcast NOAA 2014: 67 kapal setahun untuk < 1% Samudra Pasifik Utara. Batang adegan 5 diukur dari frame 37 dtk: 808/860 px = 94%, 68/860 = 7,9%, 394/860 = 45,8%, proporsional, ada baris sumber. Istilah sulit (Great Pacific Garbage Patch, GPGP, gyre, neopelagic) tidak muncul; mikroplastik dijelaskan pola 'atau', NOAA dijelaskan. Tidak ada teks terpotong/tumpang tindih/glyph kosong. Media ada di repo: reel.mp4 (H.264 1080x1920 + AAC, 53,6 dtk) dan cover.jpg; VO AI ElevenLabs dimixing (audio tanpa jeda hening > 1 dtk) dan diungkap di caption. Must-fix: tidak ada. Dibetulkan Lup di caption: '8% berat' jadi 'sekitar 8% berat' (artikel: 'cuma sekitar 8%'), '46%' jadi '46% berat' (jelas yang dimaksud berat), 'Amerika Serikat' jadi 'AS' supaya caption tetap 120 kata sebelum hashtag. Saran (opsional, bukan syarat tayang): (1) desain/video: adegan 2 'Pertama dilaporkan Charles Moore pada 1997' lebih tepat 'Dilaporkan Charles Moore pada 1997', karena artikel bilang Moore 'mengaku menemukan' dan NOAA sudah memperkirakannya pada 1988; (2) desain/video: adegan 6 memecah satu kalimat Dianna Parker jadi dua layar ('...67 kapal setahun' / 'baru membersihkan...'), langgar 'satu kalimat per layar' di social-copy bagian 7, walau kartu angka tampil utuh sepanjang adegan; (3) desain/video: layar adegan 5 menulis 'cuma 8% berat', artikel 'sekitar 8%'; (4) caption: paragraf 1 dua kalimat, idealnya satu."
   },
   "post": {
     "status": "queued"
