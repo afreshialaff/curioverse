@@ -1,6 +1,33 @@
 # Skill: Reels hook dan konteks (Layar, Lup sosial)
 
-Dipakai Layar saat menulis naskah dan membangun Reels. Lup sosial memakai bagian 1–3 untuk cek. Standar bahasa tetap di `bahasa.md`, standar struktur di `social-copy.md`. Skill ini menambah aturan khusus Reels.
+Dipakai Layar saat menulis naskah dan membangun Reels. Lup sosial memakai bagian 0–3 untuk cek. Standar bahasa tetap di `bahasa.md`, standar struktur di `social-copy.md`. Skill ini menambah aturan khusus Reels.
+
+## 0. Naskah harus nyambung (keputusan pemilik 2026-10-28, berlaku sebelum aturan lain)
+Masalah Reels 28 Okt: setiap baris berisi fakta berbeda yang dipadatkan seperti judul berita, jadi penonton merasa naskahnya loncat-loncat dan tidak tahu apa yang mau disampaikan. Contoh dari naskah itu: adegan 2 langsung membantah "pulau sampah" lewat nama orang yang belum dikenal, sebelum penonton tahu pulau sampah itu apa; adegan 3 menjelaskan arus dulu baru menyebut isinya; ada 7 angka dalam 50 detik; dan adegan penutup membuka topik baru (kapal pembersih) yang belum pernah disiapkan.
+
+Cara menulis mulai sekarang:
+1. **Kalimat inti dulu.** Sebelum naskah, tulis satu kalimat (maks 15 kata) yang harus dibawa pulang penonton. Contoh: "Pulau sampah Pasifik itu bukan pulau, tapi sup serpihan plastik yang susah diangkat." Setiap adegan harus melayani kalimat ini; fakta yang tidak melayani dibuang walaupun menarik.
+2. **Tulis VO sebagai cerita lisan dulu**, satu paragraf utuh seperti ngobrol ke teman, baru dipecah jadi baris layar. Baca keras paragrafnya tanpa visual: harus nyambung dari awal sampai akhir.
+3. **Rantai pertanyaan.** Setiap adegan menjawab pertanyaan yang ditinggalkan adegan sebelumnya, dan meninggalkan satu pertanyaan untuk adegan berikutnya. Tulis rantainya di naskah: "A1 tanya X → A2 jawab X, muncul Y → A3 jawab Y ...".
+4. **Urutan penjelasan: kenalkan → jelaskan → buktikan.** Jangan membantah atau mengoreksi sesuatu yang belum dijelaskan. Jangan memberi mekanisme sebelum penonton tahu benda/kejadiannya seperti apa.
+5. **Kata penghubung di awal adegan 2–6** dan di dalam adegan kalau baris berikutnya melanjutkan: "Nah,", "Soalnya", "Makanya", "Terus", "Tapi", "Jadi". Batas 8 kata per layar diselesaikan dengan **menambah layar**, bukan membuang kata penghubung.
+6. **Maksimal 3 angka per Reels**, dan setiap angka punya pembanding yang kebayang di kalimat yang sama ("hampir separuh beratnya", "kira-kira tiga kali luas Prancis"). Angka lain cukup di caption.
+7. **Nama orang dan lembaga tidak membuka kalimat VO.** VO menyebut perannya ("kata ilmuwan kelautan AS", "menurut badan kelautan AS"); nama lengkap, jabatan, dan tahun tampil di baris kredit di layar (bagian 2 tetap terpenuhi).
+8. **Satu istilah baru maksimal** per Reels, dijelaskan di kalimat yang sama.
+9. **Penutup tidak membuka topik baru.** Penutup menjawab balik hook memakai kalimat inti, lalu satu pertanyaan.
+
+Uji sebelum coding (tulis hasilnya di naskah):
+- **Uji ceritakan ulang:** minta subagen baru (tanpa artikel, hanya teks VO) menceritakan ulang Reels ini dalam 2 kalimat dan menyebut bagian yang membingungkan. Kalau ceritanya tidak sama dengan kalimat inti, atau ada bagian yang membingungkan, tulis ulang.
+- **Uji loncat:** baca baris terakhir tiap adegan lalu baris pertama adegan berikutnya. Kalau terasa ganti topik tanpa penghubung, tulis ulang.
+
+Contoh perbaikan untuk Reels 28 Okt (VO, fakta dari artikel):
+1. Kamu pernah dengar ada pulau sampah raksasa di tengah Samudra Pasifik?
+2. Banyak yang bayangin tumpukan sampah yang bisa diinjak. Nyatanya, di sana nggak ada pulau.
+3. Isinya serpihan plastik kecil yang tersebar di air, kayak merica di semangkuk sup. Makanya nggak kelihatan dari satelit.
+4. Terus, kok bisa kumpul di situ? Arus lautnya muter pelan, kayak sup diaduk. Sampahnya kegiring ke tengah.
+5. Tapi yang paling berat bukan serpihan kecil itu. Hampir separuh beratnya justru jaring ikan yang hanyut.
+6. Jadi, ini bukan pulau yang tinggal diangkut kapal. Kamu tadinya bayangin pulau, atau sup?
+(Kalimat inti: bukan pulau, tapi sup serpihan plastik yang susah diangkat. Angka: 1 saja. Nama: di kredit layar.)
 
 ## 1. Tiga detik pertama
 - Frame pertama sudah menampilkan subjek: foto atau ilustrasi bergambar (bagian 5), bukan latar kosong atau kartu teks.
@@ -9,7 +36,7 @@ Dipakai Layar saat menulis naskah dan membangun Reels. Lup sosial memakai bagian
 - Adegan kedua menjawab pertanyaan hook. Tidak mengulang judul.
 
 ## 2. Konteks harus terbaca tanpa caption
-- Penonton yang tidak membaca caption harus tahu: topiknya, siapa yang bicara (nama dan jabatan di layar), dan kapan atau di mana kejadiannya.
+- Penonton yang tidak membaca caption harus tahu: topiknya, siapa yang bicara (nama dan jabatan di baris kredit layar; VO cukup menyebut perannya, bagian 0 poin 7), dan kapan atau di mana kejadiannya.
 - Setiap angka punya satuan dan tahun di dalam frame.
 - Setiap kutipan punya nama dan jabatan orangnya.
 

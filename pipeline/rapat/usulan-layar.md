@@ -41,3 +41,9 @@ Diusulkan oleh: Hope (berdasar must-fix 2 review Lup sosial untuk Reels halo, `s
 - Diterapkan di: `pipeline/skills/reels-hook.md` bagian 5, `pipeline/agents/layar.md` langkah 1b dan "Jangan", `pipeline/RULES.md` bagian 8.
 - Catatan teknis: run Sosial terjadwal berjalan di cloud tanpa akses komputer pemilik, jadi Gemini/Flow lewat Chrome hanya bisa dipakai kalau task diset "Require this computer". Tanpa itu, Layar memakai foto Commons + ilustrasi sendiri.
 - Ukuran: Reels berikutnya (tanggal genap, 30 Okt) punya gambar di 6 dari 6 adegan dan lolos Lup sosial.
+
+## Keputusan pemilik · 2026-10-28 (copywriting Reels)
+- Masalah: naskah Reels susah dipahami, loncat-loncat, tidak jelas apa yang mau disampaikan (pemilik, setelah Reels 28 Okt).
+- Diagnosis: baris ditulis sebagai potongan fakta bergaya judul berita; bantahan sebelum penjelasan; mekanisme sebelum isi; 7 angka dalam 50 detik; nama orang membuka kalimat; penutup membuka topik baru.
+- Keputusan: aturan baru `pipeline/skills/reels-hook.md` bagian 0 (kalimat inti, VO ditulis sebagai cerita lisan dulu, rantai pertanyaan, kata penghubung, maks 3 angka, nama di kredit layar, uji ceritakan ulang lewat subagen, uji loncat). Rubrik "Orang asing" Corong ikut diperketat untuk Reels.
+- Ukuran: Reels 30 Okt lolos uji ceritakan ulang tanpa catatan "membingungkan", dan Corong memberi skor Orang asing ≥ 4.

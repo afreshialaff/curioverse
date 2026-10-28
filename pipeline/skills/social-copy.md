@@ -104,7 +104,7 @@ Format BBC, dengan satu tambahan hashtag.
 |---|---|
 | Sampul | Judul memuat beritanya (atau pertanyaan konkret soal pengalaman penonton) dalam maks 2 baris, bukan clickbait? Hook langsung bikin orang awam penasaran? Ada kutipan pendek kalau artikelnya punya? |
 | Judul berantai | Judul-judul saja sudah membentuk cerita? |
-| Orang asing | Tanpa buka web, penonton bisa menjawab: apa yang terjadi, kok bisa, terus kenapa? |
+| Orang asing | Tanpa buka web, penonton bisa menjawab: apa yang terjadi, kok bisa, terus kenapa? Reels: hasil uji ceritakan ulang (`reels-hook.md` bagian 0) sama dengan kalimat inti, tidak ada loncatan antar adegan, maks 3 angka. Skor ≤ 3 kalau gagal. |
 | Jargon | Semua istilah dijelaskan saat pertama muncul, pola "X atau Y"? Nol istilah sulit sebagai judul/label/kata kunci, termasuk istilah Inggris yang dibiarkan (aturan istilah sulit)? Skor ≤ 3 kalau masih ada. |
 | Angka | Satuan, waktu, pemilik klaim, pembanding lengkap? Sama persis dengan artikel? |
 | Atribusi | Setiap klaim punya pemiliknya, yang belum pasti ditulis belum pasti, pihak yang belum menanggapi disebut? |
