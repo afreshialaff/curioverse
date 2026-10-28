@@ -5,7 +5,7 @@
   "type": "reel",
   "made_by": "layar",
   "format": "bukti-satu-angka",
-  "caption": "",
+  "caption": "Tumpukan sampah plastik terbesar di Samudra Pasifik Utara bukan pulau yang bisa diinjak. Menurut Carey Morishige dari NOAA, badan kelautan dan atmosfer Amerika Serikat, area itu tidak terlihat dari foto satelit.\n\nArus samudra yang berputar pelan menggiring sampah ke tengah yang paling tenang. NOAA mengibaratkannya merica dalam sup: dihitung per keping, kebanyakan berupa mikroplastik atau serpihan di bawah 5 milimeter.\n\nStudi Lebreton dkk. (2018) memperkirakan isinya 1,8 triliun keping, setidaknya 79.000 ton. Mikroplastik 94% jumlah keping tapi cuma 8% berat, sementara jaring ikan setidaknya 46%. Menurut Dianna Parker dari NOAA, membersihkan kurang dari 1% Samudra Pasifik Utara butuh 67 kapal selama setahun.\n\nKamu tadinya membayangkan pulau, atau sup?\n\nSuara narator dibuat dengan AI (ElevenLabs).\n\nA curious mind lives here.\n\n#sampahplastik #mikroplastik #lautpasifik #lingkungan #curioverse",
   "media": [
     {
       "file": "reel.mp4"
@@ -27,5 +27,23 @@
   },
   "post": {
     "status": "queued"
+  },
+  "editor": {
+    "by": "corong",
+    "skor": {
+      "sampul": 4,
+      "judul_berantai": 5,
+      "orang_asing": 5,
+      "jargon": 4,
+      "angka": 5,
+      "atribusi": 5,
+      "bahasa": 5,
+      "visual": 5,
+      "tata_letak": 4,
+      "keterbacaan": 4,
+      "penutup": 5,
+      "caption": 4
+    },
+    "diubah": "Video tidak diubah (semua uji >= 4; teks layar cocok dengan naskah dan artikel; batang adegan 5 diukur dari frame). Menulis caption format BBC: 3 paragraf 102 kata + pertanyaan + keterangan VO AI (ElevenLabs) + penutup (119 kata sebelum hashtag), 5 hashtag."
   }
 }
