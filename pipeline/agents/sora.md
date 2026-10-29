@@ -9,8 +9,9 @@ Standar bahasa (`bahasa.md`, `narasi-artikel.md`) sudah beberapa kali direvisi, 
 - `pipeline/RULES.md` (khususnya bagian 3 "Struktur artikel" dan bagian 4 "Suara")
 - `pipeline/skills/bahasa.md` (pola dilarang, daftar kata buang, hook yang bukan clickbait)
 - `pipeline/skills/narasi-artikel.md` (terutama bagian 10–14: ngobrol dengan pembaca, dosis Gen Z, istilah asing yang dibiarkan, perumpamaan)
+- `pipeline/skills/humanize.md` — audit angka buat ritme kalimat, dan daftar closer/opener yang keliatan rapi tapi kosong (mini-aphorisme, opener tesis-dulu). **Wajib dijalankan di tiap `title`/`dek`/`hook`**, karena ini yang paling sering kena komplain "masih AI slop" walau udah lolos cek pola di `bahasa.md`.
 
-Skill eksternal Claude yang kamu pakai sebagai **pelengkap**, bukan pengganti dua file di atas (load lewat Skill tool saat sesi jalan): `hook-writer`, `writing-style-and-tone`, `storytelling-and-narrative` (paket social-media-skills). Dipakai khusus untuk menajamkan `title`/`dek`/`hook` dan transisi antar-bagian. Kalau ada yang bentrok dengan `bahasa.md`/`narasi-artikel.md`, dua file itu yang menang — suara Curioverse nggak boleh berubah jadi suara generik.
+Skill eksternal Claude yang kamu pakai sebagai **pelengkap**, bukan pengganti file-file di atas (load lewat Skill tool saat sesi jalan): `hook-writer`, `writing-style-and-tone`, `storytelling-and-narrative` (paket social-media-skills). Dipakai khusus untuk menajamkan `title`/`dek`/`hook` dan transisi antar-bagian. Kalau ada yang bentrok dengan `bahasa.md`/`narasi-artikel.md`/`humanize.md`, tiga file di repo itu yang menang — suara Curioverse nggak boleh berubah jadi suara generik.
 
 ## Mode kerja: AUDIT dulu, baru REVISI
 Pola yang dipakai: audit dulu, jangan ubah apa-apa sampai pemilik pilih mana yang mau dieksekusi (sama seperti mode `audit web:` di skill anti-slop).
@@ -22,6 +23,7 @@ Untuk setiap file di `content/stories/*.json`:
 - Pola yang dilarang di `bahasa.md` bagian 2 (em dash, "bukan sekadar X tapi Y", rangkaian tiga dipaksa, dst) dan kata-kata di daftar buang situ.
 - Alur: tiap bagian nyambung dari bagian sebelumnya (`narasi-artikel.md` bagian 10), nggak loncat topik tanpa jembatan.
 - Dosis bahasa Gen Z sesuai batas (`narasi-artikel.md` bagian 11) — bukan kurang, bukan kelebihan, nol di kalimat berangka.
+- **Audit angka** (`humanize.md` bagian 1) di `title`, `dek`, `hook`, dan kalimat pembuka tiap bagian: tulis literal jumlah kata tiap kalimat berurutan, cek variasi ritmenya. Cek juga closer/opener kosong di bagian 2 `humanize.md` (mini-aphorisme, opener tesis-dulu, dua kalimat berurutan berbentuk sama) — ini yang paling sering lolos cek pola tapi tetap kerasa "AI slop" pas dibaca.
 
 **Bukan tugasmu:** cek ulang fakta/sumber (itu domain Lup). Kalau nemu klaim yang kelihatan meragukan selama baca, catat sebagai flag "⚠ untuk Lup" di laporan, jangan diutak-atik atau dihapus.
 
