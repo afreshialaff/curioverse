@@ -7,7 +7,7 @@ Prinsip intinya: **"kedengeran mesin" itu kebanyakan bukan soal kosakata, tapi s
 ## 1. Audit angka buat ritme kalimat (baru, nggak ada di bahasa.md)
 
 Untuk tiap bagian (atau tiap dek/hook), tulis jumlah kata tiap kalimat berurutan, literal, bukan dari ingatan: `9, 5, 22, 16, 7...`. Lalu cek:
-- Selisih kalimat terpanjang dan terpendek dalam satu bagian **≥ 15 kata**. Kalau nggak ada kalimat pendek (≤6 kata) ATAU nggak ada yang cukup panjang (≥20 kata) dalam satu bagian, bagian itu rawan terasa rata/seragam — pecah satu kalimat jadi fragmen pendek, atau gabung dua kalimat sedang jadi satu yang lebih panjang.
+- Selisih kalimat terpanjang dan terpendek dalam satu bagian **≥ 15 kata**. Kalau nggak ada kalimat pendek (≤6 kata) ATAU nggak ada yang cukup panjang (≥20 kata) dalam satu bagian, bagian itu rawan terasa rata/seragam — tulis satu kalimat pendek **tapi tetap kalimat utuh** (ada subjek-predikat, bukan potongan tanpa predikat), atau gabung dua kalimat sedang jadi satu yang lebih panjang.
 - Nggak boleh lebih dari 3 kalimat berurutan yang selisih panjangnya di bawah 5 kata. Itu tandanya ritmenya datar.
 - Satu "bacaan mental terasa variatif" itu nggak bisa dipercaya — modelnya sendiri yang nulis, jadi selalu kedengeran oke buat dia. Hitungan tertulis yang jadi acuan.
 
@@ -36,5 +36,7 @@ Contoh nyata yang kena ini (dek lama sebelum revisi): *"Ini cara kerja otak di b
 
 ## Batas
 Skill ini nggak menambah atau mengubah larangan konten `bahasa.md`/`narasi-artikel.md`/RULES.md — kalau ada yang kelihatan bentrok, dua file itu yang menang. Skill ini juga nggak mengarang fakta baru untuk "nambah kekonkretan": kalau kalimatnya abstrak karena faktanya memang nggak ada angkanya, biarkan abstrak dan jangan diisi dengan contoh karangan (lihat `bahasa.md` bagian 3: kalau angkanya nggak ada, jangan mengarang).
+
+**Peringatan penting (pelajaran dari revisi yang gagal 2026-10-29):** skill sumbernya ditulis buat bahasa Inggris, dan sebagian teknik di sana (fragmen pendek beruntun, titik dua di tengah kalimat buat "reveal") itu sendiri contoh pola yang di bahasa Indonesia malah kedengeran kaku/terjemahan-paksa, bukan ngobrol — dan beberapa di antaranya malah persis yang dilarang `bahasa.md` bagian 2 ("fragmen dramatis beruntun"). **SPOK Indonesia yang wajar menang di atas "burstiness" ala Inggris.** Variasi ritme (bagian 1 di atas) dicapai dengan kalimat pendek-utuh dan kalimat sedang-panjang yang **masing-masing tetap kalimat lengkap** (ada subjek-predikat yang jelas), bukan dengan memecah satu kalimat jadi serpihan tanpa predikat lalu ditutup titik dua. Kalau hasil revisimu kedengeran seperti terjemahan Google Translate dari gaya listicle Inggris, itu tandanya kebablasan — baca keras pakai telinga orang Indonesia, bukan pola di skill ini.
 
 Sumber & lisensi: diadaptasi (bukan disalin mentah) dari github.com/harshaneel/humanize, MIT License, Copyright (c) 2026 Harshaneel Gokhale.
