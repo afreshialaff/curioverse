@@ -20,6 +20,11 @@ Agent-agent yang tiap hari bikin **tepat satu artikel baru** (dan satu post Inst
 
 `<tgl>` = tanggal hari itu di WIB, format `YYYY-MM-DD`.
 
+## Agent manual (di luar jadwal)
+| Agent | Peran | Dipanggil | Baca | Tulis |
+|---|---|---|---|---|
+| 🪚 **Asah** | Audit + revisi bahasa artikel yang **sudah terbit** (`content/stories/`), bawa ke standar `bahasa.md`/`narasi-artikel.md` terkini | Manual oleh pemilik, bukan `fire_trigger`/jadwal | `content/stories/*.json`, `RULES.md`, `skills/bahasa.md`, `skills/narasi-artikel.md` | `content/stories/<id>.json` (title/dek/hook/isi saja, `id` tetap), `belajar/asah.md` |
+
 ```
 backlog.md ──► Kompas ──brief──► Pena ──draf+notes──► Lup ──review──► Pena ──final──► Merpati ──► content/stories/ ──push main──► Vercel
                  ▲                                         │ TOLAK                                     │ lolos lebih dari kuota
