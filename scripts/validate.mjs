@@ -45,8 +45,9 @@ export function checkStory(j, { cats, pipeline = true, today = null } = {}) {
   if (cats && j.also && !cats[j.also]) e.push(`${id}: kategori tambahan "${j.also}" nggak dikenal`);
   if (j.date && !/^\d{4}-\d{2}-\d{2}$/.test(j.date)) e.push(`${id}: tanggal harus YYYY-MM-DD`);
   if (j.date && today && j.date > today) e.push(`${id}: tanggal ${j.date} masih di masa depan`);
-  if (j.title && j.title.length > RULES.maxTitle) e.push(`${id}: judul ${j.title.length} karakter (maks ${RULES.maxTitle})`);
-  if (j.dek && j.dek.length > RULES.maxDek) e.push(`${id}: dek ${j.dek.length} karakter (maks ${RULES.maxDek})`);
+  const bare = s => String(s || "").replace(/==|\*\*|\*/g, ""); // penanda miring/tebal/highlight nggak dihitung
+  if (j.title && bare(j.title).length > RULES.maxTitle) e.push(`${id}: judul ${bare(j.title).length} karakter (maks ${RULES.maxTitle})`);
+  if (j.dek && bare(j.dek).length > RULES.maxDek) e.push(`${id}: dek ${bare(j.dek).length} karakter (maks ${RULES.maxDek})`);
   if (j.hook && j.hook.length > RULES.maxHook) e.push(`${id}: hook ${j.hook.length} karakter (maks ${RULES.maxHook})`);
 
   const secs = Array.isArray(j.sections) ? j.sections : [];

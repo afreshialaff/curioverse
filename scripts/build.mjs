@@ -23,6 +23,11 @@ const fmtDate = d => { const [y, m, dd] = d.split("-").map(Number); return `${dd
 const words = a => (a.dek + " " + a.s.map(x => x[0] + " " + x[1].join(" ")).join(" ")).split(/\s+/).length;
 const mins = a => Math.max(1, Math.round(words(a) / 200));
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+// Penanda inline untuk isi artikel: *miring* (istilah asing, judul terbitan, kutipan asing), **tebal** (istilah kunci), ==highlight== (inti temuan).
+const rich = s => esc(s)
+  .replace(/==(.+?)==/g, "<mark>$1</mark>")
+  .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+  .replace(/\*(.+?)\*/g, "<em>$1</em>");
 const KNOWN_ICONS = ["finance","science","sejarah","biografi","market","saham","global","scam","lingkungan","psikologi","healthy","konspirasi","search","dice","close","moon","sun","menu","arrow","mail","instagram","threads","x","share","up"];
 const icon = (id, cls = "ico") => `<svg class="${cls}" aria-hidden="true"><use href="#i-${KNOWN_ICONS.includes(id) ? id : "topic"}"/></svg>`;
 // Category colours and labels come from content/categories.json, so new categories need no CSS or JS edits.
@@ -566,8 +571,8 @@ function story(a){
 <article class="story wrap">
   <div class="story-in">
     <nav class="crumb" aria-label="Breadcrumb"><a href="/">Beranda</a><span aria-hidden="true">/</span><a href="/explore?topik=${a.cat}">${CATS[a.cat].label}</a></nav>
-    <h1 class="display rv-mask"><span>${esc(a.title)}</span></h1>
-    <p class="dek rv">${esc(a.dek)}</p>
+    <h1 class="display rv-mask"><span>${rich(a.rt || a.title)}</span></h1>
+    <p class="dek rv">${rich(a.rd || a.dek)}</p>
     <div class="byline rv" style="--i:1">
       <span class="who"><span class="av" aria-hidden="true">A</span><span class="av" aria-hidden="true">L</span>Dikurasi oleh ${esc(CURATORS)}</span>
       <span class="meta"><time datetime="${a.date}">${fmtDate(a.date)}</time><span aria-hidden="true">·</span><span>${a.min} menit baca</span>${a.also ? `<span aria-hidden="true">·</span><a href="/explore?topik=${a.also}">juga di ${CATS[a.also].label}</a>` : ""}</span>
@@ -577,7 +582,7 @@ function story(a){
     <details class="toc"><summary>Isi cerita · ${a.s.length} bagian</summary><ol>${a.s.map((x, i) => `<li><a href="#bagian-${i + 1}">${esc(x[0])}</a></li>`).join("")}</ol></details>
     ${figure((IMAGES[a.id] || {}).hero, "story-fig story-hero", a.id)}
     <div class="body" data-article>
-      ${a.s.map((x, i) => `<h2 id="bagian-${i + 1}"><span class="kind" data-k="${kinds[i] || "fakta"}">${KIND_LABEL[kinds[i] || "fakta"]}</span>${esc(x[0])}</h2>${figure(((IMAGES[a.id] || {}).sections || {})[i])}${x[1].map(p => `<p>${esc(p)}</p>`).join("")}`).join("\n      ")}
+      ${a.s.map((x, i) => `<h2 id="bagian-${i + 1}"><span class="kind" data-k="${kinds[i] || "fakta"}">${KIND_LABEL[kinds[i] || "fakta"]}</span>${rich((a.rh && a.rh[i]) || x[0])}</h2>${figure(((IMAGES[a.id] || {}).sections || {})[i])}${x[1].map(p => `<p>${rich(p)}</p>`).join("")}`).join("\n      ")}
     </div>
     ${money ? `<p class="disc">Konten ini buat belajar dan nambah wawasan, bukan saran investasi atau keuangan.</p>` : ""}
     <section class="sources" aria-labelledby="h-src"><h2 id="h-src">Sumber &amp; bacaan lanjutan</h2>

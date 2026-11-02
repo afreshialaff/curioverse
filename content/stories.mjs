@@ -276,11 +276,14 @@ if (existsSync(STORY_DIR)) {
   for (const f of readdirSync(STORY_DIR).filter(f => f.endsWith(".json")).sort()) {
     const j = JSON.parse(readFileSync(join(STORY_DIR, f), "utf8"));
     j._file = "content/stories/" + f;
-    A.push({ id:j.id, cat:j.cat, ...(j.also ? { also:j.also } : {}), date:j.date, title:j.title, dek:j.dek, tags:j.tags,
-      s:(j.sections || []).map(x => [x.h, x.p]), _file:j._file });
+    // Penanda inline (*miring*, **tebal**, ==highlight==) hanya dirender di halaman artikel.
+    // Judul, dek, dan subjudul versi bersih dipakai di kartu, pencarian, meta, dan RSS; versi berpenanda disimpan di rt/rd/rh.
+    const plain = s => String(s ?? "").replace(/==|\*\*|\*/g, "");
+    A.push({ id:j.id, cat:j.cat, ...(j.also ? { also:j.also } : {}), date:j.date, title:plain(j.title), dek:plain(j.dek), tags:j.tags,
+      s:(j.sections || []).map(x => [plain(x.h), x.p]), rt:j.title, rd:j.dek, rh:(j.sections || []).map(x => x.h), _file:j._file });
     KINDS[j.id] = Object.fromEntries((j.sections || []).map((x, i) => [i, x.kind || "fakta"]).filter(([, k]) => k !== "fakta"));
     SOURCES[j.id] = j.sources || [];
-    if (j.hook) HOOKS.push({ id:j.id, t:j.hook });
+    if (j.hook) HOOKS.push({ id:j.id, t:plain(j.hook) });
     if (j.path) { const h = HOLES.find(h => h.id === j.path); if (h && !h.ids.includes(j.id)) h.ids.push(j.id); }
     const secImg = Object.fromEntries((j.sections || []).map((x, i) => [i, x.img]).filter(([, v]) => v));
     if (j.image || Object.keys(secImg).length) IMAGES[j.id] = { hero:j.image, sections:secImg };

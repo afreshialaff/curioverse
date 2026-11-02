@@ -441,6 +441,11 @@ a.scrap:hover,.scrap.hov:hover{transform:rotate(0deg) translateY(-6px); box-shad
 .body h2{margin-top:56px; margin-bottom:4px; display:grid; gap:14px; justify-items:start; font-size:clamp(32px, 3vw, 42px); line-height:1.06}
 .body p{margin-top:18px; font-size:19px; line-height:1.75; color:var(--ink); max-width:66ch}
 @media (max-width:600px){ .body p{font-size:18px; line-height:1.7} }
+/* Penanda inline artikel: tebal untuk istilah kunci, miring untuk istilah asing dan judul terbitan, highlight untuk inti temuan. */
+.body strong{font-weight:650; color:var(--ink)}
+.body em, .story .dek em, .story .display em{font-style:italic}
+.body mark{color:inherit; background:linear-gradient(transparent 46%, color-mix(in srgb, var(--gold) 40%, transparent) 46%); padding:0 .14em; margin:0 -.04em; border-radius:2px; -webkit-box-decoration-break:clone; box-decoration-break:clone}
+@media (forced-colors:active){ .body mark{background:Mark; color:MarkText} }
 .disc{margin-top:32px; font-size:15px; color:var(--ink-2); padding:16px 20px; border-radius:6px; background:var(--soft)}
 .sources{margin-top:56px; padding-top:24px; border-top:1px solid var(--line)}
 .sources h2{font-size:32px}
