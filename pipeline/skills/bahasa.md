@@ -99,3 +99,8 @@ Berlaku untuk semua agen penulis dan penyunting, khusus artikel web.
 - Jangan pakai istilah teknis atau nama konsep di depan judul ("Dark triad:", "Efek halo:", "Great Pacific Garbage Patch:"). Konsepnya boleh muncul di belakang sebagai jawaban ("... Ini yang disebut efek halo").
 - Jangan pakai frasa kiasan yang butuh ditebak ("angka iklan", "nama pedometer"). Sebut langsung hal konkretnya: siapa, apa, kenapa.
 - Uji: kalau teman yang nggak ngikutin topiknya bingung pada bacaan pertama, tulis ulang. Batas panjang tetap 95 karakter.
+
+## 11. Dek yang gampang dicerna (perintah pemilik 2026-11-03)
+- Dek maksimal dua sampai tiga kalimat pendek. Satu kalimat, satu ide.
+- Jangan menjejalkan daftar isi ("Ini mekanismenya, seberapa kecil angkanya, dan kenapa ...") dan jangan menumpuk lebih dari satu istilah teknis. Istilah sulit diberi penjelasan singkat dalam kurung saat pertama muncul.
+- Uji: bisa dibaca sekali jalan oleh orang yang belum tahu topiknya, tanpa perlu membaca ulang.
