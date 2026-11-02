@@ -104,3 +104,8 @@ Berlaku untuk semua agen penulis dan penyunting, khusus artikel web.
 - Dek maksimal dua sampai tiga kalimat pendek. Satu kalimat, satu ide.
 - Jangan menjejalkan daftar isi ("Ini mekanismenya, seberapa kecil angkanya, dan kenapa ...") dan jangan menumpuk lebih dari satu istilah teknis. Istilah sulit diberi penjelasan singkat dalam kurung saat pertama muncul.
 - Uji: bisa dibaca sekali jalan oleh orang yang belum tahu topiknya, tanpa perlu membaca ulang.
+
+## 12. Hindari frasa hasil terjemahan harfiah (perintah pemilik 2026-11-03)
+- Kalau sebuah kalimat terasa seperti terjemahan Inggris ("satuan bercanda" dari *mock unit*, "membuka kartunya" dari *reveal the cards*, "kata benda" untuk istilah yang jadi sebutan umum, "variasi kinerja", "penalti", "lapisan kredibilitas", "naikkan level skeptismu"), ganti dengan padanan Indonesia yang dipakai orang sehari-hari: "satuan main-main, bukan satuan resmi", "mengungkap kebenarannya", "sebutan umum", "perbedaan kinerja", "potongan gaji", "makin dipercaya", "tambah kecurigaanmu".
+- Istilah teknis yang memang tidak punya padanan sehari-hari (hazard ratio, base rate, locus of control) tetap boleh dipakai, tapi harus langsung diberi arti singkat dengan kata biasa saat pertama muncul.
+- Uji: baca kalimatnya keras-keras. Kalau terdengar seperti subtitle film, tulis ulang seperti ngobrol.

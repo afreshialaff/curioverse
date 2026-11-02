@@ -28,7 +28,7 @@
       "h": "Mesinnya: uang, tenggat, dan pabrik",
       "p": [
         "Di AS, mesin itu punya nama. National Defense Research Committee (NDRC) dibentuk Juni 1940 atas usul Vannevar Bush, lalu berkembang jadi Office of Scientific Research and Development (OSRD). Menurut ekonom Daniel Gross dan Bhaven Sampat di NBER Reporter, lembaga ini tumbuh dari inti delapan orang jadi badan pendanaan berisi 1.500 orang dengan anggaran miliaran dolar.",
-        "Resepnya ada tiga. Pertama, fokus terapan: riset krisis memakai 'basic knowledge at hand', pengetahuan dasar yang sudah ada, bukan menunggu teori baru. Kedua, banyak 'moonshot' dikerjakan bersamaan lalu dikelola dari pusat. Ketiga, laboratorium, pilot plant, dan pabrik disambungkan langsung.",
+        "Resepnya ada tiga. Pertama, fokus terapan: riset krisis memakai 'basic knowledge at hand', pengetahuan dasar yang sudah ada, bukan menunggu teori baru. Kedua, banyak proyek nekat berambisi besar ('moonshot') dikerjakan bersamaan lalu dikelola dari pusat. Ketiga, laboratorium, pabrik percobaan, dan pabrik disambungkan langsung.",
         "Perang juga memaksa negara berbagi. Dana Inggris terbatas dan pabriknya tidak sanggup memproduksi magnetron secara massal dalam jumlah yang dibutuhkan. Karena itu, Winston Churchill setuju desain magnetron ditawarkan ke Amerika. Magnetron dibawa lewat Misi Tizard pada September 1940, desainnya langsung diadopsi untuk produksi massal, dan Bell Labs mulai membuat salinannya."
       ]
     },
@@ -43,8 +43,8 @@
     {
       "h": "Jejak 2: penisilin, dari jamur ke tangki raksasa",
       "p": [
-        "Alexander Fleming menemukan penisilin pada 1928. Masalahnya, membuatnya dalam jumlah besar sangat susah. Pada Juli 1941, ilmuwan Oxford Howard Florey dan Norman Heatley datang ke laboratorium USDA di Peoria, Illinois. Dengan bantuan Heatley, Andrew Moyer menaikkan hasil penisilin 10 kali lipat sampai 26 November 1941, salah satunya dengan corn steep liquor, produk sampingan penggilingan jagung basah.",
-        "Meski begitu, sampai Maret 1942 empat perusahaan obat AS baru menghasilkan penisilin yang cukup untuk satu pasien. Setahun sebelum D-Day, War Production Board membuat rencana agar ada cukup penisilin untuk semua tentara Sekutu. Strain unggul ditemukan dari cantaloupe berjamur di Peoria, NRRL 1951, yang jadi induk semua strain komersial.",
+        "Alexander Fleming menemukan penisilin pada 1928. Masalahnya, membuatnya dalam jumlah besar sangat susah. Pada Juli 1941, ilmuwan Oxford Howard Florey dan Norman Heatley datang ke laboratorium USDA di Peoria, Illinois. Dengan bantuan Heatley, Andrew Moyer menaikkan hasil penisilin 10 kali lipat sampai 26 November 1941, salah satunya dengan cairan rendaman jagung (*corn steep liquor*), produk sampingan penggilingan jagung basah.",
+        "Meski begitu, sampai Maret 1942 empat perusahaan obat AS baru menghasilkan penisilin yang cukup untuk satu pasien. Setahun sebelum D-Day, War Production Board membuat rencana agar ada cukup penisilin untuk semua tentara Sekutu. Galur unggul ditemukan dari cantaloupe berjamur di Peoria, NRRL 1951, yang jadi induk semua galur komersial.",
         "Pfizer kemudian membeli bekas pabrik es di Brooklyn pada awal 1943 dan mengisinya dengan 14 tangki fermentasi berkapasitas masing-masing 28.400 liter. Gampangnya seperti membuat tape atau yoghurt dalam skala raksasa: mikroba diberi makan dan suhu yang pas, lalu menghasilkan sesuatu. Bedanya, yang dihasilkan di sini obat. Pabrik itu jalan dalam empat bulan, lebih cepat dari tenggat enam bulan. Menurut majalah The Chemical Engineer, 90% penisilin yang menyertai pendaratan Sekutu pada D-Day, 6 Juni 1944, dibuat Pfizer."
       ]
     },
@@ -61,7 +61,7 @@
       "h": "Jejak 4: Perang Dingin di HP-mu",
       "p": [
         "GPS lahir dari meja perencana Departemen Pertahanan AS, yang menggabungkan beberapa program navigasi jadi satu sistem. Pengembangan komponennya dimulai pada 1973, dikelola Joint Program Office di bawah Angkatan Udara. Plot twist-nya terjadi 1 September 1983. Pesawat Korean Air Lines 007 dari Anchorage ke Seoul tersasar ke wilayah udara Soviet dan ditembak jatuh, menewaskan 269 orang. Presiden Ronald Reagan lalu menegaskan GPS akan tersedia gratis bagi pengguna sipil di seluruh dunia.",
-        "Menurut GPS.gov, sinyal publiknya sempat sengaja diturunkan akurasinya demi keamanan nasional, lewat fitur bernama Selective Availability. Fitur itu dimatikan atas perintah Presiden Bill Clinton pada 1 Mei 2000. Hari ini, menurut GPS.gov, sinyal sipil GPS gratis untuk semua orang, dioperasikan U.S. Space Force dengan konstelasi nominal 24 satelit.",
+        "Menurut GPS.gov, sinyal publiknya sempat sengaja diturunkan akurasinya demi keamanan nasional, lewat fitur bernama Selective Availability. Fitur itu dimatikan atas perintah Presiden Bill Clinton pada 1 Mei 2000. Hari ini, menurut GPS.gov, sinyal sipil GPS gratis untuk semua orang, dioperasikan U.S. Space Force dengan rangkaian standar 24 satelit.",
         "Internet punya cerita serupa. ARPANET didanai ARPA (kini DARPA), lembaga riset pertahanan AS yang berdiri sejak 1958. Pada September 1969, perusahaan BBN memasang perangkat jaringan (IMP) pertama di UCLA, dan pada 29 Oktober 1969 sinyal komputer-ke-komputer pertama dikirim dari UCLA ke Stanford Research Institute."
       ]
     },
@@ -78,7 +78,7 @@
       "kind": "interpretasi",
       "p": [
         "Kalau dilihat tanggalnya, banyak ide intinya sudah ada sebelum perang. Penisilin ditemukan 1928. Whittle mematenkan mesin jet pada 1930, Hans von Ohain di Jerman pada 1935, dan pesawat jet He 178 sudah terbang 27 Agustus 1939, seminggu sebelum Inggris menyatakan perang. Visi jaringan 'Galactic Network' dari J.C.R. Licklider pada 1962 bicara soal interaksi sosial lewat jaringan komputer. Masuk akal untuk menduga sebagian besar teknologi ini tetap akan lahir, hanya mungkin lebih lambat.",
-        "Perang juga bisa mengerem. Gross dan Sampat mencatat, di bidang-bidang yang terkena perintah rahasia, lebih dari separuh paten, kadang sampai 90%, 'menghilang' dari publik di puncak perang. Riset Gross menemukan kerahasiaan ini menghambat komersialisasi dan memperlambat inovasi lanjutan.",
+        "Perang juga bisa mengerem. Gross dan Sampat mencatat, di bidang-bidang yang terkena perintah rahasia, lebih dari separuh paten, kadang sampai 90%, 'menghilang' dari publik di puncak perang. Riset Gross menemukan kerahasiaan ini menghambat produknya dipasarkan dan memperlambat inovasi lanjutan.",
         "Lalu ada harga yang tidak bisa ditukar dengan gadget apa pun. Tabel National WWII Museum mencantumkan sekitar 15 juta kematian di medan tempur dan 45 juta kematian warga sipil di Perang Dunia II, dan museum itu sendiri mengingatkan bahwa estimasinya sangat beragam. Dan ingat ENIAC tadi: salah satu tugas pertamanya adalah menghitung reaksi termonuklir pada Desember 1945."
       ]
     },
@@ -86,7 +86,7 @@
       "h": "Kenapa ini penting buat kamu",
       "kind": "opini",
       "p": [
-        "Jujurly, perang sendiri nggak nemuin microwave, penisilin, atau GPS. Yang perang kasih adalah dana besar, masalah yang jelas, dan jalur pendek dari lab ke pabrik, resep yang sama kayak OSRD pakai tahun 1940-an. Menurut temuan awal Gross dan Sampat, jejak resep itu bertahan puluhan tahun lewat klaster teknologi seperti Boston/Route 128 dan Silicon Valley.",
+        "Jujurly, perang sendiri nggak nemuin microwave, penisilin, atau GPS. Yang perang kasih adalah dana besar, masalah yang jelas, dan jalur pendek dari lab ke pabrik, resep yang sama kayak OSRD pakai tahun 1940-an. Menurut temuan awal Gross dan Sampat, jejak resep itu bertahan puluhan tahun lewat kawasan pusat teknologi seperti Boston/Route 128 dan Silicon Valley.",
         "Microwave-mu bisa motong waktu masak karena dulu ada yang dipaksa bikin magnetron secara massal dalam hitungan bulan. GPS di HP-mu gratis karena satu pesawat penumpang ditembak jatuh tahun 1983, dan Reagan menegaskannya terbuka buat sipil. Resep yang sama bisa dipakai tanpa bom, asal ada yang berani menganggap masalah damai, seperti penyakit atau krisis iklim, semendesak itu."
       ]
     }
