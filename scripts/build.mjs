@@ -23,6 +23,11 @@ const fmtDate = d => { const [y, m, dd] = d.split("-").map(Number); return `${dd
 const words = a => (a.dek + " " + a.s.map(x => x[0] + " " + x[1].join(" ")).join(" ")).split(/\s+/).length;
 const mins = a => Math.max(1, Math.round(words(a) / 200));
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+// Inline formatting for story paragraphs: **tebal**, *miring*, ==highlight==. Escapes first, so raw HTML never leaks in.
+const fmt = s => esc(s)
+  .replace(/==(?=\S)(.+?)(?<=\S)==/g, "<mark>$1</mark>")
+  .replace(/\*\*(?=\S)(.+?)(?<=\S)\*\*/g, "<strong>$1</strong>")
+  .replace(/(^|[^*\w])\*(?=\S)([^*]+?)(?<=\S)\*(?![*\w])/g, "$1<em>$2</em>");
 const KNOWN_ICONS = ["finance","science","sejarah","biografi","market","saham","global","scam","lingkungan","psikologi","healthy","konspirasi","search","dice","close","moon","sun","menu","arrow","mail","instagram","threads","x","share","up"];
 const icon = (id, cls = "ico") => `<svg class="${cls}" aria-hidden="true"><use href="#i-${KNOWN_ICONS.includes(id) ? id : "topic"}"/></svg>`;
 // Category colours and labels come from content/categories.json, so new categories need no CSS or JS edits.
@@ -577,7 +582,7 @@ function story(a){
     <details class="toc"><summary>Isi cerita · ${a.s.length} bagian</summary><ol>${a.s.map((x, i) => `<li><a href="#bagian-${i + 1}">${esc(x[0])}</a></li>`).join("")}</ol></details>
     ${figure((IMAGES[a.id] || {}).hero, "story-fig story-hero", a.id)}
     <div class="body" data-article>
-      ${a.s.map((x, i) => `<h2 id="bagian-${i + 1}"><span class="kind" data-k="${kinds[i] || "fakta"}">${KIND_LABEL[kinds[i] || "fakta"]}</span>${esc(x[0])}</h2>${figure(((IMAGES[a.id] || {}).sections || {})[i])}${x[1].map(p => `<p>${esc(p)}</p>`).join("")}`).join("\n      ")}
+      ${a.s.map((x, i) => `<h2 id="bagian-${i + 1}"><span class="kind" data-k="${kinds[i] || "fakta"}">${KIND_LABEL[kinds[i] || "fakta"]}</span>${esc(x[0])}</h2>${figure(((IMAGES[a.id] || {}).sections || {})[i])}${x[1].map(p => `<p>${fmt(p)}</p>`).join("")}`).join("\n      ")}
     </div>
     ${money ? `<p class="disc">Konten ini buat belajar dan nambah wawasan, bukan saran investasi atau keuangan.</p>` : ""}
     <section class="sources" aria-labelledby="h-src"><h2 id="h-src">Sumber &amp; bacaan lanjutan</h2>

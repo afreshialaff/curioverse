@@ -17,7 +17,7 @@
   --gold:#A67C52; --gold-text:#7A5532; --blue:#5B7C9A; --blue-text:#46647F; --up:#3F4A3B; --down:#9A3F2B;
   --night:#1F1E1A; --night-2:#2B2924; --on-night:#EFE8DA; --on-night-2:#C8BFAD;
   --tape:rgba(166,124,82,.34); --tape-2:rgba(91,124,154,.28);
-  --glass:rgba(244,239,230,.82); --select:#D9C3A4;
+  --glass:rgba(244,239,230,.82); --select:#D9C3A4; --hl:rgba(214,170,92,.42);
   --lift:0 1px 1px rgba(27,26,23,.06), 0 10px 24px -14px rgba(27,26,23,.38);
   --lift-hi:0 2px 3px rgba(27,26,23,.08), 0 24px 44px -20px rgba(27,26,23,.45);
   --c-finance:#A67C52; --c-science:#5B7C9A; --c-sejarah:#3F4A3B; --c-biografi:#1B1A17; --c-market:#7A5532; --c-saham:#9A3F2B; --c-global:#5C5649; --c-scam:#7A4560;
@@ -48,7 +48,7 @@
   --gold:#C9A27A; --gold-text:#D6B38C; --blue:#93B3CF; --blue-text:#93B3CF; --up:#9DB08F; --down:#E08A6E;
   --night:#2C2A25; --night-2:#36332D; --on-night:#EFE8DA; --on-night-2:#C8BFAD;
   --tape:rgba(201,162,122,.3); --tape-2:rgba(147,179,207,.24);
-  --glass:rgba(37,35,30,.84); --select:#4A3D2C;
+  --glass:rgba(37,35,30,.84); --select:#4A3D2C; --hl:rgba(201,162,122,.32);
   --lift:0 1px 1px rgba(0,0,0,.25), 0 10px 24px -14px rgba(0,0,0,.7); --lift-hi:0 2px 3px rgba(0,0,0,.3), 0 24px 44px -20px rgba(0,0,0,.8);
   --c-finance:#C9A27A; --c-science:#93B3CF; --c-sejarah:#9DB08F; --c-biografi:#EFE8DA; --c-market:#D6B38C; --c-saham:#E08A6E; --c-global:#ABA291; --c-scam:#D3A3BC;
   --k-fakta:#9DB08F; --k-interpretasi:#93B3CF; --k-opini:#D6B38C;
@@ -61,7 +61,7 @@
   --gold:#C9A27A; --gold-text:#D6B38C; --blue:#93B3CF; --blue-text:#93B3CF; --up:#9DB08F; --down:#E08A6E;
   --night:#2C2A25; --night-2:#36332D; --on-night:#EFE8DA; --on-night-2:#C8BFAD;
   --tape:rgba(201,162,122,.3); --tape-2:rgba(147,179,207,.24);
-  --glass:rgba(37,35,30,.84); --select:#4A3D2C;
+  --glass:rgba(37,35,30,.84); --select:#4A3D2C; --hl:rgba(201,162,122,.32);
   --lift:0 1px 1px rgba(0,0,0,.25), 0 10px 24px -14px rgba(0,0,0,.7); --lift-hi:0 2px 3px rgba(0,0,0,.3), 0 24px 44px -20px rgba(0,0,0,.8);
   --c-finance:#C9A27A; --c-science:#93B3CF; --c-sejarah:#9DB08F; --c-biografi:#EFE8DA; --c-market:#D6B38C; --c-saham:#E08A6E; --c-global:#ABA291; --c-scam:#D3A3BC;
   --k-fakta:#9DB08F; --k-interpretasi:#93B3CF; --k-opini:#D6B38C;
@@ -439,8 +439,11 @@ a.scrap:hover,.scrap.hov:hover{transform:rotate(0deg) translateY(-6px); box-shad
 .toc a{display:block; padding:10px 0; min-height:44px}
 .toc a:hover{color:var(--gold-text)}
 .body h2{margin-top:56px; margin-bottom:4px; display:grid; gap:14px; justify-items:start; font-size:clamp(32px, 3vw, 42px); line-height:1.06}
-.body p{margin-top:18px; font-size:19px; line-height:1.75; color:var(--ink); max-width:66ch}
-@media (max-width:600px){ .body p{font-size:18px; line-height:1.7} }
+.body p{margin-top:18px; font-size:19px; line-height:1.75; color:var(--ink); max-width:66ch; text-align:justify; text-justify:inter-word; hyphens:auto; -webkit-hyphens:auto; overflow-wrap:break-word; hanging-punctuation:first}
+@media (max-width:600px){ .body p{font-size:18px; line-height:1.7; max-width:none; text-wrap:pretty} }
+.body strong{font-weight:700; color:var(--ink)}
+.body em{font-style:italic}
+.body mark{background:linear-gradient(transparent 12%, var(--hl) 12%, var(--hl) 88%, transparent 88%); color:inherit; padding:0 .18em; margin:0 -.04em; border-radius:.2em; -webkit-box-decoration-break:clone; box-decoration-break:clone}
 .disc{margin-top:32px; font-size:15px; color:var(--ink-2); padding:16px 20px; border-radius:6px; background:var(--soft)}
 .sources{margin-top:56px; padding-top:24px; border-top:1px solid var(--line)}
 .sources h2{font-size:32px}

@@ -37,5 +37,7 @@ Kalau domain berubah, set env `SITE_URL` di Vercel supaya canonical URL dan site
 3. Kalau masuk reading path, tambahkan `id`-nya ke `HOLES`.
 4. Push. Vercel build ulang sendiri.
 
+Format di paragraf cerita: `**tebal**`, `*miring*`, `==highlight==`. Paragraf artikel tampil rata kanan-kiri (justify) di ponsel dan desktop.
+
 ## Bahasa visual
 Tema sketchbook: jurnal rasa ingin tahu dengan kertas sobek, washi tape, catatan tulisan tangan (Caveat), fase bulan, dan band hijau bergelombang, dalam palet Curioverse (Parchment, Midnight Ink, Moss, Sepia Gold, Dusk Blue). Heading Instrument Serif, teks Inter Tight 18px. Motion dari afreshia.vercel.app tetap dipakai: Lenis, reveal mask, slide bertumpuk, track horizontal ter-pin, indikator nav, menu lingkaran. Tiap cerita tampil dengan sampulnya (gambar utama) di semua daftar; kartu sampul melebar jadi foto utama saat cerita dibuka (View Transitions, otomatis mati kalau pengguna memilih reduced motion). Hook pembuka di beranda mengambil satu fakta acak dari `HOOKS` di `content/stories.mjs`, dan tiga artikel unggulan diatur lewat `PICKS`.

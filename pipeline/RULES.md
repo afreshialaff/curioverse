@@ -26,6 +26,7 @@ Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 - Minimal **4 bagian** (`sections`) dan **700 kata**. Target ideal 900–1.400 kata. Lebih panjang boleh kalau tetap padat.
 - Bagian yang isinya analisis diberi `"kind":"interpretasi"`, pendapat kita diberi `"kind":"opini"`. Default fakta.
 - **Gambar wajib** 🤖: `image` = gambar utama (minimal satu media per artikel). Opsional `img` di 1–2 bagian. Semua gambar berlisensi terbuka (lihat bagian 3b). Kalau tulisan memakai perumpamaan atau menjelaskan proses, bagian itu **harus** punya `img` ilustrasi yang menggambarkannya, boleh beranimasi (revisi pemilik 2026-10-23; aturan di `skills/narasi-artikel.md` bagian 13–14).
+- **Format teks di paragraf (`p`)**: `**tebal**` untuk istilah kunci, `*miring*` untuk istilah asing/judul karya, `==highlight==` untuk satu kalimat paling penting di bagian itu. Hemat: maksimal satu highlight per bagian, dan jangan dipakai di `title`, `dek`, `hook`, atau `h` (di sana tanda bintangnya akan tampil apa adanya).
 - Alur yang disarankan: **hook** (kenapa harus peduli) → **konteks** → **inti/mekanisme** (bagian paling daging) → **plot twist / mitos vs fakta** → **so what** (relevansi buat pembaca hari ini).
 
 ## 3b. Gambar 🤖
