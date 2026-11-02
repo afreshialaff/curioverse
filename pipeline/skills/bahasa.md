@@ -85,3 +85,11 @@ Terjemahan yang kaku terdengar seperti mesin. Berlaku untuk semua agen penulis.
 ## 8. Istilah asing yang dibiarkan (perintah pemilik 2026-10-23)
 Berlaku untuk semua agen penulis dan penyunting. Jangan memaksa terjemahan atau padanan baku kalau hasilnya terdengar aneh atau tidak dipakai orang. Contoh: *Occam's razor* dibiarkan, bukan "pisau Occam" atau "pisau Ockham". Pertimbangkan dulu dengan tiga pertanyaan di `narasi-artikel.md` bagian 12. Kalau dibiarkan, tulis miring saat pertama muncul, jelaskan sekali dengan bahasa sehari-hari, lalu konsisten. Aturan "kata baku sesuai KBBI" kalah dari aturan ini kalau penggantinya membuat kalimat kaku.
 **Pengecualian Instagram (perintah pemilik 2026-10-23, sore):** di slide, Reels, dan caption, istilah sulit seperti *Occam's razor* jangan dipakai sama sekali sebagai judul/label/kata kunci, dalam bahasa apa pun. Tulis maksudnya dengan bahasa sehari-hari. Lihat `social-copy.md` aturan istilah sulit.
+
+## 9. Sapaan untuk pakar: "beliau" (perintah pemilik 2026-11-03)
+Berlaku untuk semua agen penulis dan penyunting, khusus artikel web.
+- Pakar, ilmuwan, dan tokoh keahlian yang jadi subjek atau sumber artikel disebut **"beliau"** setiap kali kata ganti dipakai ("dia" diganti "beliau"). Contoh: "Beliau meraih gelar doktor pada 1965", "kesimpulan beliau berdua". Dua pakar sekaligus: "beliau berdua".
+- Nama lengkap tetap ditulis saat pertama muncul, lalu nama pendek atau "beliau" bergantian. Jangan memakai "beliau" tiga kali berturut-turut dalam satu kalimat.
+- Kalau ada dua orang di satu kalimat dan "beliau" bisa ambigu, tulis namanya.
+- Tidak berlaku untuk pelaku kejahatan, penipu, atau tokoh yang bukan pakar (contoh: Ponzi, Lustig, Abagnale tetap "dia"). Jangan menambahkan "beliau" ke kutipan langsung dari sumber.
+- Slide, Reels, dan caption mengikuti aturan terpisah di `social-copy.md`; "beliau" tidak wajib di sana.

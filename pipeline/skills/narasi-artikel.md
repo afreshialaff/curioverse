@@ -99,6 +99,16 @@ Topik yang abstrak atau teknis wajib punya **satu perumpamaan utama** (boleh dua
 - Perumpamaan bukan pengganti fakta. Klaim tentang konsepnya tetap butuh sumber dan baris di `notes/`; perumpamaannya sendiri ditandai di notes sebagai `- perumpamaan: <A> = <B>` supaya Lup bisa menilai ketepatannya.
 - Jangan pakai perumpamaan yang sudah basi atau terlalu klise tanpa sisi baru, dan jangan campur dua perumpamaan di satu bagian.
 
+## 13b. Analogi wajib untuk setiap penjelasan ilmiah (perintah pemilik 2026-11-03)
+
+Setiap kalimat atau paragraf yang menjelaskan konsep ilmiah atau teknis (mekanisme, proses, istilah sains, cara kerja teknologi, rumus, fenomena alam) **wajib** diikuti analogi ke hal yang **MUDAH BANGET DIPAHAMI**, tingkat benda atau kejadian yang dialami semua orang.
+
+- **Tingkat kalimat.** Taruh tepat setelah klaim ilmiahnya, 1 sampai 3 kalimat, diawali penanda seperti "Gambaran gampangnya:", "Ibaratnya", atau "Gampangnya seperti". Satu konsep ilmiah baru = satu analogi. Jangan menumpuk dua analogi untuk konsep yang sama.
+- **Pilih yang paling remeh dan paling dikenal:** klip kertas ditekuk bolak-balik, senter ke tirai renda, setir mobil vs game balap, papan loncat kolam renang, tangga spiral, gali lubang tutup lubang. Hindari analogi yang butuh pengetahuan khusus (mesin, kimia, finansial) untuk dipahami.
+- **Pemetaan dan batas tetap wajib** seperti bagian 13: sebut apa = apa, lalu satu kalimat "Bedanya, ..." supaya analogi tidak menyesatkan. Analogi tidak boleh membawa klaim baru; akurasi konsep aslinya tetap dari sumber.
+- **Beda dengan perumpamaan utama (bagian 13–14).** Perumpamaan utama per bagian tetap wajib punya visual `img`. Analogi tingkat kalimat boleh tanpa visual. Waktu Sora merevisi artikel lama, analogi ditambahkan sebagai teks saja; kalau butuh visual, tulis sebagai usulan ke pemilik, jangan menyentuh `img` tanpa persetujuan.
+- Tes: baca analogi ke orang yang nggak belajar bidang itu. Kalau dia masih tanya "maksudnya apa?", ganti dengan analogi yang lebih remeh.
+
 ## 14. Visual yang ikut menjelaskan isi paragraf
 
 Aturan minimal satu gambar di artikel tetap berlaku (`image`). Tambahannya: **visual mengikuti tulisan**, bukan sekadar dekorasi.

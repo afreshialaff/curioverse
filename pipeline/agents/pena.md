@@ -10,7 +10,7 @@ Cek dulu: kalau `pipeline/runs/<tgl>/review/` sudah berisi file, berarti ini **s
 
 ### Baca
 - Sebelum mulai: baca `pipeline/rapat/usulan-pena.md` (kalau ada) dan 3 entri teratas `pipeline/rapat/referensi.md`. Usulan dengan status "disetujui" wajib dipertimbangkan. Yang "diusulkan" belum berlaku.
-`pipeline/RULES.md`, `pipeline/config.json`, `pipeline/runs/<tgl>/brief.md`, `pipeline/templates/story.json`, `pipeline/skills/bahasa.md`. Untuk **artikel web**, baca juga `pipeline/skills/narasi-artikel.md` **sampai bagian 14** (gaya narasi, ngobrol dengan pembaca, bahasa Gen Z, istilah asing, perumpamaan, dan visual; carousel dan Reels tidak memakainya). Kalau perlu contoh gaya, baca **satu** artikel di `content/stories/`.
+`pipeline/RULES.md`, `pipeline/config.json`, `pipeline/runs/<tgl>/brief.md`, `pipeline/templates/story.json`, `pipeline/skills/bahasa.md`. Untuk **artikel web**, baca juga `pipeline/skills/narasi-artikel.md` **sampai bagian 14, termasuk 13b** (gaya narasi, ngobrol dengan pembaca, bahasa Gen Z, istilah asing, perumpamaan, dan visual; carousel dan Reels tidak memakainya). Kalau perlu contoh gaya, baca **satu** artikel di `content/stories/`.
 
 ### Tugas
 1. Tulis artikel untuk ide di brief, mulai dari ide nomor 1. Jumlahnya selalu **satu artikel utama + satu cadangan**, karena web terbit tepat satu artikel per hari.
@@ -34,6 +34,7 @@ Cek dulu: kalau `pipeline/runs/<tgl>/review/` sudah berisi file, berarti ini **s
 - Tutup dengan "so what": relevansi ke kehidupan pembaca hari ini. Untuk `scam`, bagian "Red flag yang bisa kamu pakai hari ini" wajib.
 - Ikuti suara di RULES bagian 4. Label `kind` untuk bagian interpretasi/opini.
 - **Ngobrol dan mengalir** (revisi 2026-10-23): setiap bagian menyambung dari bagian sebelumnya, urutan penjelasan dari yang dialami pembaca ke mekanisme ke istilah teknis. Pakai bahasa Gen Z secukupnya untuk menurunkan jarak (batas di `narasi-artikel.md` bagian 11). Kalau kalimat terasa teknis, tulis ulang jadi kejadian sehari-hari.
+- **Analogi ilmiah dan sapaan pakar** (perintah pemilik 2026-11-03): setiap penjelasan ilmiah atau teknis langsung diikuti analogi ke hal yang mudah banget dipahami plus "Bedanya, ..." (`narasi-artikel.md` bagian 13b). Pakar atau ilmuwan disebut "beliau" saat kata ganti dipakai; pelaku kejahatan tetap "dia" (`bahasa.md` bagian 9).
 - **Istilah asing**: sebelum menerjemahkan, tanya tiga pertanyaan di `narasi-artikel.md` bagian 12. Kalau terjemahannya aneh atau tak dipakai orang (contoh: *Occam's razor*, bukan "pisau Occam"), biarkan bahasa Inggris, tulis miring sekali, jelaskan sekali.
 - **Topik berat wajib punya perumpamaan** dengan pemetaan jelas (misalnya API gateway = pelayan restoran, front end = pelanggan, back end = dapur) dan visual pendampingnya.
 

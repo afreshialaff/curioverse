@@ -39,6 +39,8 @@ Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 ## 4. Suara
 - Bahasa Indonesia santai campur Inggris secukupnya, register Gen Z yang hangat: "jujurly", "plot twist", "bestie", "relate" boleh. Untuk **artikel web**, sampai sekitar 5–8 ungkapan Gen Z per artikel (maksimal dua per bagian, nol di kalimat berangka; revisi pemilik 2026-10-23, rincian di `skills/narasi-artikel.md` bagian 10–14). Slide, Reels, dan caption tetap 1 per slide/paragraf. Isi tetap serius dan akurat.
 - Artikel diajak ngobrol dengan pembaca: pembuka boleh berupa pertanyaan yang memuat topik (satu per artikel). Istilah atau nama yang terjemahannya aneh dibiarkan dalam bahasa Inggris, ditulis miring dan dijelaskan sekali (contoh: *Occam's razor*). Topik berat dijelaskan dengan perumpamaan yang jelas pemetaannya.
+- **Penjelasan ilmiah wajib dianalogikan** ke hal yang mudah banget dipahami, tingkat kalimat, lengkap dengan "Bedanya, ..." (aturan di `skills/narasi-artikel.md` bagian 13b; perintah pemilik 2026-11-03).
+- **Pakar disebut "beliau"** saat kata ganti dipakai (aturan di `skills/bahasa.md` bagian 9). Penipu atau pelaku kejahatan tetap "dia".
 - Kalimat pendek, satu ide per kalimat. Paragraf 2–5 kalimat.
 - Angka besar dikasih pembanding ("setara 4.800 km, kira-kira Jakarta ke Tokyo").
 - Hindari: em dash berlebihan, kalimat motivasi kosong, "di era digital ini", "tidak bisa dipungkiri", "mari kita", pembuka berbentuk pertanyaan yang sama berturut-turut di banyak artikel (pertanyaan pembuka yang spesifik dan berganti-ganti boleh).
