@@ -93,3 +93,9 @@ Berlaku untuk semua agen penulis dan penyunting, khusus artikel web.
 - Kalau ada dua orang di satu kalimat dan "beliau" bisa ambigu, tulis namanya.
 - Tidak berlaku untuk pelaku kejahatan, penipu, atau tokoh yang bukan pakar (contoh: Ponzi, Lustig, Abagnale tetap "dia"). Jangan menambahkan "beliau" ke kutipan langsung dari sumber.
 - Slide, Reels, dan caption mengikuti aturan terpisah di `social-copy.md`; "beliau" tidak wajib di sana.
+
+## 10. Judul yang langsung nyambung (perintah pemilik 2026-11-03)
+- Judul harus bisa dimengerti orang yang cuma baca satu baris sambil scroll, tanpa tahu istilahnya. Tulis seperti menanyakan hal yang memang dipikirkan pembaca: "Kok ...?", "Benarkah ...?", "Kenapa ...?", "Siapa ...?".
+- Jangan pakai istilah teknis atau nama konsep di depan judul ("Dark triad:", "Efek halo:", "Great Pacific Garbage Patch:"). Konsepnya boleh muncul di belakang sebagai jawaban ("... Ini yang disebut efek halo").
+- Jangan pakai frasa kiasan yang butuh ditebak ("angka iklan", "nama pedometer"). Sebut langsung hal konkretnya: siapa, apa, kenapa.
+- Uji: kalau teman yang nggak ngikutin topiknya bingung pada bacaan pertama, tulis ulang. Batas panjang tetap 95 karakter.

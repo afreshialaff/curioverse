@@ -72,3 +72,4 @@ Metode: baca satu artikel berkualitas dari media Indonesia per hari, bongkar str
 Catat hasilnya di `pipeline/belajar/pena.md` sebelum selesai. Satu perubahan per hari boleh diterapkan di file ini, dengan catatan `[tgl] perubahan: ...; alasan: ...` di bagian bawah. Perubahan yang melonggarkan RULES.md ditolak.
 
 [2026-10-21] perubahan: langkah 0 lewati review yang sudah dijawab; alasan: Lup kini memanggil Pena langsung (perintah pemilik).
+- Judul wajib langsung nyambung: bentuk pertanyaan sehari-hari, istilah teknis di belakang, tanpa kiasan yang harus ditebak (`bahasa.md` §10).
