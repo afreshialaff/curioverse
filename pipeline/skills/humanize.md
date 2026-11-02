@@ -19,7 +19,7 @@ Ini yang bikin dek/keterangan di bawah judul kerasa "AI slop" walau kalimatnya s
 
 | Pola | Kenapa bermasalah | Gantinya |
 |---|---|---|
-| **Mini-aphorisme penutup**: kalimat terakhir bagian/dek berupa "pelajaran" 4-10 kata yang kedengeran bijak tapi lepas dari isi di atasnya | Kesannya nyimpulin, padahal nggak nyambung konkret ke kalimat sebelumnya | Akhiri di detail konkret, pertanyaan yang belum kejawab, atau langkah nyata |
+| **Mini-aphorisme penutup**: kalimat terakhir bagian/dek berupa "pelajaran" 4-10 kata yang kedengeran bijak tapi lepas dari isi di atasnya | Kesannya nyimpulin, padahal nggak nyambung konkret ke kalimat sebelumnya | Akhiri di detail konkret, pertanyaan yang belum kejawab, atau langkah nyata. Pengecualian: paragraf penutup terakhir artikel mengikuti `gaya-pemilik.md` |
 | **Opener tesis-dulu**: mulai dari kesimpulan abstrak ("Ini cara kerja otak di baliknya...") sebelum pembaca tau kejadian konkretnya | Pembaca belum punya gambaran, jadi kesimpulannya ngambang | Mulai dari kejadian/angka konkret, baru kesimpulannya nyusul |
 | **Parallel-subject mirror**: dua kalimat berurutan buka dengan pola subjek yang sama ("Ini cara kerja X... Ini cara pakai Y...") | Rapi tapi berasa template, bukan ngobrol | Ganti satu subjeknya, atau gabung jadi satu kalimat |
 | **Pivot "ternyata"**: nunda fakta buat efek reveal | Kalau dipakai berulang antar-artikel, polanya ketebak | Sebut faktanya langsung |

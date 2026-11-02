@@ -58,7 +58,7 @@ Format file: satu JSON per artikel (lihat `pipeline/templates/story.json`).
 | Akurasi | Semua klaim cocok dengan sumber. Satu klaim salah = skor maksimal 2 |
 | Sumber | ≥5 link hidup, relevan, kredibel, beragam |
 | Daging | Ada minimal 3 "eh baru tau" yang spesifik dan bersumber |
-| Alur & hook | Pembuka bikin penasaran, transisi enak, penutup ada "so what" |
+| Alur & hook | Pembuka bikin penasaran, transisi enak, penutup berkesan sesuai `skills/gaya-pemilik.md` |
 | Suara | Sesuai bagian 4, nggak lebay, nggak kaku |
 | Keamanan | Sesuai bagian 5 |
 | Gambar | Lisensi terbuka terverifikasi di halaman sumbernya, relevan, alt dan caption akurat (masuk must-fix, bukan skor terpisah) |

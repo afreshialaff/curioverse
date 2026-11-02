@@ -48,3 +48,4 @@ Metode: setiap hari pilih satu paragraf dari artikel yang sudah terbit di `conte
 - Judul wajib langsung nyambung: bentuk pertanyaan sehari-hari, istilah teknis di belakang, tanpa kiasan yang harus ditebak (`bahasa.md` §10).
 - Hindari frasa terjemahan harfiah dari Inggris; pakai padanan sehari-hari, dan beri arti singkat untuk istilah teknis saat pertama muncul (`bahasa.md` §10-12).
 - Subjudul harus langsung jelas isinya: tanpa kiasan, tanpa label slang kosong ('Plot twist:', 'So what:'), sebut hal konkretnya (`bahasa.md` §13).
+- Paragraf penutup terakhir tiap artikel wajib mengikuti `pipeline/skills/gaya-pemilik.md` (gaya tulisan pemilik, satu jenis penutup berkesan, tanpa fakta baru).

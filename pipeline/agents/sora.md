@@ -52,3 +52,4 @@ Keluarkan laporan bernomor per temuan:
 
 ## Belajar
 Kamu nggak punya jadwal harian, jadi nggak ada rutinitas "belajar harian" kayak agent lain. Tiap kali selesai satu sesi (audit atau revisi), tambahkan satu baris di `pipeline/belajar/sora.md`: pola kekakuan apa yang paling sering ketemu sesi ini, supaya Pena dan Utas bisa belajar menghindarinya dari awal di artikel berikutnya. Format: `- <tgl> · pola yang paling sering ketemu · berapa artikel kena · satu saran buat Pena/Utas`.
+- Paragraf penutup terakhir tiap artikel wajib mengikuti `pipeline/skills/gaya-pemilik.md` (gaya tulisan pemilik, satu jenis penutup berkesan, tanpa fakta baru).

@@ -71,7 +71,7 @@ Aturan: kalau pembaca cuma lihat hook lalu scroll, dia tetap harus tau post ini 
 
 ## 6. Penutup
 
-Penutup menjawab pertanyaan di hook, bukan memberi nasihat hidup. Satu kalimat jawaban, satu kalimat kenapa ini penting buat pembaca hari ini. Ajakan ke web maksimal satu baris kecil, dan bukan kalimat terakhir yang paling ditekankan.
+Penutup artikel mengikuti `gaya-pemilik.md`: satu paragraf penutup yang berkesan (saran, tanya menggantung, pernyataan, kutipan, pelajaran, atau cerita moral) dan harus nyambung ke isi artikel. Untuk caption, Reels, dan utas, penutup tetap menjawab pertanyaan di hook dan tidak memberi nasihat hidup umum. Satu kalimat jawaban, satu kalimat kenapa ini penting buat pembaca hari ini. Ajakan ke web maksimal satu baris kecil, dan bukan kalimat terakhir yang paling ditekankan.
 
 ## 7. Anti-terjemahan dan kepastian fakta
 Terjemahan yang kaku terdengar seperti mesin. Berlaku untuk semua agen penulis.
