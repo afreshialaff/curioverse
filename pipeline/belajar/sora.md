@@ -1,3 +1,4 @@
 # Belajar: Sora
 
 - 2026-11-03 · penutup moral/mini-aphorisme dan pembuka kalimat "ternyata"/"bukan sekadar" · 3 artikel kena (bj-habibie, rosalind-franklin, charles-ponzi) · Pena/Utas: akhiri bagian di detail konkret atau pertanyaan yang dijawab bagian berikutnya, dan beri satu kalimat jembatan di awal tiap bagian.
+- 2026-11-03 (sesi 2) · penjelasan ilmiah tanpa analogi mudah, mini-aphorisme penutup, fragmen pembuka dek ("Paris, 1925."), "dia" untuk pakar · 6 artikel kena (3 dari sesi pertama + victor-lustig, frank-abagnale, dark-triad) · Pena/Utas: tiap istilah ilmiah (korelasi, meta-analisis, ambang skor) langsung diikuti "Gampangnya seperti ..." + "Bedanya, ...", dan pakar disebut "beliau".
