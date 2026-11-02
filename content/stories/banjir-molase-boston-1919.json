@@ -18,7 +18,7 @@
   },
   "sections": [
     {
-      "h": "Siang hari, gelombang cokelat di North End",
+      "h": "Siang itu, gelombang sirup cokelat menyapu jalanan Boston",
       "p": [
         "Kamu pernah nggak sih kepikiran, kok bisa sirup kental pembuat kue jadi bencana yang menewaskan orang? Di Boston, Amerika Serikat, itu benar-benar terjadi. Tanggal 15 Januari 1919, sedikit lewat pukul 12.40 siang, sebuah tangki baja berisi sekitar 2,3 juta galon molase pecah di North End.",
         "Molase itu sirup cokelat yang pekat. Isinya setara sekitar 8,7 juta liter, kira-kira 12.000 ton. Cairan sebanyak itu tumpah sekaligus ke jalan dan berubah jadi gelombang.",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "h": "Kok bisa sirup jadi jebakan?",
+      "h": "Kenapa sirup bisa jadi jebakan maut?",
       "img": {
         "src": "/assets/illustrations/banjir-molase-kental-v2.svg",
         "alt": "Animasi gelombang molase cokelat yang mengalir dari kiri, lalu melebar dan menjadi lapisan lebih gelap dan kental di kanan. Label kiri: keluar dari tangki sekitar 4 sampai 5 derajat Celsius lebih hangat dari udara. Label kanan: lalu didinginkan udara Boston, siang sekitar 5 derajat Celsius dan malamnya di bawah titik beku; saat mendingin, kekentalan naik 4 kali lipat atau lebih",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "h": "Plot twist: \"slow as molasses in January\"",
+      "h": "Kebalikan dari pepatah \"selambat molase di bulan Januari\"",
       "kind": "interpretasi",
       "p": [
         "Di Amerika ada ungkapan \"slow as molasses in January\", artinya lambat banget, selambat molase di bulan Januari. Sharp, yang berasal dari Arkansas, ikut mengutip ungkapan itu, lalu bilang molase ini sama sekali tidak lambat, menurut AP.",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "h": "So what: kenapa insinyur harus tanda tangan",
+      "h": "Pelajarannya: kenapa bangunan wajib diperiksa insinyur",
       "kind": "interpretasi",
       "p": [
         "Warisan paling nyata dari banjir molase ada di aturan bangunan. Setelah bencana ini, Massachusetts mewajibkan pengawasan profesional dan pemeriksaan mutu di beberapa tahap konstruksi. Aturan itu lalu ditiru negara bagian lain di AS, menurut kantor Secretary of the Commonwealth of Massachusetts.",

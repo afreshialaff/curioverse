@@ -18,14 +18,14 @@
   },
   "sections": [
     {
-      "h": "Microwave di dapurmu punya kakak yang dulu memburu kapal selam",
+      "h": "Dari radar pemburu kapal selam ke microwave di dapurmu",
       "p": [
         "Komponen inti microwave namanya magnetron. Antara 1939 dan 1941, tiga peneliti University of Birmingham, John Randall, Harry Boot, dan James Sayers, meningkatkan daya, efisiensi, dan kestabilan frekuensinya. Hasilnya dipakai Sekutu untuk radar gelombang mikro di Perang Dunia II, termasuk radar di pesawat pemburu kapal selam. Radar gampangnya seperti berteriak di lembah lalu menghitung berapa lama gema kembali: makin lama, makin jauh bendanya. Bedanya, radar \"berteriak\" memakai gelombang radio.",
         "Obat, komputer, navigasi satelit, sampai pembalut punya bab militer serupa. Pertanyaan yang lebih penting dari sekadar 'apa saja': kenapa perang bikin semuanya ngebut, dan apakah semua itu memang lahir karena perang?"
       ]
     },
     {
-      "h": "Mesinnya: uang, tenggat, dan pabrik",
+      "h": "Kenapa perang bikin teknologi ngebut: uang, tenggat, dan pabrik",
       "p": [
         "Di AS, mesin itu punya nama. National Defense Research Committee (NDRC) dibentuk Juni 1940 atas usul Vannevar Bush, lalu berkembang jadi Office of Scientific Research and Development (OSRD). Menurut ekonom Daniel Gross dan Bhaven Sampat di NBER Reporter, lembaga ini tumbuh dari inti delapan orang jadi badan pendanaan berisi 1.500 orang dengan anggaran miliaran dolar.",
         "Resepnya ada tiga. Pertama, fokus terapan: riset krisis memakai 'basic knowledge at hand', pengetahuan dasar yang sudah ada, bukan menunggu teori baru. Kedua, banyak proyek nekat berambisi besar ('moonshot') dikerjakan bersamaan lalu dikelola dari pusat. Ketiga, laboratorium, pabrik percobaan, dan pabrik disambungkan langsung.",
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "h": "Jejak 1: dari radar ke dapur",
+      "h": "Contoh 1: dari radar ke microwave",
       "p": [
         "Di Raytheon, AS, ada Percy Spencer. Menurut Lemelson-MIT, beliau putus sekolah dasar di usia 12 tahun dan belajar fisika sendiri. Beliau tidak menemukan magnetron, tapi merancang cara memproduksinya secara massal untuk peralatan radar.",
         "Setelah perang, cokelat di sakunya meleleh saat dia bekerja di dekat magnetron. Beliau lalu mencoba biji jagung, dan jadilah popcorn. Soal tahun, sumbernya beda: Lemelson-MIT mencatat paten diajukan 8 Oktober 1945, sementara IEEE Spectrum menulis kejadian dan pengajuan paten pada 1946.",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "h": "Jejak 2: penisilin, dari jamur ke tangki raksasa",
+      "h": "Contoh 2: penisilin, dari jamur ke tangki fermentasi raksasa",
       "p": [
         "Alexander Fleming menemukan penisilin pada 1928. Masalahnya, membuatnya dalam jumlah besar sangat susah. Pada Juli 1941, ilmuwan Oxford Howard Florey dan Norman Heatley datang ke laboratorium USDA di Peoria, Illinois. Dengan bantuan Heatley, Andrew Moyer menaikkan hasil penisilin 10 kali lipat sampai 26 November 1941, salah satunya dengan cairan rendaman jagung (*corn steep liquor*), produk sampingan penggilingan jagung basah.",
         "Meski begitu, sampai Maret 1942 empat perusahaan obat AS baru menghasilkan penisilin yang cukup untuk satu pasien. Setahun sebelum D-Day, War Production Board membuat rencana agar ada cukup penisilin untuk semua tentara Sekutu. Galur unggul ditemukan dari cantaloupe berjamur di Peoria, NRRL 1951, yang jadi induk semua galur komersial.",
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "h": "Jejak 3: komputer, mesin jet, dan pembalut",
+      "h": "Contoh 3: komputer, mesin jet, dan pembalut",
       "p": [
         "Colossus, buatan insinyur kantor pos Inggris Tommy Flowers, memproses pesan Jerman pertamanya di Bletchley Park pada 5 Februari 1944. Targetnya sandi mesin Lorenz Jerman yang dijuluki 'Tunny'. Colossus II, selesai Juni 1944, memakai 2.400 tabung vakum dan memproses 25.000 karakter per detik. Tabung vakum gampangnya seperti saklar lampu yang dibuka-tutup oleh listrik, bukan oleh jari. Bedanya, saklarnya di sini berkedip ribuan kali per detik. Menurut IEEE Spectrum, di akhir perang ada 10 Colossus di Bletchley Park.",
         "Di AS, Angkatan Darat mendanai ENIAC di University of Pennsylvania untuk menghitung tabel tembak artileri. Kontraknya diteken 5 Juni 1943. Menurut Museum Nasional Angkatan Darat AS, mesinnya memakai 17.468 tabung vakum (Wikipedia menyebut sekitar 18.000 di akhir masa operasinya, 1955), berat lebih dari 27 ton, dan memakan ruang 1.800 kaki persegi (sekitar 167 m², dua lapangan bulu tangkis). ENIAC rampung dibangun Mei 1945, mulai dipakai untuk kerja praktis 10 Desember 1945, dan diresmikan 15 Februari 1946. Menurut Wikipedia, program pertamanya justru bukan tabel tembak: studi kelayakan senjata termonuklir.",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "h": "Jejak 4: Perang Dingin di HP-mu",
+      "h": "Contoh 4: GPS dan internet, warisan Perang Dingin di HP-mu",
       "p": [
         "GPS lahir dari meja perencana Departemen Pertahanan AS, yang menggabungkan beberapa program navigasi jadi satu sistem. Pengembangan komponennya dimulai pada 1973, dikelola Joint Program Office di bawah Angkatan Udara. Plot twist-nya terjadi 1 September 1983. Pesawat Korean Air Lines 007 dari Anchorage ke Seoul tersasar ke wilayah udara Soviet dan ditembak jatuh, menewaskan 269 orang. Presiden Ronald Reagan lalu menegaskan GPS akan tersedia gratis bagi pengguna sipil di seluruh dunia.",
         "Menurut GPS.gov, sinyal publiknya sempat sengaja diturunkan akurasinya demi keamanan nasional, lewat fitur bernama Selective Availability. Fitur itu dimatikan atas perintah Presiden Bill Clinton pada 1 Mei 2000. Hari ini, menurut GPS.gov, sinyal sipil GPS gratis untuk semua orang, dioperasikan U.S. Space Force dengan rangkaian standar 24 satelit.",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "h": "Jadi, perang itu penemu atau pedal gas?",
+      "h": "Jadi, perang itu yang menemukan atau cuma yang mempercepat?",
       "kind": "interpretasi",
       "p": [
         "Kalau dilihat tanggalnya, banyak ide intinya sudah ada sebelum perang. Penisilin ditemukan 1928. Whittle mematenkan mesin jet pada 1930, Hans von Ohain di Jerman pada 1935, dan pesawat jet He 178 sudah terbang 27 Agustus 1939, seminggu sebelum Inggris menyatakan perang. Visi jaringan 'Galactic Network' dari J.C.R. Licklider pada 1962 bicara soal interaksi sosial lewat jaringan komputer. Masuk akal untuk menduga sebagian besar teknologi ini tetap akan lahir, hanya mungkin lebih lambat.",

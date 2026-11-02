@@ -109,3 +109,8 @@ Berlaku untuk semua agen penulis dan penyunting, khusus artikel web.
 - Kalau sebuah kalimat terasa seperti terjemahan Inggris ("satuan bercanda" dari *mock unit*, "membuka kartunya" dari *reveal the cards*, "kata benda" untuk istilah yang jadi sebutan umum, "variasi kinerja", "penalti", "lapisan kredibilitas", "naikkan level skeptismu"), ganti dengan padanan Indonesia yang dipakai orang sehari-hari: "satuan main-main, bukan satuan resmi", "mengungkap kebenarannya", "sebutan umum", "perbedaan kinerja", "potongan gaji", "makin dipercaya", "tambah kecurigaanmu".
 - Istilah teknis yang memang tidak punya padanan sehari-hari (hazard ratio, base rate, locus of control) tetap boleh dipakai, tapi harus langsung diberi arti singkat dengan kata biasa saat pertama muncul.
 - Uji: baca kalimatnya keras-keras. Kalau terdengar seperti subtitle film, tulis ulang seperti ngobrol.
+
+## 13. Subjudul harus langsung jelas (perintah pemilik 2026-11-03)
+- Subjudul (`h`) berlaku seperti judul mini: pembaca yang cuma melirik harus tahu isi bagiannya tanpa menebak. Hindari kiasan ("punya kakak yang dulu memburu kapal selam"), label slang kosong ("Plot twist:", "So what:", "Red flag ..."), dan penomoran kaku ("Jejak 1").
+- Sebut hal konkretnya: siapa, apa, kenapa. Contoh: "Dari radar pemburu kapal selam ke microwave di dapurmu", "Cara menilai orang yang terlihat meyakinkan sekali", "Tanda bahaya penipuan investasi yang bisa kamu pakai hari ini".
+- Istilah asing di subjudul diberi konteks (contoh: "Apa itu dark triad: ...").

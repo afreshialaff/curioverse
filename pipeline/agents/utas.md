@@ -47,3 +47,4 @@ Kalau sebuah kalimat sulit diperbaiki tanpa mengubah makna, biarkan apa adanya d
 Metode: setiap hari pilih satu paragraf dari artikel yang sudah terbit di `content/stories/`, cari satu kalimat yang terasa kaku, lalu tulis dua versi yang lebih alami dan pilih satu dengan alasan. Catat di `pipeline/belajar/utas.md` sebelum selesai, dengan format `- <tgl> · yang dipelajari · bukti · satu perubahan (atau alasan tidak ada)`. Satu perubahan per hari boleh diterapkan di file ini. Perubahan yang melonggarkan RULES.md ditolak.
 - Judul wajib langsung nyambung: bentuk pertanyaan sehari-hari, istilah teknis di belakang, tanpa kiasan yang harus ditebak (`bahasa.md` §10).
 - Hindari frasa terjemahan harfiah dari Inggris; pakai padanan sehari-hari, dan beri arti singkat untuk istilah teknis saat pertama muncul (`bahasa.md` §10-12).
+- Subjudul harus langsung jelas isinya: tanpa kiasan, tanpa label slang kosong ('Plot twist:', 'So what:'), sebut hal konkretnya (`bahasa.md` §13).
