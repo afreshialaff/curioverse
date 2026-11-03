@@ -1,4 +1,4 @@
-/* Curioverse · Lab Kepo: compound interest, candlestick anatomy, light travel time. */
+/* Curioverse · Lab: compound interest, candlestick anatomy, light travel time. */
 (() => {
 "use strict";
 const $ = s => document.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -24,6 +24,9 @@ keys.forEach(k => {
   N[k].addEventListener("focus", () => N[k].select());
   N[k].addEventListener("keydown", e => { if (e.key === "Enter") N[k].blur(); });
 });
+const DEFAULTS = { start:5000000, month:500000, rate:6, years:15 };
+const resetBtn = $("#o-reset");
+if (resetBtn) resetBtn.addEventListener("click", () => { keys.forEach(k => { R[k].value = DEFAULTS[k]; showNum(k); }); calc(); });
 function niceMax(v){ if (v <= 0) return 1; const p = Math.pow(10, Math.floor(Math.log10(v))), n = v / p; return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 2.5 ? 2.5 : n <= 5 ? 5 : 10) * p; }
 function calc(){
   const P = +R.start.value, M = +R.month.value, r = +R.rate.value / 100, Y = +R.years.value;
@@ -36,6 +39,13 @@ function calc(){
   $("#o-sum").textContent = bal > 0
     ? `Dalam ${Y} tahun, kamu nyetor ${short(dep)} dan bunganya nambah ${short(int)}. Bunga ${dec(r * 100)}% per tahun bikin uang kira-kira dobel tiap ${dec(dbl)} tahun.`
     : "Isi setoran awal atau tabungan bulanan dulu buat lihat hasilnya.";
+  const why = $("#o-why");
+  if (why) {
+    const half = Math.max(1, Math.floor(Y / 2)), h = rows[half - 1], l = rows[Y - 1], pc = x => x.bal > 0 ? Math.round(Math.max(0, x.bal - x.dep) / x.bal * 100) : 0;
+    why.textContent = bal <= 0 ? "Isi setoran dulu supaya ada yang bisa dibandingkan."
+      : Y < 2 ? "Naikkan lama waktunya untuk melihat bunga ikut menghasilkan bunga."
+      : `Di tahun ke-${half}, total ${short(h.bal)} dan ${pc(h)}% di antaranya dari bunga. Di tahun ke-${Y}, porsi bunga naik jadi ${pc(l)}%. Itu sebabnya grafiknya makin melengkung ke atas.`;
+  }
   const svg = $("#chart"), W = 600, H = 260, L = 64, Rr = 8, T = 10, B = 28;
   const max = niceMax(Math.max(...rows.map(x => x.bal), 1)), cw = (W - L - Rr) / rows.length, bw = Math.max(2, cw * .66);
   const yy = v => T + (H - T - B) * (1 - v / max);

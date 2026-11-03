@@ -13,7 +13,7 @@ let INDEX = [];
 try { INDEX = JSON.parse($("#cv-index").textContent); } catch(e){}
 const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
-let LABEL = { finance:"Finance", science:"Science", sejarah:"Sejarah", biografi:"Biografi", market:"Market", saham:"Saham", global:"Global News", scam:"Scam Files" };
+let LABEL = { finance:"Finance", science:"Science", sejarah:"Sejarah", biografi:"Biografi", market:"Market", saham:"Saham", global:"Berita Dunia", scam:"Kasus Penipuan" };
 try { LABEL = JSON.parse($("#cv-labels").textContent); } catch(e){}
 const sysDark = matchMedia("(prefers-color-scheme: dark)");
 const isDark = () => root.dataset.theme ? root.dataset.theme === "dark" : sysDark.matches;
@@ -207,5 +207,34 @@ if (top) {
 $$(".scroller > .chips").forEach(row => {
   const upd = () => row.parentElement.style.setProperty("--fade", row.scrollLeft + row.clientWidth >= row.scrollWidth - 4 ? "0" : "1");
   row.addEventListener("scroll", upd, { passive:true }); addEventListener("resize", upd); upd();
+});
+/* ---------- reading progress, kept on this device only (no account) ---------- */
+const readSet = () => { try { return new Set(JSON.parse(store.get("cv-read") || "[]")); } catch(e){ return new Set(); } };
+const markRead = id => { const s = readSet(); if (!s.has(id)) { s.add(id); store.set("cv-read", JSON.stringify([...s])); } };
+const storyEl = $("[data-story]");
+if (storyEl) {
+  const id = storyEl.dataset.story, endEl = $(".sources", storyEl) || $("[data-article]", storyEl);
+  const check = () => { if (endEl && endEl.getBoundingClientRect().top < innerHeight * .9) { markRead(id); removeEventListener("scroll", check); } };
+  addEventListener("scroll", check, { passive:true }); check();
+}
+const SIZES = [.92, 1, 1.12, 1.25];
+let fsIdx = Math.min(SIZES.length - 1, Math.max(0, parseInt(store.get("cv-fs") || "1", 10) || 1));
+const applyFs = () => root.style.setProperty("--fs", SIZES[fsIdx]);
+applyFs();
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-fs]"); if (!b) return;
+  fsIdx = Math.min(SIZES.length - 1, Math.max(0, fsIdx + (+b.dataset.fs))); store.set("cv-fs", String(fsIdx)); applyFs();
+});
+$$("[data-path]").forEach(sec => {
+  const ids = sec.dataset.path.split(","), done = readSet();
+  const n = ids.filter(id => done.has(id)).length;
+  ids.forEach(id => { const li = $(`li[data-id="${id}"]`, sec); if (li && done.has(id)) li.classList.add("is-done"); });
+  const prog = $("[data-path-prog]", sec), resume = $("[data-path-resume]", sec);
+  if (n && prog) { prog.hidden = false; prog.textContent = ` · ${n} dari ${ids.length} selesai`; }
+  if (n && resume && resume.firstChild) {
+    const next = ids.find(id => !done.has(id));
+    resume.href = "/stories/" + (next || ids[0]);
+    resume.firstChild.nodeValue = next ? `Lanjut ke cerita ${ids.indexOf(next) + 1} ` : "Baca ulang dari awal ";
+  }
 });
 })();

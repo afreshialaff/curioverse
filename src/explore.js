@@ -3,10 +3,12 @@
 "use strict";
 const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
 const grid = $("#results"), cards = $$("#results .card"), q = $("#q"), sort = $("#sort");
-const none = $("#none"), active = $("#active"), digest = $("#digest");
+const none = $("#none"), active = $("#active");
+const GROUP = {}; $$("#chips [data-cats]").forEach(b => { GROUP[b.dataset.cat] = { label:b.dataset.label, cats:b.dataset.cats.split(",") }; });
+const labelOf = c => CV.LABEL[c] || (GROUP[c] && GROUP[c].label);
 const params = new URLSearchParams(location.search);
 const state = {
-  cat: CV.LABEL[params.get("topik")] ? params.get("topik") : "all",
+  cat: labelOf(params.get("topik")) ? params.get("topik") : "all",
   q: params.get("q") || "",
   sort: ["new","short","az"].includes(params.get("urut")) ? params.get("urut") : "new"
 };
@@ -25,7 +27,8 @@ function render(){
   $$("#chips .chip").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.cat === state.cat)));
   const terms = CV.norm(state.q.trim()).split(/\s+/).filter(Boolean);
   const shown = cards.filter(c => {
-    const okCat = state.cat === "all" || c.dataset.c === state.cat || c.dataset.also === state.cat;
+    const g = GROUP[state.cat];
+    const okCat = state.cat === "all" || (g ? g.cats.includes(c.dataset.c) || g.cats.includes(c.dataset.also) : c.dataset.c === state.cat || c.dataset.also === state.cat);
     const okQ = terms.every(t => c.dataset.h.includes(t));
     c.hidden = !(okCat && okQ);
     return !c.hidden;
@@ -36,11 +39,10 @@ function render(){
   if (!first && !CV.reduced) shown.forEach((c, i) => { c.classList.remove("pop"); void c.offsetWidth; c.style.setProperty("--k", Math.min(i, 8)); c.classList.add("pop"); });
   first = false;
   none.hidden = shown.length > 0; grid.hidden = shown.length === 0;
-  digest.hidden = state.cat !== "global";
-  if (!shown.length) $("#none-msg").textContent = state.q.trim() ? `Nggak ada cerita yang cocok sama "${state.q.trim()}"${state.cat !== "all" ? " di topik " + CV.LABEL[state.cat] : ""}. Coba kata lain atau topik lain.` : state.cat !== "all" && !cards.some(c => c.dataset.c === state.cat || c.dataset.also === state.cat) ? `Cerita pertama soal ${CV.LABEL[state.cat]} lagi disiapin. Sementara itu, coba Surprise Me.` : "Belum ada cerita di filter ini.";
+  if (!shown.length) $("#none-msg").textContent = state.q.trim() ? `Nggak ada cerita yang cocok sama "${state.q.trim()}"${state.cat !== "all" ? " di topik " + labelOf(state.cat) : ""}. Coba kata lain atau topik lain.` : state.cat !== "all" && !cards.some(c => c.dataset.c === state.cat || c.dataset.also === state.cat) ? `Cerita pertama soal ${labelOf(state.cat)} lagi disiapin. Sementara itu, coba Surprise Me.` : "Belum ada cerita di filter ini.";
   // visible active filters
   const tags = [];
-  if (state.cat !== "all") tags.push(`<span class="tagx">Topik: ${CV.LABEL[state.cat]}<button type="button" data-clear="cat" aria-label="Hapus filter topik ${CV.LABEL[state.cat]}"><svg class="ico" aria-hidden="true" style="width:16px;height:16px"><use href="#i-close"/></svg></button></span>`);
+  if (state.cat !== "all") tags.push(`<span class="tagx">Topik: ${labelOf(state.cat)}<button type="button" data-clear="cat" aria-label="Hapus filter topik ${labelOf(state.cat)}"><svg class="ico" aria-hidden="true" style="width:16px;height:16px"><use href="#i-close"/></svg></button></span>`);
   if (state.q.trim()) tags.push(`<span class="tagx">"${CV.esc(state.q.trim())}"<button type="button" data-clear="q" aria-label="Hapus kata kunci"><svg class="ico" aria-hidden="true" style="width:16px;height:16px"><use href="#i-close"/></svg></button></span>`);
   active.innerHTML = `<span>${shown.length ? `Menampilkan ${shown.length} dari ${cards.length} cerita` : "0 cerita"}</span>${tags.join("")}${tags.length ? '<button class="clear" type="button" data-clear="all">Hapus semua filter</button>' : ""}`;
   syncUrl();

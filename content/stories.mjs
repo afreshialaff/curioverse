@@ -17,7 +17,7 @@ export const A = [
   tags:"gelembung bubble belanda spekulasi harga bunga",
   s:[["Kok bisa bunga jadi aset?",["Di Republik Belanda tahun 1630-an, tulip itu barang flexing. Varietas yang kelopaknya bergaris-garis kayak api paling dicari (belakangan ketahuan pola itu efek virus). Orang nggak cuma beli bunganya, tapi kontrak umbi yang baru bakal dipanen nanti. Jadi yang diperdagangkan sebenernya janji.","Pas musim dingin 1636 ke 1637, harga kontrak itu naik terus. Banyak yang ikut beli bukan karena suka tulip, tapi karena yakin besok ada yang mau beli lebih mahal. Familiar? Ini pola klasik gelembung harga."]],
      ["Februari 1637: pop",["Awal Februari 1637, di sebuah lelang di Haarlem, pembeli tiba-tiba nggak muncul. Kepercayaan runtuh dalam hitungan hari, harga kontrak jatuh, dan banyak kesepakatan akhirnya nggak pernah dibayar penuh."]],
-     ["Plot twist dari sejarawan",["Versi populernya bilang ekonomi Belanda hancur dan orang bangkrut massal. Sejarawan Anne Goldgar, lewat bukunya Tulipmania (2007), ngecek arsip aslinya dan nemu kalau yang kena dampak cuma lingkaran pedagang yang relatif kecil. Cerita semua orang jatuh miskin banyak datang dari pamflet moral yang ditulis setelahnya.","Jadi pelajarannya dobel: gelembung harga itu nyata, tapi cerita soal gelembung juga bisa digelembungkan. Selalu cek sumbernya, bestie."]]] },
+     ["Versi sejarawan",["Versi populernya bilang ekonomi Belanda hancur dan orang bangkrut massal. Sejarawan Anne Goldgar, lewat bukunya Tulipmania (2007), ngecek arsip aslinya dan nemu kalau yang kena dampak cuma lingkaran pedagang yang relatif kecil. Cerita semua orang jatuh miskin banyak datang dari pamflet moral yang ditulis setelahnya.","Jadi pelajarannya dobel: gelembung harga itu nyata, tapi cerita soal gelembung juga bisa digelembungkan. Selalu cek sumbernya, bestie."]]] },
 { id:"voc", cat:"saham", also:"sejarah", date:"2026-10-09",
   title:"Saham pertama di dunia lahir dari kapal rempah",
   dek:"VOC berdiri tahun 1602 dan jadi salah satu perusahaan pertama yang sahamnya bisa dijual-beli bebas. Iya, VOC yang itu.",
@@ -33,7 +33,7 @@ export const A = [
   s:[["Bunga yang berbunga",["Bunga biasa dihitung dari setoran awal aja. Bunga majemuk dihitung dari setoran awal plus bunga yang udah terkumpul. Awalnya bedanya tipis banget, tapi makin lama grafiknya makin melengkung ke atas. Bahan utamanya: waktu."]],
      ["Rule of 72",["Mau tau kira-kira berapa tahun uangmu jadi dua kali lipat? Bagi 72 dengan persentase bunga per tahun. Bunga 6% per tahun berarti sekitar 72 ÷ 6 = 12 tahun. Ini perkiraan kasar, tapi cukup akurat buat bunga di kisaran kecil sampai menengah."]],
      ["Fun fact yang ternyata hoaks",["Kamu mungkin pernah lihat quote bunga majemuk adalah keajaiban dunia kedelapan (atau versi lainnya: penemuan terbesar manusia) yang katanya dari Einstein. Belum ada bukti Einstein pernah bilang itu; jejak paling awal yang ditemukan peneliti kutipan baru muncul puluhan tahun setelah dia wafat, dan itu pun disebut kutipan yang konon. Konsepnya tetap valid, quote-nya aja yang nggak jelas asal-usulnya."]],
-     ["Coba sendiri",["Main-main angkanya di Lab Kepo di halaman utama. Ingat ya, ini simulasi. Di dunia nyata ada inflasi, pajak, biaya admin, dan return yang naik turun."]]] },
+     ["Coba sendiri",["Main-main angkanya di Lab. Ingat ya, ini simulasi. Di dunia nyata ada inflasi, pajak, biaya admin, dan return yang naik turun."]]] },
 { id:"langit", cat:"science", date:"2026-10-05",
   title:"Kenapa langit biru, padahal cahaya matahari putih?",
   dek:"Jawabannya ada di molekul udara yang suka nyebarin cahaya biru ke segala arah. Bonus: kenapa sunset warnanya oranye.",
@@ -57,7 +57,7 @@ export const A = [
   s:[["Dari Warsawa ke Paris",["Maria Skłodowska lahir di Warsawa tahun 1867. Waktu itu perempuan di sana nggak bisa kuliah di universitas biasa, jadi dia belajar diam-diam, lalu pindah ke Paris dan kuliah di Sorbonne."]],
      ["Dua Nobel, dua bidang",["Tahun 1903 dia dapat Nobel Fisika bareng Pierre Curie dan Henri Becquerel atas riset radiasi. Tahun 1911 dia dapat Nobel Kimia karena menemukan unsur polonium dan radium. Sampai hari ini, dia satu-satunya orang yang menang Nobel di dua bidang sains yang berbeda."]],
      ["Warisan yang literally masih aktif",["Waktu itu bahaya radiasi belum dipahami. Catatan kerjanya sampai sekarang masih menyimpan radioaktivitas, jadi disimpan di kotak berlapis timbal dan yang mau lihat aslinya perlu perlengkapan pelindung."]],
-     ["Kenapa dia relate",["Dia kerja di ruang yang dingin dan seadanya, dengan dana minim, dan tetap ngulik sampai tuntas. Energi kepo paling murni."]]] },
+     ["Kenapa dia relate",["Dia kerja di ruang yang dingin dan seadanya, dengan dana minim, dan tetap ngulik sampai tuntas. Rasa ingin tahu yang paling murni."]]] },
 { id:"lovelace", cat:"biografi", date:"2026-09-26",
   title:"Ada Lovelace nulis program komputer sebelum komputernya jadi",
   dek:"Tahun 1843, dia nulis catatan yang sekarang dianggap salah satu algoritma pertama untuk mesin hitung.",
@@ -105,7 +105,7 @@ export const A = [
   s:[["Satu lilin, satu periode",["Setiap batang lilin mewakili satu periode waktu, misalnya satu hari. Lilin itu merangkum empat harga: pembukaan (open), tertinggi (high), terendah (low), dan penutupan (close)."]],
      ["Badan dan sumbu",["Bagian tebal disebut badan (body), jaraknya dari open ke close. Garis tipis di atas dan bawah disebut sumbu (wick atau shadow), menunjukkan harga tertinggi dan terendah. Kalau close lebih tinggi dari open, harga naik. Kalau lebih rendah, harga turun. Warnanya tergantung aplikasi, jadi cek legendanya."]],
      ["Dari pasar beras Jepang",["Metode ini sering dikaitkan dengan Munehisa Homma, pedagang beras Jepang abad ke-18. Di dunia Barat, candlestick jadi populer setelah buku Steve Nison terbit tahun 1991."]],
-     ["Latihan",["Coba pencet bagian-bagian lilin di Lab Kepo. Dan ingat, bisa baca grafik belum sama dengan bisa meramal harga."]]] },
+     ["Latihan",["Coba pencet bagian-bagian lilin di Lab. Dan ingat, bisa baca grafik belum sama dengan bisa meramal harga."]]] },
 { id:"g20", cat:"global", date:"2026-10-03",
   title:"G20 itu sebenernya apa, dan kenapa Indonesia ada di dalamnya?",
   dek:"Forum 19 negara plus Uni Eropa dan Uni Afrika yang ekonominya paling berpengaruh. Kita rangkum tanpa jargon.",
@@ -135,7 +135,7 @@ export const A = [
 export const HOLES = [
   { id:"bursa", title:"Dari bunga ke bursa", dek:"Gimana spekulasi bunga, kapal rempah, dan istilah pasar modern ternyata satu garis cerita.", ids:["tulip","voc","bullbear","candle"],
     pts:[[30,120],[130,50],[230,96],[330,30]] },
-  { id:"jenius", title:"Perempuan yang kelewat jenius buat zamannya", dek:"Tiga orang yang nulis, ngitung, dan nemu hal-hal yang dunia belum siap terima.", ids:["kartini","lovelace","curie"],
+  { id:"jenius", title:"Perempuan yang kelewat jenius buat zamannya", dek:"Empat perempuan yang menulis, menghitung, dan menemukan hal-hal yang dunia belum siap terima.", ids:["kartini","lovelace","curie"],
     pts:[[40,40],[180,118],[320,60]] },
   { id:"langit", title:"Langit, cahaya, dan hal yang bikin merinding", dek:"Mulai dari warna langit, lanjut ke cahaya masa lalu, gunung yang ngubah sunset dunia, sampai hewan yang tahan ruang hampa.", ids:["langit","cahaya","krakatau","tardigrade"],
     pts:[[30,60],[120,128],[240,40],[340,104]] },
@@ -279,7 +279,7 @@ if (existsSync(STORY_DIR)) {
     // Penanda inline (*miring*, **tebal**, ==highlight==) hanya dirender di halaman artikel.
     // Judul, dek, dan subjudul versi bersih dipakai di kartu, pencarian, meta, dan RSS; versi berpenanda disimpan di rt/rd/rh.
     const plain = s => String(s ?? "").replace(/==|\*\*|\*/g, "");
-    A.push({ id:j.id, cat:j.cat, ...(j.also ? { also:j.also } : {}), date:j.date, title:plain(j.title), dek:plain(j.dek), tags:j.tags,
+    A.push({ id:j.id, cat:j.cat, ...(j.also ? { also:j.also } : {}), date:j.date, ...(j.updated ? { upd:j.updated } : {}), title:plain(j.title), dek:plain(j.dek), tags:j.tags,
       s:(j.sections || []).map(x => [plain(x.h), x.p]), rt:j.title, rd:j.dek, rh:(j.sections || []).map(x => x.h), _file:j._file });
     KINDS[j.id] = Object.fromEntries((j.sections || []).map((x, i) => [i, x.kind || "fakta"]).filter(([, k]) => k !== "fakta"));
     SOURCES[j.id] = j.sources || [];
