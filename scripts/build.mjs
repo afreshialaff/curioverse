@@ -422,6 +422,11 @@ function home(){
       <div class="rv">
         <p class="statement">Kami AfreshiaLa dan LeoFa. Kalau menemukan fakta menarik, rasanya harus langsung dibagikan ke satu sama lain.</p>
         <p class="lede">Curioverse adalah tempat kami menyimpan semua "eh, tahu nggak sih" supaya tidak tenggelam di chat. Kalau kamu ikut penasaran, silakan mampir.</p>
+        <div class="story-origin rv" style="--i:1"><h3>Awalnya dari obrolan</h3>
+          <p>Kami berdua suka ngobrol tentang apa saja. AfreshiaLa lebih tertarik ke ekonomi, politik, sosial, dan psikologi. LeoFa punya pengetahuan umum yang lebih luas, dengan minat besar ke sains, kesehatan, dan jurnal ilmiah. Sejarah kami berdua suka, dan sering kali versi cerita yang kami temukan masing-masing ternyata berbeda, jadi kami saling mengecek.</p>
+          <p>Suatu malam, LeoFa bilang bahwa bintang yang kami lihat sebenarnya cahaya dari masa lalu. Dari situ kami berpikir: obrolan seperti ini seru kalau dikumpulkan di satu jurnal independen, supaya orang lain juga bisa ikut membacanya.</p>
+          <p>Topiknya mengalir dari pertanyaan AfreshiaLa, yang paling sering bertanya. Kalau LeoFa tahu jawabannya, ia langsung menjelaskan. Kalau tidak, kami riset sendiri-sendiri, lalu membandingkan temuan dan kadang brainstorm dengan AI, misalnya soal Interstellar dan kemungkinan realitas lain. Karena kami berdua Gen Z, gayanya kami buat seperti ngobrol. Harapan kami, kamu pulang membawa wawasan baru dari hal yang mungkin belum pernah kamu pertanyakan.</p>
+        </div>
         <div class="how rv" style="--i:1"><h3>Cara kami bekerja</h3>
           <ul>
             <li><b>Fakta dan opini dipisah.</b> Setiap bagian cerita diberi label Fakta, Interpretasi, atau Opini kita.</li>
@@ -431,8 +436,8 @@ function home(){
         </div>
       </div>
       <div class="people">
-        <div class="scrap person taped rv"><span class="av" aria-hidden="true">A</span><span><b>AfreshiaLa</b><small>co-curator</small></span></div>
-        <div class="scrap person taped blue rv" style="--i:1"><span class="av" aria-hidden="true">L</span><span><b>LeoFa</b><small>co-curator</small></span></div>
+        <div class="scrap person taped rv"><span class="av" aria-hidden="true">A</span><span><b>AfreshiaLa</b><small>kurator · ekonomi, sosial, psikologi</small></span></div>
+        <div class="scrap person taped blue rv" style="--i:1"><span class="av" aria-hidden="true">L</span><span><b>LeoFa</b><small>kurator · sains, kesehatan, sejarah</small></span></div>
       </div>
     </div>
     ${phases(" phases-solo")}
