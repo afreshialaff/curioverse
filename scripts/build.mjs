@@ -305,13 +305,14 @@ function home(){
   <div class="wrap">
     <div class="hero-grid">
       <div>
-        <h1 class="display" id="hero-title"><span class="rv-mask"><span>Buku catatan</span></span><span class="rv-mask" style="--i:1"><span>buat orang kepo.</span></span></h1>
-        <p class="hand rv" style="--i:2">satu fakta kecil, penasaran seharian.</p>
-        <p class="lede rv" style="--i:3">Curioverse itu jurnal pengetahuan punya AfreshiaLa &amp; LeoFa. Finance, science, sejarah, sampai berita dunia, ditulis santai biar enak dibaca sambil rebahan.</p>
+        <h1 class="display" id="hero-title"><span class="rv-mask"><span>Ada banyak hal yang ternyata</span></span><span class="rv-mask" style="--i:1"><span>nggak sesederhana kelihatannya.</span></span></h1>
+        <p class="hand rv" style="--i:2">Dan kami suka mencari tahu kenapa.</p>
+        <p class="lede rv" style="--i:3">Dari cara uang bergerak, penemuan yang mengubah dunia, sampai sejarah yang jarang diceritakan. Curioverse adalah tempat kami mencatat hal-hal yang menarik untuk dipikirkan, lalu membagikannya dengan bahasa yang nggak bikin kening berkerut.</p>
         <div class="hero-ctas rv" style="--i:4">
-          <a class="btn btn-primary" href="#pilihan">Baca pilihan minggu ini <i class="arr" aria-hidden="true">↓</i></a>
-          <button class="btn btn-ghost" type="button" data-surprise>${icon("dice")}Surprise Me</button>
+          <a class="btn btn-primary" href="#pilihan">Mulai membaca <i class="arr" aria-hidden="true">↗</i></a>
+          <a class="btn btn-ghost" href="/#kurator">Tentang Curioverse</a>
         </div>
+        <p class="hero-credit rv" style="--i:5">Sebuah jurnal independen oleh AfreshiaLa &amp; LeoFa.</p>
       </div>
       <div class="hook-wrap rv" style="--i:3">
         <figure class="hook scrap night taped" style="margin:0" aria-labelledby="hook-label">
