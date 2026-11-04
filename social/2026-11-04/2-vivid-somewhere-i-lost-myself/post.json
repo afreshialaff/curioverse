@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-04",
+  "story": null,
+  "type": "reel",
+  "made_by": "vivid",
+  "format": "film-pendek",
+  "title": "Somewhere, I Lost Myself",
+  "caption": "Kapan terakhir kamu merasa jadi dirimu sendiri?\n\nKerja, pulang, kerja lagi. Hari berganti, tapi rasanya kamu berhenti di tempat. Sampai suatu malam, wajah di cermin terasa asing.\n\nFilm pendek ini bukan soal menemukan jawaban. Ini soal boleh capek, boleh bingung, dan tetap di sini.\n\nKamu lagi mengejar apa akhir-akhir ini?\n\nKalau terasa berat, cerita ke orang yang kamu percaya.\n\nSuara narator dibuat dengan AI (ElevenLabs). Visual dan musik dibuat dengan kode.\n\n#curioverse #burnout #kesehatanmental #quarterlifecrisis #refleksi",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "ElevenLabs",
+    "model": "eleven_v4",
+    "voice": "Ricky - Soft & Authentic Indonesian",
+    "status": "sudah dimixing ke reel.mp4"
+  },
+  "review": {
+    "status": "lolos",
+    "by": "pemilik",
+    "approved_by_human": true,
+    "notes": "Video on-demand lewat skill Vivid (opus-video, gaya atmosferik 2D) dari storyboard manual pemilik; disetujui pemilik di chat 2026-11-04 ('Posting')."
+  },
+  "post": {
+    "status": "queued"
+  }
+}

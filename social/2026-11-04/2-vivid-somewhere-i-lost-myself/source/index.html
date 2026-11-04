@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="assets/vendor/gsap.min.js"></script>
+    <style>
+      @font-face { font-family: InterM; src: url(assets/fonts/Inter-Medium.otf); }
+      @font-face { font-family: InterX; src: url(assets/fonts/Inter-ExtraBold.otf); }
+      @font-face { font-family: InstrSerif; src: url(assets/fonts/InstrumentSerif-Italic.ttf); }
+      :root { --ink: #f1ede6; --bg: #07090d; }
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); }
+      #root { width: 100%; height: 100%; position: relative; font-family: InterM; color: var(--ink); }
+      .clip { position: absolute; inset: 0; }
+      #stage { display: block; width: 1080px; height: 1920px; }
+      .caps { pointer-events: none; }
+      .cap {
+        position: absolute; left: 90px; right: 90px; top: 330px;
+        text-align: center; font-family: InterM; font-size: 60px; line-height: 1.22;
+        letter-spacing: -0.01em; color: var(--ink);
+        text-shadow: 0 2px 24px rgba(0,0,0,.75), 0 0 2px rgba(0,0,0,.6);
+        opacity: 0;
+      }
+      .cap em { font-family: InstrSerif; font-style: normal; font-size: 1.12em; letter-spacing: 0; }
+      .hook { top: 300px; font-family: InterX; font-size: 80px; line-height: 1.08; letter-spacing: -0.03em; }
+      .note { top: 1360px; font-size: 38px; color: rgba(241,237,230,.82); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="60" data-width="1080" data-height="1920">
+      <div id="stage-layer" class="clip" data-start="0" data-duration="60" data-track-index="0">
+        <canvas id="stage" width="1080" height="1920"></canvas>
+      </div>
+
+      <div id="captions" class="clip caps" data-start="0" data-duration="60" data-track-index="2">
+        <div class="cap hook" id="c0">Kapan terakhir kamu merasa jadi <em>dirimu</em> sendiri?</div>
+        <div class="cap" id="c1">Pagi, siang, malam.</div>
+        <div class="cap" id="c2">Kursinya sama… kamu juga.</div>
+        <div class="cap" id="c3">Semua orang kelihatan tahu mau ke mana.</div>
+        <div class="cap" id="c4">Sampai suatu hari, wajah di cermin terasa <em>asing</em>.</div>
+        <div class="cap" id="c5">Jalannya banyak.</div>
+        <div class="cap" id="c6">Tapi kaki nggak mau melangkah.</div>
+        <div class="cap" id="c7">Dunia terasa terlalu besar…</div>
+        <div class="cap" id="c8">buat satu orang yang capek.</div>
+        <div class="cap" id="c9">Kamu nggak hancur.</div>
+        <div class="cap" id="c10">Kamu cuma <em>lelah</em>… terlalu lama.</div>
+        <div class="cap" id="c11">Sebenarnya, apa yang lagi kamu kejar?</div>
+        <div class="cap" id="c12">Mungkin jawabannya nggak harus ada malam ini.</div>
+        <div class="cap" id="c13">Tetap di sini pun… sudah <em>cukup</em>.</div>
+        <div class="cap note" id="c14">Kalau terasa berat, cerita ke orang yang kamu percaya.</div>
+      </div>
+
+      <audio id="soundtrack" src="assets/audio/mix.wav" data-start="0" data-duration="60" data-track-index="9" data-volume="1"></audio>
+    </div>
+
+    <script>
+      const W = 1080, H = 1920;
+      const cv = document.getElementById('stage');
+      const c = cv.getContext('2d');
+
+      // ---------- deterministic helpers
+      function mulberry(a) { return function () { a |= 0; a = (a + 0x6D2B79F5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
+      const R = mulberry(20261104);
+      const pts = (n, f) => Array.from({ length: n }, (_, i) => f(i));
+      const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+      const lerp = (a, b, k) => a + (b - a) * k;
+      const ease = (k) => k * k * (3 - 2 * k);
+      const hex = (h) => [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
+      const mix = (a, b, k) => { const A = hex(a), B = hex(b); return `rgb(${A.map((v, i) => Math.round(lerp(v, B[i], k))).join(',')})`; };
+      const mixMany = (cols, k) => { const n = cols.length - 1, x = clamp(k) * n, i = Math.min(n - 1, Math.floor(x)); return mix(cols[i], cols[i + 1], x - i); };
+      function vgrad(y0, y1, stops) { const g = c.createLinearGradient(0, y0, 0, y1); stops.forEach(([o, col]) => g.addColorStop(o, col)); return g; }
+      function glow(x, y, r, col, a) { const g = c.createRadialGradient(x, y, 0, x, y, r); g.addColorStop(0, col.replace(')', `,${a})`).replace('rgb', 'rgba')); g.addColorStop(1, col.replace(')', ',0)').replace('rgb', 'rgba')); c.fillStyle = g; c.fillRect(x - r, y - r, 2 * r, 2 * r); }
+      function cam(z, fx, fy) { c.translate(fx, fy); c.scale(z, z); c.translate(-fx, -fy); }
+
+      // ---------- the one character (charcoal shirt, black trousers, messy black hair)
+      // origin = hip, s = px per unit, angles: 0 = straight down, + = toward facing (+x)
+      function fig(x, y, s, p, rim) {
+        p = Object.assign({ lean: 0, head: 0, front: false, thL: 0, thR: 0, snL: 0, snR: 0, uaL: 0.05, uaR: 0.05, faL: 0.05, faR: 0.05, hair: 0, dir: 1, look: 0 }, p);
+        c.save(); c.translate(x, y); c.scale(p.dir, 1);
+        const draw = (ox, oy, shirt, pants, skin, hairC, shoe) => {
+          c.save(); c.translate(ox, oy);
+          const up = [Math.sin(p.lean), -Math.cos(p.lean)], pr = [Math.cos(p.lean), Math.sin(p.lean)];
+          const sp = p.front ? 1 : 0.12;
+          const N = [up[0] * 3.2 * s, up[1] * 3.2 * s];
+          const P = (o, v, k) => [o[0] + v[0] * k * s, o[1] + v[1] * k * s];
+          const end = (o, a, L) => [o[0] + Math.sin(a) * L * s, o[1] + Math.cos(a) * L * s];
+          const limb = (a, b, w, col) => { c.strokeStyle = col; c.lineWidth = w * s; c.lineCap = 'round'; c.lineJoin = 'round'; c.beginPath(); c.moveTo(a[0], a[1]); c.lineTo(b[0], b[1]); c.stroke(); };
+          const hipL = P([0, 0], pr, -0.42 * sp), hipR = P([0, 0], pr, 0.42 * sp);
+          const shL = P(N, pr, -0.8 * sp - 0.02), shR = P(N, pr, 0.8 * sp + 0.02);
+          const leg = (hp, th, sn) => { const k = end(hp, th, 2.4), f = end(k, sn, 2.3); limb(hp, k, 0.68, pants); limb(k, f, 0.56, pants); c.fillStyle = shoe; c.beginPath(); c.ellipse(f[0] + 0.22 * s * (p.front ? 0 : 1), f[1] + 0.05 * s, 0.42 * s, 0.2 * s, 0, 0, 7); c.fill(); };
+          const arm = (sh, ua, fa) => { const e = end(sh, ua, 1.6), h = end(e, fa, 1.45); limb(sh, e, 0.6, shirt); limb(e, h, 0.36, skin); c.fillStyle = skin; c.beginPath(); c.arc(h[0], h[1], 0.2 * s, 0, 7); c.fill(); };
+          // back limbs
+          leg(hipL, p.thL, p.snL); arm(shL, p.uaL, p.faL);
+          // oversized shirt torso
+          const w0 = p.front ? 0.95 : 0.78, w1 = p.front ? 0.9 : 0.7;
+          const a1 = P(P([0, 0], up, -0.35), pr, -w0), a2 = P(P([0, 0], up, -0.35), pr, w0);
+          const b2 = P(P(N, up, -0.1), pr, w1), b1 = P(P(N, up, -0.1), pr, -w1);
+          c.fillStyle = shirt; c.beginPath(); c.moveTo(a1[0], a1[1]); c.lineTo(a2[0], a2[1]);
+          c.quadraticCurveTo(b2[0] + up[0] * 0.2 * s + pr[0] * 0.3 * s, (a2[1] + b2[1]) / 2, b2[0], b2[1]);
+          c.quadraticCurveTo(N[0] + up[0] * 0.5 * s, N[1] + up[1] * 0.5 * s, b1[0], b1[1]);
+          c.quadraticCurveTo(b1[0] - pr[0] * 0.3 * s, (a1[1] + b1[1]) / 2, a1[0], a1[1]); c.fill();
+          // neck + head
+          const ha = p.lean + p.head, hu = [Math.sin(ha), -Math.cos(ha)];
+          const neckTop = P(N, hu, 0.45); limb(N, neckTop, 0.42, skin);
+          const hc = P(P(neckTop, hu, 0.55), [1, 0], p.look);
+          c.fillStyle = skin; c.beginPath(); c.ellipse(hc[0], hc[1], 0.56 * s, 0.66 * s, ha, 0, 7); c.fill();
+          // messy hair: short, slightly uneven tufts
+          c.fillStyle = hairC;
+          c.beginPath(); c.ellipse(hc[0] + hu[0] * 0.18 * s - (p.front ? 0 : 0.08 * s), hc[1] + hu[1] * 0.18 * s, 0.62 * s, 0.52 * s, ha, 0, 7); c.fill();
+          for (let k = 0; k < 7; k++) {
+            const ang = ha - 1.25 + k * 0.42, rr = 0.5 * s + Math.sin(k * 2.7) * 0.08 * s;
+            const fl = Math.sin(p.hair * 3 + k) * 0.06 * s * (p.hair ? 1 : 0);
+            c.beginPath(); c.arc(hc[0] + Math.sin(ang) * rr + fl, hc[1] - Math.cos(ang) * rr + hu[1] * 0.12 * s, 0.2 * s, 0, 7); c.fill();
+          }
+          // front limbs
+          leg(hipR, p.thR, p.snR); arm(shR, p.uaR, p.faR);
+          c.restore();
+        };
+        if (rim) draw(rim[1] || 3, -2, rim[0], rim[0], rim[0], rim[0], rim[0]);
+        const k = p.tone || 0;
+        draw(0, 0, mix('#2b2e34', '#000000', k), mix('#14161a', '#000000', k), mix('#3a302b', '#000000', k), mix('#0c0c0e', '#000000', k), mix('#3b3d42', '#000000', k));
+        c.restore();
+      }
+
+      // ---------- precomputed worlds
+      const cityDots = pts(140, () => [640 + R() * 360, 420 + R() * 540, R() < 0.6 ? '#f3c27a' : '#8fb4e8', R() * 6, 1 + R() * 2.2]);
+      const crowd = pts(80, () => ({ x: R() * 1600 - 260, z: 0.35 + R() * 0.75, v: (R() < 0.5 ? -1 : 1) * (700 + R() * 900), tone: R() }));
+      const rain = pts(280, () => [R() * W, R() * H, 0.6 + R() * 0.8]);
+      const grass = pts(700, () => [R(), R(), R()]).sort((a, b) => a[1] - b[1]);
+      const skyline = (() => { const b = []; let x = -40; const r = mulberry(7); while (x < W + 40) { const w = 50 + r() * 110; b.push({ x, w, h: 120 + r() * 460, win: pts(60, () => [r(), r(), r()]) }); x += w + r() * 6; } return b; })();
+      const grain = pts(6, (k) => { const g = document.createElement('canvas'); g.width = 270; g.height = 480; const x = g.getContext('2d'), d = x.createImageData(270, 480), r = mulberry(99 + k); for (let i = 0; i < d.data.length; i += 4) { const v = r() * 255; d.data[i] = d.data[i + 1] = d.data[i + 2] = v; d.data[i + 3] = 255; } x.putImageData(d, 0, 0); return g; });
+
+      const SIT = { lean: 0.42, head: 0.55, thL: Math.PI / 2 - 0.05, thR: Math.PI / 2 - 0.12, snL: 0.06, snR: -0.02, uaL: 0.35, uaR: 0.28, faL: 1.0, faR: 0.9 };
+
+      // ---------- scenes (each paints the full frame, u = local seconds 0..6)
+      function s1(u) {
+        const z = lerp(1.0, 1.32, ease(clamp(u / 6)));
+        c.save(); cam(z, 470, 1150);
+        c.fillStyle = vgrad(0, H, [[0, '#0d121b'], [1, '#06080c']]); c.fillRect(-200, -200, W + 400, H + 400);
+        c.fillStyle = vgrad(420, 960, [[0, '#18233a'], [1, '#0d1626']]); c.fillRect(640, 420, 360, 540);
+        cityDots.forEach(([x, y, col, ph, r]) => { c.globalAlpha = 0.45 + 0.35 * Math.sin(u * 1.3 + ph); c.fillStyle = col; c.fillRect(x, y, r, r); }); c.globalAlpha = 1;
+        c.fillStyle = '#0a0d14'; c.fillRect(620, 400, 150 + Math.sin(u * 0.8) * 6, 600); c.fillRect(890, 400, 130, 600);
+        c.fillStyle = 'rgba(120,150,210,0.07)'; c.beginPath(); c.moveTo(770, 960); c.lineTo(890, 960); c.lineTo(720, 1560); c.lineTo(300, 1560); c.fill();
+        c.fillStyle = '#0b0e14'; c.fillRect(-200, 1500, W + 400, 600);
+        // desk + laptop + papers + empty cup
+        c.fillStyle = '#12161e'; c.fillRect(-40, 1180, 330, 24); c.fillRect(20, 1204, 16, 300);
+        glow(160, 1110, 420, 'rgb(140,180,255)', 0.18);
+        c.fillStyle = '#9fc0f0'; c.fillRect(70, 1060, 170, 110); c.fillStyle = '#1a2230'; c.fillRect(60, 1168, 200, 12);
+        c.fillStyle = '#c9ced8'; c.globalAlpha = 0.5; c.fillRect(-10, 1166, 60, 14); c.fillRect(250, 1160, 30, 20); c.globalAlpha = 1;
+        c.fillStyle = '#2c313a'; c.fillRect(262, 1142, 22, 26);
+        // bed
+        c.fillStyle = '#1a1f29'; c.fillRect(330, 1330, 760, 160);
+        c.fillStyle = '#232a36'; c.beginPath(); c.moveTo(330, 1340); for (let x = 330; x <= 1090; x += 40) c.lineTo(x, 1320 + Math.sin(x * 0.03) * 14); c.lineTo(1090, 1360); c.lineTo(330, 1360); c.fill();
+        fig(520, 1335, 44, Object.assign({}, SIT, { dir: -1, lean: 0.45 + Math.sin(u * 0.9) * 0.01 }), ['#5d7fb8', -3]);
+        c.restore();
+      }
+
+      function s2(u) {
+        const cyc = (u / 6) * 3 % 1;
+        const sky = mixMany(['#f2d3a2', '#bcd7ea', '#e08a5a', '#101a2c', '#f2d3a2'], cyc);
+        const lit = [0.55, 0.75, 0.45, 0.12, 0.55]; const L = (() => { const x = cyc * 4, i = Math.min(3, Math.floor(x)); return lerp(lit[i], lit[i + 1], x - i); })();
+        c.fillStyle = mix('#05070b', '#3b3a3a', L); c.fillRect(0, 0, W, H);
+        c.fillStyle = sky; c.fillRect(250, 320, 600, 620);
+        c.fillStyle = mix('#05070b', '#2a2a2c', L); c.fillRect(540, 320, 18, 620); c.fillRect(250, 620, 600, 14);
+        // window light shaft on wall/desk
+        c.fillStyle = `rgba(255,230,190,${0.12 * L})`; c.beginPath(); c.moveTo(250, 940); c.lineTo(850, 940); c.lineTo(980, 1300); c.lineTo(120, 1300); c.fill();
+        // desk
+        c.fillStyle = mix('#0a0c10', '#4a4038', L); c.fillRect(60, 1250, 960, 26); c.fillRect(100, 1276, 20, 400); c.fillRect(960, 1276, 20, 400);
+        c.fillStyle = mix('#0a0c10', '#201c19', L); c.fillRect(0, 1640, W, 400);
+        // monitor glow
+        glow(330, 1120, 380, 'rgb(150,190,255)', 0.18 * (1.2 - L));
+        c.fillStyle = '#a9c6f2'; c.fillRect(200, 1040, 250, 160); c.fillStyle = '#161b24'; c.fillRect(310, 1200, 30, 50);
+        // growing paper stack + cups
+        const n = 1 + Math.floor(u * 1.7);
+        for (let k = 0; k < n; k++) { c.fillStyle = '#d8d4cc'; c.globalAlpha = 0.6 + 0.3 * L; c.fillRect(470 + (k % 2) * 6, 1240 - k * 9, 120, 9); }
+        for (let k = 0; k < Math.min(9, n); k++) { c.fillStyle = mix('#2a2e36', '#efe9df', L * 0.8); c.globalAlpha = 1; c.fillRect(110 + k * 34, 1214 - (k % 3) * 0, 24, 36); }
+        c.globalAlpha = 1;
+        // typing, robotic loop
+        const tap = Math.sin(u * 28) * 0.06, bob = Math.round(Math.sin(u * 3.1)) * 0.02;
+        fig(760, 1300, 46, { lean: -0.32, head: -0.05 + bob, dir: -1, thL: Math.PI / 2, thR: Math.PI / 2 - 0.08, snL: 0.05, snR: 0, uaL: 0.6, uaR: 0.55, faL: 1.85 + tap, faR: 1.8 - tap }, ['#9ab5df', -3]);
+        c.fillStyle = mix('#0a0c10', '#33302d', L); c.fillRect(780, 1300, 110, 22); c.fillRect(870, 1060, 20, 260); // chair
+      }
+
+      function s3(u) {
+        const orb = Math.sin((u / 6) * Math.PI - Math.PI / 2); // -1 .. 1
+        const vx = 540 + orb * 360;
+        c.fillStyle = vgrad(0, H, [[0, '#151a22'], [0.5, '#232a33'], [1, '#0f1217']]); c.fillRect(0, 0, W, H);
+        // ceiling lights
+        for (let k = 0; k < 9; k++) { const y = 250 + k * k * 9, w = 40 + k * 30; c.fillStyle = `rgba(230,240,255,${0.5 - k * 0.03})`; c.fillRect(vx - w / 2 + orb * k * 20, y, w, 8 + k); }
+        glow(vx, 900, 700, 'rgb(170,190,220)', 0.12);
+        // floor perspective
+        c.strokeStyle = 'rgba(160,175,195,0.12)'; c.lineWidth = 2;
+        for (let k = -14; k <= 14; k++) { c.beginPath(); c.moveTo(vx, 920); c.lineTo(vx + k * 160, H); c.stroke(); }
+        for (let k = 0; k < 12; k++) { const y = 920 + Math.pow(k / 12, 2) * 1000; c.beginPath(); c.moveTo(0, y); c.lineTo(W, y); c.stroke(); }
+        const drawCrowd = (front) => crowd.forEach((p) => {
+          if ((p.z > 0.95) !== front) return; if (front && Math.abs(((p.x + p.v * u + orb * 300 * p.z) % 1700 + 1700) % 1700 - 300 - 540) < 160) return;
+          const x = ((p.x + p.v * u + orb * 300 * p.z) % 1700 + 1700) % 1700 - 300;
+          const h = 560 * p.z, y = 920 + 600 * p.z, w = 70 * p.z + Math.abs(p.v) * 0.14;
+          const g = c.createLinearGradient(x - w, 0, x + w, 0);
+          const col = mix('#3a4250', '#0e1116', p.tone);
+          g.addColorStop(0, 'rgba(20,24,30,0)'); g.addColorStop(0.5, col); g.addColorStop(1, 'rgba(20,24,30,0)');
+          c.globalAlpha = front ? 0.3 : 0.85; c.fillStyle = g; c.fillRect(x - w, y - h, 2 * w, h);
+        });
+        drawCrowd(false); c.globalAlpha = 1;
+        glow(540, 1150, 420, 'rgb(190,205,230)', 0.18); fig(540, 1500, 60, { front: true, look: Math.sin(u * 1.1) * 0.25, head: 0, uaL: -0.12, uaR: 0.12, faL: -0.05, faR: 0.05, thL: -0.04, thR: 0.04, snL: -0.03, snR: 0.03 }, ['#c9d6ee', 4]);
+        drawCrowd(true); c.globalAlpha = 1;
+      }
+
+      function s4(u) {
+        let fl = 0.86 + 0.1 * Math.sin(u * 47) * Math.sin(u * 13);
+        if ((u > 1.1 && u < 1.24) || (u > 3.45 && u < 3.53) || (u > 4.7 && u < 4.76)) fl = 0.35;
+        c.fillStyle = mix('#0b0f0e', '#3a4844', fl * 0.8); c.fillRect(0, 0, W, H);
+        c.strokeStyle = `rgba(200,220,210,${0.08 * fl})`; c.lineWidth = 3;
+        for (let x = 0; x < W; x += 120) { c.beginPath(); c.moveTo(x, 0); c.lineTo(x, H); c.stroke(); }
+        for (let y = 0; y < H; y += 120) { c.beginPath(); c.moveTo(0, y); c.lineTo(W, y); c.stroke(); }
+        c.fillStyle = `rgba(235,250,245,${fl})`; c.fillRect(260, 600, 560, 18); glow(540, 610, 520, 'rgb(210,240,230)', 0.35 * fl);
+        // mirror
+        c.fillStyle = '#1a201f'; c.fillRect(150, 680, 780, 900);
+        c.fillStyle = mix('#18211f', '#7d8f8b', fl * 0.75); c.fillRect(172, 702, 736, 856);
+        const lift = ease(clamp((u - 1.4) / 1.4)), touch = ease(clamp((u - 3.2) / 0.9));
+        const hd = lerp(0.42, 0.02, lift);
+        // reflection (inside mirror, mirrored, a little colder and further)
+        c.save(); c.beginPath(); c.rect(172, 702, 736, 856); c.clip();
+        c.globalAlpha = 0.78;
+        fig(700, 1640, 92, { front: true, head: hd * 0.8, uaL: lerp(-0.05, -1.25, touch), uaR: 0.05, faL: lerp(0, -1.6, touch), faR: 0.05, tone: 0.05 }, ['#cfe3dc', 3]);
+        c.globalAlpha = 1; c.restore();
+        // the person, back-of-shoulder in the foreground left
+        fig(380, 1980, 104, { front: true, head: hd, uaL: 0.05, uaR: lerp(0.05, 1.95, touch), faL: 0, faR: lerp(0.05, 2.3, touch), tone: 0.55 }, [`rgba(210,240,230,${0.55 * fl})`.replace('rgba', 'rgba'), 3]);
+      }
+
+      function s5(u) {
+        const z = lerp(1.35, 0.9, ease(clamp(u / 6)));
+        c.fillStyle = '#05070d'; c.fillRect(0, 0, W, H);
+        c.save(); cam(z, 540, 1420);
+        const hy = 1060;
+        c.fillStyle = vgrad(-300, hy, [[0, '#04060c'], [1, '#121a2c']]); c.fillRect(-400, -400, W + 800, hy + 400);
+        // buildings + neon
+        const neon = [[90, 640, '#d14a8b'], [250, 760, '#3fb6c9'], [820, 600, '#e7a54a'], [960, 820, '#d14a8b'], [700, 880, '#3fb6c9']];
+        c.fillStyle = '#080b12'; c.fillRect(-400, 300, 560, hy - 300); c.fillRect(760, 260, 700, hy - 260); c.fillRect(380, 640, 180, hy - 640);
+        neon.forEach(([x, y, col], i) => { const a = 0.75 + 0.25 * Math.sin(u * 2 + i * 1.7); c.fillStyle = col; c.globalAlpha = a; c.fillRect(x, y, 90, 26); glow(x + 45, y + 13, 180, `rgb(${hex(col).join(',')})`, 0.35 * a); c.globalAlpha = 1; });
+        // wet road + diverging streets
+        c.fillStyle = '#0b0f18'; c.fillRect(-400, hy, W + 800, H);
+        c.fillStyle = '#111827';
+        [[-900, 0.0], [540, 0], [1980, 0]].forEach(([fx]) => { c.beginPath(); c.moveTo(fx, hy); c.lineTo(fx + 40, hy); c.lineTo(780, H + 200); c.lineTo(300, H + 200); c.fill(); });
+        neon.forEach(([x, y, col], i) => { const g = c.createLinearGradient(0, hy, 0, hy + 700); const rgb = hex(col).join(','); g.addColorStop(0, `rgba(${rgb},0.35)`); g.addColorStop(1, `rgba(${rgb},0)`); c.fillStyle = g; const wob = Math.sin(u * 3 + i) * 6; c.fillRect(x + 20 + wob, hy + (hy - y) * 0.15, 50, 700); });
+        // crosswalk
+        c.fillStyle = 'rgba(200,210,225,0.18)'; for (let k = 0; k < 7; k++) c.fillRect(250 + k * 85, 1560, 50, 120);
+        // the person: walks then stops, looks left then right
+        const walk = u < 2.2 ? Math.sin(u * 7) : 0, st = clamp((2.2 - u) * 4);
+        const look = u < 2.6 ? 0 : u < 3.8 ? -0.35 * ease(clamp((u - 2.6) / 0.5)) : lerp(-0.35, 0.35, ease(clamp((u - 3.8) / 0.6)));
+        fig(540, 1450 - (u < 2.2 ? u * 6 : 13), 34, { front: true, look, thL: 0.22 * walk * st, thR: -0.22 * walk * st, snL: 0.1 * walk * st, snR: -0.1 * walk * st, uaL: -0.12 - 0.12 * walk * st, uaR: 0.12 + 0.12 * walk * st, faL: -0.08, faR: 0.08 }, ['#c66aa0', 2.5]);
+        c.restore();
+        // rain (screen space)
+        c.strokeStyle = 'rgba(190,205,230,0.35)'; c.lineWidth = 2;
+        rain.forEach(([x, y, sp]) => { const yy = (y + u * 1900 * sp) % H, xx = (x + u * 90) % W; c.beginPath(); c.moveTo(xx, yy); c.lineTo(xx - 6, yy + 34 * sp); c.stroke(); });
+      }
+
+      function s6(u) {
+        const k = ease(clamp(u / 6));
+        const hy = lerp(1120, 640, k), s = lerp(46, 13, k);
+        c.fillStyle = vgrad(0, hy, [[0, '#7c848c'], [1, '#c4c7c3']]); c.fillRect(0, 0, W, hy);
+        c.fillStyle = vgrad(hy, H, [[0, '#7d8574'], [1, '#3e4a3c']]); c.fillRect(0, hy, W, H - hy);
+        // soft cloud bands
+        for (let i = 0; i < 5; i++) { c.fillStyle = `rgba(235,236,232,${0.08 + i * 0.02})`; c.fillRect(0, hy * (0.15 + i * 0.16) + Math.sin(u * 0.3 + i) * 10, W, 40 + i * 12); }
+        const py = lerp(1380, 1120, k);
+        // grass, back to front
+        c.lineCap = 'round';
+        grass.forEach(([rx, ry, rr]) => {
+          const d = Math.pow(ry, 1.6), y = hy + d * (H - hy) + 10, x = rx * (W + 200) - 100;
+          if (y > py + 40) return;
+          const h = 14 + d * 110 * (0.7 + rr * 0.6), sw = Math.sin(u * 1.6 + x * 0.008 + rr * 3) * (6 + d * 22);
+          c.strokeStyle = mix('#a6ad97', '#4c5a46', d); c.lineWidth = 1 + d * 4; c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(x + sw * 0.4, y - h * 0.6, x + sw, y - h); c.stroke();
+        });
+        // slow turn: front -> side -> back
+        const turn = u < 1.6 ? 0 : u < 3.3 ? 1 : 2;
+        fig(540, py, s, turn === 1 ? { dir: Math.sin(u * 0.6) > 0 ? 1 : -1, uaL: 0.1, uaR: 0.05, faL: 0.1, faR: 0.05 } : { front: true, look: turn === 0 ? 0.1 : -0.1, tone: turn === 2 ? 0.2 : 0, uaL: -0.1, uaR: 0.1, faL: -0.05, faR: 0.05 }, ['#dfe2dc', 2]);
+        grass.forEach(([rx, ry, rr]) => {
+          const d = Math.pow(ry, 1.6), y = hy + d * (H - hy) + 10, x = rx * (W + 200) - 100;
+          if (y <= py + 40) return;
+          const h = 14 + d * 150 * (0.7 + rr * 0.6), sw = Math.sin(u * 1.6 + x * 0.008 + rr * 3) * (6 + d * 26);
+          c.strokeStyle = mix('#7d8670', '#323d2f', d); c.lineWidth = 1.5 + d * 5; c.beginPath(); c.moveTo(x, y); c.quadraticCurveTo(x + sw * 0.4, y - h * 0.6, x + sw, y - h); c.stroke();
+        });
+      }
+
+      function s7(u) {
+        c.fillStyle = '#140f0b'; c.fillRect(0, 0, W, H);
+        glow(860, 360, 1100, 'rgb(240,170,90)', 0.22);
+        // upper cabinets, counter, lower cabinets
+        c.fillStyle = '#21180f'; for (let k = 0; k < 4; k++) c.fillRect(30 + k * 260, 420, 240, 420);
+        c.fillStyle = '#3a2a1c'; c.fillRect(0, 1130, W, 30);
+        c.fillStyle = '#2a1f15'; for (let k = 0; k < 4; k++) c.fillRect(20 + k * 265, 1160, 250, 420);
+        c.fillStyle = '#6b5236'; for (let k = 0; k < 4; k++) c.fillRect(220 + k * 265, 1240, 14, 70);
+        c.fillStyle = '#100b08'; c.fillRect(0, 1580, W, 400);
+        // phone face down, half glass of water
+        c.fillStyle = '#0a0a0c'; c.fillRect(160, 1588, 90, 16);
+        c.fillStyle = 'rgba(200,220,230,0.22)'; c.fillRect(860, 1500, 46, 90); c.fillStyle = 'rgba(150,190,210,0.25)'; c.fillRect(860, 1548, 46, 42);
+        const back = ease(clamp((u - 0.8) / 1.8)), br = Math.sin(u * 1.25) * 0.025;
+        fig(420, 1575, 50, { lean: -0.18 - br, head: lerp(0.15, -0.42, back), thL: 2.25, thR: 2.15, snL: 0.85, snR: 0.8, uaL: 0.95, uaR: 0.9, faL: 1.55, faR: 1.45 }, ['#e0a160', -3]);
+      }
+
+      function s8(u) {
+        const z = lerp(1.85, 1.0, ease(clamp(u / 6)));
+        c.save(); c.fillStyle = '#060810'; c.fillRect(0, 0, W, H); cam(z, 560, 1230);
+        const hy = 1180;
+        c.fillStyle = vgrad(0, hy, [[0, '#070c18'], [0.75, '#1a2742'], [1, mix('#2a3350', '#6b4e63', u / 6)]]); c.fillRect(-200, -200, W + 400, hy + 200);
+        skyline.forEach((b) => { c.fillStyle = '#05070d'; c.fillRect(b.x, hy - b.h * 0.75, b.w, b.h * 0.75 + 80);
+          b.win.forEach(([wx, wy, on]) => { if (on < 0.45) return; c.fillStyle = on > 0.8 ? '#f6c77d' : '#c9934e'; c.globalAlpha = 0.5 + 0.4 * Math.sin(on * 50 + u * 0.4); c.fillRect(b.x + 6 + wx * (b.w - 16), hy - b.h * 0.75 + 10 + wy * (b.h * 0.75 - 20), 5, 7); }); c.globalAlpha = 1; });
+        c.fillStyle = '#0c0f16'; c.fillRect(-200, hy + 70, W + 400, 900);
+        c.fillStyle = '#151924'; c.fillRect(-200, hy + 60, W + 400, 20);
+        // phone in hands, then switched off & set down
+        const off = u > 2.4, place = ease(clamp((u - 2.8) / 0.8));
+        fig(560, hy + 60, 40, { front: true, tone: 0.1, uaL: lerp(0.5, -0.1, place), uaR: lerp(-0.5, 0.1, place), faL: lerp(1.2, 0, place), faR: lerp(-1.2, 0, place), thL: 3.0, thR: 3.1, snL: 0, snR: 0 }, ['#5a6c96', 2.5]);
+        if (!off) glow(560, hy - 20, 160, 'rgb(170,200,255)', 0.35);
+        c.fillStyle = off ? '#0a0c12' : '#bcd4ff'; c.fillRect(lerp(548, 690, place), lerp(hy - 40, hy + 50, place), 26, 40);
+        c.restore();
+      }
+
+      function s9(u) {
+        const k = ease(clamp(u / 6)), z = lerp(1.0, 1.22, k);
+        c.save(); cam(z, 520, 1150);
+        const hy = 1180;
+        c.fillStyle = vgrad(-200, hy, [[0, mix('#1c2a45', '#6d89ad', k)], [0.7, mix('#4a4f6a', '#e7b98e', k)], [1, mix('#c98a6a', '#f6cf8f', k)]]); c.fillRect(-200, -200, W + 400, hy + 200);
+        glow(800, hy, lerp(260, 520, k), 'rgb(255,210,140)', lerp(0.35, 0.75, k));
+        c.fillStyle = mix('#ffd9a0', '#fff1d2', k); c.beginPath(); c.arc(800, hy + lerp(40, -20, k), 46, 0, 7); c.fill();
+        skyline.forEach((b) => { c.fillStyle = mix('#0b0d16', '#2a2530', k); c.fillRect(b.x, hy - b.h * 0.6, b.w, b.h * 0.6 + 80); });
+        c.fillStyle = '#12131a'; c.fillRect(-200, hy + 70, W + 400, 900);
+        c.fillStyle = '#1f1e24'; c.fillRect(-200, hy + 60, W + 400, 20);
+        const relax = ease(clamp((u - 1.8) / 2.2));
+        fig(420, hy + 60, 52, { dir: 1, lean: lerp(0.32, 0.12, relax), head: lerp(0.25, -0.05, relax), hair: u, thL: Math.PI / 2 - 0.1, thR: Math.PI / 2 - 0.2, snL: 0.2, snR: 0.05, uaL: 0.2, uaR: 0.3, faL: 0.9, faR: 1.0 }, ['#ffc97f', 3]);
+        c.restore();
+      }
+
+      function s10(u) {
+        const k = ease(clamp(u / 6)), z = lerp(1.15, 0.92, k);
+        c.save(); c.fillStyle = '#0a0b10'; c.fillRect(0, 0, W, H); cam(z, 540, 1300);
+        const hy = 1240;
+        c.fillStyle = vgrad(-300, hy, [[0, mix('#93abc6', '#b6c2cf', k)], [0.7, '#e9cfa2'], [1, '#f5d28d']]); c.fillRect(-300, -300, W + 600, hy + 300);
+        glow(740, hy - 60, 700, 'rgb(255,214,150)', 0.7);
+        c.fillStyle = '#fff2d6'; c.beginPath(); c.arc(740, hy - 60, 58, 0, 7); c.fill();
+        skyline.forEach((b, i) => { c.fillStyle = mix('#4a4850', '#2c2a31', (i % 3) / 3); c.fillRect(b.x * 1.3 - 160, hy - b.h * 0.45, b.w * 1.3, b.h * 0.45 + 80); });
+        c.fillStyle = '#1b1a1f'; c.fillRect(-300, hy + 70, W + 600, 1000);
+        c.fillStyle = '#2a282e'; c.fillRect(-300, hy + 60, W + 600, 18);
+        const step = ease(clamp((u - 1.4) / 0.8)), sw = Math.sin(clamp((u - 1.4) / 0.8) * Math.PI);
+        fig(540, hy + 260 - step * 10, 24 + step * 0.8, { front: true, tone: 0.15, thL: 0.2 * sw, thR: 0, snL: 0.1 * sw, uaL: -0.08, uaR: 0.08, faL: -0.04, faR: 0.04 }, ['#ffd99a', 2]);
+        c.restore();
+      }
+
+      const SC = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10];
+      function draw(t) {
+        t = clamp(t, 0, 59.999);
+        const i = Math.min(9, Math.floor(t / 6)), u = t - i * 6;
+        c.save(); c.globalAlpha = 1; SC[i](u); c.restore();
+        const xf = i === 7 ? 1.2 : 0.45;
+        if (i < 9 && i !== 5 && u > 6 - xf) { c.save(); c.globalAlpha = ease((u - (6 - xf)) / xf); SC[i + 1](0); c.restore(); }
+        // soft white bridge from the field into the kitchen
+        if (i === 5 && u > 5.3) { c.fillStyle = `rgba(245,243,238,${ease((u - 5.3) / 0.7)})`; c.fillRect(0, 0, W, H); }
+        if (i === 6 && u < 0.7) { c.fillStyle = `rgba(245,243,238,${1 - ease(u / 0.7)})`; c.fillRect(0, 0, W, H); }
+        // vignette + film grain + grade
+        const v = c.createRadialGradient(W / 2, H * 0.55, H * 0.25, W / 2, H * 0.55, H * 0.75); v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,0.55)'); c.fillStyle = v; c.fillRect(0, 0, W, H);
+        c.save(); c.globalAlpha = 0.07; c.globalCompositeOperation = 'overlay'; c.drawImage(grain[Math.floor(t * 24) % 6], 0, 0, W, H); c.restore();
+        if (t > 47.5) { const g = c.createLinearGradient(0, 0, 0, 760); g.addColorStop(0.2, `rgba(12,12,18,${0.42 * clamp((t - 47.5) / 1.5)})`); g.addColorStop(1, 'rgba(12,12,18,0)'); c.fillStyle = g; c.fillRect(0, 0, W, 760); }
+        // final fade to black
+        if (t > 58.3) { c.fillStyle = `rgba(0,0,0,${ease((t - 58.3) / 1.5)})`; c.fillRect(0, 0, W, H); }
+      }
+
+      const tl = gsap.timeline({ paused: true });
+      const clock = { t: 0 };
+      tl.fromTo(clock, { t: 0 }, { t: 60, duration: 60, ease: 'none', onUpdate: () => draw(clock.t) }, 0);
+
+      // captions = voiceover lines (start, end)
+      const caps = [['#c0', 0, 5.6], ['#c1', 6.2, 9.4], ['#c2', 9.4, 11.7], ['#c3', 12.2, 17.6], ['#c4', 18.2, 23.6], ['#c5', 24.2, 25.7], ['#c6', 25.7, 29.6],
+        ['#c7', 30.2, 32.0], ['#c8', 32.0, 35.2], ['#c9', 37.2, 38.6], ['#c10', 38.6, 41.6], ['#c11', 42.2, 47.6], ['#c12', 48.2, 53.6], ['#c13', 54.2, 57.3], ['#c14', 57.5, 59.2]];
+      caps.forEach(([sel, a, b], i) => {
+        if (i === 0) tl.fromTo(sel, { opacity: 1 }, { opacity: 1, duration: 0.01 }, 0);
+        else tl.fromTo(sel, { opacity: 0, y: 14, filter: 'blur(8px)' }, { opacity: 1, y: 0, filter: 'blur(0px)', duration: 0.5, ease: 'power2.out' }, a);
+        tl.fromTo(sel, { opacity: 1 }, { opacity: 0, duration: 0.35, ease: 'power1.in', immediateRender: false }, b - 0.35);
+      });
+
+      draw(0);
+      document.fonts.ready.then(() => { window.__timelines = window.__timelines || {}; window.__timelines['main'] = tl; });
+    </script>
+  </body>
+</html>
