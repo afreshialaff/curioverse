@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-04",
+  "story": null,
+  "type": "reel",
+  "made_by": "vivid",
+  "format": "film-pendek",
+  "title": "You Were Never Behind",
+  "caption": "Di umur yang sama, ada yang sudah sampai ke mana-mana.\n\nDan kita masih bertanya, sebenarnya sedang menuju ke mana. Padahal kita nggak mulai dari tempat yang sama. Ada yang punya banyak pilihan, ada yang harus berjuang dulu untuk satu kesempatan.\n\nHidupmu nggak harus ikut jadwal siapa pun.\n\nKamu pernah merasa tertinggal?\n\nSuara narator dibuat dengan AI (ElevenLabs). Visual dibuat dengan Google Flow.\n\nA curious mind lives here.\n\n#selfreflection #quietlife #slowliving #youarenotlate #curioverse",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "ElevenLabs",
+    "model": "eleven_v4",
+    "voice": "Trang",
+    "status": "sudah dimixing ke reel.mp4"
+  },
+  "review": {
+    "status": "lolos",
+    "by": "pemilik",
+    "approved_by_human": true,
+    "notes": "Video on-demand lewat skill Vivid dari storyboard manual pemilik; disetujui pemilik di chat 2026-11-04 ('Posting')."
+  },
+  "post": {
+    "status": "queued"
+  }
+}
