@@ -2,7 +2,7 @@
 // Kalau gambar diubah, naikkan versi nama file (-v2.svg) karena /assets di-cache 1 tahun.
 import { writeFileSync } from "node:fs";
 const OUT = process.argv[2];
-const C = { bg:"#EAE3D5", bg2:"#E1D8C6", card:"#F1ECE1", ink:"#1B1A17", mute:"#4D483F", line:"#CDBFA6", moss:"#3F4A3B", up:"#3F6B3A", down:"#9A3F2B", gold:"#A67C52", goldT:"#7A5532", blue:"#5B7C9A" };
+const C = { bg:"#EFE4C6", bg2:"#E5D8B2", card:"#F6EED6", ink:"#0B1450", mute:"#4B5180", line:"#CFC3A0", moss:"#0B1450", up:"#0B7465", down:"#B80B17", gold:"#B80B17", goldT:"#A00A14", blue:"#1F56A8" };
 const SERIF = "Georgia, 'Times New Roman', serif", SANS = "'Helvetica Neue', Arial, sans-serif";
 const t = (x, y, s, txt, o = {}) => `<text x="${x}" y="${y}" font-family="${o.f || SANS}" font-size="${s}" fill="${o.c || C.ink}"${o.w ? ` font-weight="${o.w}"` : ""}${o.a ? ` text-anchor="${o.a}"` : ""}${o.i ? ` font-style="italic"` : ""}>${txt}</text>`;
 const frame = (title, body, note = "Ilustrasi: Curioverse") => `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="${title}">
@@ -95,7 +95,7 @@ ${bull}${bear}`;
     return `<g>
       <path d="M${x - w / 2} ${top} L${x + w / 2} ${top} L${x + w * .38} 640 L${x - w * .38} 640 Z" fill="${C.card}" stroke="${C.ink}" stroke-width="5" stroke-linejoin="round"/>
       <path d="M${x - w * .47} ${top + h * .18} L${x + w * .47} ${top + h * .18} L${x + w * .38} 640 L${x - w * .38} 640 Z" fill="${C.gold}" opacity=".85"/>
-      <path d="M${x - w * .45} ${top + h * .18} L${x + w * .45} ${top + h * .18} L${x + w * .43} ${top + h * .38} L${x - w * .43} ${top + h * .38} Z" fill="#F1ECE1" opacity=".75"/>
+      <path d="M${x - w * .45} ${top + h * .18} L${x + w * .45} ${top + h * .18} L${x + w * .43} ${top + h * .38} L${x - w * .43} ${top + h * .38} Z" fill="#F6EED6" opacity=".75"/>
       <rect x="${x - w * .6}" y="${top - 26}" width="${w * 1.2}" height="26" rx="10" fill="${C.ink}"/>
       <line x1="${x + w * .12}" y1="${top - 26}" x2="${x + w * .3}" y2="${top - 120 * s}" stroke="${C.down}" stroke-width="10" stroke-linecap="round"/>
       ${t(x, 700, 40, rp(price), { a: "middle", w: 700, f: SERIF })}
@@ -193,7 +193,7 @@ ${bear}${tun}
 /* 8. tulip */
 {
   const petal = (d, id) => `<path d="${d}" fill="url(#${id})" stroke="${C.ink}" stroke-width="5" stroke-linejoin="round"/>`;
-  const stripes = id => `<pattern id="${id}" width="44" height="400" patternUnits="userSpaceOnUse" patternTransform="rotate(8)"><rect width="44" height="400" fill="#F4EEE3"/><path d="M8 0 Q 26 100 12 200 Q 0 300 18 400" stroke="${C.down}" stroke-width="12" fill="none"/></pattern>`;
+  const stripes = id => `<pattern id="${id}" width="44" height="400" patternUnits="userSpaceOnUse" patternTransform="rotate(8)"><rect width="44" height="400" fill="#F6EED6"/><path d="M8 0 Q 26 100 12 200 Q 0 300 18 400" stroke="${C.down}" stroke-width="12" fill="none"/></pattern>`;
   const flower = `<g transform="translate(400 210) scale(.85)">
     <path d="M0 330 Q -10 520 10 700" stroke="${C.moss}" stroke-width="16" fill="none" stroke-linecap="round"/>
     <path d="M6 600 Q -140 520 -160 380 Q -60 450 6 560 Z" fill="${C.moss}"/>

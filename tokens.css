@@ -1,7 +1,7 @@
 /* Curioverse tokens · extracted from index.html (brand-pinned palette + type) */
 :root{
-  /* brand */
-  --ink:#1B1A17; --moss:#3F4A3B; --paper:#EAE3D5; --gold:#A67C52; --blue:#5B7C9A;
+  /* brand · Japan Club 60-30-10 */
+  --ink:#0B1450; --moss:#0B1450; --paper:#EFE4C6; --gold:#B80B17; --blue:#1F56A8;
   /* semantic, light (Parchment) */
   --bg:#EAE3D5; --bg-2:#E1D8C6; --card:#F1ECE1; --fg:#1B1A17; --muted:#4D483F;
   --line:#CDBFA6; --line-strong:#82745F;
@@ -14,10 +14,9 @@
   --c-finance:#A67C52; --c-science:#5B7C9A; --c-sejarah:#3F4A3B; --c-biografi:#1B1A17;
   --c-market:#7A5532; --c-saham:#9A3F2B; --c-global:#4D483F;
 
-  --font-display:"Playfair Display", "Iowan Old Style", "Times New Roman", serif;
-  --font-body:"Lora", Georgia, "Times New Roman", serif;
-  --font-ui:"DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-hand:"Caveat", "Segoe Print", cursive;
+  --font-display:"Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --font-body:"Inter Tight", system-ui, sans-serif;
+  --font-ui:"Inter Tight", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   --t-xs:.8125rem; --t-sm:.9375rem; --t-base:1.0625rem; --t-lg:1.25rem; --t-xl:1.55rem;
   --t-2xl:clamp(1.9rem, 1.45rem + 1.6vw, 2.35rem);

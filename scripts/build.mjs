@@ -31,7 +31,7 @@ const rich = s => esc(s)
 const KNOWN_ICONS = ["finance","science","sejarah","biografi","market","saham","global","scam","lingkungan","psikologi","healthy","konspirasi","search","dice","close","moon","sun","menu","arrow","mail","instagram","threads","x","share","up"];
 const icon = (id, cls = "ico") => `<svg class="${cls}" aria-hidden="true"><use href="#i-${KNOWN_ICONS.includes(id) ? id : "topic"}"/></svg>`;
 // Category colours and labels come from content/categories.json, so new categories need no CSS or JS edits.
-const CAT_STYLE = `<style>:root{${ORDER.map(c => `--c-${c}:${CATS[c].light}`).join(";")}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){${ORDER.map(c => `--c-${c}:${CATS[c].dark}`).join(";")}}}:root[data-theme="dark"]{${ORDER.map(c => `--c-${c}:${CATS[c].dark}`).join(";")}}</style>`;
+const CAT_STYLE = `<style>${ORDER.map(c => `.badge[data-c="${c}"]`).join(",")}{color:var(--cc)}${ORDER.map(c => `[data-c="${c}"]{--cc:var(--c-${c})}`).join("")}:root{${ORDER.map(c => `--c-${c}:${CATS[c].light}`).join(";")}}@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){${ORDER.map(c => `--c-${c}:${CATS[c].dark}`).join(";")}}}:root[data-theme="dark"]{${ORDER.map(c => `--c-${c}:${CATS[c].dark}`).join(";")}}</style>`;
 const CAT_LABELS = `<script type="application/json" id="cv-labels">${JSON.stringify(Object.fromEntries(ORDER.map(c => [c, CATS[c].label]))).replace(/</g, "\\u003c")}</script>`;
 const figure = (im, cls = "story-fig", vt = "") => im && im.src ? `<figure class="${cls} rv"><img src="${esc(im.src)}" alt="${esc(im.alt || "")}" ${vt ? `fetchpriority="high" style="--vt:cv-${vt}"` : 'loading="lazy"'} decoding="async" referrerpolicy="no-referrer"><figcaption>${esc(im.caption || im.alt || "")}${im.credit ? ` <span class="credit">${im.page ? `<a href="${esc(im.page)}" target="_blank" rel="noopener">` : ""}${esc(im.credit)}${im.license ? `, ${esc(im.license)}` : ""}${im.page ? "</a>" : ""}</span>` : ""}</figcaption></figure>` : "";
 const badge = c => `<span class="badge" data-c="${c}">${icon(c)}<b>${CATS[c].label}</b></span>`;
@@ -211,12 +211,11 @@ function page({ path, title, desc, body, active = "", scripts = [], jsonld = nul
 ${og ? `<meta property="og:image" content="${esc(og.src)}">\n<meta property="og:image:alt" content="${esc(og.alt || "")}">\n` : ""}<meta name="twitter:card" content="${og ? "summary_large_image" : "summary"}">
 <link rel="alternate" type="application/rss+xml" title="Curioverse" href="/feed.xml">
 <link rel="preconnect" href="https://upload.wikimedia.org" crossorigin>
-<meta name="theme-color" content="#EAE3D5" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#1B1A17" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#EFE4C6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#070B26" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/InterTight-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/InstrumentSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/Caveat-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/styles.css?v=${V}">
 <script>(function(d){d.classList.add("js");try{var t=localStorage.getItem("cv-theme");if(t==="light"||t==="dark")d.dataset.theme=t}catch(e){}setTimeout(function(){if(!window.CV)d.classList.add("rv-safe")},3500)})(document.documentElement)</script>
 ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld)}</script>` : ""}

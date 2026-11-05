@@ -11,9 +11,9 @@
 - **Constraints:** no invented news, no live market data, social posts close with the brand line "a curious mind lives here" instead of a disclaimer. Facts must be accurate and checkable.
 
 ## Brand commitments (pinned)
-- Palette: Midnight Ink #1B1A17, Moss Green #3F4A3B, Parchment #EAE3D5, Sepia Gold #A67C52, Dusk Blue #5B7C9A (science accent).
-- Type: Playfair Display (display), Lora (long-form), DM Sans (UI). Caveat only for handwritten signatures.
-- Motifs: celestial orbits, four-point stars, monogram C, stamp seal.
+- Palette (Japan Club, aturan 60-30-10, sejak 5 Nov 2026): Cream #EFE4C6 60% (latar), Deep Space Navy #0B1450 30% (teks, band, kartu malam), Red #B80B17 10% (tombol, bintang, satu kata penegas). Dark mode: Deep Space #070B26 + cream + red #F0505A. Warna kategori tetap beda per kategori (content/categories.json), nuansa planet/nebula.
+- Type: dua font saja. Instrument Serif (display; italic untuk catatan dan kata penegas) + Inter Tight (body/UI). Caveat dihapus.
+- Motifs: celestial orbits, four-point stars, starfield tipis di permukaan navy, moon/rising-sun merah, monogram C, stamp seal.
 - Light (Parchment) and dark (Midnight Ink) both designed; follows system with a working toggle.
 
 ## Surfaces
