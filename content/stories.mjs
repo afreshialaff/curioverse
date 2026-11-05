@@ -11,21 +11,6 @@ export const CATS = Object.fromEntries(Object.entries(CAT_DATA).map(([k, v]) => 
 export const ORDER = Object.keys(CAT_DATA);
 
 export const A = [
-{ id:"tulip", cat:"sejarah", also:"finance", date:"2026-10-12",
-  title:"Tulip mania: waktu satu umbi bunga dihargai kayak rumah",
-  dek:"Belanda abad ke-17, harga kontrak umbi tulip naik gila-gilaan lalu ambruk di Februari 1637. Plot twist-nya, ceritanya mungkin nggak sedramatis yang kamu kira.",
-  tags:"gelembung bubble belanda spekulasi harga bunga",
-  s:[["Kok bisa bunga jadi aset?",["Di Republik Belanda tahun 1630-an, tulip itu barang flexing. Varietas yang kelopaknya bergaris-garis kayak api paling dicari (belakangan ketahuan pola itu efek virus). Orang nggak cuma beli bunganya, tapi kontrak umbi yang baru bakal dipanen nanti. Jadi yang diperdagangkan sebenernya janji.","Pas musim dingin 1636 ke 1637, harga kontrak itu naik terus. Banyak yang ikut beli bukan karena suka tulip, tapi karena yakin besok ada yang mau beli lebih mahal. Familiar? Ini pola klasik gelembung harga."]],
-     ["Februari 1637: pop",["Awal Februari 1637, di sebuah lelang di Haarlem, pembeli tiba-tiba nggak muncul. Kepercayaan runtuh dalam hitungan hari, harga kontrak jatuh, dan banyak kesepakatan akhirnya nggak pernah dibayar penuh."]],
-     ["Versi sejarawan",["Versi populernya bilang ekonomi Belanda hancur dan orang bangkrut massal. Sejarawan Anne Goldgar, lewat bukunya Tulipmania (2007), ngecek arsip aslinya dan nemu kalau yang kena dampak cuma lingkaran pedagang yang relatif kecil. Cerita semua orang jatuh miskin banyak datang dari pamflet moral yang ditulis setelahnya.","Jadi pelajarannya dobel: gelembung harga itu nyata, tapi cerita soal gelembung juga bisa digelembungkan. Selalu cek sumbernya, bestie."]]] },
-{ id:"voc", cat:"saham", also:"sejarah", date:"2026-10-09",
-  title:"Saham pertama di dunia lahir dari kapal rempah",
-  dek:"VOC berdiri tahun 1602 dan jadi salah satu perusahaan pertama yang sahamnya bisa dijual-beli bebas. Iya, VOC yang itu.",
-  tags:"voc belanda rempah bursa amsterdam pasar modal banda",
-  s:[["Masalahnya: kapal itu mahal dan sering hilang",["Pelayaran ke Asia buat cari pala, cengkeh, dan lada itu high risk high return. Satu kapal bisa bawa pulang untung gede, atau hilang di laut. Solusinya, modal dikumpulin dari banyak orang supaya risikonya dibagi rame-rame."]],
-     ["Lahirnya VOC",["Tahun 1602, Vereenigde Oostindische Compagnie (VOC) dibentuk. Bedanya dengan usaha sebelumnya, modal VOC ditanam jangka panjang, bukan per satu pelayaran. Kalau mau keluar, investor nggak narik uang dari perusahaan, tapi jual bagian kepemilikannya ke orang lain di Amsterdam. Dari situ jual-beli saham jadi kebiasaan.","Makanya VOC sering disebut sebagai salah satu perusahaan pertama yang sahamnya diperdagangkan publik."]],
-     ["Sisi gelapnya",["Keuntungan itu dibangun dari monopoli rempah dan kekerasan di Nusantara, termasuk tragedi di Kepulauan Banda tahun 1621. Jadi tiap dengar sejarah pasar modal, ingat juga siapa yang bayar harganya."]],
-     ["Hari ini",["Sekarang kita bisa beli saham lewat aplikasi di HP, dan di Indonesia jual-belinya lewat Bursa Efek Indonesia (BEI). Konsep dasarnya masih sama: kamu beli sepotong kecil kepemilikan sebuah perusahaan."]]] },
 { id:"majemuk", cat:"finance", date:"2026-10-14",
   title:"Bunga majemuk: cara duit kamu punya anak, terus anaknya punya anak",
   dek:"Konsep finance paling underrated, plus trik Rule of 72 buat ngitung kapan uangmu jadi dua kali lipat cuma pakai otak.",
@@ -74,14 +59,6 @@ export const A = [
      ["Surat sebagai ruang bicara",["Kartini rajin surat-suratan dengan teman-temannya di Belanda. Isinya soal pendidikan perempuan, adat, kolonialisme, dan agama. Gaya nulisnya personal tapi kritis, kayak baca thread panjang yang bikin mikir."]],
      ["Jadi buku",["Kartini meninggal tahun 1904 di usia 25 tahun. Tahun 1911, J.H. Abendanon menerbitkan kumpulan suratnya dengan judul Door Duisternis tot Licht. Versi bahasa Indonesianya kita kenal sebagai Habis Gelap Terbitlah Terang."]],
      ["Kenapa masih relevan",["Ide intinya simpel: perempuan berhak belajar dan menentukan hidupnya. Makanya setiap 21 April kita peringati sebagai Hari Kartini."]]] },
-{ id:"krakatau", cat:"sejarah", also:"science", date:"2026-09-18",
-  title:"Krakatau 1883: letusan yang kedengeran sampai 4.800 km",
-  dek:"Suaranya terdengar sampai Pulau Rodrigues di Samudra Hindia, dan sunset di banyak negara jadi merah aneh berbulan-bulan.",
-  tags:"krakatau gunung letusan 1883 tsunami selat sunda vulkanik",
-  s:[["26 sampai 27 Agustus 1883",["Gunung Krakatau di Selat Sunda meletus besar-besaran. Ledakan puncaknya terjadi pagi hari tanggal 27 Agustus dan menghancurkan sebagian besar pulaunya."]],
-     ["Suara yang nyampe ke seberang samudra",["Dentumannya terdengar sampai Pulau Rodrigues, sekitar 4.800 km jauhnya. Gelombang tekanannya terekam barometer di berbagai negara dan memutari Bumi beberapa kali."]],
-     ["Tsunami dan korban",["Tsunami yang dipicu letusan menyapu pesisir Jawa dan Sumatra. Korban jiwanya lebih dari 36 ribu orang, sebagian besar karena tsunami."]],
-     ["Langit dunia ikut berubah",["Abu dan partikel halus naik tinggi ke atmosfer dan menyebar ke seluruh dunia. Selama berbulan-bulan, sunset di banyak negara jadi merah menyala, sampai ada yang mengira itu kebakaran besar. Tahun 1927, anak gunungnya muncul dari laut: Anak Krakatau."]]] },
 { id:"bullbear", cat:"market", date:"2026-10-07",
   title:"Bull vs bear market, dijelasin tanpa bikin pusing",
   dek:"Dua istilah yang sering muncul di berita market. Intinya soal arah dan mood pasar.",
@@ -150,8 +127,6 @@ export const TOPIC_DESC = Object.fromEntries(Object.entries(CAT_DATA).map(([k, v
 
 // Section labels: fakta (default), interpretasi, opini. Key = story id, value = { sectionIndex: kind }.
 export const KINDS = {
-  tulip:{ 2:"interpretasi" },
-  voc:{ 2:"interpretasi" },
   majemuk:{ 3:"opini" },
   cahaya:{ 3:"interpretasi" },
   curie:{ 3:"opini" },
@@ -166,17 +141,6 @@ export const KINDS = {
 // Sources and further reading. u is optional (print-only citations have no link).
 const W = t => "https://en.wikipedia.org/wiki/" + t;
 export const SOURCES = {
-  tulip:[{ t:"Wikipedia: Tulip mania", u:W("Tulip_mania") },
-    { t:"Smithsonian Magazine: There Never Was a Real Tulip Fever", u:"https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/" },
-    { t:"History.com: The Real Story Behind the 17th-Century 'Tulip Mania' Financial Crash", u:"https://www.history.com/news/tulip-mania-financial-crash-holland" },
-    { t:"Reviews in History (Institute of Historical Research): ulasan Tulipmania karya Anne Goldgar", u:"https://reviews.history.ac.uk/review/666" },
-    { t:"University of Chicago Press Blog: ulasan Tulipmania (Goldgar)", u:"https://pressblog.uchicago.edu/2007/05/24/review-goldgar-tulipmania.html" },
-    { t:"Anne Goldgar, Tulipmania: Money, Honor, and Knowledge in the Dutch Golden Age (University of Chicago Press, 2007)" }],
-  voc:[{ t:"Wikipedia: Dutch East India Company", u:W("Dutch_East_India_Company") },
-    { t:"Erasmus University Rotterdam: Verwijmeren on why the first share was amazing news for the Netherlands", u:"https://www.eur.nl/en/news/verwijmeren-why-first-share-was-amazing-news-netherlands" },
-    { t:"Euronews: How a Dutch trading company started the world's first stock exchange", u:"https://www.euronews.com/2025/04/13/how-a-dutch-trading-company-started-the-worlds-first-stock-exchange" },
-    { t:"Wikipedia: Dutch conquest of the Banda Islands", u:W("Dutch_conquest_of_the_Banda_Islands") },
-    { t:"Bursa Efek Indonesia", u:"https://www.idx.co.id" }],
   majemuk:[{ t:"Wikipedia: Compound interest", u:W("Compound_interest") }, { t:"Wikipedia: Rule of 72", u:W("Rule_of_72") },
     { t:"Investor.gov (SEC): Compound Interest Calculator", u:"https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator" },
     { t:"Nasdaq Glossary: Rule of 72", u:"https://www.nasdaq.com/glossary/r/rule-of-72" },
@@ -201,10 +165,6 @@ export const SOURCES = {
     { t:"Bisnis.com: Hari Kartini 21 April, sejarah, makna, dan tujuan", u:"https://kabar24.bisnis.com/read/20240420/79/1758983/hari-kartini-21-april-sejarah-makna-dan-tujuan" },
     { t:"CNBC Indonesia: Kisah Kartini, pahlawan RI yang tak pernah angkat senjata", u:"https://www.cnbcindonesia.com/lifestyle/20250421094210-33-627365/kisah-kartini-pahlawan-ri-yang-tak-pernah-angkat-senjata-di-perang" },
     { t:"Wikipedia (ID): Kartini", u:"https://id.wikipedia.org/wiki/Kartini" }, { t:"Wikipedia (EN): Kartini", u:W("Kartini") }],
-  krakatau:[{ t:"Smithsonian Global Volcanism Program: Krakatau", u:"https://volcano.si.edu/volcano.cfm?vn=262000" },
-    { t:"Nautilus: The Sound So Loud That It Circled the Earth Four Times", u:"https://nautil.us/the-sound-so-loud-that-it-circled-the-earth-four-times-235101/" },
-    { t:"Oregon State University, Volcano World: Historical eruption sounds", u:"https://volcano.oregonstate.edu/historical-eruption-sounds" },
-    { t:"Wikipedia: 1883 eruption of Krakatoa", u:W("1883_eruption_of_Krakatoa") }, { t:"Wikipedia: Anak Krakatoa", u:W("Anak_Krakatoa") }],
   bullbear:[{ t:"Investor.gov (SEC): Bear Market", u:"https://www.investor.gov/introduction-investing/investing-basics/glossary/bear-market" },
     { t:"Investor.gov (SEC): Bull Market", u:"https://www.investor.gov/introduction-investing/investing-basics/glossary/bull-market" },
     { t:"Bisnis.com: Apa itu IHSG? Fungsi, istilah, dan faktor yang memengaruhinya", u:"https://market.bisnis.com/read/20221017/7/1588284/apa-itu-ihsg-ini-fungsi-istilah-dan-faktor-yang-mempengaruhinya" },
@@ -253,13 +213,11 @@ export const PICKS = ["krakatau", "tulip", "curie"];
 
 // Opening hooks: one short, checkable fact per story. A random one is shown per visit.
 export const HOOKS = [
-  { id:"krakatau", t:"Dentuman Krakatau tahun 1883 kedengeran sampai Pulau Rodrigues, sekitar 4.800 km jauhnya." },
   { id:"cahaya", t:"Cahaya Matahari yang kamu lihat sekarang berangkat sekitar 8 menit 20 detik yang lalu." },
   { id:"curie", t:"Marie Curie menang Nobel di dua bidang sains yang berbeda: Fisika 1903 dan Kimia 1911." },
   { id:"tardigrade", t:"Tahun 2007, tardigrade dibawa ke luar angkasa dan sebagian selamat dari ruang hampa." },
   { id:"lovelace", t:"Tahun 1843, Ada Lovelace nulis algoritma buat mesin yang nggak pernah selesai dibangun." },
   { id:"majemuk", t:"Quote bunga majemuk itu keajaiban dunia kedelapan sering dibilang dari Einstein. Buktinya belum ada." },
-  { id:"voc", t:"VOC berdiri tahun 1602 dan sering disebut perusahaan pertama yang sahamnya diperdagangkan publik." },
   { id:"langit", t:"Ungu sebenernya dihamburkan atmosfer lebih kuat dari biru. Kok langit tetap kelihatan biru?" }
 ];
 

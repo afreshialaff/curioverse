@@ -1,0 +1,78 @@
+{
+  "id": "tulip",
+  "cat": "sejarah",
+  "also": "finance",
+  "date": "2026-10-12",
+  "updated": "2026-11-05",
+  "title": "Benarkah orang Belanda bangkrut massal gara-gara harga bunga tulip?",
+  "dek": "Tahun 1637, harga kontrak umbi tulip di Belanda ambruk dalam seminggu. Sejarawan yang membongkar arsipnya nggak menemukan satu pun orang yang bangkrut karena itu.",
+  "tags": "tulip mania tulipomania gelembung bubble belanda spekulasi harga bunga semper augustus goldgar mackay kontrak berjangka",
+  "hook": "Di puncaknya, satu umbi tulip Semper Augustus terjual 10.000 gulden. Tukang terampil di Belanda waktu itu digaji 150 sampai 350 gulden setahun.",
+  "path": "bursa",
+  "image": {
+    "src": "/assets/illustrations/tulip-v1.svg",
+    "alt": "Ilustrasi bunga tulip bergaris merah-putih di samping grafik harga yang naik pelan, memuncak, lalu jatuh tajam pada Februari 1637",
+    "caption": "Tulip bergaris seperti api, varietas paling dicari di Belanda 1630-an, dan bentuk khas gelembung harga. Grafiknya ilustrasi pola, bukan data harga asli.",
+    "credit": "Curioverse",
+    "license": "Ilustrasi sendiri (Curioverse)",
+    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/tulip-v1.svg"
+  },
+  "sections": [
+    {
+      "h": "Bunga dari kebun kampus Leiden yang jadi barang pamer",
+      "p": [
+        "Gimana ceritanya satu umbi bunga bisa dihargai lebih dari sepuluh kali gaji tahunan seorang tukang terampil? Ceritanya mulai di Leiden, Belanda, akhir tahun 1593. Ahli botani Carolus Clusius menanam tulip di kebun Universitas Leiden, dan bunganya pertama kali tercatat mekar di Belanda pada musim semi 1594.",
+        "Tulip langsung jadi incaran. Pada 1596 dan 1598, lebih dari 100 umbi dicuri dari kebun beliau. Beberapa dekade kemudian, tulip sudah jadi barang flexing kalangan berduit di Republik Belanda.",
+        "Yang paling dicari adalah tulip yang kelopaknya bergaris-garis seperti nyala api. Belakangan diketahui garis itu muncul karena virus khusus tulip, *tulip breaking virus*. Virus ini juga membuat tanamannya menghasilkan lebih sedikit umbi anakan.",
+        "Gambaran gampangnya seperti mangga yang sudah digigit codot. Orang sering bilang mangga bekas codot justru paling manis, padahal buahnya lebih cepat busuk. Gigitan codot itu virusnya, rasa manisnya itu garis api yang bikin orang kepincut, dan cepat busuknya itu umbi yang susah beranak. Bedanya, mangga codot manis karena matang duluan, sedangkan garis tulip murni efek penyakit.",
+        "Varietas paling terkenal dari masa itu, Semper Augustus, sebenarnya juga tulip yang terinfeksi virus ini. Bunga yang susah diperbanyak tapi diinginkan banyak orang punya satu nasib yang bisa ditebak, yaitu harganya naik."
+      ]
+    },
+    {
+      "h": "Jual-beli janji tulip di kedai minum",
+      "p": [
+        "Yang diperjualbelikan di Belanda waktu itu sering bukan umbi di tangan. Pedagang menjual kontrak, yaitu janji untuk membeli umbi dengan harga tertentu nanti.",
+        "Gampangnya seperti PO sneakers atau album K-pop. Kamu mengunci harga sekarang, barangnya datang belakangan. Sebelum barangnya datang, kamu jual slot PO itu ke orang lain dengan harga lebih tinggi. Slot PO itu kontraknya, sneakers itu umbi tulipnya. Bedanya, kontrak tulip waktu itu nggak bisa dipaksakan lewat pengadilan, jadi pembeli bisa mundur begitu harganya jatuh.",
+        "Transaksinya berlangsung di kedai minum yang disebut *colleges*. Pembeli membayar “uang anggur” sebesar 2,5 persen dari harga, paling banyak 3 gulden per transaksi. Karena sering nggak ada umbi yang benar-benar berpindah tangan, pedagang Belanda menyebutnya *windhandel*, jual-beli angin.",
+        "Antara Desember 1636 dan Februari 1637, harga umbi Switzer naik sekitar 12 kali lipat, menurut History.com. Semper Augustus terjual 10.000 gulden di puncaknya, kira-kira €130.000 dalam nilai uang 2024. Sebagai pembanding, catatan Charles Mackay menyebut tukang terampil saat itu digaji 150 sampai 350 gulden setahun.",
+        "Pasar seperti ini jalan selama selalu ada pembeli berikutnya. Masalahnya muncul di awal Februari 1637, saat pembeli berikutnya nggak datang."
+      ]
+    },
+    {
+      "h": "Apa yang terjadi di minggu pertama Februari 1637",
+      "p": [
+        "Menurut sebuah tulisan satir dari masa itu, keruntuhan dimulai pada 3 Februari 1637 di Haarlem, saat lelang tulip nggak didatangi pembeli. Karena sumbernya satir, tanggal itu sebaiknya dibaca hati-hati. Yang lebih pasti, menjelang akhir minggu pertama Februari pasar sudah ambruk.",
+        "Para penanam tulip bertemu di Utrecht pada 7 Februari untuk memilih perwakilan. Mereka mengusulkan jalan tengah: kontrak sebelum Desember 1636 tetap wajib dibayar, sedangkan kontrak sesudahnya boleh dibatalkan dengan membayar 10 persen harga.",
+        "Pada 24 Februari, serikat pedagang bunga mengambil keputusan lain, yang belakangan disahkan parlemen. Kontrak yang dibuat setelah 30 November 1636 diubah jadi semacam opsi. Pembeli cukup membayar biaya kecil, dilaporkan sekitar 3,5 persen, untuk lepas dari kewajibannya.",
+        "Gambaran gampangnya seperti uang muka sewa gedung nikahan. Kalau acaranya batal, kamu kehilangan uang mukanya saja, bukan harga sewa penuh. Uang muka itu biaya 3,5 persen tadi, harga sewa penuh itu nilai kontrak tulipnya. Bedanya, uang muka gedung disepakati di awal, sedangkan aturan 1637 dibuat belakangan, setelah harga keburu jatuh.",
+        "Hasilnya, sebagian besar kontrak nggak pernah dilunasi. Pertanyaan berikutnya, separah apa dampaknya buat orang Belanda?"
+      ]
+    },
+    {
+      "h": "Benarkah banyak orang jatuh miskin karena tulip?",
+      "p": [
+        "Versi yang paling sering kamu dengar berasal dari Charles Mackay, jurnalis Skotlandia. Tahun 1841, Mackay menulis buku *Extraordinary Popular Delusions and the Madness of Crowds* dan memopulerkan istilah *tulipomania*. Dalam versinya, demam tulip melanda semua lapisan masyarakat, termasuk orang-orang paling miskin.",
+        "Plot twist-nya ada di arsip. Sejarawan Anne Goldgar menelusuri dokumen aslinya, terutama di Haarlem, untuk bukunya *Tulipmania* (2007). Beliau menemukan sekitar 350 orang yang terlibat, angka yang menurut beliau mungkin terlalu rendah. Hanya 37 orang yang membayar lebih dari 300 gulden untuk satu umbi, dan transaksi tertinggi yang beliau temukan 5.000 gulden.",
+        "Goldgar juga nggak menemukan satu pun orang yang bangkrut karena tulip. Orang yang mengalami kesulitan keuangan pun kurang dari enam. Pelakunya kebanyakan pedagang kaya dan tukang terampil, bukan bangsawan. Pelukis Jan van Goyen memang rugi besar, tapi menurut Goldgar kerugiannya datang dari spekulasi tanah.",
+        "Lalu dari mana cerita kebangkrutan massal itu? Banyak yang berasal dari pamflet, puisi, dan lagu satir. Kaum Calvinis Belanda waktu itu khawatir kegilaan belanja tulip merusak moral masyarakat, jadi mereka menyebarkan kisah-kisah yang berlebihan. Mackay mengutip tulisan-tulisan itu seolah fakta. Kisah pelaut yang memakan umbi tulip karena mengira itu bawang, misalnya, termasuk mitos."
+      ]
+    },
+    {
+      "h": "Jadi, tulip mania itu gelembung harga atau bukan?",
+      "kind": "interpretasi",
+      "p": [
+        "Para ekonom pun beda pendapat. Peter Garber menilai spekulasi umbi langka nggak sepenuhnya gila, walau beliau mengakui datanya terbatas. Untuk umbi biasa, beliau menyebut perdagangannya cuma permainan minum musim dingin yang nggak berarti. Earl Thompson membaca lonjakan harga itu sebagai efek perubahan aturan kontrak, bukan kegilaan massal.",
+        "Goldgar sendiri tetap menemukan kerugian, cuma bentuknya beda. Banyak pembeli menolak membayar harga yang sudah disepakati. Gagal bayar itu merusak nama baik dan hubungan antarpedagang, dan di Belanda abad ke-17 nama baik adalah modal dagang.",
+        "Jadi harga yang naik lalu ambruk itu memang terjadi. Yang dibesar-besarkan adalah dampaknya, seolah satu negeri jatuh miskin karena bunga. Jujurly, pola ini relate banget sama hari ini: cerita viral soal orang yang mendadak kaya atau mendadak bangkrut sering lebih besar dari datanya.",
+        "Mungkin pertanyaannya bukan lagi seberapa gila orang Belanda waktu itu. Tetapi, kalau ratusan tahun lagi ada yang membaca cerita viral tentang kita hari ini, versi mana yang akan mereka percaya?"
+      ]
+    }
+  ],
+  "sources": [
+    { "t": "Wikipedia: Tulip mania", "u": "https://en.wikipedia.org/wiki/Tulip_mania" },
+    { "t": "Smithsonian Magazine: There Never Was a Real Tulip Fever", "u": "https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/" },
+    { "t": "History.com: The Real Story Behind the 17th-Century 'Tulip Mania' Financial Crash", "u": "https://www.history.com/news/tulip-mania-financial-crash-holland" },
+    { "t": "Reviews in History (Institute of Historical Research): ulasan Tulipmania karya Anne Goldgar", "u": "https://reviews.history.ac.uk/review/666" },
+    { "t": "University of Chicago Press Blog: ulasan Tulipmania (Goldgar)", "u": "https://pressblog.uchicago.edu/2007/05/24/review-goldgar-tulipmania.html" }
+  ]
+}

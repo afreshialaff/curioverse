@@ -1,0 +1,96 @@
+{
+  "id": "voc",
+  "cat": "saham",
+  "also": "sejarah",
+  "date": "2026-10-09",
+  "updated": "2026-11-05",
+  "title": "Kenapa jual-beli saham bisa lahir dari kapal rempah VOC?",
+  "dek": "Tahun 1602, seorang pembantu rumah tangga ikut menyetor 100 gulden ke VOC. Modal itu nggak bisa ditarik kembali, jadi jalan keluarnya cuma menjual bagiannya ke orang lain.",
+  "tags": "voc belanda rempah bursa amsterdam pasar modal saham pertama dividen banda pala 1602 1606",
+  "hook": "Saham VOC tertua yang diketahui bertanggal 9 September 1606, senilai 150 gulden. Dividen pertamanya dibayar pakai rempah, bukan uang.",
+  "path": "bursa",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB%2C_Hendrik_Cornelisz_Vroom%2C_1599%2C_Rijksmuseum_SK-A-2858.jpg/1280px-De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB%2C_Hendrik_Cornelisz_Vroom%2C_1599%2C_Rijksmuseum_SK-A-2858.jpg",
+    "alt": "Lukisan kapal-kapal layar besar berbendera Belanda berlabuh di perairan Amsterdam yang ramai, dikelilingi perahu-perahu kecil",
+    "caption": "Kembalinya ekspedisi kedua ke Hindia Timur di Amsterdam, 19 Juli 1599, dilukis Hendrick Cornelisz Vroom. Pelayaran semacam inilah yang modalnya kemudian dipersatukan dalam VOC tahun 1602. Koleksi Rijksmuseum.",
+    "credit": "Hendrick Cornelisz Vroom",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB,_Hendrik_Cornelisz_Vroom,_1599,_Rijksmuseum_SK-A-2858.jpg"
+  },
+  "sections": [
+    {
+      "h": "Pembantu rumah tangga yang ikut jadi pemilik VOC",
+      "p": [
+        "Salah satu pemilik VOC paling awal bukan saudagar kaya. Namanya Neeltgen Cornelis, seorang pembantu rumah tangga. Waktu VOC membuka pendaftaran modal tahun 1602, dia ikut menyetor 100 gulden.",
+        "Neeltgen bisa ikut karena anggaran dasar VOC, di pasal 10, membolehkan semua penduduk Republik Belanda membeli bagian di perusahaan. Hasilnya ada 1.143 penanam modal pertama, termasuk 39 orang Jerman dan 301 orang dari Belanda Selatan. Total modal yang terkumpul sekitar 6,4 juta gulden.",
+        "Kalau kamu punya saham di Bursa Efek Indonesia hari ini, prinsip yang kamu pegang mirip dengan yang dipegang Neeltgen lebih dari 400 tahun lalu. Pertanyaannya, kenapa kongsi dagang rempah butuh uang dari begitu banyak orang biasa?"
+      ]
+    },
+    {
+      "h": "Kenapa pelayaran rempah butuh uang dari banyak orang",
+      "p": [
+        "Sebelum VOC, Belanda sudah punya beberapa kongsi dagang kecil yang mengirim kapal ke Asia untuk mencari rempah. Tiap pelayaran itu taruhan. Bahasa sekarangnya, high risk high return.",
+        "Patrick Verwijmeren, profesor keuangan perusahaan di Erasmus University Rotterdam, menggambarkan investasi waktu itu sebagai judi. Menurut beliau, yang dipertaruhkan adalah apakah kapalnya pulang, dan apa yang dibawanya. Membagi modal ke banyak orang membuat risiko itu ikut terbagi, sekaligus cukup untuk membangun kapal-kapal besar.",
+        "Pada 20 Maret 1602, Staten-Generaal, parlemen Republik Belanda, menyatukan kongsi-kongsi itu menjadi Vereenigde Oostindische Compagnie atau VOC. Perusahaan baru ini mendapat hak monopoli dagang di Asia selama 21 tahun. Ada enam kamar dagang, yaitu Amsterdam, Delft, Rotterdam, Enkhuizen, Middelburg, dan Hoorn. Pimpinannya disebut Heeren XVII, dewan 17 kursi yang 8 di antaranya milik Amsterdam.",
+        "Verwijmeren menjelaskan satu ciri penting lain. Pemegang saham bisa kehilangan uang yang dia setor, tapi nggak ikut menanggung utang perusahaan secara pribadi.",
+        "Gambaran gampangnya seperti patungan sapi kurban. Tujuh orang patungan satu sapi, dan tiap orang punya sepertujuh. Sapinya itu perusahaan beserta kapalnya, tujuh orang itu pemegang saham, dan sepertujuh itu sahamnya. Kalau sapinya sakit, tiap orang cuma rugi sebesar bagiannya. Bedanya, patungan sapi selesai dalam satu hari raya, sedangkan modal VOC terkunci bertahun-tahun.",
+        "Modal yang terkunci itu justru menimbulkan masalah baru. Gimana kalau kamu butuh uangmu kembali?"
+      ]
+    },
+    {
+      "h": "Modal terkunci, jadi pintu keluarnya lewat jual-beli saham",
+      "p": [
+        "Kongsi-kongsi lama biasanya membagi modal setelah satu pelayaran selesai. VOC beda. Modalnya dipakai terus selama perusahaan berdiri, jadi penanam modal nggak bisa menariknya dari perusahaan.",
+        "Satu-satunya jalan keluar adalah menjual bagiannya ke orang lain. Pemindahan kepemilikan dicatat oleh juru buku perusahaan. Dari situ lahir pasar sekunder, tempat saham berpindah dari satu pemilik ke pemilik berikutnya tanpa uang perusahaan ikut keluar.",
+        "Biar make sense, pakai contoh tiket konser yang nggak bisa di-refund. Kalau kamu batal nonton, kamu jual tiketnya ke orang lain, dan harganya ikut seberapa banyak yang mau. Tiket itu sahamnya, promotor itu VOC, dan orang yang membeli tiketmu itu pembeli di pasar sekunder. Bedanya, tiket konser hangus begitu acara selesai, sedangkan saham VOC berlaku selama perusahaannya hidup.",
+        "Jual-belinya terjadi di Jembatan Baru di Amsterdam, lalu di gedung bursa rancangan Hendrick de Keyser. Setelah jam tutup, transaksi masih jalan di Lapangan Dam, mengikuti kabar dan gosip terbaru. Harganya ditentukan permintaan dan penawaran.",
+        "Spekulasi juga cepat muncul. Pada 1608, pedagang Isaac Le Maire memakai kontrak berjangka untuk bertaruh harga saham VOC turun, langkah yang dikenal sebagai *bear raid*. Kontrak berjangka yang sama nanti ikut berperan dalam cerita demam tulip tahun 1630-an."
+      ]
+    },
+    {
+      "h": "Bukti fisik saham VOC tertua, ditemukan di arsip tahun 2010",
+      "p": [
+        "Tahun 2010, mahasiswa sejarah Ruben Schalk menemukan bukti fisik saham VOC tertua yang diketahui di arsip kota Enkhuizen. Pemiliknya Pieter Harmensz, kurir kota Enkhuizen.",
+        "Pieter membeli bagian senilai 150 gulden di kamar dagang Enkhuizen pada 1602, lalu mencicilnya. Cicilan terakhirnya lunas pada 9 September 1606, tanggal yang tertulis di dokumen itu.",
+        "Secara teknis, dokumen itu kuitansi tanda lunas, bukan sertifikat saham. VOC nggak menerbitkan sertifikat; kepemilikan dicatat di buku besar perusahaan. Karena bentuk dan fungsinya sangat mirip saham, Westfries Archief menyebutnya saham tertua di dunia.",
+        "Plot twist-nya ada di bagian belakang kertas itu. Di sana tercatat dividen yang diterima sampai 1650, dan dividen awalnya dibayar pakai rempah, bukan uang. Rempah itu susah dijual karena VOC sendiri sudah membanjiri pasar, jadi lama sekali investasi ini nggak menguntungkan.",
+        "Dalam jangka panjang, angkanya berubah. Dividen VOC rata-rata sekitar 18 persen dari modal selama hampir 200 tahun, dan pada 1669 sempat mencapai 40 persen. Pertanyaannya, keuntungan sebesar itu datang dari mana?"
+      ],
+      "img": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/VOC_aandeel_9_september_1606.jpg/1280px-VOC_aandeel_9_september_1606.jpg",
+        "alt": "Lembar dokumen tua bertulisan tangan berbahasa Belanda: sertifikat saham VOC",
+        "caption": "Saham VOC bertanggal 9 September 1606 milik Pieter Harmensz, salah satu saham tertua yang diketahui. Ditemukan tahun 2010 di Westfries Archief, Hoorn.",
+        "credit": "VOC",
+        "license": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:VOC_aandeel_9_september_1606.jpg"
+      }
+    },
+    {
+      "h": "Harga yang dibayar orang Banda untuk monopoli pala VOC",
+      "p": [
+        "Hak VOC jauh melampaui hak perusahaan dagang. Anggaran dasarnya membolehkan VOC berperang, memenjarakan dan mengeksekusi orang, membuat perjanjian, mencetak koin sendiri, dan mendirikan koloni.",
+        "Pada 30 Mei 1619, Jan Pieterszoon Coen menyerbu Jayakarta dengan 19 kapal dan menjadikannya Batavia, markas VOC di Asia. Setelah itu Coen mengarahkan pasukannya ke Kepulauan Banda, pusat pala yang ingin dimonopoli VOC. Orang Banda waktu itu juga berdagang dengan Inggris serta pedagang Melayu, Jawa, dan Makassar, dan VOC ingin semua pala hanya dijual ke mereka.",
+        "Pulau Lontor jatuh pada Maret 1621. Pada 8 Mei 1621, 24 orang kaya, sebutan untuk para pemimpin setempat, dijatuhi hukuman mati dan dipenggal oleh tentara bayaran Jepang. Sedikitnya 789 orang kaya dan anggota keluarganya dibuang ke Batavia, dan banyak di antara mereka dijadikan budak.",
+        "Sejarawan Loth dan Corn memperkirakan penduduk Banda sekitar 15.000 orang sebelum penaklukan, dan tinggal sekitar 1.000 sesudahnya. Kebun pala lalu dikelola perkenier, pengusaha Belanda yang mempekerjakan budak dari luar Banda. Pada 1681, penduduk asli Banda yang tersisa tinggal 100 orang.",
+        "Monopoli seperti ini bertahan lama, tapi nggak selamanya."
+      ]
+    },
+    {
+      "h": "VOC bangkrut tahun 1799, tapi cara kerjanya masih kamu pakai",
+      "kind": "interpretasi",
+      "p": [
+        "Antara 1602 dan 1796, hampir satu juta orang Eropa berlayar ke Asia dengan 4.785 kapal VOC. Skala sebesar itu runtuh pelan-pelan. Perang Inggris-Belanda Keempat yang pecah pada 1780 memangkas armadanya sampai separuh dan menelan biaya sampai 43 juta gulden, sampai kekayaan bersih VOC habis.",
+        "VOC bangkrut dan resmi dibubarkan pada 1799. Wilayah dan utangnya diambil alih Republik Batavia.",
+        "Perusahaannya hilang, tapi idenya bertahan. Menurut Verwijmeren, punya saham berarti memiliki sepotong perusahaan, ikut menikmati untungnya, dan bisa menjualnya ke orang lain, sementara ruginya terbatas pada uang yang disetor. Jujurly, kalau kamu pernah check-out saham di aplikasi, kamu sedang memakai sistem yang dirintis VOC.",
+        "Saham lahir untuk membagi risiko, supaya satu kapal yang tenggelam nggak menghancurkan satu keluarga. Tetapi dari VOC kita belajar bahwa ada risiko yang nggak pernah dibagi rata. Untungnya dicatat di buku besar Amsterdam, sedangkan harganya dibayar orang Banda."
+      ]
+    }
+  ],
+  "sources": [
+    { "t": "Wikipedia: Dutch East India Company", "u": "https://en.wikipedia.org/wiki/Dutch_East_India_Company" },
+    { "t": "Euronews: How a Dutch trading company started the world's first stock exchange", "u": "https://www.euronews.com/2025/04/13/how-a-dutch-trading-company-started-the-worlds-first-stock-exchange" },
+    { "t": "Erasmus University Rotterdam: Verwijmeren on why the first share was amazing news for the Netherlands", "u": "https://www.eur.nl/en/news/verwijmeren-why-first-share-was-amazing-news-netherlands" },
+    { "t": "Westfries Archief: The world's oldest share", "u": "https://westfriesarchief.nl/historie/thema-s/geld-en-handel/the-oldest-share" },
+    { "t": "Wikipedia: Dutch conquest of the Banda Islands", "u": "https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands" }
+  ]
+}
