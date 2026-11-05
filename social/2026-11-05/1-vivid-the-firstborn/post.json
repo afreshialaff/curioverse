@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-05",
+  "story": null,
+  "type": "reel",
+  "made_by": "vivid",
+  "format": "film-pendek",
+  "title": "The Firstborn",
+  "caption": "Anak pertama cuma lahir lebih dulu.\n\nTapi entah sejak kapan, itu jadi alasan untuk selalu dituntut lebih banyak. Lebih dewasa, lebih mengerti, lebih bisa diandalkan. Belajar bilang \"nggak apa-apa\" padahal berat. Dan yang paling melelahkan sering bukan tanggung jawabnya, tapi rasa bersalah tiap kali ingin memilih diri sendiri.\n\nKamu juga boleh capek. Kamu juga seorang anak.\n\nKamu anak pertama? Bagian mana yang paling kerasa buat kamu?\n\nSuara narator dibuat dengan AI (ElevenLabs). Visual dibuat dengan AI (Google Flow), musik dibuat dengan kode.\n\n#curioverse #anakpertama #firstborn #psikologi #keluarga",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "ElevenLabs",
+    "model": "eleven_v4",
+    "voice": "Ricky - Soft & Authentic Indonesian",
+    "status": "sudah dimixing ke reel.mp4"
+  },
+  "review": {
+    "status": "lolos",
+    "by": "pemilik",
+    "approved_by_human": true,
+    "notes": "Video on-demand lewat skill Vivid (gambar Google Flow + render frame Python/ffmpeg, felt piano dari kode) dari storyboard manual pemilik 'The Firstborn'; disetujui pemilik di chat 2026-11-05 ('1 Dan 2 oke')."
+  },
+  "post": {
+    "status": "pending",
+    "at": null,
+    "media_id": null,
+    "permalink": null,
+    "error": null
+  }
+}
