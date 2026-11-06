@@ -1,0 +1,133 @@
+{
+  "id": "perang-arus-edison-tesla",
+  "cat": "sejarah",
+  "also": "science",
+  "date": "2026-11-06",
+  "title": "Kok Edison mati-matian melawan listrik AC Tesla? Kisah perang arus",
+  "dek": "Tahun 1880-an, Edison menjagokan listrik DC, sedangkan Tesla dan Westinghouse membawa AC. Pertarungannya sampai melibatkan hewan yang disetrum dan kursi listrik pertama. Pemenangnya masih mengalir di stopkontak kita.",
+  "tags": "perang arus war of the currents nikola tesla thomas alva edison george westinghouse listrik ac dc arus bolak-balik arus searah trafo transformator kursi listrik kemmler niagara pearl street sejarah sains",
+  "hook": "Kursi listrik pertama, dipakai Agustus 1890, sengaja memakai generator AC Westinghouse. Kubu Edison ingin listrik saingannya dikenal mematikan.",
+  "path": "",
+  "image": {
+    "src": "/assets/illustrations/perang-arus-linimasa-v1.svg",
+    "alt": "Linimasa perang arus. 1882: pembangkit DC Edison di Pearl Street, Manhattan. 1884: Tesla tiba di New York. 1888: paten motor AC Tesla dan lisensi Westinghouse. 1890: kursi listrik pertama memakai AC. 1892: Edison General Electric merger jadi General Electric. 1893: Pameran Chicago diterangi AC. 1896: Buffalo menyala oleh listrik AC dari Niagara. 2007: Con Edison mematikan layanan DC terakhir di New York",
+    "caption": "Perseteruan AC dan DC berlangsung panas di akhir 1880-an, tapi sisa-sisa listrik DC Edison di New York baru benar-benar dimatikan pada 2007.",
+    "credit": "Curioverse",
+    "license": "Ilustrasi sendiri (Curioverse)",
+    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/perang-arus-linimasa-v1.svg"
+  },
+  "sections": [
+    {
+      "h": "Listrik pertama Edison cuma menerangi satu sudut Manhattan",
+      "p": [
+        "Kenapa ya, listrik di stopkontak rumah kita jenisnya AC, bukan DC seperti listrik dari baterai? Jawabannya berawal dari perseteruan dua penemu di New York, sekitar 140 tahun lalu.",
+        "Tanggal 4 September 1882, pembangkit di Pearl Street, Manhattan, mulai menjual listrik ke rumah dan kantor di sekitarnya. Pembangkit itu milik perusahaan Thomas Alva Edison.",
+        "Pelanggan hari pertamanya sedikit sekali, dan sumbernya beda-beda soal jumlahnya. Kantor berita AP menyebut 59 pelanggan, sedangkan catatan sejarah IEEE menyebut sekitar 85. Wilayah layanannya cuma 0,65 kilometer persegi, kira-kira seluas 90 lapangan sepak bola.",
+        "Listriknya jenis **DC** (*direct current*, arus searah) dengan tegangan 110 volt. Dalam setahun, pelanggannya naik jadi 513. Kedengarannya awal yang manis, tapi sistem ini punya satu kelemahan yang nanti bikin Edison berhadapan dengan Nikola Tesla dan George Westinghouse."
+      ]
+    },
+    {
+      "h": "Kenapa listrik DC Edison nggak bisa dikirim jauh?",
+      "img": {
+        "src": "/assets/illustrations/perang-arus-gergaji-v1.svg",
+        "alt": "Dua panel. Kiri berlabel DC, arus searah: air di selang yang terus mengalir ke satu arah. Kanan berlabel AC, arus bolak-balik: gergaji yang didorong maju-mundur dan tetap memotong kayu. Catatan di bawah: di AS, arah arus AC berbalik 60 kali per detik",
+        "caption": "DC mengalir ke satu arah seperti air di selang. AC berganti arah bolak-balik seperti gergaji, dan tetap bisa melakukan kerja.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/perang-arus-gergaji-v1.svg"
+      },
+      "p": [
+        "Masalahnya ada di jarak. Sistem DC Edison yang 110 volt cuma sanggup melayani pelanggan dalam jarak kurang dari satu mil, sekitar 1,6 kilometer, dari pembangkitnya. Kota sebesar New York jadi butuh banyak pembangkit kecil yang tersebar.",
+        "Supaya kebayang kenapa ini jadi rebutan, kita mulai dari bedanya dulu. DC mengalir ke satu arah saja, seperti listrik dari baterai. **AC** (*alternating current*, arus bolak-balik) berganti arah terus-menerus. Di Amerika Serikat, arahnya berbalik 60 kali per detik, menurut Departemen Energi AS.",
+        "Gambaran gampangnya: DC itu seperti air di selang yang terus mengalir ke depan. AC itu seperti gergaji yang didorong maju-mundur. Gergajinya nggak pergi ke mana-mana, tapi kayunya tetap terpotong. Bedanya, yang bolak-balik di kabel itu dorongan listriknya, dan iramanya jauh lebih cepat dari tangan siapa pun.",
+        "Dua-duanya sama-sama bisa menyalakan lampu, jadi sekilas nggak ada yang perlu diributkan. Keributannya baru dimulai waktu seorang imigran muda dari Eropa masuk ke bengkel Edison."
+      ]
+    },
+    {
+      "h": "Nikola Tesla datang ke New York dan sempat bekerja untuk Edison",
+      "p": [
+        "Juni 1884, Nikola Tesla tiba di New York. Menurut Smithsonian Magazine, beliau datang dengan uang empat sen di saku dan surat rekomendasi untuk Edison dari Charles Batchelor, bekas atasannya.",
+        "Tesla langsung bekerja di Edison Machine Works di Manhattan, memperbaiki instalasi dan menyempurnakan generator. Kariernya di sana cuma sekitar enam bulan, dan beliau keluar sekitar pergantian tahun 1884 ke 1885. Alasan pastinya tidak jelas. Ada cerita populer soal bonus $50.000 yang dijanjikan lalu tidak dibayar, tapi versinya beda-beda, jadi kita bahas belakangan.",
+        "Setelah itu hidup Tesla sempat berat. Perusahaan yang beliau dirikan diambil alih para investornya, dan beliau sempat menggali parit dengan upah $2 per hari.",
+        "Tahun 1887, Tesla membuat motor induksi AC yang memakai beberapa arus AC sekaligus untuk menciptakan medan magnet yang berputar. Motor ini bisa mulai berputar sendiri tanpa sikat, bagian yang di motor lain gampang aus dan memercikkan api.",
+        "Gampangnya seperti penonton stadion yang bikin gelombang (*wave*). Tiap orang cuma berdiri lalu duduk bergantian, tapi gelombangnya berputar keliling stadion. Bedanya, di motor Tesla yang bergantian itu kumparan-kumparan kawat yang dialiri arus, dan “gelombang” magnetnya menyeret bagian tengah motor ikut berputar.",
+        "Motor itu dipatenkan Mei 1888, lalu dipamerkan Tesla di American Institute of Electrical Engineers pada 16 Mei 1888. Juli 1888, pengusaha George Westinghouse membeli lisensi motor dan desain trafonya. Bayarannya $60.000 berupa tunai dan saham, plus royalti $2,50 untuk tiap tenaga kuda yang dihasilkan motor AC-nya.",
+        "Sekarang Edison punya lawan yang serius: penemu dengan motor AC, dan pengusaha dengan modal untuk membangunnya. Yang belum dijawab, kenapa AC bisa menjangkau jarak yang tidak bisa dicapai DC?"
+      ]
+    },
+    {
+      "h": "Kenapa listrik AC bisa dikirim jauh lebih jauh?",
+      "img": {
+        "src": "/assets/illustrations/perang-arus-tol-v1.svg",
+        "alt": "Perumpamaan jalan tol. Di kiri, banyak motor membawa 1.000 penumpang dan jalan tolnya macet, berlabel tegangan rendah, arus besar, banyak panas terbuang. Di tengah ada terminal berlabel trafo yang memindahkan penumpang ke beberapa bus. Di kanan, sedikit bus melaju lancar, berlabel tegangan tinggi, arus kecil, sedikit panas terbuang. Catatan: arus dua kali lipat, panas terbuang empat kali lipat",
+        "caption": "Trafo bekerja seperti terminal: penumpang dipindah dari banyak motor ke sedikit bus sebelum masuk tol, lalu dipindah lagi di dekat tujuan.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/perang-arus-tol-v1.svg"
+      },
+      "p": [
+        "Kuncinya ada di **trafo** (transformator), alat yang menaikkan atau menurunkan tegangan listrik. Menurut Departemen Energi AS, tegangan AC bisa diubah dengan cukup gampang lewat trafo, sedangkan DC tidak gampang diubah tegangannya dengan teknologi waktu itu.",
+        "Kenapa tegangan sepenting itu? Daya yang dikirim lewat kabel adalah hasil kali tegangan dan arus. Untuk daya yang sama, tegangan tinggi berarti arusnya kecil. Panas yang terbuang di kabel naik sebanding kuadrat arus, jadi arus kecil berarti jauh lebih sedikit energi yang hilang di jalan.",
+        "Buku teks *University Physics* dari OpenStax memberi contoh hitungannya. Arus 2 ampere lewat kabel 200 ohm membuang 800 watt. Kalau arusnya 100 ampere di kabel yang sama, yang terbuang 2 juta watt.",
+        "Gambaran gampangnya seperti mengantar 1.000 orang lewat jalan tol. Kalau pakai motor, kendaraannya ratusan dan tolnya macet parah. Kalau pakai bus, kendaraannya sedikit dan jalannya lancar. Trafo adalah terminalnya: penumpang dipindah dari motor ke bus sebelum masuk tol, lalu dipindah lagi ke motor menjelang sampai rumah. Pemetaannya, penumpang itu dayanya, jumlah kendaraan itu arusnya, dan macet itu panas yang terbuang.",
+        "Bedanya, borosnya listrik naik lebih cepat dari macet biasa. Arus dua kali lipat membuat panas yang terbuang jadi empat kali lipat. Make sense kan, kenapa pembangkit AC bisa ditaruh jauh dari kota?",
+        "Edison punya alasan untuk cemas. Menurut Departemen Energi AS, beliau ingin melindungi royalti dari paten DC-nya. Cara beliau melawan kemudian melibatkan hewan percobaan."
+      ]
+    },
+    {
+      "h": "Hewan yang disetrum dan kursi listrik pertama: kampanye bahwa AC berbahaya",
+      "p": [
+        "Tahun 1888, insinyur listrik Harold P. Brown mulai mengampanyekan bahwa listrik AC jauh lebih mematikan. Pada 30 Juli 1888 di Columbia College, Brown menyetrum seekor anjing. Anjing itu bertahan dari arus DC sampai 1.000 volt, lalu mati oleh arus AC 330 volt.",
+        "Pada 5 Desember 1888, percobaannya pindah ke laboratorium Edison di West Orange, New Jersey. Empat anak sapi dan seekor kuda dibunuh dengan AC 750 volt.",
+        "Brown dan kubu Edison memang terhubung. Sejarawan menemukan ada kerja sama di antara mereka, dan perusahaan Edison ikut mendanai sebagian tulisan anti-AC milik Brown. Departemen Energi AS menyebut Edison menyebarkan informasi keliru bahwa AC lebih berbahaya.",
+        "Gagasan kursi listrik sendiri sudah muncul lebih awal. Edison tidak merancang kursinya, tapi pada Desember 1887 beliau menunjuk mesin AC buatan Westinghouse sebagai arus yang cocok untuk eksekusi. Di persidangan, Edison bersaksi bahwa AC 1.000 volt dengan mudah bisa membunuh manusia.",
+        "Tanggal 6 Agustus 1890, William Kemmler, terpidana pembunuhan, dieksekusi di penjara Auburn, New York. Kursinya dialiri listrik AC dari generator Westinghouse yang diperoleh Brown secara diam-diam. Menurut majalah TIME, arus 1.300 volt selama 17 detik tidak membuatnya meninggal, sehingga arus dialirkan lagi dengan 2.000 volt.",
+        "Kampanye itu keras, tapi tidak menghentikan AC. Menurut TIME, dalam setahun setelah eksekusi itu, AC sudah menguasai separuh pasar penerangan."
+      ]
+    },
+    {
+      "h": "Cara Edison kalah: kehilangan perusahaan, pameran Chicago, dan Air Terjun Niagara",
+      "p": [
+        "Kekalahan Edison justru datang dari dalam. Tahun 1889, beliau sudah kehilangan kendali mayoritas atas perusahaannya, dan pada 1890 beliau meninggalkan bisnis penerangan listrik.",
+        "Pada 15 April 1892, Edison General Electric diumumkan bergabung dengan Thomson-Houston. Manajemen Thomson-Houston yang memegang kendali, dan perusahaannya berganti nama jadi General Electric (GE). Edison baru tahu soal kesepakatan ini sehari sebelumnya. Plot twist yang lumayan nyesek, nama Edison sampai hilang dari nama perusahaannya sendiri.",
+        "Lalu datang dua proyek pamer. Untuk Pameran Dunia Chicago 1893 (World's Columbian Exposition), GE menawar $554.000 dengan sistem DC Edison. Westinghouse menang dengan tawaran $399.000 memakai AC Tesla, walaupun proyek itu tidak memberinya untung.",
+        "Proyek kedua lebih menentukan. Tahun 1893, Niagara Falls Power Company memberi kontrak pembangkit ke Westinghouse. Pada 16 November 1896, kota Buffalo menyala oleh listrik AC dari Air Terjun Niagara. Setelah itu GE ikut beralih ke AC.",
+        "Sampai di sini ceritanya kelihatan rapi: Tesla jenius yang dizalimi, Edison penjahatnya. Versi yang beredar di internet malah lebih seru dari itu, dan sebagian tidak didukung sumber."
+      ]
+    },
+    {
+      "h": "Mitos gajah Topsy dan bonus $50.000: apa kata sumbernya",
+      "kind": "interpretasi",
+      "p": [
+        "Kamu mungkin pernah dengar Edison menyetrum gajah bernama Topsy untuk membuktikan bahaya AC. Topsy memang dibunuh dengan listrik, pada 4 Januari 1903 di Luna Park, Coney Island. Tapi itu sekitar sepuluh tahun setelah perang arus selesai, dan Edison tidak pernah datang ke sana.",
+        "Kebingungannya muncul dari dua hal. Tim film perusahaan Edison merekam kejadian itu, dan film-filmnya waktu itu biasa diberi kredit “Thomas A. Edison”. Koran juga menyebut pekerjanya “teknisi Edison Company”, padahal itu perusahaan listrik Brooklyn yang terpisah.",
+        "Cerita bonus $50.000 juga perlu dibaca hati-hati. Sumbernya Tesla sendiri, dalam autobiografi yang disusun dari artikel majalah tahun 1919. Di situ yang menjanjikan bonus adalah manajer bengkel, dan beliau menyebutnya lelucon. Versi yang menyebut Edison sendiri pelakunya baru muncul belakangan, dan tidak ada dokumen lain yang memastikannya.",
+        "Kisah Tesla merobek kontrak royaltinya lebih dekat ke fakta, tapi angkanya simpang siur. Awal 1891, waktu Westinghouse sedang kesulitan keuangan, Tesla setuju membebaskan perusahaan itu dari klausul royalti. Smithsonian Magazine menyebut nilai yang dilepas beliau mencapai jutaan dolar. Enam tahun kemudian, Westinghouse membeli patennya secara penuh seharga $216.000.",
+        "Edison sendiri belakangan melunak. Tahun 1908, beliau menitip pesan ke George Stanley, anak penemu trafo William Stanley Jr.: “Bilang ke ayahmu, saya salah.” Pesan itu dibaca sebagai pengakuan bahwa Edison dulu meremehkan AC.",
+        "Akhir hidup Tesla jauh dari kaya. Beliau meninggal pada 7 Januari 1943 di kamar hotelnya di New York, di usia 86 tahun, dengan meninggalkan utang. Menurut Smithsonian, Westinghouse sudah bertahun-tahun membayari kamar dan makannya."
+      ]
+    },
+    {
+      "h": "Siapa yang menang? AC di stopkontak, DC di dalam laptopmu",
+      "p": [
+        "AC menang di jaringan listrik, dan sampai sekarang sebagian besar listrik masih AC. Tapi DC nggak pernah benar-benar pergi.",
+        "Di New York, Con Edison, perusahaan listrik yang namanya masih membawa nama Edison, punya 4.600 pelanggan DC pada 1998. Layanan DC terakhirnya baru dimatikan pada 14 November 2007, dan pelanggan yang tersisa diberi alat pengubah AC ke DC.",
+        "Sekarang DC malah balik jadi penting. Komputer, lampu LED, panel surya, dan mobil listrik bekerja dengan DC. Laptop yang mungkin sedang kamu pakai buat baca artikel ini contohnya, literally anak cucu sistem Edison.",
+        "Masalah lama DC juga sudah terpecahkan. Menurut Departemen Energi AS, tegangan DC kini bisa dinaikkan dan diturunkan, dan perusahaan listrik memakai HVDC (*high-voltage direct current*, arus searah bertegangan tinggi) untuk mengirim listrik jarak jauh dengan kerugian lebih kecil. Jujurly, ini ending yang nggak disangka buat perang yang dulu dianggap sudah selesai.",
+        "Perang arus kadang dikira duel siapa yang paling jenius. Tetapi yang menentukan rupanya hal yang lebih sederhana, yaitu listrik siapa yang paling sedikit terbuang di jalan. Lalu, lebih dari seabad kemudian, keduanya tetap hidup di rumah kita, satu di stopkontak, satu lagi di dalam laptop yang kamu pegang..."
+      ]
+    }
+  ],
+  "sources": [
+    { "t": "U.S. Department of Energy: The War of the Currents: AC vs. DC Power", "u": "https://www.energy.gov/articles/war-currents-ac-vs-dc-power" },
+    { "t": "Engineering and Technology History Wiki (IEEE): Milestones: Pearl Street Station, 1882", "u": "https://ethw.org/Milestones:Pearl_Street_Station,_1882" },
+    { "t": "HeraldNet (AP): New York finally pulls plug on DC electricity", "u": "https://www.heraldnet.com/news/new-york-finally-pulls-plug-on-dc-electricity" },
+    { "t": "Smithsonian Magazine: The Rise and Fall of Nikola Tesla and his Tower", "u": "https://www.smithsonianmag.com/history/the-rise-and-fall-of-nikola-tesla-and-his-tower-11074324/" },
+    { "t": "TIME: The execution of William Kemmler, the first man to die in the electric chair, August 6, 1890", "u": "https://content.time.com/time/specials/packages/article/0,28804,1999143_2002893,00.html" },
+    { "t": "OpenStax University Physics Volume 2 (UCF Pressbooks): Alternating-Current Circuits, 15.6 Transformers", "u": "https://pressbooks.online.ucf.edu/osuniversityphysics2/?p=1870" },
+    { "t": "Wikipedia: War of the currents", "u": "https://en.wikipedia.org/wiki/War_of_the_currents" },
+    { "t": "Wikipedia: Nikola Tesla", "u": "https://en.wikipedia.org/wiki/Nikola_Tesla" },
+    { "t": "Wikipedia: Topsy (elephant)", "u": "https://en.wikipedia.org/wiki/Topsy_(elephant)" },
+    { "t": "Wikipedia: William Kemmler", "u": "https://en.wikipedia.org/wiki/William_Kemmler" }
+  ]
+}

@@ -14,3 +14,4 @@ Satu baris per hari, ditulis Merpati. Format: `<tgl> · terbit: <id> · ditahan:
 2026-10-24 · terbit: halo-effect-good-looking · ditahan: - · reserve: 1 · mode: auto
 2026-10-27 · terbit: banjir-molase-boston-1919 (dari reserve, FIFO) · ditahan: - · reserve: 2 · mode: auto
 2026-10-28 · terbit: great-pacific-garbage-patch (dari reserve, FIFO) · ditahan: - · reserve: 2 · mode: auto
+- 2026-11-06 · terbit: perang-arus-edison-tesla (manual, atas permintaan pemilik) · ditahan: - · mode: manual
