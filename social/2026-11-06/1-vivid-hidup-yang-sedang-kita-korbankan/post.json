@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-06",
+  "story": null,
+  "type": "reel",
+  "made_by": "vivid",
+  "format": "film-pendek",
+  "title": "Hidup yang Sedang Kita Korbankan",
+  "caption": "Kapan sebenarnya hidup kita akan stabil?\n\nSetelah gaji lebih besar. Setelah tabungan cukup. Setelah semua orang yang kita sayang bahagia. Tapi setiap kali sampai di tujuan, selalu ada tujuan baru yang harus dikejar.\n\nFilm pendek ini bukan ajakan berhenti berjuang. Ini pengingat bahwa hidup yang kita tunggu-tunggu mungkin sedang kita lewatkan sekarang.\n\nHal kecil apa yang terakhir kali bikin kamu benar-benar merasa hidup?\n\nVersi lengkapnya ada di YouTube Titi World.\n\nSuara narator dibuat dengan AI (ElevenLabs). Visual dibuat dengan AI (Google Flow), musik dibuat dengan kode.\n\n#curioverse #burnout #worklifebalance #refleksi #filmpendek",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "ElevenLabs",
+    "model": "eleven_v4",
+    "voice": "Serena - Heartfelt Indonesian Voice",
+    "status": "sudah dimixing ke reel.mp4"
+  },
+  "review": {
+    "status": "lolos",
+    "by": "pemilik",
+    "approved_by_human": true,
+    "notes": "Video on-demand lewat skill Vivid (ffmpeg, gambar anime Google Flow, VO ElevenLabs Serena) dari storyboard manual pemilik; disetujui pemilik di chat 2026-11-06 ('posting')."
+  }
+}
