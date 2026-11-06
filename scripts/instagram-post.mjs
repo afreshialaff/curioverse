@@ -9,7 +9,9 @@ import { join } from "node:path";
 const API = "https://graph.instagram.com/v23.0";
 const TOKEN = process.env.IG_ACCESS_TOKEN;
 const USER = process.env.IG_USER_ID || "me";
-const SITE = (process.env.SITE_URL || "https://curioverse-beta.vercel.app").replace(/\/$/, "");
+// Media (reel.mp4, slide/cover jpg) lives only in GitHub, not on Vercel (it filled the Hobby storage quota).
+// Instagram fetches it from the public raw URL; SITE_URL can override the base.
+const SITE = (process.env.SITE_URL || "https://raw.githubusercontent.com/afreshialaff/curioverse/main").replace(/\/$/, "");
 const DRY = process.env.DRY_RUN === "1";
 const today = process.argv[2] || new Date(Date.now() + 7 * 36e5).toISOString().slice(0, 10);
 const cfg = JSON.parse(readFileSync("pipeline/config.json", "utf8")).social || {};

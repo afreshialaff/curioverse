@@ -640,14 +640,8 @@ copyDir("assets/vendor", "assets/vendor");
 copyDir("assets/fonts", "assets/fonts");
 copyDir("assets/illustrations", "assets/illustrations");
 copyFileSync(join(ROOT, "favicon.svg"), join(OUT, "favicon.svg"));
-// Instagram media (social/<tgl>/<post>/...) is served publicly so the Instagram API can fetch it.
-const copyMedia = (rel) => { const src = join(ROOT, rel); if (!existsSync(src)) return;
-  for (const f of readdirSync(src, { withFileTypes:true })) {
-    const r = join(rel, f.name);
-    if (f.isDirectory()) copyMedia(r);
-    else if (/\.(jpe?g|png|mp4)$/i.test(f.name)) { mkdirSync(join(OUT, rel), { recursive:true }); copyFileSync(join(ROOT, r), join(OUT, r)); }
-  } };
-copyMedia("social");
+// Instagram media (social/<tgl>/<post>/...) is NOT copied into dist: it stays in GitHub only and
+// scripts/instagram-post.mjs fetches it from raw.githubusercontent.com (keeps Vercel storage small).
 const urls = ["/", "/explore", "/lab", "/reading-paths", ...A.map(a => "/stories/" + a.id)];
 const lastmod = Object.fromEntries(A.map(a => ["/stories/" + a.id, a.date]));
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${SITE}${u}</loc>${lastmod[u] ? `<lastmod>${lastmod[u]}</lastmod>` : ""}</url>`).join("\n")}\n</urlset>\n`);

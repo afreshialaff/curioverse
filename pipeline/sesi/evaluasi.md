@@ -16,7 +16,7 @@ Satu run sesudah Instagram tayang: posting lintas platform, cek, insight, rapat,
 ## Tahap 1 · Facebook + Threads
 Ikuti `hope.md` bagian H. Untuk setiap `social/<tgl>/*/post.json` yang `review.status = "lolos"`:
 - Kalau Instagram belum `posted` dan sekarang sudah lewat 19.35: picu `instagram-post.yml` sekali (`inputs[date]=<tgl>`, `inputs[dry_run]=0`), tunggu, `git pull`. Kalau tetap bukan `posted`, **jangan** posting Facebook/Threads; catat sebagai masalah utama.
-- Kalau Instagram `posted`: buat `cross.json`, `facebook.json`, `threads.json` (caption dipotong di kalimat penuh ≤400 karakter + "Baca selengkapnya: <link>", Threads ≤500 karakter, tanpa menambah fakta/hashtag). Commit + push **sebelum** memicu workflow.
+- Kalau Instagram `posted`: buat `cross.json`, `facebook.json`, `threads.json` (caption dipotong di kalimat penuh ≤400 karakter + "Baca selengkapnya: <link>", Threads ≤500 karakter, tanpa menambah fakta/hashtag). Commit + push **sebelum** memicu workflow. Kalau post-nya Reels, isi `video_url` di `threads.json` dengan `https://raw.githubusercontent.com/afreshialaff/curioverse/main/social/<tgl>/<dir>/reel.mp4` (media tidak lagi disajikan Vercel, jangan pakai `curioverse-beta.vercel.app/social/...`).
 - Picu `facebook-post.yml` dan `threads-post.yml` (`inputs[file]=social/<tgl>/<dir>/<file>.json`, `inputs[dry_run]=0`) hanya untuk platform yang belum `posted`. Tunggu, update status di `cross.json`, commit + push. Gagal → catat errornya dari log run.
 
 ## Tahap 2 · Cek 3 platform
