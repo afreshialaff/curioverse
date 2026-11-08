@@ -1,0 +1,14 @@
+# File yang nggak dibutuhkan build (scripts/build.mjs cuma baca content/, src/, assets/, scripts/, favicon.svg).
+# Media Instagram (~300 MB mp4/jpg/mp3) tetap di GitHub, nggak ikut ke Vercel.
+social/
+pipeline/
+.github/
+.hallmark/
+dist/
+node_modules/
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.psd
+*.zip
