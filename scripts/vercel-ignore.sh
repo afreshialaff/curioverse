@@ -10,6 +10,7 @@ if [ -z "$VERCEL_GIT_PREVIOUS_SHA" ] || ! git cat-file -e "$VERCEL_GIT_PREVIOUS_
   exit 1
 fi
 
-# Build cuma kalau ada perubahan di luar pipeline/, social/, dan .github/.
+# Build cuma kalau ada perubahan di luar folder yang juga di-skip .vercelignore.
 git diff --quiet "$VERCEL_GIT_PREVIOUS_SHA" HEAD -- . \
-  ':(exclude)pipeline' ':(exclude)social' ':(exclude).github'
+  ':(exclude)pipeline' ':(exclude)social' ':(exclude).github' \
+  ':(exclude).hallmark' ':(exclude)*.md' ':(exclude).vercelignore'
