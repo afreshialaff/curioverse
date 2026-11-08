@@ -181,7 +181,7 @@ function footer(){
       <nav class="foot-social" aria-label="Kontak">
         <a href="${MAILTO()}" aria-label="Email: ${esc(CONTACT.email)}">${icon("mail")}<span>Email</span></a>${CONTACT.social.map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener" aria-label="${esc(s.label)} ${esc(s.handle)} (tab baru)">${icon(s.icon)}<span>${esc(s.short || s.label)}</span></a>`).join("")}
       </nav>
-      <p class="fine">© 2026 ${esc(CURATORS)} · A curious mind lives here · Bukan saran investasi</p>
+      <p class="fine">© 2026 ${esc(CURATORS)} · A curious mind lives here</p>
     </div>
   </div>
 </footer>`;
