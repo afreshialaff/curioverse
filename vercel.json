@@ -28,5 +28,12 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/stories/barnum-effect-kok-gue-banget",
+      "destination": "/stories/barnum-effect",
+      "permanent": true
+    }
   ]
 }
