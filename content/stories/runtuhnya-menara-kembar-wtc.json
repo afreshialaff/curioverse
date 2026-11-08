@@ -8,16 +8,24 @@
   "tags": "9/11 11 september world trade center wtc menara kembar runtuh nist baja api lapisan tahan api wtc 7 pesawat sejarah",
   "hook": "Desain WTC tahun 1964 sudah menghitung tabrakan Boeing 707. Kebakaran sesudahnya tidak ikut dihitung.",
   "image": {
-    "src": "/assets/illustrations/wtc-menit-bertahan-v1.svg",
-    "alt": "Diagram batang: WTC 1 bertahan sekitar 103 menit setelah ditabrak dan WTC 2 sekitar 56 menit, dengan ketebalan lapisan tahan api di sebagian besar lantai terdampak 1½ inci dan ½ inci",
-    "caption": "Lama bertahan kedua menara menurut NIST, dengan ketebalan lapisan tahan api di sebagian besar lantai yang terdampak. Dua angka ini ditaruh berdampingan sebagai pembanding, bukan klaim sebab-akibat.",
-    "credit": "Curioverse",
-    "license": "Ilustrasi sendiri (Curioverse)",
-    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/wtc-menit-bertahan-v1.svg"
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/FEMA_-_5690_-_Photograph_by_Bri_Rodriguez_taken_on_09-27-2001_in_New_York.jpg/1280px-FEMA_-_5690_-_Photograph_by_Bri_Rodriguez_taken_on_09-27-2001_in_New_York.jpg",
+    "alt": "Foto reruntuhan World Trade Center: deretan kolom baja fasad yang masih berdiri menjulang seperti sisir raksasa, dikelilingi tumpukan puing, dengan gedung-gedung Manhattan di latar belakang",
+    "caption": "Sisa fasad World Trade Center yang masih berdiri di tengah tumpukan puing, dipotret 27 September 2001, enam belas hari setelah kedua menara runtuh.",
+    "credit": "Bri Rodriguez / FEMA News Photo",
+    "license": "Public domain (PD US FEMA)",
+    "page": "https://commons.wikimedia.org/wiki/File:FEMA_-_5690_-_Photograph_by_Bri_Rodriguez_taken_on_09-27-2001_in_New_York.jpg"
   },
   "sections": [
     {
       "h": "Menara bertahan 56 dan 103 menit, padahal desainnya sudah memperhitungkan tabrakan pesawat",
+      "img": {
+        "src": "/assets/illustrations/wtc-menit-bertahan-v1.svg",
+        "alt": "Diagram batang: WTC 1 bertahan sekitar 103 menit setelah ditabrak dan WTC 2 sekitar 56 menit, dengan ketebalan lapisan tahan api di sebagian besar lantai terdampak 1½ inci dan ½ inci",
+        "caption": "Lama bertahan kedua menara menurut NIST, dengan ketebalan lapisan tahan api di sebagian besar lantai yang terdampak. Dua angka ini ditaruh berdampingan sebagai pembanding, bukan klaim sebab-akibat.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/wtc-menit-bertahan-v1.svg"
+      },
       "p": [
         "Kok bisa dua menara setinggi itu runtuh kurang dari dua jam setelah ditabrak pesawat? Pertanyaan itu muncul sejak 11 September 2001, hari ketika 2.977 orang meninggal di World Trade Center, di Pentagon, dan di dekat Shanksville, Pennsylvania, menurut data National 9/11 Memorial & Museum.",
         "NIST, lembaga standar Amerika Serikat, menyelidikinya selama bertahun-tahun. Pagi itu ada sekitar 17.400 orang di dalam kedua menara. Menara pertama yang ditabrak, WTC 1, berdiri sekitar 103 menit setelah tabrakan, sedangkan WTC 2 bertahan 56 menit. Dalam rentang waktu itu sekitar 87 persen penghuni berhasil keluar, termasuk lebih dari 99 persen dari mereka yang berada di bawah lantai tabrakan.",
@@ -90,12 +98,33 @@
     }
   ],
   "sources": [
-    { "t": "NIST (arsip UNT): Key Findings from the World Trade Center Investigation", "u": "https://webarchive.library.unt.edu/eot2008/20090116064944/http://www.nist.gov/public_affairs/factsheet/wtc_keyfindings.htm" },
-    { "t": "NIST: Final Report on the Collapse of the World Trade Center Towers (halaman publikasi)", "u": "https://www.nist.gov/node/566801" },
-    { "t": "NIST: Temuan investigasi WTC 7, rilis 21 Agustus 2008", "u": "https://www.nist.gov/node/403091" },
-    { "t": "Fire Engineering: NIST: Fires Caused Collapse of WTC Building 7", "u": "https://www.fireengineering.com/fire-safety/nist-fires-caused-collapse-of-wtc-building-7/" },
-    { "t": "Nextgov: NIST addresses 'alternative theories' on WTC collapse", "u": "https://nextgov.com/people/2006/09/nist-addresses-alternative-theories-on-wtc-collapse/233489" },
-    { "t": "Al Jazeera: WTC report finds fault in fireproofing (6 April 2005)", "u": "https://www.aljazeera.com/archive/2005/04/200849143437587971.html" },
-    { "t": "National 9/11 Memorial & Museum: Visit", "u": "https://911memorial.org/visit" }
+    {
+      "t": "NIST (arsip UNT): Key Findings from the World Trade Center Investigation",
+      "u": "https://webarchive.library.unt.edu/eot2008/20090116064944/http://www.nist.gov/public_affairs/factsheet/wtc_keyfindings.htm"
+    },
+    {
+      "t": "NIST: Final Report on the Collapse of the World Trade Center Towers (halaman publikasi)",
+      "u": "https://www.nist.gov/node/566801"
+    },
+    {
+      "t": "NIST: Temuan investigasi WTC 7, rilis 21 Agustus 2008",
+      "u": "https://www.nist.gov/node/403091"
+    },
+    {
+      "t": "Fire Engineering: NIST: Fires Caused Collapse of WTC Building 7",
+      "u": "https://www.fireengineering.com/fire-safety/nist-fires-caused-collapse-of-wtc-building-7/"
+    },
+    {
+      "t": "Nextgov: NIST addresses 'alternative theories' on WTC collapse",
+      "u": "https://nextgov.com/people/2006/09/nist-addresses-alternative-theories-on-wtc-collapse/233489"
+    },
+    {
+      "t": "Al Jazeera: WTC report finds fault in fireproofing (6 April 2005)",
+      "u": "https://www.aljazeera.com/archive/2005/04/200849143437587971.html"
+    },
+    {
+      "t": "National 9/11 Memorial & Museum: Visit",
+      "u": "https://911memorial.org/visit"
+    }
   ]
 }

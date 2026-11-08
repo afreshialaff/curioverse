@@ -20,9 +20,11 @@ export const RULES = {
 const KINDS_OK = ["fakta", "interpretasi", "opini"];
 const PLACEHOLDER = /\b(TODO|TBD|lorem ipsum|xxx)\b|\[(sumber|source|link|isi)[^\]]*\]/i;
 
-function checkImage(im, where, e) {
+function checkImage(im, where, e, w = null, isHero = false) {
   if (!im) return;
   const local = /^\/assets\/illustrations\/[\w.-]+\.svg$/.test(im.src || "");
+  // RULES 3b: sampul wajib foto asli berlisensi terbuka, ilustrasi cuma buat `img` bagian.
+  if (isHero && local && w) w.push(`${where}: sampul masih ilustrasi sendiri; RULES 3b minta foto asli berlisensi terbuka`);
   if (local && !existsSync(new URL(`..${im.src}`, import.meta.url))) e.push(`${where}: file ilustrasi ${im.src} tidak ada di repo`);
   if (!local && !/^https:\/\//.test(im.src || "")) e.push(`${where}: gambar butuh "src" https (atau ilustrasi sendiri di /assets/illustrations/*.svg)`);
   if (!im.alt || im.alt.length < 8) e.push(`${where}: gambar butuh "alt" yang mendeskripsikan isinya`);
@@ -55,7 +57,7 @@ export function checkStory(j, { cats, pipeline = true, today = null } = {}) {
     if (!x.h || !Array.isArray(x.p) || !x.p.length) e.push(`${id}: bagian ${i + 1} butuh "h" dan minimal satu paragraf di "p"`);
     if (x.kind && !KINDS_OK.includes(x.kind)) e.push(`${id}: bagian ${i + 1} kind "${x.kind}" (pilih: ${KINDS_OK.join("/")})`);
   });
-  checkImage(j.image, `${id} (gambar utama)`, e);
+  checkImage(j.image, `${id} (gambar utama)`, e, w, true);
   secs.forEach((x, i) => checkImage(x.img, `${id} (gambar bagian ${i + 1})`, e));
   if (pipeline && !j.image) e.push(`${id}: artikel baru wajib punya gambar utama ("image") dengan lisensi terbuka`);
   const all = JSON.stringify(j);
