@@ -1,0 +1,101 @@
+{
+  "id": "runtuhnya-menara-kembar-wtc",
+  "cat": "sejarah",
+  "also": "science",
+  "date": "2026-11-08",
+  "title": "Kok Menara Kembar WTC bisa runtuh, padahal desainnya sudah memperhitungkan tabrakan pesawat?",
+  "dek": "Menara pertama bertahan sekitar 103 menit setelah ditabrak, menara kedua 56 menit. NIST, lembaga standar Amerika Serikat, menyimpulkan baja melemah karena panas tanpa pernah meleleh, dan lapisan tahan apinya terlepas.",
+  "tags": "9/11 11 september world trade center wtc menara kembar runtuh nist baja api lapisan tahan api wtc 7 pesawat sejarah",
+  "hook": "Jet fuel di WTC sudah hampir habis terbakar dalam beberapa menit pertama. Api yang bertahan lama berasal dari isi gedung dan pesawat.",
+  "image": {
+    "src": "/assets/illustrations/wtc-menit-bertahan-v1.svg",
+    "alt": "Diagram batang: WTC 1 bertahan sekitar 103 menit setelah ditabrak dan WTC 2 sekitar 56 menit, dengan ketebalan lapisan tahan api di sebagian besar lantai terdampak 1½ inci dan ½ inci",
+    "caption": "Lama bertahan kedua menara menurut NIST, dengan ketebalan lapisan tahan api di sebagian besar lantai yang terdampak. Dua angka ini ditaruh berdampingan sebagai pembanding, bukan klaim sebab-akibat.",
+    "credit": "Curioverse",
+    "license": "Ilustrasi sendiri (Curioverse)",
+    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/wtc-menit-bertahan-v1.svg"
+  },
+  "sections": [
+    {
+      "h": "Menara bertahan 56 dan 103 menit, padahal desainnya sudah memperhitungkan tabrakan pesawat",
+      "p": [
+        "Kok bisa dua menara setinggi itu runtuh kurang dari dua jam setelah ditabrak pesawat? Pertanyaan itu muncul sejak 11 September 2001, hari ketika 2.977 orang meninggal di World Trade Center, di Pentagon, dan di dekat Shanksville, Pennsylvania, menurut data National 9/11 Memorial & Museum.",
+        "NIST, lembaga standar Amerika Serikat, menyelidikinya selama bertahun-tahun. Pagi itu ada sekitar 17.400 orang di dalam kedua menara. Menara pertama yang ditabrak, WTC 1, berdiri sekitar 103 menit setelah tabrakan, sedangkan WTC 2 bertahan 56 menit. Dalam rentang waktu itu sekitar 87 persen penghuni berhasil keluar, termasuk lebih dari 99 persen dari mereka yang berada di bawah lantai tabrakan.",
+        "Tabrakan pesawat sebenarnya bukan hal yang luput dari perhitungan. Menurut dokumen yang dikutip NIST, analisis desain tahun 1964 menghitung kemungkinan sebuah Boeing 707 menabrak sekitar lantai 80 dengan kecepatan 600 mil per jam, sekitar 965 km/jam. Yang tidak dihitung adalah kebakaran sesudahnya, dan peraturan bangunan sendiri tidak mewajibkan desain gedung memperhitungkan tabrakan pesawat.",
+        "Jadi penyebabnya harus dicari di tempat lain, dan penyelidik NIST mulai dari api."
+      ]
+    },
+    {
+      "h": "Baja menara tidak meleleh, tapi cukup panas untuk melemah",
+      "p": [
+        "Banyak orang mengira bahan bakar pesawat yang melelehkan bajanya. Jujurly, dugaan itu gampang dimengerti. Tapi hitungan NIST bilang lain: bahan bakar pesawat sebagian besar habis terbakar dalam beberapa menit pertama setelah tabrakan.",
+        "Api yang bertahan lama berasal dari isi gedung dan pesawatnya. Perabot kantor biasa saja bisa menjaga api tetap besar di satu lantai sekurang-kurangnya satu jam, sementara nyala di satu titik berlangsung sekitar 20 menit sebelum menjalar ke bahan terbakar di sebelahnya.",
+        "Nah, di sini bagian yang sering salah dipahami. Baja itu sendiri tidak sampai meleleh. Menurut ringkasan FAQ NIST yang diliput Nextgov pada 14 September 2006, api yang lebih luas dan lebih panas daripada yang diperkirakan standar bangunan sudah cukup untuk melemahkannya.",
+        "Gambaran gampangnya seperti sebatang cokelat di saku celana saat siang terik. Cokelatnya belum cair sepenuhnya, tapi sudah lembek dan tidak sanggup menopang apa pun yang kamu letakkan di atasnya. Cokelat itu baja, saku yang panas itu api, dan beban di atasnya adalah lantai-lantai menara. Bedanya, baja butuh suhu jauh lebih tinggi daripada cokelat untuk melunak.",
+        "Tapi baja di gedung tinggi punya satu pelindung, dan di situlah masalah berikutnya muncul."
+      ]
+    },
+    {
+      "h": "Lapisan tahan api setebal setengah inci yang terlepas dari baja",
+      "p": [
+        "Baja gedung tinggi biasanya dilapisi bahan tahan api supaya tidak cepat panas. Di menara WTC, lapisan itu dirancang tahan dua jam. Tebalnya setengah inci saat gedung dibangun, lalu dinaikkan menjadi satu setengah inci di sebagian lantai sebelum 11 September 2001. Sebagian besar lantai terdampak di WTC 1 memakai lapisan satu setengah inci, sedangkan di WTC 2 sebagian besar masih memakai yang setengah inci.",
+        "Ibaratnya sarung tangan oven. Kamu bisa memegang panci panas selama sarungnya menempel, tapi begitu sarungnya sobek, tanganmu langsung kepanasan. Sarung itu lapisan tahan api, tanganmu baja, dan pancinya api. Bedanya, lapisan di menara dirancang menahan panas selama dua jam, bukan beberapa detik.",
+        "Masalahnya, lapisan itu terlepas dari baja di banyak tempat. NIST memperkirakan, untuk melepas lapisan setebal satu inci yang mirip dengan yang dipakai di menara, dibutuhkan percepatan sekitar 100 sampai 150 kali percepatan gravitasi. Angka itu menunjukkan lapisannya tidak copot oleh guncangan biasa.",
+        "Al Jazeera melaporkan pada 6 April 2005 bahwa menurut NIST, kedua menara kemungkinan besar tidak akan runtuh seandainya lapisan itu tidak terlepas. Tabrakan pesawat dan api bahan bakar, kata laporan itu, tidak cukup menjelaskan keruntuhan dengan sendirinya. Shyam Sunder memimpin penyelidikan kebakaran dan keselamatan di NIST, dan menurut beliau sudah ada metode yang lebih baik agar lapisan tahan api menempel kuat pada baja.",
+        "Dengan baja yang terbuka dan melemah, giliran bagian lain gedung yang ikut bergerak, yaitu lantainya."
+      ]
+    },
+    {
+      "h": "Lantai yang melorot menarik dinding luar menara ke arah dalam",
+      "img": {
+        "src": "/assets/illustrations/wtc-lantai-melorot-v1.svg",
+        "alt": "Dua skema berdampingan: tali jemuran yang melorot saat dibebani handuk menarik dua tiang mendekat, dan lantai baja yang melorot saat memanas menarik dua kolom ke arah dalam",
+        "caption": "Perumpamaan tali jemuran untuk lantai yang melorot saat bajanya melemah. Skema sederhana, bukan gambar teknis gedung.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/wtc-lantai-melorot-v1.svg"
+      },
+      "p": [
+        "Kalau baja lantai melemah, lantai itu melorot di bagian tengahnya. Ringkasan FAQ NIST yang diliput Nextgov menyebut lantai-lantai yang rusak runtuh di bagian tengah dan menarik kolom ke arah dalam, sampai lantai atas jatuh menimpa lantai di bawahnya. Juru bicara NIST, Michael Newman, mengatakan video keruntuhan memperlihatkan lengkungan itu dengan sangat jelas.",
+        "Biar make sense, bayangkan tali jemuran yang diikat di antara dua tiang. Saat kosong, talinya lurus. Begitu digantungi handuk basah sebanyak mungkin, tali melorot di tengah dan menarik kedua tiang saling mendekat. Talinya itu lantai, tiangnya kolom di sisi gedung, dan handuk basah itu beban di atas lantai. Bedanya, lantai baja jauh lebih kaku daripada tali, jadi baru melorot setelah dipanaskan lama.",
+        "Setelah bagian atas gedung mulai turun, gedung runtuh dari atas ke bawah. Pola inilah yang nanti jadi kunci untuk menjawab klaim soal bahan peledak."
+      ]
+    },
+    {
+      "h": "Gedung 47 lantai yang runtuh karena api tanpa ditabrak pesawat: kasus WTC 7",
+      "p": [
+        "Hari itu ada satu gedung lagi yang runtuh, dan gedung itu tidak ditabrak pesawat. WTC 7 punya 47 lantai. Menurut NIST, puing dari WTC 1 menyulut api di sedikitnya 10 lantainya, dan di enam lantai bawah api membakar tanpa terkendali.",
+        "NIST merilis hasil investigasi WTC 7 pada 21 Agustus 2008. Api memanaskan balok dan gelagar lantai, yaitu balok-balok utama penahan lantai. Balok baja memuai, lalu menggeser sebuah gelagar di lantai 13 sampai sambungannya ke kolom penting terlepas. Lantai 13 runtuh, kegagalan merambat ke lantai-lantai di bawahnya sampai lantai 5, dan Kolom 79 tinggal tanpa penopang sepanjang sembilan lantai. Kolom itu menekuk, lalu seluruh gedung ambruk.",
+        "Ibaratnya sambungan rel kereta, dan ini relate banget kalau kamu pernah memperhatikan rel yang diberi celah kecil supaya tidak melengkung saat terik. Rel itu balok baja lantai, terik itu panas api, dan celah di sambungan itu ruang untuk baja memuai. Bedanya, baja di WTC 7 memuai pada suhu yang menurut NIST ratusan derajat lebih rendah daripada yang lazim dipakai untuk menilai ketahanan api.",
+        "Plot twist-nya, NIST menilai sprinkler gedung ini kemungkinan besar bisa mencegah keruntuhan seandainya pipa air kota tidak putus akibat runtuhnya kedua menara.",
+        "NIST menyebut ini kasus pertama yang diketahui di mana kebakaran menjatuhkan seluruh gedung tinggi. Sekitar 4.000 orang di dalamnya sudah dievakuasi, dan tidak ada korban jiwa maupun luka serius."
+      ]
+    },
+    {
+      "h": "Benarkah ada bom di dalam menara? Jawaban NIST berdasarkan bukti",
+      "kind": "interpretasi",
+      "p": [
+        "Teori bahwa menara dan WTC 7 dirobohkan dengan bahan peledak masih beredar sampai sekarang. NIST menjawabnya lewat pola keruntuhan. Dalam FAQ yang diliput Nextgov pada 14 September 2006, NIST menyebut menara runtuh dari atas ke bawah, sedangkan pembongkaran terkendali bekerja dari bawah ke atas. NIST juga menilai menyembunyikan ribuan pon bahan peledak di gedung yang sedang dipakai itu tidak praktis.",
+        "Untuk WTC 7, NIST menghitung bahwa ledakan yang cukup untuk melumpuhkan kolom kuncinya akan menghasilkan bunyi sekitar 130 sampai 140 desibel pada jarak setengah mil, sekitar 800 meter. Tidak ada saksi maupun rekaman video yang mencatat suara sekeras itu. NIST juga menyimpulkan kebakaran minyak solar tidak berperan, karena api itu tidak akan cukup lama atau cukup panas dan akan menimbulkan asap pekat di lantai 5 dan 6 yang tidak teramati.",
+        "Dasar penyelidikannya besar. Halaman laporan akhir NIST mencatat hampir 1.200 wawancara dengan penghuni dan petugas, dan liputan Nextgov menyebut analisis 236 potong baja, sekitar 7.000 video, serta 7.000 foto. Pembaca yang masih ragu bisa membuka laporan lengkapnya lewat daftar sumber di bawah."
+      ]
+    },
+    {
+      "h": "Apa yang direkomendasikan NIST supaya gedung tinggi lebih aman",
+      "p": [
+        "NIST menutup laporan akhir menara dengan 30 rekomendasi. Rekomendasi itu mencakup ketahanan struktur terhadap api dan evakuasi, juga tanggap darurat.",
+        "Soal evakuasi, NIST mencatat penyintas di menara pertama rata-rata butuh 48 detik untuk turun satu lantai tangga, dua kali waktu paling lambat yang tercantum di buku pegangan insinyur bangunan. NIST juga menilai masalah komunikasi radio dan minimnya berbagi informasi antarpetugas kemungkinan ikut berperan dalam gugurnya petugas tanggap darurat.",
+        "Menara itu tidak jatuh karena bajanya meleleh, melainkan karena lapisan tipis yang terlepas dan lantai yang melorot pelan-pelan. Bagian yang paling menentukan, rupanya, sering justru yang tidak pernah kita lihat."
+      ]
+    }
+  ],
+  "sources": [
+    { "t": "NIST (arsip UNT): Key Findings from the World Trade Center Investigation", "u": "https://webarchive.library.unt.edu/eot2008/20090116064944/http://www.nist.gov/public_affairs/factsheet/wtc_keyfindings.htm" },
+    { "t": "NIST: Final Report on the Collapse of the World Trade Center Towers (halaman publikasi)", "u": "https://www.nist.gov/node/566801" },
+    { "t": "NIST: Temuan investigasi WTC 7, rilis 21 Agustus 2008", "u": "https://www.nist.gov/node/403091" },
+    { "t": "Fire Engineering: NIST: Fires Caused Collapse of WTC Building 7", "u": "https://www.fireengineering.com/fire-safety/nist-fires-caused-collapse-of-wtc-building-7/" },
+    { "t": "Nextgov: NIST addresses 'alternative theories' on WTC collapse", "u": "https://nextgov.com/people/2006/09/nist-addresses-alternative-theories-on-wtc-collapse/233489" },
+    { "t": "Al Jazeera: WTC report finds fault in fireproofing (6 April 2005)", "u": "https://www.aljazeera.com/archive/2005/04/200849143437587971.html" },
+    { "t": "National 9/11 Memorial & Museum: Visit", "u": "https://911memorial.org/visit" }
+  ]
+}
