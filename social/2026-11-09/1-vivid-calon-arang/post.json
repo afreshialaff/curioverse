@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-09",
+  "story": null,
+  "type": "reel",
+  "made_by": "vivid",
+  "format": "cerita-bersambung",
+  "title": "Calon Arang: janda yang dicap penyihir, lalu jadi ratu leak",
+  "caption": "Ratu para leak di Bali punya nama yang artinya \"janda\".\n\nRangda, dalam bahasa Jawa Kuno, memang berarti janda. Salah satu kisah asalnya adalah Calon Arang, janda dari Desa Girah, Kediri. Konon, putrinya tak pernah dilamar karena warga takut pada sang ibu, dan murkanya berujung wabah.\n\nTahun 2000, penyair Toeti Heraty membacanya ulang sebagai perempuan yang melawan masyarakat yang menekannya, lalu dicap penyihir.\n\nMenurutmu, Calon Arang penyihir atau korban?\n\nA curious mind lives here.\n\n#CalonArang #Rangda #CeritaRakyat #SejarahNusantara #curioverse",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "ElevenLabs",
+    "model": "eleven_v4",
+    "voice": "Riri Rida - Documentary & News",
+    "status": "sudah dimixing ke reel.mp4"
+  },
+  "review": {
+    "status": "lolos",
+    "by": "pemilik",
+    "approved_by_human": true,
+    "notes": "Video on-demand Vivid; pemilik minta langsung posting di chat 2026-11-09 setelah teks kredit dihapus, dan minta caption tanpa keterangan AI."
+  },
+  "post": {
+    "status": "queued"
+  }
+}
