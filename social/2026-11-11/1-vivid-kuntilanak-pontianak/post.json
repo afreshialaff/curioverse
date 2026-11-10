@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-11",
+  "story": null,
+  "type": "reel",
+  "made_by": "vivid",
+  "format": "cerita-bersambung",
+  "title": "Kuntilanak, ternyata begini! Asal nama Kota Pontianak",
+  "caption": "Ada kota di Indonesia yang namanya diambil dari hantu.\n\nKonon, rombongan Sultan yang menyusuri Sungai Kapuas mendengar tangisan dan tawa perempuan dari balik pepohonan. Orang Melayu menyebutnya puntianak, atau kuntilanak.\n\nMenurut legenda, makhluk itu diusir dari pertemuan Sungai Kapuas dan Sungai Landak, dan di situlah Pontianak mulai dibangun. Ada juga versi lain yang bilang namanya berasal dari \"pohon tinggi\".\n\nKamu percaya versi yang mana? Di daerahmu, hantu apa yang jadi nama tempat?\n\n#Pontianak #Kuntilanak #LegendaNusantara #CeritaRakyat #Curioverse\n\nNarasi menggunakan suara AI.",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "ElevenLabs",
+    "model": "eleven_v4",
+    "status": "sudah dimixing ke reel.mp4"
+  },
+  "review": {
+    "status": "menunggu",
+    "by": "pemilik",
+    "approved_by_human": true,
+    "notes": "Pemilik minta jadwal posting 22.00 WIB 2026-11-11 (chat). Status diubah ke lolos oleh workflow jadwal tepat jam 22.00 supaya cron 18.50/19.30 tidak memposting lebih awal."
+  },
+  "post": {
+    "status": "queued"
+  }
+}
