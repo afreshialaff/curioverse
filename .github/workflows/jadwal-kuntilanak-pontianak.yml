@@ -5,6 +5,8 @@ on:
   schedule:
     - cron: "25 14 11 11 *"
     - cron: "45 14 11 11 *"
+    - cron: "15 15 11 11 *"   # cadangan 22.15 WIB
+    - cron: "0 16 11 11 *"    # cadangan 23.00 WIB
   workflow_dispatch:
 permissions:
   contents: write
@@ -21,10 +23,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: Tunggu 22.00 WIB lalu picu posting
         run: |
-          [ "$(TZ=Asia/Jakarta date +%F)" = "2026-11-11" ] || { echo "bukan tanggal jadwal, berhenti"; exit 0; }
           [ -f "$DIR/.dijadwalkan" ] && { echo "sudah dijalankan, berhenti"; exit 0; }
           target=$(date -d "2026-11-11 22:00:00 +0700" +%s)
           now=$(date +%s)
+          # Cron GitHub sering telat: kalau menyala setelah 22.00 (hari itu atau sesudahnya), langsung posting.
+          [ $((target-now)) -gt 3000 ] && { echo "terlalu awal (>50 menit sebelum 22.00 WIB 2026-11-11), berhenti"; exit 0; }
           [ "$now" -lt "$target" ] && { echo "tunggu $((target-now)) detik"; sleep $((target-now)); }
           git pull --rebase -q origin main
           python3 - <<'PY'
