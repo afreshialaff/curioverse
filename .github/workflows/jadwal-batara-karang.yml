@@ -1,0 +1,41 @@
+name: Jadwal sekali jalan - Batara Karang 20.00 WIB
+# Satu kali, 2026-11-10: tunggu sampai 20.00 WIB, setujui review, lalu picu posting Instagram + Threads.
+# Cron GitHub bisa telat, jadi ada dua pemicu (19.25 dan 19.45 WIB); yang kedua berhenti kalau sudah dijalankan.
+on:
+  schedule:
+    - cron: "25 12 10 11 *"
+    - cron: "45 12 10 11 *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency: { group: jadwal-batara-karang, cancel-in-progress: false }
+jobs:
+  jadwal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ github.token }}
+      DIR: social/2026-11-10/1-vivid-batara-karang
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tunggu 20.00 WIB lalu picu posting
+        run: |
+          [ "$(TZ=Asia/Jakarta date +%F)" = "2026-11-10" ] || { echo "bukan tanggal jadwal, berhenti"; exit 0; }
+          [ -f "$DIR/.dijadwalkan" ] && { echo "sudah dijalankan, berhenti"; exit 0; }
+          target=$(date -d "2026-11-10 20:00:00 +0700" +%s)
+          now=$(date +%s)
+          [ "$now" -lt "$target" ] && { echo "tunggu $((target-now)) detik"; sleep $((target-now)); }
+          python3 - <<'PY'
+          import json,os
+          f=os.environ["DIR"]+"/post.json"
+          p=json.load(open(f)); p["review"]["status"]="lolos"
+          p["review"]["notes"]+=" | disetujui otomatis 20.00 WIB sesuai jadwal pemilik."
+          json.dump(p,open(f,"w"),ensure_ascii=False,indent=2)
+          PY
+          date -u +%FT%TZ > "$DIR/.dijadwalkan"
+          git config user.name "curioverse-bot"; git config user.email "curioverse-bot@users.noreply.github.com"
+          git add "$DIR" && git commit -m "social: setujui Batara Karang untuk posting 20.00 WIB"
+          git pull --rebase origin main && git push origin HEAD:main
+          gh workflow run instagram-post.yml -f date=2026-11-10
+          gh workflow run threads-post.yml -f file="$DIR/threads.json"
