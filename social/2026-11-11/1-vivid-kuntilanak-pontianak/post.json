@@ -25,6 +25,6 @@
     "notes": "Pemilik minta jadwal posting 22.00 WIB 2026-11-11 (chat). Status diubah ke lolos oleh workflow jadwal tepat jam 22.00 supaya cron 18.50/19.30 tidak memposting lebih awal."
   },
   "post": {
-    "status": "queued"
+    "status": "skipped"
   }
 }
