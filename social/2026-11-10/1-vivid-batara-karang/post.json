@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-10",
+  "story": null,
+  "type": "reel",
+  "made_by": "vivid",
+  "format": "cerita-bersambung",
+  "title": "Jenglot, ternyata begini! Legenda Batara Karang",
+  "caption": "Konon, sosok sebesar telapak tangan ini dulunya seorang pertapa yang menuntut Ilmu Bethara Karang, ilmu yang dipercaya bisa membuat hidup abadi. Ritualnya gagal, dan menurut cerita yang beredar, bumi enggan menerima jasadnya.\n\nSampai sekarang, asal-usul jenglot di Museum Galuh Imbanagara, Ciamis, masih jadi misteri.\n\nKamu percaya cerita ini atau cuma mitos? Di daerahmu namanya apa?\n\nIlustrasi dan suara dibuat dengan AI. Cerita rakyat, bukan klaim fakta.\nSumber: Good News From Indonesia (koleksi jenglot Museum Galuh Imbanagara), Wikipedia \"Jenglot\".\n\n#jenglot #batarakarang #legendanusantara #ceritarakyat #misteri #mitosindonesia #ciamis",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "ElevenLabs",
+    "model": "eleven_v4",
+    "status": "sudah dimixing ke reel.mp4"
+  },
+  "review": {
+    "status": "menunggu",
+    "by": "pemilik",
+    "approved_by_human": true,
+    "notes": "Pemilik minta jadwal posting 20.00 WIB 2026-11-10 (chat). Status diubah ke lolos oleh tugas terjadwal tepat sebelum posting, supaya cron 18.50/19.30 tidak memposting lebih awal."
+  },
+  "post": {
+    "status": "queued"
+  }
+}
