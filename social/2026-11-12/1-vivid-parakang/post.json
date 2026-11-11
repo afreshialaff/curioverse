@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-12",
+  "story": null,
+  "type": "reel",
+  "made_by": "vivid",
+  "format": "cerita-bersambung",
+  "title": "Parakang, ternyata begini! Ilmu hitam yang tak bisa dibawa mati",
+  "caption": "Parakang, ilmu hitam yang konon tak bisa dibawa mati.\n\nDalam kepercayaan Bugis-Makassar, ia tampak seperti tetangga biasa di siang hari. Konon, ia tak bisa meninggal sebelum ilmunya diwariskan, dan sering diwariskan lewat pertanyaan pendek di ujung napas: \"Nuallemi?\"\n\nPelajarannya: jalan pintas menuju kaya atau sakti selalu punya harga, dan sering yang membayarnya adalah orang yang paling kita sayangi. Parakang adalah kepercayaan, belum terbukti secara ilmiah. Kalau bayi sakit, bawa ke dokter dulu.\n\n#Parakang #CeritaRakyat #LegendaNusantara #BugisMakassar #Curioverse",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "ElevenLabs",
+    "model": "eleven_v4",
+    "status": "sudah dimixing ke reel.mp4"
+  },
+  "review": {
+    "status": "menunggu",
+    "by": "pemilik",
+    "approved_by_human": true,
+    "notes": "Pemilik minta jadwal posting 20.00 WIB 2026-11-12 (chat). Pemilik minta caption tanpa keterangan AI. Status diubah ke lolos oleh workflow jadwal tepat jam 20.00 supaya cron 18.50/19.30 tidak memposting lebih awal."
+  },
+  "post": {
+    "status": "skipped"
+  }
+}

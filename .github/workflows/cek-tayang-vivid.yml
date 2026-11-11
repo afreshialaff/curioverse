@@ -1,0 +1,51 @@
+name: Cek tayang Vivid (IG + Threads)
+# Pengecekan otomatis setelah jam tayang. Kalau jadwal belum jalan atau posting belum masuk,
+# workflow ini memicunya lagi. Aman dijalankan berkali-kali: yang sudah tayang dilewati.
+#   Kuntilanak Pontianak: tayang 22.00 WIB 2026-11-11 -> cek 22.15 dan 22.45 WIB
+#   Parakang:             tayang 20.00 WIB 2026-11-12 -> cek 20.15 dan 20.45 WIB
+on:
+  schedule:
+    - cron: "15 15 11 11 *"
+    - cron: "45 15 11 11 *"
+    - cron: "15 13 12 11 *"
+    - cron: "45 13 12 11 *"
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: write
+concurrency: { group: cek-tayang-vivid, cancel-in-progress: false }
+jobs:
+  cek:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cek dan picu ulang kalau perlu
+        run: |
+          set -u
+          now=$(date +%s)
+          cek() {  # $1 tanggal  $2 jam tayang  $3 folder  $4 workflow jadwal
+            tgl=$1; target=$(date -d "$1 $2:00 +0700" +%s); DIR=$3; JW=$4
+            # hanya dalam jendela 10 menit s.d. 6 jam setelah jam tayang
+            if [ $((now-target)) -lt 600 ] || [ $((now-target)) -gt 21600 ]; then echo "[$tgl] di luar jendela cek, lewati"; return; fi
+            echo "== [$tgl] $DIR"
+            if [ ! -f "$DIR/.dijadwalkan" ]; then
+              echo "jadwal belum jalan -> picu $JW"; gh workflow run "$JW"; return
+            fi
+            st=$(python3 -c "import json;print(json.load(open('$DIR/post.json')).get('post',{}).get('status'))")
+            echo "status Instagram: $st"
+            if [ "$st" != "posted" ]; then
+              aktif=$(gh run list --workflow instagram-post.yml --json status --jq '[.[]|select(.status!="completed")]|length')
+              [ "$aktif" = "0" ] && { echo "Instagram belum tayang -> picu ulang"; gh workflow run instagram-post.yml -f date="$tgl"; } || echo "Instagram masih berjalan"
+            fi
+            iso=$(date -u -d "@$((target-3600))" +%FT%TZ)
+            ok=$(gh run list --workflow threads-post.yml -L 30 --json createdAt,status,conclusion \
+                 --jq "[.[]|select(.createdAt>=\"$iso\")|select(.conclusion==\"success\" or .status!=\"completed\")]|length")
+            echo "run Threads sukses/berjalan sejak jadwal: $ok"
+            [ "$ok" = "0" ] && { echo "Threads belum tayang -> picu ulang"; gh workflow run threads-post.yml -f file="$DIR/threads.json"; }
+            return 0
+          }
+          cek 2026-11-11 22:00 social/2026-11-11/1-vivid-kuntilanak-pontianak jadwal-kuntilanak-pontianak.yml
+          cek 2026-11-12 20:00 social/2026-11-12/1-vivid-parakang jadwal-parakang.yml
