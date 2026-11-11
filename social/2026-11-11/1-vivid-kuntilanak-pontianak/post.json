@@ -19,12 +19,12 @@
     "status": "sudah dimixing ke reel.mp4"
   },
   "review": {
-    "status": "menunggu",
+    "status": "lolos",
     "by": "pemilik",
     "approved_by_human": true,
-    "notes": "Pemilik minta jadwal posting 22.00 WIB 2026-11-11 (chat). Status diubah ke lolos oleh workflow jadwal tepat jam 22.00 supaya cron 18.50/19.30 tidak memposting lebih awal. | caption dibersihkan: tanpa keterangan AI & tanpa pertanyaan penutup (permintaan pemilik 2026-11-11)."
+    "notes": "Pemilik minta jadwal posting 22.00 WIB 2026-11-11 (chat). Status diubah ke lolos oleh workflow jadwal tepat jam 22.00 supaya cron 18.50/19.30 tidak memposting lebih awal. | caption dibersihkan: tanpa keterangan AI & tanpa pertanyaan penutup (permintaan pemilik 2026-11-11). | disetujui otomatis 22.00 WIB sesuai jadwal pemilik."
   },
   "post": {
-    "status": "skipped"
+    "status": "queued"
   }
 }
