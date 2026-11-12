@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-13",
+  "story": null,
+  "type": "reel",
+  "made_by": "vivid",
+  "format": "cerita-bersambung",
+  "title": "Suanggi, bayangan yang ditakuti kampung: legenda Maluku dan Papua",
+  "caption": "Suanggi, bayangan yang ditakuti kampung.\n\nDi sebagian kampung Maluku dan Papua, kata ini dibisikkan pelan setelah matahari terbenam. Konon, suanggi tampak seperti orang biasa di siang hari, tapi di malam hari bisa menjadi bayangan bermata merah.\n\nYang nyata justru akibat tuduhannya: catatan sejarah dan antropolog menunjukkan, tuduhan suanggi pernah berujung pengusiran, bahkan pembunuhan. Pada 2010–2011 di Adonara, massa merusak dua rumah karena penghuninya dituduh suanggi.\n\nPelajarannya: ketakutan yang disebarkan lewat tuduhan bisa menyakiti orang nyata. Sebelum menuduh, cari bukti, bukan bisikan. Suanggi adalah kepercayaan dan cerita rakyat, belum terbukti secara ilmiah.\n\n#Suanggi #CeritaRakyat #LegendaNusantara #Maluku #Papua #Curioverse",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "voice_over": {
+    "ai": true,
+    "provider": "Google AI Studio",
+    "model": "gemini-3.8-flash-tts",
+    "status": "sudah dimixing ke reel.mp4"
+  },
+  "review": {
+    "status": "menunggu",
+    "by": "pemilik",
+    "approved_by_human": true,
+    "notes": "Pemilik minta jadwal posting 20.00 WIB 2026-11-13 (chat). Caption tanpa keterangan AI. Status diubah ke lolos oleh workflow jadwal tepat jam 20.00."
+  },
+  "post": {
+    "status": "skipped"
+  }
+}

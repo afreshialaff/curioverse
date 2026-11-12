@@ -3,12 +3,15 @@ name: Cek tayang Vivid (IG + Threads)
 # workflow ini memicunya lagi. Aman dijalankan berkali-kali: yang sudah tayang dilewati.
 #   Kuntilanak Pontianak: tayang 22.00 WIB 2026-11-11 -> cek 22.15 dan 22.45 WIB
 #   Parakang:             tayang 20.00 WIB 2026-11-12 -> cek 20.15 dan 20.45 WIB
+#   Suanggi:              tayang 20.00 WIB 2026-11-13 -> cek 20.15 dan 20.45 WIB
 on:
   schedule:
     - cron: "15 15 11 11 *"
     - cron: "45 15 11 11 *"
     - cron: "15 13 12 11 *"
     - cron: "45 13 12 11 *"
+    - cron: "15 13 13 11 *"
+    - cron: "45 13 13 11 *"
   workflow_dispatch:
 permissions:
   contents: read
@@ -49,3 +52,4 @@ jobs:
           }
           cek 2026-11-11 22:00 social/2026-11-11/1-vivid-kuntilanak-pontianak jadwal-kuntilanak-pontianak.yml
           cek 2026-11-12 20:00 social/2026-11-12/1-vivid-parakang jadwal-parakang.yml
+          cek 2026-11-13 20:00 social/2026-11-13/1-vivid-suanggi jadwal-suanggi.yml
