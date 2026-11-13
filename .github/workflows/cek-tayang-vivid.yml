@@ -5,6 +5,7 @@ name: Cek tayang Vivid (IG + Threads)
 #   Parakang:             tayang 20.00 WIB 2026-11-12 -> cek 20.15 dan 20.45 WIB
 #   Suanggi:              tayang 20.00 WIB 2026-11-13 -> cek 20.15 dan 20.45 WIB
 #   Kuyang:               tayang 20.00 WIB 2026-11-14 -> cek 20.15 dan 20.45 WIB
+#   Nyi Roro Kidul:       tayang 20.00 WIB 2026-11-15 -> cek 20.25 dan 20.50 WIB
 on:
   schedule:
     - cron: "15 15 11 11 *"
@@ -15,6 +16,8 @@ on:
     - cron: "45 13 13 11 *"
     - cron: "15 13 14 11 *"
     - cron: "45 13 14 11 *"
+    - cron: "25 13 15 11 *"
+    - cron: "50 13 15 11 *"
   workflow_dispatch:
 permissions:
   contents: read
@@ -57,3 +60,4 @@ jobs:
           cek 2026-11-12 20:00 social/2026-11-12/1-vivid-parakang jadwal-parakang.yml
           cek 2026-11-13 20:00 social/2026-11-13/1-vivid-suanggi jadwal-suanggi.yml
           cek 2026-11-14 20:00 social/2026-11-14/1-vivid-kuyang jadwal-kuyang.yml
+          cek 2026-11-15 20:00 social/2026-11-15/1-vivid-nyi-roro-kidul jadwal-nyi-roro-kidul.yml
