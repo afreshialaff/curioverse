@@ -25,6 +25,10 @@
     "notes": "Pemilik minta jadwal posting 20.00 WIB 2026-11-13 (chat). Caption tanpa keterangan AI. Status diubah ke lolos oleh workflow jadwal tepat jam 20.00. | disetujui otomatis 20.00 WIB sesuai jadwal pemilik."
   },
   "post": {
-    "status": "queued"
+    "status": "posted",
+    "at": "2026-11-13T13:58:54.881Z",
+    "media_id": "18101231132418816",
+    "permalink": "https://www.instagram.com/reel/DfryqN-mI1I/",
+    "error": null
   }
 }
