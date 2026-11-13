@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Alur memilih wapres pengganti: kursi wapres kosong; presiden mengusulkan dua calon paling lambat 14 hari sebelum sidang; sidang paripurna MPR paling lambat 60 hari; suara terbanyak menang, kalau seri diulang sekali, kalau masih seri presiden memilih; MPR melantik wapres baru. Tanpa pemilu dan tanpa KPU.">
+<style>.f{font-family:'Helvetica Neue',Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}
+.tok{animation:go 10s linear infinite}
+@keyframes go{0%{transform:translateX(0)}90%,100%{transform:translateX(1200px)}}
+@media (prefers-reduced-motion: reduce){.tok{animation:none}}</style>
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+<text x="100" y="112" class="s" font-size="54" font-weight="700" fill="#1B1A17">Jalan memilih wapres pengganti</text>
+<text x="100" y="160" class="f" font-size="27" fill="#4D483F">Pasal 8 ayat 2 UUD 1945 dan Pasal 46 sampai 47 UU MD3. Tanpa pemilu, tanpa KPU.</text>
+<line x1="200" y1="300" x2="1400" y2="300" stroke="#1B1A17" stroke-width="4" stroke-dasharray="12 10"/>
+<circle class="tok" cx="200" cy="300" r="14" fill="#B5462F"/>
+<g class="f" text-anchor="middle" fill="#1B1A17">
+  <rect x="90" y="360" width="250" height="300" rx="16" fill="#F6F1E6" stroke="#1B1A17" stroke-width="3"/>
+  <text x="215" y="410" font-size="44" font-weight="700" fill="#B5462F">1</text>
+  <text x="215" y="460" font-size="26" font-weight="700">Kursi kosong</text>
+  <text x="215" y="500" font-size="23">Wapres</text>
+  <text x="215" y="532" font-size="23">menyatakan</text>
+  <text x="215" y="564" font-size="23">berhenti</text>
+
+  <rect x="390" y="360" width="250" height="300" rx="16" fill="#F6F1E6" stroke="#1B1A17" stroke-width="3"/>
+  <text x="515" y="410" font-size="44" font-weight="700" fill="#B5462F">2</text>
+  <text x="515" y="460" font-size="26" font-weight="700">Dua calon</text>
+  <text x="515" y="500" font-size="23">diusulkan presiden,</text>
+  <text x="515" y="532" font-size="23">paling lambat</text>
+  <text x="515" y="564" font-size="23">14 hari sebelum</text>
+  <text x="515" y="596" font-size="23">sidang</text>
+
+  <rect x="690" y="360" width="250" height="300" rx="16" fill="#F6F1E6" stroke="#1B1A17" stroke-width="3"/>
+  <text x="815" y="410" font-size="44" font-weight="700" fill="#B5462F">3</text>
+  <text x="815" y="460" font-size="26" font-weight="700">Sidang MPR</text>
+  <text x="815" y="500" font-size="23">paling lambat</text>
+  <text x="815" y="532" font-size="23">60 hari setelah</text>
+  <text x="815" y="564" font-size="23">kursi kosong</text>
+
+  <rect x="990" y="360" width="250" height="300" rx="16" fill="#F6F1E6" stroke="#1B1A17" stroke-width="3"/>
+  <text x="1115" y="410" font-size="44" font-weight="700" fill="#B5462F">4</text>
+  <text x="1115" y="460" font-size="26" font-weight="700">Pemilihan</text>
+  <text x="1115" y="500" font-size="23">Terbanyak menang.</text>
+  <text x="1115" y="532" font-size="23">Seri: diulang sekali.</text>
+  <text x="1115" y="564" font-size="23">Masih seri:</text>
+  <text x="1115" y="596" font-size="23">presiden memilih</text>
+
+  <rect x="1290" y="360" width="250" height="300" rx="16" fill="#1B1A17"/>
+  <text x="1415" y="410" font-size="44" font-weight="700" fill="#E8B95A">5</text>
+  <text x="1415" y="460" font-size="26" font-weight="700" fill="#EAE3D5">Pelantikan</text>
+  <text x="1415" y="500" font-size="23" fill="#EAE3D5">MPR melantik</text>
+  <text x="1415" y="532" font-size="23" fill="#EAE3D5">wapres baru</text>
+</g>
+<text x="100" y="760" class="f" font-size="26" fill="#1B1A17">Gambaran gampangnya: klub kehilangan wakil kapten di tengah musim. Pelatih menyodorkan dua nama,</text>
+<text x="100" y="798" class="f" font-size="26" fill="#1B1A17">lalu yang punya hak suara memilih satu. Di sini yang memilih adalah anggota MPR.</text>
+</svg>

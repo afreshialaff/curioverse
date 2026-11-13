@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Linimasa: 6 Oktober 2026 MK tidak menemukan dokumen setara SMA; 30 Oktober 2026 MA menyatakan surat penyetaraan tidak sah; 10 November Gibran menyampaikan niat mundur ke Prabowo dalam pertemuan 2,5 jam; 11 November 120 anggota DPR dari 8 fraksi mengusulkan hak menyatakan pendapat; 12 November Gibran menyerahkan surat berhenti ke MPR.">
+<style>.f{font-family:'Helvetica Neue',Arial,sans-serif}.s{font-family:Georgia,'Times New Roman',serif}
+.dot{animation:pop 10s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.d2{animation-delay:1.2s}.d3{animation-delay:2.4s}.d4{animation-delay:3.6s}.d5{animation-delay:4.8s}
+@keyframes pop{0%,8%{transform:scale(1)}4%{transform:scale(1.5)}100%{transform:scale(1)}}
+@media (prefers-reduced-motion: reduce){.dot{animation:none}}</style>
+<rect width="1600" height="900" fill="#EAE3D5"/>
+<rect x="28" y="28" width="1544" height="844" rx="22" fill="none" stroke="#CDBFA6" stroke-width="3"/>
+<text x="100" y="115" class="s" font-size="58" font-weight="700" fill="#1B1A17">Lima tanggal sebelum kursi wapres kosong</text>
+<text x="100" y="165" class="f" font-size="28" fill="#4D483F">Dari putusan pengadilan sampai surat berhenti, Oktober sampai November 2026</text>
+<line x1="140" y1="470" x2="1460" y2="470" stroke="#1B1A17" stroke-width="5"/>
+<g class="f" text-anchor="middle" fill="#1B1A17">
+  <circle class="dot" cx="200" cy="470" r="18" fill="#43578C"/>
+  <text x="200" y="420" font-size="30" font-weight="700">6 Okt</text>
+  <text x="200" y="530" font-size="25">MK: tidak ada</text>
+  <text x="200" y="563" font-size="25">dokumen yang</text>
+  <text x="200" y="596" font-size="25">setara SMA</text>
+
+  <circle class="dot d2" cx="500" cy="470" r="18" fill="#43578C"/>
+  <text x="500" y="420" font-size="30" font-weight="700">30 Okt</text>
+  <text x="500" y="530" font-size="25">MA: surat</text>
+  <text x="500" y="563" font-size="25">penyetaraan</text>
+  <text x="500" y="596" font-size="25" font-weight="700" fill="#B5462F">tidak sah</text>
+
+  <circle class="dot d3" cx="800" cy="470" r="18" fill="#A67C52"/>
+  <text x="800" y="420" font-size="30" font-weight="700">10 Nov</text>
+  <text x="800" y="530" font-size="25">Gibran temui</text>
+  <text x="800" y="563" font-size="25">Prabowo 2,5 jam,</text>
+  <text x="800" y="596" font-size="25">sampaikan niat</text>
+  <text x="800" y="629" font-size="25">mundur</text>
+
+  <circle class="dot d4" cx="1100" cy="470" r="18" fill="#A67C52"/>
+  <text x="1100" y="420" font-size="30" font-weight="700">11 Nov</text>
+  <text x="1100" y="530" font-size="25">120 anggota DPR,</text>
+  <text x="1100" y="563" font-size="25">8 fraksi, usulkan</text>
+  <text x="1100" y="596" font-size="25">hak menyatakan</text>
+  <text x="1100" y="629" font-size="25">pendapat</text>
+
+  <circle class="dot d5" cx="1400" cy="470" r="26" fill="#B5462F"/>
+  <text x="1400" y="420" font-size="30" font-weight="700">12 Nov</text>
+  <text x="1400" y="530" font-size="25">Surat berhenti</text>
+  <text x="1400" y="563" font-size="25">diserahkan</text>
+  <text x="1400" y="596" font-size="25" font-weight="700" fill="#B5462F">ke MPR</text>
+</g>
+<text x="100" y="800" class="f" font-size="24" fill="#4D483F">Sumber: CNN Indonesia, detikcom, Katadata, ABC News. Ilustrasi: Curioverse</text>
+</svg>
