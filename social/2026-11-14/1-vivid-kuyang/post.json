@@ -13,13 +13,13 @@
   ],
   "cover": "cover.jpg",
   "review": {
-    "status": "menunggu",
+    "status": "lolos",
     "by": "pemilik",
     "approved_by_human": true,
-    "notes": "Pemilik minta jadwal posting 20.00 WIB 2026-11-14 (chat). Caption tanpa keterangan AI dan tanpa pertanyaan penutup."
+    "notes": "Pemilik minta jadwal posting 20.00 WIB 2026-11-14 (chat). Caption tanpa keterangan AI dan tanpa pertanyaan penutup. | disetujui otomatis 20.00 WIB sesuai jadwal pemilik."
   },
   "post": {
-    "status": "skipped",
+    "status": "queued",
     "at": null,
     "media_id": null,
     "permalink": null,
