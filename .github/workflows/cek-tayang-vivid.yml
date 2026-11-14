@@ -7,6 +7,7 @@ name: Cek tayang Vivid (IG + Threads)
 #   Kuyang:               tayang 20.00 WIB 2026-11-14 -> cek 20.15 dan 20.45 WIB
 #   Nyi Roro Kidul:       tayang 20.00 WIB 2026-11-15 -> cek 20.25 dan 20.50 WIB
 #   Malin Kundang:        tayang 20.00 WIB 2026-11-16 -> cek 20.15 dan 20.45 WIB
+#   Orang Bunian:         tayang 20.00 WIB 2026-11-17 -> cek 20.15 dan 20.45 WIB
 on:
   schedule:
     - cron: "15 15 11 11 *"
@@ -21,6 +22,8 @@ on:
     - cron: "50 13 15 11 *"
     - cron: "15 13 16 11 *"
     - cron: "45 13 16 11 *"
+    - cron: "15 13 17 11 *"
+    - cron: "45 13 17 11 *"
   workflow_dispatch:
 permissions:
   contents: read
@@ -65,3 +68,4 @@ jobs:
           cek 2026-11-14 20:00 social/2026-11-14/1-vivid-kuyang jadwal-kuyang.yml
           cek 2026-11-15 20:00 social/2026-11-15/1-vivid-nyi-roro-kidul jadwal-nyi-roro-kidul.yml
           cek 2026-11-16 20:00 social/2026-11-16/1-vivid-malin-kundang jadwal-malin-kundang.yml
+          cek 2026-11-17 20:00 social/2026-11-17/1-vivid-orang-bunian jadwal-orang-bunian.yml

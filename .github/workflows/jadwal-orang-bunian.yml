@@ -1,0 +1,48 @@
+name: Jadwal sekali jalan - Orang Bunian 20.00 WIB
+# Satu kali, 2026-11-17: tunggu sampai 20.00 WIB, setujui review, lalu picu posting Instagram + Threads.
+# Cron GitHub bisa telat, jadi ada dua pemicu (19.25 dan 19.45 WIB); yang kedua berhenti kalau sudah dijalankan.
+on:
+  schedule:
+    - cron: "25 12 17 11 *"
+    - cron: "45 12 17 11 *"
+    - cron: "15 13 17 11 *"   # cadangan 20.15 WIB
+    - cron: "0 14 17 11 *"    # cadangan 21.00 WIB
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency: { group: jadwal-orang-bunian, cancel-in-progress: false }
+jobs:
+  jadwal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ github.token }}
+      DIR: social/2026-11-17/1-vivid-orang-bunian
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tunggu 20.00 WIB lalu picu posting
+        run: |
+          [ -f "$DIR/.dijadwalkan" ] && { echo "sudah dijalankan, berhenti"; exit 0; }
+          target=$(date -d "2026-11-17 20:00:00 +0700" +%s)
+          now=$(date +%s)
+          [ $((target-now)) -gt 3000 ] && { echo "terlalu awal (>50 menit sebelum 20.00 WIB 2026-11-17), berhenti"; exit 0; }
+          for f in reel.mp4 cover.jpg post.json threads.json; do
+            [ -f "$DIR/$f" ] || { echo "::error::$DIR/$f belum ada di repo, posting dibatalkan"; exit 1; }
+          done
+          [ "$now" -lt "$target" ] && { echo "tunggu $((target-now)) detik"; sleep $((target-now)); }
+          git pull --rebase -q origin main
+          python3 - <<'PY'
+          import json,os
+          f=os.environ["DIR"]+"/post.json"
+          p=json.load(open(f)); p["review"]["status"]="lolos"
+          if p.get("post",{}).get("status")=="skipped": p["post"]["status"]="queued"
+          p["review"]["notes"]+=" | disetujui otomatis 20.00 WIB sesuai jadwal pemilik."
+          json.dump(p,open(f,"w"),ensure_ascii=False,indent=2)
+          PY
+          date -u +%FT%TZ > "$DIR/.dijadwalkan"
+          git config user.name "curioverse-bot"; git config user.email "curioverse-bot@users.noreply.github.com"
+          git add "$DIR" && git commit -m "social: setujui Orang Bunian untuk posting 20.00 WIB"
+          git pull --rebase origin main && git push origin HEAD:main
+          gh workflow run instagram-post.yml -f date=2026-11-17
+          gh workflow run threads-post.yml -f file="$DIR/threads.json"
