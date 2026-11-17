@@ -30,6 +30,8 @@ on:
     - cron: "45 1 18 11 *"
     - cron: "25 13 19 11 *"
     - cron: "50 13 19 11 *"
+    - cron: "15 13 20 11 *"   # cek 20.15 WIB Genderuwo
+    - cron: "45 13 20 11 *"   # cek ulang 20.45 WIB
   workflow_dispatch:
 permissions:
   contents: read
@@ -66,6 +68,10 @@ jobs:
                  --jq "[.[]|select(.createdAt>=\"$iso\")|select(.conclusion==\"success\" or .status!=\"completed\")]|length")
             echo "run Threads sukses/berjalan sejak jadwal: $ok"
             [ "$ok" = "0" ] && { echo "Threads belum tayang -> picu ulang"; gh workflow run threads-post.yml -f file="$DIR/threads.json"; }
+            fbst=$(gh run list --workflow facebook-post.yml -L 30 --json createdAt,status,conclusion \
+                 --jq "[.[]|select(.createdAt>=\"$iso\")|select(.conclusion==\"success\" or .status!=\"completed\")]|length")
+            echo "run Facebook sukses/berjalan sejak jadwal: $fbst"
+            [ "$fbst" = "0" ] && { echo "Facebook belum tayang -> picu ulang"; gh workflow run facebook-post.yml -f file="$DIR/facebook.json"; }
             return 0
           }
           cek 2026-11-11 22:00 social/2026-11-11/1-vivid-kuntilanak-pontianak jadwal-kuntilanak-pontianak.yml
@@ -77,3 +83,4 @@ jobs:
           cek 2026-11-17 20:00 social/2026-11-17/1-vivid-orang-bunian jadwal-orang-bunian.yml
           cek 2026-11-18 08:00 social/2026-11-18/1-vivid-suku-moro jadwal-suku-moro.yml
           cek 2026-11-19 20:00 social/2026-11-19/1-vivid-hantu-jeruk-purut jadwal-hantu-jeruk-purut.yml
+          cek 2026-11-20 20:00 social/2026-11-20/1-vivid-genderuwo jadwal-genderuwo.yml
