@@ -9,6 +9,7 @@ name: Cek tayang Vivid (IG + Threads)
 #   Malin Kundang:        tayang 20.00 WIB 2026-11-16 -> cek 20.15 dan 20.45 WIB
 #   Orang Bunian:         tayang 20.00 WIB 2026-11-17 -> cek 20.15 dan 20.45 WIB
 #   Hantu Jeruk Purut:    tayang 20.00 WIB 2026-11-19 -> cek 20.25 dan 20.50 WIB
+#   Palasik:              tayang 20.00 WIB 2026-11-21 -> cek 20.30 dan 21.00 WIB
 #   Suku Moro:            tayang 08.00 WIB 2026-11-18 -> cek 08.15 dan 08.45 WIB
 on:
   schedule:
@@ -32,6 +33,8 @@ on:
     - cron: "50 13 19 11 *"
     - cron: "15 13 20 11 *"   # cek 20.15 WIB Genderuwo
     - cron: "45 13 20 11 *"   # cek ulang 20.45 WIB
+    - cron: "30 13 21 11 *"   # cek 20.30 WIB Palasik
+    - cron: "0 14 21 11 *"    # cek ulang 21.00 WIB
   workflow_dispatch:
 permissions:
   contents: read
@@ -84,3 +87,4 @@ jobs:
           cek 2026-11-18 08:00 social/2026-11-18/1-vivid-suku-moro jadwal-suku-moro.yml
           cek 2026-11-19 20:00 social/2026-11-19/1-vivid-hantu-jeruk-purut jadwal-hantu-jeruk-purut.yml
           cek 2026-11-20 20:00 social/2026-11-20/1-vivid-genderuwo jadwal-genderuwo.yml
+          cek 2026-11-21 20:00 social/2026-11-21/1-vivid-palasik jadwal-palasik.yml
