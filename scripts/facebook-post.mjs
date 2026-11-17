@@ -1,6 +1,7 @@
-// Posts a text post (with optional link) to the Curioverse Facebook Page via the Graph API.
+// Posts to the Curioverse Facebook Page via the Graph API: teks (+ link), foto, atau video.
 // Runs in GitHub Actions. Env: FB_PAGE_ID, FB_PAGE_TOKEN (Page access token), DRY_RUN=1 only prints.
-// Usage: node scripts/facebook-post.mjs <file.json>   file berisi { "message": "...", "link": "https://..." (opsional) }
+// Usage: node scripts/facebook-post.mjs <file.json>
+//   file berisi { "message": "...", "link": "https://..." (opsional), "image": "path.jpg" (opsional), "video": "path.mp4" (opsional) }
 import { readFileSync } from "node:fs";
 
 const API = "https://graph.facebook.com/v23.0";
@@ -16,12 +17,20 @@ if (DRY) {
   console.log("DRY RUN ke Halaman", PAGE || "(FB_PAGE_ID belum di-set)");
   console.log(p.message);
   if (p.link) console.log("link:", p.link);
-if (p.image) console.log("image:", p.image);
+  if (p.image) console.log("image:", p.image);
+  if (p.video) console.log("video:", p.video);
   process.exit(0);
 }
 if (!PAGE || !TOKEN) throw new Error("FB_PAGE_ID atau FB_PAGE_TOKEN belum di-set");
 let res;
-if (p.image) {
+if (p.video) {
+  // Video (Reels vertikal): unggah file lokal ke /videos (description = message)
+  const form = new FormData();
+  form.set("description", p.message);
+  form.set("access_token", TOKEN);
+  form.set("source", new Blob([readFileSync(p.video)], { type: "video/mp4" }), p.video.split("/").pop());
+  res = await fetch(`${API}/${PAGE}/videos`, { method: "POST", body: form });
+} else if (p.image) {
   // Foto: unggah file lokal ke /photos (caption = message)
   const form = new FormData();
   form.set("caption", p.message);
