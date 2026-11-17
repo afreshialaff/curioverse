@@ -8,17 +8,23 @@ concurrency: { group: social-repo-write, cancel-in-progress: false }
 jobs:
   posting:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     env:
       GH_TOKEN: ${{ github.token }}
       DIR: social/2026-11-17/1-vivid-orang-bunian
     steps:
       - uses: actions/checkout@v4
-      - name: Ambil reel + cover dari release dan commit
+      - name: Ambil video + thumbnail dari release, kompres <100 MB, commit
         run: |
           set -e
-          gh release download media-orang-bunian -p reel.mp4 -p cover.jpg -D "$DIR" --clobber
+          mkdir -p /tmp/rel
+          gh release download media-orang-bunian -p video.mp4 -p thumbnail.jpg -D /tmp/rel --clobber
+          ls -la /tmp/rel
+          command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; }
+          ffmpeg -v error -y -i /tmp/rel/video.mp4 -c:v libx264 -preset medium -b:v 5600k -maxrate 7000k -bufsize 14M -pix_fmt yuv420p -c:a copy -movflags +faststart "$DIR/reel.mp4"
+          cp /tmp/rel/thumbnail.jpg "$DIR/cover.jpg"
           ls -la "$DIR"
+          [ $(stat -c %s "$DIR/reel.mp4") -lt 99000000 ] || { echo "::error::reel.mp4 masih >99 MB"; exit 1; }
           python3 - <<'PY'
           import json,os
           f=os.environ["DIR"]+"/post.json"
