@@ -1,5 +1,5 @@
 name: Jadwal sekali jalan - Hantu Jeruk Purut 20.00 WIB
-# Satu kali, 2026-11-19: tunggu sampai 20.00 WIB, setujui review, lalu picu posting Instagram + Threads.
+# Satu kali, 2026-11-19: tunggu sampai 20.00 WIB, setujui review, lalu picu posting Instagram + Threads + Facebook.
 # Cron GitHub bisa telat, jadi ada dua pemicu (19.25 dan 19.45 WIB); yang kedua berhenti kalau sudah dijalankan.
 on:
   schedule:
@@ -44,3 +44,4 @@ jobs:
           git pull --rebase origin main && git push origin HEAD:main
           gh workflow run instagram-post.yml -f date=2026-11-19
           gh workflow run threads-post.yml -f file="$DIR/threads.json"
+          gh workflow run facebook-post.yml -f file="$DIR/facebook.json"
