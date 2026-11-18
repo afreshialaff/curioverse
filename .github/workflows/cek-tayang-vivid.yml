@@ -10,6 +10,7 @@ name: Cek tayang Vivid (IG + Threads)
 #   Orang Bunian:         tayang 20.00 WIB 2026-11-17 -> cek 20.15 dan 20.45 WIB
 #   Hantu Jeruk Purut:    tayang 20.00 WIB 2026-11-19 -> cek 20.25 dan 20.50 WIB
 #   Palasik:              tayang 20.00 WIB 2026-11-21 -> cek 20.30 dan 21.00 WIB
+#   Roro Jonggrang LONG:  tayang 20.00 WIB 2026-11-22 -> cek 20.25 dan 20.50 WIB
 #   Suku Moro:            tayang 08.00 WIB 2026-11-18 -> cek 08.15 dan 08.45 WIB
 on:
   schedule:
@@ -35,6 +36,8 @@ on:
     - cron: "45 13 20 11 *"   # cek ulang 20.45 WIB
     - cron: "30 13 21 11 *"   # cek 20.30 WIB Palasik
     - cron: "0 14 21 11 *"    # cek ulang 21.00 WIB
+    - cron: "25 13 22 11 *"   # cek 20.25 WIB Roro Jonggrang
+    - cron: "50 13 22 11 *"   # cek ulang 20.50 WIB
   workflow_dispatch:
 permissions:
   contents: read
@@ -67,10 +70,12 @@ jobs:
               [ "$aktif" = "0" ] && { echo "Instagram belum tayang -> picu ulang"; gh workflow run instagram-post.yml -f date="$tgl"; } || echo "Instagram masih berjalan"
             fi
             iso=$(date -u -d "@$((target-3600))" +%FT%TZ)
-            ok=$(gh run list --workflow threads-post.yml -L 30 --json createdAt,status,conclusion \
-                 --jq "[.[]|select(.createdAt>=\"$iso\")|select(.conclusion==\"success\" or .status!=\"completed\")]|length")
-            echo "run Threads sukses/berjalan sejak jadwal: $ok"
-            [ "$ok" = "0" ] && { echo "Threads belum tayang -> picu ulang"; gh workflow run threads-post.yml -f file="$DIR/threads.json"; }
+            if [[ "$DIR" != *roro-jonggrang* ]]; then   # Roro Jonggrang: tanpa Threads
+              ok=$(gh run list --workflow threads-post.yml -L 30 --json createdAt,status,conclusion \
+                   --jq "[.[]|select(.createdAt>=\"$iso\")|select(.conclusion==\"success\" or .status!=\"completed\")]|length")
+              echo "run Threads sukses/berjalan sejak jadwal: $ok"
+              [ "$ok" = "0" ] && { echo "Threads belum tayang -> picu ulang"; gh workflow run threads-post.yml -f file="$DIR/threads.json"; }
+            fi
             fbst=$(gh run list --workflow facebook-post.yml -L 30 --json createdAt,status,conclusion \
                  --jq "[.[]|select(.createdAt>=\"$iso\")|select(.conclusion==\"success\" or .status!=\"completed\")]|length")
             echo "run Facebook sukses/berjalan sejak jadwal: $fbst"
@@ -88,3 +93,4 @@ jobs:
           cek 2026-11-19 20:00 social/2026-11-19/1-vivid-hantu-jeruk-purut jadwal-hantu-jeruk-purut.yml
           cek 2026-11-20 20:00 social/2026-11-20/1-vivid-genderuwo jadwal-genderuwo.yml
           cek 2026-11-21 20:00 social/2026-11-21/1-vivid-palasik jadwal-palasik.yml
+          cek 2026-11-22 20:00 social/2026-11-22/1-vivid-roro-jonggrang jadwal-roro-jonggrang.yml
