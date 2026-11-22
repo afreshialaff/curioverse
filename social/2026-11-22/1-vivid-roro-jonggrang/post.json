@@ -19,10 +19,10 @@
     "notes": "Pemilik minta jadwal posting 20.00 WIB Minggu 2026-11-22 (chat) di YouTube, Instagram, Facebook (tanpa Threads/TikTok). Caption tanpa keterangan AI dan tanpa pertanyaan penutup. | disetujui otomatis 20.00 WIB sesuai jadwal pemilik."
   },
   "post": {
-    "status": "queued",
-    "at": null,
-    "media_id": null,
-    "permalink": null,
+    "status": "posted",
+    "at": "2026-11-22T19:56:15.826Z",
+    "media_id": "17957724708036843",
+    "permalink": "https://www.instagram.com/reel/DgDmpaDDD15/",
     "error": null
   }
 }
