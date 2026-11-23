@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Grafik kejatuhan kurs rupiah terhadap dolar AS, Juli 1997 sampai Januari 1998</title>
+<desc id="d">Grafik garis sederhana: rupiah sekitar Rp2.400 per dolar pada Juli 1997, menembus Rp10.000 pada Januari 1998, dan menyentuh titik terburuk intraday sekitar Rp17.000 pada 22 Januari 1998 menurut survei Bulletin of Indonesian Economic Studies.</desc>
+<style>
+  .bg{fill:#0B1450}.panel{fill:#111B63;stroke:#EFE4C6;stroke-opacity:.25}
+  .ttl{font:700 31px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .sub{font:400 19px 'Inter Tight',sans-serif;fill:#C9D2F5}
+  .axis{stroke:#7C8BD9;stroke-width:2;stroke-opacity:.6}
+  .line{stroke:#F0505A;stroke-width:5;fill:none;stroke-linecap:round}
+  .dot{fill:#F0505A;stroke:#EFE4C6;stroke-width:3}
+  .lab{font:700 24px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .sm{font:400 18px 'Inter Tight',sans-serif;fill:#C9D2F5}
+</style>
+<rect class="bg" width="1200" height="675"/>
+<rect class="panel" x="30" y="30" width="1140" height="615" rx="22"/>
+<text class="ttl" x="70" y="92">RUPIAH PER 1 DOLAR AS</text>
+<text class="sub" x="70" y="124">Makin tinggi garisnya, makin murah rupiahnya.</text>
+<line class="axis" x1="110" y1="540" x2="1100" y2="540"/>
+<polyline class="line" points="140,500 480,470 760,300 1010,120"/>
+<circle class="dot" cx="140" cy="500" r="10"/><circle class="dot" cx="480" cy="470" r="10"/><circle class="dot" cx="760" cy="300" r="10"/><circle class="dot" cx="1010" cy="120" r="10"/>
+<text class="lab" x="90" y="465">±Rp2.400</text><text class="sm" x="90" y="580">Juli 1997</text>
+<text class="lab" x="380" y="435">±Rp2.900</text><text class="sm" x="360" y="580">14 Agu 1997: rupiah diambangkan</text>
+<text class="lab" x="640" y="265">Rp10.000 tembus</text><text class="sm" x="640" y="580">Januari 1998</text>
+<text class="lab" x="830" y="90">±Rp17.000 (intraday)</text><text class="sm" x="830" y="580">22 Januari 1998</text>
+<text class="sub" x="70" y="625">Sumber angka: Museum Bank Indonesia; survei Bulletin of Indonesian Economic Studies (titik intraday).</text>
+</svg>
