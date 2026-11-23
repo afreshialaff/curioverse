@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Diagram sains senyum Mona Lisa: frekuensi spasial rendah vs tinggi</title>
+<desc id="d">Dua panel skematis wajah yang sama. Panel kiri buram menunjukkan senyum jelas karena ditangkap penglihatan tepi. Panel kanan tajam menunjukkan mulut yang datar karena penglihatan pusat menangkap detail frekuensi tinggi.</desc>
+<style>
+  .bg{fill:#0B1450}.panel{fill:#111B63;stroke:#EFE4C6;stroke-opacity:.25}
+  .ttl{font:700 32px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .cap{font:700 22px 'Inter Tight',sans-serif;fill:#EFE4C6;text-anchor:middle}
+  .sub{font:400 19px 'Inter Tight',sans-serif;fill:#C9D2F5;text-anchor:middle}
+  .face{fill:#EFE4C6}
+  .eye{fill:#0B1450}
+  .glow{animation:gl 3.2s ease-in-out infinite}
+  @keyframes gl{0%,100%{opacity:.45}50%{opacity:1}}
+  @media (prefers-reduced-motion: reduce){.glow{animation:none;opacity:1}}
+</style>
+<defs>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect class="bg" width="1200" height="675"/>
+<rect class="panel" x="30" y="30" width="1140" height="615" rx="22"/>
+<text class="ttl" x="70" y="92">KENAPA SENYUMNYA HILANG SAAT KAMU MENATAP MULUTNYA?</text>
+
+<!-- Panel kiri: buram / frekuensi rendah -->
+<g class="glow">
+<ellipse class="face" cx="310" cy="330" rx="150" ry="185" filter="url(#soft)"/>
+<circle class="eye" cx="258" cy="290" r="13" filter="url(#soft)"/><circle class="eye" cx="362" cy="290" r="13" filter="url(#soft)"/>
+<path d="M245 395 Q310 445 375 395" stroke="#B80B17" stroke-width="13" fill="none" stroke-linecap="round" filter="url(#soft)"/>
+</g>
+<text class="cap" x="310" y="565">DARI EKOR MATA</text>
+<text class="sub" x="310" y="595">versi buram: senyumnya jelas terlihat</text>
+
+<!-- Panel kanan: tajam / frekuensi tinggi -->
+<ellipse class="face" cx="890" cy="330" rx="150" ry="185"/>
+<circle class="eye" cx="838" cy="290" r="13"/><circle class="eye" cx="942" cy="290" r="13"/>
+<path d="M825 408 Q890 398 955 408" stroke="#B80B17" stroke-width="7" fill="none" stroke-linecap="round"/>
+<text class="cap" x="890" y="565">DITATAP LANGSUNG</text>
+<text class="sub" x="890" y="595">versi tajam: senyumnya nyaris hilang</text>
+
+<text class="sub" x="600" y="640" style="fill:#F0505A;font-weight:700">Wajah yang sama, lukisan yang sama. Yang berubah adalah bagian matamu yang membacanya.</text>
+</svg>
