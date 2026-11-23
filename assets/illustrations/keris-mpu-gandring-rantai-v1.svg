@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Diagram rantai korban keris Mpu Gandring menurut Pararaton</title>
+<desc id="d">Enam korban berurutan: Mpu Gandring, Tunggul Ametung, Kebo Ijo, Ken Arok, Ki Pengalasan, Anusapati. Tohjaya ditandai terpisah karena wafat oleh tombak, bukan keris.</desc>
+<style>
+  .bg{fill:#0B1450}.panel{fill:#111B63;stroke:#EFE4C6;stroke-opacity:.25}
+  .ttl{font:700 34px 'Inter Tight',sans-serif;fill:#EFE4C6;letter-spacing:.5px}
+  .sub{font:400 20px 'Inter Tight',sans-serif;fill:#C9D2F5}
+  .nm{font:700 21px 'Inter Tight',sans-serif;fill:#EFE4C6;text-anchor:middle}
+  .rl{font:400 16px 'Inter Tight',sans-serif;fill:#C9D2F5;text-anchor:middle}
+  .num{font:700 26px 'Inter Tight',sans-serif;fill:#0B1450;text-anchor:middle}
+  .node{fill:#B80B17;stroke:#EFE4C6;stroke-width:3}
+  .nodeb{fill:#E8B95A;stroke:#EFE4C6;stroke-width:3}
+  .dead{fill:#3A436E;stroke:#8A93B8;stroke-width:3;stroke-dasharray:7 6}
+  .wire{stroke:#F0505A;stroke-width:4;fill:none;stroke-dasharray:10 8;animation:flow 1.6s linear infinite}
+  .pulse{animation:pl 3s ease-in-out infinite}
+  @keyframes flow{to{stroke-dashoffset:-36}}
+  @keyframes pl{0%,100%{opacity:1}50%{opacity:.55}}
+  @media (prefers-reduced-motion: reduce){.wire,.pulse{animation:none}}
+</style>
+<rect class="bg" width="1200" height="675"/>
+<rect class="panel" x="30" y="30" width="1140" height="615" rx="22"/>
+<text class="ttl" x="70" y="95">RANTAI KORBAN KERIS MPU GANDRING</text>
+<text class="sub" x="70" y="128">Menurut Pararaton: kutukannya menyebut tujuh turunan, korbannya terhitung enam</text>
+
+<path class="wire" d="M215 250 H545 M695 250 H1025 M1100 325 V395 M1025 470 H695 M545 470 H215"/>
+<!-- baris atas -->
+<g class="pulse"><circle class="nodeb" cx="140" cy="250" r="52"/><text class="num" x="140" y="259">1</text></g>
+<text class="nm" x="140" y="335">Mpu Gandring</text><text class="rl" x="140" y="360">pembuatnya sendiri</text>
+<g class="pulse" style="animation-delay:.4s"><circle class="node" cx="620" cy="250" r="52"/><text class="num" x="620" y="259" style="fill:#EFE4C6">2</text></g>
+<text class="nm" x="620" y="335">Tunggul Ametung</text><text class="rl" x="620" y="360">akuwu Tumapel</text>
+<g class="pulse" style="animation-delay:.8s"><circle class="node" cx="1100" cy="250" r="52"/><text class="num" x="1100" y="259" style="fill:#EFE4C6">3</text></g>
+<text class="nm" x="1100" y="335">Kebo Ijo</text><text class="rl" x="1100" y="360">dijadikan kambing hitam</text>
+<!-- baris bawah (alur ular) -->
+<g class="pulse" style="animation-delay:1.2s"><circle class="node" cx="1100" cy="470" r="52"/><text class="num" x="1100" y="479" style="fill:#EFE4C6">4</text></g>
+<text class="nm" x="1100" y="555">Ken Arok</text><text class="rl" x="1100" y="580">yang memesan kerisnya</text>
+<g class="pulse" style="animation-delay:1.6s"><circle class="node" cx="620" cy="470" r="52"/><text class="num" x="620" y="479" style="fill:#EFE4C6">5</text></g>
+<text class="nm" x="620" y="555">Ki Pengalasan</text><text class="rl" x="620" y="580">eksekutor Ken Arok</text>
+<g class="pulse" style="animation-delay:2s"><circle class="node" cx="140" cy="470" r="52"/><text class="num" x="140" y="479" style="fill:#EFE4C6">6</text></g>
+<text class="nm" x="140" y="555">Anusapati</text><text class="rl" x="140" y="580">raja kedua Tumapel</text>
+
+<text class="sub" x="70" y="630" style="fill:#F0505A;font-weight:700">Tohjaya? Wafat oleh tombak saat melarikan diri, bukan oleh keris. Rantainya putus di enam.</text>
+</svg>
