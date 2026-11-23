@@ -1,0 +1,143 @@
+{
+  "id": "perekonomian-dunia",
+  "cat": "finance",
+  "also": "global",
+  "date": "2026-11-14",
+  "title": "Kenapa ekonomi dunia selalu jatuh bareng, dan bangkit bareng",
+  "dek": "Krisis selalu mulai di satu tempat: bursa New York, mata uang Thailand, bank di Amerika, virus di satu kota. Tapi jatuhnya selalu serentak sedunia. Ini mekanisme penularannya, diuji di empat krisis terbesar.",
+  "tags": "ekonomi dunia krisis penularan contagion depresi besar 1929 krisis asia 1998 indonesia krisis 2008 perdagangan dunia pandemi 2020 resesi global",
+  "hook": "Ekonomi Indonesia menyusut 13,1% pada 1998 gara-gara krisis yang mulai dari mata uang Thailand. Kok bisa satu negara menjatuhkan tetangganya?",
+  "path": "",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone%2C_02-1931_-_NARA_-_541927.jpg/1280px-Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone%2C_02-1931_-_NARA_-_541927.jpg",
+    "alt": "Foto hitam putih Februari 1931: antrean pria pengangguran di depan dapur umum gratis di Chicago pada masa Depresi Besar",
+    "caption": "Antrean dapur umum gratis untuk pengangguran di Chicago, Februari 1931, arsip nasional AS. Dapur umum ini dibuka oleh gangster Al Capone. Depresi Besar adalah krisis global pertama yang menular lewat kabel-kabel ekonomi modern.",
+    "credit": "U.S. National Archives (NARA)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Unemployed_men_queued_outside_a_depression_soup_kitchen_opened_in_Chicago_by_Al_Capone,_02-1931_-_NARA_-_541927.jpg"
+  },
+  "sections": [
+    {
+      "h": "Tidak ada krisis yang tinggal di satu negara",
+      "p": [
+        "Perhatikan pola empat krisis terbesar dalam seratus tahun terakhir. Tahun 1929 masalahnya mulai di bursa saham New York. Tahun 1997 mulai dari mata uang Thailand. Tahun 2008 mulai dari kredit rumah di Amerika. Tahun 2020 mulai dari satu virus. Empat pemicu yang tidak mirip sama sekali, tapi akhirnya sama: seluruh dunia jatuh bersamaan.",
+        "Itu bukan kebetulan, dan bukan pula konspirasi. Ekonomi dunia bukan kumpulan ekonomi negara yang kebetulan naik turun berbarengan. Negara-negara itu terhubung oleh kabel yang sama, sehingga guncangan di satu titik merambat ke mana-mana. Para ekonom menyebutnya *contagion*, penularan, meminjam istilah penyakit.",
+        "Artikel ini membedah kabel-kabel itu, lalu mengujinya di empat krisis tadi. Termasuk pertanyaan sebaliknya yang jarang ditanyakan orang: kalau jatuhnya bisa barengan, kenapa bangkitnya juga hampir selalu barengan? Kalau kamu pernah bertanya kenapa masalah di negara antah-berantah bisa bikin harga-harga di kotamu ikut naik, jawabannya relate ke dompet semua orang."
+      ]
+    },
+    {
+      "h": "Empat kabel penularan yang sama di setiap era",
+      "p": [
+        "Kabel pertama adalah kurs dan standar bersama. Kalau banyak negara mematok mata uangnya ke jangkar yang sama, kebijakan satu negara terpaksa diekspor ke negara lain. Di era standar emas, negara yang menaikkan suku bunga memaksa semua negara lain ikut menaikkan suku bunga demi mempertahankan patokan emasnya, suka atau tidak suka.",
+        "Kabel kedua adalah perdagangan dan rantai pasok. Kalau permintaan di negara besar ambruk, ekspor semua mitra dagangnya ikut kering. Di zaman rantai pasok global, satu komponen bisa menyeberangi perbatasan berkali-kali sebelum jadi barang jadi, jadi satu guncangan terpantul berulang kali di sepanjang rantai.",
+        "Kabel ketiga adalah bank, utang, dan arus modal. Investor dan bank yang sama beroperasi di banyak negara sekaligus. Saat panik, uang ditarik serentak dari semua tempat yang dianggap mirip, dan utang dalam mata uang asing nilainya meledak begitu kurs lokal jatuh.",
+        "Kabel keempat adalah kepercayaan, dan ini yang paling licin. Keraguan pada satu bank atau satu negara membuat orang menilai ulang semua bank dan negara lain yang mirip. Lahirlah lingkaran setan: dana ditarik, kurs jatuh, utang membengkak, makin banyak dana ditarik.",
+        "Bayangkan ekonomi dunia seperti satu jaringan listrik kota. Satu gardu korslet, dan lampu di seluruh kota ikut berkedip, bukan karena tiap rumah rusak, tapi karena semua rumah tersambung ke grid yang sama. Bedanya, di ekonomi tidak ada teknisi yang bisa mematikan saklar utama: kepanikan berhenti bukan karena dimatikan, melainkan ketika orang mulai percaya lagi bahwa keadaan akan membaik."
+      ],
+      "img": {
+        "src": "/assets/illustrations/perekonomian-penularan-v1.svg",
+        "alt": "Diagram jaringan negara yang saling terhubung: satu negara krisis di tengah menyebarkan guncangan lewat empat kabel, kurs bersama, perdagangan, bank dan utang, kepercayaan",
+        "caption": "Empat kabel penularan krisis antarnegara. Pemicu krisis berganti tiap era, tapi kabel yang menyebarkannya selalu empat ini.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/perekonomian-penularan-v1.svg"
+      }
+    },
+    {
+      "h": "1930-an: standar emas menyiarkan kesalahan satu bank sentral ke seluruh dunia",
+      "p": [
+        "Depresi Besar dimulai di Amerika Serikat pada 1929 dan menyebar ke seluruh dunia, menjadi penurunan ekonomi terpanjang dan terdalam di era industri modern. Menurut Federal Reserve History, kabel penular utamanya adalah standar emas: karena mata uang negara-negara dipatok ke emas, keputusan bank sentral AS menaikkan suku bunga pada 1928 sampai 1929 untuk menahan spekulasi saham ikut memicu resesi di negara-negara lain.",
+        "Kesalahan itu diulang pada musim gugur 1931, dan di dalam negeri AS sendiri bank sentralnya gagal menjadi pemberi pinjaman terakhir saat kepanikan bank melanda. Akibatnya jumlah uang beredar di AS turun hampir 30 persen dalam waktu kurang dari tiga tahun. Uang yang menyusut membuat harga-harga jatuh, utang terasa makin berat, konsumsi ambruk, dan bank, perusahaan, serta rumah tangga bangkrut berantai.",
+        "Skala globalnya sulit dibayangkan hari ini: produk domestik bruto dunia turun sekitar 15 persen antara 1929 dan 1932, dan pada 1933 volume perdagangan dunia tinggal sepertiga dari level empat tahun sebelumnya. Pengangguran di AS mencapai 25 persen, dan sekitar 9.000 dari 25.000 bank di sana tutup.",
+        "Proteksionisme lalu menyiram bensin ke api. Undang-undang tarif Smoot-Hawley pada Juni 1930 menaikkan tarif atas lebih dari 20.000 barang impor, negara-negara lain membalas dengan tarif mereka sendiri, dan perdagangan global runtuh makin dalam. Konsensus sejarawan ekonomi hari ini: undang-undang itu bukan penyebab tunggal Depresi, tapi dia memperburuknya secara nyata.",
+        "Bagian ini ditutup pengakuan langka dari institusi yang bersalah. Pada 2002, Ben Bernanke, yang kelak memimpin bank sentral AS menghadapi krisis 2008, berkata soal peran lembaganya di Depresi Besar: kami yang melakukannya, kami sangat menyesal, dan kami tidak akan mengulanginya. Janji itu akan diuji tujuh puluh enam tahun setelah Depresi dimulai."
+      ]
+    },
+    {
+      "h": "1997-1998: giliran arus modal, dan Indonesia kena paling dalam",
+      "p": [
+        "Enam puluh delapan tahun kemudian kabelnya berganti. Krisis Asia berawal ketika Thailand melepas patokan mata uangnya pada Juli 1997, dan menurut IMF ciri khas krisis ini adalah pembalikan sentimen investor yang tiba-tiba: modal internasional yang tadinya mengalir masuk berbalik keluar secara mendadak dan serentak.",
+        "Kerentanannya sudah dibangun bertahun-tahun. Bank dan perusahaan di Asia meminjam besar-besaran dalam dolar AS, sering berjangka sangat pendek, sementara mata uang mereka dipatok kaku ke dolar. Begitu kepercayaan retak, lingkaran setan kabel ketiga dan keempat menyala: modal keluar, mata uang anjlok, utang dolar membengkak dalam mata uang lokal, lalu makin banyak modal kabur. Arus modal bersih ke negara-negara krisis berayun dari masuk lebih dari 6 persen produk domestik bruto pada 1995 menjadi keluar 2 persen pada 1997.",
+        "Indonesia adalah contoh terberatnya. Mengutip data BPS yang dirangkum Journal of Indonesian Applied Economics, pertumbuhan ekonomi Indonesia berbalik dari plus 4,7 persen pada 1997 menjadi minus 13,1 persen pada 1998, selisih hampir 18 poin dalam setahun. Inflasi melonjak ke 77,6 persen, rupiah terdepresiasi lebih dari 70 persen, dan suku bunga acuan sempat dinaikkan sampai 70 persen demi menahan kejatuhan. Thailand, Indonesia, dan Korea Selatan akhirnya berbalik ke IMF, yang menyediakan dana penyelamatan hampir 120 miliar dolar AS dengan syarat-syarat pengetatan yang tidak populer, dan sampai hari ini para ekonom masih memperdebatkan apakah resep itu menolong atau justru memperdalam resesi.",
+        "Sisi bangkitnya juga menular. Negara-negara kawasan merestrukturisasi bank dan perusahaan, menumpuk cadangan devisa, dan beralih ke kurs yang lebih fleksibel. Pada 2003, kata IMF, produk domestik bruto semua negara krisis Asia sudah melampaui level sebelum krisis. Kawasan itu juga membangun asuransi bersama berupa jaringan pertukaran mata uang ASEAN+3, cikal bakal jaring pengaman kawasan sampai sekarang."
+      ],
+      "img": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Jakarta_riot_14_May_1998.jpg/1280px-Jakarta_riot_14_May_1998.jpg",
+        "alt": "Foto Jakarta 14 Mei 1998: toko-toko dijarah dan barang dibakar di jalan saat kerusuhan Mei 1998",
+        "caption": "Jakarta, 14 Mei 1998. Krisis yang berawal dari nilai tukar berkembang menjadi krisis ekonomi dan politik, dan dampak sosialnya memuncak pada kerusuhan Mei 1998. Foto dokumentasi resmi pemerintah Indonesia.",
+        "credit": "Office of the Vice President, Republic of Indonesia",
+        "license": "Public domain",
+        "page": "https://commons.wikimedia.org/wiki/File:Jakarta_riot_14_May_1998.jpg"
+      }
+    },
+    {
+      "h": "2008-2009: bank global dan rantai pasok menyeret semua negara sekaligus",
+      "p": [
+        "Krisis 2008 berakar di pasar perumahan Amerika: harga rumah rata-rata lebih dari dua kali lipat antara 1998 dan 2006, dan utang hipotek rumah tangga naik dari 61 persen menjadi 97 persen produk domestik bruto. Kredit berisiko itu dikemas menjadi sekuritas dan dijual ke seluruh sistem keuangan dunia, dan kemasan itulah kabel penularnya.",
+        "Ketika harga rumah berbalik turun, kepanikan menyebar lewat bank-bank global yang memegang aset yang sama. Pada 15 September 2008 Lehman Brothers mengajukan kebangkrutan, dan sehari kemudian bank sentral AS terpaksa menopang raksasa asuransi AIG. Resesi AS berlangsung 18 bulan, terpanjang sejak Perang Dunia II, dengan produk domestik bruto turun 4,3 persen dan pengangguran naik dari di bawah 5 persen menjadi 10 persen.",
+        "Yang membuat 2009 terasa di semua negara, termasuk yang banknya sehat, adalah kabel perdagangan. Organisasi Perdagangan Dunia mencatat volume perdagangan dunia terkontraksi 12,2 persen pada 2009, penurunan terbesar sejak Perang Dunia II, dan output dunia turun 2,3 persen, penurunan global pertama sejak Depresi Besar. WTO menyebut tiga penguatnya: barang yang permintaannya jatuh adalah barang tahan lama dan barang modal yang mendominasi perdagangan, rantai pasok global memantulkan guncangan berulang kali, dan penurunannya terjadi serentak di semua kawasan.",
+        "Plot twist-nya, ada satu perbedaan besar dari 1930-an: pelajaran lama dipakai. Pemerintah-pemerintah merespons dengan stimulus fiskal dan moneter luar biasa besar secara hampir serentak, dan tidak ada perang tarif seperti Smoot-Hawley. Hasilnya krisis ini jatuh dalam, tapi tidak berubah menjadi depresi bertahun-tahun, dan perdagangan dunia memantul naik lagi pada tahun berikutnya. Bernanke menepati janji 2002-nya."
+      ],
+      "img": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Lehman_Brothers-NYC-20080915.jpg/1280px-Lehman_Brothers-NYC-20080915.jpg",
+        "alt": "Foto gedung markas Lehman Brothers di New York pada 15 September 2008, hari bank itu mengajukan kebangkrutan",
+        "caption": "Markas Lehman Brothers di New York, difoto pada 15 September 2008, hari bank investasi itu mengajukan kebangkrutan dan memicu kepanikan keuangan global.",
+        "credit": "Robert Scoble",
+        "license": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Lehman_Brothers-NYC-20080915.jpg"
+      }
+    },
+    {
+      "h": "2020: penularan tanpa krisis keuangan sama sekali",
+      "p": [
+        "Guncangan 2020 membuktikan satu hal: ekonomi dunia bisa jatuh barengan bahkan tanpa bank bangkrut dan tanpa mata uang runtuh. Mekanisme penularnya adalah penghentian aktivitas yang disengaja dan serentak, ketika negara-negara mengunci diri menghadapi pandemi, dan guncangan pasokan, permintaan, perdagangan, dan keuangan datang bersamaan.",
+        "Bank Dunia mencatat ini resesi global pertama sejak 1870 yang dipicu semata-mata oleh pandemi. Pada Juni 2020 Bank Dunia memproyeksikan ekonomi global menyusut 5,2 persen, proyeksi yang kemudian direvisi karena realisasinya tidak sedalam itu, tapi rekor sinkronisasinya bertahan: pangsa negara yang mengalami kontraksi pendapatan per kapita pada 2020 adalah yang terbesar sejak 1870, melampaui bahkan puncak Depresi Besar.",
+        "Dan sesuai pola seratus tahun, titik baliknya juga serentak. Pembukaan kembali aktivitas ditambah dukungan kebijakan yang belum pernah terjadi sebelumnya membuat ekonomi dunia memantul bersamaan pada tahun berikutnya, persis seperti perdagangan yang memantul setelah 2009 dan Asia yang pulih setelah 1998."
+      ]
+    },
+    {
+      "h": "Kabel yang menyalurkan kemakmuran adalah kabel yang sama yang menyalurkan panik",
+      "kind": "interpretasi",
+      "p": [
+        "Kalau empat krisis ini ditarik benang merahnya, pemicunya selalu berbeda dan tidak pernah terulang persis: saham dan emas, kurs dan modal asing, hipotek dan bank, lalu virus. Yang selalu sama adalah jalur rambatnya. Kurs bersama, perdagangan, bank dan utang lintas negara, dan kepercayaan, empat kabel itu lagi, empat kabel itu lagi.",
+        "Setiap krisis juga meninggalkan asuransi baru yang dibangun dari puing-puingnya. Setelah 1933 lahir reformasi perbankan dan penjaminan simpanan di AS. Setelah 1998 Asia menumpuk cadangan devisa dan membangun jaring pengaman kawasan. Setelah 2008 bank-bank global dipaksa memegang modal lebih tebal dan diuji lewat stress test berkala. Dunia tidak pernah kebal, tapi dia selalu memasang kabel pengaman tambahan setelah setiap korsleting.",
+        "Jujurly, di situlah paradoksnya, dan ini relate ke cara kita membaca berita ekonomi hari ini. Integrasi adalah pedang bermata dua: kabel yang sama yang menyalurkan kemakmuran, berupa modal murah, pasar ekspor, dan barang yang lebih terjangkau, adalah kabel yang sama yang menyalurkan kepanikan dalam hitungan hari. Memutus kabelnya bukan jawaban, karena itu berarti memutus kemakmurannya juga.",
+        "Jadi pertanyaan yang lebih berguna daripada \"apakah akan ada krisis lagi\" adalah \"kabel mana yang sedang paling tegang, dan asuransi apa yang sudah dipasang di sana\". Ekonomi dunia akan jatuh bareng lagi suatu hari nanti, bestie, karena dia memang dibangun untuk bergerak bareng. Kabar baiknya: sejarah juga menunjukkan dia selalu bangkit bareng, dan setiap kali bangkit, dia membawa pulang satu pelajaran baru."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "t": "Federal Reserve History: The Great Depression",
+      "u": "https://www.federalreservehistory.org/essays/great-depression"
+    },
+    {
+      "t": "IMF, Finance & Development: Asia Ten Years After (Burton & Zanello, 2007)",
+      "u": "https://www.imf.org/external/pubs/ft/fandd/2007/06/burton.htm"
+    },
+    {
+      "t": "Federal Reserve History: The Great Recession and Its Aftermath",
+      "u": "https://www.federalreservehistory.org/-/media/Project/FedHistory/FedHistory/Documents/essaysPDFs/The-Great-Recession-and-Its-Aftermath-_-Federal-Reserve-History.pdf"
+    },
+    {
+      "t": "WTO: Trade to expand by 9.5% in 2010 after a dismal 2009 (Press/598, 2010)",
+      "u": "https://www.wto.org/english/news_e/pres10_e/pr598_e.htm"
+    },
+    {
+      "t": "World Bank: COVID-19 to Plunge Global Economy into Worst Recession since World War II (2020)",
+      "u": "https://www.worldbank.org/en/news/press-release/2020/06/08/covid-19-to-plunge-global-economy-into-worst-recession-since-world-war-ii"
+    },
+    {
+      "t": "IMF, Finance & Development: From the Asian Financial Crisis to Today",
+      "u": "https://www.imf.org/en/publications/fandd/issues/series/analytical-series/crisis-lessons-chris-wellisz"
+    },
+    {
+      "t": "Journal of Indonesian Applied Economics: Krisis Ekonomi Indonesia (Karmeli & Fatimah, 2008)",
+      "u": "https://padlet-uploads.storage.googleapis.com/1370908321/af9b74a868b18b4f4e27fb6515c2b8a2/142_Article_Text_197_1_10_20120515.pdf"
+    },
+    {
+      "t": "Wikipedia: Great Depression",
+      "u": "https://en.wikipedia.org/wiki/Great_Depression"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Diagram penularan krisis ekonomi antarnegara</title>
+<desc id="d">Jaringan negara-negara yang saling terhubung oleh empat kabel: kurs bersama, perdagangan, bank dan utang, serta kepercayaan. Satu negara yang korslet membuat seluruh jaringan ikut berkedip.</desc>
+<style>
+  .bg{fill:#0B1450}.panel{fill:#111B63;stroke:#EFE4C6;stroke-opacity:.25}
+  .ttl{font:700 32px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .sub{font:400 19px 'Inter Tight',sans-serif;fill:#C9D2F5}
+  .node{fill:#EFE4C6}.nlab{font:700 18px 'Inter Tight',sans-serif;fill:#0B1450;text-anchor:middle}
+  .wire{stroke:#7C8BD9;stroke-width:3;stroke-opacity:.7}
+  .ch{font:700 21px 'Inter Tight',sans-serif;fill:#E8B95A}
+  .hot{fill:#B80B17;animation:pl 2.4s ease-in-out infinite}
+  @keyframes pl{0%,100%{opacity:1}50%{opacity:.45}}
+  @media (prefers-reduced-motion: reduce){.hot{animation:none}}
+</style>
+<rect class="bg" width="1200" height="675"/>
+<rect class="panel" x="30" y="30" width="1140" height="615" rx="22"/>
+<text class="ttl" x="70" y="92">SATU KORSLET, SEMUA IKUT BERKEDIP</text>
+<text class="sub" x="70" y="124">Negara-negara terhubung seperti satu jaringan listrik. Empat kabelnya:</text>
+
+<g stroke-linecap="round">
+  <line class="wire" x1="600" y1="330" x2="330" y2="220"/><line class="wire" x1="600" y1="330" x2="870" y2="220"/>
+  <line class="wire" x1="600" y1="330" x2="330" y2="450"/><line class="wire" x1="600" y1="330" x2="870" y2="450"/>
+  <line class="wire" x1="330" y1="220" x2="870" y2="220"/><line class="wire" x1="330" y1="450" x2="870" y2="450"/>
+</g>
+<circle class="hot" cx="600" cy="330" r="52"/><text class="nlab" x="600" y="326" style="fill:#EFE4C6">NEGARA</text><text class="nlab" x="600" y="350" style="fill:#EFE4C6">KRISIS</text>
+<circle class="node" cx="330" cy="220" r="40"/><text class="nlab" x="330" y="227">A</text>
+<circle class="node" cx="870" cy="220" r="40"/><text class="nlab" x="870" y="227">B</text>
+<circle class="node" cx="330" cy="450" r="40"/><text class="nlab" x="330" y="457">C</text>
+<circle class="node" cx="870" cy="450" r="40"/><text class="nlab" x="870" y="457">D</text>
+
+<text class="ch" x="90" y="580">1. Kurs bersama</text>
+<text class="ch" x="330" y="580">2. Perdagangan</text>
+<text class="ch" x="580" y="580">3. Bank &amp; utang</text>
+<text class="ch" x="850" y="580">4. Kepercayaan</text>
+<text class="sub" x="70" y="618">Pemicunya berganti tiap era. Kabelnya selalu empat itu.</text>
+</svg>
