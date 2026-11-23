@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Diagram rute perjalanan hidup Leonardo da Vinci antar kota</title>
+<desc id="d">Rute skematis perjalanan Leonardo: Vinci 1452, Florence, Milan, Mantua dan Venesia, Romagna, Florence lagi, Milan lagi, Roma, dan berakhir di Amboise, Prancis, 1519.</desc>
+<style>
+  .bg{fill:#0B1450}.panel{fill:#111B63;stroke:#EFE4C6;stroke-opacity:.25}
+  .ttl{font:700 32px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .sub{font:400 19px 'Inter Tight',sans-serif;fill:#C9D2F5}
+  .city{font:700 21px 'Inter Tight',sans-serif;fill:#EFE4C6;text-anchor:middle}
+  .yr{font:400 17px 'Inter Tight',sans-serif;fill:#E8B95A;text-anchor:middle}
+  .dot{fill:#B80B17;stroke:#EFE4C6;stroke-width:3}
+  .dotg{fill:#E8B95A;stroke:#EFE4C6;stroke-width:3}
+  .route{stroke:#F0505A;stroke-width:4;fill:none;stroke-dasharray:11 9;animation:flow 1.8s linear infinite}
+  .pulse{animation:pl 3s ease-in-out infinite}
+  @keyframes flow{to{stroke-dashoffset:-40}}
+  @keyframes pl{0%,100%{opacity:1}50%{opacity:.5}}
+  @media (prefers-reduced-motion: reduce){.route,.pulse{animation:none}}
+</style>
+<rect class="bg" width="1200" height="675"/>
+<rect class="panel" x="30" y="30" width="1140" height="615" rx="22"/>
+<text class="ttl" x="70" y="92">RUTE SEUMUR HIDUP: DARI DESA KECIL KE ISTANA RAJA</text>
+<text class="sub" x="70" y="124">Skematis, bukan peta skala. Leonardo berpindah kota mengikuti patron, perang, dan rasa penasarannya.</text>
+
+<path class="route" d="M140 480 C260 400 300 430 420 400 C540 370 560 300 660 300 C760 300 800 360 900 330 C990 305 1010 230 1060 190"/>
+<g class="pulse"><circle class="dotg" cx="140" cy="480" r="17"/></g>
+<text class="city" x="140" y="530">Vinci</text><text class="yr" x="140" y="555">1452, lahir</text>
+<g class="pulse" style="animation-delay:.3s"><circle class="dot" cx="420" cy="400" r="17"/></g>
+<text class="city" x="420" y="450">Florence</text><text class="yr" x="420" y="475">magang Verrocchio</text>
+<g class="pulse" style="animation-delay:.6s"><circle class="dot" cx="660" cy="300" r="17"/></g>
+<text class="city" x="660" y="265">Milan</text><text class="yr" x="660" y="245">1482-1499, Sforza</text>
+<g class="pulse" style="animation-delay:.9s"><circle class="dot" cx="900" cy="330" r="17"/></g>
+<text class="city" x="900" y="380">Keliling Italia</text><text class="yr" x="900" y="405">Mantua, Venesia, Romagna</text>
+<g class="pulse" style="animation-delay:1.2s"><circle class="dot" cx="1060" cy="190" r="17"/></g>
+<text class="city" x="1060" y="150">Amboise</text><text class="yr" x="1060" y="128">1516-1519, wafat</text>
+
+<text class="sub" x="70" y="615">Di tengah jalan beliau singgah lagi di Florence dan Milan, lalu Roma (1513-1516), sebelum menyeberangi Alpen ke Prancis.</text>
+</svg>
