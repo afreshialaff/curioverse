@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Ilustrasi Pertempuran Myeongnyang 1597: 13 kapal Joseon melawan 133 kapal perang Jepang di selat sempit yang arusnya berbalik</title>
+<desc id="d">Peta gaya sketsa dari atas: selat sempit Uldolmok, arus beranimasi berbalik arah, 13 kapal Joseon berjejer di mulut selat, armada Jepang yang besar berdesakan dan saling bertabrakan.</desc>
+<style>
+  .bg{fill:#EFE4C6}.sea{fill:#0B1450}.land{fill:#B80B17;opacity:.14}
+  .coast{fill:none;stroke:#EFE4C6;stroke-width:6;stroke-linecap:round}
+  .lbl{font-family:Georgia,serif;fill:#EFE4C6}.small{font-family:Arial,sans-serif;fill:#EFE4C6}
+  .gold{fill:#E8B95A}.red{fill:#F0505A}.cream{fill:#EFE4C6}
+  .cur{fill:none;stroke:#8DB3F2;stroke-width:7;stroke-linecap:round;stroke-dasharray:26 20;animation:flow 2.6s linear infinite}
+  .cur2{animation-duration:3.4s;opacity:.65}
+  @keyframes flow{to{stroke-dashoffset:-92}}
+  .rock{transform-origin:center;animation:rock 3.2s ease-in-out infinite alternate}
+  .rock2{animation-duration:2.4s}
+  @keyframes rock{from{transform:rotate(-2.2deg)}to{transform:rotate(2.2deg)}}
+  .drift{animation:drift 5s ease-in-out infinite alternate}
+  @keyframes drift{from{transform:translate(0,0) rotate(0deg)}to{transform:translate(-16px,10px) rotate(-7deg)}}
+  .pulse{animation:pulse 2.8s ease-in-out infinite alternate}
+  @keyframes pulse{from{opacity:.45}to{opacity:1}}
+  @media (prefers-reduced-motion: reduce){.cur,.rock,.rock2,.drift,.pulse{animation:none}}
+</style>
+<rect class="bg" width="1200" height="675"/>
+<rect class="sea" x="28" y="28" width="1144" height="619" rx="28"/>
+<path class="land" d="M28 28h360c-40 110-30 190 20 300 38 84 30 190-10 319H28z"/>
+<path class="land" d="M1172 28h-300c50 120 40 210-10 320-40 88-34 190 8 299h302z"/>
+<path class="coast" d="M388 28c-40 110-30 190 20 300 38 84 30 190-10 319"/>
+<path class="coast" d="M872 28c50 120 40 210-10 320-40 88-34 190 8 299"/>
+<text x="70" y="90" class="lbl" font-size="30" font-style="italic">Selat Myeongnyang</text>
+<text x="70" y="124" class="small" font-size="19" opacity=".85">Uldolmok — “selat yang meraung”</text>
+<text x="830" y="90" class="lbl" font-size="30">26 Oktober 1597</text>
+<path class="cur" d="M470 210 C560 180 650 240 760 205"/>
+<path class="cur cur2" d="M455 340 C560 305 665 365 775 330"/>
+<path class="cur" d="M470 470 C560 435 650 495 760 460"/>
+<text x="505" y="165" class="small" font-size="20" fill="#8DB3F2">arus berbalik menghantam →</text>
+<g class="rock">
+  <g transform="translate(455 250)"><path class="gold" d="M0-24 L14 14 L4 20 L-12 16 L-16-8 Z"/><rect x="-3" y="-34" width="6" height="24" fill="#EFE4C6"/></g>
+  <g transform="translate(470 385) scale(.9)"><path class="gold" d="M0-24 L14 14 L4 20 L-12 16 L-16-8 Z"/><rect x="-3" y="-34" width="6" height="24" fill="#EFE4C6"/></g>
+  <g transform="translate(458 505) scale(.85)"><path class="gold" d="M0-24 L14 14 L4 20 L-12 16 L-16-8 Z"/><rect x="-3" y="-34" width="6" height="24" fill="#EFE4C6"/></g>
+</g>
+<text x="360" y="585" class="lbl" font-size="27">13 kapal Joseon</text>
+<text x="360" y="614" class="small" font-size="17" opacity=".85">bertahan di mulut selat</text>
+<g class="drift">
+  <g transform="translate(905 215) rotate(18)"><path class="red" d="M0-24 L14 14 L4 20 L-12 16 L-16-8 Z"/></g>
+  <g transform="translate(965 275) rotate(-14)"><path class="red" d="M0-24 L14 14 L4 20 L-12 16 L-16-8 Z"/></g>
+  <g transform="translate(900 340) rotate(28)"><path class="red" d="M0-24 L14 14 L4 20 L-12 16 L-16-8 Z"/></g>
+  <g transform="translate(975 405) rotate(-24)"><path class="red" d="M0-24 L14 14 L4 20 L-12 16 L-16-8 Z"/></g>
+  <g transform="translate(905 475) rotate(12)"><path class="red" d="M0-24 L14 14 L4 20 L-12 16 L-16-8 Z"/></g>
+</g>
+<circle class="pulse" cx="930" cy="345" r="86" fill="none" stroke="#F0505A" stroke-width="3" stroke-dasharray="8 10"/>
+<text x="835" y="585" class="lbl" font-size="27">133 kapal perang Jepang</text>
+<text x="835" y="614" class="small" font-size="17" opacity=".85">berdesakan, saling bertabrakan</text>
+<text x="600" y="52" text-anchor="middle" class="small" font-size="16" letter-spacing="3">CURIOVERSE • ILUSTRASI SKEMATIS, BUKAN PETA SKALA</text>
+</svg>
