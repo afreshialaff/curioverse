@@ -15,6 +15,7 @@ name: Cek tayang Vivid (IG + Threads)
 #   Wewe Gombel:          tayang 20.00 WIB 2026-11-25 -> cek 20.30 dan 21.00 WIB
 #   Tuyul:                tayang 20.00 WIB 2026-11-26 -> cek 20.30 dan 21.00 WIB
 #   Pocong:               tayang 20.00 WIB 2026-11-27 -> cek 20.30 dan 21.00 WIB
+#   Batu Menangis:        tayang 20.00 WIB 2026-11-28 -> cek 20.30 dan 21.00 WIB
 on:
   schedule:
     - cron: "15 15 11 11 *"
@@ -47,6 +48,8 @@ on:
     - cron: "0 14 26 11 *"    # cek ulang 21.00 WIB
     - cron: "30 13 27 11 *"   # cek 20.30 WIB Pocong
     - cron: "0 14 27 11 *"    # cek ulang 21.00 WIB
+    - cron: "30 13 28 11 *"   # cek 20.30 WIB Batu Menangis
+    - cron: "0 14 28 11 *"    # cek ulang 21.00 WIB
   workflow_dispatch:
 permissions:
   contents: read
@@ -106,3 +109,4 @@ jobs:
           cek 2026-11-25 20:00 social/2026-11-25/1-vivid-wewe-gombel jadwal-wewe-gombel.yml
           cek 2026-11-26 20:00 social/2026-11-26/1-vivid-tuyul jadwal-tuyul.yml
           cek 2026-11-27 20:00 social/2026-11-27/1-vivid-pocong jadwal-pocong.yml
+          cek 2026-11-28 20:00 social/2026-11-28/1-vivid-batu-menangis jadwal-batu-menangis.yml
