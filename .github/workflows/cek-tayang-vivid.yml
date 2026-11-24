@@ -50,6 +50,8 @@ on:
     - cron: "0 14 27 11 *"    # cek ulang 21.00 WIB
     - cron: "30 13 28 11 *"   # cek 20.30 WIB Batu Menangis
     - cron: "0 14 28 11 *"    # cek ulang 21.00 WIB
+    - cron: "25 13 29 11 *"   # cek 20.25 WIB Rawa Pening LONG
+    - cron: "55 13 29 11 *"   # cek ulang 20.55 WIB
   workflow_dispatch:
 permissions:
   contents: read
@@ -110,3 +112,4 @@ jobs:
           cek 2026-11-26 20:00 social/2026-11-26/1-vivid-tuyul jadwal-tuyul.yml
           cek 2026-11-27 20:00 social/2026-11-27/1-vivid-pocong jadwal-pocong.yml
           cek 2026-11-28 20:00 social/2026-11-28/1-vivid-batu-menangis jadwal-batu-menangis.yml
+          cek 2026-11-29 20:00 social/2026-11-29/1-vivid-rawa-pening jadwal-rawa-pening.yml
