@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalender Konten — Titik Penasaran &amp; Curioverse</title>
+<style>
+  :root{
+    --bg:#f6f1e5; --panel:#fffdf7; --teks:#1c2430; --teks-redup:#5c6572;
+    --garis:#ddd3bd; --aksen:#163dc5; --aksen-teks:#ffffff;
+    --kuning:#ffe100; --vermilion:#f06445;
+    --chip-tayang:#1d7a3a; --chip-terjadwal:#163dc5; --chip-lain:#6b5a12;
+    --bayang:0 1px 4px rgba(20,25,40,.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#101623; --panel:#1a2233; --teks:#f2ecdc; --teks-redup:#a9b2c3;
+      --garis:#33405a; --aksen:#7d97ff; --aksen-teks:#0d1330;
+      --chip-tayang:#4cc46e; --chip-terjadwal:#7d97ff; --chip-lain:#e3c84f;
+      --bayang:0 1px 4px rgba(0,0,0,.5);
+    }
+  }
+  html[data-tema="terang"]{
+    --bg:#f6f1e5; --panel:#fffdf7; --teks:#1c2430; --teks-redup:#5c6572;
+    --garis:#ddd3bd; --aksen:#163dc5; --aksen-teks:#ffffff;
+    --chip-tayang:#1d7a3a; --chip-terjadwal:#163dc5; --chip-lain:#6b5a12;
+    --bayang:0 1px 4px rgba(20,25,40,.12);
+  }
+  html[data-tema="gelap"]{
+    --bg:#101623; --panel:#1a2233; --teks:#f2ecdc; --teks-redup:#a9b2c3;
+    --garis:#33405a; --aksen:#7d97ff; --aksen-teks:#0d1330;
+    --chip-tayang:#4cc46e; --chip-terjadwal:#7d97ff; --chip-lain:#e3c84f;
+    --bayang:0 1px 4px rgba(0,0,0,.5);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    background:var(--bg);color:var(--teks);line-height:1.45}
+  .bungkus{max-width:1080px;margin:0 auto;padding:16px}
+  header{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:6px}
+  header h1{font-size:1.35rem;margin:0}
+  header .tagline{color:var(--teks-redup);font-size:.9rem;width:100%}
+  .tombol{margin-left:auto;background:var(--panel);color:var(--teks);
+    border:1px solid var(--garis);border-radius:999px;padding:6px 14px;
+    cursor:pointer;font-size:.85rem;box-shadow:var(--bayang)}
+  .kartu-ringkas{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
+  .kartu{background:var(--panel);border:1px solid var(--garis);border-radius:12px;
+    padding:12px;text-align:center;box-shadow:var(--bayang)}
+  .kartu .angka{font-size:1.6rem;font-weight:700}
+  .kartu .label{color:var(--teks-redup);font-size:.82rem}
+  .panel{background:var(--panel);border:1px solid var(--garis);border-radius:12px;
+    padding:14px;margin:14px 0;box-shadow:var(--bayang)}
+  .panel h2{margin:0 0 10px;font-size:1.05rem}
+  .navigasi-bulan{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+  .navigasi-bulan .judul-bulan{font-weight:700;flex:1;text-align:center}
+  .navigasi-bulan button{background:var(--panel);color:var(--teks);
+    border:1px solid var(--garis);border-radius:8px;padding:5px 12px;cursor:pointer}
+  table.kalender{width:100%;border-collapse:collapse;table-layout:fixed}
+  table.kalender th{font-size:.75rem;color:var(--teks-redup);padding:4px 2px;text-align:center}
+  table.kalender td{border:1px solid var(--garis);vertical-align:top;height:74px;
+    padding:4px;font-size:.78rem;cursor:pointer}
+  table.kalender td.luar-bulan{opacity:.35;cursor:default}
+  table.kalender td.hari-ini{outline:2px solid var(--vermilion);outline-offset:-2px}
+  table.kalender td.terpilih{background:var(--kuning);color:#1c2430}
+  .tgl{font-weight:700;font-size:.8rem}
+  .penanda{display:block;margin-top:2px;padding:1px 4px;border-radius:6px;
+    background:var(--aksen);color:var(--aksen-teks);white-space:nowrap;
+    overflow:hidden;text-overflow:ellipsis;font-size:.68rem}
+  .penanda.tayang{background:var(--chip-tayang);color:#fff}
+  .saring{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:10px}
+  .saring label{font-size:.85rem;color:var(--teks-redup)}
+  .saring select{margin-left:6px;padding:5px 8px;border-radius:8px;
+    border:1px solid var(--garis);background:var(--panel);color:var(--teks)}
+  .tabel-gulir{overflow-x:auto}
+  table.daftar{width:100%;border-collapse:collapse;font-size:.88rem;min-width:640px}
+  table.daftar th,table.daftar td{border-bottom:1px solid var(--garis);
+    padding:7px 6px;text-align:left;vertical-align:top}
+  table.daftar th{color:var(--teks-redup);font-size:.78rem}
+  table.daftar tbody tr{cursor:pointer}
+  .chip{display:inline-block;padding:1px 9px;border-radius:999px;font-size:.75rem;
+    font-weight:600;border:1px solid currentColor;white-space:nowrap}
+  .chip.tayang{color:var(--chip-tayang)}
+  .chip.terjadwal{color:var(--chip-terjadwal)}
+  .chip.lain{color:var(--chip-lain)}
+  .tautan a{margin-right:8px;color:var(--aksen);text-decoration:none;font-weight:600}
+  .tautan a:hover{text-decoration:underline}
+  .rincian dt{font-weight:700;margin-top:8px}
+  .rincian dd{margin:2px 0 0;color:var(--teks)}
+  .pesan{padding:14px;text-align:center;color:var(--teks-redup)}
+  .pesan a{color:var(--aksen)}
+  footer{color:var(--teks-redup);font-size:.8rem;text-align:center;margin:18px 0 8px}
+  @media (max-width:560px){
+    table.kalender td{height:58px;font-size:.7rem}
+    .kartu .angka{font-size:1.25rem}
+    header h1{font-size:1.15rem}
+  }
+</style>
+</head>
+<body>
+<div class="bungkus">
+  <header>
+    <h1>Kalender Konten — Titik Penasaran &amp; Curioverse</h1>
+    <button class="tombol" id="tombolTema" type="button">Ganti tema</button>
+    <div class="tagline">Jadwal tayang video Titik Penasaran dan konten sosial Curioverse. Data dibaca langsung dari berkas konten.json di repo ini.</div>
+  </header>
+
+  <section class="kartu-ringkas" aria-label="Ringkasan">
+    <div class="kartu"><div class="angka" id="jmlTayang">–</div><div class="label">Sudah tayang</div></div>
+    <div class="kartu"><div class="angka" id="jmlTerjadwal">–</div><div class="label">Terjadwal</div></div>
+    <div class="kartu"><div class="angka" id="jmlTotal">–</div><div class="label">Total entri</div></div>
+  </section>
+
+  <div class="pesan" id="pesanMuat">Memuat data kalender…</div>
+
+  <section class="panel" id="panelKalender" hidden>
+    <h2>Kalender bulanan</h2>
+    <div class="navigasi-bulan">
+      <button type="button" id="bulanSebelum">‹ Bulan lalu</button>
+      <div class="judul-bulan" id="judulBulan"></div>
+      <button type="button" id="bulanSesudah">Bulan depan ›</button>
+    </div>
+    <table class="kalender" aria-label="Kalender bulanan">
+      <thead><tr><th>Sen</th><th>Sel</th><th>Rab</th><th>Kam</th><th>Jum</th><th>Sab</th><th>Min</th></tr></thead>
+      <tbody id="isiKalender"></tbody>
+    </table>
+  </section>
+
+  <section class="panel" id="panelDaftar" hidden>
+    <h2>Daftar konten</h2>
+    <div class="saring">
+      <label>Status
+        <select id="saringStatus"><option value="">Semua status</option></select>
+      </label>
+      <label>Kategori
+        <select id="saringKategori"><option value="">Semua kategori</option></select>
+      </label>
+    </div>
+    <div class="tabel-gulir">
+      <table class="daftar">
+        <thead><tr>
+          <th>Tanggal</th><th>Jam</th><th>Topik</th><th>Format</th>
+          <th>Kategori</th><th>Status</th><th>Tautan</th>
+        </tr></thead>
+        <tbody id="isiDaftar"></tbody>
+      </table>
+    </div>
+    <div class="pesan" id="pesanKosong" hidden>Tidak ada entri yang cocok dengan saringan.</div>
+  </section>
+
+  <section class="panel" id="panelRincian" hidden>
+    <h2>Rincian entri</h2>
+    <dl class="rincian" id="isiRincian"></dl>
+  </section>
+
+  <footer>Perubahan data cukup lewat commit ke berkas data/kalender/konten.json — halaman ini menyesuaikan otomatis.</footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var URL_DATA = "https://raw.githubusercontent.com/afreshialaff/curioverse/main/data/kalender/konten.json";
+  var NAMA_BULAN = ["Januari","Februari","Maret","April","Mei","Juni","Juli",
+    "Agustus","September","Oktober","November","Desember"];
+  var semuaEntri = [];
+  var bulanTampil = null; // Date pada tanggal 1 bulan yang ditampilkan
+  var tanggalTerpilih = null;
+
+  var el = function(id){ return document.getElementById(id); };
+  function teks(elm, nilai){ elm.textContent = (nilai === null || nilai === undefined) ? "" : String(nilai); }
+  function buat(tag, kelas, isi){
+    var e = document.createElement(tag);
+    if (kelas) e.className = kelas;
+    if (isi !== undefined) e.textContent = isi;
+    return e;
+  }
+  function kunciTanggal(tgl){ // "YYYY-MM-DD" dari objek Date lokal
+    var m = String(tgl.getMonth()+1); if (m.length<2) m = "0"+m;
+    var d = String(tgl.getDate()); if (d.length<2) d = "0"+d;
+    return tgl.getFullYear() + "-" + m + "-" + d;
+  }
+  function entriPada(tanggalStr){
+    return semuaEntri.filter(function(e){ return e.tanggal === tanggalStr; });
+  }
+  function kelasChip(status){
+    if (status === "tayang") return "chip tayang";
+    if (status === "terjadwal") return "chip terjadwal";
+    return "chip lain";
+  }
+  function tambahTautan(wadah, label, url){
+    if (!url) return;
+    var a = buat("a", null, label);
+    a.href = url; a.target = "_blank"; a.rel = "noopener";
+    wadah.appendChild(a);
+  }
+  function wadahTautan(e){
+    var td = buat("td", "tautan");
+    tambahTautan(td, "YouTube", e.yt_url);
+    tambahTautan(td, "Instagram", e.ig_url);
+    tambahTautan(td, "Threads", e.threads_url);
+    tambahTautan(td, "Facebook", e.fb_url);
+    if (!td.firstChild) td.textContent = "—";
+    return td;
+  }
+
+  function tampilRincian(e){
+    var dl = el("isiRincian"); dl.innerHTML = "";
+    var baris = [
+      ["Topik", e.topik], ["Tanggal", e.tanggal], ["Jam", (e.jam || "") + " WIB"],
+      ["Daerah", e.daerah], ["Format", e.format], ["Kategori", e.kategori],
+      ["Sudut", e.sudut], ["Status", e.status], ["Catatan", e.catatan]
+    ];
+    if (e.ig_jangkauan !== null && e.ig_jangkauan !== undefined)
+      baris.push(["Jangkauan Instagram", e.ig_jangkauan]);
+    if (e.ig_jangkauan_per !== null && e.ig_jangkauan_per !== undefined)
+      baris.push(["Perubahan jangkauan Instagram", e.ig_jangkauan_per]);
+    baris.forEach(function(b){
+      if (b[1] === null || b[1] === undefined || b[1] === "") return;
+      dl.appendChild(buat("dt", null, b[0]));
+      dl.appendChild(buat("dd", null, String(b[1])));
+    });
+    var dt = buat("dt", null, "Tautan"); dl.appendChild(dt);
+    var dd = buat("dd", "tautan");
+    tambahTautan(dd, "YouTube", e.yt_url);
+    tambahTautan(dd, "Instagram", e.ig_url);
+    tambahTautan(dd, "Threads", e.threads_url);
+    tambahTautan(dd, "Facebook", e.fb_url);
+    if (!dd.firstChild) dd.textContent = "Belum ada tautan.";
+    dl.appendChild(dd);
+    el("panelRincian").hidden = false;
+    el("panelRincian").scrollIntoView({behavior:"smooth", block:"nearest"});
+  }
+
+  function gambarKalender(){
+    var thn = bulanTampil.getFullYear(), bln = bulanTampil.getMonth();
+    teks(el("judulBulan"), NAMA_BULAN[bln] + " " + thn);
+    var tbody = el("isiKalender"); tbody.innerHTML = "";
+    var pertama = new Date(thn, bln, 1);
+    var geser = (pertama.getDay() + 6) % 7; // Senin = 0
+    var awal = new Date(thn, bln, 1 - geser);
+    var hariIni = kunciTanggal(new Date());
+    for (var mgg = 0; mgg < 6; mgg++){
+      var tr = buat("tr");
+      for (var hr = 0; hr < 7; hr++){
+        var tgl = new Date(awal.getFullYear(), awal.getMonth(), awal.getDate() + mgg*7 + hr);
+        var kunci = kunciTanggal(tgl);
+        var td = buat("td");
+        if (tgl.getMonth() !== bln) td.className = "luar-bulan";
+        if (kunci === hariIni) td.classList.add("hari-ini");
+        if (kunci === tanggalTerpilih) td.classList.add("terpilih");
+        td.appendChild(buat("span", "tgl", String(tgl.getDate())));
+        entriPada(kunci).forEach(function(e){
+          var p = buat("span", "penanda" + (e.status === "tayang" ? " tayang" : ""), e.topik || e.id);
+          p.title = (e.topik || "") + " — " + (e.status || "");
+          td.appendChild(p);
+        });
+        if (tgl.getMonth() === bln){
+          (function(kunciSel){
+            td.addEventListener("click", function(){
+              tanggalTerpilih = kunciSel;
+              gambarKalender();
+              var daftar = entriPada(kunciSel);
+              if (daftar.length) tampilRincian(daftar[0]);
+            });
+          })(kunci);
+        }
+        tr.appendChild(td);
+      }
+      tbody.appendChild(tr);
+    }
+  }
+
+  function urutDaftar(a, b){
+    var hariIni = kunciTanggal(new Date());
+    var aDepan = a.tanggal >= hariIni, bDepan = b.tanggal >= hariIni;
+    if (aDepan !== bDepan) return aDepan ? -1 : 1;
+    if (aDepan) return (a.tanggal + (a.jam||"")) < (b.tanggal + (b.jam||"")) ? -1 : 1;
+    return (a.tanggal + (a.jam||"")) > (b.tanggal + (b.jam||"")) ? -1 : 1;
+  }
+
+  function gambarDaftar(){
+    var fStatus = el("saringStatus").value;
+    var fKategori = el("saringKategori").value;
+    var tbody = el("isiDaftar"); tbody.innerHTML = "";
+    var tampil = semuaEntri.filter(function(e){
+      return (!fStatus || e.status === fStatus) && (!fKategori || e.kategori === fKategori);
+    }).slice().sort(urutDaftar);
+    tampil.forEach(function(e){
+      var tr = buat("tr");
+      tr.appendChild(buat("td", null, e.tanggal || ""));
+      tr.appendChild(buat("td", null, e.jam || ""));
+      tr.appendChild(buat("td", null, e.topik || ""));
+      tr.appendChild(buat("td", null, e.format || ""));
+      tr.appendChild(buat("td", null, e.kategori || ""));
+      var tdStatus = buat("td");
+      tdStatus.appendChild(buat("span", kelasChip(e.status), e.status || ""));
+      tr.appendChild(tdStatus);
+      tr.appendChild(wadahTautan(e));
+      tr.addEventListener("click", function(){ tampilRincian(e); });
+      tbody.appendChild(tr);
+    });
+    el("pesanKosong").hidden = tampil.length > 0;
+  }
+
+  function isiSaringan(){
+    var statusSet = {}, kategoriSet = {};
+    semuaEntri.forEach(function(e){
+      if (e.status) statusSet[e.status] = true;
+      if (e.kategori) kategoriSet[e.kategori] = true;
+    });
+    ["terjadwal","tayang"].forEach(function(s){ statusSet[s] = true; });
+    var selS = el("saringStatus");
+    Object.keys(statusSet).sort().forEach(function(s){
+      var o = buat("option", null, s); o.value = s; selS.appendChild(o);
+    });
+    var selK = el("saringKategori");
+    Object.keys(kategoriSet).sort().forEach(function(k){
+      var o = buat("option", null, k); o.value = k; selK.appendChild(o);
+    });
+  }
+
+  function mulai(data){
+    semuaEntri = Array.isArray(data) ? data : [];
+    teks(el("jmlTayang"), semuaEntri.filter(function(e){ return e.status === "tayang"; }).length);
+    teks(el("jmlTerjadwal"), semuaEntri.filter(function(e){ return e.status === "terjadwal"; }).length);
+    teks(el("jmlTotal"), semuaEntri.length);
+    el("pesanMuat").hidden = true;
+    el("panelKalender").hidden = false;
+    el("panelDaftar").hidden = false;
+    var kini = new Date();
+    bulanTampil = new Date(kini.getFullYear(), kini.getMonth(), 1);
+    isiSaringan();
+    gambarKalender();
+    gambarDaftar();
+  }
+
+  function gagal(err){
+    var p = el("pesanMuat");
+    p.innerHTML = "";
+    p.appendChild(document.createTextNode("Data kalender belum bisa dimuat. "));
+    var a = buat("a", null, "Buka berkas datanya langsung");
+    a.href = URL_DATA; a.target = "_blank"; a.rel = "noopener";
+    p.appendChild(a);
+    p.appendChild(document.createTextNode(" lalu coba muat ulang halaman ini."));
+  }
+
+  el("bulanSebelum").addEventListener("click", function(){
+    bulanTampil = new Date(bulanTampil.getFullYear(), bulanTampil.getMonth() - 1, 1);
+    gambarKalender();
+  });
+  el("bulanSesudah").addEventListener("click", function(){
+    bulanTampil = new Date(bulanTampil.getFullYear(), bulanTampil.getMonth() + 1, 1);
+    gambarKalender();
+  });
+  el("saringStatus").addEventListener("change", gambarDaftar);
+  el("saringKategori").addEventListener("change", gambarDaftar);
+  el("tombolTema").addEventListener("click", function(){
+    var akar = document.documentElement;
+    var kini = akar.getAttribute("data-tema");
+    if (!kini){
+      kini = window.matchMedia("(prefers-color-scheme: dark)").matches ? "gelap" : "terang";
+    }
+    akar.setAttribute("data-tema", kini === "gelap" ? "terang" : "gelap");
+  });
+
+  fetch(URL_DATA + "?t=" + Date.now(), {cache: "no-store"})
+    .then(function(r){ if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(mulai)
+    .catch(gagal);
+})();
+</script>
+</body>
+</html>
