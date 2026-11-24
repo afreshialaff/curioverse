@@ -17,6 +17,7 @@ name: Cek tayang Vivid (IG + Threads)
 #   Pocong:               tayang 20.00 WIB 2026-11-27 -> cek 20.30 dan 21.00 WIB
 #   Batu Menangis:        tayang 20.00 WIB 2026-11-28 -> cek 20.30 dan 21.00 WIB
 #   Banaspati:            tayang 20.00 WIB 2026-11-30 -> cek 20.30 dan 21.00 WIB
+#   Antu Banyu:           tayang 20.00 WIB 2026-12-01 -> cek 20.25 dan 20.55 WIB
 on:
   schedule:
     - cron: "15 15 11 11 *"
@@ -55,6 +56,8 @@ on:
     - cron: "55 13 29 11 *"   # cek ulang 20.55 WIB
     - cron: "30 13 30 11 *"   # cek 20.30 WIB Banaspati
     - cron: "0 14 30 11 *"    # cek ulang 21.00 WIB
+    - cron: "25 13 1 12 *"   # cek 20.25 WIB Antu Banyu
+    - cron: "55 13 1 12 *"   # cek ulang 20.55 WIB
   workflow_dispatch:
 permissions:
   contents: read
@@ -117,3 +120,4 @@ jobs:
           cek 2026-11-28 20:00 social/2026-11-28/1-vivid-batu-menangis jadwal-batu-menangis.yml
           cek 2026-11-29 20:00 social/2026-11-29/1-vivid-rawa-pening jadwal-rawa-pening.yml
           cek 2026-11-30 20:00 social/2026-11-30/1-vivid-banaspati jadwal-banaspati.yml
+          cek 2026-12-01 20:00 social/2026-12-01/1-vivid-antu-banyu jadwal-antu-banyu.yml
