@@ -10,12 +10,12 @@
   "hook": "Boston, 1919: tangki molase raksasa pecah dan sirup kental membanjiri jalan. Sekitar separuh korbannya tewas terjebak sirup yang makin lama makin lengket.",
   "path": "",
   "image": {
-    "src": "/assets/illustrations/banjir-molase-tangki-v1.svg",
-    "alt": "Diagram tangki molase silinder setinggi sekitar 15 meter dengan diameter sekitar 27 meter, di sampingnya kartu berisi 2,3 juta galon atau sekitar 8,7 juta liter, dan tinggi gelombang yang dilaporkan 15 sampai 40 kaki",
-    "caption": "Ukuran tangki milik Purity Distilling di Commercial Street, Boston, pada Januari 1919. Tinggi gelombangnya berbeda-beda antar sumber.",
-    "credit": "Curioverse",
-    "license": "Ilustrasi sendiri (Curioverse)",
-    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/banjir-molase-tangki-v1.svg"
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/GreatMolassesFlood_1919-Wreckage_under_the_elevated_tracks.jpg/1280px-GreatMolassesFlood_1919-Wreckage_under_the_elevated_tracks.jpg",
+    "alt": "Foto tahun 1919: puing-puing bangunan dan kendaraan hancur di bawah rel kereta layang Boston setelah Banjir Molase Besar",
+    "caption": "Puing di bawah rel kereta layang Boston sesudah Banjir Molase Besar, 1919 — foto dokumenter dari era bencana itu sendiri. Gelombang molase dari tangki yang jebol menewaskan 21 orang dan menghancurkan kawasan North End.",
+    "credit": "Fotografer tidak dikenal (1919)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:GreatMolassesFlood_1919-Wreckage_under_the_elevated_tracks.jpg"
   },
   "sections": [
     {
@@ -25,7 +25,15 @@
         "**Molase** itu sirup cokelat yang pekat. Isinya setara sekitar 8,7 juta liter, kira-kira 12.000 ton. Cairan sebanyak itu tumpah sekaligus ke jalan dan berubah jadi gelombang.",
         "==Gelombangnya menewaskan 21 orang dan melukai sekitar 150 orang lain, menurut History.com dan kantor berita AP.== Beberapa kuda ikut mati. Rangka rel kereta layang di dekatnya rusak, dan pecahan dinding tangki terlempar ke tiang-tiangnya.",
         "Kedengarannya absurd banget, jujurly. Tapi justru itu yang bikin penasaran: kenapa cairan yang terkenal lambat bisa sebegitu mematikan? Sebelum ke fisikanya, kita lihat dulu tangkinya."
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/banjir-molase-tangki-v1.svg",
+        "alt": "Diagram tangki molase silinder setinggi sekitar 15 meter dengan diameter sekitar 27 meter, di sampingnya kartu berisi 2,3 juta galon atau sekitar 8,7 juta liter, dan tinggi gelombang yang dilaporkan 15 sampai 40 kaki",
+        "caption": "Ukuran tangki milik Purity Distilling di Commercial Street, Boston, pada Januari 1919. Tinggi gelombangnya berbeda-beda antar sumber.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/banjir-molase-tangki-v1.svg"
+      }
     },
     {
       "h": "Tangki raksasa yang sudah lama bocor",

@@ -3,19 +3,19 @@
   "cat": "sejarah",
   "also": "finance",
   "date": "2026-10-12",
-  "updated": "2026-11-05",
+  "updated": "2026-11-25",
   "title": "Benarkah orang Belanda bangkrut massal gara-gara harga bunga tulip?",
   "dek": "Tahun 1637, harga kontrak umbi tulip di Belanda ambruk dalam seminggu. Sejarawan yang membongkar arsipnya nggak menemukan satu pun orang yang bangkrut karena itu.",
   "tags": "tulip mania tulipomania gelembung bubble belanda spekulasi harga bunga semper augustus goldgar mackay kontrak berjangka",
   "hook": "Satu umbi tulip Semper Augustus pernah terjual 10.000 gulden, saat tukang terampil Belanda cuma digaji 150-350 gulden setahun.",
   "path": "bursa",
   "image": {
-    "src": "/assets/illustrations/tulip-v1.svg",
-    "alt": "Ilustrasi bunga tulip bergaris merah-putih di samping grafik harga yang naik pelan, memuncak, lalu jatuh tajam pada Februari 1637",
-    "caption": "Tulip bergaris seperti api, varietas paling dicari di Belanda 1630-an, dan bentuk khas gelembung harga. Grafiknya ilustrasi pola, bukan data harga asli.",
-    "credit": "Curioverse",
-    "license": "Ilustrasi sendiri (Curioverse)",
-    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/tulip-v1.svg"
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Semper_Augustus_Tulip_17th_century.jpg",
+    "alt": "Gambar cat air bunga tulip Semper Augustus bergaris merah-putih dari sebelum tahun 1640, koleksi Norton Simon Museum",
+    "caption": "Semper Augustus, tulip bergaris merah-putih paling legendaris dari era tulipomania, digambar seniman Belanda tak dikenal sebelum 1640 — artefak visual asli dari masa yang dibahas artikel ini, kini di Norton Simon Museum.",
+    "credit": "Seniman Belanda tidak dikenal, Norton Simon Museum",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Semper_Augustus_Tulip_17th_century.jpg"
   },
   "sections": [
     {
@@ -26,7 +26,15 @@
         "Yang paling dicari adalah tulip yang kelopaknya bergaris-garis seperti nyala api. Belakangan diketahui garis itu muncul karena virus khusus tulip, *tulip breaking virus*. Virus ini juga membuat tanamannya menghasilkan lebih sedikit umbi anakan.",
         "Gambaran gampangnya seperti mangga yang sudah digigit codot. Orang sering bilang mangga bekas codot justru paling manis, padahal buahnya lebih cepat busuk. Gigitan codot itu virusnya, rasa manisnya itu garis api yang bikin orang kepincut, dan cepat busuknya itu umbi yang susah beranak. Bedanya, mangga codot manis karena matang duluan, sedangkan garis tulip murni efek penyakit.",
         "Varietas paling terkenal dari masa itu, Semper Augustus, sebenarnya juga tulip yang terinfeksi virus ini. Bunga yang susah diperbanyak tapi diinginkan banyak orang punya satu nasib yang bisa ditebak, yaitu harganya naik."
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/tulip-v1.svg",
+        "alt": "Ilustrasi bunga tulip bergaris merah-putih di samping grafik harga yang naik pelan, memuncak, lalu jatuh tajam pada Februari 1637",
+        "caption": "Tulip bergaris seperti api, varietas paling dicari di Belanda 1630-an, dan bentuk khas gelembung harga. Grafiknya ilustrasi pola, bukan data harga asli.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/tulip-v1.svg"
+      }
     },
     {
       "h": "Jual-beli janji tulip di kedai minum",
@@ -69,10 +77,25 @@
     }
   ],
   "sources": [
-    { "t": "Wikipedia: Tulip mania", "u": "https://en.wikipedia.org/wiki/Tulip_mania" },
-    { "t": "Smithsonian Magazine: There Never Was a Real Tulip Fever", "u": "https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/" },
-    { "t": "History.com: The Real Story Behind the 17th-Century 'Tulip Mania' Financial Crash", "u": "https://www.history.com/news/tulip-mania-financial-crash-holland" },
-    { "t": "Reviews in History (Institute of Historical Research): ulasan Tulipmania karya Anne Goldgar", "u": "https://reviews.history.ac.uk/review/666" },
-    { "t": "University of Chicago Press Blog: ulasan Tulipmania (Goldgar)", "u": "https://pressblog.uchicago.edu/2007/05/24/review-goldgar-tulipmania.html" }
+    {
+      "t": "Wikipedia: Tulip mania",
+      "u": "https://en.wikipedia.org/wiki/Tulip_mania"
+    },
+    {
+      "t": "Smithsonian Magazine: There Never Was a Real Tulip Fever",
+      "u": "https://www.smithsonianmag.com/history/there-never-was-real-tulip-fever-180964915/"
+    },
+    {
+      "t": "History.com: The Real Story Behind the 17th-Century 'Tulip Mania' Financial Crash",
+      "u": "https://www.history.com/news/tulip-mania-financial-crash-holland"
+    },
+    {
+      "t": "Reviews in History (Institute of Historical Research): ulasan Tulipmania karya Anne Goldgar",
+      "u": "https://reviews.history.ac.uk/review/666"
+    },
+    {
+      "t": "University of Chicago Press Blog: ulasan Tulipmania (Goldgar)",
+      "u": "https://pressblog.uchicago.edu/2007/05/24/review-goldgar-tulipmania.html"
+    }
   ]
 }

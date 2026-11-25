@@ -9,12 +9,12 @@
   "hook": "Pada 1948, 39 mahasiswa menilai hasil tes kepribadian mereka akurat 4,3 dari 5. Padahal semua orang menerima teks yang sama, disalin dari buku astrologi.",
   "path": "",
   "image": {
-    "src": "/assets/illustrations/barnum-effect-v1.svg",
-    "alt": "Ilustrasi tiga kartu hasil tes kepribadian yang isinya sama persis, dibagikan ke tiga orang yang berbeda",
-    "caption": "Satu profil, banyak penerima. Kalimatnya sama untuk semua orang, tapi tiap penerima merasa dibaca dengan tepat.",
-    "credit": "Curioverse",
-    "license": "Ilustrasi sendiri (Curioverse)",
-    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/barnum-effect-v1.svg"
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/P.T._Barnum_by_Brady_c1860.jpg/1280px-P.T._Barnum_by_Brady_c1860.jpg",
+    "alt": "Foto P.T. Barnum sekitar tahun 1860 oleh studio Mathew Brady: showman Amerika berjas gelap dengan dasi kupu-kupu",
+    "caption": "P.T. Barnum sekitar 1860, difoto studio Mathew Brady (koleksi National Portrait Gallery, Smithsonian). Nama showman inilah yang diabadikan psikologi menjadi Barnum effect — istilahnya dipopulerkan jauh setelah beliau wafat, dari reputasinya sebagai raja hiburan massa.",
+    "credit": "Mathew Brady Studio, National Portrait Gallery, Smithsonian Institution",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:P.T._Barnum_by_Brady_c1860.jpg"
   },
   "sections": [
     {
@@ -25,7 +25,15 @@
         "Itu bukan andai-andai. Tahun 1948, psikolog Bertram R. Forer memberi tes minat bernama *Diagnostic Interest Blank* kepada 39 mahasiswa di kelas pengantar psikologinya. Seminggu kemudian, tiap mahasiswa menerima profil kepribadian yang katanya hasil tes mereka sendiri. ==Semua profil itu identik, dan isinya sebagian besar diambil dari buku astrologi yang dijual di kios koran.==",
         "Mahasiswa diminta menilai seberapa tepat profil itu, dari 0 (buruk) sampai 5 (sempurna). Rata-ratanya sekitar 4,3. Sumber yang kami buka menulis angka sedikit berbeda, antara 4,26 dan 4,31, tapi intinya sama: mayoritas merasa dibaca dengan tepat. Setelah itu Forer mengungkap kebenarannya. Semua orang menerima analisis yang sama.",
         "Forer menerbitkan hasilnya pada 1949 di *Journal of Abnormal and Social Psychology*. Judulnya cukup nyelekit: \"*The fallacy of personal validation: A classroom demonstration of gullibility*\". Kira-kira artinya: sesat pikir merasa tes itu cocok dengan diri sendiri, sebuah peragaan di kelas tentang betapa gampangnya orang percaya."
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/barnum-effect-v1.svg",
+        "alt": "Ilustrasi tiga kartu hasil tes kepribadian yang isinya sama persis, dibagikan ke tiga orang yang berbeda",
+        "caption": "Satu profil, banyak penerima. Kalimatnya sama untuk semua orang, tapi tiap penerima merasa dibaca dengan tepat.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/barnum-effect-v1.svg"
+      }
     },
     {
       "h": "Kenapa namanya Barnum, bukan Forer",
@@ -132,5 +140,6 @@
       "t": "Wikipedia: Bertram Forer",
       "u": "https://en.wikipedia.org/wiki/Bertram_Forer"
     }
-  ]
+  ],
+  "updated": "2026-11-25"
 }

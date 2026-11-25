@@ -32,12 +32,12 @@
  },
  "tulip": {
   "hero": {
-   "src": "/assets/illustrations/tulip-v1.svg",
-   "alt": "Ilustrasi bunga tulip bergaris merah-putih di samping grafik harga yang naik pelan, memuncak, lalu jatuh tajam pada Februari 1637",
-   "caption": "Tulip bergaris seperti api, varietas paling dicari di Belanda 1630-an, dan bentuk khas gelembung harga. Grafiknya ilustrasi pola, bukan data harga asli.",
-   "credit": "Curioverse",
-   "license": "Ilustrasi sendiri (Curioverse)",
-   "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/tulip-v1.svg"
+   "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Semper_Augustus_Tulip_17th_century.jpg",
+   "alt": "Gambar cat air bunga tulip Semper Augustus bergaris merah-putih dari sebelum tahun 1640, koleksi Norton Simon Museum",
+   "caption": "Semper Augustus, tulip bergaris merah-putih paling legendaris dari era tulipomania, digambar seniman Belanda tak dikenal sebelum 1640 — artefak visual asli dari masa yang dibahas artikel ini, kini di Norton Simon Museum.",
+   "credit": "Seniman Belanda tidak dikenal, Norton Simon Museum",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Semper_Augustus_Tulip_17th_century.jpg"
   }
  },
  "majemuk": {
@@ -102,12 +102,12 @@
  },
  "tardigrade": {
   "hero": {
-   "src": "/assets/illustrations/tardigrade-v1.svg",
-   "alt": "Gambar kartun tardigrade berkaki delapan dan bentuk tun yang mengerut, dengan panah kering dan ketemu air di antaranya",
-   "caption": "Tardigrade aktif dan dalam mode tun. Bentuknya disederhanakan, bukan skala.",
-   "credit": "Curioverse",
-   "license": "Ilustrasi sendiri (Curioverse)",
-   "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/tardigrade-v1.svg"
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png/1280px-SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_%28white_background%29.png",
+   "alt": "Mikrograf elektron tardigrade Milnesium tardigradum dalam keadaan aktif: tubuh gemuk berkaki delapan dengan cakar, tampak dari samping",
+   "caption": "Beginilah rupa asli beruang air: mikrograf elektron (SEM) tardigrade Milnesium tardigradum dalam keadaan aktif, dari studi Schokraie dan rekan (2012) di jurnal PLoS ONE.",
+   "credit": "Schokraie et al. (2012), PLoS ONE",
+   "license": "CC BY",
+   "page": "https://commons.wikimedia.org/wiki/File:SEM_image_of_Milnesium_tardigradum_in_active_state_-_journal.pone.0045682.g001-2_(white_background).png"
   }
  },
  "voc": {

@@ -9,12 +9,12 @@
   "hook": "Tumpukan plastik terbesar di Pasifik beratnya sedikitnya 79.000 ton, tapi tidak terlihat dari satelit. Ke mana perginya semua plastik itu?",
   "path": "",
   "image": {
-    "src": "/assets/illustrations/great-pacific-garbage-patch-gyre-v1.svg",
-    "alt": "Peta skematis Samudra Pasifik Utara. Jepang di kiri, California di kanan, Hawaii di bawah tengah. Panah arus besar berputar searah jarum jam membentuk gyre, dan titik-titik plastik terkumpul di dua area: Western Garbage Patch dekat Jepang dan Eastern Garbage Patch di antara Hawaii dan California.",
-    "caption": "Skema Samudra Pasifik Utara, bukan peta berskala. Arus berputar raksasa (gyre) menggiring sampah ke bagian tengah yang tenang. Batas areanya terus bergeser mengikuti arus dan angin.",
-    "credit": "Curioverse",
-    "license": "Ilustrasi sendiri (Curioverse)",
-    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/great-pacific-garbage-patch-gyre-v1.svg"
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Beach_strewn_with_plastic_debris_(8080500982).jpg/1280px-Beach_strewn_with_plastic_debris_(8080500982).jpg",
+    "alt": "Foto pantai Pulau Laysan, Hawaii, yang dipenuhi sampah plastik terdampar: botol, jaring, dan pecahan plastik di antara pasir dan burung laut",
+    "caption": "Pantai Pulau Laysan, Hawaii, dipenuhi sampah plastik yang terdampar terbawa arus (foto Susan White, U.S. Fish and Wildlife Service, 2009). Great Pacific Garbage Patch sendiri tersebar keruh di tengah laut dan tidak bisa difoto seperti ini — foto ini menunjukkan salah satu tempat sampah laut itu akhirnya bermuara.",
+    "credit": "Susan White / U.S. Fish and Wildlife Service",
+    "license": "CC BY 2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Beach_strewn_with_plastic_debris_(8080500982).jpg"
   },
   "sections": [
     {
@@ -24,7 +24,15 @@
         "Tempat itu sebenarnya sudah diramal jauh sebelumnya. Makalah terbitan NOAA, badan kelautan dan atmosfer Amerika Serikat, pada 1988 sudah memperkirakan penumpukan itu. Dasarnya adalah pengukuran plastik di permukaan Pasifik Utara oleh beberapa peneliti yang berbasis di Alaska.",
         "Sejak itu namanya membesar jadi *Great Pacific Garbage Patch*, disingkat GPGP. Media pun berlomba membuat perbandingan. Blog NOAA Marine Debris Program tahun 2012 mengumpulkan beberapa di antaranya: \"seukuran Greenland\", \"dua kali Texas\", sampai \"benua plastik yang mungkin sedalam 30 meter\".",
         "Masalahnya, gambaran itu salah dari akarnya. Carey Morishige dari NOAA menulis di blog yang sama bahwa ==tidak ada pulau sampah yang terbentuk di tengah laut==. Area itu juga tidak bisa dilihat lewat foto satelit maupun foto udara. Jadi, kalau bukan pulau, sebenarnya apa yang mengapung di sana?"
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/great-pacific-garbage-patch-gyre-v1.svg",
+        "alt": "Peta skematis Samudra Pasifik Utara. Jepang di kiri, California di kanan, Hawaii di bawah tengah. Panah arus besar berputar searah jarum jam membentuk gyre, dan titik-titik plastik terkumpul di dua area: Western Garbage Patch dekat Jepang dan Eastern Garbage Patch di antara Hawaii dan California.",
+        "caption": "Skema Samudra Pasifik Utara, bukan peta berskala. Arus berputar raksasa (gyre) menggiring sampah ke bagian tengah yang tenang. Batas areanya terus bergeser mengikuti arus dan angin.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/great-pacific-garbage-patch-gyre-v1.svg"
+      }
     },
     {
       "h": "Gambaran yang lebih tepat: sup bertabur merica yang diaduk sendok raksasa",
