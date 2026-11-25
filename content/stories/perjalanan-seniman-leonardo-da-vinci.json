@@ -3,10 +3,11 @@
   "cat": "biografi",
   "also": "sejarah",
   "date": "2026-11-23",
+  "updated": "2026-11-25",
   "title": "Perjalanan Leonardo da Vinci: dari desa Vinci sampai istana raja Prancis",
   "dek": "Dia melamar kerja sebagai insinyur militer, meninggalkan separuh karyanya belum selesai, dan menyeberangi Alpen di usia 64 tahun. Ini perjalanan hidup Leonardo mengikuti kota-kota yang membentuknya.",
   "tags": "leonardo da vinci biografi perjalanan florence milan roma amboise clos luce last supper verrocchio sforza francois vasari renaisans",
-  "hook": "Wajah Leonardo tua berjanggut panjang yang kita kenal berasal dari satu gambar kapur merah, yang mungkin bukan wajah beliau sama sekali.",
+  "hook": "Wajah Leonardo tua berjanggut panjang yang kita kenal itu berasal dari satu gambar kapur merah. Dan gambar itu mungkin bukan wajah beliau sama sekali.",
   "path": "",
   "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg/1280px-Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg",
@@ -39,7 +40,7 @@
         "Leonardo lahir pada 15 April 1452 di Anchiano, dekat desa Vinci. Beliau anak di luar nikah seorang notaris Florence bernama Ser Piero dan perempuan desa bernama Caterina, dan dibesarkan di rumah kakeknya. Pendidikan formalnya sederhana, sekadar membaca, menulis, dan berhitung, dan beliau kelak menyebut dirinya orang tanpa universitas yang belajar dari pengamatan.",
         "Pada pertengahan 1460-an beliau magang di bengkel Andrea del Verrocchio di Florence. Bengkel itu bukan studio lukis biasa: di sana dikerjakan lukisan, patung, pekerjaan logam, sampai mekanik, dan pola pikir seniman yang merangkap insinyur itu terbentuk sejak masa magang ini.",
         "Pada 1472 beliau diterima di serikat pelukis Florence sebagai master pada usia 20 tahun. Gambar tertuanya yang bertahan, pemandangan Lembah Arno, bertanggal 5 Agustus 1473.",
-        "Pola yang akan menghantui seluruh kariernya sudah muncul sejak awal. Pada 1481 beliau menerima komisi besar *Adoration of the Magi* dari para biarawan, lalu meninggalkannya belum selesai ketika pindah ke Milan. Karya pertama yang ditinggal menggantung, dan bukan yang terakhir."
+        "Pola yang akan menghantui seluruh kariernya sudah muncul sejak awal. Pada 1481 beliau menerima komisi besar *Adoration of the Magi* dari para biarawan, lalu meninggalkannya belum selesai ketika pindah ke Milan. Itu karya pertama yang ditinggal menggantung, dan bukan yang terakhir."
       ]
     },
     {
@@ -62,7 +63,7 @@
       "img": {
         "src": "/assets/illustrations/leonardo-perjalanan-rute-v1.svg",
         "alt": "Diagram rute perjalanan Leonardo da Vinci: Vinci, Florence, Milan, keliling Italia, sampai Amboise di Prancis",
-        "caption": "Rute hidup Leonardo secara skematis. Sedikit seniman Renaisans yang berpindah kota dan majikan sesering beliau, dan setiap kota meninggalkan jenis karya yang berbeda.",
+        "caption": "Rute hidup Leonardo secara skematis. Tidak banyak seniman Renaisans yang berpindah kota dan berganti majikan sesering beliau. Dan setiap kota yang beliau singgahi menghasilkan jenis karya yang berbeda.",
         "credit": "Curioverse",
         "license": "Ilustrasi sendiri (Curioverse)",
         "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/leonardo-perjalanan-rute-v1.svg"
@@ -72,7 +73,7 @@
       "h": "Florence lagi: duel dinding dengan Michelangelo, dan satu potret dimulai",
       "p": [
         "Kembali ke Florence, pada 1503 Leonardo ditugasi melukis *Battle of Anghiari* di dinding balai dewan kota. Di dinding seberangnya, Michelangelo yang jauh lebih muda ditugasi adegan pertempuran tandingan. Duel dua raksasa ini berakhir antiklimaks: lukisan Leonardo rusak oleh teknik eksperimentalnya sendiri, tidak pernah selesai, dan akhirnya hilang, bertahan hanya lewat studi dan salinan seniman lain.",
-        "Di kota yang sama, sekitar tahun yang sama, beliau memulai satu potret perempuan Florence yang akan beliau bawa ke mana-mana dan sempurnakan selama sisa hidupnya. Kisah potret itu sendiri sudah kami ceritakan panjang lebar di artikel Mona Lisa, jadi di sini cukup dicatat sebagai penanda: Florence kedua adalah titik beliau mulai membawa pulang pekerjaannya, bukan menyerahkannya.",
+        "Di kota yang sama, sekitar tahun yang sama, beliau memulai potret seorang perempuan Florence. Potret itu beliau bawa ke mana-mana dan beliau sempurnakan selama sisa hidupnya. Kisah potret itu sendiri sudah kami ceritakan panjang lebar di artikel Mona Lisa, jadi di sini cukup dicatat sebagai penanda: Florence kedua adalah titik beliau mulai membawa pulang pekerjaannya, bukan menyerahkannya.",
         "Periode ini juga masa studi anatomi beliau makin sistematis lewat pembedahan mayat di beberapa kota. Gambar otot, tengkorak, dan janin dalam rahim yang beliau hasilkan jauh melampaui zamannya, tapi tidak pernah diterbitkan, sehingga pengaruhnya ke dunia kedokteran waktu itu nyaris nol. Dunia baru menghargainya berabad-abad kemudian."
       ]
     },
@@ -97,8 +98,8 @@
       "h": "Warisan terbesarnya bukan lukisan, melainkan ribuan halaman yang tidak diterbitkan",
       "p": [
         "Angkanya mengejutkan: hanya sekitar 20 lukisan Leonardo yang bertahan sampai hari ini, dan banyak di antaranya tidak selesai. Tapi beliau meninggalkan hampir 2.500 gambar menurut catatan Metropolitan Museum, dan ribuan halaman catatan yang tidak pernah beliau terbitkan semasa hidup.",
-        "Catatan itu beliau tulis dengan tulisan cermin, kanan ke kiri. Teori populer menyebutnya kode rahasia supaya idenya tidak dicuri, tapi penjelasan yang lebih diterima sejarawan jauh lebih sederhana: beliau kidal, dan bagi orang kidal menulis kanan ke kiri itu alami, nyaman, dan tintanya tidak mudah luntur terkena tangan yang bergerak. Beliau tidak pernah menyatakan niat merahasiakan apa pun.",
-        "Bayangkan notebook itu seperti hard drive eksternal untuk otaknya: isinya anatomi, air, terbang, mesin, tumbuhan, dan sketsa lukisan, semua bercampur tanpa indeks. Bedanya, hard drive bisa dicari dengan kata kunci, sedangkan warisan Leonardo tersebar, dipotong-potong, dan dibukukan ulang oleh orang lain setelah beliau wafat, sampai sebagian albumnya dibeli Raja Charles II dan kini hampir 600 gambar beliau disimpan Royal Collection Trust di Inggris.",
+        "Catatan itu beliau tulis dengan tulisan cermin, kanan ke kiri. Teori populer menyebutnya kode rahasia supaya idenya tidak dicuri, tapi penjelasan yang lebih diterima sejarawan jauh lebih sederhana. Beliau kidal, dan bagi orang kidal, menulis kanan ke kiri itu alami dan nyaman. Tintanya juga tidak mudah luntur terkena tangan yang bergerak. Beliau tidak pernah menyatakan niat merahasiakan apa pun.",
+        "Bayangkan notebook itu seperti hard drive eksternal untuk otaknya: isinya anatomi, air, terbang, mesin, tumbuhan, dan sketsa lukisan, semua bercampur tanpa indeks. Bedanya, hard drive bisa dicari dengan kata kunci. Warisan Leonardo justru tersebar, dipotong-potong, dan dibukukan ulang oleh orang lain setelah beliau wafat. Sebagian albumnya dibeli Raja Charles II, dan kini hampir 600 gambar beliau disimpan Royal Collection Trust di Inggris.",
         "Jadi perjalanan terakhir Leonardo justru terjadi setelah kematiannya: lembaran-lembarannya berkelana dari Amboise ke Milan, lalu menyebar ke perpustakaan dan museum di seluruh Eropa, dan dunia membutuhkan waktu berabad-abad untuk membaca apa yang beliau kerjakan sendirian."
       ]
     },
@@ -118,7 +119,7 @@
       "p": [
         "Kalau perjalanan ini diringkas, polanya bukan garis naik yang mulus. Leonardo berpindah kota setidaknya tujuh kali, mengganti patron dari penguasa Milan ke penakluk Romagna sampai raja Prancis, dan di setiap pemberhentian meninggalkan proyek raksasa yang tidak selesai: altar Florence, kuda perunggu Milan, duel dinding dengan Michelangelo, monumen berkuda kedua.",
         "National Gallery London merangkumnya tanpa basa-basi: eksperimen dan proyek sains beliau mengganggu komisi seninya, dan beliau memang terkenal tidak menyelesaikan apa pun. Di zaman portofolio dan tenggat, reputasi seperti itu terdengar seperti vonis gagal. Buat siapa pun yang hidup dikejar tenggat, kalimat itu relate sekaligus jadi pengingat bahwa tenggat bukan satu-satunya pengukur karya.",
-        "Tapi sejarah menilainya terbalik. Kota-kota yang beliau singgahi memberinya masalah yang berbeda-beda, dan masalah itulah yang membuat satu orang yang sama bisa melukis *The Last Supper*, menggambar peta satelit sebelum satelit ada, dan membedah tubuh manusia demi memahami senyum. Jujurly, Leonardo bukan seniman yang kebetulan pintar banyak hal, beliau adalah rasa penasaran yang kebetulan pandai melukis.",
+        "Tapi sejarah menilainya terbalik. Setiap kota yang beliau singgahi memberi beliau masalah yang berbeda-beda. Dan masalah-masalah itulah yang membuat satu orang yang sama bisa melukis *The Last Supper*, menggambar peta satelit sebelum satelit ada, dan membedah tubuh manusia demi memahami senyum. Jujurly, Leonardo bukan seniman yang kebetulan pintar banyak hal, beliau adalah rasa penasaran yang kebetulan pandai melukis.",
         "Dan mungkin itu kenapa wajah kapur merah tadi tidak terlalu penting benar atau salahnya. Wajahnya boleh diperdebatkan, bestie, tapi rute perjalanannya tertulis jelas di kontrak, surat lamaran, wasiat, dan dinding-dinding yang beliau tinggalkan di separuh Italia dan Prancis."
       ]
     }
