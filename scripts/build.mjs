@@ -310,17 +310,8 @@ function home(){
   <div class="hero-sky" aria-hidden="true">
     <svg class="sky-svg" viewBox="0 0 1440 820" preserveAspectRatio="xMidYMin slice" focusable="false">
       <g class="sky-stars">${STARS}${SPARKS}</g>
-      <g class="sky-orbits">
-        <ellipse cx="1130" cy="215" rx="215" ry="86" transform="rotate(-16 1130 215)"/>
-        <ellipse class="dash" cx="1130" cy="215" rx="335" ry="136" transform="rotate(-16 1130 215)"/>
-        <ellipse cx="1130" cy="215" rx="478" ry="196" transform="rotate(-16 1130 215)"/>
-      </g>
-      <g class="sky-spin"><circle class="sky-planet" cx="671" cy="347" r="7.5"/><circle class="sky-planet p2" cx="1258" cy="64" r="4.5"/></g>
-      <g class="sky-moon">
-        <circle class="moon-body" cx="1130" cy="215" r="54"/>
-        <circle class="moon-cr" cx="1112" cy="196" r="9"/><circle class="moon-cr" cx="1148" cy="232" r="12"/><circle class="moon-cr" cx="1122" cy="240" r="5.5"/><circle class="moon-cr" cx="1152" cy="192" r="4.5"/>
-      </g>
     </svg>
+    <canvas class="sky-3d" width="640" height="640"></canvas>
   </div>
   <div class="wrap">
     <div class="hero-grid">

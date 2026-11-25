@@ -116,6 +116,103 @@ if (hero && !reduced) {
   }
 }
 
+/* ---------- hero 3d: a wireframe globe with a moon in real 3D orbit (canvas, no library) ----------
+ * Light enough for phones: capped pixel ratio, wireframe maths only,
+ * rendering pauses while the hero is off screen, one still frame for reduced motion. */
+const cv3d = $(".sky-3d");
+if (cv3d && cv3d.getContext) {
+  const ctx = cv3d.getContext("2d");
+  const DPR = Math.min(devicePixelRatio || 1, 1.75);
+  let W = 0, H = 0, running = false, frame = 0;
+  let ink = "#0B1450", gold = "#B80B17", blue = "#1F56A8";
+  const readColors = () => {
+    const cs = getComputedStyle(document.documentElement);
+    ink = cs.getPropertyValue("--ink").trim() || ink;
+    gold = cs.getPropertyValue("--gold").trim() || gold;
+    blue = cs.getPropertyValue("--blue").trim() || blue;
+  };
+  const sizeCanvas = () => {
+    const r = cv3d.getBoundingClientRect();
+    W = r.width; H = r.height;
+    cv3d.width = Math.max(2, Math.round(W * DPR));
+    cv3d.height = Math.max(2, Math.round(H * DPR));
+  };
+  readColors(); sizeCanvas();
+  addEventListener("resize", () => { sizeCanvas(); if (reduced) draw(1400); });
+  const hpOf = () => hero ? parseFloat(hero.style.getPropertyValue("--hp")) || 0 : 0;
+  const myOf = () => hero ? parseFloat(hero.style.getPropertyValue("--my")) || 0 : 0;
+  function draw(now) {
+    if (!W) return;
+    if (++frame % 120 === 0) readColors();
+    const t = now / 1000;
+    const cx = W / 2, cy = H / 2, R = Math.min(W, H) * .295;
+    const rot = t * .14 + hpOf() * 1.4;
+    const tilt = .46 + myOf() * .1, cT = Math.cos(tilt), sT = Math.sin(tilt);
+    const proj = (x, y, z) => [cx + x * R, cy + (y * cT - z * sT) * R, y * sT + z * cT];
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    ctx.clearRect(0, 0, W, H);
+    ctx.lineWidth = 1.1;
+    /* moon orbit path + moon position (inclined orbit, radius 1.52R) */
+    const ma = t * .38, mx = Math.cos(ma) * 1.52, mz = Math.sin(ma) * 1.52, my = Math.sin(ma) * .38;
+    const moon = proj(mx, my, mz);
+    ctx.beginPath();
+    for (let i = 0; i <= 72; i++) {
+      const a = i / 72 * Math.PI * 2, q = proj(Math.cos(a) * 1.52, Math.sin(a) * .38, Math.sin(a) * 1.52);
+      i ? ctx.lineTo(q[0], q[1]) : ctx.moveTo(q[0], q[1]);
+    }
+    ctx.strokeStyle = ink; ctx.globalAlpha = .22; ctx.setLineDash([2.5, 6]); ctx.stroke(); ctx.setLineDash([]);
+    const paintMoon = () => {
+      ctx.beginPath(); ctx.arc(moon[0], moon[1], R * .155, 0, Math.PI * 2);
+      ctx.fillStyle = gold; ctx.globalAlpha = 1; ctx.fill();
+      ctx.beginPath(); ctx.arc(moon[0] - R * .05, moon[1] - R * .045, R * .032, 0, Math.PI * 2);
+      ctx.arc(moon[0] + R * .055, moon[1] + R * .05, R * .042, 0, Math.PI * 2);
+      ctx.fillStyle = "rgba(11,20,80,.18)"; ctx.fill();
+      const b = proj(-Math.cos(ma) * 1.52, -Math.sin(ma) * .38, -Math.sin(ma) * 1.52);
+      ctx.beginPath(); ctx.arc(b[0], b[1], R * .05, 0, Math.PI * 2);
+      ctx.fillStyle = blue; ctx.fill();
+    };
+    if (moon[2] < 0) paintMoon();
+    /* soft disc so the far side reads as "behind" */
+    ctx.beginPath(); ctx.arc(cx, cy, R, 0, Math.PI * 2);
+    ctx.fillStyle = blue; ctx.globalAlpha = .07; ctx.fill();
+    /* wireframe: meridians + parallels, far side faint */
+    const wire = (pts, equator) => {
+      for (let i = 1; i < pts.length; i++) {
+        const a = pts[i - 1], b = pts[i], front = (a[2] + b[2]) / 2 > 0;
+        ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]);
+        ctx.strokeStyle = ink; ctx.globalAlpha = front ? (equator ? .62 : .48) : .10; ctx.stroke();
+      }
+    };
+    for (let m = 0; m < 12; m++) {
+      const lon = m / 12 * Math.PI * 2 + rot, pts = [];
+      for (let la = -84; la <= 84; la += 6) {
+        const phi = la * Math.PI / 180;
+        pts.push(proj(Math.cos(phi) * Math.sin(lon), Math.sin(phi), Math.cos(phi) * Math.cos(lon)));
+      }
+      wire(pts, false);
+    }
+    for (let la = -60; la <= 60; la += 20) {
+      const phi = la * Math.PI / 180, pts = [];
+      for (let lo = 0; lo <= 360; lo += 6) {
+        const lam = lo * Math.PI / 180 + rot;
+        pts.push(proj(Math.cos(phi) * Math.sin(lam), Math.sin(phi), Math.cos(phi) * Math.cos(lam)));
+      }
+      wire(pts, la === 0);
+    }
+    ctx.globalAlpha = 1;
+    if (moon[2] >= 0) paintMoon();
+  }
+  if (reduced) draw(1400);
+  else {
+    const loop = now => { if (!running) return; draw(now); requestAnimationFrame(loop); };
+    const io3 = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting && !running) { running = true; requestAnimationFrame(loop); }
+      else if (!e.isIntersecting) running = false;
+    }), { threshold: .02 });
+    io3.observe(cv3d);
+  }
+}
+
 /* ---------- play the little illustrations once they are in view ---------- */
 const plays = $$("[data-play]");
 if (plays.length) {

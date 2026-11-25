@@ -721,15 +721,6 @@ input[type="range"]::-moz-range-thumb{width:18px; height:18px; border-radius:50%
 .sky-stars{transform:translateY(calc(var(--hp, 0) * 36px))}
 .sky-stars circle{fill:var(--ink); opacity:.45; animation:a-twinkle 4.8s ease-in-out infinite}
 .sky-stars use{fill:var(--gold); animation:a-twinkle 6.5s ease-in-out infinite}
-.sky-orbits{transform:rotate(calc(var(--hp, 0) * 10deg)); transform-box:view-box; transform-origin:1130px 215px}
-.sky-orbits ellipse{fill:none; stroke:var(--line-2); stroke-width:1.2}
-.sky-orbits .dash{stroke-dasharray:2.5 7}
-.sky-spin{transform-box:view-box; transform-origin:1130px 215px; animation:a-orbit 90s linear infinite}
-.sky-planet{fill:var(--blue)}
-.sky-planet.p2{fill:var(--gold)}
-.sky-moon{transform:translate(calc(var(--hp, 0) * -54px), calc(var(--hp, 0) * -118px))}
-.moon-body{fill:var(--gold)}
-.moon-cr{fill:rgba(11,20,80,.16)}
 .hero-grid{transform:translateY(calc(var(--hp, 0) * 30px))}
 .sky-chip{position:absolute; z-index:3; transform:translate3d(calc(var(--mx, 0) * 9px * var(--d, 1)), calc(var(--my, 0) * 7px * var(--d, 1) + var(--hp, 0) * -34px * var(--d, 1)), 0)}
 .sky-chip-in{display:flex; align-items:center; gap:8px; padding:9px 15px; border-radius:999px; background:var(--card); border:1px solid var(--line-2); box-shadow:var(--lift); font-size:14.5px; white-space:nowrap; animation:chip-float 6s ease-in-out infinite alternate; transition:box-shadow .4s var(--ease)}
@@ -751,6 +742,9 @@ input[type="range"]::-moz-range-thumb{width:18px; height:18px; border-radius:50%
 @media (max-height:560px){ .scroll-cue{display:none} }
 @media (prefers-reduced-motion: reduce){
   .hero-sky{animation:none}
-  .sky-stars circle,.sky-stars use,.sky-spin,.sky-chip-in,.scroll-cue i::after{animation:none!important}
-  .sky-stars,.sky-orbits,.sky-moon,.hero-grid,.sky-chip{transform:none!important}
+  .sky-stars circle,.sky-stars use,.sky-chip-in,.scroll-cue i::after{animation:none!important}
+  .sky-stars,.hero-grid,.sky-chip,.sky-3d{transform:none!important}
 }
+
+.sky-3d{position:absolute; top:-52px; right:-24px; width:min(600px, 58vw); aspect-ratio:1/1; transform:translateY(calc(var(--hp, 0) * -70px))}
+@media (max-width:979px){ .sky-3d{width:320px; top:-70px; right:-104px; opacity:.55} }
