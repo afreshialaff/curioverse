@@ -3,6 +3,7 @@
   "cat": "sejarah",
   "also": "science",
   "date": "2026-11-06",
+  "updated": "2026-11-25",
   "title": "Edison berperang melawan listrik AC Tesla. Yang menang masih mengalir di stopkontak kita",
   "dek": "Tahun 1880-an, Edison menjagokan listrik DC, sedangkan Tesla dan Westinghouse membawa AC. Pertarungannya sampai melibatkan hewan yang disetrum dan kursi listrik pertama. Pemenangnya masih mengalir di stopkontak kita.",
   "tags": "perang arus war of the currents nikola tesla thomas alva edison george westinghouse listrik ac dc arus bolak-balik arus searah trafo transformator kursi listrik kemmler niagara pearl street sejarah sains",
@@ -114,20 +115,50 @@
         "Di New York, Con Edison, perusahaan listrik yang namanya masih membawa nama Edison, punya 4.600 pelanggan DC pada 1998. Layanan DC terakhirnya baru dimatikan pada 14 November 2007, dan pelanggan yang tersisa diberi alat pengubah AC ke DC.",
         "Sekarang DC malah balik jadi penting. Komputer, lampu LED, panel surya, dan mobil listrik bekerja dengan DC. Laptop yang mungkin sedang kamu pakai buat baca artikel ini contohnya, literally anak cucu sistem Edison.",
         "Masalah lama DC juga sudah terpecahkan. Menurut Departemen Energi AS, tegangan DC kini bisa dinaikkan dan diturunkan, dan perusahaan listrik memakai HVDC (*high-voltage direct current*, arus searah bertegangan tinggi) untuk mengirim listrik jarak jauh dengan kerugian lebih kecil. Jujurly, ini ending yang nggak disangka buat perang yang dulu dianggap sudah selesai.",
-        "Perang arus kadang dikira duel siapa yang paling jenius. Tetapi yang menentukan rupanya hal yang lebih sederhana, yaitu listrik siapa yang paling sedikit terbuang di jalan. Lalu, lebih dari seabad kemudian, keduanya tetap hidup di rumah kita, satu di stopkontak, satu lagi di dalam laptop yang kamu pegang..."
+        "Perang arus kadang dikira duel siapa yang paling jenius. Tetapi penentunya ternyata lebih sederhana: listrik siapa yang paling sedikit terbuang di jalan. Lalu, lebih dari seabad kemudian, keduanya tetap hidup di rumah kita, satu di stopkontak, satu lagi di dalam laptop yang kamu pegang..."
       ]
     }
   ],
   "sources": [
-    { "t": "U.S. Department of Energy: The War of the Currents: AC vs. DC Power", "u": "https://www.energy.gov/articles/war-currents-ac-vs-dc-power" },
-    { "t": "Engineering and Technology History Wiki (IEEE): Milestones: Pearl Street Station, 1882", "u": "https://ethw.org/Milestones:Pearl_Street_Station,_1882" },
-    { "t": "HeraldNet (AP): New York finally pulls plug on DC electricity", "u": "https://www.heraldnet.com/news/new-york-finally-pulls-plug-on-dc-electricity" },
-    { "t": "Smithsonian Magazine: The Rise and Fall of Nikola Tesla and his Tower", "u": "https://www.smithsonianmag.com/history/the-rise-and-fall-of-nikola-tesla-and-his-tower-11074324/" },
-    { "t": "TIME: The execution of William Kemmler, the first man to die in the electric chair, August 6, 1890", "u": "https://content.time.com/time/specials/packages/article/0,28804,1999143_2002893,00.html" },
-    { "t": "OpenStax University Physics Volume 2 (UCF Pressbooks): Alternating-Current Circuits, 15.6 Transformers", "u": "https://pressbooks.online.ucf.edu/osuniversityphysics2/?p=1870" },
-    { "t": "Wikipedia: War of the currents", "u": "https://en.wikipedia.org/wiki/War_of_the_currents" },
-    { "t": "Wikipedia: Nikola Tesla", "u": "https://en.wikipedia.org/wiki/Nikola_Tesla" },
-    { "t": "Wikipedia: Topsy (elephant)", "u": "https://en.wikipedia.org/wiki/Topsy_(elephant)" },
-    { "t": "Wikipedia: William Kemmler", "u": "https://en.wikipedia.org/wiki/William_Kemmler" }
+    {
+      "t": "U.S. Department of Energy: The War of the Currents: AC vs. DC Power",
+      "u": "https://www.energy.gov/articles/war-currents-ac-vs-dc-power"
+    },
+    {
+      "t": "Engineering and Technology History Wiki (IEEE): Milestones: Pearl Street Station, 1882",
+      "u": "https://ethw.org/Milestones:Pearl_Street_Station,_1882"
+    },
+    {
+      "t": "HeraldNet (AP): New York finally pulls plug on DC electricity",
+      "u": "https://www.heraldnet.com/news/new-york-finally-pulls-plug-on-dc-electricity"
+    },
+    {
+      "t": "Smithsonian Magazine: The Rise and Fall of Nikola Tesla and his Tower",
+      "u": "https://www.smithsonianmag.com/history/the-rise-and-fall-of-nikola-tesla-and-his-tower-11074324/"
+    },
+    {
+      "t": "TIME: The execution of William Kemmler, the first man to die in the electric chair, August 6, 1890",
+      "u": "https://content.time.com/time/specials/packages/article/0,28804,1999143_2002893,00.html"
+    },
+    {
+      "t": "OpenStax University Physics Volume 2 (UCF Pressbooks): Alternating-Current Circuits, 15.6 Transformers",
+      "u": "https://pressbooks.online.ucf.edu/osuniversityphysics2/?p=1870"
+    },
+    {
+      "t": "Wikipedia: War of the currents",
+      "u": "https://en.wikipedia.org/wiki/War_of_the_currents"
+    },
+    {
+      "t": "Wikipedia: Nikola Tesla",
+      "u": "https://en.wikipedia.org/wiki/Nikola_Tesla"
+    },
+    {
+      "t": "Wikipedia: Topsy (elephant)",
+      "u": "https://en.wikipedia.org/wiki/Topsy_(elephant)"
+    },
+    {
+      "t": "Wikipedia: William Kemmler",
+      "u": "https://en.wikipedia.org/wiki/William_Kemmler"
+    }
   ]
 }

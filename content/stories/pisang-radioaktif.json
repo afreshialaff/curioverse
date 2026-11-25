@@ -3,6 +3,7 @@
   "cat": "science",
   "also": "healthy",
   "date": "2026-10-21",
+  "updated": "2026-11-25",
   "title": "Benarkah pisang itu radioaktif, dan aman dimakan setiap hari?",
   "dek": "Radiasi dari satu pisang cuma sekitar 0,1 mikrosievert, sekecil itu sampai ahli radiasi memakai \"satu pisang\" sebagai ukuran pembanding lucu-lucuan. Dosisnya pun tidak menumpuk di tubuh, berapa pun pisang yang kamu makan.",
   "tags": "pisang radioaktif banana equivalent dose bed kalium kalium-40 k-40 potassium radiasi alami dosis radiasi sievert mikrosievert millirem rontgen kacang brazil radiasi latar makanan",
@@ -29,7 +30,7 @@
     {
       "h": "Menghitung dosis satu pisang",
       "p": [
-        "Para ahli punya jawabannya, lengkap dengan hitungan. Situs proteksi radiasi Ionactive dari Inggris menulis bahwa satu pisang rata-rata mengandung sekitar 15 becquerel K-40. **Becquerel** adalah satuan aktivitas radioaktif. Gampangnya, becquerel itu jumlah tetesan keran per detik, sedangkan sievert seberapa besar dampak tetesan itu ke tubuhmu. Bedanya, tetesannya berupa peluruhan atom. Lalu ada angka pengali dosis (koefisien dosis) dari ICRP 119, dokumen Komisi Internasional Perlindungan Radiologi: 6,2 × 10⁻⁹ sievert untuk setiap becquerel yang tertelan.",
+        "Para ahli punya jawabannya, lengkap dengan hitungan. Situs proteksi radiasi Ionactive dari Inggris menulis bahwa satu pisang rata-rata mengandung sekitar 15 becquerel K-40. **Becquerel** adalah satuan aktivitas radioaktif. Gampangnya, becquerel itu jumlah tetesan keran per detik, sedangkan sievert adalah seberapa besar dampak tetesan itu ke tubuhmu. Bedanya, tetesannya berupa peluruhan atom. Lalu ada angka pengali dosis (koefisien dosis) dari ICRP 119, dokumen Komisi Internasional Perlindungan Radiologi: 6,2 × 10⁻⁹ sievert untuk setiap becquerel yang tertelan.",
         "==Kalikan keduanya dan hasilnya sekitar 0,093 mikrosievert, dibulatkan jadi 0,1 mikrosievert (μSv).== EPA memakai angka yang sama dalam satuan lama Amerika: 0,01 millirem, atau 0,1 mikrosievert. Sievert adalah satuan yang mengukur potensi efek radiasi pada tubuh, dan satu mikrosievert itu sepersejuta sievert.",
         "Angka 0,1 μSv ini cukup terkenal sampai punya nama sendiri: *banana equivalent dose* (BED), dosis setara pisang. Halaman pendidikan proteksi radiasi University of Groningen di Belanda menyebutnya \"*mock unit*\", yaitu satuan main-main, bukan satuan resmi. Definisinya: 1 BED ≈ 0,1 μSv, dosis efektif dari rata-rata K-40 dalam satu pisang.",
         "Satuan ini juga pernah dipakai untuk meyakinkan publik. Menurut Ionactive, satu kali pemindaian keamanan *x-ray backscatter* memberi dosis efektif paling banyak 0,1 μSv, alias paling banyak satu pisang, dan beberapa penyedia peralatan keamanan memakai angka itu untuk menyebut pemindaiannya aman. Uni Eropa tetap melarang alat itu di Eropa, meski risikonya tampak sangat kecil. Jadi dosis \"setara pisang\" membantu membayangkan besarnya angka, tapi tidak otomatis menjawab apakah sesuatu boleh dipakai. Lalu satu pisang itu kecil dibanding apa?"
