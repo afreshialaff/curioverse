@@ -10,12 +10,12 @@
   "hook": "Kursi listrik pertama pada Agustus 1890 sengaja memakai listrik AC Westinghouse. Kubu Edison ingin listrik milik saingannya itu dicap mematikan.",
   "path": "",
   "image": {
-    "src": "/assets/illustrations/perang-arus-linimasa-v1.svg",
-    "alt": "Linimasa perang arus. 1882: pembangkit DC Edison di Pearl Street, Manhattan. 1884: Tesla tiba di New York. 1888: paten motor AC Tesla dan lisensi Westinghouse. 1890: kursi listrik pertama memakai AC. 1892: Edison General Electric merger jadi General Electric. 1893: Pameran Chicago diterangi AC. 1896: Buffalo menyala oleh listrik AC dari Niagara. 2007: Con Edison mematikan layanan DC terakhir di New York",
-    "caption": "Perseteruan AC dan DC berlangsung panas di akhir 1880-an, tapi sisa-sisa listrik DC Edison di New York baru benar-benar dimatikan pada 2007.",
-    "credit": "Curioverse",
-    "license": "Ilustrasi sendiri (Curioverse)",
-    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/perang-arus-linimasa-v1.svg"
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg",
+    "alt": "Foto Nikola Tesla sekitar tahun 1890 oleh Napoleon Sarony: Tesla muda berjas dengan kumis rapi menatap kamera",
+    "caption": "Nikola Tesla sekitar 1890, difoto Napoleon Sarony — tepat di masa perang arus melawan kubu Edison. Foto ini jadi potret Tesla yang paling banyak direproduksi sampai hari ini.",
+    "credit": "Napoleon Sarony",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg"
   },
   "sections": [
     {
@@ -25,7 +25,15 @@
         "Tanggal 4 September 1882, pembangkit di Pearl Street, Manhattan, mulai menjual listrik ke rumah dan kantor di sekitarnya. Pembangkit itu milik perusahaan Thomas Alva Edison.",
         "Pelanggan hari pertamanya sedikit sekali, dan sumbernya beda-beda soal jumlahnya. Kantor berita AP menyebut 59 pelanggan, sedangkan catatan sejarah IEEE menyebut sekitar 85. Wilayah layanannya cuma 0,65 kilometer persegi, kira-kira seluas 90 lapangan sepak bola.",
         "Listriknya jenis **DC** (*direct current*, arus searah) dengan tegangan 110 volt. Dalam setahun, pelanggannya naik jadi 513. Kedengarannya awal yang manis, tapi sistem ini punya satu kelemahan yang nanti bikin Edison berhadapan dengan Nikola Tesla dan George Westinghouse."
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/perang-arus-linimasa-v1.svg",
+        "alt": "Linimasa perang arus. 1882: pembangkit DC Edison di Pearl Street, Manhattan. 1884: Tesla tiba di New York. 1888: paten motor AC Tesla dan lisensi Westinghouse. 1890: kursi listrik pertama memakai AC. 1892: Edison General Electric merger jadi General Electric. 1893: Pameran Chicago diterangi AC. 1896: Buffalo menyala oleh listrik AC dari Niagara. 2007: Con Edison mematikan layanan DC terakhir di New York",
+        "caption": "Perseteruan AC dan DC berlangsung panas di akhir 1880-an, tapi sisa-sisa listrik DC Edison di New York baru benar-benar dimatikan pada 2007.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/perang-arus-linimasa-v1.svg"
+      }
     },
     {
       "h": "Kenapa listrik DC Edison nggak bisa dikirim jauh?",

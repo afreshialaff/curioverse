@@ -1,193 +1,193 @@
 {
-  "_catatan": "Gambar untuk cerita lama di stories.mjs. Cerita baru (content/stories/*.json) menaruh gambarnya di field image/img sendiri. Format: { id: { hero:{src,alt,credit,license,page}, sections:{ \"<index>\": {...} } } }",
-  "langit": {
-    "hero": {
-      "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/44000/44267/ISS023-E-57948.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-      "alt": "Matahari terbenam dilihat dari luar angkasa: lapisan atmosfer Bumi tampak tipis melengkung, oranye dan kuning di bagian bawah, lalu memudar jadi biru ke atas",
-      "caption": "Sunset di atas Samudra Hindia, difoto kru Stasiun Luar Angkasa Internasional (ISS) pada 25 Mei 2010. Lapisan bawah oranye, lapisan atas biru.",
-      "credit": "NASA Johnson Space Center, ISS Crew Earth Observations (ISS023-E-57948)",
-      "license": "Public domain (NASA)",
-      "page": "https://science.nasa.gov/earth/earth-observatory/sunset-from-the-international-space-station-44267/"
-    }
-  },
-  "cahaya": {
-    "hero": {
-      "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2005/09/STScI-01EVVM9R75RVTEHV4R6SDT34D3.tif/jcr:content/renditions/800x800.jpg",
-      "alt": "Ribuan galaksi kecil berwarna-warni di latar langit hitam, hasil pengamatan teleskop Hubble ke satu titik kecil di langit",
-      "caption": "Hubble Ultra Deep Field (dirilis 2004): hampir setiap titik di foto ini adalah galaksi, dan cahaya sebagian di antaranya sudah berjalan miliaran tahun.",
-      "credit": "NASA, ESA, S. Beckwith dan HUDF Team (STScI), B. Mobasher (STScI)",
-      "license": "Public domain (NASA)",
-      "page": "https://science.nasa.gov/asset/hubble/hubble-ultra-deep-field/"
-    }
-  },
-  "krakatau": {
-    "hero": {
-      "src": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22821/PIA22821.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
-      "alt": "Citra satelit Anak Krakatau di Selat Sunda: pulau kecil berwarna abu-abu gelap dengan kawah yang berisi air, dikelilingi laut",
-      "caption": "Anak Krakatau, gunung yang tumbuh dari kaldera bekas letusan 1883, dipotret satelit ASTER pada 13 Januari 2019, beberapa minggu setelah longsor dan letusan Desember 2018.",
-      "credit": "NASA/METI/AIST/Japan Space Systems, U.S./Japan ASTER Science Team",
-      "license": "Public domain (NASA)",
-      "page": "https://science.nasa.gov/photojournal/aster-images-post-eruption-anak-krakatau-volcano/"
-    }
-  },
-  "tulip": {
-    "hero": {
-      "src": "/assets/illustrations/tulip-v1.svg",
-      "alt": "Ilustrasi bunga tulip bergaris merah-putih di samping grafik harga yang naik pelan, memuncak, lalu jatuh tajam pada Februari 1637",
-      "caption": "Tulip bergaris seperti api, varietas paling dicari di Belanda 1630-an, dan bentuk khas gelembung harga. Grafiknya ilustrasi pola, bukan data harga asli.",
-      "credit": "Curioverse",
-      "license": "Ilustrasi sendiri (Curioverse)",
-      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/tulip-v1.svg"
-    }
-  },
-  "majemuk": {
-    "hero": {
-      "src": "/assets/illustrations/majemuk-v1.svg",
-      "alt": "Grafik saldo Rp10 juta selama 30 tahun dengan bunga 6%: garis bunga majemuk melengkung naik ke sekitar Rp57,4 juta, garis bunga biasa lurus ke Rp28 juta",
-      "caption": "Simulasi Rp10 juta dengan bunga 6% per tahun: sekitar 12 tahun jadi dua kali lipat, sesuai Rule of 72.",
-      "credit": "Curioverse",
-      "license": "Ilustrasi sendiri (Curioverse)",
-      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/majemuk-v1.svg"
-    }
-  },
-  "bullbear": {
-    "hero": {
-      "src": "/assets/illustrations/bullbear-v1.svg",
-      "alt": "Ilustrasi kepala banteng hijau dan beruang merah di atas grafik harga yang naik ke puncak lalu turun lebih dari 20%",
-      "caption": "Bull menyerang dengan tanduk ke atas, bear dengan cakar ke bawah. Grafiknya contoh, bukan data indeks sungguhan.",
-      "credit": "Curioverse",
-      "license": "Ilustrasi sendiri (Curioverse)",
-      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/bullbear-v1.svg"
-    }
-  },
-  "inflasi": {
-    "hero": {
-      "src": "/assets/illustrations/inflasi-v1.svg",
-      "alt": "Empat gelas es kopi yang sama dengan harga Rp20.000, Rp21.000, Rp22.050, dan Rp23.150 dari tahun ke tahun",
-      "caption": "Contoh kalau harga naik 5% per tahun: es kopinya sama, harganya terus naik.",
-      "credit": "Curioverse",
-      "license": "Ilustrasi sendiri (Curioverse)",
-      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/inflasi-v1.svg"
-    }
-  },
-  "candle": {
-    "hero": {
-      "src": "/assets/illustrations/candle-v1.svg",
-      "alt": "Diagram dua candlestick, hijau naik dan merah turun, dengan label high, open, close, low, badan, dan sumbu",
-      "caption": "Satu lilin merangkum empat harga dalam satu periode. Warna naik dan turun tergantung aplikasi.",
-      "credit": "Curioverse",
-      "license": "Ilustrasi sendiri (Curioverse)",
-      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/candle-v1.svg"
-    }
-  },
-  "g20": {
-    "hero": {
-      "src": "/assets/illustrations/g20-v1.svg",
-      "alt": "Daftar anggota G20 dalam kotak-kotak: 19 negara dengan Indonesia disorot, ditambah Uni Eropa dan Uni Afrika",
-      "caption": "Anggota G20: 19 negara, Uni Eropa, dan Uni Afrika (sejak 2023).",
-      "credit": "Curioverse",
-      "license": "Ilustrasi sendiri (Curioverse)",
-      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/g20-v1.svg"
-    }
-  },
-  "cekberita": {
-    "hero": {
-      "src": "/assets/illustrations/cekberita-v1.svg",
-      "alt": "Ilustrasi ponsel dengan tombol share dan tanda tanya, di samping lima pertanyaan untuk mengecek berita",
-      "caption": "Lima pertanyaan sebelum share berita.",
-      "credit": "Curioverse",
-      "license": "Ilustrasi sendiri (Curioverse)",
-      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/cekberita-v1.svg"
-    }
-  },
-  "tardigrade": {
-    "hero": {
-      "src": "/assets/illustrations/tardigrade-v1.svg",
-      "alt": "Gambar kartun tardigrade berkaki delapan dan bentuk tun yang mengerut, dengan panah kering dan ketemu air di antaranya",
-      "caption": "Tardigrade aktif dan dalam mode tun. Bentuknya disederhanakan, bukan skala.",
-      "credit": "Curioverse",
-      "license": "Ilustrasi sendiri (Curioverse)",
-      "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/tardigrade-v1.svg"
-    }
-  },
-  "voc": {
-    "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB%2C_Hendrik_Cornelisz_Vroom%2C_1599%2C_Rijksmuseum_SK-A-2858.jpg/1280px-De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB%2C_Hendrik_Cornelisz_Vroom%2C_1599%2C_Rijksmuseum_SK-A-2858.jpg",
-      "alt": "Lukisan kapal-kapal layar besar berbendera Belanda berlabuh di perairan Amsterdam yang ramai, dikelilingi perahu-perahu kecil",
-      "caption": "Kembalinya ekspedisi kedua ke Hindia Timur di Amsterdam, 19 Juli 1599, dilukis Hendrick Cornelisz Vroom. Pelayaran semacam inilah yang modalnya kemudian dipersatukan dalam VOC tahun 1602. Koleksi Rijksmuseum.",
-      "credit": "Hendrick Cornelisz Vroom",
-      "license": "Public domain",
-      "page": "https://commons.wikimedia.org/wiki/File:De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB,_Hendrik_Cornelisz_Vroom,_1599,_Rijksmuseum_SK-A-2858.jpg"
-    },
-    "sections": {
-      "1": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/VOC_aandeel_9_september_1606.jpg/1280px-VOC_aandeel_9_september_1606.jpg",
-        "alt": "Lembar dokumen tua bertulisan tangan berbahasa Belanda: sertifikat saham VOC",
-        "caption": "Sertifikat saham VOC bertanggal 9 September 1606, salah satu saham tertua yang diketahui. Ditemukan tahun 2010 di Westfries Archief, Hoorn.",
-        "credit": "VOC",
-        "license": "Public domain",
-        "page": "https://commons.wikimedia.org/wiki/File:VOC_aandeel_9_september_1606.jpg"
-      }
-    }
-  },
-  "curie": {
-    "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Marie_Curie_c1920.jpg/1280px-Marie_Curie_c1920.jpg",
-      "alt": "Foto hitam-putih Marie Curie, perempuan berambut disanggul dan berbaju gelap, menatap ke samping",
-      "caption": "Marie Curie sekitar tahun 1920, difoto Henri Manuel.",
-      "credit": "Henri Manuel",
-      "license": "Public domain",
-      "page": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c1920.jpg"
-    },
-    "sections": {
-      "1": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pierre_and_Marie_Curie.jpg/1280px-Pierre_and_Marie_Curie.jpg",
-        "alt": "Foto hitam-putih Pierre dan Marie Curie berdiri di laboratorium di samping peralatan eksperimen",
-        "caption": "Pierre dan Marie Curie di laboratorium mereka di Paris, sekitar 1904, dengan alat untuk mengukur radioaktivitas sampel bijih.",
-        "credit": "Unknown photographer",
-        "license": "Public domain",
-        "page": "https://commons.wikimedia.org/wiki/File:Pierre_and_Marie_Curie.jpg"
-      }
-    }
-  },
-  "lovelace": {
-    "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1280px-Ada_Lovelace_portrait.jpg",
-      "alt": "Lukisan cat air Ada Lovelace bergaun putih dengan rambut ditata, duduk menghadap ke samping",
-      "caption": "Ada Lovelace sekitar tahun 1840, lukisan cat air karya Alfred Edward Chalon.",
-      "credit": "Alfred Edward Chalon",
-      "license": "Public domain",
-      "page": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg"
-    },
-    "sections": {
-      "2": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/1280px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg",
-        "alt": "Tabel tua berisi baris-baris operasi dan variabel: langkah-langkah perhitungan untuk mesin hitung",
-        "caption": "Diagram langkah perhitungan bilangan Bernoulli untuk Analytical Engine dari catatan Ada Lovelace (Note G), terbit 1843.",
-        "credit": "Ada Lovelace",
-        "license": "Public domain",
-        "page": "https://commons.wikimedia.org/wiki/File:Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
-      }
-    }
-  },
-  "kartini": {
-    "hero": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/COLLECTIE_TROPENMUSEUM_Portret_van_Raden_Ajeng_Kartini_TMnr_10018776.jpg",
-      "alt": "Foto hitam-putih Raden Ajeng Kartini berkebaya, duduk dengan tangan terlipat di pangkuan",
-      "caption": "Potret Raden Ajeng Kartini, diambil antara 1890 dan 1904. Koleksi Tropenmuseum.",
-      "credit": "fotografer tidak diketahui",
-      "license": "CC BY-SA 3.0",
-      "page": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Portret_van_Raden_Ajeng_Kartini_TMnr_10018776.jpg"
-    },
-    "sections": {
-      "2": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Door_duisternis_tot_licht_1st_edition_cover.jpg",
-        "alt": "Sampul buku tua bertuliskan judul Door Duisternis tot Licht",
-        "caption": "Sampul edisi pertama Door Duisternis tot Licht (1911), kumpulan surat Kartini yang disusun J.H. Abendanon.",
-        "credit": "G.C.T. van Dorp & Co",
-        "license": "Public domain",
-        "page": "https://commons.wikimedia.org/wiki/File:Door_duisternis_tot_licht_1st_edition_cover.jpg"
-      }
-    }
+ "_catatan": "Gambar untuk cerita lama di stories.mjs. Cerita baru (content/stories/*.json) menaruh gambarnya di field image/img sendiri. Format: { id: { hero:{src,alt,credit,license,page}, sections:{ \"<index>\": {...} } } }",
+ "langit": {
+  "hero": {
+   "src": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/imagerecords/44000/44267/ISS023-E-57948.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "alt": "Matahari terbenam dilihat dari luar angkasa: lapisan atmosfer Bumi tampak tipis melengkung, oranye dan kuning di bagian bawah, lalu memudar jadi biru ke atas",
+   "caption": "Sunset di atas Samudra Hindia, difoto kru Stasiun Luar Angkasa Internasional (ISS) pada 25 Mei 2010. Lapisan bawah oranye, lapisan atas biru.",
+   "credit": "NASA Johnson Space Center, ISS Crew Earth Observations (ISS023-E-57948)",
+   "license": "Public domain (NASA)",
+   "page": "https://science.nasa.gov/earth/earth-observatory/sunset-from-the-international-space-station-44267/"
   }
+ },
+ "cahaya": {
+  "hero": {
+   "src": "https://assets.science.nasa.gov/content/dam/science/missions/hubble/releases/2005/09/STScI-01EVVM9R75RVTEHV4R6SDT34D3.tif/jcr:content/renditions/800x800.jpg",
+   "alt": "Ribuan galaksi kecil berwarna-warni di latar langit hitam, hasil pengamatan teleskop Hubble ke satu titik kecil di langit",
+   "caption": "Hubble Ultra Deep Field (dirilis 2004): hampir setiap titik di foto ini adalah galaksi, dan cahaya sebagian di antaranya sudah berjalan miliaran tahun.",
+   "credit": "NASA, ESA, S. Beckwith dan HUDF Team (STScI), B. Mobasher (STScI)",
+   "license": "Public domain (NASA)",
+   "page": "https://science.nasa.gov/asset/hubble/hubble-ultra-deep-field/"
+  }
+ },
+ "krakatau": {
+  "hero": {
+   "src": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22821/PIA22821.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+   "alt": "Citra satelit Anak Krakatau di Selat Sunda: pulau kecil berwarna abu-abu gelap dengan kawah yang berisi air, dikelilingi laut",
+   "caption": "Anak Krakatau, gunung yang tumbuh dari kaldera bekas letusan 1883, dipotret satelit ASTER pada 13 Januari 2019, beberapa minggu setelah longsor dan letusan Desember 2018.",
+   "credit": "NASA/METI/AIST/Japan Space Systems, U.S./Japan ASTER Science Team",
+   "license": "Public domain (NASA)",
+   "page": "https://science.nasa.gov/photojournal/aster-images-post-eruption-anak-krakatau-volcano/"
+  }
+ },
+ "tulip": {
+  "hero": {
+   "src": "/assets/illustrations/tulip-v1.svg",
+   "alt": "Ilustrasi bunga tulip bergaris merah-putih di samping grafik harga yang naik pelan, memuncak, lalu jatuh tajam pada Februari 1637",
+   "caption": "Tulip bergaris seperti api, varietas paling dicari di Belanda 1630-an, dan bentuk khas gelembung harga. Grafiknya ilustrasi pola, bukan data harga asli.",
+   "credit": "Curioverse",
+   "license": "Ilustrasi sendiri (Curioverse)",
+   "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/tulip-v1.svg"
+  }
+ },
+ "majemuk": {
+  "hero": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Money-2180330_1920.jpg/1280px-Money-2180330_1920.jpg",
+   "alt": "Foto tumpukan koin euro yang makin tinggi, dari koin kecil sampai gulungan dan tumpukan besar",
+   "caption": "Tumpukan koin yang bertambah tinggi — cara paling sederhana membayangkan bunga majemuk: yang bertumbuh bukan cuma uang awalmu, tapi juga bunga yang sudah kamu kumpulkan.",
+   "credit": "kschneider2991 (via Pixabay)",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Money-2180330_1920.jpg"
+  }
+ },
+ "bullbear": {
+  "hero": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Bull_and_bear.jpg/1280px-Bull_and_bear.jpg",
+   "alt": "Foto patung banteng dan beruang berhadapan di depan gedung Bursa Frankfurt, Jerman",
+   "caption": "Patung banteng dan beruang karya Reinhard Dachlauer di depan Bursa Frankfurt. Dua hewan ini jadi simbol pasar naik (bull) dan pasar turun (bear) di bursa-bursa seluruh dunia.",
+   "credit": "Thomas Richter, Wikimedia Commons",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Bull_and_bear.jpg"
+  }
+ },
+ "inflasi": {
+  "hero": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Bundesarchiv_Bild_183-R1215-506%2C_Berlin%2C_Reichsbank%2C_Geldauflieferungsstelle.jpg",
+   "alt": "Foto tahun 1923: tumpukan besar uang kertas Notgeld di kantor Reichsbank Berlin saat hiperinflasi Jerman",
+   "caption": "Tumpukan uang kertas darurat (Notgeld) di Reichsbank, Berlin, 1923 — tahun hiperinflasi Jerman, ketika nilai uang runtuh begitu cepat sampai uang ditumpuk seperti barang rongsokan. Foto arsip Bundesarchiv.",
+   "credit": "Bundesarchiv, Bild 183-R1215-506",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-R1215-506,_Berlin,_Reichsbank,_Geldauflieferungsstelle.jpg"
+  }
+ },
+ "candle": {
+  "hero": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Market_data_on_display_at_Taiwan_Stock_Exchange_20210208.jpg/1280px-Market_data_on_display_at_Taiwan_Stock_Exchange_20210208.jpg",
+   "alt": "Foto papan display raksasa berisi data pasar dan grafik di Bursa Efek Taiwan, 8 Februari 2021",
+   "caption": "Papan data pasar di Bursa Efek Taiwan, Februari 2021. Grafik-grafik yang terpampang di layar seperti ini dibangun dari ribuan candlestick — pola yang kamu pelajari di artikel ini.",
+   "credit": "Presidential Office, Taiwan, via Flickr",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/wiki/File:Market_data_on_display_at_Taiwan_Stock_Exchange_20210208.jpg"
+  }
+ },
+ "g20": {
+  "hero": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/2017_G20_Family_picture_%2803%29.jpg/1280px-2017_G20_Family_picture_%2803%29.jpg",
+   "alt": "Foto bersama resmi para pemimpin negara G20 pada KTT Hamburg, Jerman, 7 Juli 2017, dengan Presiden Joko Widodo di barisan depan",
+   "caption": "Family photo KTT G20 Hamburg, 7 Juli 2017 — forum 19 negara plus Uni Eropa yang dibahas artikel ini. Presiden Joko Widodo tampak di barisan depan.",
+   "credit": "European Union / Etienne Ansotte",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:2017_G20_Family_picture_(03).jpg"
+  }
+ },
+ "cekberita": {
+  "hero": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Business_Woman_is_reading_Newspaper_-_35870943420.jpg/1280px-Business_Woman_is_reading_Newspaper_-_35870943420.jpg",
+   "alt": "Foto seorang perempuan membaca koran cetak dengan saksama",
+   "caption": "Membaca berita dengan kepala dingin adalah langkah pertama cek fakta — sebelum menekan tombol bagikan, berhenti sebentar dan periksa isinya.",
+   "credit": "tranmautritam (via Flickr)",
+   "license": "CC0",
+   "page": "https://commons.wikimedia.org/wiki/File:Business_Woman_is_reading_Newspaper_-_35870943420.jpg"
+  }
+ },
+ "tardigrade": {
+  "hero": {
+   "src": "/assets/illustrations/tardigrade-v1.svg",
+   "alt": "Gambar kartun tardigrade berkaki delapan dan bentuk tun yang mengerut, dengan panah kering dan ketemu air di antaranya",
+   "caption": "Tardigrade aktif dan dalam mode tun. Bentuknya disederhanakan, bukan skala.",
+   "credit": "Curioverse",
+   "license": "Ilustrasi sendiri (Curioverse)",
+   "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/tardigrade-v1.svg"
+  }
+ },
+ "voc": {
+  "hero": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB%2C_Hendrik_Cornelisz_Vroom%2C_1599%2C_Rijksmuseum_SK-A-2858.jpg/1280px-De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB%2C_Hendrik_Cornelisz_Vroom%2C_1599%2C_Rijksmuseum_SK-A-2858.jpg",
+   "alt": "Lukisan kapal-kapal layar besar berbendera Belanda berlabuh di perairan Amsterdam yang ramai, dikelilingi perahu-perahu kecil",
+   "caption": "Kembalinya ekspedisi kedua ke Hindia Timur di Amsterdam, 19 Juli 1599, dilukis Hendrick Cornelisz Vroom. Pelayaran semacam inilah yang modalnya kemudian dipersatukan dalam VOC tahun 1602. Koleksi Rijksmuseum.",
+   "credit": "Hendrick Cornelisz Vroom",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:De_terugkomst_in_Amsterdam_van_de_tweede_expeditie_naar_Oost-Indi%C3%AB,_Hendrik_Cornelisz_Vroom,_1599,_Rijksmuseum_SK-A-2858.jpg"
+  },
+  "sections": {
+   "1": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/VOC_aandeel_9_september_1606.jpg/1280px-VOC_aandeel_9_september_1606.jpg",
+    "alt": "Lembar dokumen tua bertulisan tangan berbahasa Belanda: sertifikat saham VOC",
+    "caption": "Sertifikat saham VOC bertanggal 9 September 1606, salah satu saham tertua yang diketahui. Ditemukan tahun 2010 di Westfries Archief, Hoorn.",
+    "credit": "VOC",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:VOC_aandeel_9_september_1606.jpg"
+   }
+  }
+ },
+ "curie": {
+  "hero": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Marie_Curie_c1920.jpg/1280px-Marie_Curie_c1920.jpg",
+   "alt": "Foto hitam-putih Marie Curie, perempuan berambut disanggul dan berbaju gelap, menatap ke samping",
+   "caption": "Marie Curie sekitar tahun 1920, difoto Henri Manuel.",
+   "credit": "Henri Manuel",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c1920.jpg"
+  },
+  "sections": {
+   "1": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pierre_and_Marie_Curie.jpg/1280px-Pierre_and_Marie_Curie.jpg",
+    "alt": "Foto hitam-putih Pierre dan Marie Curie berdiri di laboratorium di samping peralatan eksperimen",
+    "caption": "Pierre dan Marie Curie di laboratorium mereka di Paris, sekitar 1904, dengan alat untuk mengukur radioaktivitas sampel bijih.",
+    "credit": "Unknown photographer",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Pierre_and_Marie_Curie.jpg"
+   }
+  }
+ },
+ "lovelace": {
+  "hero": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Ada_Lovelace_portrait.jpg/1280px-Ada_Lovelace_portrait.jpg",
+   "alt": "Lukisan cat air Ada Lovelace bergaun putih dengan rambut ditata, duduk menghadap ke samping",
+   "caption": "Ada Lovelace sekitar tahun 1840, lukisan cat air karya Alfred Edward Chalon.",
+   "credit": "Alfred Edward Chalon",
+   "license": "Public domain",
+   "page": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg"
+  },
+  "sections": {
+   "2": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/1280px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg",
+    "alt": "Tabel tua berisi baris-baris operasi dan variabel: langkah-langkah perhitungan untuk mesin hitung",
+    "caption": "Diagram langkah perhitungan bilangan Bernoulli untuk Analytical Engine dari catatan Ada Lovelace (Note G), terbit 1843.",
+    "credit": "Ada Lovelace",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+   }
+  }
+ },
+ "kartini": {
+  "hero": {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/COLLECTIE_TROPENMUSEUM_Portret_van_Raden_Ajeng_Kartini_TMnr_10018776.jpg",
+   "alt": "Foto hitam-putih Raden Ajeng Kartini berkebaya, duduk dengan tangan terlipat di pangkuan",
+   "caption": "Potret Raden Ajeng Kartini, diambil antara 1890 dan 1904. Koleksi Tropenmuseum.",
+   "credit": "fotografer tidak diketahui",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Portret_van_Raden_Ajeng_Kartini_TMnr_10018776.jpg"
+  },
+  "sections": {
+   "2": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Door_duisternis_tot_licht_1st_edition_cover.jpg",
+    "alt": "Sampul buku tua bertuliskan judul Door Duisternis tot Licht",
+    "caption": "Sampul edisi pertama Door Duisternis tot Licht (1911), kumpulan surat Kartini yang disusun J.H. Abendanon.",
+    "credit": "G.C.T. van Dorp & Co",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Door_duisternis_tot_licht_1st_edition_cover.jpg"
+   }
+  }
+ }
 }

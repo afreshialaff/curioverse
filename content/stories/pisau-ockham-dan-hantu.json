@@ -10,12 +10,12 @@
   "hook": "Sekitar 1 dari 13 orang pernah ketindihan: terbangun, badan kaku, dan merasa ada sosok di kamar. Sains menyebutnya sisa tidur REM yang terbawa saat setengah sadar.",
   "path": "",
   "image": {
-    "src": "/assets/illustrations/pisau-ockham-hantu-v1.svg",
-    "alt": "Ilustrasi dua kolom yang membandingkan asumsi dua penjelasan untuk kejadian ketindihan: penjelasan tidur REM yang tidak butuh entitas baru, dan penjelasan sosok dari luar yang butuh entitas dan mekanisme baru",
-    "caption": "Occam's razor menghitung asumsi, bukan menilai iman. Untuk satu kejadian ketindihan, penjelasan mana yang butuh lebih sedikit hal baru?",
-    "credit": "Curioverse",
-    "license": "Ilustrasi sendiri (Curioverse)",
-    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/pisau-ockham-hantu-v1.svg"
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/William_of_Ockham_-_Logica_-_1341.jpg",
+    "alt": "Sketsa William of Ockham dalam manuskrip Summa Logicae tahun 1341: seorang frater bertuliskan frater Occham iste sedang menulis",
+    "caption": "Sketsa William of Ockham dari manuskrip Summa Logicae (sekitar 1341), digambar juru tulis tak dikenal — bukan potret dari kehidupan nyata. Di atas kertas seperti inilah prinsip pisau Ockham beliau berkelana ke abad-abad berikutnya.",
+    "credit": "Manuskrip Summa Logicae, Gonville and Caius College, Cambridge",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:William_of_Ockham_-_Logica_-_1341.jpg"
   },
   "sections": [
     {
@@ -25,7 +25,15 @@
         "Ketertarikan pada yang gaib juga terlihat di survei. Survei Pew Research Center terhadap umat Muslim di puluhan negara terbit Agustus 2012. Hasilnya, 69% Muslim Indonesia percaya sihir (*witchcraft* atau *sorcery*) itu nyata, tertinggi di Asia Tenggara di antara negara yang disurvei. Sebanyak 53% percaya pada jin.",
         "Sebelum lanjut, satu hal perlu jelas. Bagi banyak orang, keyakinan pada yang gaib adalah bagian dari agama, dan artikel ini nggak sedang menilai iman siapa pun. Yang kita bahas lebih sempit: waktu satu kejadian aneh terjadi, misalnya badan kaku di tengah malam, penjelasan mana yang paling masuk akal untuk kejadian itu?",
         "Di sinilah alat berpikir berusia ratusan tahun bernama *Occam's razor* sering dikutip. Masalahnya, alat ini juga sering salah dipakai."
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/pisau-ockham-hantu-v1.svg",
+        "alt": "Ilustrasi dua kolom yang membandingkan asumsi dua penjelasan untuk kejadian ketindihan: penjelasan tidur REM yang tidak butuh entitas baru, dan penjelasan sosok dari luar yang butuh entitas dan mekanisme baru",
+        "caption": "Occam's razor menghitung asumsi, bukan menilai iman. Untuk satu kejadian ketindihan, penjelasan mana yang butuh lebih sedikit hal baru?",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/pisau-ockham-hantu-v1.svg"
+      }
     },
     {
       "h": "Apa itu *Occam's razor*, dan apa yang bukan",

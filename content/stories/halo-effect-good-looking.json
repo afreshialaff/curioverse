@@ -10,12 +10,12 @@
   "hook": "Esai yang sama persis dapat nilai 5,2 dari 9 saat foto penulisnya menarik, dan cuma 2,7 saat fotonya tidak menarik. Isinya tidak berubah sehuruf pun.",
   "path": "",
   "image": {
-    "src": "/assets/illustrations/halo-effect-v1.svg",
-    "alt": "Grafik batang nilai esai bagus dan esai jelek pada skala 1 sampai 9, dibagi tiga kelompok: foto penulis menarik, tanpa foto, dan foto penulis tidak menarik",
-    "caption": "Data Landy dan Sigall (1974). Selisih terbesar muncul pada esai yang jelek: penampilan penulis ikut \"menolong\" atau \"menjatuhkan\" nilai tulisannya.",
-    "credit": "Curioverse",
-    "license": "Ilustrasi sendiri (Curioverse)",
-    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/halo-effect-v1.svg"
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/66/PSM_V80_D211_Edward_Lee_Thorndike.png",
+    "alt": "Foto Edward Lee Thorndike, psikolog Amerika yang mencetuskan istilah halo effect, diterbitkan di Popular Science Monthly tahun 1912",
+    "caption": "Edward Lee Thorndike, psikolog yang pada 1920 memberi nama halo effect untuk kecenderungan menilai seseorang dari satu kesan pertama. Foto dari Popular Science Monthly, 1912.",
+    "credit": "Popular Science Monthly (1912)",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:PSM_V80_D211_Edward_Lee_Thorndike.png"
   },
   "sections": [
     {
@@ -24,7 +24,15 @@
         "==Syarat \"berpenampilan menarik\" di lowongan kerja kini dilarang di Indonesia==, bersama syarat tinggi badan dan status \"harus single\". Pada Mei 2025, Menteri Ketenagakerjaan Yassierli menerbitkan Surat Edaran Nomor M/6/HK.04/V/2025. Isinya melarang pemberi kerja memasang syarat diskriminatif yang nggak relevan dengan pekerjaan.",
         "Menurut CNA Indonesia, syarat yang disebut termasuk usia, penampilan fisik, status pernikahan, tinggi badan, suku, dan warna kulit. Batas usia masih boleh, tapi hanya kalau usia benar-benar memengaruhi sifat atau fungsi pekerjaannya. \"Surat edaran ini diterbitkan untuk mempertegas komitmen pemerintah terhadap prinsip non-diskriminasi,\" kata Yassierli.",
         "Kenapa penampilan perlu diatur sampai ke surat menteri? Karena psikologi sudah lama tahu, wajah yang menarik bisa membuat kita menilai hal lain tentang orang itu secara keliru. Namanya *halo effect*."
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/halo-effect-v1.svg",
+        "alt": "Grafik batang nilai esai bagus dan esai jelek pada skala 1 sampai 9, dibagi tiga kelompok: foto penulis menarik, tanpa foto, dan foto penulis tidak menarik",
+        "caption": "Data Landy dan Sigall (1974). Selisih terbesar muncul pada esai yang jelek: penampilan penulis ikut \"menolong\" atau \"menjatuhkan\" nilai tulisannya.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/halo-effect-v1.svg"
+      }
     },
     {
       "h": "Asal-usul *halo effect*: atasan yang menilai perwira",

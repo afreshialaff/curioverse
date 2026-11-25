@@ -9,12 +9,12 @@
   "hook": "Dari 203 calon pemimpin perusahaan, 8 orang mencetak skor psikopati setinggi ambang klinis riset. Anehnya, kinerja mereka justru yang paling jelek.",
   "path": "",
   "image": {
-    "src": "/assets/illustrations/dark-triad-v1.svg",
-    "alt": "Diagram tiga lingkaran yang tumpang tindih berlabel narsisme, Machiavellianisme, dan psikopati, dengan inti bersama 'kurang ramah', serta kotak ringkasan hubungan tiap ciri dengan gaji, jabatan, dan kinerja",
-    "caption": "Tiga ciri yang beririsan. Ketiganya sama-sama berkorelasi dengan sifat kurang ramah (agreeableness rendah), tapi efeknya ke karier berbeda.",
-    "credit": "Curioverse",
-    "license": "Ilustrasi sendiri (Curioverse)",
-    "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/dark-triad-v1.svg"
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Santi_di_Tito_-_Niccolo_Machiavelli%27s_portrait.jpg",
+    "alt": "Lukisan potret Niccolò Machiavelli oleh Santi di Tito: filsuf politik Italia berbusana gelap dengan latar polos",
+    "caption": "Potret Niccolò Machiavelli karya Santi di Tito, dilukis setelah beliau wafat (1550–1600) dan kini disimpan di Palazzo Vecchio, Firenze. Nama beliau diabadikan psikologi modern untuk satu sisi dark triad: Machiavellianisme, sifat manipulatif yang menghitung untung-rugi dari setiap orang.",
+    "credit": "Santi di Tito",
+    "license": "Public domain",
+    "page": "https://commons.wikimedia.org/wiki/File:Santi_di_Tito_-_Niccolo_Machiavelli%27s_portrait.jpg"
   },
   "sections": [
     {
@@ -24,7 +24,15 @@
         "Hasilnya terbit pada 2010 di jurnal *Behavioral Sciences and the Law*. ==Delapan orang (3,9%) punya skor 30 atau lebih, ambang yang biasa dipakai peneliti untuk menyebut seseorang psikopat.== Gampangnya seperti garis batas tinggi badan di wahana taman hiburan: yang melewati garis masuk kelompok tertentu. Bedanya, garis ini dipakai untuk riset, bukan untuk menghakimi orang. Majalah *TIME* merangkumnya jadi sekitar 1 dari 25 bos. Sebagai pembanding, Hare memperkirakan psikopat sekitar 1% dari populasi umum.",
         "Lalu para peneliti melihat penilaian kerja mereka. Makin tinggi skor psikopati, makin bagus nilai mereka soal kemampuan komunikasi, kreativitas, dan berpikir strategis. Tapi para peneliti juga mencatat bahwa makin tinggi skornya, makin rendah penilaian kinerjanya. Penilaian kemampuan bekerja sama dalam tim pun ikut turun.",
         "Apakah orang dengan sisi gelap memang lebih gampang sukses? Itu tergantung sisi gelap yang mana, dan sukses yang seperti apa."
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/dark-triad-v1.svg",
+        "alt": "Diagram tiga lingkaran yang tumpang tindih berlabel narsisme, Machiavellianisme, dan psikopati, dengan inti bersama 'kurang ramah', serta kotak ringkasan hubungan tiap ciri dengan gaji, jabatan, dan kinerja",
+        "caption": "Tiga ciri yang beririsan. Ketiganya sama-sama berkorelasi dengan sifat kurang ramah (agreeableness rendah), tapi efeknya ke karier berbeda.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/dark-triad-v1.svg"
+      }
     },
     {
       "h": "Apa itu dark triad: tiga sifat gelap yang saling berkaitan",
@@ -118,5 +126,6 @@
       "t": "Wikipedia: Dark triad",
       "u": "https://en.wikipedia.org/wiki/Dark_triad"
     }
-  ]
+  ],
+  "updated": "2026-11-25"
 }
