@@ -58,6 +58,10 @@ on:
     - cron: "0 14 30 11 *"    # cek ulang 21.00 WIB
     - cron: "25 13 1 12 *"   # cek 20.25 WIB Antu Banyu
     - cron: "55 13 1 12 *"   # cek ulang 20.55 WIB
+    - cron: "30 13 3 12 *"   # cek 20.30 WIB Ken Arok 1/3
+    - cron: "0 14 3 12 *"    # cek ulang 21.00 WIB
+    - cron: "30 13 4 12 *"   # cek 20.30 WIB Ken Arok 2/3
+    - cron: "0 14 4 12 *"    # cek ulang 21.00 WIB
   workflow_dispatch:
 permissions:
   contents: read
@@ -121,3 +125,5 @@ jobs:
           cek 2026-11-29 20:00 social/2026-11-29/1-vivid-rawa-pening jadwal-rawa-pening.yml
           cek 2026-11-30 20:00 social/2026-11-30/1-vivid-banaspati jadwal-banaspati.yml
           cek 2026-12-01 20:00 social/2026-12-01/1-vivid-antu-banyu jadwal-antu-banyu.yml
+          cek 2026-12-03 20:00 social/2026-12-03/1-vivid-ken-arok-1 jadwal-ken-arok-p1.yml
+          cek 2026-12-04 20:00 social/2026-12-04/1-vivid-ken-arok-2 jadwal-ken-arok-p2.yml
