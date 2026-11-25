@@ -3,15 +3,15 @@
   "cat": "lingkungan",
   "also": "science",
   "date": "2026-10-28",
-  "title": "Benarkah ada pulau sampah di Pasifik? Yang ada serpihan plastik yang mengambang di laut",
-  "dek": "Tumpukan sampah ini nggak bisa diinjak dan nggak kelihatan dari satelit, tapi isinya sekitar 1,8 triliun keping plastik. Yang paling berat justru jaring ikan, dan membersihkannya nggak semudah mengirim kapal.",
+  "title": "“Pulau sampah” di Pasifik itu bukan pulau: ini sup plastik berisi 1,8 triliun serpihan",
+  "dek": "Nggak bisa diinjak dan nggak kelihatan dari satelit, tapi isinya sekitar 1,8 triliun keping plastik. Yang paling berat bukan botol atau sedotan, melainkan jaring ikan yang hilang di laut.",
   "tags": "great pacific garbage patch gpgp pulau sampah plastik laut mikroplastik gyre pasifik jaring ikan ghost net ocean cleanup noaa albatros penyu neopelagic lingkungan",
   "hook": "Tumpukan plastik terbesar di Pasifik beratnya sedikitnya 79.000 ton, tapi tidak terlihat dari satelit. Ke mana perginya semua plastik itu?",
   "path": "",
   "image": {
     "src": "/assets/illustrations/great-pacific-garbage-patch-gyre-v1.svg",
     "alt": "Peta skematis Samudra Pasifik Utara. Jepang di kiri, California di kanan, Hawaii di bawah tengah. Panah arus besar berputar searah jarum jam membentuk gyre, dan titik-titik plastik terkumpul di dua area: Western Garbage Patch dekat Jepang dan Eastern Garbage Patch di antara Hawaii dan California.",
-    "caption": "Gambaran skematis, bukan peta berskala. Arus yang berputar (gyre) menggiring sampah ke tengahnya yang tenang. Batas areanya terus bergeser terbawa arus dan angin.",
+    "caption": "Skema Samudra Pasifik Utara, bukan peta berskala. Arus berputar raksasa (gyre) menggiring sampah ke bagian tengah yang tenang. Batas areanya terus bergeser mengikuti arus dan angin.",
     "credit": "Curioverse",
     "license": "Ilustrasi sendiri (Curioverse)",
     "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/great-pacific-garbage-patch-gyre-v1.svg"
@@ -21,7 +21,7 @@
       "h": "Pulau sampah yang sebenarnya nggak ada",
       "p": [
         "Tahun 1997, Charles Moore sedang berlayar pulang dari lomba *yacht* Transpacific. Di tengah Samudra Pasifik, beliau mengaku menemukan hamparan sampah mengapung yang luas sekali. Oseanografer Curtis Ebbesmeyer kemudian menamai kawasan itu \"*Eastern Garbage Patch*\".",
-        "Tempat itu sebenarnya sudah diramal jauh sebelumnya. Makalah terbitan NOAA, badan kelautan dan atmosfer Amerika Serikat, pada 1988 sudah memperkirakan penumpukan itu. Datanya berasal dari beberapa peneliti yang berbasis di Alaska, yang mengukur plastik di permukaan Pasifik Utara.",
+        "Tempat itu sebenarnya sudah diramal jauh sebelumnya. Makalah terbitan NOAA, badan kelautan dan atmosfer Amerika Serikat, pada 1988 sudah memperkirakan penumpukan itu. Dasarnya adalah pengukuran plastik di permukaan Pasifik Utara oleh beberapa peneliti yang berbasis di Alaska.",
         "Sejak itu namanya membesar jadi *Great Pacific Garbage Patch*, disingkat GPGP. Media pun berlomba membuat perbandingan. Blog NOAA Marine Debris Program tahun 2012 mengumpulkan beberapa di antaranya: \"seukuran Greenland\", \"dua kali Texas\", sampai \"benua plastik yang mungkin sedalam 30 meter\".",
         "Masalahnya, gambaran itu salah dari akarnya. Carey Morishige dari NOAA menulis di blog yang sama bahwa ==tidak ada pulau sampah yang terbentuk di tengah laut==. Area itu juga tidak bisa dilihat lewat foto satelit maupun foto udara. Jadi, kalau bukan pulau, sebenarnya apa yang mengapung di sana?"
       ]
@@ -48,7 +48,7 @@
       "h": "Dihitung dan ditimbang: 1,8 triliun keping",
       "p": [
         "Kalau nggak kelihatan dari atas, gimana cara mengukurnya? Organisasi The Ocean Cleanup mencobanya lewat jalur laut dan udara. Pada 2015 mereka menyeberangi area itu dengan 30 kapal dan mengambil sampel memakai 652 jaring survei. Hasilnya sekitar 1,2 juta keping plastik.",
-        "Setahun kemudian, pada 2016, mereka terbang di atasnya dengan pesawat C-130 Hercules yang membawa sensor LiDAR untuk memindai benda yang lebih besar. LiDAR gampangnya seperti kelelawar yang membaca pantulan suara, tapi pakai sinar laser. Bedanya, LiDAR mengukur waktu pantulan cahaya dari pesawat. Data kapal dan pesawat itu lalu dipakai untuk menyetel model hitungannya. Gampangnya seperti menimbang beberapa karung beras lalu memperkirakan berat satu gudang penuh. Bedanya, gudangnya berupa lautan terbuka.",
+        "Setahun kemudian, pada 2016, mereka terbang di atasnya dengan pesawat C-130 Hercules yang membawa sensor LiDAR untuk memindai benda yang lebih besar. LiDAR bekerja seperti radar, tapi memakai sinar laser: alat ini menghitung jarak dari waktu pantulan cahaya. Data kapal dan pesawat itu lalu dipakai untuk menyetel model hitungannya — mirip menimbang beberapa karung beras untuk memperkirakan berat satu gudang penuh. Bedanya, gudang di sini adalah lautan terbuka.",
         "Hasilnya terbit di jurnal *Scientific Reports* pada 22 Maret 2018, ditulis L. Lebreton dan 15 rekannya. Area GPGP dihitung sekitar 1,6 juta kilometer persegi, kira-kira tiga kali luas daratan Prancis. ==Isinya diperkirakan sekitar 1,8 triliun keping plastik dengan berat setidaknya 79.000 ton.== Rentang perkiraannya lebar, antara 45.000 dan 129.000 ton, dan rilis pers membulatkannya jadi 80.000 ton atau setara 500 pesawat jumbo jet.",
         "Angka ini hasil model, bukan timbangan sungguhan, dan angka luasnya bergantung pada definisi. Studi itu menghitung area dengan lebih dari 10 kilogram plastik per kilometer persegi. Tapi perkiraannya 4 sampai 16 kali lebih tinggi dari laporan sebelumnya. Kok bisa melonjak sejauh itu?"
       ]
@@ -93,8 +93,8 @@
       "p": [
         "Gambar yang benar bukan pulau yang bisa difoto, tapi sup yang keruh oleh triliunan serpihan, dengan jaring ikan sebagai benda paling berat di dalamnya. Gambaran ini penting karena menentukan solusi yang masuk akal. Kalau kita membayangkan pulau, kita berharap ada kapal yang tinggal mengangkutnya.",
         "Data yang ada mengarah ke tempat lain. Sumber sampah terbesarnya alat tangkap ikan di laut lepas, jadi urusannya juga menyangkut cara kapal ikan menangani jaring yang rusak atau hilang. Sementara itu, mikroplastik yang sudah tersebar sulit diambil tanpa merugikan hewan kecil.",
-        "Satu catatan jujur: angka 79.000 ton itu potret data 2015 sampai 2016. Penulis studi 2018 menyebut polusi plastik di sana tumbuh makin cepat berlipat-lipat sejak pengukuran dimulai pada 1970-an. Gampangnya seperti utas viral: penambahnya makin banyak seiring makin banyak yang membagikan. Bedanya, yang berlipat jumlah plastik, bukan unggahan. Pengukuran yang lebih baru memang ada. Studi The Ocean Cleanup di jurnal *Environmental Research Letters* (rilis 19 November 2024) mencatat bahwa selama 2015 sampai 2022, kepadatan serpihan plastik di GPGP naik dari 2,9 ke 14,2 kilogram per kilometer persegi, hampir lima kali lipat. Itu bukan perkiraan berat total yang baru, tapi arahnya jelas: naik. Yang jelas, kalau ada yang bilang GPGP kelihatan dari luar angkasa, sekarang kamu tahu klaim itu keliru.",
-        "\"Pulau sampah\" lebih gampang dibayangkan daripada sup yang keruh oleh serpihan, padahal hanya yang kedua yang sesuai data. Karena tidak ada satu tempat untuk menyerok semuanya, yang masih bisa dimulai adalah menjaga agar jaring dan plastik tidak sampai ke laut sejak awal."
+        "Satu catatan jujur: angka 79.000 ton itu potret dari data 2015 sampai 2016, dan jumlahnya terus naik. Studi The Ocean Cleanup yang terbit di jurnal *Environmental Research Letters* pada November 2024 mencatat kepadatan serpihan plastik di GPGP naik dari 2,9 menjadi 14,2 kilogram per kilometer persegi selama 2015 sampai 2022 — hampir lima kali lipat. Itu bukan perkiraan berat total yang baru, tapi arahnya jelas. Jadi kalau ada yang bilang GPGP kelihatan dari luar angkasa, sekarang kamu tahu klaim itu keliru.",
+        "\"Pulau sampah\" memang lebih gampang dibayangkan daripada sup keruh berisi serpihan. Tapi hanya gambaran kedua yang sesuai data. Dan karena sampahnya tersebar, tidak ada satu tempat yang bisa diserok sampai bersih — yang bisa dimulai adalah menjaga agar jaring dan plastik tidak sampai ke laut sejak awal."
       ]
     }
   ],
@@ -147,5 +147,6 @@
       "t": "Wikipedia: Great Pacific Garbage Patch",
       "u": "https://en.wikipedia.org/wiki/Great_Pacific_Garbage_Patch"
     }
-  ]
+  ],
+  "updated": "2026-11-25"
 }
