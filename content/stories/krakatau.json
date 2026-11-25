@@ -3,7 +3,7 @@
   "cat": "sejarah",
   "also": "science",
   "date": "2026-09-18",
-  "updated": "2026-11-05",
+  "updated": "2026-11-25",
   "title": "Letusan Krakatau 1883 terdengar sampai 4.800 km. Bagaimana suara bisa sejauh itu?",
   "dek": "Warga Pulau Rodrigues, dekat Mauritius, mengira dentumannya suara meriam kapal. Gelombang tekanannya mengelilingi Bumi berkali-kali, dan berbulan-bulan kemudian sunset di banyak negara berubah merah.",
   "tags": "krakatau gunung letusan 1883 tsunami selat sunda vulkanik anak krakatau suara terkeras gelombang tekanan sunset merah",
@@ -22,7 +22,7 @@
       "h": "Dentuman yang dikira suara meriam di Samudra Hindia",
       "p": [
         "Pagi hari tanggal 27 Agustus 1883, warga Pulau Rodrigues mendengar dentuman dari arah timur. Pulau kecil dekat Mauritius ini ada di tengah Samudra Hindia. Mereka mengira ada kapal di dekat situ yang sedang menembakkan meriam.",
-        "Sumber suaranya jauh sekali dari situ, di Selat Sunda, di antara Jawa dan Sumatra. Gunung Krakatau sedang meletus, sekitar 4.800 km dari Rodrigues. Di Perth, Australia, yang berjarak 3.110 km, dentumannya juga terdengar. Menurut tulisan di majalah sains *Nautilus*, suara ini tercatat di lebih dari 50 tempat, kira-kira sepertiga belas permukaan Bumi.",
+        "Sumber suaranya jauh sekali dari situ, di Selat Sunda, di antara Jawa dan Sumatra. Gunung Krakatau sedang meletus, sekitar 4.800 km dari Rodrigues. Di Perth, Australia, yang berjarak 3.110 km, dentumannya juga terdengar. Menurut tulisan di majalah sains *Nautilus*, suara ini tercatat di lebih dari 50 tempat, mencakup kira-kira 1/13 permukaan Bumi.",
         "Jujurly, susah membayangkan bunyi yang bisa menyeberangi samudra. ==Ledakan pagi itu sering disebut sebagai suara paling keras yang pernah terukur.== Sebelum masuk ke soal suaranya, kita lihat dulu apa yang sebenarnya terjadi di Selat Sunda."
       ]
     },
@@ -77,10 +77,25 @@
     }
   ],
   "sources": [
-    { "t": "Wikipedia: 1883 eruption of Krakatoa", "u": "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa" },
-    { "t": "Nautilus: The Sound So Loud That It Circled the Earth Four Times", "u": "https://nautil.us/the-sound-so-loud-that-it-circled-the-earth-four-times-235101/" },
-    { "t": "Wikipedia: Anak Krakatoa", "u": "https://en.wikipedia.org/wiki/Anak_Krakatoa" },
-    { "t": "Smithsonian Global Volcanism Program: Krakatau", "u": "https://volcano.si.edu/volcano.cfm?vn=262000" },
-    { "t": "Oregon State University, Volcano World: Historical eruption sounds", "u": "https://volcano.oregonstate.edu/historical-eruption-sounds" }
+    {
+      "t": "Wikipedia: 1883 eruption of Krakatoa",
+      "u": "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+    },
+    {
+      "t": "Nautilus: The Sound So Loud That It Circled the Earth Four Times",
+      "u": "https://nautil.us/the-sound-so-loud-that-it-circled-the-earth-four-times-235101/"
+    },
+    {
+      "t": "Wikipedia: Anak Krakatoa",
+      "u": "https://en.wikipedia.org/wiki/Anak_Krakatoa"
+    },
+    {
+      "t": "Smithsonian Global Volcanism Program: Krakatau",
+      "u": "https://volcano.si.edu/volcano.cfm?vn=262000"
+    },
+    {
+      "t": "Oregon State University, Volcano World: Historical eruption sounds",
+      "u": "https://volcano.oregonstate.edu/historical-eruption-sounds"
+    }
   ]
 }

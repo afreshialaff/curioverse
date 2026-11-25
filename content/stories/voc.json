@@ -3,7 +3,7 @@
   "cat": "saham",
   "also": "sejarah",
   "date": "2026-10-09",
-  "updated": "2026-11-05",
+  "updated": "2026-11-25",
   "title": "Kenapa jual-beli saham bisa lahir dari kapal rempah VOC?",
   "dek": "Tahun 1602, seorang pembantu rumah tangga ikut menyetor 100 gulden ke VOC. Modal itu nggak bisa ditarik kembali, jadi jalan keluarnya cuma menjual bagiannya ke orang lain.",
   "tags": "voc belanda rempah bursa amsterdam pasar modal saham pertama dividen banda pala 1602 1606",
@@ -29,7 +29,7 @@
     {
       "h": "Kenapa pelayaran rempah butuh uang dari banyak orang",
       "p": [
-        "Sebelum VOC, Belanda sudah punya beberapa kongsi dagang kecil yang mengirim kapal ke Asia untuk mencari rempah. Tiap pelayaran itu taruhan. Bahasa sekarangnya, high risk high return.",
+        "Sebelum VOC, Belanda sudah punya beberapa kongsi dagang kecil yang mengirim kapal ke Asia untuk mencari rempah. Tiap pelayaran itu taruhan — bahasa sekarangnya, *high risk, high return*.",
         "Patrick Verwijmeren, profesor keuangan perusahaan di Erasmus University Rotterdam, menggambarkan investasi waktu itu sebagai judi. Menurut beliau, yang dipertaruhkan adalah apakah kapalnya pulang, dan apa yang dibawanya. Membagi modal ke banyak orang membuat risiko itu ikut terbagi, sekaligus cukup untuk membangun kapal-kapal besar.",
         "Pada 20 Maret 1602, Staten-Generaal, parlemen Republik Belanda, menyatukan kongsi-kongsi itu menjadi Vereenigde Oostindische Compagnie atau VOC. Perusahaan baru ini mendapat hak monopoli dagang di Asia selama 21 tahun. Ada enam kamar dagang, yaitu Amsterdam, Delft, Rotterdam, Enkhuizen, Middelburg, dan Hoorn. Pimpinannya disebut Heeren XVII, dewan 17 kursi yang 8 di antaranya milik Amsterdam.",
         "Verwijmeren menjelaskan satu ciri penting lain. Pemegang saham bisa kehilangan uang yang dia setor, tapi nggak ikut menanggung utang perusahaan secara pribadi.",
@@ -69,7 +69,7 @@
       "h": "Harga yang dibayar orang Banda untuk monopoli pala VOC",
       "p": [
         "Hak VOC jauh melampaui hak perusahaan dagang. Anggaran dasarnya membolehkan VOC berperang, memenjarakan dan mengeksekusi orang, membuat perjanjian, mencetak koin sendiri, dan mendirikan koloni.",
-        "Pada 30 Mei 1619, Jan Pieterszoon Coen menyerbu Jayakarta dengan 19 kapal dan menjadikannya Batavia, markas VOC di Asia. Setelah itu Coen mengarahkan pasukannya ke Kepulauan Banda, pusat pala yang ingin dimonopoli VOC. Orang Banda waktu itu juga berdagang dengan Inggris serta pedagang Melayu, Jawa, dan Makassar, dan VOC ingin semua pala hanya dijual ke mereka.",
+        "Pada 30 Mei 1619, Jan Pieterszoon Coen menyerbu Jayakarta dengan 19 kapal dan menjadikannya Batavia, markas VOC di Asia. Setelah itu Coen mengarahkan pasukannya ke Kepulauan Banda, pusat pala yang ingin dimonopoli VOC. Orang Banda waktu itu juga berdagang dengan Inggris serta pedagang Melayu, Jawa, dan Makassar. VOC ingin semua pala hanya dijual ke mereka.",
         "Pulau Lontor jatuh pada Maret 1621. Pada 8 Mei 1621, 24 orang kaya, sebutan untuk para pemimpin setempat, dijatuhi hukuman mati dan dipenggal oleh tentara bayaran Jepang. Sedikitnya 789 orang kaya dan anggota keluarganya dibuang ke Batavia, dan banyak di antara mereka dijadikan budak.",
         "Sejarawan Loth dan Corn memperkirakan penduduk Banda sekitar 15.000 orang sebelum penaklukan, dan ==tinggal sekitar 1.000 sesudahnya==. Kebun pala lalu dikelola **perkenier**, pengusaha Belanda yang mempekerjakan budak dari luar Banda. Pada 1681, penduduk asli Banda yang tersisa tinggal 100 orang.",
         "Monopoli seperti ini bertahan lama, tapi nggak selamanya."
@@ -79,7 +79,7 @@
       "h": "VOC bangkrut tahun 1799, tapi cara kerjanya masih kamu pakai",
       "kind": "interpretasi",
       "p": [
-        "Antara 1602 dan 1796, hampir satu juta orang Eropa berlayar ke Asia dengan 4.785 kapal VOC. Skala sebesar itu runtuh pelan-pelan. Perang Inggris-Belanda Keempat yang pecah pada 1780 memangkas armadanya sampai separuh dan menelan biaya sampai 43 juta gulden, sampai kekayaan bersih VOC habis.",
+        "Antara 1602 dan 1796, hampir satu juta orang Eropa berlayar ke Asia dengan 4.785 kapal VOC. Skala sebesar itu runtuh pelan-pelan. Perang Inggris-Belanda Keempat yang pecah pada 1780 memangkas armadanya hingga separuh dan menelan biaya 43 juta gulden, hingga kekayaan bersih VOC habis.",
         "VOC bangkrut dan resmi dibubarkan pada 1799. Wilayah dan utangnya diambil alih Republik Batavia.",
         "Perusahaannya hilang, tapi idenya bertahan. Menurut Verwijmeren, punya saham berarti memiliki sepotong perusahaan, ikut menikmati untungnya, dan bisa menjualnya ke orang lain, sementara ruginya terbatas pada uang yang disetor. Jujurly, kalau kamu pernah check-out saham di aplikasi, kamu sedang memakai sistem yang dirintis VOC.",
         "Saham lahir untuk membagi risiko, supaya satu kapal yang tenggelam nggak menghancurkan satu keluarga. Dari VOC kita belajar bahwa ada risiko yang nggak pernah dibagi rata. Untungnya dicatat di buku besar Amsterdam, sedangkan harganya dibayar orang Banda."
@@ -87,10 +87,25 @@
     }
   ],
   "sources": [
-    { "t": "Wikipedia: Dutch East India Company", "u": "https://en.wikipedia.org/wiki/Dutch_East_India_Company" },
-    { "t": "Euronews: How a Dutch trading company started the world's first stock exchange", "u": "https://www.euronews.com/2025/04/13/how-a-dutch-trading-company-started-the-worlds-first-stock-exchange" },
-    { "t": "Erasmus University Rotterdam: Verwijmeren on why the first share was amazing news for the Netherlands", "u": "https://www.eur.nl/en/news/verwijmeren-why-first-share-was-amazing-news-netherlands" },
-    { "t": "Westfries Archief: The world's oldest share", "u": "https://westfriesarchief.nl/historie/thema-s/geld-en-handel/the-oldest-share" },
-    { "t": "Wikipedia: Dutch conquest of the Banda Islands", "u": "https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands" }
+    {
+      "t": "Wikipedia: Dutch East India Company",
+      "u": "https://en.wikipedia.org/wiki/Dutch_East_India_Company"
+    },
+    {
+      "t": "Euronews: How a Dutch trading company started the world's first stock exchange",
+      "u": "https://www.euronews.com/2025/04/13/how-a-dutch-trading-company-started-the-worlds-first-stock-exchange"
+    },
+    {
+      "t": "Erasmus University Rotterdam: Verwijmeren on why the first share was amazing news for the Netherlands",
+      "u": "https://www.eur.nl/en/news/verwijmeren-why-first-share-was-amazing-news-netherlands"
+    },
+    {
+      "t": "Westfries Archief: The world's oldest share",
+      "u": "https://westfriesarchief.nl/historie/thema-s/geld-en-handel/the-oldest-share"
+    },
+    {
+      "t": "Wikipedia: Dutch conquest of the Banda Islands",
+      "u": "https://en.wikipedia.org/wiki/Dutch_conquest_of_the_Banda_Islands"
+    }
   ]
 }

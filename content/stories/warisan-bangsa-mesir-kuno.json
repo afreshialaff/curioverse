@@ -2,15 +2,16 @@
   "id": "warisan-bangsa-mesir-kuno",
   "cat": "sejarah",
   "date": "2026-11-17",
+  "updated": "2026-11-25",
   "title": "Warisan Mesir kuno yang masih kamu pakai setiap hari",
-  "dek": "Tahun 365 hari, hari 24 jam, format catatan medis dokter, bahkan kata \"paper\" — semuanya berakar di tepi Sungai Nil ribuan tahun lalu. Ini warisan Mesir kuno yang terverifikasi, dipisahkan dari mitosnya.",
+  "dek": "Tahun 365 hari, hari 24 jam, format catatan medis dokter, bahkan kata \"paper\" — semuanya berakar di tepi Sungai Nil ribuan tahun lalu. Berikut warisan Mesir kuno yang terverifikasi, dipisahkan dari mitos-mitosnya.",
   "tags": "mesir kuno warisan kalender 365 hari 24 jam papirus ebers edwin smith rhind senet piramida sejarah",
   "hook": "Kalender yang kamu pakai hari ini berutang pada Mesir kuno: tahun 365 hari dan hari 24 jam sama-sama lahir di tepi Sungai Nil.",
   "path": "",
   "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/PEbers_c41-bc.jpg/1280px-PEbers_c41-bc.jpg",
     "alt": "Foto Papirus Ebers kolom 41, dokumen medis Mesir kuno berisi resep-resep pengobatan",
-    "caption": "Kolom 41 Papirus Ebers (sekitar 1550 SM), ensiklopedia obat Mesir kuno berisi 876 resep. Dokumen medis semacam inilah salah satu warisan Mesir yang formatnya masih hidup di kedokteran modern.",
+    "caption": "Kolom 41 Papirus Ebers (sekitar 1550 SM), ensiklopedia obat Mesir kuno berisi 876 resep. Format dokumen medis seperti inilah yang masih hidup di kedokteran modern.",
     "credit": "Einsamer Schütze / Photohound",
     "license": "CC BY-SA 3.0",
     "page": "https://commons.wikimedia.org/wiki/File:PEbers_c41-bc.jpg"
@@ -27,16 +28,16 @@
     {
       "h": "Tahun 365 hari dan hari 24 jam: dua hadiah dari tepi Sungai Nil",
       "p": [
-        "Kalender sipil Mesir membagi tahun menjadi 12 bulan berisi 30 hari, ditambah 5 hari ekstra di ujung tahun, total 365 hari. Kalender ini dibagi tiga musim mengikuti Sungai Nil: musim banjir, musim tanam, dan musim panen, dan sudah dipakai setidaknya sejak sekitar 2450 SM menurut Metropolitan Museum of Art. Lewat kalender Julian dan Gregorian, struktur tahun inilah yang akhirnya menjadi fondasi kalender yang dipakai dunia hari ini.",
-        "Ada satu kekurangan yang mereka biarkan selama ribuan tahun: tidak ada tahun kabisat. Karena tahun astronomis sebenarnya sedikit lebih panjang dari 365 hari, kalender mereka bergeser perlahan terhadap musim, sekitar seperempat hari per tahun. Mereka tahu Nil tidak menunggu kalender, dan kalender sipilnya tetap dipakai apa adanya.",
-        "Pembagian hari juga dari mereka: 24 jam, 12 jam siang dan 12 jam malam, dengan jam malam dihitung dari gerak gugus bintang yang disebut dekan melintasi langit. Sejak era Kerajaan Baru mereka memakai jam matahari, jam bayangan, dan jam air. Jam air tertua yang selamat adalah klepsydra alabaster dari Karnak pada masa Amenhotep III, yang interiornya punya 12 kolom skala jam, satu kolom per bulan.",
-        "Nuansa jujurnya: jam Mesir adalah jam musiman. Karena 12 jam selalu membagi rata waktu terang dan waktu gelap, satu jam siang di musim panas lebih panjang daripada satu jam siang di musim dingin. Mereka juga tidak mengenal menit dan detik. Bedanya dengan jam modern, jam mereka lentur mengikuti matahari, sedangkan jam kita kaku dan sama panjang sepanjang tahun, dan kekakuan itulah penyempurnaan era-era sesudahnya."
+        "Kalender sipil Mesir membagi tahun menjadi 12 bulan berisi 30 hari, ditambah 5 hari ekstra di ujung tahun, total 365 hari. Kalender ini dibagi tiga musim mengikuti Sungai Nil: musim banjir, musim tanam, dan musim panen. Menurut Metropolitan Museum of Art, kalender ini sudah dipakai setidaknya sejak sekitar 2450 SM. Lewat kalender Julian dan Gregorian, struktur tahun inilah yang akhirnya menjadi fondasi kalender dunia hari ini.",
+        "Ada satu kekurangan yang mereka biarkan selama ribuan tahun: tidak ada tahun kabisat. Karena tahun astronomis sebenarnya sedikit lebih panjang dari 365 hari, kalender mereka bergeser perlahan terhadap musim, sekitar seperempat hari per tahun. Tapi mereka membiarkannya saja: kalender sipil tetap dipakai apa adanya, meski makin lama makin bergeser dari musim.",
+        "Pembagian hari juga dari mereka: 24 jam, 12 jam siang dan 12 jam malam, dengan jam malam dihitung dari gerak gugus bintang yang disebut dekan melintasi langit. Sejak era Kerajaan Baru mereka memakai jam matahari, jam bayangan, dan jam air. Jam air tertua yang selamat adalah klepsydra alabaster dari Karnak pada masa Amenhotep III. Bagian dalamnya punya 12 kolom skala jam, satu kolom per bulan.",
+        "Nuansa jujurnya: jam Mesir adalah jam musiman. Karena 12 jam selalu membagi rata waktu terang dan waktu gelap, satu jam siang di musim panas lebih panjang daripada satu jam siang di musim dingin. Mereka juga tidak mengenal menit dan detik. Bedanya dengan jam modern: jam mereka lentur mengikuti matahari, sedangkan jam kita kaku, sama panjang sepanjang tahun. Jam yang kaku dan tetap itulah penyempurnaan dari era-era sesudahnya."
       ]
     },
     {
       "h": "Catatan medis dokter modern lahir di papirus berusia 3.600 tahun",
       "p": [
-        "Papirus Edwin Smith, yang ditulis sekitar abad ke-17 SM dari materi yang mungkin seribu tahun lebih tua, adalah dokumen bedah tertua di dunia yang diketahui. Isinya 48 kasus luka dan trauma, dan yang mengejutkan bukan obatnya, melainkan formatnya: setiap kasus ditulis dengan urutan tetap, deskripsi cedera, diagnosis, prognosis, pengobatan, lalu catatan penjelasan. Itu persis struktur catatan medis modern.",
+        "Papirus Edwin Smith ditulis sekitar abad ke-17 SM, dari materi yang mungkin seribu tahun lebih tua. Ini dokumen bedah tertua di dunia yang diketahui. Isinya 48 kasus luka dan trauma, dan yang mengejutkan bukan obatnya, melainkan formatnya: setiap kasus ditulis dengan urutan tetap, deskripsi cedera, diagnosis, prognosis, pengobatan, lalu catatan penjelasan. Itu persis struktur catatan medis modern.",
         "National Library of Medicine Amerika mencatat teks ini nyaris sepenuhnya rasional, hanya memuat satu mantra, dan menunjukkan pemahaman cedera berbasis anatomi yang bisa diamati. Isinya mencakup jahitan luka, madu untuk infeksi, dan belat untuk patah tulang.",
         "Saudara mudanya, Papirus Ebers dari sekitar 1550 SM, adalah ensiklopedia obat: 876 resep dari 328 bahan, mencakup mata, pencernaan, kulit, gigi, sampai bagian pendek tentang kejiwaan. Herodotus, penulis Yunani abad ke-5 SM, bahkan mencatat dokter Mesir sudah berspesialisasi, ada dokter mata, dokter gigi, dokter perut. Jujurly, kedokteran mereka tetap mencampur obat herbal dan mantra tanpa dikotomi tegas. Mereka bukan saintis modern, tapi mereka yang pertama menulis kedokteran sebagai sistem yang bisa diajarkan."
       ]
@@ -44,8 +45,8 @@
     {
       "h": "Buku soal matematika dari 1550 SM yang isinya soal piramida dan bagi-bagi roti",
       "p": [
-        "Papirus Rhind, disalin juru tulis Ahmose sekitar 1550 SM, adalah buku teks matematika berisi 84 soal. Soal 56 mengajarkan menghitung *seked*, kemiringan sisi piramida, semacam trigonometri praktis versi Mesir yang memakai rasio, bukan sudut. Soal lain membandingkan luas lingkaran dengan bujur sangkar di sekelilingnya dan menghasilkan pendekatan nilai pi sekitar 3,16 menurut hitungan modern, cukup akurat untuk zamannya, meski mereka tidak mengenal pi sebagai konstanta abstrak.",
-        "Soal-soalnya sangat membumi: membagi 100 roti untuk dua kelompok pekerja dengan jatah berbeda menurut pangkat, menghitung volume lumbung, mengukur tanah. Matematika bagi Mesir bukan filsafat, melainkan infrastruktur negara: juru tulis yang jumlahnya hanya sekitar satu persen populasi memakai hitungan ini untuk menjalankan ekonomi ransum roti dan bir, upah standar masa itu.",
+        "Papirus Rhind, disalin juru tulis Ahmose sekitar 1550 SM, adalah buku teks matematika berisi 84 soal. Soal 56 mengajarkan menghitung *seked*, kemiringan sisi piramida, semacam trigonometri praktis versi Mesir yang memakai rasio, bukan sudut. Soal lain membandingkan luas lingkaran dengan bujur sangkar di sekelilingnya. Hasilnya adalah pendekatan nilai pi sekitar 3,16 menurut hitungan modern — cukup akurat untuk zamannya, meski mereka tidak mengenal pi sebagai konstanta abstrak.",
+        "Soal-soalnya sangat membumi: membagi 100 roti untuk dua kelompok pekerja dengan jatah berbeda menurut pangkat, menghitung volume lumbung, mengukur tanah. Matematika bagi Mesir bukan filsafat, melainkan infrastruktur negara: juru tulis yang jumlahnya hanya sekitar satu persen populasi memakai hitungan ini untuk menjalankan ekonomi negara, yang upah standarnya dibayar dengan ransum roti dan bir.",
         "Kata Herodotus, geometri lahir karena banjir Nil menghapus batas ladang setiap tahun sehingga tanah harus diukur ulang. Itu kesaksian penulis kuno, bukan fakta terdokumentasi, tapi praktik ukur tanahnya sendiri nyata dan soal-soal geometri praktisnya ada di papirus ini."
       ],
       "img": {
@@ -60,9 +61,9 @@
     {
       "h": "Papirus dipakai 4.000 tahun, dan namanya hidup di kata \"paper\"",
       "p": [
-        "Media tulis Mesir terbuat dari empulur batang tanaman papirus yang diiris tipis, disusun dua lapis tegak lurus, dan dipres tanpa perekat. Gulungan tertua yang diketahui berasal dari sekitar 2900 SM, dan papirus terus dipakai sampai abad ke-11 Masehi, sekitar 4.000 tahun, untuk dokumen Mesir, Yunani, Latin, sampai Arab. Dokumen papirus tertua yang berupa catatan adalah buku harian Merer dari sekitar 2560 SM, logistik pembangunan Piramida Agung Khufu, ditulis oleh orang yang ikut mengangkut batunya.",
+        "Media tulis Mesir terbuat dari empulur batang tanaman papirus yang diiris tipis, disusun dua lapis tegak lurus, dan dipres tanpa perekat. Gulungan tertua yang diketahui berasal dari sekitar 2900 SM, dan papirus terus dipakai sampai abad ke-11 Masehi, sekitar 4.000 tahun, untuk dokumen Mesir, Yunani, Latin, sampai Arab. Catatan papirus tertua yang diketahui adalah buku harian Merer dari sekitar 2560 SM. Isinya logistik pembangunan Piramida Agung Khufu, ditulis oleh orang yang ikut mengangkut batunya.",
         "Nama medianya tidak ikut mati. Kata *paper* dalam bahasa Inggris, dan kerabatnya di banyak bahasa Eropa, berakar dari kata papirus. Kertas sejati sendiri ditemukan di Tiongkok, itu kredit yang berbeda, tapi kata yang kita pakai untuk menyebutnya adalah warisan Mesir. Dari papirus juga lahir tinta karbon hitam dan oker merah, serta pigmen biru Mesir, pigmen sintetis tertua yang diketahui.",
-        "Satu warisan kecil yang masih dipakai di wajah banyak orang: *kohl*, eyeliner hitam dari mineral galena. Studi tahun 2010 di jurnal Analytical Chemistry menganalisis 52 wadah kohl koleksi Louvre dan menemukan senyawa timbal klorida yang disintesis sengaja, dan uji sel menunjukkan senyawa itu memicu respons antibakteri. Labelnya wajib jelas: itu temuan laboratorium modern soal potensi efeknya, bukan bukti orang Mesir paham imunologi, dan timbal tetap beracun, jadi kohl tradisional masa kini bukan obat yang aman. Untuk kaca, kreditnya juga harus dibagi: kaca buatan tertua muncul sekitar 4.000 tahun lalu di Mesopotamia dan Mesir sekaligus, dengan Mesir ahli membuat botol parfum lewat teknik inti yang dilapisi kaca leleh."
+        "Satu warisan kecil yang masih dipakai di wajah banyak orang: *kohl*, eyeliner hitam dari mineral galena. Studi tahun 2010 di jurnal Analytical Chemistry menganalisis 52 wadah kohl koleksi Louvre dan menemukan senyawa timbal klorida yang disintesis dengan sengaja. Uji sel menunjukkan senyawa itu memicu respons antibakteri. Labelnya wajib jelas: itu temuan laboratorium modern soal potensi efeknya, bukan bukti orang Mesir paham imunologi. Dan timbal tetap beracun, jadi kohl tradisional masa kini bukan obat yang aman. Untuk kaca, kreditnya juga harus dibagi: kaca buatan tertua muncul sekitar 4.000 tahun lalu di Mesopotamia dan Mesir sekaligus. Mesir terutama ahli membuat botol parfum, dengan membentuk inti lalu melapisinya dengan kaca leleh."
       ]
     },
     {
@@ -84,7 +85,7 @@
     {
       "h": "Mitos vs fakta: budak piramida, baterai Baghdad, dan rasio emas",
       "p": [
-        "**Mitos:** piramida dibangun budak yang dicambuk. **Fakta:** bukti terbaik menunjukkan pembangunnya penduduk lokal Mesir yang terorganisasi dalam regu kerja, diberi makan sangat baik dan dibayar dengan ransum. Pada 1990 ditemukan makam para pekerja persis di dekat piramida, lengkap bekal roti dan bir untuk akhirat, perlakuan yang tidak diberikan kepada budak. Di kota pekerja Heit el-Ghurab ditemukan sisa daging dalam jumlah besar, dan di blok-blok tersembunyi piramida ada grafiti nama regu yang bangga, misalnya Regu Pemabuk Menkaure. Mitos budaknya datang dari tulisan Herodotus yang hidup dua ribu tahun sesudahnya, lalu diperkuat film-film Hollywood. Nuansanya: sebagian pekerja mungkin menjalani giliran kerja wajib negara, semacam pajak tenaga, tapi itu jauh dari gambaran budak cambukan ala film.",
+        "**Mitos:** piramida dibangun budak yang dicambuk. **Fakta:** bukti terbaik menunjukkan pembangunnya penduduk lokal Mesir yang terorganisasi dalam regu kerja, diberi makan sangat baik dan dibayar dengan ransum. Pada 1990 ditemukan makam para pekerja persis di dekat piramida, lengkap bekal roti dan bir untuk akhirat, perlakuan yang tidak diberikan kepada budak. Di kota pekerja Heit el-Ghurab ditemukan sisa daging dalam jumlah besar, dan di blok-blok tersembunyi piramida ada grafiti berisi nama-nama regu yang dibanggakan, misalnya Regu Pemabuk Menkaure. Mitos budaknya datang dari tulisan Herodotus yang hidup dua ribu tahun sesudahnya, lalu diperkuat film-film Hollywood. Nuansanya: sebagian pekerja mungkin menjalani giliran kerja wajib negara, semacam pajak tenaga, tapi itu jauh dari gambaran budak cambukan ala film.",
         "**Mitos:** orang Mesir punya baterai listrik, merujuk artefak Baghdad Battery. **Fakta:** artefak itu berasal dari Irak era Partia atau Sasania, bukan Mesir, dan teori baterainya ditolak para arkeolog. Relief \"lampu listrik\" di kuil Dendera juga bukan lampu; itu ikonografi mitologi penciptaan.",
         "**Mitos:** piramida menyembunyikan angka pi dan rasio emas sebagai pengetahuan rahasia. **Fakta:** angka-angka yang mirip itu muncul sebagai kebetulan numerik dari rasio kemiringan seked yang mereka pakai, bukan dari konstanta yang mereka kenal. Matematika Mesir cukup mengesankan tanpa perlu dibumbui kode rahasia."
       ]
