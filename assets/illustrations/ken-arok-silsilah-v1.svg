@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Silsilah dendam wangsa Rajasa menurut Pararaton: dari Ken Arok dan Ken Dedes sampai Kertanagara dan Raden Wijaya</title>
+<desc id="d">Diagram silsilah: Ken Dedes mempunyai Anusapati dari Tunggul Ametung, dan Tohjaya adalah putra Ken Arok dari Ken Umang. Anusapati membunuh Ken Arok untuk membalas ayah kandungnya; Tohjaya membunuh Anusapati untuk membalas Ken Arok. Garis berlanjut ke Wisnuwardhana, Kertanagara, dan Raden Wijaya pendiri Majapahit.</desc>
+<style>
+  .bg{fill:#0B1450}.panel{fill:#111B63;stroke:#EFE4C6;stroke-opacity:.25}
+  .ttl{font:700 30px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .sub{font:400 19px 'Inter Tight',sans-serif;fill:#C9D2F5}
+  .box{fill:#1B2A7A;stroke:#7C8BD9;stroke-width:2}
+  .boxred{fill:#3A1030;stroke:#F0505A;stroke-width:2}
+  .name{font:700 23px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .role{font:400 17px 'Inter Tight',sans-serif;fill:#C9D2F5}
+  .link{stroke:#7C8BD9;stroke-width:3}
+  .revenge{stroke:#F0505A;stroke-width:3;stroke-dasharray:8 6;fill:none;marker-end:url(#arr)}
+  .revlab{font:700 17px 'Inter Tight',sans-serif;fill:#F0505A}
+</style>
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#F0505A"/></marker></defs>
+<rect class="bg" width="1200" height="675"/>
+<rect class="panel" x="30" y="30" width="1140" height="615" rx="22"/>
+<text class="ttl" x="70" y="90">SILSILAH DENDAM WANGSA RAJASA</text>
+<text class="sub" x="70" y="122">Menurut Pararaton. Panah merah = membunuh untuk membalas kematian ayahnya.</text>
+<rect class="boxred" x="80" y="155" width="300" height="86" rx="14"/>
+<text class="name" x="105" y="193">TUNGGUL AMETUNG</text><text class="role" x="105" y="221">akuwu Tumapel, terbunuh</text>
+<rect class="box" x="450" y="155" width="300" height="86" rx="14"/>
+<text class="name" x="475" y="193">KEN DEDES</text><text class="role" x="475" y="221">istri dua penguasa berturut-turut</text>
+<rect class="boxred" x="820" y="155" width="300" height="86" rx="14"/>
+<text class="name" x="845" y="193">KEN AROK</text><text class="role" x="845" y="221">pendiri wangsa, terbunuh</text>
+<line class="link" x1="380" y1="198" x2="450" y2="198"/><line class="link" x1="750" y1="198" x2="820" y2="198"/>
+<line class="link" x1="280" y1="241" x2="280" y2="290"/><line class="link" x1="280" y1="290" x2="430" y2="290"/><line class="link" x1="430" y1="290" x2="430" y2="330"/>
+<rect class="boxred" x="280" y="330" width="300" height="86" rx="14"/>
+<text class="name" x="305" y="368">ANUSAPATI</text><text class="role" x="305" y="396">raja ke-2, terbunuh</text>
+<rect class="boxred" x="700" y="330" width="320" height="86" rx="14"/>
+<text class="name" x="725" y="368">TOHJAYA</text><text class="role" x="725" y="396">putra Ken Arok &amp; Ken Umang</text>
+<path class="revenge" d="M580,350 C700,320 800,280 880,245"/>
+<text class="revlab" x="610" y="295">Anusapati membunuh Ken Arok</text>
+<path class="revenge" d="M700,395 C640,415 620,405 585,390"/>
+<text class="revlab" x="560" y="455">Tohjaya membunuh Anusapati</text>
+<line class="link" x1="430" y1="416" x2="430" y2="505"/>
+<rect class="box" x="240" y="505" width="380" height="86" rx="14"/>
+<text class="name" x="265" y="543">WISNUWARDHANA</text><text class="role" x="265" y="571">putra Anusapati, kerajaan menyatu lagi</text>
+<line class="link" x1="620" y1="548" x2="700" y2="548"/>
+<rect class="box" x="700" y="505" width="420" height="86" rx="14"/>
+<text class="name" x="725" y="543">KERTANAGARA → RADEN WIJAYA</text><text class="role" x="725" y="571">Singhasari terbesar, lalu Majapahit lahir</text>
+<text class="sub" x="70" y="638">Dendamnya berantai tiga generasi — tapi wangsa ini justru bertahan dan membesar, bukan punah oleh kutukan.</text>
+</svg>

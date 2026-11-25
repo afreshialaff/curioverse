@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Peta skematis Jawa Timur awal abad ke-13: Kadiri di barat, Tumapel di timur, dan Ganter di antara keduanya</title>
+<desc id="d">Peta skematis bukan skala: Kerajaan Kadiri di barat, daerah bawahan Tumapel di timur dekat pegunungan, Sungai Brantas mengalir di antara keduanya, dan Ganter sebagai lokasi pertempuran tahun 1222 menurut Pararaton.</desc>
+<style>
+  .bg{fill:#0B1450}.panel{fill:#111B63;stroke:#EFE4C6;stroke-opacity:.25}
+  .ttl{font:700 30px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .sub{font:400 19px 'Inter Tight',sans-serif;fill:#C9D2F5}
+  .land{fill:#1B2A7A;stroke:#7C8BD9;stroke-width:2;stroke-opacity:.7}
+  .river{stroke:#6FB7E8;stroke-width:6;fill:none;stroke-linecap:round;stroke-opacity:.85}
+  .city{fill:#F0505A;stroke:#EFE4C6;stroke-width:3}
+  .city2{fill:#E8B84A;stroke:#EFE4C6;stroke-width:3}
+  .lab{font:700 26px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .sm{font:400 18px 'Inter Tight',sans-serif;fill:#C9D2F5}
+  .mt{fill:#2A3C9A}
+  .route{stroke:#E8B84A;stroke-width:4;stroke-dasharray:10 8;fill:none}
+</style>
+<rect class="bg" width="1200" height="675"/>
+<rect class="panel" x="30" y="30" width="1140" height="615" rx="22"/>
+<text class="ttl" x="70" y="90">JAWA TIMUR, AWAL ABAD KE-13</text>
+<text class="sub" x="70" y="122">Peta skematis, bukan skala persis — posisi mengikuti keterangan Pararaton dan letak modern.</text>
+<path class="land" d="M90,470 L90,300 Q200,220 380,240 L640,200 Q900,170 1080,250 L1110,470 Q900,540 600,520 Q300,545 90,470 Z"/>
+<path class="river" d="M180,520 Q420,420 560,400 Q760,375 1010,300"/>
+<text class="sm" x="600" y="440" fill="#6FB7E8">Sungai Brantas</text>
+<polygon class="mt" points="880,300 940,190 1000,300"/><polygon class="mt" points="960,310 1015,215 1070,310"/>
+<text class="sm" x="905" y="345">pegunungan timur</text>
+<line class="route" x1="330" y1="330" x2="830" y2="320"/>
+<circle class="city" cx="300" cy="330" r="14"/>
+<text class="lab" x="205" y="300">KADIRI</text>
+<text class="sm" x="180" y="385">kerajaan induk,</text><text class="sm" x="180" y="408">Raja Kertajaya</text>
+<circle class="city2" cx="590" cy="325" r="11"/>
+<text class="lab" x="520" y="290">GANTER</text>
+<text class="sm" x="480" y="375">pertempuran 1222</text>
+<circle class="city" cx="880" cy="330" r="14"/>
+<text class="lab" x="800" y="300">TUMAPEL</text>
+<text class="sm" x="770" y="385">daerah bawahan Kadiri,</text><text class="sm" x="770" y="408">tanah Ken Arok</text>
+<text class="sub" x="70" y="600">Garis putus-putus kuning: arah penaklukan Tumapel ke barat pada 1222. Lokasi persis Ganter masih diperdebatkan sejarawan.</text>
+</svg>

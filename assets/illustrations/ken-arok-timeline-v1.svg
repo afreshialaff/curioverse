@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Garis waktu kisah Ken Arok: dari Pertempuran Ganter 1222 sampai edisi ilmiah Pararaton 1896</title>
+<desc id="d">Garis waktu: 1222 Pertempuran Ganter dan Tumapel berdiri; 1227 Ken Arok wafat menurut Nagarakertagama (Pararaton menulis 1247); 1292 Singhasari runtuh; 1365 Nagarakertagama ditulis tanpa menyebut keris; sekitar 1600 kolofon tertua Pararaton; 1896 edisi ilmiah Pararaton oleh Brandes; 1978 arca Prajnaparamita pulang ke Indonesia.</desc>
+<style>
+  .bg{fill:#0B1450}.panel{fill:#111B63;stroke:#EFE4C6;stroke-opacity:.25}
+  .ttl{font:700 30px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .sub{font:400 19px 'Inter Tight',sans-serif;fill:#C9D2F5}
+  .axis{stroke:#7C8BD9;stroke-width:3}
+  .dot{fill:#F0505A;stroke:#EFE4C6;stroke-width:3}
+  .dot2{fill:#E8B84A;stroke:#EFE4C6;stroke-width:3}
+  .yr{font:700 26px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .ev{font:400 18px 'Inter Tight',sans-serif;fill:#C9D2F5}
+</style>
+<rect class="bg" width="1200" height="675"/>
+<rect class="panel" x="30" y="30" width="1140" height="615" rx="22"/>
+<text class="ttl" x="70" y="90">DELAPAN ABAD KISAH KEN AROK</text>
+<text class="sub" x="70" y="122">Merah = peristiwa dalam cerita. Kuning = kitab dan artefaknya ditulis/ditemukan.</text>
+<line class="axis" x1="90" y1="350" x2="1110" y2="350"/>
+<circle class="dot" cx="140" cy="350" r="11"/><circle class="dot" cx="330" cy="350" r="11"/><circle class="dot" cx="500" cy="350" r="11"/><circle class="dot2" cx="660" cy="350" r="11"/><circle class="dot2" cx="830" cy="350" r="11"/><circle class="dot2" cx="1010" cy="350" r="11"/>
+<text class="yr" x="95" y="290">1222</text><text class="ev" x="95" y="262">Ganter:</text><text class="ev" x="95" y="238">Kadiri runtuh,</text><text class="ev" x="95" y="214">Tumapel berdiri</text>
+<text class="yr" x="270" y="420">1227 / 1247</text><text class="ev" x="270" y="448">Ken Arok wafat —</text><text class="ev" x="270" y="472">dua kitab beda 20 tahun</text>
+<text class="yr" x="455" y="290">1292</text><text class="ev" x="455" y="262">Singhasari runtuh</text><text class="ev" x="455" y="238">oleh Jayakatwang</text>
+<text class="yr" x="600" y="420">1365</text><text class="ev" x="600" y="448">Nagarakertagama ditulis,</text><text class="ev" x="600" y="472">tanpa satu kata soal keris</text>
+<text class="yr" x="775" y="290">±1600</text><text class="ev" x="775" y="262">Kolofon tertua</text><text class="ev" x="775" y="238">naskah Pararaton</text>
+<text class="yr" x="950" y="420">1896</text><text class="ev" x="950" y="448">Brandes menerbitkan</text><text class="ev" x="950" y="472">edisi ilmiah Pararaton</text>
+<text class="sub" x="70" y="600">Jarak peristiwa ke penulisan kitabnya: hampir 400 tahun. Itulah kenapa cerita ini dibaca sebagai legenda berlapis fakta, bukan laporan berita.</text>
+</svg>

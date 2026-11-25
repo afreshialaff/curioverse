@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+<title id="t">Diagram siasat Kebo Ijo menurut Pararaton dalam tiga langkah</title>
+<desc id="d">Tiga langkah siasat Ken Arok: pertama meminjamkan keris Mpu Gandring kepada Kebo Ijo yang gemar memamerkannya sehingga semua orang mengira keris itu milik Kebo Ijo; kedua mencuri kembali keris itu malam hari dan membunuh Tunggul Ametung; ketiga meninggalkan keris tertancap di tempat kejadian sehingga Kebo Ijo ditangkap dan dihukum mati.</desc>
+<style>
+  .bg{fill:#0B1450}.panel{fill:#111B63;stroke:#EFE4C6;stroke-opacity:.25}
+  .ttl{font:700 30px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .sub{font:400 19px 'Inter Tight',sans-serif;fill:#C9D2F5}
+  .box{fill:#1B2A7A;stroke:#7C8BD9;stroke-width:2}
+  .num{font:700 44px 'Inter Tight',sans-serif;fill:#F0505A}
+  .head{font:700 24px 'Inter Tight',sans-serif;fill:#EFE4C6}
+  .txt{font:400 19px 'Inter Tight',sans-serif;fill:#C9D2F5}
+  .arr{stroke:#E8B84A;stroke-width:4;fill:none;marker-end:url(#a)}
+</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#E8B84A"/></marker></defs>
+<rect class="bg" width="1200" height="675"/>
+<rect class="panel" x="30" y="30" width="1140" height="615" rx="22"/>
+<text class="ttl" x="70" y="92">SIASAT KEBO IJO DALAM 3 LANGKAH</text>
+<text class="sub" x="70" y="124">Menurut Pararaton — satu keris, dua pembunuhan, satu kambing hitam.</text>
+<rect class="box" x="70" y="180" width="320" height="330" rx="18"/>
+<text class="num" x="100" y="248">1</text>
+<text class="head" x="100" y="292">PINJAMKAN</text>
+<text class="txt" x="100" y="330">Keris Mpu Gandring</text><text class="txt" x="100" y="356">dipinjamkan ke Kebo Ijo,</text><text class="txt" x="100" y="382">pengawal yang gemar</text><text class="txt" x="100" y="408">mengoleksi &amp; memamerkan</text><text class="txt" x="100" y="434">keris ke mana-mana.</text>
+<text class="txt" x="100" y="478">Semua orang jadi mengira</text><text class="txt" x="100" y="504">keris itu milik Kebo Ijo.</text>
+<path class="arr" d="M400,345 L445,345"/>
+<rect class="box" x="455" y="180" width="320" height="330" rx="18"/>
+<text class="num" x="485" y="248">2</text>
+<text class="head" x="485" y="292">AMBIL LAGI, MALAM HARI</text>
+<text class="txt" x="485" y="330">Saat Kebo Ijo tertidur,</text><text class="txt" x="485" y="356">keris dicuri kembali,</text><text class="txt" x="485" y="382">lalu Tunggul Ametung</text><text class="txt" x="485" y="408">dibunuh di tempat</text><text class="txt" x="485" y="434">tidurnya.</text>
+<path class="arr" d="M785,345 L830,345"/>
+<rect class="box" x="840" y="180" width="320" height="330" rx="18"/>
+<text class="num" x="870" y="248">3</text>
+<text class="head" x="870" y="292">TINGGALKAN BUKTINYA</text>
+<text class="txt" x="870" y="330">Keris ditinggal tertancap</text><text class="txt" x="870" y="356">di tempat kejadian.</text><text class="txt" x="870" y="382">Kebo Ijo ditangkap &amp;</text><text class="txt" x="870" y="408">dihukum mati — dieksekusi</text><text class="txt" x="870" y="434">oleh Ken Arok sendiri.</text>
+<text class="sub" x="70" y="580">Hasilnya: penguasa lama hilang, saksi kunci hilang secara sah, dan Ken Arok tampil sebagai abdi paling setia.</text>
+<text class="sub" x="70" y="612">Ilustrasi skematis Curioverse berdasarkan kisah Pararaton.</text>
+</svg>

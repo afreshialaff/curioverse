@@ -2,9 +2,9 @@
   "id": "keris-mpu-gandring-dan-perebutan-tahta",
   "cat": "sejarah",
   "date": "2026-11-23",
-  "title": "Keris Mpu Gandring: kutukan tujuh turunan yang korbannya cuma enam",
-  "dek": "Pararaton bercerita tentang sebilah keris yang membunuh pembuatnya, seorang penguasa, sampai dua raja. Tapi kitab yang sama tidak pernah menuntaskan hitungan kutukannya sendiri.",
-  "tags": "keris mpu gandring ken arok singhasari tumapel pararaton ken dedes tunggul ametung kebo ijo anusapati kutukan sejarah jawa",
+  "title": "Ken Arok: penjahat yang jadi raja, dan keris terkutuk yang memburu turunannya",
+  "dek": "Dari pengawal rendahan, Ken Arok merebut takhta Tumapel memakai sebilah keris setengah jadi dan satu kambing hitam. Pararaton bilang keris itu mengutuk tujuh turunannya — tapi hitungan kitab itu sendiri berhenti di enam.",
+  "tags": "ken arok keris mpu gandring singhasari singosari tumapel pararaton ken dedes tunggul ametung kebo ijo anusapati kertanagara kutukan sejarah jawa",
   "hook": "Pararaton bilang keris Mpu Gandring mengutuk tujuh turunan Ken Arok, tapi di kitab yang sama cuma enam orang yang tewas oleh keris itu.",
   "path": "",
   "image": {
@@ -17,54 +17,108 @@
   },
   "sections": [
     {
-      "h": "Kutukan paling terkenal di Jawa, yang hitungannya tidak pernah genap",
+      "h": "Prolog: kutukan paling terkenal di Jawa, yang hitungannya tidak pernah genap",
       "p": [
         "Ada satu kutukan yang hampir semua orang Indonesia pernah dengar versinya: Mpu Gandring, pandai besi yang dibunuh dengan keris buatannya sendiri, bersumpah keris itu akan membunuh Ken Arok dan tujuh turunannya. Kedengarannya rapi, seperti ramalan yang tinggal menunggu waktu.",
         "Masalahnya, kalau kitab sumbernya dibaca sampai selesai, hitungannya tidak pernah sampai tujuh. Korban keris itu di dalam *Pararaton* sendiri cuma ==enam orang==, dan orang berikutnya dalam daftar dendam justru wafat oleh tombak, bukan oleh keris.",
         "Artikel ini menceritakan dua hal sekaligus: kisah perebutan takhta paling berdarah di Jawa abad ke-13 versi *Pararaton*, dan apa yang benar-benar bisa dibuktikan dari prasasti serta kitab sezaman. Karena dua hal itu ternyata tidak selalu sama, dan perbedaan keduanya justru bagian paling menariknya."
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/keris-mpu-gandring-rantai-v1.svg",
+        "alt": "Diagram rantai enam korban keris Mpu Gandring menurut Pararaton: Mpu Gandring, Tunggul Ametung, Kebo Ijo, Ken Arok, Ki Pengalasan, dan Anusapati, dengan catatan Tohjaya wafat oleh tombak",
+        "caption": "Rantai korban keris Mpu Gandring menurut Pararaton. Kutukannya menyebut tujuh turunan, tapi hitungan di kitab itu sendiri berhenti di enam — dan artikel ini akan mengajakmu menghitungnya sambil mengikuti ceritanya dari awal.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/keris-mpu-gandring-rantai-v1.svg"
+      }
     },
     {
-      "h": "Panggungnya: Tumapel, daerah bawahan yang melahirkan wangsa raja",
+      "h": "Episode 1: Ken Arok sebelum jadi raja — penjahat yang menyusup jadi pengawal",
       "p": [
         "Di awal abad ke-13, Tumapel hanyalah daerah bawahan Kerajaan Kadiri di Jawa Timur, dipimpin seorang *akuwu* atau penguasa daerah bernama Tunggul Ametung. Atasannya adalah Kertajaya, raja terakhir Kadiri.",
         "Menurut *Pararaton*, di istana kecil itulah bekerja seorang pengawal muda bernama Ken Arok. Latar belakangnya jauh dari istana: kitab itu mengisahkannya sebagai mantan penjahat yang dibimbing brahmana Lohgawe sampai bisa masuk jadi pengawal akuwu.",
-        "Konfliknya bermula dari istri sang akuwu, Ken Dedes. *Pararaton* bercerita Ken Arok tidak sengaja melihat cahaya bersinar dari tubuh Ken Dedes, dan brahmana Lohgawe menafsirkannya sebagai tanda bahwa perempuan itu akan melahirkan wangsa raja, dan siapa pun yang memperistrinya akan menjadi raja.",
-        "Sejak itu, kata kitab tersebut, Ken Arok menginginkan dua hal sekaligus: Ken Dedes dan takhta di atasnya. Untuk langkah pertama, dia membutuhkan senjata yang cukup sakti, dan nama yang dia datangi adalah seorang empu terkenal bernama Mpu Gandring.",
-        "Bagian asal-usul dan cahaya ini perlu dibaca sebagai perangkat sastra *Pararaton*, bukan laporan peristiwa. Raja yang naik dari rakyat jelata memang lazim diberi asal-usul luar biasa oleh pendongeng istana, supaya kekuasaannya terlihat ditakdirkan."
-      ]
+        "Kedengarannya seperti awal dongeng, dan memang begitulah kitab ini menyusunnya. Raja yang naik dari rakyat jelata lazim diberi asal-usul luar biasa oleh pendongeng istana, supaya kekuasaannya terlihat ditakdirkan, bukan direbut. Jadi baca bagian asal-usul ini sebagai panggung sastra *Pararaton*, bukan laporan peristiwa — karena pertunjukan sebenarnya baru dimulai ketika Ken Arok melihat sesuatu yang tidak seharusnya dia lihat."
+      ],
+      "img": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/KITLV_A94_-_Raksasa_in_het_tempelcomplex_te_Singosari_bij_Malang%2C_KITLV_82644.tif/lossy-page1-1280px-KITLV_A94_-_Raksasa_in_het_tempelcomplex_te_Singosari_bij_Malang%2C_KITLV_82644.tif.jpg",
+        "alt": "Foto sebelum tahun 1880 dari arca dvarapala raksasa di kompleks Singosari dekat Malang: penjaga batu monolit setinggi sekitar 3,7 meter",
+        "caption": "Arca dvarapala raksasa penjaga kompleks Singosari, difoto sebelum 1880. Penjaga batu setinggi sekitar 3,7 meter ini berasal dari era Singhasari yang didirikan Ken Arok — dunia para pengawal istana seperti dirinya memang dijaga sosok-sosok sebesar ini.",
+        "credit": "Salzwedel, H. (KITLV / Leiden University Libraries)",
+        "license": "CC BY",
+        "page": "https://commons.wikimedia.org/wiki/File:KITLV_A94_-_Raksasa_in_het_tempelcomplex_te_Singosari_bij_Malang,_KITLV_82644.tif"
+      }
     },
     {
-      "h": "Keris yang belum jadi, empu yang dibunuh ciptaannya sendiri",
+      "h": "Episode 2: Cahaya Ken Dedes — satu momen yang mengubah segalanya",
+      "p": [
+        "Konfliknya bermula dari istri sang akuwu, Ken Dedes. *Pararaton* bercerita Ken Arok tidak sengaja melihat cahaya bersinar dari tubuh Ken Dedes, dan brahmana Lohgawe menafsirkannya sebagai tanda bahwa perempuan itu akan melahirkan wangsa raja, dan siapa pun yang memperistrinya akan menjadi raja.",
+        "Sejak itu, kata kitab tersebut, Ken Arok menginginkan dua hal sekaligus: Ken Dedes dan takhta di atasnya. Untuk langkah pertama, dia membutuhkan senjata yang cukup sakti, dan nama yang dia datangi adalah seorang empu terkenal bernama Mpu Gandring.",
+        "Dua keinginan itu saling mengunci dengan cara yang berbahaya. Merebut Ken Dedes berarti menyingkirkan Tunggul Ametung, dan menyingkirkan seorang penguasa tidak bisa dilakukan dengan tangan kosong. Ken Arok membutuhkan senjata yang cukup sakti, dan nama yang dia datangi adalah seorang empu terkenal dari desa Gandring. Dari sinilah keris paling terkenal dalam sejarah Jawa mulai ditempa — dan masalahnya dimulai bahkan sebelum keris itu selesai."
+      ],
+      "img": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/039_Parthayajna_Story_%2826557580818%29.jpg/1280px-039_Parthayajna_Story_%2826557580818%29.jpg",
+        "alt": "Relief batu Candi Jago yang memahat adegan wiracarita Parthayajna dengan barisan tokoh dan hewan",
+        "caption": "Relief wiracarita di Candi Jago, candi peringatan era Singhasari di Tumpang, Malang. Bukan adegan Ken Arok — relief ini menunjukkan kebiasaan era itu memahat kisah besar di batu, cara yang sama yang membuat cerita-cerita istana Jawa awet berabad-abad.",
+        "credit": "Anandajoti Bhikkhu",
+        "license": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:039_Parthayajna_Story_(26557580818).jpg"
+      }
+    },
+    {
+      "h": "Episode 3: Keris yang belum jadi, empu yang dibunuh ciptaannya sendiri",
       "p": [
         "Versi *Pararaton* yang paling sering dikutip berjalan begini: Mpu Gandring meminta waktu pengerjaan yang panjang, sampai satu tahun, karena keris pusaka tidak dibuat seperti pisau dapur. Ada ritual, pemilihan bahan, dan lipatan logam yang tidak bisa diburu-buru.",
         "Ken Arok berjanji datang setelah lima bulan. Dia benar-benar datang pada bulan kelima, dan mendapati kerisnya baru setengah jadi, bilahnya sudah berbentuk tapi belum selesai ditempa dan belum diberi sarung yang layak.",
         "Di titik ini kesabaran Ken Arok habis. Dia merebut keris setengah jadi itu, dan menurut cerita, keris itu sempat dia uji sampai membelah lumpang batu di bengkel sang empu.",
         "Lalu dia menikam Mpu Gandring dengan keris buatannya sendiri. Sebelum wafat, sang empu mengucapkan kutukannya: keris yang belum selesai itu akan membunuh Ken Arok dan tujuh turunannya sekalian.",
         "Detail yang sering hilang dari cerita populer: keris ini tidak pernah selesai. Senjata yang akan membunuh raja-raja itu, dalam kisahnya sendiri, adalah barang setengah jadi yang direbut paksa dari tangan pembuatnya."
-      ]
+      ],
+      "img": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Kris_MET_LC-36_25_1114-001.jpg/1280px-Kris_MET_LC-36_25_1114-001.jpg",
+        "alt": "Keris Jawa koleksi Metropolitan Museum of Art dengan bilah baja dan gagang berlapis emas bertatah berlian",
+        "caption": "Keris Jawa koleksi Metropolitan Museum of Art, New York. Menurut Met, keris ini bertarikh abad ke-16 sampai ke-19 — bukan keris Mpu Gandring, yang tidak pernah ditemukan. Tapi bentuk bilah dan kemewahan gagangnya memberi gambaran kenapa sebilah keris bisa diperlakukan sebagai pusaka, bukan sekadar senjata.",
+        "credit": "The Metropolitan Museum of Art",
+        "license": "CC0",
+        "page": "https://commons.wikimedia.org/wiki/File:Kris_MET_LC-36_25_1114-001.jpg"
+      }
     },
     {
-      "h": "Siasat Kebo Ijo: satu keris, dua pembunuhan, satu kambing hitam",
+      "h": "Episode 4: Siasat Kebo Ijo — kambing hitam paling sempurna dalam sejarah Jawa",
       "p": [
         "Ken Arok tidak langsung memakai keris itu. Dia meminjamkannya kepada Kebo Ijo, sesama pengawal Tunggul Ametung yang gemar mengoleksi keris dan suka memamerkannya ke mana-mana.",
         "Siasatnya dingin dan rapi. Dalam waktu singkat, seluruh Tumapel mengenal keris berpamor khas itu sebagai keris Kebo Ijo, karena memang cuma dia yang terlihat membawanya ke mana-mana.",
         "Pada suatu malam, Ken Arok mencuri kembali keris itu dari Kebo Ijo yang tertidur, membunuh Tunggul Ametung di tempat tidurnya, lalu meninggalkan keris itu tertancap di tempat kejadian. Semua bukti menunjuk ke pemilik yang dikenal publik: Kebo Ijo.",
         "Kebo Ijo ditangkap dan dihukum mati, dan eksekutornya adalah Ken Arok sendiri, dengan dalih membalas kematian majikannya. Senjatanya? Keris yang sama. Plot twist pertamanya di sini: dalam satu gerakan, Ken Arok menyingkirkan penguasa Tumapel, mengeksekusi saksi kuncinya secara sah, dan tampil sebagai abdi paling setia.",
         "Sesudahnya Ken Arok menjadi akuwu Tumapel dan memperistri Ken Dedes, yang saat itu sedang mengandung anak Tunggul Ametung. Anak itu kelak diberi nama Anusapati, dan dia akan tumbuh besar di istana orang yang membunuh ayah kandungnya."
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/ken-arok-siasat-v1.svg",
+        "alt": "Diagram tiga langkah siasat Kebo Ijo menurut Pararaton: keris dipinjamkan agar dikira milik Kebo Ijo, dicuri kembali untuk membunuh Tunggul Ametung, lalu ditinggalkan di tempat kejadian",
+        "caption": "Siasat Kebo Ijo dalam tiga langkah, menurut Pararaton. Kuncinya ada di langkah pertama: senjata pembunuhan sengaja dibuat terkenal sebagai milik orang lain sebelum dipakai.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/ken-arok-siasat-v1.svg"
+      }
     },
     {
-      "h": "Dari pengawal jadi pendiri kerajaan: Ganter, 1222",
+      "h": "Episode 5: Ganter, 1222 — pengawal rendahan jadi pendiri wangsa raja",
       "p": [
         "Bagian cerita berikutnya justru yang paling bisa dicek, karena dua kitab besar Jawa sepakat soal tahunnya. Menjelang 1222, para brahmana Kadiri berseteru dengan Raja Kertajaya dan berpihak kepada penguasa Tumapel.",
         "Pada ==1222, pasukan Tumapel mengalahkan Kadiri dalam pertempuran di Ganter==. Kertajaya runtuh, dan penguasa Tumapel mendirikan wangsa baru dengan gelar Sri Ranggah Rajasa.",
         "Kerajaan ini nama resminya adalah Tumapel, sebagaimana disebut Prasasti Kudadu dan berita Tiongkok Dinasti Yuan. Nama Singhasari yang jauh lebih terkenal hari ini awalnya adalah nama ibu kota barunya, yang diganti dari Kutaraja beberapa dekade kemudian.",
         "Jadi kerangka besarnya nyata: ada perebutan kekuasaan, ada raja bawahan yang menumbangkan atasannya, dan ada wangsa baru yang kelak menurunkan raja-raja Majapahit. Yang datang dari *Pararaton* adalah bumbu dramatisnya: keris, kutukan, dan cahaya dari tubuh seorang perempuan."
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/ken-arok-peta-v1.svg",
+        "alt": "Peta skematis Jawa Timur awal abad ke-13: Kadiri di barat, Tumapel di timur, Ganter di antara keduanya, dengan Sungai Brantas mengalir di tengah",
+        "caption": "Panggung perebutan takhtanya: Kadiri sang kerajaan induk di barat, Tumapel daerah bawahan di timur, dan Ganter di tengah sebagai lokasi pertempuran 1222. Peta skematis Curioverse, bukan skala persis.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/ken-arok-peta-v1.svg"
+      }
     },
     {
-      "h": "Kenapa keris bisa membawa cerita sebesar ini? Karena empu bukan tukang besi biasa",
+      "h": "Kenapa sebilah keris bisa membawa kutukan sebesar ini?",
       "p": [
         "Supaya paham kenapa sebilah keris bisa dipercaya membawa kutukan, kita perlu paham dulu apa itu keris di Jawa. Menurut UNESCO, keris tertua yang diketahui berasal dari abad ke-10 dan kemungkinan menyebar dari Jawa, dan sampai hari ini dikenal sekitar 40 varian bentuk bilah atau *dhapur* serta sekitar 120 varian pola atau *pamor*.",
         "Seorang empu menempa keris dengan melipat lapisan besi dan bahan berpamor, termasuk nikel yang dalam tradisi dikaitkan dengan meteorit, puluhan sampai ratusan kali. Setiap lipatan ditumpuk, dipanaskan, ditempa jadi satu, lalu dilipat lagi.",
@@ -82,7 +136,7 @@
       }
     },
     {
-      "h": "Dendam berantai: anak membalas ayah, cucu membalas kakek",
+      "h": "Episode 6: Dendam berantai — anak membalas ayah, cucu membalas kakek",
       "p": [
         "Anusapati tumbuh dengan mengetahui satu rahasia besar: ayah tirinya adalah pembunuh ayah kandungnya. Menurut *Pararaton*, pengetahuan itu disampaikan Ken Dedes sendiri, dan Anusapati menyimpan dendamnya bertahun-tahun.",
         "Jujurly, balas dendamnya memakai pola yang sama persis dengan kejahatan yang dia balas. Anusapati menyuruh seorang pendekar bernama Ki Pengalasan membunuh Ken Arok dengan keris Mpu Gandring, lalu membunuh Ki Pengalasan dengan keris itu juga, supaya tidak ada saksi yang bisa bercerita.",
@@ -91,12 +145,12 @@
         "Lalu rantainya putus dengan cara yang mengecewakan buat legenda. Tohjaya berkuasa singkat dan digulingkan oleh pemberontakan Ranggawuni, putra Anusapati. Saat melarikan diri, Tohjaya tewas terkena tombak. Bukan keris, bukan kutukan, hanya tombak prajurit biasa. Di situlah hitungan korban keris berhenti di angka enam, dan keris Mpu Gandring hilang dari cerita untuk selamanya."
       ],
       "img": {
-        "src": "/assets/illustrations/keris-mpu-gandring-rantai-v1.svg",
-        "alt": "Diagram rantai enam korban keris Mpu Gandring menurut Pararaton: Mpu Gandring, Tunggul Ametung, Kebo Ijo, Ken Arok, Ki Pengalasan, dan Anusapati, dengan catatan Tohjaya wafat oleh tombak",
-        "caption": "Rantai korban keris Mpu Gandring menurut Pararaton. Kutukannya menyebut tujuh turunan, tapi hitungan di kitab itu sendiri berhenti di enam.",
+        "src": "/assets/illustrations/ken-arok-silsilah-v1.svg",
+        "alt": "Diagram silsilah wangsa Rajasa menurut Pararaton: Anusapati membunuh Ken Arok untuk membalas ayah kandungnya Tunggul Ametung, Tohjaya membunuh Anusapati untuk membalas Ken Arok, dan garis berlanjut ke Wisnuwardhana, Kertanagara, dan Raden Wijaya",
+        "caption": "Silsilah dendamnya: tiga generasi saling membalas dengan pola yang persis sama, sebelum rantainya putus oleh tombak prajurit biasa. Perhatikan panah merahnya — setiap pembunuhan selalu mengaku sedang membalas pembunuhan sebelumnya.",
         "credit": "Curioverse",
         "license": "Ilustrasi sendiri (Curioverse)",
-        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/keris-mpu-gandring-rantai-v1.svg"
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/ken-arok-silsilah-v1.svg"
       }
     },
     {
@@ -109,17 +163,33 @@
         "Kedua kitab bahkan tidak sepakat soal tahun. Kerangka akademik modern menaruh masa kuasa sang pendiri pada 1222 sampai 1227, sementara daftar tahun *Pararaton* membuatnya berkuasa sampai 1247, selisih dua puluh tahun yang merambat ke semua tahun raja sesudahnya.",
         "Tohjaya juga berubah peran tergantung sumbernya. Di *Pararaton* beliau adalah raja Tumapel yang membunuh Anusapati, tapi Prasasti Mula Malurung menempatkan beliau sebagai raja di Kadiri setelah kerajaan terbelah dua, dan sejarawan Slamet Muljana bahkan menolak kisah pembunuhan Anusapati itu sebagai dongeng. Nama orangnya nyata karena disebut prasasti, versi ceritanya yang gugur.",
         "Hal yang sama berlaku untuk sampul artikel ini. Arca Prajnaparamita memang artefak asli abad ke-13, ditemukan pada 1818 atau 1819 di dekat Candi Singosari, dibawa ke Belanda, dan dikembalikan ke Indonesia pada Januari 1978. Tapi pengaitannya dengan Ken Dedes adalah dugaan abad ke-19 dari seorang residen Belanda yang mendengar cerita warga, dan pendapat saingannya menyebut arca itu perwujudan Gayatri Rajapatni, permaisuri raja pertama Majapahit. Tidak ada inskripsi di arca itu yang menyebut nama ratu mana pun."
-      ]
+      ],
+      "img": {
+        "src": "/assets/illustrations/ken-arok-timeline-v1.svg",
+        "alt": "Garis waktu kisah Ken Arok: Pertempuran Ganter 1222, wafatnya Ken Arok 1227 atau 1247 menurut dua kitab, runtuhnya Singhasari 1292, Nagarakertagama 1365, kolofon tertua Pararaton sekitar 1600, dan edisi ilmiah Brandes 1896",
+        "caption": "Delapan abad kisah Ken Arok dalam satu garis: peristiwanya abad ke-13, kitab yang menceritakan kerisnya baru berbentuk akhir sekitar tahun 1600. Jarak hampir 400 tahun itu adalah kunci membaca cerita ini dengan benar.",
+        "credit": "Curioverse",
+        "license": "Ilustrasi sendiri (Curioverse)",
+        "page": "https://github.com/afreshialaff/curioverse/blob/main/assets/illustrations/ken-arok-timeline-v1.svg"
+      }
     },
     {
-      "h": "Akhirnya bukan kutukan yang mengakhiri wangsa ini",
+      "h": "Epilog: akhirnya bukan kutukan yang mengakhiri wangsa ini",
       "kind": "interpretasi",
       "p": [
         "Kalau kutukan itu dibaca sebagai ramalan kehancuran wangsa, ramalannya meleset jauh. Garis Rajasa tidak punah oleh keris: dari keturunan Anusapati dan saudara tirinya lahir Kertanagara, raja terbesar Singhasari, dan dari garis yang sama pula Raden Wijaya mendirikan Majapahit, kerajaan terbesar di Nusantara.",
         "Plot twist terakhirnya: Singhasari runtuh pada 1292, tujuh puluh tahun setelah Ganter, oleh pemberontakan Jayakatwang dari garis Kadiri, musuh lama yang dulu dikalahkan Ken Arok. Bukan keris terkutuk, melainkan politik dan dendam lama antardua wangsa, tema yang sama dengan awal ceritanya.",
         "Mungkin karena itu cerita keris ini awet delapan abad. Dia bukan sekadar cerita horor tentang senjata bertuah, bestie, dia adalah cara orang Jawa abad-abad berikutnya menjelaskan satu pola yang terus berulang: takhta yang direbut dengan darah cenderung diwariskan bersama dendamnya.",
         "Dan hitungan yang tidak genap itu justru membuatnya manusiawi. Kutukan tujuh turunan berhenti di enam, rajanya berkuasa lima tahun atau dua puluh lima tahun tergantung kitabnya, dan arcanya mungkin bukan perempuan yang kita kira. Sejarah memang jarang serapi legendanya, dan di celah itulah cerita ini tetap hidup."
-      ]
+      ],
+      "img": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Singosari_Temple_01.jpg/1280px-Singosari_Temple_01.jpg",
+        "alt": "Menara Candi Singosari di Malang menjulang dengan latar langit biru, dikelilingi taman",
+        "caption": "Candi Singosari di Malang, candi peringatan untuk Kertanagara, raja terbesar Singhasari — dua generasi setelah Ken Arok. Wangsa yang katanya dikutuk punah ini justru meninggalkan monumen sebesar ini.",
+        "credit": "Hugo van den Bos",
+        "license": "CC BY 2.0",
+        "page": "https://commons.wikimedia.org/wiki/File:Singosari_Temple_01.jpg"
+      }
     }
   ],
   "sources": [
@@ -155,5 +225,6 @@
       "t": "Wikipedia: Prajnaparamita of Java",
       "u": "https://en.wikipedia.org/wiki/Prajnaparamita_of_Java"
     }
-  ]
+  ],
+  "updated": "2026-11-25"
 }
