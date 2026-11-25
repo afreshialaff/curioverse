@@ -294,6 +294,9 @@ const LIVE = ORDER.filter(c => countFor(c) > 0);
 const PHASES = [[0,"mulai penasaran"],[.13,"mencari tahu"],[.25,"menemukan petunjuk"],[.38,"makin dalam"],[.5,"aha!"],[.62,"menceritakan"],[.75,"rehat"],[.88,"penasaran lagi"]];
 const phases = (extra = "") => `<div class="phases${extra}" aria-hidden="true">${PHASES.map(([p, l], i) => `<div class="phase rv" style="--i:${i}">${moon(p)}<span>${l}</span></div>`).join("")}</div>`;
 
+const STARS = Array.from({ length: 46 }, (_, i) => { const x = ((i * 317 + 140) % 1380) + 30, y = ((i * 191 + 60) % 600) + 16, r = (1 + (i % 4) * .55).toFixed(2), d = ((i % 6) * .8).toFixed(1); return `<circle cx="${x}" cy="${y}" r="${r}" style="animation-delay:${d}s"/>`; }).join("");
+const SPARKS = [[210, 120, 15], [640, 84, 11], [1246, 470, 13], [420, 520, 10], [1330, 120, 10]].map(([x, y, sz], i) => `<use href="#star4" x="${x}" y="${y}" width="${sz}" height="${sz}" style="animation-delay:${(i * 1.3).toFixed(1)}s"/>`).join("");
+
 function home(){
   const picks = PICKS.map(id => BY[id]);
   const recent = latest.filter(a => !PICKS.includes(a.id)).slice(0, 4);
@@ -304,6 +307,21 @@ function home(){
   const lead = picks[0];
   const body = `
 <section class="hero" aria-labelledby="hero-title">
+  <div class="hero-sky" aria-hidden="true">
+    <svg class="sky-svg" viewBox="0 0 1440 820" preserveAspectRatio="xMidYMin slice" focusable="false">
+      <g class="sky-stars">${STARS}${SPARKS}</g>
+      <g class="sky-orbits">
+        <ellipse cx="1130" cy="215" rx="215" ry="86" transform="rotate(-16 1130 215)"/>
+        <ellipse class="dash" cx="1130" cy="215" rx="335" ry="136" transform="rotate(-16 1130 215)"/>
+        <ellipse cx="1130" cy="215" rx="478" ry="196" transform="rotate(-16 1130 215)"/>
+      </g>
+      <g class="sky-spin"><circle class="sky-planet" cx="671" cy="347" r="7.5"/><circle class="sky-planet p2" cx="1258" cy="64" r="4.5"/></g>
+      <g class="sky-moon">
+        <circle class="moon-body" cx="1130" cy="215" r="54"/>
+        <circle class="moon-cr" cx="1112" cy="196" r="9"/><circle class="moon-cr" cx="1148" cy="232" r="12"/><circle class="moon-cr" cx="1122" cy="240" r="5.5"/><circle class="moon-cr" cx="1152" cy="192" r="4.5"/>
+      </g>
+    </svg>
+  </div>
   <div class="wrap">
     <div class="hero-grid">
       <div>
@@ -325,11 +343,15 @@ function home(){
             <button class="hook-more" type="button" id="hook-more">${icon("dice")}Fakta lain</button>
           </div>
         </figure>
+        <a class="sky-chip sc1" style="--d:1.5" href="/explore?topik=sejarah"><span class="sky-chip-in">${icon("sejarah")}<span>${CATS.sejarah.label}</span><b>${countFor("sejarah")} cerita</b></span></a>
+        <a class="sky-chip sc2" style="--d:2.3" href="/explore?topik=science"><span class="sky-chip-in">${icon("science")}<span>${CATS.science.label}</span><b>${countFor("science")} cerita</b></span></a>
+        <a class="sky-chip sc3" style="--d:1.1" href="/explore?topik=uang"><span class="sky-chip-in">${icon("finance")}<span>${GROUPS.uang.label}</span><b>${inGroup(GROUPS.uang).length} cerita</b></span></a>
         <span class="note" aria-hidden="true">ganti tiap kamu mampir</span>
         <script type="application/json" id="hooks">${JSON.stringify(HOOKS).replace(/</g, "\\u003c")}</script>
       </div>
     </div>
   </div>
+  <div class="scroll-cue" aria-hidden="true"><span>gulir ke bawah</span><i></i></div>
 </section>
 
 <section class="section" id="pilihan" aria-labelledby="h-pilihan">

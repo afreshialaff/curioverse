@@ -708,3 +708,49 @@ input[type="range"]::-moz-range-thumb{width:18px; height:18px; border-radius:50%
 .band,.scrap.night,.stage,.feat-lead .pic,.feat-item .mini,.next{background-image:radial-gradient(1px 1px at 12% 22%, rgba(239,228,198,.55) 50%, transparent 51%),radial-gradient(1px 1px at 68% 14%, rgba(239,228,198,.4) 50%, transparent 51%),radial-gradient(1.5px 1.5px at 84% 62%, rgba(239,228,198,.5) 50%, transparent 51%),radial-gradient(1px 1px at 32% 78%, rgba(239,228,198,.35) 50%, transparent 51%),radial-gradient(1px 1px at 52% 46%, rgba(239,228,198,.3) 50%, transparent 51%);background-size:220px 220px}
 :root[data-theme="dark"] body{background-image:radial-gradient(1px 1px at 18% 30%, rgba(239,228,198,.22) 50%, transparent 51%),radial-gradient(1px 1px at 74% 64%, rgba(239,228,198,.16) 50%, transparent 51%);background-size:260px 260px}
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) body{background-image:radial-gradient(1px 1px at 18% 30%, rgba(239,228,198,.22) 50%, transparent 51%),radial-gradient(1px 1px at 74% 64%, rgba(239,228,198,.16) 50%, transparent 51%);background-size:260px 260px} }
+
+/* ---------------------------------------------------------------- hero sky: scroll-driven opening scene
+ * Remotion-style depth: star layer, orbit rings and the moon all drift at
+ * different rates as the hero scrolls away (--hp 0..1, set by home.js),
+ * topic chips float like products and lean toward the pointer (--mx/--my). */
+.hero{overflow:clip}
+.hero-sky{position:absolute; inset:0; z-index:0; pointer-events:none; animation:sky-in 1.8s var(--ease) both}
+@keyframes sky-in{from{opacity:0; transform:scale(1.045)} to{opacity:1; transform:none}}
+.sky-svg{width:100%; height:100%}
+.hero .wrap{position:relative; z-index:1}
+.sky-stars{transform:translateY(calc(var(--hp, 0) * 36px))}
+.sky-stars circle{fill:var(--ink); opacity:.45; animation:a-twinkle 4.8s ease-in-out infinite}
+.sky-stars use{fill:var(--gold); animation:a-twinkle 6.5s ease-in-out infinite}
+.sky-orbits{transform:rotate(calc(var(--hp, 0) * 10deg)); transform-box:view-box; transform-origin:1130px 215px}
+.sky-orbits ellipse{fill:none; stroke:var(--line-2); stroke-width:1.2}
+.sky-orbits .dash{stroke-dasharray:2.5 7}
+.sky-spin{transform-box:view-box; transform-origin:1130px 215px; animation:a-orbit 90s linear infinite}
+.sky-planet{fill:var(--blue)}
+.sky-planet.p2{fill:var(--gold)}
+.sky-moon{transform:translate(calc(var(--hp, 0) * -54px), calc(var(--hp, 0) * -118px))}
+.moon-body{fill:var(--gold)}
+.moon-cr{fill:rgba(11,20,80,.16)}
+.hero-grid{transform:translateY(calc(var(--hp, 0) * 30px))}
+.sky-chip{position:absolute; z-index:3; transform:translate3d(calc(var(--mx, 0) * 9px * var(--d, 1)), calc(var(--my, 0) * 7px * var(--d, 1) + var(--hp, 0) * -34px * var(--d, 1)), 0)}
+.sky-chip-in{display:flex; align-items:center; gap:8px; padding:9px 15px; border-radius:999px; background:var(--card); border:1px solid var(--line-2); box-shadow:var(--lift); font-size:14.5px; white-space:nowrap; animation:chip-float 6s ease-in-out infinite alternate; transition:box-shadow .4s var(--ease)}
+.sky-chip-in .ico{width:18px; height:18px}
+.sky-chip-in b{font-weight:600; color:var(--gold-text)}
+.sky-chip:hover .sky-chip-in{box-shadow:var(--lift-hi); animation-play-state:paused}
+.sky-chip.sc1{top:-30px; left:-16px; --cr:-4deg}
+.sky-chip.sc2{top:44%; right:-38px; --cr:3deg}
+.sky-chip.sc2 .sky-chip-in{animation-delay:-2s; animation-duration:7.2s}
+.sky-chip.sc3{bottom:-30px; left:6%; --cr:-2.5deg}
+.sky-chip.sc3 .sky-chip-in{animation-delay:-4s; animation-duration:6.6s}
+@keyframes chip-float{from{transform:translateY(-5px) rotate(var(--cr, 0deg))} to{transform:translateY(7px) rotate(var(--cr, 0deg))}}
+.scroll-cue{position:absolute; left:50%; bottom:12px; transform:translateX(-50%); z-index:1; display:grid; justify-items:center; gap:7px; font-size:11.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--mute)}
+.scroll-cue i{display:block; width:1.5px; height:42px; background:var(--line-2); position:relative; overflow:hidden}
+.scroll-cue i::after{content:""; position:absolute; left:0; top:-40%; width:100%; height:40%; background:var(--gold); animation:cue-drop 2.2s cubic-bezier(.65,0,.35,1) infinite}
+@keyframes cue-drop{to{transform:translateY(350%)}}
+@media (max-width:1100px){ .sky-chip.sc2{right:-8px} }
+@media (max-width:979px){ .sky-chip.sc1{top:-24px; left:0} .sky-chip.sc2{display:none} .sky-chip.sc3{bottom:-26px} }
+@media (max-height:560px){ .scroll-cue{display:none} }
+@media (prefers-reduced-motion: reduce){
+  .hero-sky{animation:none}
+  .sky-stars circle,.sky-stars use,.sky-spin,.sky-chip-in,.scroll-cue i::after{animation:none!important}
+  .sky-stars,.sky-orbits,.sky-moon,.hero-grid,.sky-chip{transform:none!important}
+}

@@ -88,6 +88,34 @@ if (hq && HOOKS.length) {
   more.addEventListener("click", () => { k = (k + 1) % order.length; show(HOOKS[order[k]], true); });
 }
 
+/* ---------- hero sky: scroll-driven parallax scene (stars, orbits, moon, chips drift at different depths) ---------- */
+const hero = $(".hero");
+if (hero && !reduced) {
+  loops.push(() => {
+    const r = hero.getBoundingClientRect();
+    const p = clamp(-r.top / Math.max(1, r.height * .9));
+    hero.style.setProperty("--hp", p.toFixed(3));
+  });
+  if (matchMedia("(pointer:fine)").matches) {
+    let tx = 0, ty = 0, cx = 0, cy = 0;
+    hero.addEventListener("pointermove", e => {
+      const r = hero.getBoundingClientRect();
+      tx = ((e.clientX - r.left) / Math.max(1, r.width) - .5) * 2;
+      ty = ((e.clientY - r.top) / Math.max(1, r.height) - .5) * 2;
+      schedule();
+    });
+    hero.addEventListener("pointerleave", () => { tx = 0; ty = 0; schedule(); });
+    const ease = () => {
+      cx += (tx - cx) * .06; cy += (ty - cy) * .06;
+      hero.style.setProperty("--mx", cx.toFixed(3));
+      hero.style.setProperty("--my", cy.toFixed(3));
+      if (Math.abs(tx - cx) > .002 || Math.abs(ty - cy) > .002) schedule();
+    };
+    ease.resize = () => {};
+    loops.push(ease);
+  }
+}
+
 /* ---------- play the little illustrations once they are in view ---------- */
 const plays = $$("[data-play]");
 if (plays.length) {
