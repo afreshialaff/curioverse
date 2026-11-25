@@ -3,6 +3,7 @@
   "cat": "science",
   "also": "konspirasi",
   "date": "2026-11-19",
+  "updated": "2026-11-25",
   "title": "Segitiga Bermuda: misteri yang dibuat penulis, bukan oleh lautnya",
   "dek": "Badan geografi AS tidak mengakui namanya, perusahaan asuransi terbesar tidak menaikkan premi di sana, dan studi kecelakaan tidak menaruhnya di 10 besar perairan berbahaya. Yang membuat Segitiga Bermuda terkenal adalah industri penerbitan.",
   "tags": "segitiga bermuda flight 19 uss cyclops mary celeste mitos noaa kusche misteri lautan fakta",
@@ -11,7 +12,7 @@
   "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Grumman_TBF-1_Avengers_of_VGS-29_in_flight_over_Norfolk%2C_Virginia_%28USA%29%2C_on_1_September_1942_%2880-G-427475%29.jpg/1280px-Grumman_TBF-1_Avengers_of_VGS-29_in_flight_over_Norfolk%2C_Virginia_%28USA%29%2C_on_1_September_1942_%2880-G-427475%29.jpg",
     "alt": "Foto lima pesawat pengebom torpedo TBF Avenger terbang formasi di atas Norfolk, 1942",
-    "caption": "Lima Avenger TBF-1 di atas Norfolk, Virginia, 1942, foto Angkatan Laut AS. Ini tipe pesawat yang sama dengan Flight 19 yang hilang pada 1945, bukan skuadronnya; foto Flight 19 sendiri tidak ada.",
+    "caption": "Lima Avenger TBF-1 di atas Norfolk, Virginia, 1942, foto Angkatan Laut AS. Tipe pesawatnya sama dengan Flight 19 yang hilang pada 1945, tapi ini bukan skuadronnya; foto Flight 19 sendiri tidak ada.",
     "credit": "U.S. Navy (Lt. Comdr. Horace Bristol)",
     "license": "Public domain",
     "page": "https://commons.wikimedia.org/wiki/File:Grumman_TBF-1_Avengers_of_VGS-29_in_flight_over_Norfolk,_Virginia_(USA),_on_1_September_1942_(80-G-427475).jpg"
@@ -28,7 +29,7 @@
     {
       "h": "Flight 19: tragedi navigasi yang ditambah-tambahi selama 30 tahun",
       "p": [
-        "Kasus sentral legenda ini terjadi pada 5 Desember 1945. Lima pesawat pengebom torpedo TBM Avenger dari pangkalan Fort Lauderdale lepas landas untuk latihan navigasi rutin, membawa 14 awak. Pemimpin penerbangan, Letnan Charles Taylor, adalah pilot berpengalaman tapi baru di wilayah itu. Di tengah latihan, kompasnya dilaporkan bermasalah dan ia meyakini dirinya berada di atas Florida Keys, padahal sebenarnya ia di atas Bahama. Dua kesalahan posisi itu berlawanan arah, dan setiap keputusan yang ia ambil berdasarkan posisi yang salah justru menjauhkan skuadronnya dari daratan.",
+        "Kasus sentral legenda ini terjadi pada 5 Desember 1945. Lima pesawat pengebom torpedo TBM Avenger dari pangkalan Fort Lauderdale lepas landas untuk latihan navigasi rutin, membawa 14 awak. Pemimpin penerbangan, Letnan Charles Taylor, adalah pilot berpengalaman tapi baru di wilayah itu. Di tengah latihan, kompasnya dilaporkan bermasalah dan ia meyakini dirinya berada di atas Florida Keys, padahal sebenarnya ia di atas Bahama. Masalahnya, posisi dugaannya dan posisi sebenarnya berlawanan arah. Setiap keputusan yang ia ambil berdasarkan posisi yang salah justru menjauhkan skuadronnya dari daratan.",
         "Sinyal radio melemah, cuaca memburuk, dan bahan bakar habis. Kelima pesawat diyakini mendarat darurat di laut yang bergelombang saat malam tiba. Pesawat penyelamat PBM Mariner yang dikirim mencari mereka, dengan 13 awak, juga hilang; sebuah kapal di sekitarnya melaporkan bola api dan tumpahan minyak, konsisten dengan reputasi Mariner yang rawan ledakan bahan bakar. Total 27 orang meninggal hari itu. Kesimpulan awal Angkatan Laut: kesalahan pilot yang disorientasi ditambah cuaca buruk.",
         "Sekarang bagian fabrikasinya, karena di sinilah legenda dibuat. Klaim \"radio Flight 19 tiba-tiba senyap total\" berasal dari kesalahan laporan Associated Press tahun 1950; catatan resmi menunjukkan komunikasi berlangsung berjam-jam. Kutipan dramatis tentang \"luar angkasa\" yang konon diucapkan Taylor tidak ada di catatan mana pun dan merupakan tambahan Berlitz. Julukan \"Lost Patrol\" adalah ciptaan Gaddis. Dan temuan resmi Angkatan Laut yang semula menyalahkan disorientasi diubah pada 1947 menjadi \"penyebab tidak diketahui\", setelah ibu Taylor melobi agar putranya tidak disalahkan. Misteri resminya lahir dari rasa iba, bukan dari bukti baru."
       ]
@@ -37,7 +38,7 @@
       "h": "USS Cyclops dan dua pesawat Inggris: belum terpecahkan bukan berarti supranatural",
       "p": [
         "Pada Maret 1918, kapal pengangkut batu bara USS Cyclops hilang setelah berangkat dari Barbados pada 4 Maret, membawa 306 orang, kehilangan non-tempur terbesar dalam sejarah Angkatan Laut AS. Kapal ini berlayar dengan muatan bijih mangan sekitar 10.800 ton, jauh di atas kapasitas normalnya sekitar 8.000 ton, dengan satu mesin retak. Badai besar tercatat melintasi rutenya di lepas Virginia Capes pada 10 Maret. Pusat Sejarah Angkatan Laut AS menduga kapal ini tenggelam dalam badai yang tak terduga, tapi penyebab resminya tetap tidak diketahui.",
-        "Dua kasus lain yang selalu masuk daftar adalah Star Tiger, hilang 30 Januari 1948 dengan 31 orang, dan Star Ariel, hilang 17 Januari 1949 dengan 20 orang, keduanya pesawat Avro Tudor milik British South American Airways. Penyelidikan resmi Inggris untuk keduanya berakhir tanpa penyebab pasti, dalam era ketika tipe pesawat itu memang bermasalah dan navigasi lintas samudra masih primitif.",
+        "Dua kasus lain yang selalu masuk daftar adalah Star Tiger dan Star Ariel. Star Tiger hilang 30 Januari 1948 dengan 31 orang; Star Ariel hilang 17 Januari 1949 dengan 20 orang. Keduanya pesawat Avro Tudor milik British South American Airways. Penyelidikan resmi Inggris untuk keduanya berakhir tanpa penyebab pasti, dalam era ketika tipe pesawat itu memang bermasalah dan navigasi lintas samudra masih primitif.",
         "Ketiga kasus ini memang belum terpecahkan, dan artikel ini tidak akan berpura-pura sebaliknya. Tapi \"belum terpecahkan\" dan \"tidak bisa dijelaskan oleh apa pun yang alami\" adalah dua kalimat yang sangat berbeda. Laut dalam era sebelum radar, GPS, dan kotak hitam memang biasa menelan kapal tanpa saksi dan tanpa puing, di semua samudra, bukan hanya di satu segitiga."
       ],
       "img": {
@@ -53,7 +54,7 @@
       "h": "Mary Celeste: kasus paling terkenal yang bahkan tidak terjadi di sana",
       "p": [
         "Kalau kamu pernah membaca daftar misteri Segitiga Bermuda, hampir pasti ada Mary Celeste, kapal yang ditemukan kosong melayang pada 1872 tanpa satu pun dari 10 orang di dalamnya. Masalahnya cuma satu: kapal itu ditemukan sekitar 400 mil di sebelah timur Azores, di seberang Atlantik, jauh di luar segitiga mana pun yang pernah digambar.",
-        "Plot twist-nya, kasus ini terseret masuk karena ketenarannya, dan ketenarannya sendiri sebagian produk fiksi: Arthur Conan Doyle, yang kelak menciptakan Sherlock Holmes, menulis cerita pendek pada 1884 yang mempopulerkan versi dramatis kisah ini, lengkap dengan detail karangan yang kemudian dikutip sebagai fakta selama lebih dari satu abad.",
+        "Plot twist-nya, kasus ini terseret masuk karena ketenarannya. Ketenaran itu sendiri sebagian adalah produk fiksi. Pada 1884, Arthur Conan Doyle, yang kelak menciptakan Sherlock Holmes, menulis cerita pendek yang mempopulerkan versi dramatis kisah ini. Detail karangannya kemudian dikutip sebagai fakta selama lebih dari satu abad.",
         "Mary Celeste adalah contoh paling bersih dari cara kerja legenda ini: kasus dari mana saja bisa ditempelkan ke Segitiga Bermuda selama cukup misterius, dan tidak ada editor yang memeriksa petanya."
       ]
     },
@@ -62,12 +63,12 @@
       "p": [
         "Ada cara sederhana menguji apakah satu wilayah laut benar-benar luar biasa berbahaya: tanya pihak yang rugi uang kalau salah hitung. Lloyd's of London, pasar asuransi maritim tertua, menyatakan pada 1975 bahwa dinas intelijennya tidak menemukan bukti kehilangan yang berlebihan di Segitiga Bermuda, dan premi asuransi untuk rute itu tidak pernah dinaikkan. Kesimpulan itu dicek ulang untuk program televisi Equinox pada 1992 dan hasilnya sama.",
         "Studi kecelakaan pelayaran dunia yang disusun untuk WWF pada 2013, memakai data kecelakaan sejak 1999, menyusun daftar perairan paling berbahaya di dunia, dan Segitiga Bermuda tidak masuk sepuluh besar. Wilayah yang benar-benar memuncaki daftar adalah Laut Cina Selatan dan perairan padat lain dengan lalu lintas dan cuaca yang sebanding atau lebih buruk.",
-        "NOAA menambahkan penjelasan lingkungannya: wilayah ini dilintasi badai tropis, dialiri Gulf Stream yang deras dan bisa menyapu puing jauh dari lokasi kecelakaan dalam hitungan jam, dan dipenuhi perairan dangkal berkarang di antara pulau-pulau Karibia. Wilayah ini memang berbahaya dengan cara yang biasa, dan sangat padat lalu lintasnya, kombinasi yang secara statistik pasti menghasilkan banyak kecelakaan tanpa perlu anomali apa pun."
+        "NOAA menambahkan penjelasan lingkungannya: wilayah ini dilintasi badai tropis, dialiri Gulf Stream yang deras dan bisa menyapu puing jauh dari lokasi kecelakaan dalam hitungan jam, dan dipenuhi perairan dangkal berkarang di antara pulau-pulau Karibia. Wilayah ini memang berbahaya dengan cara yang biasa, dan sangat padat lalu lintasnya. Kombinasi itu secara statistik pasti menghasilkan banyak kecelakaan, tanpa perlu anomali apa pun."
       ],
       "img": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Bermuda_Triangle.png",
         "alt": "Peta kawasan Segitiga Bermuda antara Miami, Bermuda, dan Puerto Rico",
-        "caption": "Peta Segitiga Bermuda versi penulis populer, menghubungkan Miami, Bermuda, dan Puerto Rico. Batas ini tidak resmi; tidak ada badan geografi yang mengakuinya, dan penulis berbeda menggambar segitiga yang berbeda.",
+        "caption": "Peta Segitiga Bermuda versi penulis populer, menghubungkan Miami, Bermuda, dan Puerto Rico. Batas ini tidak resmi. Tidak ada badan geografi yang mengakuinya, dan tiap penulis menggambar segitiga yang berbeda.",
         "credit": "Alphaios / -Majestic-",
         "license": "Public domain",
         "page": "https://commons.wikimedia.org/wiki/File:Bermuda_Triangle.png"
@@ -78,14 +79,14 @@
       "p": [
         "Pada 1975, Larry Kusche, pustakawan riset di Arizona State University, menerbitkan buku yang membedah legenda ini kasus per kasus ke sumber sezamannya: koran pada zamannya, catatan cuaca resmi, laporan penyelidikan, dan dokumen asuransi. Yang ia temukan bukan konspirasi, melainkan pola penulisan yang ceroboh dan sensasional.",
         "Pola itu berulang dalam empat bentuk. Kasus yang diceritakan lenyap di laut tenang ternyata hilang dalam badai terdokumentasi; cuaca buruknya dihilangkan dari penceritaan ulang. Kehilangan yang terjadi jauh di luar segitiga, bahkan di Pasifik dan lepas Irlandia, digeser masuk. Kapal yang dikabarkan lenyap ternyata kemudian tiba di pelabuhan, dan kedatangannya tidak pernah dilaporkan penulis Segitiga. Dan beberapa insiden tidak ditemukan di catatan sezaman mana pun, kemungkinan tidak pernah terjadi.",
-        "Kesimpulan Kusche masih dikutip BBC Science Focus sampai sekarang: jumlah kehilangan di wilayah itu, sebanding dengan lalu lintasnya, tidak lebih besar daripada wilayah laut lain, dan misterinya adalah misteri yang diproduksi, manufactured mystery, oleh riset yang buruk dan penulisan yang mengejar sensasi. Pola ini relate banget ke cara konten viral bekerja hari ini: versi yang paling dramatis selalu menang dari versi yang paling akurat."
+        "Kesimpulan Kusche masih dikutip BBC Science Focus sampai sekarang: jumlah kehilangan di wilayah itu, sebanding dengan lalu lintasnya, tidak lebih besar daripada wilayah laut lain. Misterinya adalah misteri yang diproduksi, *manufactured mystery*, oleh riset yang buruk dan penulisan yang mengejar sensasi. Pola ini relate banget ke cara konten viral bekerja hari ini: versi yang paling dramatis selalu menang dari versi yang paling akurat."
       ]
     },
     {
-      "h": "Penjelasan yang teruji, hipotesis yang belum, dan fakta kompas yang sudah kedaluwarsa",
+      "h": "Penjelasan teruji, hipotesis belum terbukti, dan fakta kompas yang sudah kedaluwarsa",
       "p": [
-        "Penjelasan yang didukung bukti untuk sebagian besar kasus adalah kombinasi yang membosankan tapi mematikan, no debat: badai tropis yang datang sebelum ada prakiraan cuaca modern, Gulf Stream yang mengubah cuaca dengan cepat dan menyapu puing, perairan dangkal berkarang, kesalahan manusia, dan keterbatasan teknologi era masing-masing. Flight 19, Cyclops, dan dua pesawat Tudor semuanya punya kombinasi faktor-faktor ini dalam catatan resminya.",
-        "Dua hipotesis populer perlu dilabeli dengan tegas. Gagasan gelembung metana dari dasar laut yang menenggelamkan kapal memang mungkin dalam eksperimen model di laboratorium, tetapi menurut badan geologi AS, USGS, tidak ada pelepasan gas hidrat besar yang diyakini terjadi di Segitiga Bermuda dalam 15.000 tahun terakhir, jadi ia tidak menjelaskan satu kasus pun di sana. Gelombang raksasa setinggi 30 meter adalah fenomena nyata di lautan dunia, tapi tidak ada bukti gelombang itu pernah terlibat dalam kasus Segitiga mana pun.",
+        "Penjelasan yang didukung bukti untuk sebagian besar kasus justru membosankan, tapi mematikan, no debat. Isinya: badai tropis yang datang sebelum ada prakiraan cuaca modern; Gulf Stream yang mengubah cuaca dengan cepat dan menyapu puing; perairan dangkal berkarang; kesalahan manusia; dan keterbatasan teknologi era masing-masing. Flight 19, Cyclops, dan dua pesawat Tudor semuanya punya kombinasi faktor-faktor ini dalam catatan resminya.",
+        "Dua hipotesis populer perlu dilabeli dengan tegas. Gagasan gelembung metana dari dasar laut yang menenggelamkan kapal memang mungkin dalam eksperimen model di laboratorium. Tetapi menurut badan geologi AS, USGS, tidak ada pelepasan gas hidrat besar yang diyakini terjadi di Segitiga Bermuda dalam 15.000 tahun terakhir. Jadi gagasan itu tidak menjelaskan satu kasus pun di sana. Gelombang raksasa setinggi 30 meter adalah fenomena nyata di lautan dunia, tapi tidak ada bukti gelombang itu pernah terlibat dalam kasus Segitiga mana pun.",
         "Terakhir, fakta kompas yang paling sering dikutip ternyata punya tanggal kedaluwarsa. Pada awal abad ke-20, garis tempat utara magnetik dan utara sejati sejajar memang melintasi wilayah ini, dan itu bisa membingungkan navigator yang tidak mengoreksi deklinasi. Tapi medan magnet Bumi terus bergeser, garis itu sudah lama pindah, dan deklinasi nol pun sebenarnya bukan anomali, hanya satu nilai biasa yang selalu dikoreksi navigator terlatih. Klaim yang dulu setengah benar itu terus dikutip seolah masih berlaku hari ini."
       ]
     },
@@ -93,7 +94,7 @@
       "h": "Misteri yang sebenarnya bukan di lautnya",
       "kind": "interpretasi",
       "p": [
-        "Segitiga Bermuda adalah studi kasus sempurna tentang bagaimana legenda modern diproduksi: ambil tragedi nyata, hilangkan cuaca buruknya, geser lokasinya ke dalam segitiga, tambahkan kutipan karangan, ubah temuan resmi lewat lobi keluarga korban, lalu ulangi selama lima puluh tahun sampai tidak ada yang ingat versi aslinya. Setiap lapis ditambahkan oleh orang yang berbeda dengan motif yang bisa dipahami, dari rasa iba seorang ibu sampai penjualan buku.",
+        "Segitiga Bermuda adalah studi kasus sempurna tentang bagaimana legenda modern diproduksi: ambil tragedi nyata, hilangkan cuaca buruknya, geser lokasinya ke dalam segitiga, tambahkan kutipan karangan, ubah temuan resmi lewat lobi keluarga korban. Lalu ulangi selama lima puluh tahun, sampai tidak ada yang ingat versi aslinya. Setiap lapis ditambahkan oleh orang yang berbeda dengan motif yang bisa dipahami, dari rasa iba seorang ibu sampai penjualan buku.",
         "Yang tidak berubah adalah penghormatan yang layak diterima kasus-kasus ini. Dua puluh tujuh orang meninggal pada hari Flight 19 hilang, 306 orang di Cyclops, dan mereka meninggal karena sebab-sebab yang bisa dijelaskan: cuaca, navigasi, mesin, dan laut yang memang keras. Mengubah kematian mereka menjadi bahan teori alien justru menghapus pelajaran nyata yang bisa menyelamatkan nyawa di laut sampai sekarang.",
         "Jadi misteri Segitiga Bermuda yang sebenarnya bukan kenapa kapal hilang di sana, bestie. Misterinya adalah kenapa kita lebih suka cerita tentang vorteks dimensi daripada membaca laporan cuaca tahun 1918, padahal laporan cuacanya yang benar."
       ]
