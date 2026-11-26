@@ -13,6 +13,7 @@ name: Cek tayang Vivid (IG + Threads)
 #   Roro Jonggrang LONG:  tayang 20.00 WIB 2026-11-22 -> cek 20.25 dan 20.50 WIB
 #   Suku Moro:            tayang 08.00 WIB 2026-11-18 -> cek 08.15 dan 08.45 WIB
 #   Wewe Gombel:          tayang 20.00 WIB 2026-11-25 -> cek 20.30 dan 21.00 WIB
+#   Sura dan Baya:        tayang 12.00 WIB 2026-11-26 -> cek 12.30 dan 13.00 WIB
 #   Tuyul:                tayang 20.00 WIB 2026-11-26 -> cek 20.30 dan 21.00 WIB
 #   Pocong:               tayang 20.00 WIB 2026-11-27 -> cek 20.30 dan 21.00 WIB
 #   Batu Menangis:        tayang 20.00 WIB 2026-11-28 -> cek 20.30 dan 21.00 WIB
@@ -46,6 +47,8 @@ on:
     - cron: "50 13 22 11 *"   # cek ulang 20.50 WIB
     - cron: "30 13 25 11 *"   # cek 20.30 WIB Wewe Gombel
     - cron: "0 14 25 11 *"    # cek ulang 21.00 WIB
+    - cron: "30 5 26 11 *"    # cek 12.30 WIB Sura dan Baya
+    - cron: "0 6 26 11 *"     # cek ulang 13.00 WIB
     - cron: "30 13 26 11 *"   # cek 20.30 WIB Tuyul
     - cron: "0 14 26 11 *"    # cek ulang 21.00 WIB
     - cron: "30 13 27 11 *"   # cek 20.30 WIB Pocong
@@ -121,6 +124,7 @@ jobs:
           cek 2026-11-21 20:00 social/2026-11-21/1-vivid-palasik jadwal-palasik.yml
           cek 2026-11-22 20:00 social/2026-11-22/1-vivid-roro-jonggrang jadwal-roro-jonggrang.yml
           cek 2026-11-25 20:00 social/2026-11-25/1-vivid-wewe-gombel jadwal-wewe-gombel.yml
+          cek 2026-11-26 12:00 social/2026-11-26/2-vivid-sura-dan-baya jadwal-sura-dan-baya.yml
           cek 2026-11-26 20:00 social/2026-11-26/1-vivid-tuyul jadwal-tuyul.yml
           cek 2026-11-27 20:00 social/2026-11-27/1-vivid-pocong jadwal-pocong.yml
           cek 2026-11-28 20:00 social/2026-11-28/1-vivid-batu-menangis jadwal-batu-menangis.yml

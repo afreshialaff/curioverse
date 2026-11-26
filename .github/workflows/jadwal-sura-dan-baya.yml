@@ -1,0 +1,47 @@
+name: Jadwal sekali jalan - Sura dan Baya 12.00 WIB
+# Satu kali, 2026-11-26: tunggu sampai 12.00 WIB, setujui review, lalu picu posting Instagram + Threads + Facebook.
+# Cron GitHub bisa telat, jadi ada dua pemicu (11.25 dan 11.45 WIB); yang kedua berhenti kalau sudah dijalankan.
+on:
+  schedule:
+    - cron: "25 4 26 11 *"
+    - cron: "45 4 26 11 *"
+    - cron: "15 5 26 11 *"    # cadangan 12.15 WIB
+    - cron: "0 6 26 11 *"     # cadangan 13.00 WIB
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency: { group: jadwal-sura-dan-baya, cancel-in-progress: false }
+jobs:
+  jadwal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ github.token }}
+      DIR: social/2026-11-26/2-vivid-sura-dan-baya
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tunggu 12.00 WIB lalu picu posting
+        run: |
+          [ -f "$DIR/.dijadwalkan" ] && { echo "sudah dijalankan, berhenti"; exit 0; }
+          target=$(date -d "2026-11-26 12:00:00 +0700" +%s)
+          now=$(date +%s)
+          # Cron GitHub sering telat: kalau menyala setelah 14.00 (hari itu atau sesudahnya), langsung posting.
+          [ $((target-now)) -gt 3000 ] && { echo "terlalu awal (>50 menit sebelum 12.00 WIB 2026-11-26), berhenti"; exit 0; }
+          [ "$now" -lt "$target" ] && { echo "tunggu $((target-now)) detik"; sleep $((target-now)); }
+          git pull --rebase -q origin main
+          python3 - <<'PY'
+          import json,os
+          f=os.environ["DIR"]+"/post.json"
+          p=json.load(open(f)); p["review"]["status"]="lolos"
+          if p.get("post",{}).get("status")=="skipped": p["post"]["status"]="queued"
+          p["review"]["notes"]+=" | disetujui otomatis 12.00 WIB sesuai jadwal pemilik."
+          json.dump(p,open(f,"w"),ensure_ascii=False,indent=2)
+          PY
+          date -u +%FT%TZ > "$DIR/.dijadwalkan"
+          git config user.name "curioverse-bot"; git config user.email "curioverse-bot@users.noreply.github.com"
+          git add "$DIR" && git commit -m "social: setujui Sura dan Baya untuk posting 12.00 WIB"
+          git pull --rebase origin main && git push origin HEAD:main
+          gh workflow run instagram-post.yml -f date=2026-11-26
+          gh workflow run threads-post.yml -f file="$DIR/threads.json"
+          gh workflow run facebook-post.yml -f file="$DIR/facebook.json"
