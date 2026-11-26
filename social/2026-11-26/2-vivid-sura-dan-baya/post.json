@@ -1,28 +1,28 @@
 {
- "date": "2026-11-26",
- "story": null,
- "type": "reel",
- "made_by": "vivid",
- "format": "cerita-bersambung",
- "title": "Sura dan Baya, Ternyata Begini! Janji yang Pecah di Sungai Surabaya",
- "caption": "Sirip hiu muncul di sungai milik buaya. 🦈🐊\n\nMenurut cerita, Sura si hiu dan Baya si buaya sama-sama kuat. Mereka berebut mangsa berhari-hari, tapi tidak satu pun kalah.\n\nAkhirnya wilayah dibagi. Laut untuk Sura, daratan untuk Baya. Batasnya ujung air laut saat pasang.\n\nLalu Sura diam-diam masuk ke sungai. Janji pecah, dan pertarungan besar dimulai.\n\nOrang kemudian menamai tempat itu Surabaya. Catatan sejarah punya jejak lain: prasasti tahun 1358 sudah menyebut Curabhaya.\n\nCatatan: kisah Sura dan Baya adalah legenda rakyat, belum terbukti sebagai peristiwa nyata. Versinya beragam.\n\nSemuanya berawal dari satu sirip.\n\n#SuraDanBaya #Surabaya #LegendaNusantara #CeritaRakyat #TitikPenasaran",
- "media": [
-  {
-   "file": "reel.mp4"
+  "date": "2026-11-26",
+  "story": null,
+  "type": "reel",
+  "made_by": "vivid",
+  "format": "cerita-bersambung",
+  "title": "Sura dan Baya, Ternyata Begini! Janji yang Pecah di Sungai Surabaya",
+  "caption": "Sirip hiu muncul di sungai milik buaya. 🦈🐊\n\nMenurut cerita, Sura si hiu dan Baya si buaya sama-sama kuat. Mereka berebut mangsa berhari-hari, tapi tidak satu pun kalah.\n\nAkhirnya wilayah dibagi. Laut untuk Sura, daratan untuk Baya. Batasnya ujung air laut saat pasang.\n\nLalu Sura diam-diam masuk ke sungai. Janji pecah, dan pertarungan besar dimulai.\n\nOrang kemudian menamai tempat itu Surabaya. Catatan sejarah punya jejak lain: prasasti tahun 1358 sudah menyebut Curabhaya.\n\nCatatan: kisah Sura dan Baya adalah legenda rakyat, belum terbukti sebagai peristiwa nyata. Versinya beragam.\n\nSemuanya berawal dari satu sirip.\n\n#SuraDanBaya #Surabaya #LegendaNusantara #CeritaRakyat #TitikPenasaran",
+  "media": [
+    {
+      "file": "reel.mp4"
+    }
+  ],
+  "cover": "cover.jpg",
+  "review": {
+    "status": "lolos",
+    "by": "pemilik",
+    "approved_by_human": true,
+    "notes": "Pemilik minta jadwal posting 12.00 WIB 2026-11-26 (chat) di semua platform. Caption tanpa keterangan AI dan tanpa pertanyaan. | disetujui otomatis 12.00 WIB sesuai jadwal pemilik."
+  },
+  "post": {
+    "status": "queued",
+    "at": null,
+    "media_id": null,
+    "permalink": null,
+    "error": null
   }
- ],
- "cover": "cover.jpg",
- "review": {
-  "status": "menunggu",
-  "by": "pemilik",
-  "approved_by_human": true,
-  "notes": "Pemilik minta jadwal posting 12.00 WIB 2026-11-26 (chat) di semua platform. Caption tanpa keterangan AI dan tanpa pertanyaan."
- },
- "post": {
-  "status": "skipped",
-  "at": null,
-  "media_id": null,
-  "permalink": null,
-  "error": null
- }
 }
