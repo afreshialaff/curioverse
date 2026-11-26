@@ -1,0 +1,50 @@
+name: Jadwal sekali jalan - Gambar Sura dan Baya ke Facebook 12.15 WIB
+# Satu kali, 2026-11-26: 18 gambar, satu gambar satu post, HANYA Facebook, mulai 12.15 WIB, jeda 45 detik.
+# Yang sudah terkirim dicatat di terkirim.log, jadi pemicu cadangan tidak menggandakan.
+on:
+  schedule:
+    - cron: "30 4 26 11 *"    # 11.30 WIB
+    - cron: "50 4 26 11 *"    # 11.50 WIB
+    - cron: "20 5 26 11 *"    # cadangan 12.20 WIB
+    - cron: "10 6 26 11 *"    # sapu ulang 13.10 WIB
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: { group: jadwal-gambar-sura-dan-baya, cancel-in-progress: false }
+jobs:
+  jadwal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    env:
+      DIR: social/fb-gambar/2026-11-26-sura-dan-baya
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Tunggu 12.15 WIB lalu posting gambar satu per satu
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: |
+          target=$(date -d "2026-11-26 12:15:00 +0700" +%s)
+          now=$(date +%s)
+          [ $((target-now)) -gt 3600 ] && { echo "terlalu awal (>60 menit), berhenti"; exit 0; }
+          [ "$now" -lt "$target" ] && { echo "tunggu $((target-now)) detik"; sleep $((target-now)); }
+          git config user.name "curioverse-bot"; git config user.email "curioverse-bot@users.noreply.github.com"
+          git pull --rebase -q origin main
+          LOG="$DIR/terkirim.log"; touch "$LOG"; gagal=0
+          for n in $(seq -w 1 18); do
+            grep -q "^$n " "$LOG" && { echo "$n sudah terkirim, lewati"; continue; }
+            if out=$(node scripts/facebook-post.mjs "$DIR/$n.json" 2>&1); then
+              echo "$out"; echo "$n $(date -u +%FT%TZ) $out" >> "$LOG"
+              git add "$LOG"; git commit -qm "social: gambar Sura dan Baya $n terkirim ke Facebook"
+              for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 5; done
+              sleep 45
+            else
+              echo "$n GAGAL: $out"; gagal=$((gagal+1))
+              [ "$gagal" -ge 3 ] && { echo "3 kegagalan, berhenti"; exit 1; }
+              sleep 45
+            fi
+          done
+          [ "$gagal" -eq 0 ]
