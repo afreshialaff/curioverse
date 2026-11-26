@@ -15,6 +15,7 @@ name: Cek tayang Vivid (IG + Threads)
 #   Wewe Gombel:          tayang 20.00 WIB 2026-11-25 -> cek 20.30 dan 21.00 WIB
 #   Sura dan Baya:        tayang 12.00 WIB 2026-11-26 -> cek 12.30 dan 13.00 WIB
 #   Tuyul:                tayang 20.00 WIB 2026-11-26 -> cek 20.30 dan 21.00 WIB
+#   Jelangkung:           tayang 21.00 WIB 2026-11-26 -> cek 21.20, 21.50, 22.30 WIB
 #   Pocong:               tayang 20.00 WIB 2026-11-27 -> cek 20.30 dan 21.00 WIB
 #   Batu Menangis:        tayang 20.00 WIB 2026-11-28 -> cek 20.30 dan 21.00 WIB
 #   Banaspati:            tayang 20.00 WIB 2026-11-30 -> cek 20.30 dan 21.00 WIB
@@ -51,6 +52,9 @@ on:
     - cron: "0 6 26 11 *"     # cek ulang 13.00 WIB
     - cron: "30 13 26 11 *"   # cek 20.30 WIB Tuyul
     - cron: "0 14 26 11 *"    # cek ulang 21.00 WIB
+    - cron: "20 14 26 11 *"   # cek 21.20 WIB Jelangkung
+    - cron: "50 14 26 11 *"   # cek ulang 21.50 WIB
+    - cron: "30 15 26 11 *"   # cek ulang 22.30 WIB
     - cron: "30 13 27 11 *"   # cek 20.30 WIB Pocong
     - cron: "0 14 27 11 *"    # cek ulang 21.00 WIB
     - cron: "30 13 28 11 *"   # cek 20.30 WIB Batu Menangis
@@ -99,6 +103,7 @@ jobs:
               [ "$aktif" = "0" ] && { echo "Instagram belum tayang -> picu ulang"; gh workflow run instagram-post.yml -f date="$tgl"; } || echo "Instagram masih berjalan"
             fi
             iso=$(date -u -d "@$((target-3600))" +%FT%TZ)
+            [[ "$DIR" == *jelangkung* ]] && iso=$(date -u -d "@$((target-120))" +%FT%TZ)   # jangan hitung run Tuyul 20.00
             if [[ "$DIR" != *roro-jonggrang* ]]; then   # Roro Jonggrang: tanpa Threads
               ok=$(gh run list --workflow threads-post.yml -L 30 --json createdAt,status,conclusion \
                    --jq "[.[]|select(.createdAt>=\"$iso\")|select(.conclusion==\"success\" or .status!=\"completed\")]|length")
@@ -126,6 +131,7 @@ jobs:
           cek 2026-11-25 20:00 social/2026-11-25/1-vivid-wewe-gombel jadwal-wewe-gombel.yml
           cek 2026-11-26 12:00 social/2026-11-26/2-vivid-sura-dan-baya jadwal-sura-dan-baya.yml
           cek 2026-11-26 20:00 social/2026-11-26/1-vivid-tuyul jadwal-tuyul.yml
+          cek 2026-11-26 21:00 social/2026-11-26/3-vivid-jelangkung jadwal-jelangkung.yml
           cek 2026-11-27 20:00 social/2026-11-27/1-vivid-pocong jadwal-pocong.yml
           cek 2026-11-28 20:00 social/2026-11-28/1-vivid-batu-menangis jadwal-batu-menangis.yml
           cek 2026-11-29 20:00 social/2026-11-29/1-vivid-rawa-pening jadwal-rawa-pening.yml
