@@ -20,6 +20,7 @@ name: Cek tayang Vivid (IG + Threads)
 #   Batu Menangis:        tayang 20.00 WIB 2026-11-28 -> cek 20.30 dan 21.00 WIB
 #   Banaspati:            tayang 20.00 WIB 2026-11-30 -> cek 20.30 dan 21.00 WIB
 #   Antu Banyu:           tayang 20.00 WIB 2026-12-01 -> cek 20.25 dan 20.55 WIB
+#   Bawang Merah Bawang Putih LONG: tayang 20.00 WIB 2026-12-06 -> cek 20.25 dan 20.55 WIB
 on:
   schedule:
     - cron: "15 15 11 11 *"
@@ -71,6 +72,8 @@ on:
     - cron: "0 14 4 12 *"    # cek ulang 21.00 WIB
     - cron: "30 13 5 12 *"   # cek 20.30 WIB Ken Arok 3/3
     - cron: "0 14 5 12 *"    # cek ulang 21.00 WIB
+    - cron: "25 13 6 12 *"   # cek 20.25 WIB Bawang Merah Bawang Putih LONG
+    - cron: "55 13 6 12 *"   # cek ulang 20.55 WIB
   workflow_dispatch:
 permissions:
   contents: read
@@ -140,3 +143,4 @@ jobs:
           cek 2026-12-03 20:00 social/2026-12-03/1-vivid-ken-arok-1 jadwal-ken-arok-p1.yml
           cek 2026-12-04 20:00 social/2026-12-04/1-vivid-ken-arok-2 jadwal-ken-arok-p2.yml
           cek 2026-12-05 20:00 social/2026-12-05/1-vivid-ken-arok-3 jadwal-ken-arok-p3.yml
+          cek 2026-12-06 20:00 social/2026-12-06/1-vivid-bawang-merah-putih jadwal-bawang-merah-putih.yml
