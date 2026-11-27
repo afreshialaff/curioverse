@@ -19,10 +19,10 @@
     "notes": "Pemilik minta tayang 21.00 WIB 2026-11-27 (chat). Caption tanpa pertanyaan penutup. | disetujui otomatis 21.00 WIB sesuai jadwal pemilik."
   },
   "post": {
-    "status": "queued",
-    "at": null,
-    "media_id": null,
-    "permalink": null,
+    "status": "posted",
+    "at": "2026-11-27T14:03:13.024Z",
+    "media_id": "18138539623730928",
+    "permalink": "https://www.instagram.com/reel/DgP2SoVA041/",
     "error": null
   }
 }
