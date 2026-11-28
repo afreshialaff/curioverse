@@ -22,6 +22,7 @@ name: Cek tayang Vivid (IG + Threads)
 #   Antu Banyu:           tayang 20.00 WIB 2026-12-01 -> cek 20.25 dan 20.55 WIB
 #   Bawang Merah Bawang Putih LONG: tayang 20.00 WIB 2026-12-06 -> cek 20.25 dan 20.55 WIB
 #   Banyuwangi:           tayang 20.00 WIB 2026-12-07 -> cek 20.25 dan 20.55 WIB
+#   Buto Ijo:             tayang 20.00 WIB 2026-12-08 -> cek 20.25 dan 20.55 WIB
 on:
   schedule:
     - cron: "15 15 11 11 *"
@@ -77,6 +78,8 @@ on:
     - cron: "55 13 6 12 *"   # cek ulang 20.55 WIB
     - cron: "25 13 7 12 *"   # cek 20.25 WIB Banyuwangi
     - cron: "55 13 7 12 *"   # cek ulang 20.55 WIB
+    - cron: "25 13 8 12 *"   # cek 20.25 WIB Buto Ijo
+    - cron: "55 13 8 12 *"   # cek ulang 20.55 WIB
   workflow_dispatch:
 permissions:
   contents: read
@@ -148,3 +151,4 @@ jobs:
           cek 2026-12-05 20:00 social/2026-12-05/1-vivid-ken-arok-3 jadwal-ken-arok-p3.yml
           cek 2026-12-06 20:00 social/2026-12-06/1-vivid-bawang-merah-putih jadwal-bawang-merah-putih.yml
           cek 2026-12-07 20:00 social/2026-12-07/1-vivid-banyuwangi jadwal-banyuwangi.yml
+          cek 2026-12-08 20:00 social/2026-12-08/1-vivid-buto-ijo jadwal-buto-ijo.yml
